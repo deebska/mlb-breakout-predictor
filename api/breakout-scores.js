@@ -247,6 +247,9 @@ export default async function handler(req, res) {
         currentWoba: woba,
         careerWoba: woba,
         xwoba: xwoba,
+        // Calculate surplus and trajectory
+        xwobaSurplus: xwoba - woba,
+        xwobaTrajectory: 0, // Can't calculate without previous year data
         hardHitRate: statcastData && parseFloat(statcastData.hard_hit_percent) ? parseFloat(statcastData.hard_hit_percent) / 100 : null,
         barrelRate: statcastData && parseFloat(statcastData.barrel_batted_rate) ? parseFloat(statcastData.barrel_batted_rate) / 100 : null,
         kRate: statcastData && parseFloat(statcastData.k_percent) ? parseFloat(statcastData.k_percent) / 100 : null,
