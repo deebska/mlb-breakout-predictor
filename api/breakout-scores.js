@@ -92,6 +92,16 @@ export default async function handler(req, res) {
       const playerId = String(row.player_id);
       const statcastData = statcastMap.get(playerId);
       
+      // Debug first player
+      if (players.length === 0) {
+        console.log(`[API] First player matching: playerId="${playerId}", hasStatcast=${!!statcastData}`);
+        if (statcastData) {
+          console.log(`[API] Statcast data sample:`, Object.keys(statcastData).slice(0, 10));
+        } else {
+          console.log(`[API] Available statcast IDs (first 5):`, Array.from(statcastMap.keys()).slice(0, 5));
+        }
+      }
+      
       // Filter out pitchers
       const pos = (row.pos || row.primary_position || 'OF').toUpperCase();
       if (pos.includes('SP') || pos.includes('RP') || pos === 'P') {
