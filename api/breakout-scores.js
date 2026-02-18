@@ -1,4 +1,7 @@
-// Simple Baseball Savant API via ScraperAPI with detailed error logging
+// Baseball Savant API using PapaParse for proper CSV parsing
+// PapaParse is the industry-standard CSV parser for JavaScript
+
+import Papa from 'papaparse';
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -20,112 +23,56 @@ export default async function handler(req, res) {
     
     console.log(`[API] Fetching year ${targetYear}...`);
     
-    // Baseball Savant URL
-    const baseballSavantUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
+    // Baseball Savant URLs
+    const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
+    const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
     
-    // ScraperAPI URL
-    const scraperUrl = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(baseballSavantUrl)}`;
+    // Fetch via ScraperAPI
+    const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
+    const scraperUrl2 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}`;
     
-    console.log(`[API] Calling ScraperAPI for expected stats...`);
+    console.log(`[API] Fetching expected stats...`);
+    const expectedResponse = await fetch(scraperUrl1);
+    const expectedCsv = await expectedResponse.text();
     
-    const response = await fetch(scraperUrl);
+    console.log(`[API] Fetching statcast...`);
+    const statcastResponse = await fetch(scraperUrl2);
+    const statcastCsv = statcastResponse.ok ? await statcastResponse.text() : null;
     
-    console.log(`[API] Expected stats response status: ${response.status}`);
+    console.log(`[API] Expected: ${expectedCsv.length} bytes, Statcast: ${statcastCsv?.length || 0} bytes`);
     
-    const text = await response.text();
+    // Parse expected stats CSV with PapaParse
+    const expectedParsed = Papa.parse(expectedCsv, {
+      header: true,
+      skipEmptyLines: true,
+      dynamicTyping: true
+    });
     
-    console.log(`[API] Expected stats length: ${text.length} bytes`);
+    console.log(`[API] Parsed ${expectedParsed.data.length} players from expected stats`);
     
-    // Define CSV parser function FIRST (before any checks)
-    const parseCsvLine = (line) => {
-      const result = [];
-      let current = '';
-      let inQuotes = false;
-      
-      for (let i = 0; i < line.length; i++) {
-        const char = line[i];
-        
-        if (char === '"') {
-          inQuotes = !inQuotes;
-        } else if (char === ',' && !inQuotes) {
-          result.push(current.trim());
-          current = '';
-        } else {
-          current += char;
-        }
-      }
-      result.push(current.trim());
-      return result;
-    };
-    
-    if (!response.ok) {
-      console.log(`[API] Full error response: "${text}"`);
-      throw new Error(`ScraperAPI returned ${response.status}: ${text.slice(0, 100)}`);
-    }
-    
-    if (text.length < 200) {
-      console.log(`[API] Response too short, full text: "${text}"`);
-      throw new Error(`Baseball Savant returned invalid data: ${text.slice(0, 100)}`);
-    }
-    
-    // Fetch statcast data for hardHitRate, barrelRate, kRate
-    console.log(`[API] Fetching statcast data...`);
-    
-    let statcastText = null;
-    try {
-      const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
-      const scraperStatcastUrl = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}`;
-      
-      const statcastResponse = await fetch(scraperStatcastUrl);
-      statcastText = statcastResponse.ok ? await statcastResponse.text() : null;
-      
-      console.log(`[API] Statcast response status: ${statcastResponse.status}`);
-      console.log(`[API] Statcast length: ${statcastText ? statcastText.length : 0} bytes`);
-    } catch (error) {
-      console.log(`[API] Statcast fetch failed: ${error.message}`);
-    }
-    
-    // Parse CSV - ScraperAPI returns comma-separated with quotes, not tabs
-    const lines = text.trim().split('\n');
-    
-    const headerValues = parseCsvLine(lines[0]);
-    const headers = headerValues.map(h => h.replace(/"/g, '').trim());
-    
-    console.log(`[API] Found ${lines.length - 1} players`);
-    console.log(`[API] Columns: ${headers.slice(0, 5).join(', ')}`);
-    
-    // Parse statcast data
+    // Parse statcast CSV
     let statcastMap = new Map();
-    if (statcastText && statcastText.length > 200) {
-      const statcastLines = statcastText.trim().split('\n');
-      const statcastHeaderValues = parseCsvLine(statcastLines[0]);
-      const statcastHeaders = statcastHeaderValues.map(h => h.replace(/"/g, '').trim());
+    if (statcastCsv) {
+      const statcastParsed = Papa.parse(statcastCsv, {
+        header: true,
+        skipEmptyLines: true,
+        dynamicTyping: true
+      });
       
-      for (let i = 1; i < statcastLines.length; i++) {
-        const values = parseCsvLine(statcastLines[i]).map(v => v.replace(/"/g, '').trim());
-        const row = {};
-        statcastHeaders.forEach((h, idx) => {
-          row[h] = values[idx] || null;
-        });
-        
-        const playerId = row.player_id;
-        if (playerId) {
-          statcastMap.set(playerId, row);
+      statcastParsed.data.forEach(row => {
+        if (row.player_id) {
+          statcastMap.set(String(row.player_id), row);
         }
-      }
-      console.log(`[API] Statcast: loaded ${statcastMap.size} players`);
+      });
+      
+      console.log(`[API] Loaded ${statcastMap.size} players from statcast`);
     }
     
+    // Build players array
     const players = [];
     const yearSuffix = targetYear % 100;
     
-    for (let i = 1; i < lines.length; i++) {
-      const values = parseCsvLine(lines[i]).map(v => v.replace(/"/g, '').trim());
-      const row = {};
-      headers.forEach((h, idx) => {
-        row[h] = values[idx] || null;
-      });
-      
+    for (const row of expectedParsed.data) {
       const pa = parseInt(row.pa) || 0;
       if (pa < 100) continue;
       
@@ -134,12 +81,18 @@ export default async function handler(req, res) {
       
       if (!woba || !xwoba) continue;
       
-      // Get statcast data for this player
-      const playerId = row.player_id;
+      // Get statcast data
+      const playerId = String(row.player_id);
       const statcastData = statcastMap.get(playerId);
       
+      // Filter out pitchers
+      const pos = (row.pos || row.primary_position || 'OF').toUpperCase();
+      if (pos.includes('SP') || pos.includes('RP') || pos === 'P') {
+        continue;
+      }
+      
       players.push({
-        name: row['last_name, first_name'] || 'Unknown',
+        name: row['last_name, first_name'] || `${row.first_name || ''} ${row.last_name || ''}`.trim(),
         team: row.team_name_abbrev || row.team,
         age: parseInt(row.age),
         pa: pa,
@@ -161,8 +114,6 @@ export default async function handler(req, res) {
     }
     
     console.log(`[API] Returning ${players.length} players`);
-    console.log(`[API] DEBUG - First player hardHitRate: ${players[0]?.hardHitRate}`);
-    console.log(`[API] DEBUG - Statcast map had ${statcastMap.size} players`);
     
     res.status(200).json({
       success: true,
