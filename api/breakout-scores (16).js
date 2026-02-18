@@ -12,8 +12,11 @@ export default async function handler(req, res) {
   }
   
   try {
-    const { year = '2025' } = req.query;
+    const { year = '2026' } = req.query;
     const targetYear = parseInt(year);
+    
+    // ALWAYS use 2025 data - this is the most recent available from Baseball Savant
+    const dataYear = 2025;
     
     const scraperApiKey = process.env.SCRAPER_API_KEY;
     
@@ -21,15 +24,15 @@ export default async function handler(req, res) {
       throw new Error('SCRAPER_API_KEY not set');
     }
     
-    console.log(`[API] Fetching year ${targetYear}...`);
+    console.log(`[API] Request for ${targetYear} predictions - fetching ${dataYear} Baseball Savant data`);
     
-    // Baseball Savant URLs
-    const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
+    // Baseball Savant URLs - ALWAYS use 2025 data
+    const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${dataYear}&position=&team=&min=100&csv=true`;
     // Use FOUR statcast sources (removed swing-take as it has no useful data)
-    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
-    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&min=1&csv=true`; // launch angle
-    const statcastUrl3 = `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${targetYear}&min=1&csv=true`; // bat speed
-    const statcastUrl4 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,o_swing_percent&csv=true`; // chase rate
+    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${dataYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
+    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${dataYear}&min=1&csv=true`; // launch angle
+    const statcastUrl3 = `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${dataYear}&min=1&csv=true`; // bat speed
+    const statcastUrl4 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${dataYear}&type=batter&min=1&selections=player_id,o_swing_percent&csv=true`; // chase rate
     
     // Fetch via ScraperAPI
     const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
