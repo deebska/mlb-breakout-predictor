@@ -1,9 +1,9 @@
 // Baseball Savant API using PapaParse for proper CSV parsing
 // PapaParse is the industry-standard CSV parser for JavaScript
 
-import Papa from 'papaparse';
+const Papa = require('papaparse');
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   
