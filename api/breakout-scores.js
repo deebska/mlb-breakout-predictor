@@ -35,6 +35,8 @@ export default async function handler(req, res) {
     const expectedLines = expectedCsv.trim().split('\n');
     const expectedHeaders = expectedLines[0].split('\t').map(h => h.trim());
     
+    console.log(`[API] Expected Stats columns:`, expectedHeaders.join(' | '));
+    
     // Parse statcast data (has hardHitRate, barrelRate, kRate, etc.)
     let statcastMap = new Map();
     if (statcastCsv) {
@@ -98,15 +100,22 @@ export default async function handler(req, res) {
       
       if (!xwoba || !woba) continue;
       
-      const yearSuffix = targetYear % 100;
-      
       // Get statcast data for this player
       const playerId = row.player_id;
       const statcastData = statcastMap.get(playerId);
       
+      // Debug: log first player's raw data
+      if (i === 1) {
+        console.log(`[API] First player raw data:`, JSON.stringify(row).slice(0, 200));
+        console.log(`[API] Columns available:`, Object.keys(row).slice(0, 10).join(', '));
+      }
+      
       const player = {
-        // Identity - note the format is "last, first" in one column
-        name: row['last_name, first_name'] || `${row.first_name || ''} ${row.last_name || ''}`.trim(),
+        // Identity - the column name has a space: "last_name, first_name"
+        name: row['last_name, first_name'] || 
+              row['last_name,first_name'] || 
+              `${row.first_name || ''} ${row.last_name || ''}`.trim() ||
+              'Unknown Player',
         team: row.team_name_abbrev || row.team || row.team_abbrev,
         age: parseIntSafe(row.age) || parseIntSafe(row.player_age),
         pa: pa,
