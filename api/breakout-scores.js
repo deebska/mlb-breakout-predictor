@@ -88,28 +88,6 @@ export default async function handler(req, res) {
     // Parse CSV - ScraperAPI returns comma-separated with quotes, not tabs
     const lines = text.trim().split('\n');
     
-    // Parse CSV properly handling quotes
-    const parseCsvLine = (line) => {
-      const result = [];
-      let current = '';
-      let inQuotes = false;
-      
-      for (let i = 0; i < line.length; i++) {
-        const char = line[i];
-        
-        if (char === '"') {
-          inQuotes = !inQuotes;
-        } else if (char === ',' && !inQuotes) {
-          result.push(current.trim());
-          current = '';
-        } else {
-          current += char;
-        }
-      }
-      result.push(current.trim());
-      return result;
-    };
-    
     const headerValues = parseCsvLine(lines[0]);
     const headers = headerValues.map(h => h.replace(/"/g, '').trim());
     
