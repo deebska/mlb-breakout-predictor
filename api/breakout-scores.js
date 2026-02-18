@@ -31,14 +31,18 @@ export default async function handler(req, res) {
     
     console.log(`[API] Fetching via proxy...`);
     
-    const [expectedResponse, statcastResponse] = await Promise.all([
-      fetch(scraperUrl1),
-      fetch(scraperUrl2)
-    ]);
+    // Fetch expected stats first
+    const expectedResponse = await fetch(scraperUrl1);
     
     if (!expectedResponse.ok) {
       throw new Error(`ScraperAPI returned ${expectedResponse.status} for expected stats`);
     }
+    
+    // Wait 1 second before second request to avoid rate limit
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    // Then fetch statcast
+    const statcastResponse = await fetch(scraperUrl2);
     
     const expectedCsv = await expectedResponse.text();
     console.log(`[API] Expected stats CSV: ${expectedCsv.length} bytes`);
