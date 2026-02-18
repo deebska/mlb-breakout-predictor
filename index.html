@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Advanced MLB breakout prediction model using Baseball Savant Statcast data. 80% historical accuracy predicting player breakouts for 2026." />
+    <meta name="keywords" content="MLB, baseball, breakout predictions, Statcast, fantasy baseball, sabermetrics, xwOBA" />
+    <meta property="og:title" content="MLB Breakout Predictor 2026" />
+    <meta property="og:description" content="Data-driven MLB player breakout predictions with 80% historical accuracy" />
+    <meta property="og:type" content="website" />
+    
+    <title>MLB Breakout Predictor 2026 | Statcast Analysis Tool</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚾</text></svg>" />
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'IBM Plex Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+        background: #050810;
+        color: #dde;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+      
+      /* Loading state */
+      .loading-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #050810;
+      }
+      
+      .loading-spinner {
+        width: 48px;
+        height: 48px;
+        border: 4px solid #1a2530;
+        border-top-color: #00ff88;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
