@@ -218,6 +218,8 @@ export default async function handler(req, res) {
             o_swing_percent: statcastData.o_swing_percent,
             launch_angle: statcastData.launch_angle,
             swing_speed: statcastData.swing_speed,
+            avg_bat_speed: statcastData.avg_bat_speed,
+            age: statcastData.age,
             all_keys: Object.keys(statcastData)
           });
         } else {
