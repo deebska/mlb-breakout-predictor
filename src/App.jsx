@@ -633,10 +633,9 @@ export default function App() {
   }, [selectedYear, loadDemo]);
 
   useEffect(() => { 
-    if (dataSource === "demo" || dataSource === null) {
-      loadDemo();
-    }
-  }, [selectedYear, loadDemo, dataSource]);
+    // Try to load live data first, fallback to demo if it fails
+    loadLive();
+  }, [selectedYear, loadLive]);
 
   const filtered = players.filter(p => {
     if (filterPos !== "All" && !p.position?.includes(filterPos)) return false;
