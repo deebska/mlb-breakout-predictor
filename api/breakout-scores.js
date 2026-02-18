@@ -98,6 +98,13 @@ export default async function handler(req, res) {
     const players = [];
     const yearSuffix = targetYear % 100;
     
+    console.log(`[API] Processing ${expectedLines.length - 1} players from expected stats...`);
+    
+    let skippedLowPA = 0;
+    let skippedNoWoba = 0;
+    let skippedPitchers = 0;
+    let processed = 0;
+    
     for (let i = 1; i < expectedLines.length; i++) {
       const values = expectedLines[i].split('\t').map(v => v.trim());
       const row = {};
@@ -106,12 +113,21 @@ export default async function handler(req, res) {
       });
       
       const pa = parseIntSafe(row.pa) || 0;
-      if (pa < 100) continue;
+      if (pa < 100) {
+        skippedLowPA++;
+        continue;
+      }
       
       const xwoba = parseNum(row.est_woba);
       const woba = parseNum(row.woba);
       
-      if (!xwoba || !woba) continue;
+      if (!xwoba || !woba) {
+        skippedNoWoba++;
+        if (i <= 3) {
+          console.log(`[API] Player ${i}: PA=${pa}, woba=${woba}, xwoba=${xwoba}, row.woba='${row.woba}', row.est_woba='${row.est_woba}'`);
+        }
+        continue;
+      }
       
       const playerId = row.player_id;
       const statcastData = statcastMap.get(playerId);
@@ -143,11 +159,15 @@ export default async function handler(req, res) {
       // Filter out pitchers
       const pos = (player.position || '').toUpperCase();
       if (pos.includes('SP') || pos.includes('RP') || pos === 'P') {
+        skippedPitchers++;
         continue;
       }
       
       players.push(player);
+      processed++;
     }
+    
+    console.log(`[API] Filtering summary: ${processed} kept, ${skippedLowPA} low PA, ${skippedNoWoba} no wOBA, ${skippedPitchers} pitchers`);
     
     console.log(`[API] ✓ ${players.length} players processed`);
     
