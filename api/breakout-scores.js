@@ -95,10 +95,11 @@ export default async function handler(req, res) {
           const playerId = String(row.player_id);
           const existing = statcastMap.get(playerId);
           if (existing) {
-            // Merge carefully - don't overwrite existing values with null
+            // Merge: add all keys from row, but don't overwrite existing non-null values with null
             const merged = { ...existing };
             Object.keys(row).forEach(key => {
-              if (row[key] !== null && row[key] !== undefined) {
+              // Only overwrite if existing value is null/undefined OR new value is not null
+              if (existing[key] === null || existing[key] === undefined || (row[key] !== null && row[key] !== undefined)) {
                 merged[key] = row[key];
               }
             });
