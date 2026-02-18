@@ -48,13 +48,20 @@ export default async function handler(req, res) {
     
     // Fetch statcast data for hardHitRate, barrelRate, kRate
     console.log(`[API] Fetching statcast data...`);
-    const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
-    const scraperStatcastUrl = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}`;
     
-    const statcastResponse = await fetch(scraperStatcastUrl);
-    const statcastText = statcastResponse.ok ? await statcastResponse.text() : null;
-    
-    console.log(`[API] Statcast length: ${statcastText ? statcastText.length : 0} bytes`);
+    let statcastText = null;
+    try {
+      const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
+      const scraperStatcastUrl = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}`;
+      
+      const statcastResponse = await fetch(scraperStatcastUrl);
+      statcastText = statcastResponse.ok ? await statcastResponse.text() : null;
+      
+      console.log(`[API] Statcast response status: ${statcastResponse.status}`);
+      console.log(`[API] Statcast length: ${statcastText ? statcastText.length : 0} bytes`);
+    } catch (error) {
+      console.log(`[API] Statcast fetch failed: ${error.message}`);
+    }
     
     // Parse CSV - ScraperAPI returns comma-separated with quotes, not tabs
     const lines = text.trim().split('\n');
@@ -154,6 +161,8 @@ export default async function handler(req, res) {
     }
     
     console.log(`[API] Returning ${players.length} players`);
+    console.log(`[API] DEBUG - First player hardHitRate: ${players[0]?.hardHitRate}`);
+    console.log(`[API] DEBUG - Statcast map had ${statcastMap.size} players`);
     
     res.status(200).json({
       success: true,
