@@ -25,9 +25,10 @@ export default async function handler(req, res) {
     
     // Baseball Savant URLs
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
-    // Use TWO custom leaderboard calls - use min=1 instead of min=q to get all players
+    // Use TWO statcast sources
     const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,k_percent,hard_hit_percent,barrel_batted_rate,o_swing_percent,pull_percent&csv=true`;
-    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,launch_angle,swing_speed&csv=true`;
+    // Try standard statcast leaderboard for launch angle
+    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&min=1&csv=true`;
     
     // Fetch via ScraperAPI
     const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
@@ -169,9 +170,10 @@ export default async function handler(req, res) {
         kRate: statcastData && parseFloat(statcastData.k_percent) ? parseFloat(statcastData.k_percent) / 100 : null,
         chaseRate: statcastData && parseFloat(statcastData.o_swing_percent) ? parseFloat(statcastData.o_swing_percent) / 100 : null,
         pullRate: statcastData && parseFloat(statcastData.pull_percent) ? parseFloat(statcastData.pull_percent) / 100 : null,
-        launchAngle: statcastData && parseFloat(statcastData.launch_angle),
-        [`launchAngle${yearSuffix}`]: statcastData && parseFloat(statcastData.launch_angle),
-        batSpeed: statcastData && parseFloat(statcastData.swing_speed),
+        // Try both launch_angle and avg_hit_angle depending on source
+        launchAngle: statcastData && (parseFloat(statcastData.launch_angle) || parseFloat(statcastData.avg_hit_angle)),
+        [`launchAngle${yearSuffix}`]: statcastData && (parseFloat(statcastData.launch_angle) || parseFloat(statcastData.avg_hit_angle)),
+        batSpeed: statcastData && (parseFloat(statcastData.swing_speed) || parseFloat(statcastData.avg_bat_speed)),
       });
     }
     
