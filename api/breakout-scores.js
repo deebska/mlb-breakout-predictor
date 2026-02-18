@@ -25,7 +25,8 @@ export default async function handler(req, res) {
     
     // Baseball Savant URLs
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
-    const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
+    // Use custom leaderboard to get the specific stats we need
+    const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=q&selections=player_id,pa,k_percent,hard_hit_percent,barrel_batted_rate,o_swing_percent,pull_percent,launch_angle,swing_speed&csv=true`;
     
     // Fetch via ScraperAPI
     const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
