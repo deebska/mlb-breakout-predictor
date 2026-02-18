@@ -25,11 +25,11 @@ export default async function handler(req, res) {
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
     const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
     
-    // Route through ScraperAPI
-    const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
-    const scraperUrl2 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}`;
+    // Route through ScraperAPI with aggressive settings
+    const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}&render=false&premium=false&country_code=us`;
+    const scraperUrl2 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl)}&render=false&premium=false&country_code=us`;
     
-    console.log(`[API] Fetching via proxy...`);
+    console.log(`[API] Fetching via proxy (render=false, premium=false, country=us)...`);
     
     // Fetch expected stats first
     const expectedResponse = await fetch(scraperUrl1);
@@ -45,7 +45,13 @@ export default async function handler(req, res) {
     const statcastResponse = await fetch(scraperUrl2);
     
     const expectedCsv = await expectedResponse.text();
-    console.log(`[API] Expected stats CSV: ${expectedCsv.length} bytes`);
+    console.log(`[API] Expected stats response length: ${expectedCsv.length} bytes`);
+    console.log(`[API] Expected stats first 100 chars: "${expectedCsv.slice(0, 100)}"`);
+    
+    if (expectedCsv.length < 100) {
+      console.log(`[API] Full response: "${expectedCsv}"`);
+      throw new Error('Empty or invalid CSV from Baseball Savant via ScraperAPI');
+    }
     
     const statcastCsv = statcastResponse.ok ? await statcastResponse.text() : null;
     if (statcastCsv) {
