@@ -128,11 +128,12 @@ export default async function handler(req, res) {
       if (players.length === 0) {
         console.log(`[API] First player matching: playerId="${playerId}", hasStatcast=${!!statcastData}`);
         if (statcastData) {
-          console.log(`[API] Statcast data sample:`, Object.keys(statcastData).slice(0, 10));
-          console.log(`[API] Statcast VALUES:`, {
+          console.log(`[API] Statcast MERGED data:`, {
             hard_hit_percent: statcastData.hard_hit_percent,
+            o_swing_percent: statcastData.o_swing_percent,
             launch_angle: statcastData.launch_angle,
-            swing_speed: statcastData.swing_speed
+            swing_speed: statcastData.swing_speed,
+            all_keys: Object.keys(statcastData)
           });
         } else {
           console.log(`[API] Available statcast IDs (first 5):`, Array.from(statcastMap.keys()).slice(0, 5));
