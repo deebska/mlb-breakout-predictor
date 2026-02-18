@@ -48,6 +48,13 @@ export default async function handler(req, res) {
       dynamicTyping: true
     });
     
+    console.log(`[API] PapaParse result:`, {
+      data_length: expectedParsed.data.length,
+      errors: expectedParsed.errors.length,
+      first_row_keys: expectedParsed.data[0] ? Object.keys(expectedParsed.data[0]).slice(0, 5) : [],
+      first_row_sample: expectedParsed.data[0]
+    });
+    
     console.log(`[API] Parsed ${expectedParsed.data.length} players from expected stats`);
     
     // Parse statcast CSV
