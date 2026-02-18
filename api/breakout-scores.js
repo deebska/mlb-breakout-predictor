@@ -15,8 +15,8 @@ export default async function handler(req, res) {
     const { year = '2026' } = req.query;
     const targetYear = parseInt(year);
     
-    // ALWAYS use 2025 data - this is the most recent available from Baseball Savant
-    const dataYear = 2025;
+    // Use previous year's data for predictions (2025 data predicts 2026, etc.)
+    const dataYear = targetYear - 1;
     
     const scraperApiKey = process.env.SCRAPER_API_KEY;
     
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     
     console.log(`[API] Request for ${targetYear} predictions - fetching ${dataYear} Baseball Savant data`);
     
-    // Baseball Savant URLs - ALWAYS use 2025 data
+    // Baseball Savant URLs - use previous year's data
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${dataYear}&position=&team=&min=100&csv=true`;
     // Use FOUR statcast sources (removed swing-take as it has no useful data)
     const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${dataYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
