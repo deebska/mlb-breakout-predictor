@@ -104,6 +104,7 @@ export default async function handler(req, res) {
       });
       
       console.log(`[API] Merged statcast2 data, total: ${statcastMap.size} players`);
+      console.log(`[API] Statcast2 sample columns:`, Object.keys(statcast2Parsed.data[0] || {}).slice(0, 15));
     }
     
     // Build players array
