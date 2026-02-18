@@ -72,23 +72,33 @@ async function fetchBaseballSavant(year = 2025) {
 }
 
 // Merge data sources by player_id
-function mergeDataSources(rawData) {
+function mergeDataSources(rawData, year) {
   const playerMap = new Map();
   
   // Start with expected stats (has most complete data)
   rawData.expectedStats.forEach(p => {
     const playerId = p.player_id;
+    
+    // Parse all the stats into the format the frontend expects
     playerMap.set(playerId, {
       player_id: playerId,
       name: `${p.first_name} ${p.last_name}`,
-      team: p.team_name_abbrev || p.team,
-      age: parseInt(p.age),
+      team: p.team_name_abbrev || p.team || p.team_abbrev,
+      age: parseInt(p.age) || parseInt(p.player_age),
       pa: parseInt(p.pa) || 0,
-      woba: parseFloat(p.woba),
+      
+      // Current year stats (use appropriate field based on year)
+      [`woba${year % 100}`]: parseFloat(p.woba),
+      [`xwoba${year % 100}`]: parseFloat(p.est_woba) || parseFloat(p.xwoba),
+      
+      // For calculations
+      currentWoba: parseFloat(p.woba),
       xwoba: parseFloat(p.est_woba) || parseFloat(p.xwoba),
-      hardHitRate: parseFloat(p.hard_hit_percent) / 100,
-      barrelRate: parseFloat(p.barrel_batted_rate) / 100,
-      position: p.primary_pos_formatted || p.primary_position || 'OF',
+      
+      hardHitRate: parseFloat(p.hard_hit_percent) ? parseFloat(p.hard_hit_percent) / 100 : null,
+      barrelRate: parseFloat(p.barrel_batted_rate) ? parseFloat(p.barrel_batted_rate) / 100 : null,
+      
+      position: p.primary_pos_formatted || p.primary_position || p.pos || 'OF',
     });
   });
   
@@ -96,8 +106,8 @@ function mergeDataSources(rawData) {
   rawData.plateDiscipline.forEach(p => {
     const player = playerMap.get(p.player_id);
     if (player) {
-      player.chaseRate = parseFloat(p.o_swing_percent) / 100;
-      player.kRate = parseFloat(p.k_percent) / 100;
+      player.chaseRate = parseFloat(p.o_swing_percent) ? parseFloat(p.o_swing_percent) / 100 : null;
+      player.kRate = parseFloat(p.k_percent) ? parseFloat(p.k_percent) / 100 : null;
     }
   });
   
@@ -105,16 +115,20 @@ function mergeDataSources(rawData) {
   rawData.batTracking.forEach(p => {
     const player = playerMap.get(p.player_id);
     if (player) {
-      player.batSpeed = parseFloat(p.swing_speed);
+      player.batSpeed = parseFloat(p.swing_speed) || parseFloat(p.bat_speed);
     }
   });
   
-  // Add batted ball data
+  // Add batted ball data (pull rate, launch angle)
   rawData.battedBall.forEach(p => {
     const player = playerMap.get(p.player_id);
     if (player) {
-      player.pullRate = parseFloat(p.pull_percent) / 100;
-      player.launchAngle = parseFloat(p.launch_angle);
+      player.pullRate = parseFloat(p.pull_percent) ? parseFloat(p.pull_percent) / 100 : null;
+      player.launchAngle = parseFloat(p.launch_angle) || parseFloat(p.avg_launch_angle);
+      
+      // Also get launch angle from previous year if available
+      const prevYear = year - 1;
+      player[`launchAngle${prevYear % 100}`] = player.launchAngle; // Will be updated if we have prev year data
     }
   });
   
@@ -142,7 +156,7 @@ export default async function handler(req, res) {
     const rawData = await fetchBaseballSavant(targetYear);
     
     // Merge all data sources
-    const players = mergeDataSources(rawData);
+    const players = mergeDataSources(rawData, targetYear);
     
     // Filter out pitchers
     const hitters = players.filter(p => {
