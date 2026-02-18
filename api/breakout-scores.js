@@ -155,7 +155,7 @@ export default async function handler(req, res) {
       }
     }
     
-    // Parse and MERGE FOURTH statcast CSV (bat tracking - swing_speed)
+    // Parse and MERGE FOURTH statcast CSV (bat tracking - uses 'id' instead of 'player_id')
     if (statcast4Csv) {
       const statcast4Parsed = Papa.parse(statcast4Csv, {
         header: true,
@@ -164,8 +164,9 @@ export default async function handler(req, res) {
       });
       
       statcast4Parsed.data.forEach(row => {
-        if (row.player_id) {
-          const playerId = String(row.player_id);
+        // Bat tracking uses 'id' not 'player_id'
+        if (row.id) {
+          const playerId = String(row.id);
           const existing = statcastMap.get(playerId);
           if (existing) {
             const merged = { ...existing };
@@ -176,7 +177,8 @@ export default async function handler(req, res) {
             });
             statcastMap.set(playerId, merged);
           } else {
-            statcastMap.set(playerId, row);
+            // If not in map yet, add it but use 'id' as 'player_id' for consistency
+            statcastMap.set(playerId, { ...row, player_id: row.id });
           }
         }
       });
