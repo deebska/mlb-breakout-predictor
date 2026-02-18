@@ -19,16 +19,33 @@ export default async function handler(req, res) {
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
     const statcastUrl = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&position=&team=&min=q&csv=true`;
     
+    // Add browser headers to bypass bot detection
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'Referer': 'https://baseballsavant.mlb.com/',
+      'DNT': '1',
+      'Connection': 'keep-alive',
+      'Upgrade-Insecure-Requests': '1'
+    };
+    
     const [expectedResponse, statcastResponse] = await Promise.all([
-      fetch(expectedStatsUrl),
-      fetch(statcastUrl)
+      fetch(expectedStatsUrl, { headers }),
+      fetch(statcastUrl, { headers })
     ]);
     
     if (!expectedResponse.ok) {
+      const errorText = await expectedResponse.text();
+      console.log(`[API] Baseball Savant error response:`, errorText.slice(0, 500));
       throw new Error(`Baseball Savant expected stats returned ${expectedResponse.status}`);
     }
     
     const expectedCsv = await expectedResponse.text();
+    console.log(`[API] Expected CSV length:`, expectedCsv.length, 'bytes');
+    console.log(`[API] Expected CSV first 200 chars:`, expectedCsv.slice(0, 200));
+    
     const statcastCsv = statcastResponse.ok ? await statcastResponse.text() : null;
     
     // Parse expected stats
