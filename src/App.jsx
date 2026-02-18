@@ -599,57 +599,38 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      // Try to fetch from Baseball Savant (works when running in a real browser)
-      const [res25, res24] = await Promise.all([
-        fetch(ENDPOINTS.expectedStats2025),
-        fetch(ENDPOINTS.expectedStats2024),
-      ]);
-      if (!res25.ok || !res24.ok) throw new Error("Fetch failed");
-      const [csv25, csv24] = await Promise.all([res25.text(), res24.text()]);
-      const data25 = parseCSV(csv25);
-      const data24 = parseCSV(csv24);
-
-      const map24 = {};
-      data24.forEach((row) => {
-        const id = row.player_id || row.batter;
-        if (id) map24[id] = row;
-      });
-
-      const merged = data25.map((row) => {
-        const id = row.player_id || row.batter;
-        const prev = map24[id] || {};
-        const xw25 = parseNum(row.est_woba);
-        const xw24 = parseNum(prev.est_woba);
-        const w25 = parseNum(row.woba);
-        return {
-          name: row.last_name + ", " + row.first_name,
-          team: row.team_name_abbrev || row.team || "",
-          age: parseNum(row.player_age),
-          pa: parseNum(row.pa),
-          woba25: w25,
-          woba24: parseNum(prev.woba),
-          xwoba25: xw25,
-          xwoba24: xw24,
-          xwobaSurplus: xw25 != null && w25 != null ? +(xw25 - w25).toFixed(3) : null,
-          xwobaTrajectory: xw25 != null && xw24 != null ? +(xw25 - xw24).toFixed(3) : 0,
-          hardHitRate: parseNum(row.hard_hit_percent) != null ? parseNum(row.hard_hit_percent) / 100 : parseNum(row.hard_hit_rate),
-          barrelRate: parseNum(row.barrel_batted_rate) != null ? parseNum(row.barrel_batted_rate) / 100 : parseNum(row.barrel_rate),
-          kRate: parseNum(row.k_percent) != null ? parseNum(row.k_percent) / 100 : parseNum(row.strikeout_percent),
-          position: row.pos || "—",
-        };
-      }).filter(p => p.xwoba25 != null && p.pa >= 100);
-
-      const scored = computeBreakoutScore(merged);
+      console.log(`Fetching live data from API for ${selectedYear}...`);
+      
+      // Call our Vercel API endpoint instead of fetching Baseball Savant directly
+      const response = await fetch(`/api/breakout-scores?year=${selectedYear}`);
+      
+      if (!response.ok) {
+        throw new Error(`API returned ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      if (!data.success) {
+        throw new Error(data.message || 'Failed to load data from API');
+      }
+      
+      console.log(`✓ Loaded ${data.count} players from Baseball Savant via API`);
+      
+      // Process the API data using existing functions
+      const processed = processDemoData(data.players, selectedYear);
+      const scored = computeBreakoutScore(processed, selectedYear);
+      
       setPlayers(scored);
       setDataSource("live");
-    } catch (err) {
-      // Fallback to demo data
-      loadDemo();
-      setError("Live data unavailable (CORS / network). Showing curated 2025 prospect data.");
-    } finally {
       setLoading(false);
+      setError(null);
+      
+    } catch (err) {
+      console.error('Failed to load live data:', err);
+      setError(`Could not load live data: ${err.message}`);
+      loadDemo(); // Fallback to demo data
     }
-  }, [loadDemo]);
+  }, [selectedYear, loadDemo]);
 
   useEffect(() => { 
     if (dataSource === "demo" || dataSource === null) {
