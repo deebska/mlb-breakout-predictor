@@ -48,9 +48,33 @@ export default async function handler(req, res) {
       throw new Error(`Baseball Savant returned invalid data: ${text.slice(0, 100)}`);
     }
     
-    // Parse CSV
+    // Parse CSV - ScraperAPI returns comma-separated with quotes, not tabs
     const lines = text.trim().split('\n');
-    const headers = lines[0].split('\t').map(h => h.trim());
+    
+    // Parse CSV properly handling quotes
+    const parseCsvLine = (line) => {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        
+        if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          result.push(current.trim());
+          current = '';
+        } else {
+          current += char;
+        }
+      }
+      result.push(current.trim());
+      return result;
+    };
+    
+    const headerValues = parseCsvLine(lines[0]);
+    const headers = headerValues.map(h => h.replace(/"/g, '').trim());
     
     console.log(`[API] Found ${lines.length - 1} players`);
     console.log(`[API] Columns: ${headers.slice(0, 5).join(', ')}`);
@@ -59,7 +83,7 @@ export default async function handler(req, res) {
     const yearSuffix = targetYear % 100;
     
     for (let i = 1; i < Math.min(lines.length, 200); i++) { // Limit to 200 for now
-      const values = lines[i].split('\t').map(v => v.trim());
+      const values = parseCsvLine(lines[i]).map(v => v.replace(/"/g, '').trim());
       const row = {};
       headers.forEach((h, idx) => {
         row[h] = values[idx] || null;
