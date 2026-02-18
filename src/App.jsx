@@ -595,13 +595,12 @@ export default function App() {
     setLoading(false);
   }, [selectedYear]);
 
-  const loadLive = useCallback(async () => {
+const loadLive = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
       console.log(`Fetching live data from API for ${selectedYear}...`);
       
-      // Call our Vercel API endpoint instead of fetching Baseball Savant directly
       const response = await fetch(`/api/breakout-scores?year=${selectedYear}`);
       
       if (!response.ok) {
@@ -616,8 +615,15 @@ export default function App() {
       
       console.log(`✓ Loaded ${data.count} players from Baseball Savant via API`);
       
-      // Process the API data using existing functions
-      const processed = processDemoData(data.players, selectedYear);
+      // API data is already formatted correctly - just add calculated fields
+      const processed = data.players.map((p) => ({
+        ...p,
+        launchAngleDelta: (p.launchAngle25 != null && p.launchAngle24 != null) ? p.launchAngle25 - p.launchAngle24 : null,
+        currentWoba: p.woba25,
+        careerWoba: p.careerWoba || p.woba25,
+        yearsInMLB: p.yearsInMLB || (p.woba24 == null && p.age <= 23 ? 1 : p.woba24 != null && p.age <= 24 ? 2 : p.age <= 26 ? 3 : p.age <= 28 ? 4 : 6)
+      }));
+      
       const scored = computeBreakoutScore(processed, selectedYear);
       
       setPlayers(scored);
@@ -628,10 +634,9 @@ export default function App() {
     } catch (err) {
       console.error('Failed to load live data:', err);
       setError(`Could not load live data: ${err.message}`);
-      loadDemo(); // Fallback to demo data
+      loadDemo();
     }
-  }, [selectedYear, loadDemo]);
-
+  }, [selectedYear, loadDemo]);  
   useEffect(() => { 
     // Try to load live data first, fallback to demo if it fails
     loadLive();
