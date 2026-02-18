@@ -245,8 +245,8 @@ export default async function handler(req, res) {
         // Try both launch_angle and avg_hit_angle depending on source
         launchAngle: statcastData && (parseFloat(statcastData.launch_angle) || parseFloat(statcastData.avg_hit_angle)),
         [`launchAngle${yearSuffix}`]: statcastData && (parseFloat(statcastData.launch_angle) || parseFloat(statcastData.avg_hit_angle)),
-        // Try swing_speed, avg_bat_speed, or bat_speed
-        batSpeed: statcastData && (parseFloat(statcastData.swing_speed) || parseFloat(statcastData.avg_bat_speed) || parseFloat(statcastData.bat_speed)),
+        // Bat tracking data has avg_bat_speed
+        batSpeed: statcastData && parseFloat(statcastData.avg_bat_speed),
       });
     }
     
