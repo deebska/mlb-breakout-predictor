@@ -36,6 +36,28 @@ export default async function handler(req, res) {
     
     console.log(`[API] Expected stats length: ${text.length} bytes`);
     
+    // Define CSV parser function FIRST (before any checks)
+    const parseCsvLine = (line) => {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        
+        if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          result.push(current.trim());
+          current = '';
+        } else {
+          current += char;
+        }
+      }
+      result.push(current.trim());
+      return result;
+    };
+    
     if (!response.ok) {
       console.log(`[API] Full error response: "${text}"`);
       throw new Error(`ScraperAPI returned ${response.status}: ${text.slice(0, 100)}`);
