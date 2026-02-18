@@ -197,7 +197,7 @@ export default async function handler(req, res) {
     
     // Build players array
     const players = [];
-    const yearSuffix = targetYear % 100;
+    const yearSuffix = dataYear % 100;
     
     for (const row of expectedParsed.data) {
       const pa = parseInt(row.pa) || 0;
