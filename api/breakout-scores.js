@@ -98,6 +98,9 @@ export default async function handler(req, res) {
       });
       
       console.log(`[API] Loaded ${statcastMap.size} players from statcast1`);
+      if (statcast1Parsed.data[0]) {
+        console.log(`[API] Statcast1 columns:`, Object.keys(statcast1Parsed.data[0]));
+      }
     }
     
     // Parse and MERGE SECOND statcast CSV (launch_angle, avg_hit_angle)
