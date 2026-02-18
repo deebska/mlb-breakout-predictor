@@ -25,12 +25,11 @@ export default async function handler(req, res) {
     
     // Baseball Savant URLs
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
-    // Use FIVE statcast sources to get all the data
+    // Use FOUR statcast sources (removed swing-take as it has no useful data)
     const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
     const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&min=1&csv=true`; // launch angle
-    const statcastUrl3 = `https://baseballsavant.mlb.com/leaderboard/swing-take?year=${targetYear}&min=1&csv=true`; // (doesn't have o_swing_percent)
-    const statcastUrl4 = `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${targetYear}&min=1&csv=true`; // bat speed
-    const statcastUrl5 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,o_swing_percent&csv=true`; // chase rate
+    const statcastUrl3 = `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${targetYear}&min=1&csv=true`; // bat speed
+    const statcastUrl4 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,o_swing_percent&csv=true`; // chase rate
     
     // Fetch via ScraperAPI
     const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
@@ -38,7 +37,6 @@ export default async function handler(req, res) {
     const scraperUrl3 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl2)}`;
     const scraperUrl4 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl3)}`;
     const scraperUrl5 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl4)}`;
-    const scraperUrl6 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(statcastUrl5)}`;
     
     console.log(`[API] Fetching expected stats...`);
     const expectedResponse = await fetch(scraperUrl1);
@@ -52,19 +50,15 @@ export default async function handler(req, res) {
     const statcast2Response = await fetch(scraperUrl3);
     const statcast2Csv = statcast2Response.ok ? await statcast2Response.text() : null;
     
-    console.log(`[API] Fetching statcast 3 (swing-take)...`);
+    console.log(`[API] Fetching statcast 3 (bat-tracking)...`);
     const statcast3Response = await fetch(scraperUrl4);
     const statcast3Csv = statcast3Response.ok ? await statcast3Response.text() : null;
     
-    console.log(`[API] Fetching statcast 4 (bat-tracking)...`);
+    console.log(`[API] Fetching statcast 4 (o_swing custom)...`);
     const statcast4Response = await fetch(scraperUrl5);
     const statcast4Csv = statcast4Response.ok ? await statcast4Response.text() : null;
     
-    console.log(`[API] Fetching statcast 5 (o_swing custom)...`);
-    const statcast5Response = await fetch(scraperUrl6);
-    const statcast5Csv = statcast5Response.ok ? await statcast5Response.text() : null;
-    
-    console.log(`[API] Expected: ${expectedCsv.length} bytes, SC1: ${statcast1Csv?.length || 0}, SC2: ${statcast2Csv?.length || 0}, SC3: ${statcast3Csv?.length || 0}, SC4: ${statcast4Csv?.length || 0}, SC5: ${statcast5Csv?.length || 0}`);
+    console.log(`[API] Expected: ${expectedCsv.length} bytes, SC1: ${statcast1Csv?.length || 0}, SC2: ${statcast2Csv?.length || 0}, SC3: ${statcast3Csv?.length || 0}, SC4: ${statcast4Csv?.length || 0}`);
     
     // Parse expected stats CSV with PapaParse
     const expectedParsed = Papa.parse(expectedCsv, {
@@ -132,7 +126,7 @@ export default async function handler(req, res) {
       console.log(`[API] Merged statcast2, total: ${statcastMap.size} players`);
     }
     
-    // Parse and MERGE THIRD statcast CSV (o_swing_percent - chase rate)
+    // Parse and MERGE THIRD statcast CSV (bat tracking - uses 'id' instead of 'player_id')
     if (statcast3Csv) {
       const statcast3Parsed = Papa.parse(statcast3Csv, {
         header: true,
@@ -141,38 +135,6 @@ export default async function handler(req, res) {
       });
       
       statcast3Parsed.data.forEach(row => {
-        if (row.player_id) {
-          const playerId = String(row.player_id);
-          const existing = statcastMap.get(playerId);
-          if (existing) {
-            const merged = { ...existing };
-            Object.keys(row).forEach(key => {
-              if (existing[key] === null || existing[key] === undefined || (row[key] !== null && row[key] !== undefined)) {
-                merged[key] = row[key];
-              }
-            });
-            statcastMap.set(playerId, merged);
-          } else {
-            statcastMap.set(playerId, row);
-          }
-        }
-      });
-      
-      console.log(`[API] Merged statcast3 (swing-take), total: ${statcastMap.size} players`);
-      if (statcast3Parsed.data[0]) {
-        console.log(`[API] Swing-take columns:`, Object.keys(statcast3Parsed.data[0]).slice(0, 15));
-      }
-    }
-    
-    // Parse and MERGE FOURTH statcast CSV (bat tracking - uses 'id' instead of 'player_id')
-    if (statcast4Csv) {
-      const statcast4Parsed = Papa.parse(statcast4Csv, {
-        header: true,
-        skipEmptyLines: true,
-        dynamicTyping: true
-      });
-      
-      statcast4Parsed.data.forEach(row => {
         // Bat tracking uses 'id' not 'player_id'
         if (row.id) {
           const playerId = String(row.id);
@@ -192,21 +154,21 @@ export default async function handler(req, res) {
         }
       });
       
-      console.log(`[API] Merged statcast4 (bat-tracking), total: ${statcastMap.size} players`);
-      if (statcast4Parsed.data[0]) {
-        console.log(`[API] Bat-tracking columns:`, Object.keys(statcast4Parsed.data[0]).slice(0, 15));
+      console.log(`[API] Merged statcast3 (bat-tracking), total: ${statcastMap.size} players`);
+      if (statcast3Parsed.data[0]) {
+        console.log(`[API] Bat-tracking columns:`, Object.keys(statcast3Parsed.data[0]).slice(0, 15));
       }
     }
     
-    // Parse and MERGE FIFTH statcast CSV (custom o_swing_percent only)
-    if (statcast5Csv) {
-      const statcast5Parsed = Papa.parse(statcast5Csv, {
+    // Parse and MERGE FOURTH statcast CSV (custom o_swing_percent only)
+    if (statcast4Csv) {
+      const statcast4Parsed = Papa.parse(statcast4Csv, {
         header: true,
         skipEmptyLines: true,
         dynamicTyping: true
       });
       
-      statcast5Parsed.data.forEach(row => {
+      statcast4Parsed.data.forEach(row => {
         if (row.player_id) {
           const playerId = String(row.player_id);
           const existing = statcastMap.get(playerId);
@@ -224,9 +186,9 @@ export default async function handler(req, res) {
         }
       });
       
-      console.log(`[API] Merged statcast5 (o_swing custom), total: ${statcastMap.size} players`);
-      if (statcast5Parsed.data[0]) {
-        console.log(`[API] O-swing columns:`, Object.keys(statcast5Parsed.data[0]));
+      console.log(`[API] Merged statcast4 (o_swing custom), total: ${statcastMap.size} players`);
+      if (statcast4Parsed.data[0]) {
+        console.log(`[API] O-swing columns:`, Object.keys(statcast4Parsed.data[0]));
       }
     }
     
@@ -272,7 +234,7 @@ export default async function handler(req, res) {
       players.push({
         name: row['last_name, first_name'] || `${row.first_name || ''} ${row.last_name || ''}`.trim(),
         team: row.team_name_abbrev || row.team,
-        age: parseInt(row.age),
+        age: statcastData && parseInt(statcastData.age),
         pa: pa,
         position: row.pos || row.primary_position || 'OF',
         [`woba${yearSuffix}`]: woba,
