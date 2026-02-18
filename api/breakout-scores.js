@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     // Baseball Savant URLs
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
     // Use FIVE statcast sources to get all the data
-    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
+    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`;
     const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${targetYear}&min=1&csv=true`; // launch angle
     const statcastUrl3 = `https://baseballsavant.mlb.com/leaderboard/swing-take?year=${targetYear}&min=1&csv=true`; // (doesn't have o_swing_percent)
     const statcastUrl4 = `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${targetYear}&min=1&csv=true`; // bat speed
