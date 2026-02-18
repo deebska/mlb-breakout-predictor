@@ -25,9 +25,9 @@ export default async function handler(req, res) {
     
     // Baseball Savant URLs
     const expectedStatsUrl = `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${targetYear}&position=&team=&min=100&csv=true`;
-    // Use TWO custom leaderboard calls - it seems to limit the number of selections
-    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=q&selections=player_id,k_percent,hard_hit_percent,barrel_batted_rate,o_swing_percent,pull_percent&csv=true`;
-    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=q&selections=player_id,launch_angle,swing_speed&csv=true`;
+    // Use TWO custom leaderboard calls - use min=1 instead of min=q to get all players
+    const statcastUrl1 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,k_percent,hard_hit_percent,barrel_batted_rate,o_swing_percent,pull_percent&csv=true`;
+    const statcastUrl2 = `https://baseballsavant.mlb.com/leaderboard/custom?year=${targetYear}&type=batter&min=1&selections=player_id,launch_angle,swing_speed&csv=true`;
     
     // Fetch via ScraperAPI
     const scraperUrl1 = `http://api.scraperapi.com?api_key=${scraperApiKey}&url=${encodeURIComponent(expectedStatsUrl)}`;
