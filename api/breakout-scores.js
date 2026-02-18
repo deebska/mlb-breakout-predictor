@@ -150,6 +150,9 @@ export default async function handler(req, res) {
       });
       
       console.log(`[API] Merged statcast3 (swing-take), total: ${statcastMap.size} players`);
+      if (statcast3Parsed.data[0]) {
+        console.log(`[API] Swing-take columns:`, Object.keys(statcast3Parsed.data[0]).slice(0, 15));
+      }
     }
     
     // Parse and MERGE FOURTH statcast CSV (bat tracking - swing_speed)
@@ -179,6 +182,9 @@ export default async function handler(req, res) {
       });
       
       console.log(`[API] Merged statcast4 (bat-tracking), total: ${statcastMap.size} players`);
+      if (statcast4Parsed.data[0]) {
+        console.log(`[API] Bat-tracking columns:`, Object.keys(statcast4Parsed.data[0]).slice(0, 15));
+      }
     }
     
     // Build players array
