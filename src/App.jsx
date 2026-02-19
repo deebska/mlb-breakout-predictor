@@ -599,32 +599,25 @@ const loadLive = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      console.log(`Fetching live data from API for ${selectedYear}...`);
+      console.log(`Loading static data for ${selectedYear}...`);
       
-      const response = await fetch(`/api/breakout-scores?year=${selectedYear}`);
+      // Load from static JSON files instead of API
+      const response = await fetch(`/data/players-${selectedYear}.json`);
       
       if (!response.ok) {
-        throw new Error(`API returned ${response.status}`);
+        throw new Error(`Failed to load data file for ${selectedYear}`);
       }
       
       const data = await response.json();
       
-      if (!data.success) {
-        throw new Error(data.message || 'Failed to load data from API');
+      if (!data.success || !data.players) {
+        throw new Error('Invalid data format');
       }
       
-      console.log(`✓ Loaded ${data.count} players from Baseball Savant via API`);
+      console.log(`✓ Loaded ${data.count} players from static data (last updated: ${data.lastUpdated})`);
       
-      // API data is already formatted correctly - just add calculated fields
-      const processed = data.players.map((p) => ({
-        ...p,
-        launchAngleDelta: (p.launchAngle25 != null && p.launchAngle24 != null) ? p.launchAngle25 - p.launchAngle24 : null,
-        currentWoba: p.woba25,
-        careerWoba: p.careerWoba || p.woba25,
-        yearsInMLB: p.yearsInMLB || (p.woba24 == null && p.age <= 23 ? 1 : p.woba24 != null && p.age <= 24 ? 2 : p.age <= 26 ? 3 : p.age <= 28 ? 4 : 6)
-      }));
-      
-      const scored = computeBreakoutScore(processed, selectedYear);
+      // Data is already formatted correctly - just pass to scoring
+      const scored = computeBreakoutScore(data.players, selectedYear);
       
       setPlayers(scored);
       setDataSource("live");
@@ -632,8 +625,8 @@ const loadLive = useCallback(async () => {
       setError(null);
       
     } catch (err) {
-      console.error('Failed to load live data:', err);
-      setError(`Could not load live data: ${err.message}`);
+      console.error('Failed to load static data:', err);
+      setError(`Could not load data: ${err.message}`);
       loadDemo();
     }
   }, [selectedYear, loadDemo]);  
