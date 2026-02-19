@@ -638,8 +638,28 @@ const loadLive = useCallback(async () => {
       
       console.log(`✓ Loaded ${data.count} players from static data (last updated: ${data.lastUpdated})`);
       
+      // Calculate age from birthDate for each player
+      const today = new Date();
+      const playersWithAge = data.players.map(p => {
+        let age = p.age; // Use existing age if present
+        
+        if (p.birthDate && !age) {
+          // Calculate age from birth date
+          const birthDate = new Date(p.birthDate);
+          age = today.getFullYear() - birthDate.getFullYear();
+          
+          // Adjust if birthday hasn't occurred yet this year
+          const monthDiff = today.getMonth() - birthDate.getMonth();
+          if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+          }
+        }
+        
+        return { ...p, age };
+      });
+      
       // Data is already formatted correctly - just pass to scoring
-      const scored = computeBreakoutScore(data.players, selectedYear);
+      const scored = computeBreakoutScore(playersWithAge, selectedYear);
       
       setPlayers(scored);
       setDataSource("live");

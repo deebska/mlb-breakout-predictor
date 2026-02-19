@@ -8,6 +8,7 @@
   "players": [
     {
       "name": "Duran, Jarren",
+      "birthDate": "1996-09-05",
       "age": null,
       "pa": 735,
       "position": "OF",
@@ -32,6 +33,7 @@
     },
     {
       "name": "Ohtani, Shohei",
+      "birthDate": "1994-07-05",
       "age": null,
       "pa": 731,
       "position": "OF",
@@ -56,6 +58,7 @@
     },
     {
       "name": "Henderson, Gunnar",
+      "birthDate": "2001-06-29",
       "age": null,
       "pa": 719,
       "position": "OF",
@@ -80,6 +83,7 @@
     },
     {
       "name": "Semien, Marcus",
+      "birthDate": "1990-09-17",
       "age": null,
       "pa": 718,
       "position": "OF",
@@ -104,6 +108,7 @@
     },
     {
       "name": "Soto, Juan",
+      "birthDate": "1998-10-25",
       "age": null,
       "pa": 713,
       "position": "OF",
@@ -128,6 +133,7 @@
     },
     {
       "name": "Witt Jr., Bobby",
+      "birthDate": "2000-06-14",
       "age": null,
       "pa": 709,
       "position": "OF",
@@ -152,6 +158,7 @@
     },
     {
       "name": "Judge, Aaron",
+      "birthDate": "1992-04-26",
       "age": null,
       "pa": 704,
       "position": "OF",
@@ -176,6 +183,7 @@
     },
     {
       "name": "Guerrero Jr., Vladimir",
+      "birthDate": "1999-03-16",
       "age": null,
       "pa": 697,
       "position": "OF",
@@ -200,6 +208,7 @@
     },
     {
       "name": "De La Cruz, Elly",
+      "birthDate": "2002-01-11",
       "age": null,
       "pa": 696,
       "position": "OF",
@@ -224,6 +233,7 @@
     },
     {
       "name": "Alonso, Pete",
+      "birthDate": "1994-12-07",
       "age": null,
       "pa": 695,
       "position": "OF",
@@ -248,6 +258,7 @@
     },
     {
       "name": "Tovar, Ezequiel",
+      "birthDate": "2001-08-01",
       "age": null,
       "pa": 695,
       "position": "OF",
@@ -272,6 +283,7 @@
     },
     {
       "name": "Reynolds, Bryan",
+      "birthDate": "1995-01-27",
       "age": null,
       "pa": 692,
       "position": "OF",
@@ -296,6 +308,7 @@
     },
     {
       "name": "Schwarber, Kyle",
+      "birthDate": "1993-03-05",
       "age": null,
       "pa": 692,
       "position": "OF",
@@ -320,6 +333,7 @@
     },
     {
       "name": "Lindor, Francisco",
+      "birthDate": "1993-11-14",
       "age": null,
       "pa": 689,
       "position": "OF",
@@ -344,6 +358,7 @@
     },
     {
       "name": "Volpe, Anthony",
+      "birthDate": "2001-04-28",
       "age": null,
       "pa": 689,
       "position": "OF",
@@ -368,6 +383,7 @@
     },
     {
       "name": "Ozuna, Marcell",
+      "birthDate": "1990-11-12",
       "age": null,
       "pa": 688,
       "position": "OF",
@@ -392,6 +408,7 @@
     },
     {
       "name": "Adames, Willy",
+      "birthDate": "1995-09-02",
       "age": null,
       "pa": 688,
       "position": "OF",
@@ -416,6 +433,7 @@
     },
     {
       "name": "Olson, Matt",
+      "birthDate": "1994-03-29",
       "age": null,
       "pa": 685,
       "position": "OF",
@@ -440,6 +458,7 @@
     },
     {
       "name": "Carroll, Corbin",
+      "birthDate": "2000-08-21",
       "age": null,
       "pa": 684,
       "position": "OF",
@@ -464,6 +483,7 @@
     },
     {
       "name": "Ramírez, José",
+      "birthDate": "1992-09-17",
       "age": null,
       "pa": 682,
       "position": "OF",
@@ -488,6 +508,7 @@
     },
     {
       "name": "Altuve, Jose",
+      "birthDate": "1990-05-06",
       "age": null,
       "pa": 682,
       "position": "OF",
@@ -512,6 +533,7 @@
     },
     {
       "name": "Contreras, William",
+      "birthDate": "1997-12-24",
       "age": null,
       "pa": 679,
       "position": "OF",
@@ -536,6 +558,7 @@
     },
     {
       "name": "Arraez, Luis",
+      "birthDate": "1997-04-09",
       "age": null,
       "pa": 672,
       "position": "OF",
@@ -560,6 +583,7 @@
     },
     {
       "name": "Profar, Jurickson",
+      "birthDate": "1993-02-20",
       "age": null,
       "pa": 668,
       "position": "OF",
@@ -584,6 +608,7 @@
     },
     {
       "name": "Santander, Anthony",
+      "birthDate": "1994-10-19",
       "age": null,
       "pa": 665,
       "position": "OF",
@@ -608,6 +633,7 @@
     },
     {
       "name": "Torres, Gleyber",
+      "birthDate": "1996-12-13",
       "age": null,
       "pa": 665,
       "position": "OF",
@@ -632,6 +658,7 @@
     },
     {
       "name": "Ward, Taylor",
+      "birthDate": "1993-12-14",
       "age": null,
       "pa": 663,
       "position": "OF",
@@ -656,6 +683,7 @@
     },
     {
       "name": "Nimmo, Brandon",
+      "birthDate": "1993-03-27",
       "age": null,
       "pa": 663,
       "position": "OF",
@@ -680,6 +708,7 @@
     },
     {
       "name": "Castellanos, Nick",
+      "birthDate": "1992-03-04",
       "age": null,
       "pa": 659,
       "position": "OF",
@@ -704,6 +733,7 @@
     },
     {
       "name": "Happ, Ian",
+      "birthDate": "1994-08-12",
       "age": null,
       "pa": 657,
       "position": "OF",
@@ -728,6 +758,7 @@
     },
     {
       "name": "Cronenworth, Jake",
+      "birthDate": "1994-01-21",
       "age": null,
       "pa": 656,
       "position": "OF",
@@ -752,6 +783,7 @@
     },
     {
       "name": "Steer, Spencer",
+      "birthDate": "1997-12-07",
       "age": null,
       "pa": 656,
       "position": "OF",
@@ -776,6 +808,7 @@
     },
     {
       "name": "Goldschmidt, Paul",
+      "birthDate": "1987-09-10",
       "age": null,
       "pa": 654,
       "position": "OF",
@@ -800,6 +833,7 @@
     },
     {
       "name": "Hernández, Teoscar",
+      "birthDate": "1992-10-15",
       "age": null,
       "pa": 652,
       "position": "OF",
@@ -824,6 +858,7 @@
     },
     {
       "name": "Donovan, Brendan",
+      "birthDate": "1997-01-16",
       "age": null,
       "pa": 652,
       "position": "OF",
@@ -848,6 +883,7 @@
     },
     {
       "name": "Perez, Salvador",
+      "birthDate": "1990-05-10",
       "age": null,
       "pa": 652,
       "position": "OF",
@@ -872,6 +908,7 @@
     },
     {
       "name": "Peña, Jeremy",
+      "birthDate": "1997-09-22",
       "age": null,
       "pa": 650,
       "position": "OF",
@@ -896,6 +933,7 @@
     },
     {
       "name": "Arozarena, Randy",
+      "birthDate": "1995-02-28",
       "age": null,
       "pa": 648,
       "position": "OF",
@@ -920,6 +958,7 @@
     },
     {
       "name": "Chapman, Matt",
+      "birthDate": "1993-04-28",
       "age": null,
       "pa": 647,
       "position": "OF",
@@ -944,6 +983,7 @@
     },
     {
       "name": "McMahon, Ryan",
+      "birthDate": "1994-12-14",
       "age": null,
       "pa": 645,
       "position": "OF",
@@ -968,6 +1008,7 @@
     },
     {
       "name": "Machado, Manny",
+      "birthDate": "1992-07-06",
       "age": null,
       "pa": 643,
       "position": "OF",
@@ -992,6 +1033,7 @@
     },
     {
       "name": "Bleday, JJ",
+      "birthDate": "1997-11-10",
       "age": null,
       "pa": 642,
       "position": "OF",
@@ -1016,6 +1058,7 @@
     },
     {
       "name": "Paredes, Isaac",
+      "birthDate": "1999-02-18",
       "age": null,
       "pa": 641,
       "position": "OF",
@@ -1040,6 +1083,7 @@
     },
     {
       "name": "Hoerner, Nico",
+      "birthDate": "1997-05-13",
       "age": null,
       "pa": 641,
       "position": "OF",
@@ -1064,6 +1108,7 @@
     },
     {
       "name": "Suárez, Eugenio",
+      "birthDate": "1991-07-18",
       "age": null,
       "pa": 640,
       "position": "OF",
@@ -1088,6 +1133,7 @@
     },
     {
       "name": "Freeman, Freddie",
+      "birthDate": "1989-09-12",
       "age": null,
       "pa": 638,
       "position": "OF",
@@ -1112,6 +1158,7 @@
     },
     {
       "name": "Rutschman, Adley",
+      "birthDate": "1998-02-06",
       "age": null,
       "pa": 638,
       "position": "OF",
@@ -1136,6 +1183,7 @@
     },
     {
       "name": "Winn, Masyn",
+      "birthDate": "2002-03-21",
       "age": null,
       "pa": 637,
       "position": "OF",
@@ -1160,6 +1208,7 @@
     },
     {
       "name": "García, Adolis",
+      "birthDate": "1993-03-02",
       "age": null,
       "pa": 637,
       "position": "OF",
@@ -1184,6 +1233,7 @@
     },
     {
       "name": "India, Jonathan",
+      "birthDate": "1996-12-15",
       "age": null,
       "pa": 637,
       "position": "OF",
@@ -1208,6 +1258,7 @@
     },
     {
       "name": "Arenado, Nolan",
+      "birthDate": "1991-04-16",
       "age": null,
       "pa": 635,
       "position": "OF",
@@ -1232,6 +1283,7 @@
     },
     {
       "name": "Castro, Willi",
+      "birthDate": "1997-04-24",
       "age": null,
       "pa": 635,
       "position": "OF",
@@ -1256,6 +1308,7 @@
     },
     {
       "name": "Alvarez, Yordan",
+      "birthDate": "1997-06-27",
       "age": null,
       "pa": 635,
       "position": "OF",
@@ -1280,6 +1333,7 @@
     },
     {
       "name": "Bregman, Alex",
+      "birthDate": "1994-03-30",
       "age": null,
       "pa": 634,
       "position": "OF",
@@ -1304,6 +1358,7 @@
     },
     {
       "name": "Giménez, Andrés",
+      "birthDate": "1998-09-04",
       "age": null,
       "pa": 633,
       "position": "OF",
@@ -1328,6 +1383,7 @@
     },
     {
       "name": "Naylor, Josh",
+      "birthDate": "1997-06-22",
       "age": null,
       "pa": 633,
       "position": "OF",
@@ -1352,6 +1408,7 @@
     },
     {
       "name": "Harper, Bryce",
+      "birthDate": "1992-10-16",
       "age": null,
       "pa": 631,
       "position": "OF",
@@ -1376,6 +1433,7 @@
     },
     {
       "name": "Raleigh, Cal",
+      "birthDate": "1996-11-26",
       "age": null,
       "pa": 628,
       "position": "OF",
@@ -1400,6 +1458,7 @@
     },
     {
       "name": "Garcia, Maikel",
+      "birthDate": "2000-03-03",
       "age": null,
       "pa": 626,
       "position": "OF",
@@ -1424,6 +1483,7 @@
     },
     {
       "name": "De La Cruz, Bryan",
+      "birthDate": "1996-12-16",
       "age": null,
       "pa": 622,
       "position": "OF",
@@ -1448,6 +1508,7 @@
     },
     {
       "name": "Chisholm Jr., Jazz",
+      "birthDate": "1998-02-01",
       "age": null,
       "pa": 621,
       "position": "OF",
@@ -1472,6 +1533,7 @@
     },
     {
       "name": "Verdugo, Alex",
+      "birthDate": "1996-05-15",
       "age": null,
       "pa": 621,
       "position": "OF",
@@ -1496,6 +1558,7 @@
     },
     {
       "name": "Díaz, Yandy",
+      "birthDate": "1991-08-08",
       "age": null,
       "pa": 621,
       "position": "OF",
@@ -1520,6 +1583,7 @@
     },
     {
       "name": "Vaughn, Andrew",
+      "birthDate": "1998-04-03",
       "age": null,
       "pa": 619,
       "position": "OF",
@@ -1544,6 +1608,7 @@
     },
     {
       "name": "Diaz, Yainer",
+      "birthDate": "1998-09-21",
       "age": null,
       "pa": 619,
       "position": "OF",
@@ -1568,6 +1633,7 @@
     },
     {
       "name": "Turang, Brice",
+      "birthDate": "1999-11-21",
       "age": null,
       "pa": 619,
       "position": "OF",
@@ -1592,6 +1658,7 @@
     },
     {
       "name": "Springer, George",
+      "birthDate": "1989-09-19",
       "age": null,
       "pa": 614,
       "position": "OF",
@@ -1616,6 +1683,7 @@
     },
     {
       "name": "Rooker, Brent",
+      "birthDate": "1994-11-01",
       "age": null,
       "pa": 614,
       "position": "OF",
@@ -1640,6 +1708,7 @@
     },
     {
       "name": "Rodríguez, Julio",
+      "birthDate": "2000-12-29",
       "age": null,
       "pa": 613,
       "position": "OF",
@@ -1664,6 +1733,7 @@
     },
     {
       "name": "Morel, Christopher",
+      "birthDate": "1999-06-24",
       "age": null,
       "pa": 611,
       "position": "OF",
@@ -1688,6 +1758,7 @@
     },
     {
       "name": "Schanuel, Nolan",
+      "birthDate": "2002-02-14",
       "age": null,
       "pa": 607,
       "position": "OF",
@@ -1712,6 +1783,7 @@
     },
     {
       "name": "Bohm, Alec",
+      "birthDate": "1996-08-03",
       "age": null,
       "pa": 606,
       "position": "OF",
@@ -1736,6 +1808,7 @@
     },
     {
       "name": "Bell, Josh",
+      "birthDate": "1992-08-14",
       "age": null,
       "pa": 603,
       "position": "OF",
@@ -1760,6 +1833,7 @@
     },
     {
       "name": "Doyle, Brenton",
+      "birthDate": "1998-05-14",
       "age": null,
       "pa": 603,
       "position": "OF",
@@ -1784,6 +1858,7 @@
     },
     {
       "name": "Neto, Zach",
+      "birthDate": "2001-01-31",
       "age": null,
       "pa": 602,
       "position": "OF",
@@ -1808,6 +1883,7 @@
     },
     {
       "name": "Arcia, Orlando",
+      "birthDate": "1994-08-04",
       "age": null,
       "pa": 602,
       "position": "OF",
@@ -1832,6 +1908,7 @@
     },
     {
       "name": "Abrams, CJ",
+      "birthDate": "2000-10-03",
       "age": null,
       "pa": 602,
       "position": "OF",
@@ -1856,6 +1933,7 @@
     },
     {
       "name": "Devers, Rafael",
+      "birthDate": "1996-10-24",
       "age": null,
       "pa": 601,
       "position": "OF",
@@ -1880,6 +1958,7 @@
     },
     {
       "name": "Cruz, Oneil",
+      "birthDate": "1998-10-04",
       "age": null,
       "pa": 599,
       "position": "OF",
@@ -1904,6 +1983,7 @@
     },
     {
       "name": "Burleson, Alec",
+      "birthDate": "1998-11-25",
       "age": null,
       "pa": 595,
       "position": "OF",
@@ -1928,6 +2008,7 @@
     },
     {
       "name": "Santana, Carlos",
+      "birthDate": "1986-04-08",
       "age": null,
       "pa": 594,
       "position": "OF",
@@ -1952,6 +2033,7 @@
     },
     {
       "name": "Swanson, Dansby",
+      "birthDate": "1994-02-11",
       "age": null,
       "pa": 593,
       "position": "OF",
@@ -1976,6 +2058,7 @@
     },
     {
       "name": "Merrill, Jackson",
+      "birthDate": "2003-04-19",
       "age": null,
       "pa": 593,
       "position": "OF",
@@ -1999,6 +2082,7 @@
     },
     {
       "name": "Smith, Josh",
+      "birthDate": "1997-08-07",
       "age": null,
       "pa": 592,
       "position": "OF",
@@ -2023,6 +2107,7 @@
     },
     {
       "name": "Suzuki, Seiya",
+      "birthDate": "1994-08-18",
       "age": null,
       "pa": 585,
       "position": "OF",
@@ -2047,6 +2132,7 @@
     },
     {
       "name": "Greene, Riley",
+      "birthDate": "2000-09-28",
       "age": null,
       "pa": 584,
       "position": "OF",
@@ -2071,6 +2157,7 @@
     },
     {
       "name": "Marte, Ketel",
+      "birthDate": "1993-10-12",
       "age": null,
       "pa": 583,
       "position": "OF",
@@ -2095,6 +2182,7 @@
     },
     {
       "name": "Burger, Jake",
+      "birthDate": "1996-04-10",
       "age": null,
       "pa": 579,
       "position": "OF",
@@ -2119,6 +2207,7 @@
     },
     {
       "name": "Soler, Jorge",
+      "birthDate": "1992-02-25",
       "age": null,
       "pa": 574,
       "position": "OF",
@@ -2143,6 +2232,7 @@
     },
     {
       "name": "Chourio, Jackson",
+      "birthDate": "2004-03-11",
       "age": null,
       "pa": 573,
       "position": "OF",
@@ -2166,6 +2256,7 @@
     },
     {
       "name": "Stott, Bryson",
+      "birthDate": "1997-10-06",
       "age": null,
       "pa": 571,
       "position": "OF",
@@ -2190,6 +2281,7 @@
     },
     {
       "name": "Rafaela, Ceddanne",
+      "birthDate": "2000-09-18",
       "age": null,
       "pa": 571,
       "position": "OF",
@@ -2214,6 +2306,7 @@
     },
     {
       "name": "Bellinger, Cody",
+      "birthDate": "1995-07-13",
       "age": null,
       "pa": 569,
       "position": "OF",
@@ -2238,6 +2331,7 @@
     },
     {
       "name": "Vierling, Matt",
+      "birthDate": "1996-09-16",
       "age": null,
       "pa": 567,
       "position": "OF",
@@ -2262,6 +2356,7 @@
     },
     {
       "name": "Busch, Michael",
+      "birthDate": "1997-11-09",
       "age": null,
       "pa": 567,
       "position": "OF",
@@ -2286,6 +2381,7 @@
     },
     {
       "name": "Lowe, Nathaniel",
+      "birthDate": "1995-07-07",
       "age": null,
       "pa": 565,
       "position": "OF",
@@ -2310,6 +2406,7 @@
     },
     {
       "name": "Cowser, Colton",
+      "birthDate": "2000-03-20",
       "age": null,
       "pa": 561,
       "position": "OF",
@@ -2334,6 +2431,7 @@
     },
     {
       "name": "Langford, Wyatt",
+      "birthDate": "2001-11-15",
       "age": null,
       "pa": 557,
       "position": "OF",
@@ -2357,6 +2455,7 @@
     },
     {
       "name": "Keith, Colt",
+      "birthDate": "2001-08-14",
       "age": null,
       "pa": 556,
       "position": "OF",
@@ -2380,6 +2479,7 @@
     },
     {
       "name": "Pasquantino, Vinnie",
+      "birthDate": "1997-10-10",
       "age": null,
       "pa": 554,
       "position": "OF",
@@ -2404,6 +2504,7 @@
     },
     {
       "name": "Gurriel Jr., Lourdes",
+      "birthDate": "1993-10-10",
       "age": null,
       "pa": 553,
       "position": "OF",
@@ -2428,6 +2529,7 @@
     },
     {
       "name": "Walker, Christian",
+      "birthDate": "1991-03-28",
       "age": null,
       "pa": 552,
       "position": "OF",
@@ -2452,6 +2554,7 @@
     },
     {
       "name": "Gelof, Zack",
+      "birthDate": "1999-10-19",
       "age": null,
       "pa": 547,
       "position": "OF",
@@ -2476,6 +2579,7 @@
     },
     {
       "name": "Smith, Will",
+      "birthDate": "1995-03-28",
       "age": null,
       "pa": 544,
       "position": "OF",
@@ -2500,6 +2604,7 @@
     },
     {
       "name": "Kwan, Steven",
+      "birthDate": "1997-09-05",
       "age": null,
       "pa": 540,
       "position": "OF",
@@ -2524,6 +2629,7 @@
     },
     {
       "name": "Rodgers, Brendan",
+      "birthDate": "1996-08-09",
       "age": null,
       "pa": 539,
       "position": "OF",
@@ -2548,6 +2654,7 @@
     },
     {
       "name": "Turner, Justin",
+      "birthDate": "1984-11-23",
       "age": null,
       "pa": 539,
       "position": "OF",
@@ -2572,6 +2679,7 @@
     },
     {
       "name": "Turner, Trea",
+      "birthDate": "1993-06-30",
       "age": null,
       "pa": 539,
       "position": "OF",
@@ -2596,6 +2704,7 @@
     },
     {
       "name": "Sánchez, Jesús",
+      "birthDate": "1997-10-07",
       "age": null,
       "pa": 537,
       "position": "OF",
@@ -2620,6 +2729,7 @@
     },
     {
       "name": "France, Ty",
+      "birthDate": "1994-07-13",
       "age": null,
       "pa": 535,
       "position": "OF",
@@ -2644,6 +2754,7 @@
     },
     {
       "name": "Langeliers, Shea",
+      "birthDate": "1997-11-18",
       "age": null,
       "pa": 534,
       "position": "OF",
@@ -2668,6 +2779,7 @@
     },
     {
       "name": "Seager, Corey",
+      "birthDate": "1994-04-27",
       "age": null,
       "pa": 533,
       "position": "OF",
@@ -2692,6 +2804,7 @@
     },
     {
       "name": "Taveras, Leody",
+      "birthDate": "1998-09-08",
       "age": null,
       "pa": 529,
       "position": "OF",
@@ -2716,6 +2829,7 @@
     },
     {
       "name": "Thomas, Lane",
+      "birthDate": "1995-08-23",
       "age": null,
       "pa": 528,
       "position": "OF",
@@ -2740,6 +2854,7 @@
     },
     {
       "name": "García Jr., Luis",
+      "birthDate": "2000-05-16",
       "age": null,
       "pa": 528,
       "position": "OF",
@@ -2764,6 +2879,7 @@
     },
     {
       "name": "Frelick, Sal",
+      "birthDate": "2000-04-19",
       "age": null,
       "pa": 524,
       "position": "OF",
@@ -2788,6 +2904,7 @@
     },
     {
       "name": "Benintendi, Andrew",
+      "birthDate": "1994-07-06",
       "age": null,
       "pa": 522,
       "position": "OF",
@@ -2812,6 +2929,7 @@
     },
     {
       "name": "O'Hoppe, Logan",
+      "birthDate": "2000-02-09",
       "age": null,
       "pa": 522,
       "position": "OF",
@@ -2836,6 +2954,7 @@
     },
     {
       "name": "Young, Jacob",
+      "birthDate": "1999-07-27",
       "age": null,
       "pa": 521,
       "position": "OF",
@@ -2860,6 +2979,7 @@
     },
     {
       "name": "Ramos, Heliot",
+      "birthDate": "1999-09-07",
       "age": null,
       "pa": 518,
       "position": "OF",
@@ -2884,6 +3004,7 @@
     },
     {
       "name": "Hoskins, Rhys",
+      "birthDate": "1993-03-17",
       "age": null,
       "pa": 517,
       "position": "OF",
@@ -2907,6 +3028,7 @@
     },
     {
       "name": "Betts, Mookie",
+      "birthDate": "1992-10-07",
       "age": null,
       "pa": 516,
       "position": "OF",
@@ -2931,6 +3053,7 @@
     },
     {
       "name": "McCutchen, Andrew",
+      "birthDate": "1986-10-10",
       "age": null,
       "pa": 515,
       "position": "OF",
@@ -2955,6 +3078,7 @@
     },
     {
       "name": "Stephenson, Tyler",
+      "birthDate": "1996-08-16",
       "age": null,
       "pa": 515,
       "position": "OF",
@@ -2979,6 +3103,7 @@
     },
     {
       "name": "Varsho, Daulton",
+      "birthDate": "1996-07-02",
       "age": null,
       "pa": 513,
       "position": "OF",
@@ -3003,6 +3128,7 @@
     },
     {
       "name": "Meyers, Jake",
+      "birthDate": "1996-06-18",
       "age": null,
       "pa": 513,
       "position": "OF",
@@ -3027,6 +3153,7 @@
     },
     {
       "name": "Ortiz, Joey",
+      "birthDate": "1998-07-14",
       "age": null,
       "pa": 511,
       "position": "OF",
@@ -3051,6 +3178,7 @@
     },
     {
       "name": "Winker, Jesse",
+      "birthDate": "1993-08-17",
       "age": null,
       "pa": 508,
       "position": "OF",
@@ -3075,6 +3203,7 @@
     },
     {
       "name": "Mountcastle, Ryan",
+      "birthDate": "1997-02-18",
       "age": null,
       "pa": 507,
       "position": "OF",
@@ -3099,6 +3228,7 @@
     },
     {
       "name": "Sheets, Gavin",
+      "birthDate": "1996-04-23",
       "age": null,
       "pa": 501,
       "position": "OF",
@@ -3123,6 +3253,7 @@
     },
     {
       "name": "Mullins, Cedric",
+      "birthDate": "1994-10-01",
       "age": null,
       "pa": 499,
       "position": "OF",
@@ -3147,6 +3278,7 @@
     },
     {
       "name": "Blackmon, Charlie",
+      "birthDate": "1986-07-01",
       "age": null,
       "pa": 499,
       "position": "OF",
@@ -3171,6 +3303,7 @@
     },
     {
       "name": "Kiner-Falefa, Isiah",
+      "birthDate": "1995-03-23",
       "age": null,
       "pa": 496,
       "position": "OF",
@@ -3195,6 +3328,7 @@
     },
     {
       "name": "McCarthy, Jake",
+      "birthDate": "1997-07-30",
       "age": null,
       "pa": 495,
       "position": "OF",
@@ -3219,6 +3353,7 @@
     },
     {
       "name": "Martinez, J.D.",
+      "birthDate": "1987-08-21",
       "age": null,
       "pa": 495,
       "position": "OF",
@@ -3243,6 +3378,7 @@
     },
     {
       "name": "O'Hearn, Ryan",
+      "birthDate": "1993-07-26",
       "age": null,
       "pa": 494,
       "position": "OF",
@@ -3267,6 +3403,7 @@
     },
     {
       "name": "Heim, Jonah",
+      "birthDate": "1995-06-27",
       "age": null,
       "pa": 491,
       "position": "OF",
@@ -3291,6 +3428,7 @@
     },
     {
       "name": "Conforto, Michael",
+      "birthDate": "1993-03-01",
       "age": null,
       "pa": 488,
       "position": "OF",
@@ -3315,6 +3453,7 @@
     },
     {
       "name": "Wong, Connor",
+      "birthDate": "1996-05-19",
       "age": null,
       "pa": 487,
       "position": "OF",
@@ -3339,6 +3478,7 @@
     },
     {
       "name": "Lux, Gavin",
+      "birthDate": "1997-11-23",
       "age": null,
       "pa": 487,
       "position": "OF",
@@ -3362,6 +3502,7 @@
     },
     {
       "name": "Ruiz, Keibert",
+      "birthDate": "1998-07-20",
       "age": null,
       "pa": 485,
       "position": "OF",
@@ -3386,6 +3527,7 @@
     },
     {
       "name": "Caballero, José",
+      "birthDate": "1996-08-30",
       "age": null,
       "pa": 483,
       "position": "OF",
@@ -3410,6 +3552,7 @@
     },
     {
       "name": "DeJong, Paul",
+      "birthDate": "1993-08-02",
       "age": null,
       "pa": 482,
       "position": "OF",
@@ -3434,6 +3577,7 @@
     },
     {
       "name": "Pham, Tommy",
+      "birthDate": "1988-03-08",
       "age": null,
       "pa": 478,
       "position": "OF",
@@ -3458,6 +3602,7 @@
     },
     {
       "name": "Marsh, Brandon",
+      "birthDate": "1997-12-18",
       "age": null,
       "pa": 476,
       "position": "OF",
@@ -3482,6 +3627,7 @@
     },
     {
       "name": "Rojas, Josh",
+      "birthDate": "1994-06-30",
       "age": null,
       "pa": 476,
       "position": "OF",
@@ -3506,6 +3652,7 @@
     },
     {
       "name": "Yastrzemski, Mike",
+      "birthDate": "1990-08-23",
       "age": null,
       "pa": 474,
       "position": "OF",
@@ -3530,6 +3677,7 @@
     },
     {
       "name": "O'Neill, Tyler",
+      "birthDate": "1995-06-22",
       "age": null,
       "pa": 473,
       "position": "OF",
@@ -3554,6 +3702,7 @@
     },
     {
       "name": "McNeil, Jeff",
+      "birthDate": "1992-04-08",
       "age": null,
       "pa": 472,
       "position": "OF",
@@ -3578,6 +3727,7 @@
     },
     {
       "name": "Kim, Ha-Seong",
+      "birthDate": "1995-10-17",
       "age": null,
       "pa": 470,
       "position": "OF",
@@ -3602,6 +3752,7 @@
     },
     {
       "name": "Harris II, Michael",
+      "birthDate": "2001-03-07",
       "age": null,
       "pa": 470,
       "position": "OF",
@@ -3626,6 +3777,7 @@
     },
     {
       "name": "Riley, Austin",
+      "birthDate": "1997-04-02",
       "age": null,
       "pa": 469,
       "position": "OF",
@@ -3650,6 +3802,7 @@
     },
     {
       "name": "Polanco, Jorge",
+      "birthDate": "1993-07-05",
       "age": null,
       "pa": 469,
       "position": "OF",
@@ -3674,6 +3827,7 @@
     },
     {
       "name": "Jeffers, Ryan",
+      "birthDate": "1997-06-03",
       "age": null,
       "pa": 465,
       "position": "OF",
@@ -3698,6 +3852,7 @@
     },
     {
       "name": "Candelario, Jeimer",
+      "birthDate": "1993-11-24",
       "age": null,
       "pa": 463,
       "position": "OF",
@@ -3722,6 +3877,7 @@
     },
     {
       "name": "Bogaerts, Xander",
+      "birthDate": "1992-10-01",
       "age": null,
       "pa": 463,
       "position": "OF",
@@ -3746,6 +3902,7 @@
     },
     {
       "name": "Canha, Mark",
+      "birthDate": "1989-02-15",
       "age": null,
       "pa": 462,
       "position": "OF",
@@ -3770,6 +3927,7 @@
     },
     {
       "name": "Urshela, Gio",
+      "birthDate": "1991-10-11",
       "age": null,
       "pa": 461,
       "position": "OF",
@@ -3794,6 +3952,7 @@
     },
     {
       "name": "Stanton, Giancarlo",
+      "birthDate": "1989-11-08",
       "age": null,
       "pa": 459,
       "position": "OF",
@@ -3818,6 +3977,7 @@
     },
     {
       "name": "Schuemann, Max",
+      "birthDate": "1997-06-11",
       "age": null,
       "pa": 459,
       "position": "OF",
@@ -3841,6 +4001,7 @@
     },
     {
       "name": "Toglia, Michael",
+      "birthDate": "1998-08-16",
       "age": null,
       "pa": 458,
       "position": "OF",
@@ -3865,6 +4026,7 @@
     },
     {
       "name": "Raley, Luke",
+      "birthDate": "1994-09-19",
       "age": null,
       "pa": 455,
       "position": "OF",
@@ -3889,6 +4051,7 @@
     },
     {
       "name": "Vientos, Mark",
+      "birthDate": "1999-12-11",
       "age": null,
       "pa": 454,
       "position": "OF",
@@ -3913,6 +4076,7 @@
     },
     {
       "name": "Schneider, Davis",
+      "birthDate": "1999-01-26",
       "age": null,
       "pa": 454,
       "position": "OF",
@@ -3937,6 +4101,7 @@
     },
     {
       "name": "Clement, Ernie",
+      "birthDate": "1996-03-22",
       "age": null,
       "pa": 452,
       "position": "OF",
@@ -3961,6 +4126,7 @@
     },
     {
       "name": "Butler, Lawrence",
+      "birthDate": "2000-07-10",
       "age": null,
       "pa": 451,
       "position": "OF",
@@ -3985,6 +4151,7 @@
     },
     {
       "name": "Melendez, MJ",
+      "birthDate": "1998-11-29",
       "age": null,
       "pa": 451,
       "position": "OF",
@@ -4009,6 +4176,7 @@
     },
     {
       "name": "Crawford, J.P.",
+      "birthDate": "1995-01-11",
       "age": null,
       "pa": 451,
       "position": "OF",
@@ -4033,6 +4201,7 @@
     },
     {
       "name": "Adell, Jo",
+      "birthDate": "1999-04-08",
       "age": null,
       "pa": 451,
       "position": "OF",
@@ -4057,6 +4226,7 @@
     },
     {
       "name": "Pederson, Joc",
+      "birthDate": "1992-04-21",
       "age": null,
       "pa": 449,
       "position": "OF",
@@ -4081,6 +4251,7 @@
     },
     {
       "name": "Kelenic, Jarred",
+      "birthDate": "1999-07-16",
       "age": null,
       "pa": 449,
       "position": "OF",
@@ -4105,6 +4276,7 @@
     },
     {
       "name": "Siri, Jose",
+      "birthDate": "1995-07-22",
       "age": null,
       "pa": 448,
       "position": "OF",
@@ -4129,6 +4301,7 @@
     },
     {
       "name": "Bailey, Patrick",
+      "birthDate": "1999-05-29",
       "age": null,
       "pa": 448,
       "position": "OF",
@@ -4153,6 +4326,7 @@
     },
     {
       "name": "Westburg, Jordan",
+      "birthDate": "1999-02-18",
       "age": null,
       "pa": 447,
       "position": "OF",
@@ -4177,6 +4351,7 @@
     },
     {
       "name": "Abreu, Wilyer",
+      "birthDate": "1999-06-24",
       "age": null,
       "pa": 447,
       "position": "OF",
@@ -4201,6 +4376,7 @@
     },
     {
       "name": "Triolo, Jared",
+      "birthDate": "1998-02-08",
       "age": null,
       "pa": 446,
       "position": "OF",
@@ -4225,6 +4401,7 @@
     },
     {
       "name": "Lopez, Nicky",
+      "birthDate": "1995-03-13",
       "age": null,
       "pa": 445,
       "position": "OF",
@@ -4249,6 +4426,7 @@
     },
     {
       "name": "Pages, Andy",
+      "birthDate": "2000-12-08",
       "age": null,
       "pa": 443,
       "position": "OF",
@@ -4272,6 +4450,7 @@
     },
     {
       "name": "Rocchio, Brayan",
+      "birthDate": "2001-01-13",
       "age": null,
       "pa": 442,
       "position": "OF",
@@ -4296,6 +4475,7 @@
     },
     {
       "name": "Moore, Dylan",
+      "birthDate": "1992-08-02",
       "age": null,
       "pa": 441,
       "position": "OF",
@@ -4320,6 +4500,7 @@
     },
     {
       "name": "Tatis Jr., Fernando",
+      "birthDate": "1999-01-02",
       "age": null,
       "pa": 438,
       "position": "OF",
@@ -4344,6 +4525,7 @@
     },
     {
       "name": "Bader, Harrison",
+      "birthDate": "1994-06-03",
       "age": null,
       "pa": 437,
       "position": "OF",
@@ -4368,6 +4550,7 @@
     },
     {
       "name": "Albies, Ozzie",
+      "birthDate": "1997-01-07",
       "age": null,
       "pa": 435,
       "position": "OF",
@@ -4392,6 +4575,7 @@
     },
     {
       "name": "Lopez, Otto",
+      "birthDate": "1998-10-01",
       "age": null,
       "pa": 434,
       "position": "OF",
@@ -4415,6 +4599,7 @@
     },
     {
       "name": "Perkins, Blake",
+      "birthDate": "1996-09-10",
       "age": null,
       "pa": 434,
       "position": "OF",
@@ -4439,6 +4624,7 @@
     },
     {
       "name": "Garver, Mitch",
+      "birthDate": "1991-01-15",
       "age": null,
       "pa": 430,
       "position": "OF",
@@ -4463,6 +4649,7 @@
     },
     {
       "name": "Miranda, Jose",
+      "birthDate": "1998-06-29",
       "age": null,
       "pa": 429,
       "position": "OF",
@@ -4487,6 +4674,7 @@
     },
     {
       "name": "Dubón, Mauricio",
+      "birthDate": "1994-07-19",
       "age": null,
       "pa": 428,
       "position": "OF",
@@ -4511,6 +4699,7 @@
     },
     {
       "name": "Isbel, Kyle",
+      "birthDate": "1997-03-03",
       "age": null,
       "pa": 426,
       "position": "OF",
@@ -4535,6 +4724,7 @@
     },
     {
       "name": "Robert Jr., Luis",
+      "birthDate": "1997-08-03",
       "age": null,
       "pa": 425,
       "position": "OF",
@@ -4559,6 +4749,7 @@
     },
     {
       "name": "Lowe, Brandon",
+      "birthDate": "1994-07-06",
       "age": null,
       "pa": 425,
       "position": "OF",
@@ -4583,6 +4774,7 @@
     },
     {
       "name": "Pérez, Wenceel",
+      "birthDate": "1999-10-30",
       "age": null,
       "pa": 425,
       "position": "OF",
@@ -4606,6 +4798,7 @@
     },
     {
       "name": "Renfroe, Hunter",
+      "birthDate": "1992-01-28",
       "age": null,
       "pa": 424,
       "position": "OF",
@@ -4630,6 +4823,7 @@
     },
     {
       "name": "Haniger, Mitch",
+      "birthDate": "1990-12-23",
       "age": null,
       "pa": 423,
       "position": "OF",
@@ -4654,6 +4848,7 @@
     },
     {
       "name": "Tellez, Rowdy",
+      "birthDate": "1995-03-16",
       "age": null,
       "pa": 421,
       "position": "OF",
@@ -4678,6 +4873,7 @@
     },
     {
       "name": "Yoshida, Masataka",
+      "birthDate": "1993-07-15",
       "age": null,
       "pa": 421,
       "position": "OF",
@@ -4702,6 +4898,7 @@
     },
     {
       "name": "Moniak, Mickey",
+      "birthDate": "1998-05-13",
       "age": null,
       "pa": 418,
       "position": "OF",
@@ -4726,6 +4923,7 @@
     },
     {
       "name": "Joe, Connor",
+      "birthDate": "1992-08-16",
       "age": null,
       "pa": 416,
       "position": "OF",
@@ -4750,6 +4948,7 @@
     },
     {
       "name": "Wells, Austin",
+      "birthDate": "1999-07-12",
       "age": null,
       "pa": 414,
       "position": "OF",
@@ -4774,6 +4973,7 @@
     },
     {
       "name": "Realmuto, J.T.",
+      "birthDate": "1991-03-18",
       "age": null,
       "pa": 413,
       "position": "OF",
@@ -4798,6 +4998,7 @@
     },
     {
       "name": "Crow-Armstrong, Pete",
+      "birthDate": "2002-03-25",
       "age": null,
       "pa": 410,
       "position": "OF",
@@ -4822,6 +5023,7 @@
     },
     {
       "name": "Singleton, Jon",
+      "birthDate": "1991-09-18",
       "age": null,
       "pa": 405,
       "position": "OF",
@@ -4846,6 +5048,7 @@
     },
     {
       "name": "Nootbaar, Lars",
+      "birthDate": "1997-09-08",
       "age": null,
       "pa": 405,
       "position": "OF",
@@ -4870,6 +5073,7 @@
     },
     {
       "name": "Gorman, Nolan",
+      "birthDate": "2000-05-10",
       "age": null,
       "pa": 402,
       "position": "OF",
@@ -4894,6 +5098,7 @@
     },
     {
       "name": "Wade Jr., LaMonte",
+      "birthDate": "1994-01-01",
       "age": null,
       "pa": 401,
       "position": "OF",
@@ -4918,6 +5123,7 @@
     },
     {
       "name": "Larnach, Trevor",
+      "birthDate": "1997-02-26",
       "age": null,
       "pa": 400,
       "position": "OF",
@@ -4942,6 +5148,7 @@
     },
     {
       "name": "Brown, Seth",
+      "birthDate": "1992-07-13",
       "age": null,
       "pa": 400,
       "position": "OF",
@@ -4966,6 +5173,7 @@
     },
     {
       "name": "Kepler, Max",
+      "birthDate": "1993-02-10",
       "age": null,
       "pa": 399,
       "position": "OF",
@@ -4990,6 +5198,7 @@
     },
     {
       "name": "Hayes, Ke'Bryan",
+      "birthDate": "1997-01-28",
       "age": null,
       "pa": 396,
       "position": "OF",
@@ -5014,6 +5223,7 @@
     },
     {
       "name": "Lee, Korey",
+      "birthDate": "1998-07-25",
       "age": null,
       "pa": 394,
       "position": "OF",
@@ -5038,6 +5248,7 @@
     },
     {
       "name": "Hernández, Enrique",
+      "birthDate": "1991-08-24",
       "age": null,
       "pa": 393,
       "position": "OF",
@@ -5062,6 +5273,7 @@
     },
     {
       "name": "Fry, David",
+      "birthDate": "1995-11-20",
       "age": null,
       "pa": 392,
       "position": "OF",
@@ -5086,6 +5298,7 @@
     },
     {
       "name": "Espinal, Santiago",
+      "birthDate": "1994-11-13",
       "age": null,
       "pa": 391,
       "position": "OF",
@@ -5110,6 +5323,7 @@
     },
     {
       "name": "Naylor, Bo",
+      "birthDate": "2000-02-21",
       "age": null,
       "pa": 389,
       "position": "OF",
@@ -5134,6 +5348,7 @@
     },
     {
       "name": "Benson, Will",
+      "birthDate": "1998-06-16",
       "age": null,
       "pa": 388,
       "position": "OF",
@@ -5158,6 +5373,7 @@
     },
     {
       "name": "Buxton, Byron",
+      "birthDate": "1993-12-18",
       "age": null,
       "pa": 388,
       "position": "OF",
@@ -5182,6 +5398,7 @@
     },
     {
       "name": "Perdomo, Geraldo",
+      "birthDate": "1999-10-22",
       "age": null,
       "pa": 388,
       "position": "OF",
@@ -5206,6 +5423,7 @@
     },
     {
       "name": "Gonzales, Nick",
+      "birthDate": "1999-05-27",
       "age": null,
       "pa": 387,
       "position": "OF",
@@ -5230,6 +5448,7 @@
     },
     {
       "name": "Lowe, Josh",
+      "birthDate": "1998-02-02",
       "age": null,
       "pa": 387,
       "position": "OF",
@@ -5254,6 +5473,7 @@
     },
     {
       "name": "Kirk, Alejandro",
+      "birthDate": "1998-11-06",
       "age": null,
       "pa": 386,
       "position": "OF",
@@ -5278,6 +5498,7 @@
     },
     {
       "name": "Freeman, Tyler",
+      "birthDate": "1999-05-21",
       "age": null,
       "pa": 383,
       "position": "OF",
@@ -5302,6 +5523,7 @@
     },
     {
       "name": "Fraley, Jake",
+      "birthDate": "1995-05-25",
       "age": null,
       "pa": 382,
       "position": "OF",
@@ -5326,6 +5548,7 @@
     },
     {
       "name": "Torkelson, Spencer",
+      "birthDate": "1999-08-26",
       "age": null,
       "pa": 381,
       "position": "OF",
@@ -5350,6 +5573,7 @@
     },
     {
       "name": "Estrada, Thairo",
+      "birthDate": "1996-02-22",
       "age": null,
       "pa": 381,
       "position": "OF",
@@ -5374,6 +5598,7 @@
     },
     {
       "name": "Horwitz, Spencer",
+      "birthDate": "1997-11-14",
       "age": null,
       "pa": 381,
       "position": "OF",
@@ -5398,6 +5623,7 @@
     },
     {
       "name": "Rizzo, Anthony",
+      "birthDate": "1989-08-08",
       "age": null,
       "pa": 375,
       "position": "OF",
@@ -5422,6 +5648,7 @@
     },
     {
       "name": "Marte, Starling",
+      "birthDate": "1988-10-09",
       "age": null,
       "pa": 370,
       "position": "OF",
@@ -5446,6 +5673,7 @@
     },
     {
       "name": "Sosa, Lenyn",
+      "birthDate": "2000-01-25",
       "age": null,
       "pa": 369,
       "position": "OF",
@@ -5470,6 +5698,7 @@
     },
     {
       "name": "Fermin, Freddy",
+      "birthDate": "1995-05-16",
       "age": null,
       "pa": 368,
       "position": "OF",
@@ -5494,6 +5723,7 @@
     },
     {
       "name": "Correa, Carlos",
+      "birthDate": "1994-09-22",
       "age": null,
       "pa": 367,
       "position": "OF",
@@ -5518,6 +5748,7 @@
     },
     {
       "name": "Toro, Abraham",
+      "birthDate": "1996-12-20",
       "age": null,
       "pa": 364,
       "position": "OF",
@@ -5542,6 +5773,7 @@
     },
     {
       "name": "Rojas, Johan",
+      "birthDate": "2000-08-14",
       "age": null,
       "pa": 363,
       "position": "OF",
@@ -5566,6 +5798,7 @@
     },
     {
       "name": "Amaya, Miguel",
+      "birthDate": "1999-03-09",
       "age": null,
       "pa": 363,
       "position": "OF",
@@ -5590,6 +5823,7 @@
     },
     {
       "name": "DeLuca, Jonny",
+      "birthDate": "1998-07-10",
       "age": null,
       "pa": 362,
       "position": "OF",
@@ -5614,6 +5848,7 @@
     },
     {
       "name": "Drury, Brandon",
+      "birthDate": "1992-08-21",
       "age": null,
       "pa": 360,
       "position": "OF",
@@ -5638,6 +5873,7 @@
     },
     {
       "name": "Contreras, Willson",
+      "birthDate": "1992-05-13",
       "age": null,
       "pa": 358,
       "position": "OF",
@@ -5662,6 +5898,7 @@
     },
     {
       "name": "Massey, Michael",
+      "birthDate": "1998-03-22",
       "age": null,
       "pa": 356,
       "position": "OF",
@@ -5686,6 +5923,7 @@
     },
     {
       "name": "Brennan, Will",
+      "birthDate": "1998-02-02",
       "age": null,
       "pa": 353,
       "position": "OF",
@@ -5710,6 +5948,7 @@
     },
     {
       "name": "Díaz, Elias",
+      "birthDate": "1990-11-17",
       "age": null,
       "pa": 351,
       "position": "OF",
@@ -5734,6 +5973,7 @@
     },
     {
       "name": "Moreno, Gabriel",
+      "birthDate": "2000-02-14",
       "age": null,
       "pa": 351,
       "position": "OF",
@@ -5758,6 +5998,7 @@
     },
     {
       "name": "Tauchman, Mike",
+      "birthDate": "1990-12-03",
       "age": null,
       "pa": 350,
       "position": "OF",
@@ -5782,6 +6023,7 @@
     },
     {
       "name": "Jiménez, Eloy",
+      "birthDate": "1996-11-27",
       "age": null,
       "pa": 349,
       "position": "OF",
@@ -5806,6 +6048,7 @@
     },
     {
       "name": "Rosario, Amed",
+      "birthDate": "1995-11-20",
       "age": null,
       "pa": 346,
       "position": "OF",
@@ -5830,6 +6073,7 @@
     },
     {
       "name": "Cave, Jake",
+      "birthDate": "1992-12-04",
       "age": null,
       "pa": 346,
       "position": "OF",
@@ -5854,6 +6098,7 @@
     },
     {
       "name": "Bauers, Jake",
+      "birthDate": "1995-10-06",
       "age": null,
       "pa": 346,
       "position": "OF",
@@ -5878,6 +6123,7 @@
     },
     {
       "name": "Taylor, Tyrone",
+      "birthDate": "1994-01-22",
       "age": null,
       "pa": 345,
       "position": "OF",
@@ -5902,6 +6148,7 @@
     },
     {
       "name": "Margot, Manuel",
+      "birthDate": "1994-09-28",
       "age": null,
       "pa": 343,
       "position": "OF",
@@ -5926,6 +6173,7 @@
     },
     {
       "name": "Alvarez, Francisco",
+      "birthDate": "2001-11-19",
       "age": null,
       "pa": 342,
       "position": "OF",
@@ -5950,6 +6198,7 @@
     },
     {
       "name": "Fitzgerald, Tyler",
+      "birthDate": "1997-09-15",
       "age": null,
       "pa": 341,
       "position": "OF",
@@ -5974,6 +6223,7 @@
     },
     {
       "name": "Friedl, TJ",
+      "birthDate": "1995-08-14",
       "age": null,
       "pa": 341,
       "position": "OF",
@@ -5998,6 +6248,7 @@
     },
     {
       "name": "d'Arnaud, Travis",
+      "birthDate": "1989-02-10",
       "age": null,
       "pa": 341,
       "position": "OF",
@@ -6022,6 +6273,7 @@
     },
     {
       "name": "Tucker, Kyle",
+      "birthDate": "1997-01-17",
       "age": null,
       "pa": 339,
       "position": "OF",
@@ -6046,6 +6298,7 @@
     },
     {
       "name": "Rojas, Miguel",
+      "birthDate": "1989-02-24",
       "age": null,
       "pa": 337,
       "position": "OF",
@@ -6070,6 +6323,7 @@
     },
     {
       "name": "Rogers, Jake",
+      "birthDate": "1995-04-18",
       "age": null,
       "pa": 337,
       "position": "OF",
@@ -6094,6 +6348,7 @@
     },
     {
       "name": "Wood, James",
+      "birthDate": "2002-09-17",
       "age": null,
       "pa": 336,
       "position": "OF",
@@ -6117,6 +6372,7 @@
     },
     {
       "name": "Bichette, Bo",
+      "birthDate": "1998-03-05",
       "age": null,
       "pa": 336,
       "position": "OF",
@@ -6141,6 +6397,7 @@
     },
     {
       "name": "Fortes, Nick",
+      "birthDate": "1996-11-11",
       "age": null,
       "pa": 335,
       "position": "OF",
@@ -6165,6 +6422,7 @@
     },
     {
       "name": "Merrifield, Whit",
+      "birthDate": "1989-01-24",
       "age": null,
       "pa": 335,
       "position": "OF",
@@ -6189,6 +6447,7 @@
     },
     {
       "name": "Siani, Michael",
+      "birthDate": "1999-07-16",
       "age": null,
       "pa": 334,
       "position": "OF",
@@ -6213,6 +6472,7 @@
     },
     {
       "name": "Duvall, Adam",
+      "birthDate": "1988-09-04",
       "age": null,
       "pa": 330,
       "position": "OF",
@@ -6237,6 +6497,7 @@
     },
     {
       "name": "Rortvedt, Ben",
+      "birthDate": "1997-09-25",
       "age": null,
       "pa": 328,
       "position": "OF",
@@ -6261,6 +6522,7 @@
     },
     {
       "name": "Cabrera, Oswaldo",
+      "birthDate": "1999-03-01",
       "age": null,
       "pa": 326,
       "position": "OF",
@@ -6285,6 +6547,7 @@
     },
     {
       "name": "Lewis, Royce",
+      "birthDate": "1999-06-05",
       "age": null,
       "pa": 325,
       "position": "OF",
@@ -6309,6 +6572,7 @@
     },
     {
       "name": "McKinstry, Zach",
+      "birthDate": "1995-04-29",
       "age": null,
       "pa": 325,
       "position": "OF",
@@ -6333,6 +6597,7 @@
     },
     {
       "name": "Jansen, Danny",
+      "birthDate": "1995-04-15",
       "age": null,
       "pa": 324,
       "position": "OF",
@@ -6357,6 +6622,7 @@
     },
     {
       "name": "Andujar, Miguel",
+      "birthDate": "1995-03-02",
       "age": null,
       "pa": 319,
       "position": "OF",
@@ -6381,6 +6647,7 @@
     },
     {
       "name": "Rosario, Eddie",
+      "birthDate": "1991-09-28",
       "age": null,
       "pa": 319,
       "position": "OF",
@@ -6405,6 +6672,7 @@
     },
     {
       "name": "Hamilton, David",
+      "birthDate": "1997-09-29",
       "age": null,
       "pa": 317,
       "position": "OF",
@@ -6429,6 +6697,7 @@
     },
     {
       "name": "Palacios, Richie",
+      "birthDate": "1997-05-16",
       "age": null,
       "pa": 316,
       "position": "OF",
@@ -6453,6 +6722,7 @@
     },
     {
       "name": "Vázquez, Christian",
+      "birthDate": "1990-08-21",
       "age": null,
       "pa": 315,
       "position": "OF",
@@ -6477,6 +6747,7 @@
     },
     {
       "name": "Yelich, Christian",
+      "birthDate": "1991-12-05",
       "age": null,
       "pa": 315,
       "position": "OF",
@@ -6501,6 +6772,7 @@
     },
     {
       "name": "Pillar, Kevin",
+      "birthDate": "1989-01-04",
       "age": null,
       "pa": 314,
       "position": "OF",
@@ -6525,6 +6797,7 @@
     },
     {
       "name": "Kelly, Carson",
+      "birthDate": "1994-07-14",
       "age": null,
       "pa": 313,
       "position": "OF",
@@ -6549,6 +6822,7 @@
     },
     {
       "name": "Meneses, Joey",
+      "birthDate": "1992-05-06",
       "age": null,
       "pa": 313,
       "position": "OF",
@@ -6573,6 +6847,7 @@
     },
     {
       "name": "Newman, Kevin",
+      "birthDate": "1993-08-04",
       "age": null,
       "pa": 311,
       "position": "OF",
@@ -6597,6 +6872,7 @@
     },
     {
       "name": "Solano, Donovan",
+      "birthDate": "1987-12-17",
       "age": null,
       "pa": 309,
       "position": "OF",
@@ -6621,6 +6897,7 @@
     },
     {
       "name": "Laureano, Ramón",
+      "birthDate": "1994-07-15",
       "age": null,
       "pa": 309,
       "position": "OF",
@@ -6645,6 +6922,7 @@
     },
     {
       "name": "Smith, Dominic",
+      "birthDate": "1995-06-15",
       "age": null,
       "pa": 307,
       "position": "OF",
@@ -6669,6 +6947,7 @@
     },
     {
       "name": "Refsnyder, Rob",
+      "birthDate": "1991-03-26",
       "age": null,
       "pa": 307,
       "position": "OF",
@@ -6693,6 +6972,7 @@
     },
     {
       "name": "Rengifo, Luis",
+      "birthDate": "1997-02-26",
       "age": null,
       "pa": 304,
       "position": "OF",
@@ -6717,6 +6997,7 @@
     },
     {
       "name": "Vargas, Ildemaro",
+      "birthDate": "1991-07-16",
       "age": null,
       "pa": 303,
       "position": "OF",
@@ -6741,6 +7022,7 @@
     },
     {
       "name": "Edwards, Xavier",
+      "birthDate": "1999-08-09",
       "age": null,
       "pa": 303,
       "position": "OF",
@@ -6765,6 +7047,7 @@
     },
     {
       "name": "Rivera, Emmanuel",
+      "birthDate": "1996-06-29",
       "age": null,
       "pa": 302,
       "position": "OF",
@@ -6789,6 +7072,7 @@
     },
     {
       "name": "Julien, Edouard",
+      "birthDate": "1999-04-30",
       "age": null,
       "pa": 301,
       "position": "OF",
@@ -6813,6 +7097,7 @@
     },
     {
       "name": "Urías, Ramón",
+      "birthDate": "1994-06-03",
       "age": null,
       "pa": 301,
       "position": "OF",
@@ -6837,6 +7122,7 @@
     },
     {
       "name": "Taylor, Michael A.",
+      "birthDate": "1991-03-26",
       "age": null,
       "pa": 300,
       "position": "OF",
@@ -6861,6 +7147,7 @@
     },
     {
       "name": "Campusano, Luis",
+      "birthDate": "1998-09-29",
       "age": null,
       "pa": 299,
       "position": "OF",
@@ -6885,6 +7172,7 @@
     },
     {
       "name": "Meadows, Parker",
+      "birthDate": "1999-11-02",
       "age": null,
       "pa": 298,
       "position": "OF",
@@ -6909,6 +7197,7 @@
     },
     {
       "name": "Jones, Nolan",
+      "birthDate": "1998-05-07",
       "age": null,
       "pa": 297,
       "position": "OF",
@@ -6933,6 +7222,7 @@
     },
     {
       "name": "Carpenter, Kerry",
+      "birthDate": "1997-09-02",
       "age": null,
       "pa": 296,
       "position": "OF",
@@ -6957,6 +7247,7 @@
     },
     {
       "name": "Robles, Victor",
+      "birthDate": "1997-05-19",
       "age": null,
       "pa": 295,
       "position": "OF",
@@ -6981,6 +7272,7 @@
     },
     {
       "name": "Frazier, Adam",
+      "birthDate": "1991-12-14",
       "age": null,
       "pa": 294,
       "position": "OF",
@@ -7005,6 +7297,7 @@
     },
     {
       "name": "Muncy, Max",
+      "birthDate": "1990-08-25",
       "age": null,
       "pa": 293,
       "position": "OF",
@@ -7029,6 +7322,7 @@
     },
     {
       "name": "Iglesias, Jose",
+      "birthDate": "1990-01-05",
       "age": null,
       "pa": 291,
       "position": "OF",
@@ -7052,6 +7346,7 @@
     },
     {
       "name": "Báez, Javier",
+      "birthDate": "1992-12-01",
       "age": null,
       "pa": 289,
       "position": "OF",
@@ -7076,6 +7371,7 @@
     },
     {
       "name": "Duran, Ezequiel",
+      "birthDate": "1999-05-22",
       "age": null,
       "pa": 285,
       "position": "OF",
@@ -7100,6 +7396,7 @@
     },
     {
       "name": "Bart, Joey",
+      "birthDate": "1996-12-15",
       "age": null,
       "pa": 282,
       "position": "OF",
@@ -7124,6 +7421,7 @@
     },
     {
       "name": "Stallings, Jacob",
+      "birthDate": "1989-12-22",
       "age": null,
       "pa": 281,
       "position": "OF",
@@ -7148,6 +7446,7 @@
     },
     {
       "name": "Kiermaier, Kevin",
+      "birthDate": "1990-04-22",
       "age": null,
       "pa": 281,
       "position": "OF",
@@ -7172,6 +7471,7 @@
     },
     {
       "name": "Sánchez, Gary",
+      "birthDate": "1992-12-02",
       "age": null,
       "pa": 280,
       "position": "OF",
@@ -7196,6 +7496,7 @@
     },
     {
       "name": "Grichuk, Randal",
+      "birthDate": "1991-08-13",
       "age": null,
       "pa": 279,
       "position": "OF",
@@ -7220,6 +7521,7 @@
     },
     {
       "name": "Bruján, Vidal",
+      "birthDate": "1998-02-09",
       "age": null,
       "pa": 278,
       "position": "OF",
@@ -7244,6 +7546,7 @@
     },
     {
       "name": "Nevin, Tyler",
+      "birthDate": "1997-05-29",
       "age": null,
       "pa": 278,
       "position": "OF",
@@ -7268,6 +7571,7 @@
     },
     {
       "name": "Suwinski, Jack",
+      "birthDate": "1998-07-29",
       "age": null,
       "pa": 277,
       "position": "OF",
@@ -7292,6 +7596,7 @@
     },
     {
       "name": "Gordon, Nick",
+      "birthDate": "1995-10-24",
       "age": null,
       "pa": 275,
       "position": "OF",
@@ -7316,6 +7621,7 @@
     },
     {
       "name": "Caratini, Victor",
+      "birthDate": "1993-08-17",
       "age": null,
       "pa": 274,
       "position": "OF",
@@ -7340,6 +7646,7 @@
     },
     {
       "name": "Sosa, Edmundo",
+      "birthDate": "1996-03-06",
       "age": null,
       "pa": 274,
       "position": "OF",
@@ -7364,6 +7671,7 @@
     },
     {
       "name": "Bride, Jonah",
+      "birthDate": "1995-12-27",
       "age": null,
       "pa": 272,
       "position": "OF",
@@ -7388,6 +7696,7 @@
     },
     {
       "name": "Wisely, Brett",
+      "birthDate": "1999-05-08",
       "age": null,
       "pa": 272,
       "position": "OF",
@@ -7412,6 +7721,7 @@
     },
     {
       "name": "McCormick, Chas",
+      "birthDate": "1995-04-19",
       "age": null,
       "pa": 267,
       "position": "OF",
@@ -7436,6 +7746,7 @@
     },
     {
       "name": "Senzel, Nick",
+      "birthDate": "1995-06-29",
       "age": null,
       "pa": 267,
       "position": "OF",
@@ -7460,6 +7771,7 @@
     },
     {
       "name": "Carlson, Dylan",
+      "birthDate": "1998-10-23",
       "age": null,
       "pa": 265,
       "position": "OF",
@@ -7484,6 +7796,7 @@
     },
     {
       "name": "Murphy, Sean",
+      "birthDate": "1994-10-04",
       "age": null,
       "pa": 264,
       "position": "OF",
@@ -7508,6 +7821,7 @@
     },
     {
       "name": "Higashioka, Kyle",
+      "birthDate": "1990-04-20",
       "age": null,
       "pa": 263,
       "position": "OF",
@@ -7532,6 +7846,7 @@
     },
     {
       "name": "Loperfido, Joey",
+      "birthDate": "1999-05-11",
       "age": null,
       "pa": 262,
       "position": "OF",
@@ -7555,6 +7870,7 @@
     },
     {
       "name": "Wallner, Matt",
+      "birthDate": "1997-12-12",
       "age": null,
       "pa": 261,
       "position": "OF",
@@ -7579,6 +7895,7 @@
     },
     {
       "name": "Peralta, David",
+      "birthDate": "1987-08-14",
       "age": null,
       "pa": 260,
       "position": "OF",
@@ -7603,6 +7920,7 @@
     },
     {
       "name": "Gallo, Joey",
+      "birthDate": "1993-11-19",
       "age": null,
       "pa": 260,
       "position": "OF",
@@ -7627,6 +7945,7 @@
     },
     {
       "name": "Herrera, Iván",
+      "birthDate": "2000-06-01",
       "age": null,
       "pa": 259,
       "position": "OF",
@@ -7651,6 +7970,7 @@
     },
     {
       "name": "Heyward, Jason",
+      "birthDate": "1989-08-09",
       "age": null,
       "pa": 258,
       "position": "OF",
@@ -7675,6 +7995,7 @@
     },
     {
       "name": "Martin, Austin",
+      "birthDate": "1999-03-23",
       "age": null,
       "pa": 257,
       "position": "OF",
@@ -7698,6 +8019,7 @@
     },
     {
       "name": "Hays, Austin",
+      "birthDate": "1995-07-05",
       "age": null,
       "pa": 255,
       "position": "OF",
@@ -7722,6 +8044,7 @@
     },
     {
       "name": "Calhoun, Willie",
+      "birthDate": "1994-11-04",
       "age": null,
       "pa": 254,
       "position": "OF",
@@ -7746,6 +8069,7 @@
     },
     {
       "name": "Walls, Taylor",
+      "birthDate": "1996-07-10",
       "age": null,
       "pa": 252,
       "position": "OF",
@@ -7770,6 +8094,7 @@
     },
     {
       "name": "Yepez, Juan",
+      "birthDate": "1998-02-19",
       "age": null,
       "pa": 249,
       "position": "OF",
@@ -7794,6 +8119,7 @@
     },
     {
       "name": "Montero, Elehuris",
+      "birthDate": "1998-08-17",
       "age": null,
       "pa": 247,
       "position": "OF",
@@ -7818,6 +8144,7 @@
     },
     {
       "name": "Taylor, Chris",
+      "birthDate": "1990-08-29",
       "age": null,
       "pa": 246,
       "position": "OF",
@@ -7842,6 +8169,7 @@
     },
     {
       "name": "Ramírez, Harold",
+      "birthDate": "1994-09-06",
       "age": null,
       "pa": 246,
       "position": "OF",
@@ -7866,6 +8194,7 @@
     },
     {
       "name": "Grossman, Robbie",
+      "birthDate": "1989-09-16",
       "age": null,
       "pa": 245,
       "position": "OF",
@@ -7890,6 +8219,7 @@
     },
     {
       "name": "Ibáñez, Andy",
+      "birthDate": "1993-04-03",
       "age": null,
       "pa": 244,
       "position": "OF",
@@ -7914,6 +8244,7 @@
     },
     {
       "name": "Casas, Triston",
+      "birthDate": "2000-01-15",
       "age": null,
       "pa": 243,
       "position": "OF",
@@ -7938,6 +8269,7 @@
     },
     {
       "name": "Grandal, Yasmani",
+      "birthDate": "1988-11-08",
       "age": null,
       "pa": 243,
       "position": "OF",
@@ -7962,6 +8294,7 @@
     },
     {
       "name": "Farmer, Kyle",
+      "birthDate": "1990-08-17",
       "age": null,
       "pa": 242,
       "position": "OF",
@@ -7986,6 +8319,7 @@
     },
     {
       "name": "Marte, Noelvi",
+      "birthDate": "2001-10-16",
       "age": null,
       "pa": 242,
       "position": "OF",
@@ -8010,6 +8344,7 @@
     },
     {
       "name": "Flores, Wilmer",
+      "birthDate": "1991-08-06",
       "age": null,
       "pa": 242,
       "position": "OF",
@@ -8034,6 +8369,7 @@
     },
     {
       "name": "Anderson, Tim",
+      "birthDate": "1993-06-23",
       "age": null,
       "pa": 241,
       "position": "OF",
@@ -8058,6 +8394,7 @@
     },
     {
       "name": "Fletcher, Dominic",
+      "birthDate": "1997-09-02",
       "age": null,
       "pa": 241,
       "position": "OF",
@@ -8082,6 +8419,7 @@
     },
     {
       "name": "Rendon, Anthony",
+      "birthDate": "1990-06-06",
       "age": null,
       "pa": 238,
       "position": "OF",
@@ -8106,6 +8444,7 @@
     },
     {
       "name": "Vargas, Miguel",
+      "birthDate": "1999-11-17",
       "age": null,
       "pa": 237,
       "position": "OF",
@@ -8130,6 +8469,7 @@
     },
     {
       "name": "Trevino, Jose",
+      "birthDate": "1992-11-28",
       "age": null,
       "pa": 234,
       "position": "OF",
@@ -8154,6 +8494,7 @@
     },
     {
       "name": "McCann, James",
+      "birthDate": "1990-06-13",
       "age": null,
       "pa": 233,
       "position": "OF",
@@ -8178,6 +8519,7 @@
     },
     {
       "name": "Fairchild, Stuart",
+      "birthDate": "1996-03-17",
       "age": null,
       "pa": 233,
       "position": "OF",
@@ -8202,6 +8544,7 @@
     },
     {
       "name": "Hampson, Garrett",
+      "birthDate": "1994-10-10",
       "age": null,
       "pa": 231,
       "position": "OF",
@@ -8226,6 +8569,7 @@
     },
     {
       "name": "Malloy, Justyn-Henry",
+      "birthDate": "2000-02-19",
       "age": null,
       "pa": 230,
       "position": "OF",
@@ -8249,6 +8593,7 @@
     },
     {
       "name": "Velázquez, Nelson",
+      "birthDate": "1998-12-26",
       "age": null,
       "pa": 230,
       "position": "OF",
@@ -8273,6 +8618,7 @@
     },
     {
       "name": "Ahmed, Nick",
+      "birthDate": "1990-03-15",
       "age": null,
       "pa": 228,
       "position": "OF",
@@ -8297,6 +8643,7 @@
     },
     {
       "name": "LeMahieu, DJ",
+      "birthDate": "1988-07-13",
       "age": null,
       "pa": 228,
       "position": "OF",
@@ -8321,6 +8668,7 @@
     },
     {
       "name": "Barger, Addison",
+      "birthDate": "1999-11-12",
       "age": null,
       "pa": 225,
       "position": "OF",
@@ -8344,6 +8692,7 @@
     },
     {
       "name": "Biggio, Cavan",
+      "birthDate": "1995-04-11",
       "age": null,
       "pa": 224,
       "position": "OF",
@@ -8368,6 +8717,7 @@
     },
     {
       "name": "Goodman, Hunter",
+      "birthDate": "1999-10-08",
       "age": null,
       "pa": 224,
       "position": "OF",
@@ -8392,6 +8742,7 @@
     },
     {
       "name": "Mitchell, Garrett",
+      "birthDate": "1998-09-04",
       "age": null,
       "pa": 224,
       "position": "OF",
@@ -8416,6 +8767,7 @@
     },
     {
       "name": "Valdez, Enmanuel",
+      "birthDate": "1998-12-28",
       "age": null,
       "pa": 223,
       "position": "OF",
@@ -8440,6 +8792,7 @@
     },
     {
       "name": "Acuña Jr., Ronald",
+      "birthDate": "1997-12-18",
       "age": null,
       "pa": 222,
       "position": "OF",
@@ -8464,6 +8817,7 @@
     },
     {
       "name": "Schneemann, Daniel",
+      "birthDate": "1997-01-23",
       "age": null,
       "pa": 221,
       "position": "OF",
@@ -8487,6 +8841,7 @@
     },
     {
       "name": "Pagés, Pedro",
+      "birthDate": "1998-09-17",
       "age": null,
       "pa": 218,
       "position": "OF",
@@ -8510,6 +8865,7 @@
     },
     {
       "name": "Gonzalez, Romy",
+      "birthDate": "1996-09-06",
       "age": null,
       "pa": 216,
       "position": "OF",
@@ -8534,6 +8890,7 @@
     },
     {
       "name": "Soderstrom, Tyler",
+      "birthDate": "2001-11-24",
       "age": null,
       "pa": 213,
       "position": "OF",
@@ -8558,6 +8915,7 @@
     },
     {
       "name": "Slater, Austin",
+      "birthDate": "1992-12-13",
       "age": null,
       "pa": 212,
       "position": "OF",
@@ -8582,6 +8940,7 @@
     },
     {
       "name": "Lipscomb, Trey",
+      "birthDate": "2000-06-14",
       "age": null,
       "pa": 211,
       "position": "OF",
@@ -8605,6 +8964,7 @@
     },
     {
       "name": "Jiménez, Leo",
+      "birthDate": "2001-05-17",
       "age": null,
       "pa": 210,
       "position": "OF",
@@ -8628,6 +8988,7 @@
     },
     {
       "name": "Grisham, Trent",
+      "birthDate": "1996-11-01",
       "age": null,
       "pa": 209,
       "position": "OF",
@@ -8652,6 +9013,7 @@
     },
     {
       "name": "Stowers, Kyle",
+      "birthDate": "1998-01-02",
       "age": null,
       "pa": 209,
       "position": "OF",
@@ -8676,6 +9038,7 @@
     },
     {
       "name": "Mateo, Jorge",
+      "birthDate": "1995-06-23",
       "age": null,
       "pa": 208,
       "position": "OF",
@@ -8700,6 +9063,7 @@
     },
     {
       "name": "Holliday, Jackson",
+      "birthDate": "2003-12-04",
       "age": null,
       "pa": 208,
       "position": "OF",
@@ -8723,6 +9087,7 @@
     },
     {
       "name": "Jankowski, Travis",
+      "birthDate": "1991-06-15",
       "age": null,
       "pa": 207,
       "position": "OF",
@@ -8747,6 +9112,7 @@
     },
     {
       "name": "Noel, Jhonkensy",
+      "birthDate": "2001-07-15",
       "age": null,
       "pa": 198,
       "position": "OF",
@@ -8770,6 +9136,7 @@
     },
     {
       "name": "Olivares, Edward",
+      "birthDate": "1996-03-06",
       "age": null,
       "pa": 196,
       "position": "OF",
@@ -8794,6 +9161,7 @@
     },
     {
       "name": "Norby, Connor",
+      "birthDate": "2000-06-08",
       "age": null,
       "pa": 194,
       "position": "OF",
@@ -8817,6 +9185,7 @@
     },
     {
       "name": "Stewart, DJ",
+      "birthDate": "1993-11-30",
       "age": null,
       "pa": 194,
       "position": "OF",
@@ -8841,6 +9210,7 @@
     },
     {
       "name": "Julks, Corey",
+      "birthDate": "1996-02-27",
       "age": null,
       "pa": 189,
       "position": "OF",
@@ -8865,6 +9235,7 @@
     },
     {
       "name": "Canzone, Dominic",
+      "birthDate": "1997-08-16",
       "age": null,
       "pa": 188,
       "position": "OF",
@@ -8889,6 +9260,7 @@
     },
     {
       "name": "Jung, Josh",
+      "birthDate": "1998-02-12",
       "age": null,
       "pa": 188,
       "position": "OF",
@@ -8913,6 +9285,7 @@
     },
     {
       "name": "Stubbs, Garrett",
+      "birthDate": "1993-05-26",
       "age": null,
       "pa": 187,
       "position": "OF",
@@ -8937,6 +9310,7 @@
     },
     {
       "name": "Guillorme, Luis",
+      "birthDate": "1994-09-27",
       "age": null,
       "pa": 187,
       "position": "OF",
@@ -8961,6 +9335,7 @@
     },
     {
       "name": "Thaiss, Matt",
+      "birthDate": "1995-05-06",
       "age": null,
       "pa": 186,
       "position": "OF",
@@ -8985,6 +9360,7 @@
     },
     {
       "name": "Cameron, Daz",
+      "birthDate": "1997-01-15",
       "age": null,
       "pa": 186,
       "position": "OF",
@@ -9008,6 +9384,7 @@
     },
     {
       "name": "Alexander, Blaze",
+      "birthDate": "1999-06-11",
       "age": null,
       "pa": 185,
       "position": "OF",
@@ -9031,6 +9408,7 @@
     },
     {
       "name": "Lee, Brooks",
+      "birthDate": "2001-02-14",
       "age": null,
       "pa": 185,
       "position": "OF",
@@ -9054,6 +9432,7 @@
     },
     {
       "name": "Beck, Jordan",
+      "birthDate": "2001-04-19",
       "age": null,
       "pa": 184,
       "position": "OF",
@@ -9077,6 +9456,7 @@
     },
     {
       "name": "Pache, Cristian",
+      "birthDate": "1998-11-19",
       "age": null,
       "pa": 183,
       "position": "OF",
@@ -9101,6 +9481,7 @@
     },
     {
       "name": "Kirilloff, Alex",
+      "birthDate": "1997-11-09",
       "age": null,
       "pa": 178,
       "position": "OF",
@@ -9125,6 +9506,7 @@
     },
     {
       "name": "Rice, Ben",
+      "birthDate": "1999-02-22",
       "age": null,
       "pa": 178,
       "position": "OF",
@@ -9148,6 +9530,7 @@
     },
     {
       "name": "Walker, Jordan",
+      "birthDate": "2002-05-22",
       "age": null,
       "pa": 178,
       "position": "OF",
@@ -9172,6 +9555,7 @@
     },
     {
       "name": "Caminero, Junior",
+      "birthDate": "2003-07-05",
       "age": null,
       "pa": 177,
       "position": "OF",
@@ -9196,6 +9580,7 @@
     },
     {
       "name": "Wisdom, Patrick",
+      "birthDate": "1991-08-27",
       "age": null,
       "pa": 174,
       "position": "OF",
@@ -9220,6 +9605,7 @@
     },
     {
       "name": "Hill, Derek",
+      "birthDate": "1995-12-30",
       "age": null,
       "pa": 172,
       "position": "OF",
@@ -9244,6 +9630,7 @@
     },
     {
       "name": "Baty, Brett",
+      "birthDate": "1999-11-13",
       "age": null,
       "pa": 171,
       "position": "OF",
@@ -9268,6 +9655,7 @@
     },
     {
       "name": "Loftin, Nick",
+      "birthDate": "1998-09-25",
       "age": null,
       "pa": 171,
       "position": "OF",
@@ -9292,6 +9680,7 @@
     },
     {
       "name": "Martínez, Angel",
+      "birthDate": "2002-01-27",
       "age": null,
       "pa": 169,
       "position": "OF",
@@ -9315,6 +9704,7 @@
     },
     {
       "name": "Tena, José",
+      "birthDate": "2001-03-20",
       "age": null,
       "pa": 168,
       "position": "OF",
@@ -9339,6 +9729,7 @@
     },
     {
       "name": "Martini, Nick",
+      "birthDate": "1990-06-27",
       "age": null,
       "pa": 163,
       "position": "OF",
@@ -9363,6 +9754,7 @@
     },
     {
       "name": "Carter, Evan",
+      "birthDate": "2002-08-29",
       "age": null,
       "pa": 162,
       "position": "OF",
@@ -9387,6 +9779,7 @@
     },
     {
       "name": "Arias, Gabriel",
+      "birthDate": "2000-02-27",
       "age": null,
       "pa": 161,
       "position": "OF",
@@ -9411,6 +9804,7 @@
     },
     {
       "name": "McGuire, Reese",
+      "birthDate": "1995-03-02",
       "age": null,
       "pa": 158,
       "position": "OF",
@@ -9435,6 +9829,7 @@
     },
     {
       "name": "Lee, Jung Hoo",
+      "birthDate": "1998-08-20",
       "age": null,
       "pa": 158,
       "position": "OF",
@@ -9458,6 +9853,7 @@
     },
     {
       "name": "Hilliard, Sam",
+      "birthDate": "1994-02-21",
       "age": null,
       "pa": 158,
       "position": "OF",
@@ -9482,6 +9878,7 @@
     },
     {
       "name": "Smith, Pavin",
+      "birthDate": "1996-02-06",
       "age": null,
       "pa": 158,
       "position": "OF",
@@ -9506,6 +9903,7 @@
     },
     {
       "name": "McCann, Kyle",
+      "birthDate": "1997-12-02",
       "age": null,
       "pa": 157,
       "position": "OF",
@@ -9529,6 +9927,7 @@
     },
     {
       "name": "Davis, J.D.",
+      "birthDate": "1993-04-27",
       "age": null,
       "pa": 157,
       "position": "OF",
@@ -9553,6 +9952,7 @@
     },
     {
       "name": "Carpenter, Matt",
+      "birthDate": "1985-11-26",
       "age": null,
       "pa": 157,
       "position": "OF",
@@ -9577,6 +9977,7 @@
     },
     {
       "name": "Wade, Tyler",
+      "birthDate": "1994-11-23",
       "age": null,
       "pa": 156,
       "position": "OF",
@@ -9601,6 +10002,7 @@
     },
     {
       "name": "Matos, Luis",
+      "birthDate": "2002-01-28",
       "age": null,
       "pa": 156,
       "position": "OF",
@@ -9625,6 +10027,7 @@
     },
     {
       "name": "Barnes, Austin",
+      "birthDate": "1989-12-28",
       "age": null,
       "pa": 156,
       "position": "OF",
@@ -9649,6 +10052,7 @@
     },
     {
       "name": "Outman, James",
+      "birthDate": "1997-05-14",
       "age": null,
       "pa": 156,
       "position": "OF",
@@ -9673,6 +10077,7 @@
     },
     {
       "name": "Manzardo, Kyle",
+      "birthDate": "2000-07-18",
       "age": null,
       "pa": 156,
       "position": "OF",
@@ -9696,6 +10101,7 @@
     },
     {
       "name": "Scott II, Victor",
+      "birthDate": "2001-02-12",
       "age": null,
       "pa": 155,
       "position": "OF",
@@ -9719,6 +10125,7 @@
     },
     {
       "name": "Jackson, Alex",
+      "birthDate": "1995-12-25",
       "age": null,
       "pa": 155,
       "position": "OF",
@@ -9742,6 +10149,7 @@
     },
     {
       "name": "Bryant, Kris",
+      "birthDate": "1992-01-04",
       "age": null,
       "pa": 155,
       "position": "OF",
@@ -9766,6 +10174,7 @@
     },
     {
       "name": "Maile, Luke",
+      "birthDate": "1991-02-06",
       "age": null,
       "pa": 154,
       "position": "OF",
@@ -9790,6 +10199,7 @@
     },
     {
       "name": "Edman, Tommy",
+      "birthDate": "1995-05-09",
       "age": null,
       "pa": 153,
       "position": "OF",
@@ -9814,6 +10224,7 @@
     },
     {
       "name": "Bethancourt, Christian",
+      "birthDate": "1991-09-02",
       "age": null,
       "pa": 147,
       "position": "OF",
@@ -9838,6 +10249,7 @@
     },
     {
       "name": "Maldonado, Martín",
+      "birthDate": "1986-08-16",
       "age": null,
       "pa": 147,
       "position": "OF",
@@ -9862,6 +10274,7 @@
     },
     {
       "name": "Hedges, Austin",
+      "birthDate": "1992-08-18",
       "age": null,
       "pa": 146,
       "position": "OF",
@@ -9886,6 +10299,7 @@
     },
     {
       "name": "Aranda, Jonathan",
+      "birthDate": "1998-05-23",
       "age": null,
       "pa": 143,
       "position": "OF",
@@ -9910,6 +10324,7 @@
     },
     {
       "name": "Monasterio, Andruw",
+      "birthDate": "1997-05-30",
       "age": null,
       "pa": 142,
       "position": "OF",
@@ -9934,6 +10349,7 @@
     },
     {
       "name": "Mendick, Danny",
+      "birthDate": "1993-09-28",
       "age": null,
       "pa": 141,
       "position": "OF",
@@ -9958,6 +10374,7 @@
     },
     {
       "name": "Nido, Tomás",
+      "birthDate": "1994-04-12",
       "age": null,
       "pa": 140,
       "position": "OF",
@@ -9982,6 +10399,7 @@
     },
     {
       "name": "Hernaiz, Darell",
+      "birthDate": "2001-08-03",
       "age": null,
       "pa": 135,
       "position": "OF",
@@ -10005,6 +10423,7 @@
     },
     {
       "name": "Mead, Curtis",
+      "birthDate": "2000-10-26",
       "age": null,
       "pa": 132,
       "position": "OF",
@@ -10029,6 +10448,7 @@
     },
     {
       "name": "Crews, Dylan",
+      "birthDate": "2002-02-26",
       "age": null,
       "pa": 132,
       "position": "OF",
@@ -10052,6 +10472,7 @@
     },
     {
       "name": "Chaparro, Andrés",
+      "birthDate": "1999-05-04",
       "age": null,
       "pa": 132,
       "position": "OF",
@@ -10075,6 +10496,7 @@
     },
     {
       "name": "Blanco, Dairon",
+      "birthDate": "1993-04-26",
       "age": null,
       "pa": 132,
       "position": "OF",
@@ -10099,6 +10521,7 @@
     },
     {
       "name": "Torrens, Luis",
+      "birthDate": "1996-05-02",
       "age": null,
       "pa": 130,
       "position": "OF",
@@ -10123,6 +10546,7 @@
     },
     {
       "name": "McCray, Grant",
+      "birthDate": "2000-12-07",
       "age": null,
       "pa": 130,
       "position": "OF",
@@ -10146,6 +10570,7 @@
     },
     {
       "name": "Adams, Riley",
+      "birthDate": "1996-06-26",
       "age": null,
       "pa": 130,
       "position": "OF",
@@ -10170,6 +10595,7 @@
     },
     {
       "name": "Trout, Mike",
+      "birthDate": "1991-08-07",
       "age": null,
       "pa": 126,
       "position": "OF",
@@ -10194,6 +10620,7 @@
     },
     {
       "name": "Casali, Curt",
+      "birthDate": "1988-11-09",
       "age": null,
       "pa": 125,
       "position": "OF",
@@ -10218,6 +10645,7 @@
     },
     {
       "name": "Stefanic, Michael",
+      "birthDate": "1996-02-24",
       "age": null,
       "pa": 124,
       "position": "OF",
@@ -10242,6 +10670,7 @@
     },
     {
       "name": "Harris, Brett",
+      "birthDate": "1998-06-24",
       "age": null,
       "pa": 123,
       "position": "OF",
@@ -10265,6 +10694,7 @@
     },
     {
       "name": "Encarnacion-Strand, Christian",
+      "birthDate": "1999-12-01",
       "age": null,
       "pa": 123,
       "position": "OF",
@@ -10289,6 +10719,7 @@
     },
     {
       "name": "Davis, Henry",
+      "birthDate": "1999-09-21",
       "age": null,
       "pa": 122,
       "position": "OF",
@@ -10313,6 +10744,7 @@
     },
     {
       "name": "Baldwin, Brooks",
+      "birthDate": "2000-08-15",
       "age": null,
       "pa": 121,
       "position": "OF",
@@ -10336,6 +10768,7 @@
     },
     {
       "name": "Abreu, José",
+      "birthDate": "1987-01-29",
       "age": null,
       "pa": 120,
       "position": "OF",
@@ -10360,6 +10793,7 @@
     },
     {
       "name": "Clemens, Kody",
+      "birthDate": "1996-05-15",
       "age": null,
       "pa": 120,
       "position": "OF",
@@ -10384,6 +10818,7 @@
     },
     {
       "name": "Encarnacion, Jerar",
+      "birthDate": "1997-10-22",
       "age": null,
       "pa": 119,
       "position": "OF",
@@ -10407,6 +10842,7 @@
     },
     {
       "name": "Sweeney, Trey",
+      "birthDate": "2000-04-24",
       "age": null,
       "pa": 119,
       "position": "OF",
@@ -10430,6 +10866,7 @@
     },
     {
       "name": "Cooper, Garrett",
+      "birthDate": "1990-12-25",
       "age": null,
       "pa": 116,
       "position": "OF",
@@ -10454,6 +10891,7 @@
     },
     {
       "name": "Kjerstad, Heston",
+      "birthDate": "1999-02-12",
       "age": null,
       "pa": 114,
       "position": "OF",
@@ -10478,6 +10916,7 @@
     },
     {
       "name": "Herrera, Jose",
+      "birthDate": "1997-02-24",
       "age": null,
       "pa": 114,
       "position": "OF",
@@ -10502,6 +10941,7 @@
     },
     {
       "name": "Grissom, Vaughn",
+      "birthDate": "2001-01-05",
       "age": null,
       "pa": 114,
       "position": "OF",
@@ -10526,6 +10966,7 @@
     },
     {
       "name": "Call, Alex",
+      "birthDate": "1994-09-27",
       "age": null,
       "pa": 113,
       "position": "OF",
@@ -10550,6 +10991,7 @@
     },
     {
       "name": "Schmitt, Casey",
+      "birthDate": "1999-03-01",
       "age": null,
       "pa": 113,
       "position": "OF",
@@ -10574,6 +11016,7 @@
     },
     {
       "name": "Noda, Ryan",
+      "birthDate": "1996-03-30",
       "age": null,
       "pa": 111,
       "position": "OF",
@@ -10598,6 +11041,7 @@
     },
     {
       "name": "Florial, Estevan",
+      "birthDate": "1997-11-25",
       "age": null,
       "pa": 111,
       "position": "OF",
@@ -10622,6 +11066,7 @@
     },
     {
       "name": "Urías, Luis",
+      "birthDate": "1997-06-03",
       "age": null,
       "pa": 109,
       "position": "OF",
@@ -10646,6 +11091,7 @@
     },
     {
       "name": "Myers, Dane",
+      "birthDate": "1996-03-08",
       "age": null,
       "pa": 108,
       "position": "OF",
@@ -10670,6 +11116,7 @@
     },
     {
       "name": "Ramos, Bryan",
+      "birthDate": "2002-03-12",
       "age": null,
       "pa": 108,
       "position": "OF",
@@ -10693,6 +11140,7 @@
     },
     {
       "name": "Bouchard, Sean",
+      "birthDate": "1996-05-16",
       "age": null,
       "pa": 108,
       "position": "OF",
@@ -10717,6 +11165,7 @@
     },
     {
       "name": "Mastrobuoni, Miles",
+      "birthDate": "1995-10-31",
       "age": null,
       "pa": 106,
       "position": "OF",
@@ -10741,6 +11190,7 @@
     },
     {
       "name": "Kavadas, Niko",
+      "birthDate": "1998-10-27",
       "age": null,
       "pa": 106,
       "position": "OF",
@@ -10764,6 +11214,7 @@
     },
     {
       "name": "Story, Trevor",
+      "birthDate": "1992-11-15",
       "age": null,
       "pa": 106,
       "position": "OF",
@@ -10788,6 +11239,7 @@
     },
     {
       "name": "Allen, Nick",
+      "birthDate": "1998-10-08",
       "age": null,
       "pa": 105,
       "position": "OF",
@@ -10812,6 +11264,7 @@
     },
     {
       "name": "Dunn, Oliver",
+      "birthDate": "1997-09-02",
       "age": null,
       "pa": 104,
       "position": "OF",
@@ -10835,6 +11288,7 @@
     },
     {
       "name": "Wilson, Jacob",
+      "birthDate": "2002-03-30",
       "age": null,
       "pa": 103,
       "position": "OF",
@@ -10858,6 +11312,7 @@
     },
     {
       "name": "Thomas, Alek",
+      "birthDate": "2000-04-28",
       "age": null,
       "pa": 103,
       "position": "OF",
@@ -10882,5 +11337,5 @@
     }
   ],
   "count": 455,
-  "lastUpdated": "2026-02-19T21:15:47.910Z"
+  "lastUpdated": "2026-02-19T22:01:17.331Z"
 }

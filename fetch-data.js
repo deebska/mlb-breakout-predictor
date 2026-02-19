@@ -14,6 +14,23 @@ async function fetchYear(targetYear) {
   
   console.log(`Using data years: ${currentDataYear} (current), ${prevDataYear} (previous)`);
   
+  // First, fetch MLB roster data for birth dates (no auth needed, public API)
+  console.log('Fetching MLB player birth dates from MLB Stats API...');
+  const mlbPlayersResponse = await fetch(`https://statsapi.mlb.com/api/v1/sports/1/players?season=${currentDataYear}`);
+  const mlbPlayersData = await mlbPlayersResponse.json();
+  
+  // Build birth date map from MLB API (player_id -> birthDate)
+  const mlbBirthDateMap = new Map();
+  if (mlbPlayersData.people) {
+    mlbPlayersData.people.forEach(player => {
+      if (player.id && player.birthDate) {
+        mlbBirthDateMap.set(String(player.id), player.birthDate);
+      }
+    });
+  }
+  console.log(`Loaded ${mlbBirthDateMap.size} player birth dates from MLB Stats API`);
+  
+  
   // Baseball Savant URLs
   const urls = {
     expectedCurrent: `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${currentDataYear}&position=&team=&min=100&csv=true`,
@@ -164,7 +181,8 @@ async function fetchYear(targetYear) {
     players.push({
       name: row['last_name, first_name'] || `${row.first_name || ''} ${row.last_name || ''}`.trim(),
       team: row.team_name_abbrev || row.team,
-      age: statcastData && parseInt(statcastData.age),
+      birthDate: mlbBirthDateMap.get(playerId) || null,
+      age: null, // Will be calculated dynamically in frontend
       pa: pa,
       position: row.pos || row.primary_position || 'OF',
       [`woba${currentYearSuffix}`]: currentWoba,
