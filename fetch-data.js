@@ -183,8 +183,6 @@ async function fetchYear(targetYear) {
     
     if (!currentWoba || !currentXwoba) continue;
     
-    const playerId = String(row.player_id);
-    const prevYearData = prevYearMap.get(playerId);
     // Get player ID, previous year data, actual results, and statcast data
     const playerId = String(row.player_id);
     const prevYearData = prevYearMap.get(playerId);
