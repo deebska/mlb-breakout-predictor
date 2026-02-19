@@ -584,7 +584,7 @@ export default function App() {
   const [maxAge, setMaxAge] = useState(35);
   const [showTop, setShowTop] = useState(25);
   const [tab, setTab] = useState("rankings"); // rankings | methodology
-  const [selectedYear, setSelectedYear] = useState(2026); // 2023, 2024, 2025, 2026
+  const [selectedYear, setSelectedYear] = useState(2026); // 2025, 2026
 
   const loadDemo = useCallback(() => {
     const yearData = HISTORICAL_DATA[selectedYear] || HISTORICAL_DATA[2026];
@@ -688,7 +688,7 @@ const loadLive = useCallback(async () => {
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
             <div style={{ display: "flex", gap: 4, background: "#0a0e14", padding: 4, borderRadius: 6, border: "1px solid #1a2530" }}>
-              {[2023, 2024, 2025, 2026].map(y => (
+              {[2025, 2026].map(y => (
                 <button
                   key={y}
                   onClick={() => setSelectedYear(y)}
