@@ -1137,6 +1137,15 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
                 <span style={{ fontSize: 13, color: "#dde", fontWeight: 600 }}>{p.name}</span>
+                {/* Show breakout badge for 2025 if player actually broke out */}
+                {selectedYear === 2025 && p.woba25 != null && p.woba24 != null && (p.woba25 - p.woba24) >= 0.030 && (
+                  <span style={{
+                    fontSize: 8, padding: "2px 6px", borderRadius: 3,
+                    background: "#00ff8822", color: "#00ff88",
+                    border: "1px solid #00ff8844",
+                    letterSpacing: "0.08em", fontWeight: 700
+                  }}>✅ BREAKOUT</span>
+                )}
                 <span style={{
                   fontSize: 8, padding: "2px 5px", borderRadius: 2,
                   background: `${confidenceTier.color}15`, color: confidenceTier.color,
