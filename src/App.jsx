@@ -333,6 +333,28 @@ function computeBreakoutScore(players, year) {
     return !pos.includes('SP') && !pos.includes('RP') && pos !== 'P';
   });
   
+  // Filter out established stars - they've already broken out
+  // Exception: Young players (age < 24) with limited PA (< 400) can still break out
+  players = players.filter(p => {
+    const woba = p.currentWoba || p.woba25 || p.woba24;
+    if (woba == null) return true; // Keep if we don't have woba data
+    
+    // If wOBA > .350 AND (age >= 24 OR pa >= 400), they're an established star
+    if (woba > 0.350) {
+      const age = p.age;
+      const pa = p.pa;
+      
+      // Young players with limited samples can still break out even with high wOBA
+      if (age != null && age < 24 && pa != null && pa < 400) {
+        return true; // Keep young, limited-sample players
+      }
+      
+      return false; // Exclude established stars
+    }
+    
+    return true; // Keep everyone else
+  });
+  
   players.forEach((p) => {
     p._raw = scorePlayer(p, year);
     p._scores = {};
