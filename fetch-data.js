@@ -11,8 +11,9 @@ async function fetchYear(targetYear) {
   
   const currentDataYear = targetYear - 1;
   const prevDataYear = targetYear - 2;
+  const actualResultsYear = targetYear; // For validation - did they actually break out?
   
-  console.log(`Using data years: ${currentDataYear} (current), ${prevDataYear} (previous)`);
+  console.log(`Using data years: ${currentDataYear} (current), ${prevDataYear} (previous), ${actualResultsYear} (actual results for validation)`);
   
   // First, fetch MLB roster data for birth dates (no auth needed, public API)
   console.log('Fetching MLB player birth dates from MLB Stats API...');
@@ -35,6 +36,7 @@ async function fetchYear(targetYear) {
   const urls = {
     expectedCurrent: `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${currentDataYear}&position=&team=&min=100&csv=true`,
     expectedPrev: `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${prevDataYear}&position=&team=&min=100&csv=true`,
+    expectedActual: `https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=${actualResultsYear}&position=&team=&min=100&csv=true`, // NEW
     statcast1: `https://baseballsavant.mlb.com/leaderboard/custom?year=${currentDataYear}&type=batter&min=1&selections=player_id,age,k_percent,hard_hit_percent,barrel_batted_rate,pull_percent&csv=true`,
     statcast2: `https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=${currentDataYear}&min=1&csv=true`,
     statcast3: `https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=${currentDataYear}&min=1&csv=true`,
@@ -55,6 +57,9 @@ async function fetchYear(targetYear) {
   console.log('Fetching expected stats (previous)...');
   const expectedPrevCsv = await fetchWithScraper(urls.expectedPrev);
   
+  console.log('Fetching expected stats (actual results)...');
+  const expectedActualCsv = await fetchWithScraper(urls.expectedActual);
+  
   console.log('Fetching statcast 1...');
   const statcast1Csv = await fetchWithScraper(urls.statcast1);
   
@@ -70,14 +75,16 @@ async function fetchYear(targetYear) {
   console.log('Fetching statcast 2 (previous)...');
   const statcast2PrevCsv = await fetchWithScraper(urls.statcast2Prev);
   
-  // Parse CSVs
+  // Parse expected stats CSVs
   const expectedCurrentParsed = Papa.parse(expectedCurrentCsv, { header: true, skipEmptyLines: true, dynamicTyping: true });
   const expectedPrevParsed = Papa.parse(expectedPrevCsv, { header: true, skipEmptyLines: true, dynamicTyping: true });
+  const expectedActualParsed = Papa.parse(expectedActualCsv, { header: true, skipEmptyLines: true, dynamicTyping: true });
   
   console.log(`Parsed ${expectedCurrentParsed.data.length} current year players`);
   console.log(`Parsed ${expectedPrevParsed.data.length} previous year players`);
+  console.log(`Parsed ${expectedActualParsed.data.length} actual results players`);
   
-  // Build previous year map
+  // Build previous year map for trajectory
   const prevYearMap = new Map();
   for (const row of expectedPrevParsed.data) {
     const playerId = String(row.player_id);
@@ -88,6 +95,22 @@ async function fetchYear(targetYear) {
       });
     }
   }
+  
+  console.log(`Built previous year map with ${prevYearMap.size} players`);
+  
+  // Build actual results map for validation (did they break out?)
+  const actualResultsMap = new Map();
+  for (const row of expectedActualParsed.data) {
+    const playerId = String(row.player_id);
+    if (playerId && row.woba) {
+      actualResultsMap.set(playerId, {
+        woba: parseFloat(row.woba),
+        xwoba: parseFloat(row.est_woba)
+      });
+    }
+  }
+  
+  console.log(`Built actual results map with ${actualResultsMap.size} players`);
   
   // Parse and merge statcast data
   let statcastMap = new Map();
@@ -162,6 +185,10 @@ async function fetchYear(targetYear) {
     
     const playerId = String(row.player_id);
     const prevYearData = prevYearMap.get(playerId);
+    // Get player ID, previous year data, actual results, and statcast data
+    const playerId = String(row.player_id);
+    const prevYearData = prevYearMap.get(playerId);
+    const actualResults = actualResultsMap.get(playerId); // NEW - for validation
     const statcastData = statcastMap.get(playerId);
     const prevLaunchAngle = prevLaunchAngleMap.get(playerId);
     
@@ -178,6 +205,8 @@ async function fetchYear(targetYear) {
       continue;
     }
     
+    const actualYearSuffix = actualResultsYear % 100; // NEW
+    
     players.push({
       name: row['last_name, first_name'] || `${row.first_name || ''} ${row.last_name || ''}`.trim(),
       team: row.team_name_abbrev || row.team,
@@ -189,6 +218,7 @@ async function fetchYear(targetYear) {
       [`xwoba${currentYearSuffix}`]: currentXwoba,
       [`woba${prevYearSuffix}`]: prevYearData ? prevYearData.woba : null,
       [`xwoba${prevYearSuffix}`]: prevYearData ? prevYearData.xwoba : null,
+      [`woba${actualYearSuffix}`]: actualResults ? actualResults.woba : null, // NEW - for validation
       currentWoba: currentWoba,
       careerWoba: currentWoba,
       xwobaSurplus: xwobaSurplus,
