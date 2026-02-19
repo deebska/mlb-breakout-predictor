@@ -1137,14 +1137,17 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
                 <span style={{ fontSize: 13, color: "#dde", fontWeight: 600 }}>{p.name}</span>
-                {/* Show breakout badge for players who actually broke out */}
+                {/* Show breakout badge if player actually broke out in the target year */}
                 {(() => {
-                  const fields = getFieldNames(selectedYear);
-                  const currentWoba = p[fields.currentWoba];
-                  const prevWoba = p[fields.prevWoba];
-                  const brokeOut = currentWoba != null && prevWoba != null && (currentWoba - prevWoba) >= 0.030;
+                  // For 2025 tab: check if woba25 - woba24 >= .030 (broke out in 2025)
+                  // For 2026 tab: would check woba26 - woba25 >= .030 (but 2026 hasn't happened yet)
+                  const targetYearSuffix = selectedYear % 100;
+                  const prevYearSuffix = (selectedYear - 1) % 100;
+                  const targetWoba = p[`woba${targetYearSuffix}`];
+                  const prevWoba = p[`woba${prevYearSuffix}`];
+                  const brokeOut = targetWoba != null && prevWoba != null && (targetWoba - prevWoba) >= 0.030;
                   
-                  return brokeOut && (
+                  return selectedYear < 2026 && brokeOut && (
                     <span style={{
                       fontSize: 8, padding: "2px 6px", borderRadius: 3,
                       background: "#00ff8822", color: "#00ff88",
