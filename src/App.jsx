@@ -446,6 +446,26 @@ function computeBreakoutScore(players, year) {
       eliteProfileMultiplier *= 1.20; // Multiple sustainable improvements = real skill growth
     }
     
+    // NEW v5.2: Elite Young Talent Bonus (Sliding Scale by Age)
+    // Research: Power doesn't improve with age - players arrive with near-peak skills
+    // Young players with ELITE current metrics are extremely rare and valuable
+    const eliteHardHit = p.hardHitRate != null && p.hardHitRate > 0.55; // Top 5% MLB
+    const eliteBarrel = p.barrelRate != null && p.barrelRate > 0.13; // Top 10% MLB
+    
+    // Sliding scale: Younger = Rarer = Bigger bonus
+    if (eliteHardHit && eliteBarrel && p.age != null) {
+      if (p.age <= 21) {
+        eliteProfileMultiplier *= 1.40; // Extreme rarity (Roman Anthony, Gunnar Henderson types)
+      } else if (p.age === 22) {
+        eliteProfileMultiplier *= 1.30; // Very rare
+      } else if (p.age === 23) {
+        eliteProfileMultiplier *= 1.20; // Rare
+      } else if (p.age === 24) {
+        eliteProfileMultiplier *= 1.10; // Uncommon but not exceptional
+      }
+      // Age 25+: No bonus - this is expected peak age range
+    }
+    
     // Combined adjustment
     const adjustedScore = total * 
       ageMultiplier * 
@@ -858,7 +878,7 @@ const loadLive = useCallback(async () => {
         }}>
           <div>
             <div style={{ fontSize: 10, color: "#00ff88", letterSpacing: "0.15em", marginBottom: 4, fontWeight: 700 }}>
-              MODEL v5.1 - YOY IMPROVEMENTS + K-RATE SUSTAINABILITY
+              MODEL v5.2 - ELITE YOUNG TALENT DETECTION
             </div>
             <div style={{ fontSize: 11, color: "#667", lineHeight: 1.5 }}>
               Career Context · Chase Rate (30% threshold) · Bat Speed (74+ mph) · Launch Angle · Pull Rate · <strong style={{ color: "#00ff88" }}>NEW:</strong> Sophomore Slump Detector · Years of Service Adjustment
@@ -1733,21 +1753,21 @@ function MethodologyPanel() {
   return (
     <div style={{ maxWidth: 800, margin: "0 auto" }}>
       <div style={{ marginBottom: 32 }}>
-        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v5.1 - YOY IMPROVEMENTS)</div>
+        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v5.2 - ELITE YOUNG TALENT)</div>
         <h2 style={{ fontSize: 24, color: "#fff", margin: 0, fontWeight: 700 }}>How Breakout Score Works</h2>
         <p style={{ color: "#667", lineHeight: 1.7, marginTop: 12 }}>
           The Breakout Score integrates <strong style={{ color: "#00ff88" }}>Baseball Savant data</strong> with 
-          year-over-year improvement tracking and K-rate sustainability filters. <strong style={{ color: "#00ff88" }}>Version 5.1</strong> focuses on 
-          barrel rate and hard-hit rate improvements while penalizing players who sacrifice contact for power.
+          year-over-year improvement tracking and elite young talent detection. <strong style={{ color: "#00ff88" }}>Version 5.2</strong> adds 
+          major bonuses for players age 23 and under who already demonstrate elite contact quality.
         </p>
         <div style={{
           background: "#001a0f", border: "1px solid #004422",
           borderRadius: 6, padding: "12px 16px", marginTop: 16, fontSize: 11, color: "#00cc66"
         }}>
-          <strong>✨ NEW in v5.1:</strong> Year-over-year improvement tracking (30% weight on barrel/hard-hit gains) · 
-          K-rate explosion penalty (-25% for players with 5%+ K-rate spikes) · 
-          Sustainable improvement filter (only reward contact quality gains if K-rate stays stable) · 
-          Elite profile bonuses for multiple simultaneous improvements
+          <strong>✨ NEW in v5.2:</strong> Elite young talent sliding scale bonus (age 21: +40%, age 22: +30%, age 23: +20%, age 24: +10% for players with 55%+ hard-hit AND 13%+ barrels) · 
+          Research shows power peaks early - younger players with elite metrics are exponentially rarer · 
+          K-rate explosion penalty (-25% for 5%+ K-rate spikes) · 
+          Sustainable improvement filter (only reward contact quality gains if K-rate stays stable)
         </div>
       </div>
 
