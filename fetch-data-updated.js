@@ -195,10 +195,10 @@ async function fetchYear(targetYear) {
       launchAngle: currentLaunchAngle,
       launchAngleDelta: launchAngleDelta,
       batSpeed: statcastData && parseFloat(statcastData.avg_bat_speed),
-      hardHitImprovement: hardHitImprovement,
-      barrelImprovement: barrelImprovement,
-      kRateImprovement: kRateImprovement,
-      chaseImprovement: chaseImprovement
+      hardHitImprovement: hardHitImprovement != null ? hardHitImprovement / 100 : null,
+      barrelImprovement: barrelImprovement != null ? barrelImprovement / 100 : null,
+      kRateImprovement: kRateImprovement != null ? kRateImprovement / 100 : null,
+      chaseImprovement: chaseImprovement != null ? chaseImprovement / 100 : null
     };
     
     playerObj['woba' + currentYearSuffix] = currentWoba;

@@ -409,10 +409,10 @@ function computeBreakoutScore(players, year) {
     const batSpeedAboveAvg = p.batSpeed != null && p.batSpeed > 73;
     const lowKRate = p.kRate != null && p.kRate < 0.20;
     
-    // YoY improvement thresholds (NEW!)
-    const barrelImproving = p.barrelImprovement != null && p.barrelImprovement > 2.0; // +2% barrel rate
-    const hardHitImproving = p.hardHitImprovement != null && p.hardHitImprovement > 3.0; // +3% hard-hit
-    const chaseImproving = p.chaseImprovement != null && p.chaseImprovement > 2.0; // -2% chase rate (improvement)
+    // YoY improvement thresholds (normalized to decimals: 0.02 = 2 percentage points)
+    const barrelImproving = p.barrelImprovement != null && p.barrelImprovement > 0.02; // +2% barrel rate
+    const hardHitImproving = p.hardHitImprovement != null && p.hardHitImprovement > 0.03; // +3% hard-hit
+    const chaseImproving = p.chaseImprovement != null && p.chaseImprovement > 0.02; // -2% chase rate (improvement)
     
     // Current skill bonuses
     if (hardHitAboveAvg) eliteProfileMultiplier *= 1.10;
