@@ -410,9 +410,13 @@ function computeBreakoutScore(players, year) {
     const lowKRate = p.kRate != null && p.kRate < 0.20;
     
     // YoY improvement thresholds (normalized to decimals: 0.02 = 2 percentage points)
-    const barrelImproving = p.barrelImprovement != null && p.barrelImprovement > 0.02; // +2% barrel rate
-    const hardHitImproving = p.hardHitImprovement != null && p.hardHitImprovement > 0.03; // +3% hard-hit
-    const chaseImproving = p.chaseImprovement != null && p.chaseImprovement > 0.02; // -2% chase rate (improvement)
+    const barrelImproving = p.barrelImprovement != null && p.barrelImprovement > 0.02;
+    const hardHitImproving = p.hardHitImprovement != null && p.hardHitImprovement > 0.03;
+    const chaseImproving = p.chaseImprovement != null && p.chaseImprovement > 0.02;
+    
+    // K-rate checks (NEW - critical for sustainable improvements)
+    const kRateStable = p.kRateImprovement == null || p.kRateImprovement >= -0.03; // K-rate didn't spike >3%
+    const kRateExploded = p.kRateImprovement != null && p.kRateImprovement < -0.05; // K-rate spiked 5%+
     
     // Current skill bonuses
     if (hardHitAboveAvg) eliteProfileMultiplier *= 1.10;
@@ -420,20 +424,26 @@ function computeBreakoutScore(players, year) {
     if (batSpeedAboveAvg) eliteProfileMultiplier *= 1.08;
     if (lowKRate) eliteProfileMultiplier *= 1.08;
     
-    // YoY improvement bonuses (NEW!)
-    if (barrelImproving) eliteProfileMultiplier *= 1.15; // Barrel gains = power breakout signal
-    if (hardHitImproving) eliteProfileMultiplier *= 1.12;
-    if (chaseImproving) eliteProfileMultiplier *= 1.10; // Better discipline = sustainable
+    // YoY improvement bonuses - BUT ONLY if K-rate stayed stable!
+    // Research: Contact quality gains that come with K-rate explosion = unsustainable
+    if (barrelImproving && kRateStable) eliteProfileMultiplier *= 1.15; // Sustainable barrel gains
+    if (hardHitImproving && kRateStable) eliteProfileMultiplier *= 1.12; // Sustainable power growth
+    if (chaseImproving) eliteProfileMultiplier *= 1.10; // Better discipline always good
+    
+    // PENALTY: K-rate explosion (sold out for power but can't make contact)
+    if (kRateExploded) eliteProfileMultiplier *= 0.75; // -25% penalty for K-rate spike
     
     // MEGA BONUS: Elite current profile (all 4 thresholds)
     if (hardHitAboveAvg && barrelAboveAvg && batSpeedAboveAvg && lowKRate) {
       eliteProfileMultiplier *= 1.15;
     }
     
-    // MEGA BONUS: Improving trajectory (2+ improvements)
-    const improvementCount = (barrelImproving ? 1 : 0) + (hardHitImproving ? 1 : 0) + (chaseImproving ? 1 : 0);
+    // MEGA BONUS: Improving trajectory (2+ improvements) - only if K-rate stable
+    const improvementCount = ((barrelImproving && kRateStable) ? 1 : 0) + 
+                             ((hardHitImproving && kRateStable) ? 1 : 0) + 
+                             (chaseImproving ? 1 : 0);
     if (improvementCount >= 2) {
-      eliteProfileMultiplier *= 1.20; // Multiple improvements = real skill growth
+      eliteProfileMultiplier *= 1.20; // Multiple sustainable improvements = real skill growth
     }
     
     // Combined adjustment
@@ -960,11 +970,11 @@ const loadLive = useCallback(async () => {
               </div>
             </div>
 
-            {/* HISTORICAL SUCCESS RATE */}
-            {selectedYear < 2026 && (
+            {/* HISTORICAL SUCCESS RATE - only show for 2023 and 2024 */}
+            {(selectedYear === 2023 || selectedYear === 2024) && (
               <div style={{
-                background: selectedYear === 2023 ? "#001a0f" : selectedYear === 2024 ? "#0a1220" : "#1a1500",
-                border: selectedYear === 2023 ? "1px solid #004422" : selectedYear === 2024 ? "1px solid #1a2540" : "1px solid #443300",
+                background: selectedYear === 2023 ? "#001a0f" : "#0a1220",
+                border: selectedYear === 2023 ? "1px solid #004422" : "1px solid #1a2540",
                 borderRadius: 8, padding: "14px 20px", marginBottom: 20,
                 display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 16
               }}>
@@ -975,13 +985,11 @@ const loadLive = useCallback(async () => {
                   <div style={{ fontSize: 14, color: "#dde", fontWeight: 600 }}>
                     {selectedYear === 2023 && "Historical Accuracy: 80% (4/5 successes)"}
                     {selectedYear === 2024 && "Historical Accuracy: 60% (3/5 successes)"}
-                    {selectedYear === 2025 && "Results Pending - 2025 season just ended"}
                   </div>
                 </div>
                 <div style={{ fontSize: 10, color: "#667", maxWidth: 400, lineHeight: 1.5 }}>
                   {selectedYear === 2023 && "Top hits: Yandy Díaz (batting champ), Luis Robert Jr. (All-Star, 38 HR), Corbin Carroll (NL ROY)"}
                   {selectedYear === 2024 && "Top hits: Bobby Witt Jr. (MVP runner-up), Jarren Duran (All-Star), Jackson Merrill (ROY finalist)"}
-                  {selectedYear === 2025 && "Final 2025 results will validate these predictions"}
                 </div>
               </div>
             )}
