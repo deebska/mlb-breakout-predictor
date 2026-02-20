@@ -1178,6 +1178,29 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
         const confidenceTier = SAMPLE_SIZE_ADJUSTMENTS.getTier(p.pa);
         const kRateFlag = K_RATE_PENALTIES.getFlag(p.kRate);
         
+        // Calculate breakout tier for 2025 tab
+        let breakoutTier = null;
+        if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null) {
+          const improvement = p.woba25 - p.woba24;
+          if (improvement >= 0.075) {
+            breakoutTier = { level: 'major', color: '#00ff44', bg: '#00331166' }; // Bright green
+          } else if (improvement >= 0.050) {
+            breakoutTier = { level: 'breakout', color: '#00dd33', bg: '#00331144' }; // Medium green
+          } else if (improvement >= 0.030) {
+            breakoutTier = { level: 'minor', color: '#00bb22', bg: '#00331122' }; // Lighter green
+          }
+        }
+        
+        // Determine row background - prioritize breakout highlighting
+        let rowBackground;
+        if (isSelected) {
+          rowBackground = `${tier.color}10`;
+        } else if (breakoutTier) {
+          rowBackground = breakoutTier.bg;
+        } else {
+          rowBackground = i % 2 === 0 ? "#0d1520" : "#0a1018";
+        }
+        
         return (
           <div
             key={p.name + i}
@@ -1190,7 +1213,7 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
               padding: "11px 16px",
               borderBottom: "1px solid #0f1820",
               cursor: "pointer",
-              background: isSelected ? `${tier.color}10` : i % 2 === 0 ? "#0d1520" : "#0a1018",
+              background: rowBackground,
               transition: "background 0.15s",
               alignItems: "center",
             }}
@@ -1199,39 +1222,18 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
                 <span style={{ fontSize: 13, color: "#dde", fontWeight: 600 }}>{p.name}</span>
-                {/* Show tiered breakout badges on 2025 tab based on wOBA improvement */}
-                {selectedYear === 2025 && p.woba25 != null && p.woba24 != null && (() => {
-                  const improvement = p.woba25 - p.woba24;
-                  if (improvement >= 0.075) {
-                    return (
-                      <span style={{
-                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
-                        background: "#ff440022", color: "#ff4444",
-                        border: "1px solid #ff444444",
-                        letterSpacing: "0.08em", fontWeight: 700
-                      }}>🔥 MAJOR BREAKOUT</span>
-                    );
-                  } else if (improvement >= 0.050) {
-                    return (
-                      <span style={{
-                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
-                        background: "#ffaa0022", color: "#ffaa00",
-                        border: "1px solid #ffaa0044",
-                        letterSpacing: "0.08em", fontWeight: 700
-                      }}>⭐ BREAKOUT</span>
-                    );
-                  } else if (improvement >= 0.030) {
-                    return (
-                      <span style={{
-                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
-                        background: "#00ff8822", color: "#00ff88",
-                        border: "1px solid #00ff8844",
-                        letterSpacing: "0.08em", fontWeight: 700
-                      }}>✅ MINOR BREAKOUT</span>
-                    );
-                  }
-                  return null;
-                })()}
+                {/* Show simple breakout badge text on 2025 tab */}
+                {breakoutTier && (
+                  <span style={{
+                    fontSize: 8, padding: "2px 6px", borderRadius: 3,
+                    background: breakoutTier.color + '22',
+                    color: breakoutTier.color,
+                    border: `1px solid ${breakoutTier.color}44`,
+                    letterSpacing: "0.08em", fontWeight: 700
+                  }}>
+                    {breakoutTier.level === 'major' ? '🔥 MAJOR' : breakoutTier.level === 'breakout' ? '⭐ BREAKOUT' : '✅ MINOR'}
+                  </span>
+                )}
                 <span style={{
                   fontSize: 8, padding: "2px 5px", borderRadius: 2,
                   background: `${confidenceTier.color}15`, color: confidenceTier.color,
