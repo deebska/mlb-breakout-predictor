@@ -67,26 +67,38 @@ function parseNum(v) { const n = parseFloat(v); return isNaN(n) ? null : n; }
 // Weights tuned to emphasize regression candidates (surplus) and skill trajectory.
 // Updated weights based on historical validation analysis
 
+// NEW MODEL v4.0: Focus on raw skill indicators over xwOBA surplus
+// Research shows: Hard-hit rate, barrel rate, and bat speed are most predictive
 const WEIGHTS = {
-  xwobaSurplus: 0.28,    // slightly reduced to make room for new factors
-  xwobaTrajectory: 0.18, // slightly reduced
-  hardHitRate: 0.14,     // slightly reduced
-  barrelRate: 0.14,      // slightly reduced
-  xwobaLevel: 0.13,      // slightly reduced
-  kRateInverse: 0.13,    // INCREASED from 5% → contact ability is critical
+  // Tier 1: Raw Power Skills (60%)
+  hardHitRate: 0.20,      // Most predictive of future production
+  barrelRate: 0.20,       // Sticky year-over-year, predicts HR/FB
+  batSpeed: 0.20,         // Raw power ceiling indicator (NEW - was implicit in other metrics)
+  
+  // Tier 2: Contact & Discipline (25%)
+  kRateInverse: 0.15,     // Contact ability crucial for sustaining production
+  chaseRateInverse: 0.10, // Plate discipline prevents holes in swing
+  
+  // Tier 3: Expected Performance (15%)
+  xwobaSurplus: 0.10,     // REDUCED from 28% - some luck component matters
+  xwobaLevel: 0.05,       // REDUCED from 13% - overall skill level
+  
+  // REMOVED: xwobaTrajectory (18%) - unreliable with only 2 years of data
 };
 
-// Age curve multipliers based on historical breakout rates
+// Age curve multipliers based on when breakouts actually occur
+// Research: Most breakouts happen ages 24-26, not 27
 const AGE_MULTIPLIERS = {
   getMultiplier: (age) => {
     if (age == null) return 1.0;
-    if (age <= 22) return 1.15;  // Prime breakout window (75% success rate)
-    if (age <= 25) return 1.05;  // Still developing (67% success rate)
-    if (age <= 28) return 1.00;  // Neutral
-    if (age <= 31) return 0.90;  // Declining (50% success rate)
-    return 0.75;                 // Rare breakouts (25% success rate)
+    if (age <= 23) return 1.15;  // Rapid skill development window
+    if (age <= 26) return 1.25;  // ⭐ PRIME BREAKOUT WINDOW - when most breakouts occur
+    if (age <= 28) return 1.00;  // Peak years but minimal improvement
+    if (age <= 30) return 0.85;  // Decline beginning
+    return 0.70;                 // Heavy penalty - rare to break out late
   }
 };
+
 
 // Sample size confidence adjustments
 const SAMPLE_SIZE_ADJUSTMENTS = {
@@ -303,12 +315,18 @@ function scorePlayer(p, year) {
   const fields = getFieldNames(year);
   const raw = {};
 
-  raw.xwobaSurplus = p.xwobaSurplus;
-  raw.xwobaTrajectory = p.xwobaTrajectory;
+  // Tier 1: Raw Power Skills
   raw.hardHitRate = p.hardHitRate;
   raw.barrelRate = p.barrelRate;
-  raw.xwobaLevel = p[fields.currentXwoba];
+  raw.batSpeed = p.batSpeed;
+  
+  // Tier 2: Contact & Discipline
   raw.kRateInverse = p.kRate != null ? (1 - p.kRate) : null;
+  raw.chaseRateInverse = p.chaseRate != null ? (1 - p.chaseRate) : null;
+  
+  // Tier 3: Expected Performance
+  raw.xwobaSurplus = p.xwobaSurplus;
+  raw.xwobaLevel = p[fields.currentXwoba];
 
   return raw;
 }
@@ -368,51 +386,40 @@ function computeBreakoutScore(players, year) {
       total += (p._scores[field] ?? 50) * w;
     });
     
-    // Apply all contextual adjustments
+    // Core adjustments
     const ageMultiplier = AGE_MULTIPLIERS.getMultiplier(p.age);
     const sampleMultiplier = SAMPLE_SIZE_ADJUSTMENTS.getMultiplier(p.pa);
-    const kRatePenalty = K_RATE_PENALTIES.getPenalty(p.kRate);
     
-    // v3.0 adjustments
-    const careerContextMultiplier = CAREER_CONTEXT.getMultiplier(p.currentWoba, p.careerWoba);
-    const chaseReliability = CHASE_RATE_FILTER.getSurplusReliability(p.chaseRate, p.xwobaSurplus);
-    const batSpeedBoost = BAT_SPEED_BOOST.getMultiplier(p.batSpeed, p.currentWoba);
-    const launchAngleBoost = LAUNCH_ANGLE_CHANGE.getMultiplier(p.launchAngleDelta, p.age);
-    const pullRateBoost = PULL_RATE_BOOST.getMultiplier(p.pullRate, year);
+    // NEW v4.0: Elite Profile Threshold Bonuses
+    // Research shows specific thresholds predict breakouts
+    let eliteProfileMultiplier = 1.0;
+    const hardHitAboveAvg = p.hardHitRate != null && p.hardHitRate > 0.45;
+    const barrelAboveAvg = p.barrelRate != null && p.barrelRate > 0.10;
+    const batSpeedAboveAvg = p.batSpeed != null && p.batSpeed > 73;
+    const lowKRate = p.kRate != null && p.kRate < 0.20;
     
-    // NEW v3.1 adjustments
-    const sophomoreSlumpPenalty = SOPHOMORE_SLUMP.getMultiplier(p.age, p.currentWoba, p.careerWoba, p.yearsInMLB);
-    const yearsOfServiceMultiplier = YEARS_OF_SERVICE.getMultiplier(p.yearsInMLB);
+    // Individual threshold bonuses
+    if (hardHitAboveAvg) eliteProfileMultiplier *= 1.15;
+    if (barrelAboveAvg) eliteProfileMultiplier *= 1.15;
+    if (batSpeedAboveAvg) eliteProfileMultiplier *= 1.10;
+    if (lowKRate) eliteProfileMultiplier *= 1.10;
     
-    // Apply chase rate reliability to the surplus component specifically
-    const surplusContribution = (p._scores.xwobaSurplus ?? 50) * WEIGHTS.xwobaSurplus * chaseReliability;
-    const otherContributions = total - ((p._scores.xwobaSurplus ?? 50) * WEIGHTS.xwobaSurplus);
-    const adjustedTotal = surplusContribution + otherContributions;
+    // MEGA BONUS: If ALL FOUR thresholds met (elite profile)
+    if (hardHitAboveAvg && barrelAboveAvg && batSpeedAboveAvg && lowKRate) {
+      eliteProfileMultiplier *= 1.20;
+    }
     
-    // Combined adjustment with all multipliers (including v3.1)
-    const adjustedScore = adjustedTotal * 
+    // Combined adjustment
+    const adjustedScore = total * 
       ageMultiplier * 
       sampleMultiplier * 
-      kRatePenalty * 
-      careerContextMultiplier *
-      batSpeedBoost *
-      launchAngleBoost *
-      pullRateBoost *
-      sophomoreSlumpPenalty *  // NEW
-      yearsOfServiceMultiplier; // NEW
+      eliteProfileMultiplier;
     
     p.breakoutScore = Math.round(adjustedScore);
     p._adjustments = {
       age: ageMultiplier,
       sampleSize: sampleMultiplier,
-      kRate: kRatePenalty,
-      careerContext: careerContextMultiplier,
-      chaseRate: chaseReliability,
-      batSpeed: batSpeedBoost,
-      launchAngle: launchAngleBoost,
-      pullRate: pullRateBoost,
-      sophomoreSlump: sophomoreSlumpPenalty,  // NEW
-      yearsOfService: yearsOfServiceMultiplier, // NEW
+      eliteProfile: eliteProfileMultiplier,
       rawScore: Math.round(total)
     };
   });
