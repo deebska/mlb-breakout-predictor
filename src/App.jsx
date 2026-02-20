@@ -902,10 +902,10 @@ const loadLive = useCallback(async () => {
                 EXPECTED {selectedYear} BREAKOUTS
               </div>
               <div style={{ fontSize: 28, fontWeight: 700, color: "#ffaa00", lineHeight: 1, marginBottom: 6 }}>
-                10-12 players
+                15-20 players
               </div>
               <div style={{ fontSize: 11, color: "#889", lineHeight: 1.5 }}>
-                ~7% of qualified MLB hitters will meet breakout threshold
+                Minor (+.030), Breakout (+.050), Major (+.075) tiers
               </div>
             </div>
 
@@ -1199,15 +1199,39 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
                 <span style={{ fontSize: 13, color: "#dde", fontWeight: 600 }}>{p.name}</span>
-                {/* Show breakout badge on 2025 tab if woba25 - woba24 >= .030 */}
-                {selectedYear === 2025 && p.woba25 != null && p.woba24 != null && (p.woba25 - p.woba24) >= 0.030 && (
-                  <span style={{
-                    fontSize: 8, padding: "2px 6px", borderRadius: 3,
-                    background: "#00ff8822", color: "#00ff88",
-                    border: "1px solid #00ff8844",
-                    letterSpacing: "0.08em", fontWeight: 700
-                  }}>✅ BREAKOUT</span>
-                )}
+                {/* Show tiered breakout badges on 2025 tab based on wOBA improvement */}
+                {selectedYear === 2025 && p.woba25 != null && p.woba24 != null && (() => {
+                  const improvement = p.woba25 - p.woba24;
+                  if (improvement >= 0.075) {
+                    return (
+                      <span style={{
+                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
+                        background: "#ff440022", color: "#ff4444",
+                        border: "1px solid #ff444444",
+                        letterSpacing: "0.08em", fontWeight: 700
+                      }}>🔥 MAJOR BREAKOUT</span>
+                    );
+                  } else if (improvement >= 0.050) {
+                    return (
+                      <span style={{
+                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
+                        background: "#ffaa0022", color: "#ffaa00",
+                        border: "1px solid #ffaa0044",
+                        letterSpacing: "0.08em", fontWeight: 700
+                      }}>⭐ BREAKOUT</span>
+                    );
+                  } else if (improvement >= 0.030) {
+                    return (
+                      <span style={{
+                        fontSize: 8, padding: "2px 6px", borderRadius: 3,
+                        background: "#00ff8822", color: "#00ff88",
+                        border: "1px solid #00ff8844",
+                        letterSpacing: "0.08em", fontWeight: 700
+                      }}>✅ MINOR BREAKOUT</span>
+                    );
+                  }
+                  return null;
+                })()}
                 <span style={{
                   fontSize: 8, padding: "2px 5px", borderRadius: 2,
                   background: `${confidenceTier.color}15`, color: confidenceTier.color,
