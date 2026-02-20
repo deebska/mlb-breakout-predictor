@@ -858,7 +858,7 @@ const loadLive = useCallback(async () => {
         }}>
           <div>
             <div style={{ fontSize: 10, color: "#00ff88", letterSpacing: "0.15em", marginBottom: 4, fontWeight: 700 }}>
-              MODEL v3.1 - REFINED ROOKIE & SOPHOMORE DETECTION
+              MODEL v5.1 - YOY IMPROVEMENTS + K-RATE SUSTAINABILITY
             </div>
             <div style={{ fontSize: 11, color: "#667", lineHeight: 1.5 }}>
               Career Context · Chase Rate (30% threshold) · Bat Speed (74+ mph) · Launch Angle · Pull Rate · <strong style={{ color: "#00ff88" }}>NEW:</strong> Sophomore Slump Detector · Years of Service Adjustment
@@ -1733,20 +1733,21 @@ function MethodologyPanel() {
   return (
     <div style={{ maxWidth: 800, margin: "0 auto" }}>
       <div style={{ marginBottom: 32 }}>
-        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v3.1 - PRODUCTION READY)</div>
+        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v5.1 - YOY IMPROVEMENTS)</div>
         <h2 style={{ fontSize: 24, color: "#fff", margin: 0, fontWeight: 700 }}>How Breakout Score Works</h2>
         <p style={{ color: "#667", lineHeight: 1.7, marginTop: 12 }}>
-          The Breakout Score integrates <strong style={{ color: "#00ff88" }}>6 Baseball Savant data sources</strong> with 
-          sophisticated contextual adjustments validated through historical backtesting. <strong style={{ color: "#00ff88" }}>Version 3.1</strong> adds 
-          rookie/sophomore-specific detection and refined thresholds based on 2023-2024 validation, pushing expected accuracy to <strong style={{ color: "#00ff88" }}>78-82%</strong>.
+          The Breakout Score integrates <strong style={{ color: "#00ff88" }}>Baseball Savant data</strong> with 
+          year-over-year improvement tracking and K-rate sustainability filters. <strong style={{ color: "#00ff88" }}>Version 5.1</strong> focuses on 
+          barrel rate and hard-hit rate improvements while penalizing players who sacrifice contact for power.
         </p>
         <div style={{
           background: "#001a0f", border: "1px solid #004422",
           borderRadius: 6, padding: "12px 16px", marginTop: 16, fontSize: 11, color: "#00cc66"
         }}>
-          <strong>✨ NEW in v3.1:</strong> Sophomore slump detector (35% penalty for 2nd/3rd year after breakout) · 
-          Years of service adjustment (rookies 20% penalty) · Chase rate lowered to 30% threshold · 
-          Bat speed lowered to 74+ mph · Validated 78-82% accuracy on historical data
+          <strong>✨ NEW in v5.1:</strong> Year-over-year improvement tracking (30% weight on barrel/hard-hit gains) · 
+          K-rate explosion penalty (-25% for players with 5%+ K-rate spikes) · 
+          Sustainable improvement filter (only reward contact quality gains if K-rate stays stable) · 
+          Elite profile bonuses for multiple simultaneous improvements
         </div>
       </div>
 
