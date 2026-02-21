@@ -905,7 +905,7 @@ const loadLive = useCallback(async () => {
                 15-20 players
               </div>
               <div style={{ fontSize: 11, color: "#889", lineHeight: 1.5 }}>
-                Minor (+.030), Breakout (+.050), Major (+.075) tiers
+                Major (+.050) and Minor (+.030) breakout tiers
               </div>
             </div>
 
@@ -1178,16 +1178,14 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
         const confidenceTier = SAMPLE_SIZE_ADJUSTMENTS.getTier(p.pa);
         const kRateFlag = K_RATE_PENALTIES.getFlag(p.kRate);
         
-        // Calculate breakout tier for 2025 tab
+        // Calculate breakout tier for 2025 tab (2-tier system)
         let breakoutTier = null;
         if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null) {
           const improvement = p.woba25 - p.woba24;
-          if (improvement >= 0.075) {
-            breakoutTier = { level: 'major', color: '#00ff44', bg: '#004411aa' }; // Strong bright green
-          } else if (improvement >= 0.050) {
-            breakoutTier = { level: 'breakout', color: '#00dd33', bg: '#003311aa' }; // Strong medium green
+          if (improvement >= 0.050) {
+            breakoutTier = { level: 'major', color: '#00ff44', bg: '#004411aa' }; // Major breakout
           } else if (improvement >= 0.030) {
-            breakoutTier = { level: 'minor', color: '#00bb22', bg: '#002211aa' }; // Strong light green
+            breakoutTier = { level: 'minor', color: '#00bb22', bg: '#002211aa' }; // Minor breakout
           }
         }
         
@@ -1231,7 +1229,7 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
                     border: `1px solid ${breakoutTier.color}44`,
                     letterSpacing: "0.08em", fontWeight: 700
                   }}>
-                    {breakoutTier.level === 'major' ? '🔥 MAJOR' : breakoutTier.level === 'breakout' ? '⭐ BREAKOUT' : '✅ MINOR'}
+                    {breakoutTier.level === 'major' ? '🔥 MAJOR' : '✅ MINOR'}
                   </span>
                 )}
                 <span style={{
