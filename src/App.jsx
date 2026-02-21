@@ -1183,11 +1183,11 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
         if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null) {
           const improvement = p.woba25 - p.woba24;
           if (improvement >= 0.075) {
-            breakoutTier = { level: 'major', color: '#00ff44', bg: '#00331166' }; // Bright green
+            breakoutTier = { level: 'major', color: '#00ff44', bg: '#004411aa' }; // Strong bright green
           } else if (improvement >= 0.050) {
-            breakoutTier = { level: 'breakout', color: '#00dd33', bg: '#00331144' }; // Medium green
+            breakoutTier = { level: 'breakout', color: '#00dd33', bg: '#003311aa' }; // Strong medium green
           } else if (improvement >= 0.030) {
-            breakoutTier = { level: 'minor', color: '#00bb22', bg: '#00331122' }; // Lighter green
+            breakoutTier = { level: 'minor', color: '#00bb22', bg: '#002211aa' }; // Strong light green
           }
         }
         
