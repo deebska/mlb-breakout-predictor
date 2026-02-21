@@ -902,10 +902,10 @@ const loadLive = useCallback(async () => {
                 EXPECTED {selectedYear} BREAKOUTS
               </div>
               <div style={{ fontSize: 28, fontWeight: 700, color: "#ffaa00", lineHeight: 1, marginBottom: 6 }}>
-                15-20 players
+                20-25 players
               </div>
               <div style={{ fontSize: 11, color: "#889", lineHeight: 1.5 }}>
-                Major (+.050) and Minor (+.030) breakout tiers
+                ~13 major (+.050), ~12 minor (+.030) breakouts per year
               </div>
             </div>
 
