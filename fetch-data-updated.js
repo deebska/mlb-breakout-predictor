@@ -53,10 +53,10 @@ async function fetchYear(targetYear) {
   const statcast3Csv = await fetchWithScraper('https://baseballsavant.mlb.com/leaderboard/bat-tracking?year=' + currentDataYear + '&min=1&csv=true');
   
   console.log('Fetching chase rate current');
-  const statcast4Csv = await fetchWithScraper('https://baseballsavant.mlb.com/leaderboard/custom?year=' + currentDataYear + '&type=batter&min=1&selections=player_id,o_swing_percent&csv=true');
+  const statcast4Csv = await fetchWithScraper('https://baseballsavant.mlb.com/leaderboard/custom?year=' + currentDataYear + '&type=batter&min=1&selections=player_id,oz_swing_percent&csv=true');
   
   console.log('Fetching chase rate previous');
-  const statcast4PrevCsv = await fetchWithScraper('https://baseballsavant.mlb.com/leaderboard/custom?year=' + prevDataYear + '&type=batter&min=1&selections=player_id,o_swing_percent&csv=true');
+  const statcast4PrevCsv = await fetchWithScraper('https://baseballsavant.mlb.com/leaderboard/custom?year=' + prevDataYear + '&type=batter&min=1&selections=player_id,oz_swing_percent&csv=true');
   
   console.log('Parsing CSVs');
   const expectedCurrentParsed = Papa.parse(expectedCurrentCsv, { header: true, skipEmptyLines: true, dynamicTyping: true });
@@ -124,14 +124,14 @@ async function fetchYear(targetYear) {
     const playerId = String(row.player_id);
     if (playerId) {
       const existing = statcastMap.get(playerId) || {};
-      statcastMap.set(playerId, Object.assign({}, existing, { o_swing_percent: row.o_swing_percent }));
+      statcastMap.set(playerId, Object.assign({}, existing, { o_swing_percent: row.oz_swing_percent }));
     }
   });
   
   const chasePrevMap = new Map();
   statcast4PrevParsed.data.forEach(row => {
     const playerId = String(row.player_id);
-    if (playerId && row.o_swing_percent) chasePrevMap.set(playerId, parseFloat(row.o_swing_percent));
+    if (playerId && row.oz_swing_percent) chasePrevMap.set(playerId, parseFloat(row.oz_swing_percent));
   });
   
   const players = [];
@@ -174,6 +174,10 @@ async function fetchYear(targetYear) {
     
     const currentLaunchAngle = statcastData && (parseFloat(statcastData.launch_angle) || parseFloat(statcastData.avg_hit_angle));
     const prevLaunchAngle = statcastPrevData && (parseFloat(statcastPrevData.launch_angle) || parseFloat(statcastPrevData.avg_hit_angle));
+    
+    // CRITICAL: launchAngleDelta should be PREDICTIVE (prev→current), not descriptive (current→actual)
+    // For 2025 predictions: we use 2024-2023 delta (known at prediction time)
+    // NOT 2025-2024 delta (only known after breakout year)
     const launchAngleDelta = (currentLaunchAngle != null && prevLaunchAngle != null) ? currentLaunchAngle - prevLaunchAngle : null;
     
     const playerObj = {

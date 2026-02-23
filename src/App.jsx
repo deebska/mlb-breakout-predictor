@@ -67,19 +67,17 @@ function parseNum(v) { const n = parseFloat(v); return isNaN(n) ? null : n; }
 // Weights tuned to emphasize regression candidates (surplus) and skill trajectory.
 // Updated weights based on historical validation analysis
 
-// MODEL v5.0: Raw skills + Year-over-year improvements
-// Research shows: Barrel rate gains + chase rate improvements = breakout predictor
+// MODEL v5.4: Raw skills + YoY improvements (launch angle removed - not predictive)
 const WEIGHTS = {
-  // Tier 1: Raw Power Skills (40%)
-  hardHitRate: 0.15,           // Current skill level
-  barrelRate: 0.15,            // Most predictive single metric
-  batSpeed: 0.10,              // Raw power ceiling
+  // Tier 1: Raw Power Skills (37%)
+  hardHitRate: 0.14,           // Current skill level
+  barrelRate: 0.14,            // Most predictive single metric
+  batSpeed: 0.09,              // Raw power ceiling
   
-  // Tier 2: Year-over-Year Improvements (30%) - NEW!
-  // Research: YoY barrel gains have 0.71 correlation with ISO improvement
+  // Tier 2: Year-over-Year Improvements (33%)
   barrelImprovement: 0.15,     // Contact quality improving
   hardHitImprovement: 0.10,    // Power development
-  chaseImprovement: 0.05,      // Plate discipline improving
+  chaseImprovement: 0.08,      // Plate discipline improving (INCREASED - high value)
   
   // Tier 3: Contact & Discipline (20%)
   kRateInverse: 0.10,          // Contact ability
@@ -325,7 +323,7 @@ function scorePlayer(p, year) {
   raw.barrelRate = p.barrelRate;
   raw.batSpeed = p.batSpeed;
   
-  // Tier 2: Year-over-Year Improvements (NEW!)
+  // Tier 2: Year-over-Year Improvements
   raw.barrelImprovement = p.barrelImprovement;
   raw.hardHitImprovement = p.hardHitImprovement;
   raw.chaseImprovement = p.chaseImprovement;
@@ -878,7 +876,7 @@ const loadLive = useCallback(async () => {
         }}>
           <div>
             <div style={{ fontSize: 10, color: "#00ff88", letterSpacing: "0.15em", marginBottom: 4, fontWeight: 700 }}>
-              MODEL v5.2 - ELITE YOUNG TALENT DETECTION
+              MODEL v5.4 - CHASE RATE FOCUS
             </div>
             <div style={{ fontSize: 11, color: "#667", lineHeight: 1.5 }}>
               Career Context · Chase Rate (30% threshold) · Bat Speed (74+ mph) · Launch Angle · Pull Rate · <strong style={{ color: "#00ff88" }}>NEW:</strong> Sophomore Slump Detector · Years of Service Adjustment
@@ -1777,21 +1775,21 @@ function MethodologyPanel() {
   return (
     <div style={{ maxWidth: 800, margin: "0 auto" }}>
       <div style={{ marginBottom: 32 }}>
-        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v5.2 - ELITE YOUNG TALENT)</div>
+        <div style={{ fontSize: 11, color: "#556", letterSpacing: "0.15em", marginBottom: 8 }}>THE MODEL (v5.4 - CHASE RATE)</div>
         <h2 style={{ fontSize: 24, color: "#fff", margin: 0, fontWeight: 700 }}>How Breakout Score Works</h2>
         <p style={{ color: "#667", lineHeight: 1.7, marginTop: 12 }}>
           The Breakout Score integrates <strong style={{ color: "#00ff88" }}>Baseball Savant data</strong> with 
-          year-over-year improvement tracking and elite young talent detection. <strong style={{ color: "#00ff88" }}>Version 5.2</strong> adds 
-          major bonuses for players age 23 and under who already demonstrate elite contact quality.
+          year-over-year improvement tracking and elite young talent detection. <strong style={{ color: "#00ff88" }}>Version 5.4</strong> removes 
+          launch angle delta (not predictive) and fixes chase rate data collection to properly weight plate discipline improvements.
         </p>
         <div style={{
           background: "#001a0f", border: "1px solid #004422",
           borderRadius: 6, padding: "12px 16px", marginTop: 16, fontSize: 11, color: "#00cc66"
         }}>
-          <strong>✨ NEW in v5.2:</strong> Elite young talent sliding scale bonus (age 21: +40%, age 22: +30%, age 23: +20%, age 24: +10% for players with 55%+ hard-hit AND 13%+ barrels) · 
-          Research shows power peaks early - younger players with elite metrics are exponentially rarer · 
-          K-rate explosion penalty (-25% for 5%+ K-rate spikes) · 
-          Sustainable improvement filter (only reward contact quality gains if K-rate stays stable)
+          <strong>✨ NEW in v5.4:</strong> Removed launch angle delta (23% moved toward optimal, not statistically significant) · 
+          Fixed chase rate data collection from Baseball Savant percentile rankings · 
+          Increased chase improvement weight to 8% (plate discipline is highly predictive) · 
+          Elite young talent sliding scale, K-rate sustainability filters, 2-tier breakout system
         </div>
       </div>
 
