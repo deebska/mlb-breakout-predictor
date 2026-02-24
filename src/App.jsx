@@ -982,7 +982,7 @@ const loadLive = useCallback(async () => {
                   <span style={{ fontSize: 12, color: "#00ff88", minWidth: 24 }}>{maxAge}</span>
                 </div>
               </div>
-              <FilterSelect label="SHOW TOP" value={showTop} onChange={v => setShowTop(+v)} options={[10,25,50,100]} />
+              <FilterSelect label="SHOW TOP" value={showTop} onChange={v => setShowTop(+v)} options={[10,25,50,100,250,500]} />
               <div style={{ marginLeft: "auto", fontSize: 11, color: "#445" }}>
                 {filtered.length} players shown
               </div>
