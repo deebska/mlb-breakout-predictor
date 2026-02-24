@@ -900,10 +900,10 @@ const loadLive = useCallback(async () => {
                 EXPECTED {selectedYear} BREAKOUTS
               </div>
               <div style={{ fontSize: 28, fontWeight: 700, color: "#ffaa00", lineHeight: 1, marginBottom: 6 }}>
-                20-25 players
+                10-15 players
               </div>
               <div style={{ fontSize: 11, color: "#889", lineHeight: 1.5 }}>
-                ~13 major (+.050), ~12 minor (+.030) breakouts per year
+                Breakout requires: +.030 wOBA, 300+ PA, and .320+ final wOBA
               </div>
             </div>
 
@@ -1177,8 +1177,9 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
         const kRateFlag = K_RATE_PENALTIES.getFlag(p.kRate);
         
         // Calculate breakout tier for 2025 tab (2-tier system)
+        // Requirements: +.030 or +.050 improvement AND woba25 >= .320 AND pa >= 300
         let breakoutTier = null;
-        if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null) {
+        if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null && p.woba25 >= 0.320 && p.pa >= 300) {
           const improvement = p.woba25 - p.woba24;
           if (improvement >= 0.050) {
             breakoutTier = { level: 'major', color: '#00ff44', bg: '#004411aa' }; // Major breakout
