@@ -82,7 +82,11 @@ async function fetchYear(targetYear) {
   for (const row of expectedActualParsed.data) {
     const playerId = String(row.player_id);
     if (playerId && row.woba) {
-      actualResultsMap.set(playerId, { woba: parseFloat(row.woba), xwoba: parseFloat(row.est_woba) });
+      actualResultsMap.set(playerId, { 
+        woba: parseFloat(row.woba), 
+        xwoba: parseFloat(row.est_woba),
+        pa: parseInt(row.pa) || 0
+      });
     }
   }
   
@@ -210,6 +214,7 @@ async function fetchYear(targetYear) {
     playerObj['woba' + prevYearSuffix] = prevYearData ? prevYearData.woba : null;
     playerObj['xwoba' + prevYearSuffix] = prevYearData ? prevYearData.xwoba : null;
     playerObj['woba' + actualYearSuffix] = actualResults ? actualResults.woba : null;
+    playerObj['pa' + actualYearSuffix] = actualResults ? actualResults.pa : null;
     playerObj['launchAngle' + currentYearSuffix] = currentLaunchAngle;
     playerObj['launchAngle' + prevYearSuffix] = prevLaunchAngle;
     

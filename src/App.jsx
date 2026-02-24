@@ -1177,9 +1177,9 @@ function RankingsTable({ players, onSelect, selected, selectedYear }) {
         const kRateFlag = K_RATE_PENALTIES.getFlag(p.kRate);
         
         // Calculate breakout tier for 2025 tab (2-tier system)
-        // Requirements: +.030 or +.050 improvement AND woba25 >= .320 AND pa >= 300
+        // Requirements: +.030 or +.050 improvement AND woba25 >= .320 AND pa25 >= 300 (breakout year PA)
         let breakoutTier = null;
-        if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null && p.woba25 >= 0.320 && p.pa >= 300) {
+        if (selectedYear === 2025 && p.woba25 != null && p.woba24 != null && p.woba25 >= 0.320 && p.pa25 != null && p.pa25 >= 300) {
           const improvement = p.woba25 - p.woba24;
           if (improvement >= 0.050) {
             breakoutTier = { level: 'major', color: '#00ff44', bg: '#004411aa' }; // Major breakout
