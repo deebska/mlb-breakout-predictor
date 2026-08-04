@@ -83,7 +83,8 @@ METEO    = "https://api.open-meteo.com/v1/forecast"
 
 # statsapi venue name -> park code (for slate mode)
 VENUE_TO_CODE = {p["name"]: code for code, p in PARKS.items()}
-VENUE_ALIASES = {"Minute Maid Park": "HOU", "Oakland Coliseum": "OAK",
+VENUE_ALIASES = {"Oriole Park at Camden Yards": "BAL",
+                 "Minute Maid Park": "HOU", "Oakland Coliseum": "OAK",
                  "George M. Steinbrenner Field": "TB",
                  "Guaranteed Rate Field": "CWS",
                  "Great American Ball Park": "CIN",
