@@ -143,6 +143,25 @@ def main():
         import sys
         sys.exit(3)   # signal 'nothing to publish' so automation skips the page
     df = pd.DataFrame(rows).sort_values("p_hr_tonight", ascending=False)
+    # join market odds if today's pull exists
+    odds_path = os.path.join(os.path.dirname(OUT_CSV), "odds_today.csv")
+    if os.path.exists(odds_path):
+        try:
+            from odds_pull import norm_name
+            odf = pd.read_csv(odds_path)
+            if str(odf["date"].iloc[0]) == str(baseball_today()):
+                odf["name_key"] = odf["name_key"].astype(str)
+                df["name_key"] = df["player"].map(norm_name)
+                df = df.merge(odf[["name_key", "mkt_prob", "best_over_odds",
+                                   "books"]], on="name_key", how="left")
+                df["edge"] = (df["p_hr_tonight"] - df["mkt_prob"]).round(4)
+                df = df.drop(columns=["name_key"])
+                matched = int(df["mkt_prob"].notna().sum())
+                print(f"odds joined: {matched}/{len(df)} players priced")
+            else:
+                print("odds_today.csv is stale (different date) -- skipping join")
+        except Exception as e:
+            print(f"odds join failed ({e}) -- board proceeds without market")
     df.to_csv(OUT_CSV, index=False)
     if game_tally:
         import math as _m
