@@ -58,6 +58,10 @@ def score(day):
     hr_by_batter, played = res
 
     join_on_id = "batter_id" in preds.columns
+    store_day = None
+    if not join_on_id:
+        store_day = st.load_store(min_date=day)
+        store_day = store_day[store_day["game_date"] == day]
     rows = []
     for _, r in preds.iterrows():
         if join_on_id:
@@ -65,11 +69,8 @@ def score(day):
             hit = int(hr_by_batter.get(bid, 0) > 0)
             appeared = bid in played
         else:
-            # name join for the pre-id snapshot (Aug 3)
-            name = str(r["player"])
-            store_day = st.load_store(min_date=day)
-            store_day = store_day[store_day["game_date"] == day]
-            sub = store_day[store_day["player_name"] == name]
+            # name join for the pre-id snapshot (Aug 3) -- store loaded once above
+            sub = store_day[store_day["player_name"] == str(r["player"])]
             appeared = not sub.empty
             hit = int((sub["events"] == "home_run").any()) if appeared else 0
         rows.append({"date": day, "player": r["player"],
@@ -91,10 +92,13 @@ def score(day):
 
     n, hrs = len(out), int(out["hr"].sum())
     brier = float(((out["p_hr"] - out["hr"]) ** 2).mean())
+    pbar = float(out["p_hr"].mean())
+    base = float(((pbar - out["hr"]) ** 2).mean())   # constant-forecast Brier
+    verdict = "model BEATS it" if brier < base else "model behind it"
     print(f"\n{day}: scored {n} predictions -- {hrs} homered "
           f"(predicted {out['p_hr'].sum():.1f} expected HRs)")
-    print(f"Brier score: {brier:.4f} "
-          f"(coin-flip baseline at this base rate ~{(out['p_hr'].mean()*(1-out['p_hr'].mean())):.4f})")
+    print(f"Brier score: {brier:.4f} vs same-number-for-everyone baseline "
+          f"{base:.4f} -- {verdict}")
     top10 = out.nlargest(10, "p_hr")
     print(f"top-10 board: {int(top10['hr'].sum())}/10 homered "
           f"(expected {top10['p_hr'].sum():.1f})")
@@ -114,9 +118,12 @@ def report():
     n, hrs = len(log), int(log["hr"].sum())
     days = log["date"].nunique()
     brier = float(((log["p_hr"] - log["hr"]) ** 2).mean())
+    pbar = float(log["p_hr"].mean())
+    base = float(((pbar - log["hr"]) ** 2).mean())
     print(f"CALIBRATION -- {days} days, {n} predictions, {hrs} HRs")
     print(f"overall: predicted {log['p_hr'].mean():.2%} vs realized "
-          f"{log['hr'].mean():.2%} | Brier {brier:.4f}")
+          f"{log['hr'].mean():.2%} | Brier {brier:.4f} vs constant-forecast "
+          f"baseline {base:.4f} ({'beating it' if brier < base else 'behind it'})")
     print("reliability by bucket (predicted -> realized):")
     for lo, hi in BUCKETS:
         b = log[(log["p_hr"] >= lo) & (log["p_hr"] < hi)]
