@@ -3,10 +3,13 @@ name: HR Board auto-update
 on:
   schedule:
     # data refresh (morning ET) + board refreshes through lineup-posting hours
-    - cron: "0 10 * * *"    # 6am ET: statcast update + talent rebuild
-    - cron: "0 17 * * *"    # 1pm ET: first board attempt (early lineups)
-    - cron: "0 20 * * *"    # 4pm ET
-    - cron: "30 22 * * *"   # 6:30pm ET: final pre-slate refresh
+    - cron: "0 10 * * *"    # 6am ET: data update
+    - cron: "0 15 * * *"    # 11am ET
+    - cron: "0 16 * * *"    # noon ET
+    - cron: "0 17 * * *"    # 1pm ET
+    - cron: "0 19 * * *"    # 3pm ET
+    - cron: "0 21 * * *"    # 5pm ET
+    - cron: "30 22 * * *"   # 6:30pm ET
   workflow_dispatch: {}      # manual "Run workflow" button
 
 permissions:
