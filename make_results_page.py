@@ -66,16 +66,32 @@ def build():
         snap_path = os.path.join(HERE, "hr_board.csv")
     snap = pd.read_csv(snap_path) if os.path.exists(snap_path) else pd.DataFrame()
 
+    def p_to_american(p):
+        if p <= 0 or p >= 1:
+            return ""
+        return f"+{round(100*(1-p)/p)}" if p < 0.5 else f"-{round(100*p/(1-p))}"
+
+    # board rank = position within that day's full scored slate by model P(HR)
+    ranked = d.sort_values("p_hr", ascending=False).reset_index(drop=True)
+    rank_of = {row["player"]: i + 1 for i, row in ranked.iterrows()}
+
+    # only trust snapshot context if a true frozen snapshot exists for the day
+    snap_ok = os.path.exists(os.path.join(PRED_DIR, f"{day}.csv"))
+
     hr_rows = ""
     hrs = d[d["hr"] == 1].sort_values("p_hr", ascending=False)
-    for i, (_, r) in enumerate(hrs.iterrows(), start=1):
-        ctx = snap[snap["player"] == r["player"]]
-        c = ctx.iloc[0] if not ctx.empty else {}
-        hr_rows += (f"<tr class='hr'><td>{i}</td><td><b>{r['player']}</b></td>"
-                    f"<td>{c.get('park','')}</td>"
-                    f"<td class='hide-m'>{c.get('vs_sp','')}</td>"
+    for _, r in hrs.iterrows():
+        park = ""
+        if snap_ok:
+            ctx = snap[snap["player"] == r["player"]]
+            if not ctx.empty:
+                park = ctx.iloc[0].get("park", "")
+        hr_rows += (f"<tr class='hr'><td>#{rank_of.get(r['player'], '?')} "
+                    f"of {len(d)}</td>"
+                    f"<td><b>{r['player']}</b></td>"
+                    f"<td>{park}</td>"
                     f"<td>{r['p_hr']:.1%}</td>"
-                    f"<td>{fmt_odds(c.get('fair_odds',''))}</td></tr>")
+                    f"<td>{p_to_american(float(r['p_hr']))}</td></tr>")
 
     exp, act = d["p_hr"].sum(), int(d["hr"].sum())
     day_buckets = ""
@@ -110,9 +126,12 @@ def build():
 <div class="sub"><a href="/hrboard.html">&larr; back to tonight's board</a></div>
 
 <h2>Who homered -- {day}</h2>
-<table><thead><tr><th>#</th><th>Player</th><th>Park</th>
-<th class="hide-m">Opposing SP</th><th>Model P(HR)</th><th>Fair odds</th></tr>
+<table><thead><tr><th>Board rank</th><th>Player</th><th>Park</th>
+<th>Model P(HR)</th><th>Fair odds</th></tr>
 </thead><tbody>{hr_rows}</tbody></table>
+<div class="sub" style="margin-top:8px">Board rank is where the model placed
+the player among all {len(d)} scored hitters that day -- low numbers were
+called; high numbers were surprises.</div>
 
 <h2>The day vs the model</h2>
 <div class="stat"><div class="lab">Model expected</div>
