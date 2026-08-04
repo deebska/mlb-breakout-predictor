@@ -4,5 +4,8 @@
       "memory": 1024,
       "maxDuration": 10
     }
-  }
+  },
+  "redirects": [
+    { "source": "/", "destination": "/hrboard.html", "permanent": false }
+  ]
 }
