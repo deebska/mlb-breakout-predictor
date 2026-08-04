@@ -1,1 +1,271 @@
-python: can't open file '/home/runner/work/mlb-breakout-predictor/mlb-breakout-predictor/odds_pull_poly.py': [Errno 2] No such file or directory
+15 games today
+  LAA @ BAL: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Los Angeles Angels vs. Baltimore Orioles
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: Will there be a run scored in the first inning?: Los Angeles Ang
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: Spread: Baltimore Orioles (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: Los Angeles Angels vs. Baltimore Orioles: O/U 8.5
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: 1st 5 Innings Spread: Baltimore Orioles (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: 1st 5 Innings Spread: Los Angeles Angels (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: Los Angeles Angels vs. Baltimore Orioles: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+        Q: Los Angeles Angels vs. Baltimore Orioles: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Los Angeles Angels and Baltimore Orioles, scheduled f
+  NYM @ CLE: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: New York Mets vs. Cleveland Guardians
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: Will there be a run scored in the first inning?: New York Mets v
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: Spread: Cleveland Guardians (-1.5)
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: New York Mets vs. Cleveland Guardians: O/U 7.5
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: 1st 5 Innings Spread: Cleveland Guardians (-1.5)
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: 1st 5 Innings Spread: New York Mets (-1.5)
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: New York Mets vs. Cleveland Guardians: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+        Q: New York Mets vs. Cleveland Guardians: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the New York Mets and Cleveland Guardians, scheduled for 
+  OAK @ CIN: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Athletics vs. Cincinnati Reds
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: Will there be a run scored in the first inning?: Athletics vs. C
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: Spread: Cincinnati Reds (-1.5)
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: Athletics vs. Cincinnati Reds: O/U 9.5
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: 1st 5 Innings Spread: Cincinnati Reds (-1.5)
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: 1st 5 Innings Spread: Athletics (-1.5)
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: Athletics vs. Cincinnati Reds: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+        Q: Athletics vs. Cincinnati Reds: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Athletics and Cincinnati Reds, scheduled for August 4
+  WSH @ PHI: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Washington Nationals vs. Philadelphia Phillies
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: Will there be a run scored in the first inning?: Washington Nati
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: Spread: Philadelphia Phillies (-1.5)
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: Washington Nationals vs. Philadelphia Phillies: O/U 9.5
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: 1st 5 Innings Spread: Philadelphia Phillies (-1.5)
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: 1st 5 Innings Spread: Washington Nationals (-1.5)
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: Washington Nationals vs. Philadelphia Phillies: 1st 5 Innings O/
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+        Q: Washington Nationals vs. Philadelphia Phillies: 1st 5 Innings O/
+        D: In the upcoming MLB game between the Washington Nationals and Philadelphia Phillies, sched
+  STL @ NYY: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: St. Louis Cardinals vs. New York Yankees
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: Will there be a run scored in the first inning?: St. Louis Cardi
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: Spread: New York Yankees (-1.5)
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: St. Louis Cardinals vs. New York Yankees: O/U 8.5
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: 1st 5 Innings Spread: New York Yankees (-1.5)
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: 1st 5 Innings Spread: St. Louis Cardinals (-1.5)
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: St. Louis Cardinals vs. New York Yankees: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+        Q: St. Louis Cardinals vs. New York Yankees: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the St. Louis Cardinals and New York Yankees, scheduled f
+  CWS @ BOS: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Chicago White Sox vs. Boston Red Sox
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: Will there be a run scored in the first inning?: Chicago White S
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: Spread: Chicago White Sox (-1.5)
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: Chicago White Sox vs. Boston Red Sox: O/U 8.5
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: 1st 5 Innings Spread: Boston Red Sox (-1.5)
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: 1st 5 Innings Spread: Chicago White Sox (-1.5)
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: Chicago White Sox vs. Boston Red Sox: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+        Q: Chicago White Sox vs. Boston Red Sox: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Chicago White Sox and Boston Red Sox, scheduled for A
+  MIA @ ATL: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Miami Marlins vs. Atlanta Braves
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: Will there be a run scored in the first inning?: Miami Marlins v
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: Spread: Atlanta Braves (-1.5)
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: Miami Marlins vs. Atlanta Braves: O/U 9.5
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: 1st 5 Innings Spread: Atlanta Braves (-1.5)
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: 1st 5 Innings Spread: Miami Marlins (-1.5)
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: Miami Marlins vs. Atlanta Braves: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+        Q: Miami Marlins vs. Atlanta Braves: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Miami Marlins and Atlanta Braves, scheduled for Augus
+  MIN @ KC: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Minnesota Twins vs. Kansas City Royals
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: Will there be a run scored in the first inning?: Minnesota Twins
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: Spread: Minnesota Twins (-1.5)
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: Minnesota Twins vs. Kansas City Royals: O/U 8.5
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: 1st 5 Innings Spread: Kansas City Royals (-1.5)
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: 1st 5 Innings Spread: Minnesota Twins (-1.5)
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: Minnesota Twins vs. Kansas City Royals: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+        Q: Minnesota Twins vs. Kansas City Royals: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Minnesota Twins and Kansas City Royals, scheduled for
+  PIT @ MIL: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Pittsburgh Pirates vs. Milwaukee Brewers
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: Will there be a run scored in the first inning?: Pittsburgh Pira
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: Spread: Milwaukee Brewers (-1.5)
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: Pittsburgh Pirates vs. Milwaukee Brewers: O/U 8.5
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: 1st 5 Innings Spread: Milwaukee Brewers (-1.5)
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: 1st 5 Innings Spread: Pittsburgh Pirates (-1.5)
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: Pittsburgh Pirates vs. Milwaukee Brewers: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+        Q: Pittsburgh Pirates vs. Milwaukee Brewers: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Pittsburgh Pirates and Milwaukee Brewers, scheduled f
+  LAD @ CHC: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Los Angeles Dodgers vs. Chicago Cubs
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: Will there be a run scored in the first inning?: Los Angeles Dod
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: Spread: Los Angeles Dodgers (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: Los Angeles Dodgers vs. Chicago Cubs: O/U 9.5
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: 1st 5 Innings Spread: Chicago Cubs (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: 1st 5 Innings Spread: Los Angeles Dodgers (-1.5)
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: Los Angeles Dodgers vs. Chicago Cubs: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+        Q: Los Angeles Dodgers vs. Chicago Cubs: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Los Angeles Dodgers and Chicago Cubs, scheduled for A
+  SF @ TEX: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: San Francisco Giants vs. Texas Rangers
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: Will there be a run scored in the first inning?: San Francisco G
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: Spread: Texas Rangers (-1.5)
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: San Francisco Giants vs. Texas Rangers: O/U 7.5
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: 1st 5 Innings Spread: Texas Rangers (-1.5)
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: 1st 5 Innings Spread: San Francisco Giants (-1.5)
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: San Francisco Giants vs. Texas Rangers: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+        Q: San Francisco Giants vs. Texas Rangers: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the San Francisco Giants and Texas Rangers, scheduled for
+  TOR @ HOU: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Toronto Blue Jays vs. Houston Astros
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: Will there be a run scored in the first inning?: Toronto Blue Ja
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: Spread: Houston Astros (-1.5)
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: Toronto Blue Jays vs. Houston Astros: O/U 8.5
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: 1st 5 Innings Spread: Houston Astros (-1.5)
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: 1st 5 Innings Spread: Toronto Blue Jays (-1.5)
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: Toronto Blue Jays vs. Houston Astros: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+        Q: Toronto Blue Jays vs. Houston Astros: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Toronto Blue Jays and Houston Astros, scheduled for A
+  TB @ COL: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Tampa Bay Rays vs. Colorado Rockies
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: Will there be a run scored in the first inning?: Tampa Bay Rays 
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: Spread: Tampa Bay Rays (-1.5)
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: Tampa Bay Rays vs. Colorado Rockies: O/U 11.5
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: 1st 5 Innings Spread: Colorado Rockies (-1.5)
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: 1st 5 Innings Spread: Tampa Bay Rays (-1.5)
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: Tampa Bay Rays vs. Colorado Rockies: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+        Q: Tampa Bay Rays vs. Colorado Rockies: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Tampa Bay Rays and Colorado Rockies, scheduled for Au
+  SD @ ARI: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: San Diego Padres vs. Arizona Diamondbacks
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: Will there be a run scored in the first inning?: San Diego Padre
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: Spread: Arizona Diamondbacks (-1.5)
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: San Diego Padres vs. Arizona Diamondbacks: O/U 9.5
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: 1st 5 Innings Spread: Arizona Diamondbacks (-1.5)
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: 1st 5 Innings Spread: San Diego Padres (-1.5)
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: San Diego Padres vs. Arizona Diamondbacks: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+        Q: San Diego Padres vs. Arizona Diamondbacks: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the San Diego Padres and Arizona Diamondbacks, scheduled 
+  DET @ SEA: 0 HR props
+      RAW: event has 17 markets; first few:
+        Q: Detroit Tigers vs. Seattle Mariners
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: Will there be a run scored in the first inning?: Detroit Tigers 
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: Spread: Seattle Mariners (-1.5)
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: Detroit Tigers vs. Seattle Mariners: O/U 8.5
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: 1st 5 Innings Spread: Seattle Mariners (-1.5)
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: 1st 5 Innings Spread: Detroit Tigers (-1.5)
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: Detroit Tigers vs. Seattle Mariners: 1st 5 Innings O/U 2.5
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
+        Q: Detroit Tigers vs. Seattle Mariners: 1st 5 Innings O/U 3.5
+        D: In the upcoming MLB game between the Detroit Tigers and Seattle Mariners, scheduled for Au
