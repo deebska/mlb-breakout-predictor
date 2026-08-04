@@ -1,0 +1,55 @@
+HR BOARD -- 2026-08-04 -- 53 hitters composed
+player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
+Stewart, Sal            R    2    CIN  J.T. Ginn             0.0488  0.0438   1.27  0.0557   0.235   +326   241  
+Vargas, Miguel          R    3    BOS  Patrick Sandoval      0.0492  0.0465   1.16  0.0540   0.230   +334   99   
+Walker, Jordan          R    2    NYY  Ryan Weathers         0.0475  0.0595   1.06  0.0629   0.230   +334   81   
+Schwarber, Kyle         L    1    PHI  Carson Palmquist      0.0432  0.0449   1.22  0.0546   0.226   +343   98   
+Stephenson, Tyler       R    4    CIN  J.T. Ginn             0.0466  0.0418   1.27  0.0531   0.214   +366   147  
+Murakami, Munetaka      L    2    BOS  Patrick Sandoval      0.0336  0.0387   1.14  0.0440   0.214   +367   46   
+De La Cruz, Elly        L    1    CIN  J.T. Ginn             0.0416  0.0373   1.29  0.0483   0.210   +375   184  
+Bleday, JJ              L    3    CIN  J.T. Ginn             0.0416  0.0373   1.29  0.0483   0.201   +397   164  
+Montgomery, Colson      L    5    BOS  Patrick Sandoval      0.0380  0.0439   1.14  0.0498   0.188   +432   82   
+Harper, Bryce           L    3    PHI  Carson Palmquist      0.0292  0.0304   1.22  0.0369   0.185   +439   110  
+Grichuk, Randal         R    4    BOS  Patrick Sandoval      0.0424  0.0401   1.16  0.0466   0.180   +456   74   
+Wetherholt, JJ          L    1    NYY  Ryan Weathers         0.0397  0.0419   1.22  0.0512   0.179   +457   122  
+Alvarez, Francisco      R    4    CLE  Joey Cantillo         0.0397  0.0396   0.93  0.0367   0.168   +494   41   
+Adell, Jo               R    2    CLE  Sean Manaea           0.0415  0.0516   0.93  0.0478   0.165   +507   92   
+Hayes, Ke'Bryan         R    8    CIN  J.T. Ginn             0.0385  0.0345   1.27  0.0438   0.162   +519   88   
+Jordan, Blaze           R    7    NYY  Ryan Weathers         0.0327  0.0411   1.06  0.0435   0.161   +522   39   
+Velázquez, Nelson       R    5    NYY  Ryan Weathers         0.0360  0.0452   1.06  0.0478   0.160   +525   36   
+Church, Nathan          L    8    NYY  Ryan Weathers         0.0355  0.0375   1.22  0.0459   0.155   +546   49   
+Marsh, Brandon          L    7    PHI  Carson Palmquist      0.0324  0.0337   1.22  0.0409   0.152   +556   66   
+Hoskins, Rhys           R    4    CLE  Sean Manaea           0.0331  0.0413   0.93  0.0383   0.149   +573   54   
+Turner, Trea            R    2    PHI  Carson Palmquist      0.0291  0.0297   1.20  0.0358   0.148   +575   118  
+Lindor, Francisco       R    2    CLE  Joey Cantillo         0.0319  0.0318   0.93  0.0295   0.142   +604   50   
+Suárez, Eugenio         R    5    CIN  J.T. Ginn             0.0307  0.0275   1.27  0.0349   0.142   +605   134  
+Benge, Carson           L    5    CLE  Joey Cantillo         0.0366  0.0420   0.96  0.0405   0.141   +611   66   
+Bohm, Alec              R    5    PHI  Carson Palmquist      0.0322  0.0329   1.20  0.0396   0.133   +649   112  
+McLain, Matt            R    9    CIN  J.T. Ginn             0.0317  0.0284   1.27  0.0361   0.130   +668   146  
+Bart, Joey              R    6    BOS  Patrick Sandoval      0.0255  0.0241   1.16  0.0280   0.129   +676   36   
+DeLauter, Chase         L    3    CLE  Sean Manaea           0.0292  0.0333   0.96  0.0321   0.129   +677   92   
+Herrera, Iván           R    3    NYY  Ryan Weathers         0.0261  0.0329   1.06  0.0348   0.129   +678   100  
+Martínez, Angel         R    5    CLE  Sean Manaea           0.0280  0.0349   0.93  0.0324   0.125   +698   76   
+Ewing, A.J.             L    1    CLE  Joey Cantillo         0.0231  0.0266   0.96  0.0256   0.122   +722   46   
+Stott, Bryson           L    8    PHI  Carson Palmquist      0.0237  0.0247   1.22  0.0300   0.121   +726   68   
+Bichette, Bo            R    3    CLE  Joey Cantillo         0.0327  0.0326   0.93  0.0302   0.117   +752   92   
+Doyle, Brenton          R    7    BOS  Patrick Sandoval      0.0277  0.0262   1.16  0.0304   0.114   +781   25   
+Young, Jared            L    8    CLE  Joey Cantillo         0.0229  0.0264   0.96  0.0255   0.111   +798   14   
+Semien, Marcus          R    7    CLE  Joey Cantillo         0.0309  0.0308   0.93  0.0285   0.111   +801   63   
+Meidroth, Chase         R    1    BOS  Patrick Sandoval      0.0210  0.0198   1.16  0.0230   0.110   +812   86   
+Arias, Gabriel          R    7    CLE  Sean Manaea           0.0221  0.0276   0.93  0.0256   0.108   +829   17   
+Pagés, Pedro            R    9    NYY  Ryan Weathers         0.0207  0.0261   1.06  0.0276   0.105   +850   41   
+Realmuto, J.T.          R    6    PHI  Carson Palmquist      0.0191  0.0195   1.20  0.0234   0.104   +860   57   
+Fermín, José            R    4    NYY  Ryan Weathers         0.0206  0.0260   1.06  0.0275   0.103   +869   85   
+Myers, Dane             R    6    CIN  J.T. Ginn             0.0217  0.0194   1.27  0.0246   0.099   +910   58   
+Hedges, Austin          R    8    CLE  Sean Manaea           0.0224  0.0280   0.93  0.0259   0.097   +931   65   
+Robert Jr., Luis        R    6    CLE  Joey Cantillo         0.0296  0.0295   0.93  0.0274   0.094   +964   19   
+Rocchio, Brayan         R    9    CLE  Sean Manaea           0.0254  0.0317   0.93  0.0294   0.089   +1018  102  
+Montgomery, Braden      R    8    BOS  Patrick Sandoval      0.0190  0.0179   1.16  0.0208   0.087   +1054  30   
+Winn, Masyn             R    6    NYY  Ryan Weathers         0.0165  0.0209   1.06  0.0221   0.085   +1075  76   
+Acuña, Luisangel        R    9    BOS  Patrick Sandoval      0.0182  0.0172   1.16  0.0199   0.085   +1077  64   
+Bazzana, Travis         L    6    CLE  Sean Manaea           0.0190  0.0217   0.96  0.0209   0.084   +1087  67   
+Torrens, Luis           R    9    CLE  Joey Cantillo         0.0210  0.0209   0.93  0.0194   0.073   +1276  42   
+Crawford, Justin        L    9    PHI  Carson Palmquist      0.0178  0.0186   1.22  0.0225   0.072   +1298  36   
+Arraez, Luis            L    4    PHI  Carson Palmquist      0.0107  0.0112   1.22  0.0136   0.058   +1626  122  
+Kwan, Steven            L    1    CLE  Sean Manaea           0.0125  0.0143   0.96  0.0138   0.052   +1807  86   
