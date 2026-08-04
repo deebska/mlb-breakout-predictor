@@ -2,15 +2,14 @@ name: HR Board auto-update
 
 on:
   schedule:
-    # data refresh (morning ET) + board refreshes through lineup-posting hours
-    - cron: "0 10 * * *"    # 6am ET: data update
+    - cron: "0 10 * * *"    # 6am ET: data update + score yesterday
     - cron: "0 15 * * *"    # 11am ET
     - cron: "0 16 * * *"    # noon ET
     - cron: "0 17 * * *"    # 1pm ET
     - cron: "0 19 * * *"    # 3pm ET
     - cron: "0 21 * * *"    # 5pm ET
     - cron: "30 22 * * *"   # 6:30pm ET
-  workflow_dispatch: {}      # manual "Run workflow" button
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -35,6 +34,11 @@ jobs:
       - name: Update Statcast store + talent tables
         run: python statcast_talent.py update
 
+      - name: Score yesterday + refresh results page
+        run: |
+          python track_results.py score || true
+          python make_results_page.py && cp results.html public/results.html || true
+
       - name: Compose board (skips cleanly if no lineups posted)
         id: board
         run: |
@@ -49,16 +53,17 @@ jobs:
           fi
           echo "publish=yes" >> "$GITHUB_OUTPUT"
 
-      - name: Generate page
+      - name: Generate board page
         if: steps.board.outputs.publish == 'yes'
         run: |
           python make_page.py
           cp hrboard.html public/hrboard.html
 
-      - name: Commit store + page
+      - name: Commit everything
         run: |
           git config user.name "hrboard-bot"
           git config user.email "actions@github.com"
-          git add -A mlb_talent_data public/hrboard.html hr_board.csv hr_board.txt || true
-          git diff --cached --quiet || git commit -m "auto: board refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git add -A mlb_talent_data predictions public/hrboard.html public/results.html \
+                     hr_board.csv hr_board.txt hr_games.csv results_log.csv || true
+          git diff --cached --quiet || git commit -m "auto: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
