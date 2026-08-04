@@ -40,7 +40,16 @@ def outcomes_for(day):
 def score(day):
     pred_path = os.path.join(PRED_DIR, f"{day}.csv")
     if not os.path.exists(pred_path):
-        # fall back to hr_board.csv for days before snapshots existed
+        # No frozen snapshot for this date. NEVER fall back onto hr_board.csv
+        # if the ledger already holds scored rows for the day -- hr_board.csv
+        # mutates daily, and a stale fallback must not overwrite good data.
+        if os.path.exists(LOG):
+            existing = pd.read_csv(LOG)
+            if (existing["date"] == day).any():
+                print(f"{day}: no snapshot, but ledger already has "
+                      f"{int((existing['date'] == day).sum())} scored rows -- "
+                      f"keeping them untouched")
+                return
         fallback = os.path.join(HERE, "hr_board.csv")
         if os.path.exists(fallback):
             print(f"[note] no snapshot for {day}; using hr_board.csv "
