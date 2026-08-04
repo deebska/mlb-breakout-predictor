@@ -1,0 +1,61 @@
+name: HR Board auto-update
+
+on:
+  schedule:
+    # data refresh (morning ET) + board refreshes through lineup-posting hours
+    - cron: "0 10 * * *"    # 6am ET: statcast update + talent rebuild
+    - cron: "0 17 * * *"    # 1pm ET: first board attempt (early lineups)
+    - cron: "0 20 * * *"    # 4pm ET
+    - cron: "30 22 * * *"   # 6:30pm ET: final pre-slate refresh
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hrboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Update Statcast store + talent tables
+        run: python statcast_talent.py update
+
+      - name: Compose board (skips cleanly if no lineups posted)
+        id: board
+        run: |
+          set +e
+          python board.py
+          code=$?
+          if [ "$code" = "3" ]; then
+            echo "publish=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          elif [ "$code" != "0" ]; then
+            exit $code
+          fi
+          echo "publish=yes" >> "$GITHUB_OUTPUT"
+
+      - name: Generate page
+        if: steps.board.outputs.publish == 'yes'
+        run: |
+          python make_page.py
+          cp hrboard.html public/hrboard.html
+
+      - name: Commit store + page
+        run: |
+          git config user.name "hrboard-bot"
+          git config user.email "actions@github.com"
+          git add -A mlb_talent_data public/hrboard.html hr_board.csv hr_board.txt || true
+          git diff --cached --quiet || git commit -m "auto: board refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
