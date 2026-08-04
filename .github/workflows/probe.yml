@@ -1,0 +1,16 @@
+name: Odds probe
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python odds_pull_poly.py --probe > probe.txt 2>&1 || true
+      - run: |
+          git config user.name probe-bot
+          git config user.email probe@github.com
+          git add probe.txt && git commit -m "probe output" && git push
