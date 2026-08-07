@@ -1,29 +1,73 @@
-HR BOARD -- 2026-08-07 -- 27 hitters composed
+HR BOARD -- 2026-08-07 -- 71 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
 Rice, Ben               L    2    NYY  Tyler Mahle           0.0568  0.0476   1.40  0.0667   0.283   +253   189  
 García Jr., Luis        L    4    NYY  Tyler Mahle           0.0563  0.0471   1.40  0.0660   0.268   +274   258  
 Goodman, Hunter         R    4    STL  Kyle Leahy            0.0516  0.0573   1.19  0.0680   0.254   +294   176  
+Abrams, CJ              L    1    WSH  Chase Petty           0.0468  0.0442   1.33  0.0589   0.247   +305   225  
 Moniak, Mickey          L    3    STL  Kyle Leahy            0.0450  0.0561   1.17  0.0659   0.242   +313   166  
 Harper, Bryce           L    3    PHI  José Soriano          0.0480  0.0489   1.17  0.0574   0.225   +345   201  
 Grisham, Trent          L    1    NYY  Tyler Mahle           0.0414  0.0346   1.40  0.0484   0.218   +359   191  
 Ramos, Heliot           R    3    NYY  Tyler Mahle           0.0435  0.0460   1.21  0.0557   0.216   +363   161  
 Schwarber, Kyle         L    1    PHI  José Soriano          0.0438  0.0446   1.17  0.0524   0.216   +364   140  
+Sánchez, Jesús          L    3    PHI  Zack Wheeler          0.0474  0.0423   1.17  0.0496   0.212   +373   155  
+House, Brady            R    3    WSH  Chase Petty           0.0377  0.0407   1.35  0.0548   0.211   +374   89   
+Lile, Daylen            L    4    WSH  Chase Petty           0.0414  0.0391   1.33  0.0522   0.207   +383   259  
+Trout, Mike             R    2    MIA  Tyler Phillips        0.0510  0.0526   0.92  0.0484   0.200   +401   173  
+Valdez, Esmerlyn        R    4    PIT  Zac Thornton          0.0473  0.0561   0.98  0.0552   0.198   +405   34   
+Serven, Brian           R    6    BOS  Payton Tolle          0.0460  0.0492   1.23  0.0607   0.197   +407   11   
+Ortiz, Abimelec         L    2    WSH  Chase Petty           0.0356  0.0336   1.33  0.0448   0.189   +430   9    
 Castro, Willi           L    6    STL  Kyle Leahy            0.0364  0.0455   1.17  0.0534   0.188   +431   153  
 McMahon, Ryan           L    8    NYY  Tyler Mahle           0.0420  0.0350   1.40  0.0491   0.184   +444   136  
+Crews, Dylan            R    5    WSH  Chase Petty           0.0335  0.0363   1.35  0.0489   0.182   +451   113  
 Chisholm Jr., Jazz      L    5    NYY  Tyler Mahle           0.0377  0.0315   1.40  0.0441   0.181   +452   168  
+Heim, Jonah             R    3    BOS  Payton Tolle          0.0418  0.0448   1.23  0.0552   0.180   +457   91   
+Okamoto, Kazuma         R    5    PHI  Zack Wheeler          0.0422  0.0356   1.16  0.0414   0.174   +474   204  
+Lowe, Brandon           L    2    PIT  Zac Thornton          0.0294  0.0357   1.00  0.0355   0.173   +479   82   
+Soderstrom, Tyler       L    4    BOS  Payton Tolle          0.0328  0.0329   1.21  0.0398   0.169   +492   87   
+Bolte, Henry            R    1    BOS  Payton Tolle          0.0366  0.0392   1.23  0.0484   0.167   +498   54   
+Reynolds, Bryan         R    3    PIT  Zac Thornton          0.0373  0.0443   0.98  0.0437   0.165   +508   107  
+Muncy, Max              R    8    BOS  Payton Tolle          0.0356  0.0382   1.23  0.0471   0.163   +513   40   
 Rumfield, TJ            L    5    STL  Kyle Leahy            0.0302  0.0378   1.17  0.0444   0.162   +518   231  
 Lombard Jr., George     R    7    NYY  Tyler Mahle           0.0347  0.0367   1.21  0.0445   0.160   +526   4    
 Marsh, Brandon          L    6    PHI  José Soriano          0.0354  0.0361   1.17  0.0424   0.158   +531   232  
+Neto, Zach              R    4    MIA  Tyler Phillips        0.0400  0.0413   0.92  0.0380   0.152   +556   206  
+Ford, Harry             R    6    WSH  Chase Petty           0.0275  0.0298   1.35  0.0402   0.148   +577   9    
 Carrigg, Cole           L    2    STL  Kyle Leahy            0.0254  0.0318   1.17  0.0373   0.146   +585   65   
 Julien, Edouard         L    9    STL  Kyle Leahy            0.0296  0.0370   1.17  0.0435   0.145   +589   152  
+Springer, George        R    4    PHI  Zack Wheeler          0.0335  0.0282   1.16  0.0328   0.144   +595   188  
 McCarthy, Jake          L    1    STL  Kyle Leahy            0.0242  0.0303   1.17  0.0355   0.142   +605   220  
 Wells, Austin           L    9    NYY  Tyler Mahle           0.0330  0.0275   1.40  0.0385   0.142   +606   109  
+White, Tommy            R    5    BOS  Payton Tolle          0.0255  0.0273   1.23  0.0337   0.141   +610   24   
 Stott, Bryson           L    8    PHI  José Soriano          0.0329  0.0335   1.17  0.0394   0.140   +612   241  
+Young, Jacob            R    9    WSH  Chase Petty           0.0282  0.0305   1.35  0.0411   0.140   +616   165  
+Tena, José              L    8    WSH  Chase Petty           0.0298  0.0281   1.33  0.0375   0.137   +628   130  
 Jones, Spencer          L    6    NYY  Tyler Mahle           0.0286  0.0238   1.40  0.0334   0.136   +636   48   
+Grissom, Vaughn         R    5    MIA  Tyler Phillips        0.0359  0.0370   0.92  0.0341   0.135   +643   134  
 Tovar, Ezequiel         R    7    STL  Kyle Leahy            0.0278  0.0309   1.19  0.0367   0.134   +645   201  
+Flores Jr., Rafael      R    9    PIT  Zac Thornton          0.0365  0.0434   0.98  0.0427   0.133   +649   7    
 Turner, Trea            R    2    PHI  José Soriano          0.0281  0.0259   1.16  0.0301   0.131   +661   240  
+Horwitz, Spencer        L    5    PIT  Zac Thornton          0.0257  0.0313   1.00  0.0311   0.129   +676   37   
+Lowe, Josh              L    8    MIA  Tyler Phillips        0.0386  0.0377   0.90  0.0340   0.127   +690   122  
+Ornelas, Jonathan       R    9    BOS  Payton Tolle          0.0263  0.0282   1.23  0.0348   0.122   +717   4    
+Ballesteros, Moisés     L    6    MIA  Tyler Phillips        0.0336  0.0329   0.90  0.0296   0.117   +755   121  
+Simon, Ronny            R    7    PIT  Zac Thornton          0.0276  0.0328   0.98  0.0323   0.117   +757   1    
+Smith, Josh             L    8    PHI  Zack Wheeler          0.0287  0.0255   1.17  0.0300   0.116   +762   100  
+Butler, Lawrence        L    7    BOS  Payton Tolle          0.0220  0.0220   1.21  0.0266   0.115   +767   49   
 Realmuto, J.T.          R    7    PHI  José Soriano          0.0271  0.0250   1.16  0.0291   0.112   +797   160  
+Wilson, Jacob           R    2    BOS  Payton Tolle          0.0151  0.0162   1.23  0.0200   0.101   +886   91   
+Meckler, Wade           L    1    MIA  Tyler Phillips        0.0243  0.0238   0.90  0.0214   0.097   +935   110  
+Giménez, Andrés         L    6    PHI  Zack Wheeler          0.0218  0.0194   1.17  0.0227   0.094   +962   202  
 Bohm, Alec              R    5    PHI  José Soriano          0.0214  0.0197   1.16  0.0229   0.094   +967   240  
+Kirk, Alejandro         R    2    PHI  Zack Wheeler          0.0201  0.0169   1.16  0.0196   0.093   +975   88   
 Johnston, Troy          L    8    STL  Kyle Leahy            0.0146  0.0183   1.17  0.0215   0.076   +1218  192  
+Triolo, Jared           R    8    PIT  Zac Thornton          0.0177  0.0211   0.98  0.0208   0.073   +1260  65   
+Clement, Ernie          R    7    PHI  Zack Wheeler          0.0172  0.0145   1.16  0.0168   0.070   +1333  284  
+Peraza, Oswald          R    7    MIA  Tyler Phillips        0.0191  0.0197   0.92  0.0181   0.070   +1332  123  
+Mangum, Jake            R    1    PIT  Zac Thornton          0.0144  0.0172   0.98  0.0170   0.069   +1355  61   
+Gonzales, Nick          R    6    PIT  Zac Thornton          0.0136  0.0162   0.98  0.0160   0.068   +1361  106  
 Arraez, Luis            L    4    PHI  José Soriano          0.0133  0.0135   1.17  0.0159   0.065   +1437  302  
+Lukes, Nathan           L    1    PHI  Zack Wheeler          0.0129  0.0114   1.17  0.0134   0.064   +1456  193  
+Heineman, Tyler         L    9    MIA  Tyler Phillips        0.0195  0.0190   0.90  0.0171   0.064   +1475  69   
+Schanuel, Nolan         L    3    MIA  Tyler Phillips        0.0164  0.0161   0.90  0.0145   0.063   +1483  223  
 Crawford, Justin        L    9    PHI  José Soriano          0.0127  0.0129   1.17  0.0152   0.054   +1744  213  
+Nuñez, Nasim            L    7    WSH  Chase Petty           0.0091  0.0086   1.33  0.0114   0.045   +2143  178  
