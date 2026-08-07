@@ -151,13 +151,18 @@ called; high numbers were surprises.</div>
 <div class="big">{n:,}</div></div>
 <div class="stat"><div class="lab">Predicted / realized HR rate</div>
 <div class="big">{pred_rate:.1%} / {real_rate:.1%}</div></div>
+<div class="stat"><div class="lab">Model bias vs reality</div>
+<div class="big">{(pred_rate/real_rate-1)*100 if real_rate else 0:+.1f}%</div></div>
 <div class="stat"><div class="lab">Top-10 picks: HRs vs expected</div>
 <div class="big">{int(top['hr'].sum())} / {top['p_hr'].sum():.1f}</div></div>
 <table style="margin-top:12px"><thead><tr><th>Bucket</th><th>N</th>
 <th>Predicted</th><th>Realized</th></tr></thead>
 <tbody>{agg_buckets}</tbody></table>
 <div class="foot">Brier score {brier:.4f} vs constant-forecast baseline
-{base:.4f} ({edge_word} it -- lower is better). Every prediction is frozen
+{base:.4f} ({edge_word} it -- lower is better). "Model bias vs reality" is the running gap between what the model
+predicted and what happened -- positive means the model runs hot; it needs
+roughly two weeks of days before it stabilizes into a trustworthy number.
+Every prediction is frozen
 at publish time and scored against Statcast the next morning; scratched
 players are excluded. Small samples early -- calibration takes weeks.</div>
 </div></body></html>"""

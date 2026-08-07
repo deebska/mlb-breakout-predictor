@@ -163,6 +163,20 @@ def main():
         except Exception as e:
             print(f"odds join failed ({e}) -- board proceeds without market")
     df.to_csv(OUT_CSV, index=False)
+    # self-audit: slate-wide model expectation vs league-base expectation
+    try:
+        lg = league["hr_pa"]
+        model_ehr = 0.0
+        base_ehr = 0.0
+        for _, r in df.iterrows():
+            n_pa = pa_model.slot_pa(int(r["slot"]), r["team_side"] == "home")
+            model_ehr += float(r["rate_tonight"]) * n_pa
+            base_ehr += lg * n_pa
+        bias = (model_ehr / base_ehr - 1) * 100 if base_ehr else 0
+        print(f"SLATE AUDIT: model expects {model_ehr:.1f} HRs; league-base "
+              f"would be {base_ehr:.1f} -> running {bias:+.1f}% vs base")
+    except Exception as e:
+        print(f"slate audit skipped ({e})")
     if game_tally:
         import math as _m
         grows = []
