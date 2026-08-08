@@ -120,11 +120,10 @@ def build():
 
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Results -- Baseball Breakouts</title><style>{CSS}</style></head>
+<title>Wins + Dingers -- Results</title><style>{CSS}</style></head>
 <body><div class="wrap">
-<h1>Results</h1>
-<div class="sub"><a href="/hrboard.html">&larr; back to tonight's board</a>
- &nbsp;&middot;&nbsp; <a href="/nfl.html">NFL 5-factor system &rarr;</a></div>
+<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px"><div style="font-size:24px;font-weight:800;letter-spacing:-.02em">Wins <span style="color:#3ddc84">+</span> Dingers</div><div style="display:flex;gap:6px"><a href="/hrboard.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">HR Board</a> <a href="/results.html" style="padding:7px 14px;border-radius:9px;background:#1c2a47;color:#e8eef7;text-decoration:none;font-weight:600">Results</a> <a href="/nfl.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">NFL System</a></div></div>
+<h1 style="font-size:22px">Results</h1>
 
 <h2>Who homered -- {day}</h2>
 <table><thead><tr><th>Board rank</th><th>Player</th><th>Park</th>

@@ -107,17 +107,13 @@ def build(csv_path=CSV, out_path=OUT):
                 "<th>Edge</th>") if has_mkt else ""
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>HR Probability Board -- Baseball Breakouts</title>
+<title>Wins + Dingers -- HR Probability Board</title>
 <meta name="description" content="Daily home run probabilities for every hitter
 in every posted MLB lineup, from Statcast contact-quality talent, park, weather,
 matchup and lineup-slot modeling.">
 <style>{CSS}</style></head><body><div class="wrap">
-<h1>Tonight's HR Probability Board</h1>
-<div class="sub" style="margin-bottom:6px"><a href="/results.html"
-style="color:var(--accent);text-decoration:none">Yesterday's results &amp;
-model scoreboard &rarr;</a> &nbsp;&middot;&nbsp; <a href="/nfl.html"
-style="color:var(--accent);text-decoration:none">NFL 5-factor system
-&rarr;</a></div>
+<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px"><div style="font-size:24px;font-weight:800;letter-spacing:-.02em">Wins <span style="color:#3ddc84">+</span> Dingers</div><div style="display:flex;gap:6px"><a href="/hrboard.html" style="padding:7px 14px;border-radius:9px;background:#1c2a47;color:#e8eef7;text-decoration:none;font-weight:600">HR Board</a> <a href="/results.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">Results</a> <a href="/nfl.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">NFL System</a></div></div>
+<h1 style="font-size:22px">Tonight's HR Probability Board</h1>
 <div class="sub">{baseball_today().strftime('%B %d, %Y')} &middot; {len(df)} hitters
 in posted lineups &middot; model chain: Statcast talent &rarr; starter matchup
 &rarr; park &times; temp &times; wind &rarr; lineup-slot plate appearances</div>

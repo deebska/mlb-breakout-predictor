@@ -225,19 +225,22 @@ def compute_picks():
                      "gameday": g.get("gameday", "")})
     json.dump(hist, open(LINE_HISTORY, "w"))
     out = pd.DataFrame(rows)
-    out.to_csv(OUT, index=False)
-    # immutable weekly snapshot -- the grading ledger's prediction side
+    # ── Brown's cadence: ONE weekly decision, Wednesday, whole week locks ──
+    # (NFL weeks run Thu->Mon, so a Wednesday lock precedes every kickoff,
+    #  Thursday night included. Before Wednesday: PREVIEW only, nothing binds.)
     snap = os.path.join(DATA, f"picks_{season}_wk{week:02d}.csv")
-    if not os.path.exists(snap):
+    if os.path.exists(snap):
+        out = pd.read_csv(snap)          # week already decided: serve the lock
+        out["status"] = "LOCKED"
+        print(f"week {week} already locked -- serving Wednesday's picks")
+    elif now_et().weekday() >= 2:         # Wed=2: decision day (or later)
+        out["status"] = "LOCKED"
         out.to_csv(snap, index=False)
+        print(f"week {week} LOCKED at Wednesday-or-later lines")
     else:
-        # refresh only lines/factors for games still PASS-able; keep locked bets
-        old_snap = pd.read_csv(snap)
-        locked = old_snap[old_snap["pick"] != "PASS"]["game"].tolist()
-        merged = out.copy()
-        for gm in locked:
-            merged.loc[merged["game"] == gm] =                 old_snap[old_snap["game"] == gm].iloc[0]
-        merged.to_csv(snap, index=False)
+        out["status"] = "PREVIEW"
+        print(f"week {week} preview -- locks Wednesday (Brown's cadence)")
+    out.to_csv(OUT, index=False)
     bets = out[out["pick"] != "PASS"]
     print(f"{season} week {week}: {len(out)} games, {len(bets)} bets")
     for _, b in bets.iterrows():

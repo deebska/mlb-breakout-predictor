@@ -60,8 +60,6 @@ rules on live data -- no additions, no tuning. Original write-up:
 
 def build():
     ts = datetime.now(ZoneInfo("America/New_York"))
-    nav = ('<div class="sub"><a href="/hrboard.html">&larr; HR board</a>'
-           ' &middot; <a href="/results.html">HR results</a></div>')
     if os.path.exists(PICKS):
         df = pd.read_csv(PICKS)
     else:
@@ -74,6 +72,11 @@ def build():
                 'on every site update.</div>')
     else:
         season, week = int(df["season"].iloc[0]), int(df["week"].iloc[0])
+        status = str(df["status"].iloc[0]) if "status" in df.columns else "LOCKED"
+        banner = ("" if status == "LOCKED" else
+                  "<div class='badge'>PREVIEW -- picks lock Wednesday at "
+                  "then-current lines (Aaron Brown's original cadence); "
+                  "nothing below is final</div>")
         rows = ""
         for _, r in df.iterrows():
             cls = "bet" if r["pick"] != "PASS" else ""
@@ -89,8 +92,10 @@ def build():
                      f"<td>{int(r['total']):+d}</td>"
                      f"<td><b>{r['pick']}</b></td></tr>")
         n_bets = int((df["pick"] != "PASS").sum())
-        body = (f"<h2>Season {season}, Week {week} -- {n_bets} bets, "
-                f"{len(df) - n_bets} passes</h2>"
+        lock_note = " (locked)" if status == "LOCKED" else " (preview)"
+        body = (banner +
+                f"<h2>Season {season}, Week {week}{lock_note} -- "
+                f"{n_bets} bets, {len(df) - n_bets} passes</h2>"
                 "<table><thead><tr><th>Game</th><th>Home line</th>"
                 "<th class='hide-m'>LGT h/a</th>"
                 "<th class='hide-m'>STDC h/a</th>"
@@ -132,10 +137,10 @@ def build():
                 "</tr></thead><tbody>" + rows2 + "</tbody></table>")
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NFL 5-Factor System -- Baseball Breakouts</title>
+<title>Wins + Dingers -- NFL 5-Factor System</title>
 <style>{CSS}</style></head><body><div class="wrap">
-<h1>NFL 5-Factor System</h1>
-{nav}
+<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px"><div style="font-size:24px;font-weight:800;letter-spacing:-.02em">Wins <span style="color:#3ddc84">+</span> Dingers</div><div style="display:flex;gap:6px"><a href="/hrboard.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">HR Board</a> <a href="/results.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">Results</a> <a href="/nfl.html" style="padding:7px 14px;border-radius:9px;background:#1c2a47;color:#e8eef7;text-decoration:none;font-weight:600">NFL System</a></div></div>
+<h1 style="font-size:22px">NFL 5-Factor System</h1>
 {body}
 {record_html}
 {RULES}
