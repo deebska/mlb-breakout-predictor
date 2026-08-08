@@ -39,6 +39,14 @@ jobs:
           python track_results.py score || true
           python make_results_page.py && cp results.html public/results.html || true
 
+      - name: Pull HR prop odds (Polymarket, free)
+        run: python odds_pull_poly.py || true
+
+      - name: NFL system + page
+        run: |
+          python nfl_system.py update || true
+          python make_nfl_page.py && cp nfl.html public/nfl.html || true
+
       - name: Compose board (skips cleanly if no lineups posted)
         id: board
         run: |
