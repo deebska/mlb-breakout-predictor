@@ -115,7 +115,9 @@ matchup and lineup-slot modeling.">
 <h1>Tonight's HR Probability Board</h1>
 <div class="sub" style="margin-bottom:6px"><a href="/results.html"
 style="color:var(--accent);text-decoration:none">Yesterday's results &amp;
-model scoreboard &rarr;</a></div>
+model scoreboard &rarr;</a> &nbsp;&middot;&nbsp; <a href="/nfl.html"
+style="color:var(--accent);text-decoration:none">NFL 5-factor system
+&rarr;</a></div>
 <div class="sub">{baseball_today().strftime('%B %d, %Y')} &middot; {len(df)} hitters
 in posted lineups &middot; model chain: Statcast talent &rarr; starter matchup
 &rarr; park &times; temp &times; wind &rarr; lineup-slot plate appearances</div>

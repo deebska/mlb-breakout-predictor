@@ -123,7 +123,8 @@ def build():
 <title>Results -- Baseball Breakouts</title><style>{CSS}</style></head>
 <body><div class="wrap">
 <h1>Results</h1>
-<div class="sub"><a href="/hrboard.html">&larr; back to tonight's board</a></div>
+<div class="sub"><a href="/hrboard.html">&larr; back to tonight's board</a>
+ &nbsp;&middot;&nbsp; <a href="/nfl.html">NFL 5-factor system &rarr;</a></div>
 
 <h2>Who homered -- {day}</h2>
 <table><thead><tr><th>Board rank</th><th>Player</th><th>Park</th>
