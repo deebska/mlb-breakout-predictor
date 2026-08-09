@@ -1,15 +1,16 @@
 game,park,exp_hr,p_over_2_5
-Atlanta Braves @ New York Yankees,NYY,4.78,0.856
-Chicago Cubs @ Kansas City Royals,KC,3.41,0.663
-Colorado Rockies @ St. Louis Cardinals,STL,3.29,0.638
-Cincinnati Reds @ Washington Nationals,WSH,3.2,0.62
+Atlanta Braves @ New York Yankees,NYY,4.72,0.85
+Chicago Cubs @ Kansas City Royals,KC,3.32,0.645
+Colorado Rockies @ St. Louis Cardinals,STL,3.25,0.629
+Cincinnati Reds @ Washington Nationals,WSH,3.17,0.613
 Los Angeles Dodgers @ Arizona Diamondbacks,ARI,2.81,0.532
-Toronto Blue Jays @ Philadelphia Phillies,PHI,2.79,0.527
-New York Mets @ Pittsburgh Pirates,PIT,2.7,0.506
-Athletics @ Boston Red Sox,BOS,2.69,0.505
-Detroit Tigers @ San Francisco Giants,SF,2.38,0.425
+Toronto Blue Jays @ Philadelphia Phillies,PHI,2.77,0.525
+Athletics @ Boston Red Sox,BOS,2.7,0.506
+New York Mets @ Pittsburgh Pirates,PIT,2.68,0.5
+Detroit Tigers @ San Francisco Giants,SF,2.34,0.414
 Baltimore Orioles @ Texas Rangers,TEX,2.32,0.41
-Cleveland Guardians @ Chicago White Sox,CWS,2.31,0.406
 Minnesota Twins @ Milwaukee Brewers,MIL,2.29,0.401
 Tampa Bay Rays @ Seattle Mariners,SEA,2.27,0.397
 Los Angeles Angels @ Miami Marlins,MIA,2.24,0.389
+Cleveland Guardians @ Chicago White Sox,CWS,2.24,0.389
+Houston Astros @ San Diego Padres,SD,1.31,0.144
