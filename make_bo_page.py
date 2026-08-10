@@ -17,6 +17,36 @@ OUT = os.path.join(HERE, "bo.html")
 
 from box_office import TRACKED
 
+# ── Pre-registered daily forecasts (Claude) -- frozen, never edited ──
+# Spider-Man sheet registered 2026-08-09; Odyssey sheet registered 2026-08-10.
+# Blank dates (pre-registration) show no Predicted value: honesty over hindsight.
+CLAUDE_DAILY = {
+ "Spider-Man: Brand New Day": {
+  "2026-08-10":14.0e6,"2026-08-11":15.0e6,"2026-08-12":11.0e6,
+  "2026-08-13":10.0e6,"2026-08-14":16.5e6,"2026-08-15":25.5e6,
+  "2026-08-16":18.5e6,"2026-08-17":6.0e6,"2026-08-18":6.5e6,
+  "2026-08-19":4.5e6,"2026-08-20":4.0e6,"2026-08-21":8.5e6,
+  "2026-08-22":12.5e6,"2026-08-23":9.0e6,"2026-08-24":3.2e6,
+  "2026-08-25":3.6e6,"2026-08-26":2.6e6,"2026-08-27":2.4e6,
+  "2026-08-28":5.0e6,"2026-08-29":7.5e6,"2026-08-30":5.5e6,
+  "2026-08-31":3.0e6},
+ "The Odyssey": {
+  "2026-08-10":6.8e6,"2026-08-11":6.2e6,"2026-08-12":5.9e6,
+  "2026-08-13":5.0e6,"2026-08-14":6.2e6,"2026-08-15":8.7e6,
+  "2026-08-16":7.1e6,"2026-08-17":4.9e6,"2026-08-18":4.5e6,
+  "2026-08-19":4.2e6,"2026-08-20":3.6e6,"2026-08-21":4.5e6,
+  "2026-08-22":6.3e6,"2026-08-23":5.1e6,"2026-08-24":3.4e6,
+  "2026-08-25":3.1e6,"2026-08-26":2.9e6,"2026-08-27":2.5e6,
+  "2026-08-28":3.3e6,"2026-08-29":4.6e6,"2026-08-30":3.7e6,
+  "2026-08-31":2.5e6},
+}
+CLAUDE_EOM = {
+ "Spider-Man: Brand New Day": {"date": "2026-08-09", "central": 850e6,
+                               "p80_lo": 825e6, "p80_hi": 875e6},
+ "The Odyssey": {"date": "2026-08-10", "central": 565e6,
+                 "p80_lo": 550e6, "p80_hi": 585e6},
+}
+
 CSS = """
 :root{--bg:#0b1220;--card:#121b2e;--row:#0f1728;--txt:#e8eef7;--dim:#8b97ab;
 --green:#3ddc84;--accent:#4da3ff;--line:#1e2a44;--warm:#ffb020}
@@ -146,12 +176,54 @@ def build():
                         if x["date"] == str(d0 - timedelta(days=7))]
                 if prev:
                     wow = f"{(s['gross']/prev[0]['gross']-1)*100:+.0f}%"
+                pred = CLAUDE_DAILY.get(film["name"], {}).get(s["date"])
+                if pred:
+                    dv = (s["gross"] / pred - 1) * 100
+                    dcol = ("#3ddc84" if abs(dv) <= 15 else
+                            "#ffb020" if abs(dv) <= 30 else "#ff6b6b")
+                    pcell = (f"<td>${pred/1e6:,.1f}M</td>"
+                             f"<td style='color:{dcol};font-weight:600'>"
+                             f"{dv:+.0f}%</td>")
+                else:
+                    pcell = "<td></td><td></td>"
                 rows += (f"<tr><td>{s['date']}</td>"
                          f"<td>{d0.strftime('%a')}</td>"
                          f"<td>${s['gross']/1e6:,.1f}M</td>"
+                         + pcell +
                          f"<td class='hide-m'>{wow}</td>"
                          f"<td>${cume/1e6:,.1f}M</td></tr>")
-            prereg = film.get("preregistered")
+            prereg = CLAUDE_EOM.get(film["name"])
+            have_dates = {s["date"] for s in series}
+            fut = [(d, v) for d, v in
+                   sorted(CLAUDE_DAILY.get(film["name"], {}).items())
+                   if d not in have_dates]
+            future_rows_html = ""
+            if fut:
+                frows = "".join(
+                    f"<tr><td>{d}</td>"
+                    f"<td>{datetime.strptime(d,'%Y-%m-%d').strftime('%a')}</td>"
+                    f"<td style='color:var(--dim)'>--</td>"
+                    f"<td>${v/1e6:,.1f}M</td><td></td>"
+                    f"<td class='hide-m'></td><td></td></tr>"
+                    for d, v in fut)
+                future_rows_html = (
+                    "<h3 style='font-size:15px;margin:14px 0 6px;"
+                    "color:var(--dim)'>Upcoming days -- Claude's frozen sheet"
+                    "</h3><table><thead><tr><th>Date</th><th>Day</th>"
+                    "<th>Gross</th><th>Claude pred</th><th>&Delta;</th>"
+                    "<th class='hide-m'></th><th></th></tr></thead><tbody>"
+                    + frows + "</tbody></table>")
+            ce = CLAUDE_EOM.get(film["name"])
+            claude_card = ""
+            if ce:
+                claude_card = (
+                    f"<div class='stat'><div class='lab'>Claude "
+                    f"(pre-reg {ce['date']})</div>"
+                    f"<div class='big' style='color:#ffb020'>"
+                    f"${ce['central']/1e6:,.0f}M</div>"
+                    f"<div style='color:var(--dim);font-size:12px'>80%: "
+                    f"${ce['p80_lo']/1e6:,.0f}-{ce['p80_hi']/1e6:,.0f}M"
+                    f"</div></div>")
             sections.append(
                 f"<h2>{film['name']}</h2>"
                 f"<div class='stat'><div class='lab'>Domestic to date "
@@ -163,12 +235,15 @@ def build():
                 f"<div class='stat'><div class='lab'>80% range</div>"
                 f"<div class='big' style='font-size:20px'>"
                 f"${fc['p80_lo']/1e6:,.0f}-{fc['p80_hi']/1e6:,.0f}M</div></div>"
+                + claude_card
                 + svg_chart(series, fc, prereg) +
                 "<h3 style='font-size:16px;margin:16px 0 6px'>Daily grosses"
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
+                "<th>Claude pred</th><th>&Delta;</th>"
                 "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
-                "</tr></thead><tbody>" + rows + "</tbody></table>")
+                "</tr></thead><tbody>" + rows + "</tbody></table>"
+                + future_rows_html)
         body = "<hr style='border:0;border-top:1px solid #1e2a44;"               "margin:30px 0'>".join(sections)
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
