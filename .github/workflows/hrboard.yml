@@ -42,6 +42,11 @@ jobs:
       - name: Pull HR prop odds (Polymarket, free)
         run: python odds_pull_poly.py || true
 
+      - name: Box office tracker + page
+        run: |
+          python box_office.py update || true
+          python make_bo_page.py && cp bo.html public/bo.html || true
+
       - name: NFL system + page
         run: |
           python nfl_system.py update || true
