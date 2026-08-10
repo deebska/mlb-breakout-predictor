@@ -29,6 +29,17 @@ import pa_model
 import statcast_talent as st
 
 DIR = st.DIR
+
+# ── LEVEL CALIBRATION ─────────────────────────────────────────────
+# Ledger verdict 2026-08-14: model +28% vs reality over 1,656 scored
+# predictions (~4 sigma). Consistent with a deader ball introduced at
+# the All-Star break (league HR rate dropped; season-long talent tables
+# and baselines inherit pre-break physics). This scalar re-levels every
+# rate; re-derive from `python statcast_talent.py era` + the results
+# page bias stat as data accrues, and retire it when talent tables are
+# refit on post-break data.
+LEVEL_SCALAR = 0.78          # = 1 / 1.28
+
 OUT_TXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.txt")
 OUT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.csv")
 
@@ -112,8 +123,8 @@ def main():
                     else float(brow["talent_hr_pa"])
                 # environment for his hand
                 mult = env["env_mult_L"] if brow["bats"] == "L" else env["env_mult_R"]
-                rate_st_env = min(rate_st * mult, 0.25)
-                rate_pen_env = min(rate_pen * mult, 0.25)
+                rate_st_env = min(rate_st * mult * LEVEL_SCALAR, 0.25)
+                rate_pen_env = min(rate_pen * mult * LEVEL_SCALAR, 0.25)
                 p_hr = pa_model.p_hr_game_split(rate_st_env, rate_pen_env,
                                                 slot, is_home)
                 n_pa = pa_model.slot_pa(slot, is_home)
