@@ -84,7 +84,8 @@ def score(day):
             hit = int((sub["events"] == "home_run").any()) if appeared else 0
         rows.append({"date": day, "player": r["player"],
                      "p_hr": float(r["p_hr_tonight"]),
-                     "appeared": int(appeared), "hr": hit})
+                     "appeared": int(appeared), "hr": hit,
+                     "model_ver": str(r.get("model_ver", "v1.0-legacy"))})
     out = pd.DataFrame(rows)
     out = out[out["appeared"] == 1]   # scratched players don't count
     if out.empty:

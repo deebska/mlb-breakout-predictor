@@ -102,7 +102,19 @@ def build():
                             f"<td>{b['p_hr'].mean():.1%}</td>"
                             f"<td>{b['hr'].mean():.1%}</td></tr>")
 
-    # all-time aggregate
+    # current-era aggregate (the newest model version's record since inception)
+    if "model_ver" not in log.columns:
+        log["model_ver"] = "v1.0-legacy"
+    log["model_ver"] = log["model_ver"].fillna("v1.0-legacy")
+    latest_day = log.sort_values("date")["date"].iloc[-1]
+    cur_ver = log[log["date"] == latest_day]["model_ver"].iloc[-1]
+    legacy = log[log["model_ver"] != cur_ver]
+    log = log[log["model_ver"] == cur_ver]
+    era_start = log["date"].min()
+    legacy_note = (f"Previous model versions: {len(legacy):,} predictions, "
+                   f"predicted {legacy['p_hr'].mean():.1%} vs realized "
+                   f"{legacy['hr'].mean():.1%} -- retired after the level "
+                   f"recalibration. " if len(legacy) else "")
     n, tot_hr = len(log), int(log["hr"].sum())
     days_n = log["date"].nunique()
     pred_rate, real_rate = log["p_hr"].mean(), log["hr"].mean()
@@ -144,7 +156,7 @@ called; high numbers were surprises.</div>
 <th>Predicted</th><th>Realized</th></tr></thead>
 <tbody>{day_buckets}</tbody></table>
 
-<h2>All-time model scoreboard</h2>
+<h2>Model scoreboard -- current version ({cur_ver}, since {era_start})</h2>
 <div class="stat"><div class="lab">Days tracked</div>
 <div class="big">{days_n}</div></div>
 <div class="stat"><div class="lab">Predictions</div>
@@ -158,7 +170,7 @@ called; high numbers were surprises.</div>
 <table style="margin-top:12px"><thead><tr><th>Bucket</th><th>N</th>
 <th>Predicted</th><th>Realized</th></tr></thead>
 <tbody>{agg_buckets}</tbody></table>
-<div class="foot">Brier score {brier:.4f} vs constant-forecast baseline
+<div class="foot">{legacy_note}Brier score {brier:.4f} vs constant-forecast baseline
 {base:.4f} ({edge_word} it -- lower is better). "Model bias vs reality" is the running gap between what the model
 predicted and what happened -- positive means the model runs hot; it needs
 roughly two weeks of days before it stabilizes into a trustworthy number.

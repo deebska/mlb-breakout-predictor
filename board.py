@@ -40,6 +40,12 @@ DIR = st.DIR
 # refit on post-break data.
 LEVEL_SCALAR = 0.78          # = 1 / 1.28
 
+# Stamped into every board row + snapshot; the results page scoreboards the
+# current version's era separately. BUMP THIS whenever the model materially
+# changes (new scalar, refit parks, new features) -- a new version string
+# automatically starts a fresh era on the results page.
+MODEL_VERSION = "v1.1-s078"
+
 OUT_TXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.txt")
 OUT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.csv")
 
@@ -154,6 +160,7 @@ def main():
         import sys
         sys.exit(3)   # signal 'nothing to publish' so automation skips the page
     df = pd.DataFrame(rows).sort_values("p_hr_tonight", ascending=False)
+    df["model_ver"] = MODEL_VERSION
     # join market odds if today's pull exists
     odds_path = os.path.join(os.path.dirname(OUT_CSV), "odds_today.csv")
     if os.path.exists(odds_path):
