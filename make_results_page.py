@@ -102,19 +102,55 @@ def build():
                             f"<td>{b['p_hr'].mean():.1%}</td>"
                             f"<td>{b['hr'].mean():.1%}</td></tr>")
 
-    # current-era aggregate (the newest model version's record since inception)
+    # ── model eras ──
+    # Snapshots older than the version stamp lack model_ver; anything scored
+    # from a board generated on/after the scalar go-live belongs to v1.1.
+    RETRO_V11_START = "2026-08-11"    # first board generated with LEVEL_SCALAR
     if "model_ver" not in log.columns:
         log["model_ver"] = "v1.0-legacy"
     log["model_ver"] = log["model_ver"].fillna("v1.0-legacy")
+    log.loc[(log["model_ver"] == "v1.0-legacy")
+            & (log["date"] >= RETRO_V11_START), "model_ver"] = "v1.1-s078"
     latest_day = log.sort_values("date")["date"].iloc[-1]
     cur_ver = log[log["date"] == latest_day]["model_ver"].iloc[-1]
     legacy = log[log["model_ver"] != cur_ver]
     log = log[log["model_ver"] == cur_ver]
     era_start = log["date"].min()
-    legacy_note = (f"Previous model versions: {len(legacy):,} predictions, "
-                   f"predicted {legacy['p_hr'].mean():.1%} vs realized "
-                   f"{legacy['hr'].mean():.1%} -- retired after the level "
-                   f"recalibration. " if len(legacy) else "")
+
+    def era_block(df):
+        nn, hh = len(df), int(df["hr"].sum())
+        pr, rr = df["p_hr"].mean(), df["hr"].mean()
+        br = float(((df["p_hr"] - df["hr"]) ** 2).mean())
+        bs = float(((pr - df["hr"]) ** 2).mean())
+        tp = df.sort_values("p_hr", ascending=False).groupby("date").head(10)
+        bk = ""
+        for lo, hi in BUCKETS:
+            b = df[(df["p_hr"] >= lo) & (df["p_hr"] < hi)]
+            if len(b):
+                bk += (f"<tr><td>{lo:.0%}-{hi:.0%}</td><td>{len(b)}</td>"
+                       f"<td>{b['p_hr'].mean():.1%}</td>"
+                       f"<td>{b['hr'].mean():.1%}</td></tr>")
+        return (nn, hh, pr, rr, br, bs, tp, bk)
+
+    legacy_html = ""
+    if len(legacy):
+        (ln, lh, lpr, lrr, lbr, lbs, ltp, lbk) = era_block(legacy)
+        legacy_html = (
+            f"<h2>Previous version (v1.0 -- {legacy['date'].min()} to "
+            f"{legacy['date'].max()}, retired after level recalibration)</h2>"
+            f"<div class='stat'><div class='lab'>Predictions</div>"
+            f"<div class='big'>{ln:,}</div></div>"
+            f"<div class='stat'><div class='lab'>Predicted / realized</div>"
+            f"<div class='big'>{lpr:.1%} / {lrr:.1%}</div></div>"
+            f"<div class='stat'><div class='lab'>Bias vs reality</div>"
+            f"<div class='big'>{(lpr/lrr-1)*100 if lrr else 0:+.1f}%</div></div>"
+            f"<div class='stat'><div class='lab'>Top-10: HRs vs expected</div>"
+            f"<div class='big'>{int(ltp['hr'].sum())} / "
+            f"{ltp['p_hr'].sum():.1f}</div></div>"
+            "<table style='margin-top:12px'><thead><tr><th>Bucket</th>"
+            "<th>N</th><th>Predicted</th><th>Realized</th></tr></thead>"
+            f"<tbody>{lbk}</tbody></table>")
+    legacy_note = ""
     n, tot_hr = len(log), int(log["hr"].sum())
     days_n = log["date"].nunique()
     pred_rate, real_rate = log["p_hr"].mean(), log["hr"].mean()
@@ -170,7 +206,8 @@ called; high numbers were surprises.</div>
 <table style="margin-top:12px"><thead><tr><th>Bucket</th><th>N</th>
 <th>Predicted</th><th>Realized</th></tr></thead>
 <tbody>{agg_buckets}</tbody></table>
-<div class="foot">{legacy_note}Brier score {brier:.4f} vs constant-forecast baseline
+{legacy_html}
+<div class="foot">Brier score {brier:.4f} vs constant-forecast baseline
 {base:.4f} ({edge_word} it -- lower is better). "Model bias vs reality" is the running gap between what the model
 predicted and what happened -- positive means the model runs hot; it needs
 roughly two weeks of days before it stabilizes into a trustworthy number.

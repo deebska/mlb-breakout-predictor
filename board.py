@@ -31,7 +31,7 @@ import statcast_talent as st
 DIR = st.DIR
 
 # ── LEVEL CALIBRATION ─────────────────────────────────────────────
-# Ledger verdict 2026-08-14: model +28% vs reality over 1,656 scored
+# Ledger verdict 2026-08-11: model +28% vs reality over 1,656 scored
 # predictions (~4 sigma). Consistent with a deader ball introduced at
 # the All-Star break (league HR rate dropped; season-long talent tables
 # and baselines inherit pre-break physics). This scalar re-levels every
