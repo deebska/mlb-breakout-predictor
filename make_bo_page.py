@@ -40,6 +40,30 @@ CLAUDE_DAILY = {
   "2026-08-28":3.3e6,"2026-08-29":4.6e6,"2026-08-30":3.7e6,
   "2026-08-31":2.5e6},
 }
+def claude_live(series, sheet):
+    """Claude's frozen sheet marked to market daily, by his stated rule:
+    weekday deviations apply to future weekdays at full weight; weekends
+    inherit only HALF the weekday deviation until real weekend days grade,
+    after which observed weekend deviations take over at full weight."""
+    from datetime import datetime as _dt
+    actual = {s["date"]: s["gross"] for s in series}
+    wk_r, we_r = [], []
+    for d, pred in sorted(sheet.items()):
+        if d in actual and pred:
+            r = actual[d] / pred
+            (we_r if _dt.strptime(d, "%Y-%m-%d").weekday() >= 4
+             else wk_r).append(r)
+    w_adj = sum(wk_r[-5:]) / len(wk_r[-5:]) if wk_r else 1.0
+    e_adj = (sum(we_r[-3:]) / len(we_r[-3:]) if we_r
+             else 1.0 + 0.5 * (w_adj - 1.0))
+    cume = sum(actual.values())
+    for d, pred in sheet.items():
+        if d not in actual:
+            wd = _dt.strptime(d, "%Y-%m-%d").weekday()
+            cume += pred * (e_adj if wd >= 4 else w_adj)
+    return cume, w_adj, e_adj
+
+
 CLAUDE_EOM = {
  "Spider-Man: Brand New Day": {"date": "2026-08-09", "central": 850e6,
                                "p80_lo": 825e6, "p80_hi": 875e6},
@@ -88,7 +112,7 @@ NAV = ('<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;'
        '</div></div>')
 
 
-def svg_chart(series, fc, prereg, w=980, h=340):
+def svg_chart(series, fc, prereg, live_val=None, w=980, h=340):
     """Cume line to date + projection cone + preregistered marker, inline SVG."""
     days = [(datetime.strptime(s["date"], "%Y-%m-%d").date(), s["gross"])
             for s in series]
@@ -134,6 +158,13 @@ def svg_chart(series, fc, prereg, w=980, h=340):
                f'font-size="11">pre-registered {prereg["date"]}: '
                f'${prereg["central"]/1e6:.0f}M</text>')
 
+    live = ""
+    if live_val:
+        ly2 = Y(live_val)
+        live = (f'<circle cx="{Xe-14:.0f}" cy="{ly2:.0f}" r="6" '
+                f'fill="none" stroke="#ffb020" stroke-width="2.5"/>'
+                f'<text x="{Xe-118:.0f}" y="{ly2+4:.0f}" fill="#ffb020" '
+                f'font-size="11">live ${live_val/1e6:.0f}M</text>')
     return f"""<svg viewBox="0 0 {w} {h}" style="width:100%;background:#121b2e;
 border-radius:12px">{gridlines}{labels}
 <path d="{cone}" fill="#4da3ff" opacity="0.16"/>
@@ -145,7 +176,7 @@ border-radius:12px">{gridlines}{labels}
  font-weight="700">${pts[-1][3]/1e6:.0f}M</text>
 <text x="{Xe-52:.0f}" y="{Y(fc['central'])-8:.0f}" fill="#4da3ff"
  font-size="12" font-weight="700">${fc['central']/1e6:.0f}M</text>
-{pre}
+{pre}{live}
 <text x="60" y="{h-8}" fill="#8b97ab" font-size="11">{start}</text>
 <text x="{Xe-60:.0f}" y="{h-8}" fill="#8b97ab" font-size="11">{end}</text>
 </svg>"""
@@ -214,7 +245,20 @@ def build():
                     "<th class='hide-m'></th><th></th></tr></thead><tbody>"
                     + frows + "</tbody></table>")
             ce = CLAUDE_EOM.get(film["name"])
+            live_val = None
+            sheet = CLAUDE_DAILY.get(film["name"], {})
+            if sheet and any(s["date"] in sheet for s in series):
+                live_val, w_adj, e_adj = claude_live(series, sheet)
             claude_card = ""
+            if live_val:
+                claude_card += (
+                    f"<div class='stat'><div class='lab'>Claude live "
+                    f"(marked to market daily)</div>"
+                    f"<div class='big' style='color:#ffb020'>"
+                    f"${live_val/1e6:,.0f}M</div>"
+                    f"<div style='color:var(--dim);font-size:12px'>"
+                    f"weekdays x{w_adj:.2f}, weekends x{e_adj:.2f} vs frozen "
+                    f"sheet</div></div>")
             if ce:
                 claude_card = (
                     f"<div class='stat'><div class='lab'>Claude "
@@ -236,7 +280,7 @@ def build():
                 f"<div class='big' style='font-size:20px'>"
                 f"${fc['p80_lo']/1e6:,.0f}-{fc['p80_hi']/1e6:,.0f}M</div></div>"
                 + claude_card
-                + svg_chart(series, fc, prereg) +
+                + svg_chart(series, fc, prereg, live_val) +
                 "<h3 style='font-size:16px;margin:16px 0 6px'>Daily grosses"
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
@@ -254,9 +298,12 @@ def build():
 <div class="foot">Daily grosses from The-Numbers, pulled automatically each
 morning. The green line is actual cumulative domestic gross; the blue dashed
 line and cone are the model's projection to month-end (per-weekday geometric
-decay fit to recent weeks, 80% band). The gold marker is the pre-registered
-forecast, frozen before the projection model existed -- so both the model and
-its author stay honest. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
+decay fit to recent weeks, 80% band). The solid gold dot is the pre-registered
+forecast, frozen forever; the hollow gold ring is "Claude live" -- the same
+sheet marked to market daily by a fixed rule (observed weekday deviations
+apply fully to future weekdays, half-transfer to weekends until real
+weekend data arrives). Three forecasters, one chart: the momentum model,
+the frozen human call, and the human's disciplined daily update. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
 </div></body></html>"""
     with open(OUT, "w") as f:
         f.write(html)
