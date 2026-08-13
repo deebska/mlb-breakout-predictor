@@ -60,6 +60,10 @@ def build(csv_path=CSV, out_path=OUT):
             f"<td class='p'>{g['exp_hr']:.2f}</td>"
             f"<td>{g['p_over_2_5']:.0%}</td></tr>"
             for _, g in gdf.iterrows())
+        tot = gdf["exp_hr"].sum()
+        grows += (f"<tr style='border-top:2px solid #2a3a5c'>"
+                  f"<td><b>ALL GAMES ({len(gdf)})</b></td><td></td>"
+                  f"<td class='p'><b>{tot:.1f}</b></td><td></td></tr>")
         games_html = (
             "<h2 style='font-size:19px;margin:26px 0 8px'>Game HR totals</h2>"
             "<table><thead><tr><th>Game</th><th>Park</th>"
