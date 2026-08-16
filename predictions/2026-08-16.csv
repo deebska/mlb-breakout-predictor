@@ -13,11 +13,13 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 668709,"Bleday, JJ",L,3,home,CIN,Eury Pérez,R,0.0395,0.0388,1.519,0.046,0.1859,+438,186,v1.1-s078
 678246,"Vargas, Miguel",R,3,away,DET,Drew Anderson,R,0.0528,0.0536,1.08,0.0451,0.1843,+443,247,v1.1-s078
 672640,"Lopez, Otto",R,1,away,CIN,Nick Lodolo,L,0.0328,0.0432,1.491,0.0502,0.1822,+449,100,v1.1-s078
+656941,"Schwarber, Kyle",L,1,away,MIN,Dean Kremer,R,0.0475,0.045,1.175,0.0412,0.1818,+450,156,v1.1-s078
 677800,"Abreu, Wilyer",L,3,away,PIT,Lake Bachar,R,0.0529,0.057,1.002,0.0445,0.1781,+461,247,v1.1-s078
 700250,"Rice, Ben",L,1,away,TOR,Dylan Cease,R,0.0552,0.0432,1.08,0.0364,0.1763,+467,202,v1.1-s078
 663647,"Hayes, Ke'Bryan",R,9,home,CIN,Eury Pérez,R,0.0407,0.0454,1.491,0.0528,0.1756,+470,102,v1.1-s078
 671277,"García Jr., Luis",L,2,away,TOR,Dylan Cease,R,0.0557,0.0436,1.08,0.0368,0.1739,+475,278,v1.1-s078
 553993,"Suárez, Eugenio",R,4,home,CIN,Eury Pérez,R,0.0352,0.0393,1.491,0.0457,0.1729,+479,155,v1.1-s078
+547180,"Harper, Bryce",L,3,away,MIN,Dean Kremer,R,0.0464,0.044,1.175,0.0403,0.1705,+486,214,v1.1-s078
 596019,"Lindor, Francisco",L,2,home,NYM,Jake Irvin,R,0.0407,0.0537,1.088,0.0456,0.17,+488,137,v1.1-s078
 680574,"McLain, Matt",R,6,home,CIN,Eury Pérez,R,0.0354,0.0395,1.491,0.046,0.1661,+502,163,v1.1-s078
 665019,"Clemens, Kody",L,4,home,MIN,Andrew Painter,R,0.0443,0.0464,1.175,0.0425,0.1652,+505,224,v1.1-s078
@@ -42,6 +44,7 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 663616,"Larnach, Trevor",L,1,home,MIN,Andrew Painter,R,0.0337,0.0353,1.175,0.0323,0.1363,+633,229,v1.1-s078
 679529,"Torkelson, Spencer",R,6,home,DET,Sean Burke,R,0.0442,0.0415,1.08,0.035,0.136,+635,198,v1.1-s078
 672960,"Okamoto, Kazuma",R,6,home,TOR,Ryan Weathers,L,0.037,0.0445,1.06,0.0368,0.1356,+637,76,v1.1-s078
+699013,"Valdez, Esmerlyn",R,2,home,PIT,Patrick Sandoval,L,0.044,0.04,0.991,0.0309,0.1349,+641,37,v1.1-s078
 663757,"Grisham, Trent",L,4,away,TOR,Dylan Cease,R,0.0438,0.0342,1.08,0.0288,0.1316,+660,207,v1.1-s078
 683146,"Baty, Brett",L,7,home,NYM,Jake Irvin,R,0.0342,0.0453,1.088,0.0385,0.1309,+664,199,v1.1-s078
 573262,"Yastrzemski, Mike",L,5,home,ATL,Michael Soroka,R,0.0333,0.0358,1.229,0.0343,0.1307,+665,183,v1.1-s078
@@ -54,10 +57,14 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 592518,"Machado, Manny",R,3,away,CLE,Tanner Bibee,R,0.0384,0.0349,1.067,0.029,0.1274,+685,259,v1.1-s078
 643217,"Benintendi, Andrew",L,4,away,DET,Drew Anderson,R,0.037,0.0344,1.103,0.0296,0.1255,+697,219,v1.1-s078
 669364,"Edwards, Xavier",R,4,away,CIN,Nick Lodolo,L,0.0238,0.0314,1.491,0.0366,0.1253,+698,87,v1.1-s078
+664040,"Lowe, Brandon",L,4,home,PIT,Patrick Sandoval,L,0.0305,0.0332,1.002,0.026,0.1241,+705,87,v1.1-s078
 663993,"Lowe, Nathaniel",L,5,home,CLE,Casey Mize,R,0.0381,0.0342,1.111,0.0297,0.1213,+725,182,v1.1-s078
+624641,"Sosa, Edmundo",R,9,away,MIN,Dean Kremer,R,0.0354,0.0366,1.187,0.0339,0.1207,+729,71,v1.1-s078
 807727,"McAdoo, Charles",R,2,home,TOR,Ryan Weathers,L,0.0278,0.0335,1.06,0.0277,0.1205,+730,13,v1.1-s078
+669016,"Marsh, Brandon",L,6,away,MIN,Dean Kremer,R,0.0345,0.0327,1.175,0.0299,0.1198,+735,250,v1.1-s078
 666176,"Adell, Jo",R,4,home,CLE,Casey Mize,R,0.0331,0.0373,1.067,0.0311,0.1198,+735,240,v1.1-s078
 596146,"Kepler, Max",L,5,away,ATL,Bryce Elder,R,0.0331,0.0292,1.229,0.028,0.1184,+745,73,v1.1-s078
+681082,"Stott, Bryson",L,2,away,MIN,Dean Kremer,R,0.0307,0.0291,1.175,0.0266,0.1183,+745,262,v1.1-s078
 694374,"Tawa, Tim",R,7,away,ATL,Bryce Elder,R,0.0312,0.0323,1.241,0.0313,0.118,+748,108,v1.1-s078
 701807,"Benge, Carson",L,4,home,NYM,Jake Irvin,R,0.0287,0.0381,1.088,0.0323,0.118,+748,259,v1.1-s078
 690993,"Keith, Colt",L,4,home,DET,Sean Burke,R,0.0334,0.0343,1.103,0.0295,0.1179,+748,237,v1.1-s078
@@ -66,10 +73,12 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 686611,"Crews, Dylan",R,3,away,NYM,Christian Scott,R,0.0332,0.0305,1.077,0.0256,0.1126,+788,128,v1.1-s078
 668939,"Rutschman, Adley",L,4,away,PIT,Lake Bachar,R,0.0332,0.0358,1.002,0.028,0.1125,+789,135,v1.1-s078
 691781,"House, Brady",R,5,away,NYM,Christian Scott,R,0.035,0.0321,1.077,0.0269,0.1124,+789,98,v1.1-s078
+668804,"Reynolds, Bryan",R,3,home,PIT,Patrick Sandoval,L,0.0379,0.0345,0.991,0.0266,0.1123,+790,116,v1.1-s078
 803011,"Antonacci, Sam",L,1,away,DET,Drew Anderson,R,0.0305,0.0283,1.103,0.0244,0.1119,+794,231,v1.1-s078
 642086,"Smith, Dominic",L,7,home,ATL,Michael Soroka,R,0.0295,0.0318,1.229,0.0305,0.1112,+800,181,v1.1-s078
 571448,"Arenado, Nolan",R,6,away,ATL,Bryce Elder,R,0.0285,0.0294,1.241,0.0285,0.1108,+803,232,v1.1-s078
 624431,"Trevino, Jose",R,7,home,CIN,Eury Pérez,R,0.0235,0.0263,1.491,0.0306,0.1102,+807,62,v1.1-s078
+804668,"Flores Jr., Rafael",R,5,home,PIT,Patrick Sandoval,L,0.0424,0.0385,0.991,0.0297,0.1092,+816,14,v1.1-s078
 800050,"DeLauter, Chase",L,2,home,CLE,Casey Mize,R,0.0314,0.0282,1.111,0.0245,0.1091,+817,234,v1.1-s078
 665953,"Chaparro, Andrés",R,7,away,NYM,Christian Scott,R,0.0357,0.0327,1.077,0.0275,0.1087,+820,15,v1.1-s078
 641857,"McMahon, Ryan",L,7,away,TOR,Dylan Cease,R,0.0392,0.0306,1.08,0.0258,0.1086,+821,151,v1.1-s078
@@ -79,6 +88,8 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 701785,"Culpepper, Kaelen",R,9,home,MIN,Andrew Painter,R,0.0289,0.031,1.187,0.0287,0.0995,+905,6,v1.1-s078
 645277,"Albies, Ozzie",L,6,home,ATL,Michael Soroka,R,0.0249,0.0268,1.229,0.0257,0.0968,+933,219,v1.1-s078
 595978,"Hedges, Austin",R,8,home,CLE,Casey Mize,R,0.029,0.0327,1.067,0.0272,0.0959,+943,64,v1.1-s078
+592663,"Realmuto, J.T.",R,7,away,MIN,Dean Kremer,R,0.0254,0.0263,1.187,0.0243,0.0929,+977,176,v1.1-s078
+664761,"Bohm, Alec",R,5,away,MIN,Dean Kremer,R,0.0241,0.0249,1.187,0.0231,0.0926,+980,260,v1.1-s078
 605170,"Caratini, Victor",L,8,home,MIN,Andrew Painter,R,0.0267,0.028,1.175,0.0257,0.0925,+981,161,v1.1-s078
 666182,"Bichette, Bo",R,3,home,NYM,Jake Irvin,R,0.0257,0.0259,1.077,0.0217,0.0907,+1003,293,v1.1-s078
 650859,"Rengifo, Luis",L,6,away,CLE,Tanner Bibee,R,0.0227,0.0284,1.111,0.0246,0.0904,+1006,150,v1.1-s078
@@ -88,6 +99,7 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 691011,"Romo, Drew",L,9,away,DET,Drew Anderson,R,0.029,0.0269,1.103,0.0232,0.0865,+1056,90,v1.1-s078
 678882,"Rafaela, Ceddanne",R,2,away,PIT,Lake Bachar,R,0.0251,0.0255,0.991,0.0197,0.086,+1063,276,v1.1-s078
 671976,"Peters, Tristan",L,8,away,DET,Drew Anderson,R,0.0277,0.0258,1.103,0.0222,0.0856,+1069,232,v1.1-s078
+680779,"Davis, Henry",R,9,home,PIT,Patrick Sandoval,L,0.0317,0.0288,0.991,0.0222,0.0845,+1083,50,v1.1-s078
 650402,"Torres, Gleyber",R,1,home,DET,Sean Burke,R,0.0236,0.0221,1.08,0.0186,0.0842,+1087,145,v1.1-s078
 669224,"Wells, Austin",L,8,away,TOR,Dylan Cease,R,0.031,0.0242,1.08,0.0203,0.0839,+1092,123,v1.1-s078
 672695,"Perdomo, Geraldo",L,1,away,ATL,Bryce Elder,R,0.0208,0.0183,1.229,0.0175,0.0837,+1095,262,v1.1-s078
@@ -106,6 +118,7 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 696285,"Young, Jacob",R,9,away,NYM,Christian Scott,R,0.0269,0.0246,1.077,0.0207,0.0779,+1184,179,v1.1-s078
 676391,"Clement, Ernie",R,5,home,TOR,Ryan Weathers,L,0.0218,0.0263,1.06,0.0218,0.0753,+1229,127,v1.1-s078
 686765,"Sogard, Nick",L,1,away,PIT,Lake Bachar,R,0.0198,0.0213,1.002,0.0167,0.0729,+1272,63,v1.1-s078
+694377,"Yorke, Nick",R,7,home,PIT,Patrick Sandoval,L,0.0253,0.0229,0.991,0.0177,0.0723,+1283,22,v1.1-s078
 805367,"Meidroth, Chase",R,7,away,DET,Drew Anderson,R,0.0218,0.0222,1.08,0.0187,0.0723,+1284,230,v1.1-s078
 620443,"Torrens, Luis",R,9,home,NYM,Jake Irvin,R,0.0239,0.0241,1.077,0.0202,0.072,+1288,108,v1.1-s078
 703601,"Clark, Max",L,8,home,DET,Sean Burke,R,0.0218,0.0224,1.103,0.0192,0.0704,+1320,28,v1.1-s078
@@ -114,12 +127,17 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 673357,"Robert Jr., Luis",R,6,home,NYM,Jake Irvin,R,0.0201,0.0203,1.077,0.017,0.0664,+1406,81,v1.1-s078
 656716,"McKinstry, Zach",L,5,home,DET,Sean Burke,R,0.0189,0.0194,1.103,0.0167,0.0664,+1406,201,v1.1-s078
 678391,"Vivas, Jorbit",L,6,away,NYM,Christian Scott,R,0.0209,0.0183,1.088,0.0155,0.0654,+1428,164,v1.1-s078
+695257,"Cook, Billy",R,8,home,PIT,Patrick Sandoval,L,0.0227,0.0206,0.991,0.0159,0.0642,+1458,15,v1.1-s078
 657136,"Wong, Connor",R,9,away,PIT,Lake Bachar,R,0.0219,0.0222,0.991,0.0172,0.0629,+1490,79,v1.1-s078
 660688,"Ruiz, Keibert",L,8,away,NYM,Christian Scott,R,0.0209,0.0184,1.088,0.0156,0.062,+1514,160,v1.1-s078
+669707,"Triolo, Jared",R,1,home,PIT,Patrick Sandoval,L,0.0169,0.0153,0.991,0.0118,0.0597,+1575,74,v1.1-s078
 665926,"Giménez, Andrés",L,8,home,TOR,Ryan Weathers,L,0.0181,0.0182,1.08,0.0153,0.0594,+1584,85,v1.1-s078
 666023,"Fermin, Freddy",R,9,away,CLE,Tanner Bibee,R,0.0204,0.0185,1.067,0.0154,0.0586,+1607,103,v1.1-s078
 676609,"Caballero, José",R,9,away,TOR,Dylan Cease,R,0.0223,0.0169,1.06,0.014,0.0567,+1663,168,v1.1-s078
 595879,"Báez, Javier",R,9,home,DET,Sean Burke,R,0.0188,0.0176,1.08,0.0148,0.0544,+1739,72,v1.1-s078
 702332,"Durbin, Caleb",R,5,away,PIT,Lake Bachar,R,0.0164,0.0167,0.991,0.0129,0.0529,+1789,241,v1.1-s078
 677587,"Rocchio, Brayan",L,9,home,CLE,Casey Mize,R,0.017,0.0152,1.111,0.0132,0.0491,+1937,243,v1.1-s078
+650333,"Arraez, Luis",L,4,away,MIN,Dean Kremer,R,0.0126,0.0119,1.175,0.0109,0.0473,+2013,329,v1.1-s078
+663968,"Mangum, Jake",R,6,home,PIT,Patrick Sandoval,L,0.0168,0.0152,0.991,0.0118,0.0458,+2082,70,v1.1-s078
+702222,"Crawford, Justin",L,8,away,MIN,Dean Kremer,R,0.0134,0.0127,1.175,0.0116,0.0453,+2108,232,v1.1-s078
 680757,"Kwan, Steven",L,1,home,CLE,Casey Mize,R,0.0088,0.0079,1.111,0.0068,0.0323,+2999,256,v1.1-s078
