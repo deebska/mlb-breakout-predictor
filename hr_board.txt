@@ -1,20 +1,38 @@
-HR BOARD -- 2026-08-17 -- 18 hitters composed
+HR BOARD -- 2026-08-17 -- 36 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
 Burleson, Alec          L    4    CIN  Kent Emanuel          0.0526  0.0511   1.31  0.0521   0.209   +378   259  
 De La Cruz, Elly        R    1    CIN  Quinn Mathews         0.0486  0.0485   1.28  0.0486   0.189   +428   73   
 Stewart, Sal            R    2    CIN  Quinn Mathews         0.0440  0.0439   1.28  0.0440   0.186   +436   75   
+Schwarber, Kyle         L    1    PHI  Janson Junk           0.0472  0.0465   1.21  0.0438   0.185   +439   157  
 Walker, Jordan          R    3    CIN  Kent Emanuel          0.0454  0.0441   1.28  0.0442   0.184   +444   253  
+Harper, Bryce           L    3    PHI  Janson Junk           0.0460  0.0453   1.21  0.0427   0.173   +477   217  
 Pereira, Everson        R    8    CIN  Kent Emanuel          0.0412  0.0400   1.28  0.0400   0.148   +574   39   
 Stephenson, Tyler       R    3    CIN  Quinn Mathews         0.0275  0.0275   1.28  0.0275   0.145   +588   41   
+Alvarez, Francisco      R    9    NYM  Walker Buehler        0.0522  0.0595   0.90  0.0420   0.141   +611   144  
 Suárez, Eugenio         R    4    CIN  Quinn Mathews         0.0340  0.0339   1.28  0.0340   0.138   +628   36   
 Jordan, Blaze           R    7    CIN  Kent Emanuel          0.0368  0.0358   1.28  0.0358   0.137   +629   82   
 Báez, Joshua            R    1    CIN  Kent Emanuel          0.0305  0.0296   1.28  0.0296   0.132   +657   2    
 McLain, Matt            R    7    CIN  Quinn Mathews         0.0316  0.0315   1.28  0.0315   0.122   +722   53   
+Marsh, Brandon          L    7    PHI  Janson Junk           0.0343  0.0338   1.21  0.0318   0.119   +741   251  
+Lindor, Francisco       L    2    NYM  Walker Buehler        0.0402  0.0384   0.91  0.0274   0.118   +745   139  
+Turner, Trea            R    2    PHI  Janson Junk           0.0278  0.0286   1.20  0.0267   0.112   +792   259  
+Stott, Bryson           L    6    PHI  Janson Junk           0.0305  0.0300   1.21  0.0282   0.109   +817   266  
 Marte, Noelvi           R    8    CIN  Quinn Mathews         0.0347  0.0346   1.28  0.0347   0.109   +819   31   
 Toglia, Michael         R    6    CIN  Quinn Mathews         0.0273  0.0273   1.28  0.0273   0.107   +832   2    
 Pagés, Pedro            R    9    CIN  Kent Emanuel          0.0301  0.0292   1.28  0.0293   0.107   +835   74   
+Young, Jared            L    6    NYM  Walker Buehler        0.0400  0.0383   0.91  0.0273   0.107   +838   150  
 Herrera, Iván           R    2    CIN  Kent Emanuel          0.0242  0.0235   1.28  0.0235   0.104   +861   257  
 Hayes, Ke'Bryan         R    9    CIN  Quinn Mathews         0.0241  0.0241   1.28  0.0241   0.102   +881   32   
 Myers, Dane             R    5    CIN  Quinn Mathews         0.0275  0.0274   1.28  0.0275   0.096   +940   54   
+Bohm, Alec              R    5    PHI  Janson Junk           0.0252  0.0259   1.20  0.0242   0.095   +953   263  
+Semien, Marcus          R    7    NYM  Walker Buehler        0.0312  0.0357   0.90  0.0252   0.091   +1002  215  
+Ewing, A.J.             L    1    NYM  Walker Buehler        0.0296  0.0283   0.91  0.0201   0.090   +1009  165  
+Realmuto, J.T.          R    8    PHI  Janson Junk           0.0252  0.0259   1.20  0.0242   0.088   +1037  177  
+Bichette, Bo            R    3    NYM  Walker Buehler        0.0267  0.0305   0.90  0.0215   0.086   +1066  296  
+Benge, Carson           L    4    NYM  Walker Buehler        0.0284  0.0272   0.91  0.0194   0.081   +1137  262  
 Winn, Masyn             R    6    CIN  Kent Emanuel          0.0206  0.0200   1.28  0.0200   0.081   +1142  240  
 Fermín, José            R    5    CIN  Kent Emanuel          0.0182  0.0176   1.28  0.0177   0.073   +1264  107  
+Robert Jr., Luis        R    5    NYM  Walker Buehler        0.0199  0.0228   0.90  0.0161   0.062   +1522  83   
+Polanco, Jorge          L    8    NYM  Walker Buehler        0.0215  0.0206   0.91  0.0147   0.055   +1711  76   
+Arraez, Luis            L    4    PHI  Janson Junk           0.0125  0.0123   1.21  0.0116   0.048   +1968  333  
+Crawford, Justin        L    9    PHI  Janson Junk           0.0134  0.0132   1.21  0.0124   0.045   +2122  234  
