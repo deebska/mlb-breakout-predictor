@@ -1,20 +1,20 @@
 HR BOARD -- 2026-08-17 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Burleson, Alec          L    4    CIN  Kent Emanuel          0.0526  0.0511   1.25  0.0499   0.201   +398   259  
-De La Cruz, Elly        R    1    CIN  Quinn Mathews         0.0486  0.0485   1.23  0.0465   0.182   +449   73   
-Stewart, Sal            R    2    CIN  Quinn Mathews         0.0440  0.0439   1.23  0.0421   0.179   +458   75   
-Walker, Jordan          R    3    CIN  Kent Emanuel          0.0454  0.0441   1.23  0.0423   0.177   +466   253  
-Pereira, Everson        R    8    CIN  Kent Emanuel          0.0412  0.0400   1.23  0.0383   0.142   +602   39   
-Stephenson, Tyler       R    3    CIN  Quinn Mathews         0.0275  0.0275   1.23  0.0263   0.140   +617   41   
-Suárez, Eugenio         R    4    CIN  Quinn Mathews         0.0340  0.0339   1.23  0.0325   0.132   +658   36   
-Jordan, Blaze           R    7    CIN  Kent Emanuel          0.0368  0.0358   1.23  0.0343   0.132   +660   82   
-Báez, Joshua            R    1    CIN  Kent Emanuel          0.0305  0.0296   1.23  0.0284   0.127   +688   2    
-McLain, Matt            R    7    CIN  Quinn Mathews         0.0316  0.0315   1.23  0.0302   0.117   +756   53   
-Marte, Noelvi           R    8    CIN  Quinn Mathews         0.0347  0.0346   1.23  0.0332   0.104   +858   31   
-Toglia, Michael         R    6    CIN  Quinn Mathews         0.0273  0.0273   1.23  0.0262   0.103   +871   2    
-Pagés, Pedro            R    9    CIN  Kent Emanuel          0.0301  0.0292   1.23  0.0280   0.103   +875   74   
-Herrera, Iván           R    2    CIN  Kent Emanuel          0.0242  0.0235   1.23  0.0226   0.100   +902   257  
-Hayes, Ke'Bryan         R    9    CIN  Quinn Mathews         0.0241  0.0241   1.23  0.0231   0.098   +922   32   
-Myers, Dane             R    5    CIN  Quinn Mathews         0.0275  0.0274   1.23  0.0263   0.092   +984   54   
-Winn, Masyn             R    6    CIN  Kent Emanuel          0.0206  0.0200   1.23  0.0192   0.077   +1195  240  
-Fermín, José            R    5    CIN  Kent Emanuel          0.0182  0.0176   1.23  0.0169   0.070   +1322  107  
+Burleson, Alec          L    4    CIN  Kent Emanuel          0.0526  0.0511   1.31  0.0521   0.209   +378   259  
+De La Cruz, Elly        R    1    CIN  Quinn Mathews         0.0486  0.0485   1.28  0.0486   0.189   +428   73   
+Stewart, Sal            R    2    CIN  Quinn Mathews         0.0440  0.0439   1.28  0.0440   0.186   +436   75   
+Walker, Jordan          R    3    CIN  Kent Emanuel          0.0454  0.0441   1.28  0.0442   0.184   +444   253  
+Pereira, Everson        R    8    CIN  Kent Emanuel          0.0412  0.0400   1.28  0.0400   0.148   +574   39   
+Stephenson, Tyler       R    3    CIN  Quinn Mathews         0.0275  0.0275   1.28  0.0275   0.145   +588   41   
+Suárez, Eugenio         R    4    CIN  Quinn Mathews         0.0340  0.0339   1.28  0.0340   0.138   +628   36   
+Jordan, Blaze           R    7    CIN  Kent Emanuel          0.0368  0.0358   1.28  0.0358   0.137   +629   82   
+Báez, Joshua            R    1    CIN  Kent Emanuel          0.0305  0.0296   1.28  0.0296   0.132   +657   2    
+McLain, Matt            R    7    CIN  Quinn Mathews         0.0316  0.0315   1.28  0.0315   0.122   +722   53   
+Marte, Noelvi           R    8    CIN  Quinn Mathews         0.0347  0.0346   1.28  0.0347   0.109   +819   31   
+Toglia, Michael         R    6    CIN  Quinn Mathews         0.0273  0.0273   1.28  0.0273   0.107   +832   2    
+Pagés, Pedro            R    9    CIN  Kent Emanuel          0.0301  0.0292   1.28  0.0293   0.107   +835   74   
+Herrera, Iván           R    2    CIN  Kent Emanuel          0.0242  0.0235   1.28  0.0235   0.104   +861   257  
+Hayes, Ke'Bryan         R    9    CIN  Quinn Mathews         0.0241  0.0241   1.28  0.0241   0.102   +881   32   
+Myers, Dane             R    5    CIN  Quinn Mathews         0.0275  0.0274   1.28  0.0275   0.096   +940   54   
+Winn, Masyn             R    6    CIN  Kent Emanuel          0.0206  0.0200   1.28  0.0200   0.081   +1142  240  
+Fermín, José            R    5    CIN  Kent Emanuel          0.0182  0.0176   1.28  0.0177   0.073   +1264  107  

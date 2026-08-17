@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-676475,"Burleson, Alec",L,4,away,CIN,Kent Emanuel,R,0.0526,0.0511,1.252,0.0499,0.201,+398,259,v1.1-s078
-682829,"De La Cruz, Elly",R,1,home,CIN,Quinn Mathews,L,0.0486,0.0485,1.23,0.0465,0.1821,+449,73,v1.1-s078
-701398,"Stewart, Sal",R,2,home,CIN,Quinn Mathews,L,0.044,0.0439,1.23,0.0421,0.1792,+458,75,v1.1-s078
-691023,"Walker, Jordan",R,3,away,CIN,Kent Emanuel,R,0.0454,0.0441,1.23,0.0423,0.1766,+466,253,v1.1-s078
-677592,"Pereira, Everson",R,8,away,CIN,Kent Emanuel,R,0.0412,0.04,1.23,0.0383,0.1424,+602,39,v1.1-s078
-663886,"Stephenson, Tyler",R,3,home,CIN,Quinn Mathews,L,0.0275,0.0275,1.23,0.0263,0.1395,+617,41,v1.1-s078
-553993,"Suárez, Eugenio",R,4,home,CIN,Quinn Mathews,L,0.034,0.0339,1.23,0.0325,0.132,+658,36,v1.1-s078
-691458,"Jordan, Blaze",R,7,away,CIN,Kent Emanuel,R,0.0368,0.0358,1.23,0.0343,0.1316,+660,82,v1.1-s078
-695491,"Báez, Joshua",R,1,away,CIN,Kent Emanuel,R,0.0305,0.0296,1.23,0.0284,0.1269,+688,2,v1.1-s078
-680574,"McLain, Matt",R,7,home,CIN,Quinn Mathews,L,0.0316,0.0315,1.23,0.0302,0.1168,+756,53,v1.1-s078
-682622,"Marte, Noelvi",R,8,home,CIN,Quinn Mathews,L,0.0347,0.0346,1.23,0.0332,0.1044,+858,31,v1.1-s078
-669911,"Toglia, Michael",R,6,home,CIN,Quinn Mathews,L,0.0273,0.0273,1.23,0.0262,0.103,+871,2,v1.1-s078
-686780,"Pagés, Pedro",R,9,away,CIN,Kent Emanuel,R,0.0301,0.0292,1.23,0.028,0.1026,+875,74,v1.1-s078
-671056,"Herrera, Iván",R,2,away,CIN,Kent Emanuel,R,0.0242,0.0235,1.23,0.0226,0.0998,+902,257,v1.1-s078
-663647,"Hayes, Ke'Bryan",R,9,home,CIN,Quinn Mathews,L,0.0241,0.0241,1.23,0.0231,0.0978,+922,32,v1.1-s078
-667472,"Myers, Dane",R,5,home,CIN,Quinn Mathews,L,0.0275,0.0274,1.23,0.0263,0.0923,+984,54,v1.1-s078
-691026,"Winn, Masyn",R,6,away,CIN,Kent Emanuel,R,0.0206,0.02,1.23,0.0192,0.0772,+1195,240,v1.1-s078
-665877,"Fermín, José",R,5,away,CIN,Kent Emanuel,R,0.0182,0.0176,1.23,0.0169,0.0703,+1322,107,v1.1-s078
+676475,"Burleson, Alec",L,4,away,CIN,Kent Emanuel,R,0.0526,0.0511,1.307,0.0521,0.209,+378,259,v1.1-s078
+682829,"De La Cruz, Elly",R,1,home,CIN,Quinn Mathews,L,0.0486,0.0485,1.284,0.0486,0.1894,+428,73,v1.1-s078
+701398,"Stewart, Sal",R,2,home,CIN,Quinn Mathews,L,0.044,0.0439,1.284,0.044,0.1864,+436,75,v1.1-s078
+691023,"Walker, Jordan",R,3,away,CIN,Kent Emanuel,R,0.0454,0.0441,1.284,0.0442,0.1837,+444,253,v1.1-s078
+677592,"Pereira, Everson",R,8,away,CIN,Kent Emanuel,R,0.0412,0.04,1.284,0.04,0.1483,+574,39,v1.1-s078
+663886,"Stephenson, Tyler",R,3,home,CIN,Quinn Mathews,L,0.0275,0.0275,1.284,0.0275,0.1453,+588,41,v1.1-s078
+553993,"Suárez, Eugenio",R,4,home,CIN,Quinn Mathews,L,0.034,0.0339,1.284,0.034,0.1375,+628,36,v1.1-s078
+691458,"Jordan, Blaze",R,7,away,CIN,Kent Emanuel,R,0.0368,0.0358,1.284,0.0358,0.1371,+629,82,v1.1-s078
+695491,"Báez, Joshua",R,1,away,CIN,Kent Emanuel,R,0.0305,0.0296,1.284,0.0296,0.1321,+657,2,v1.1-s078
+680574,"McLain, Matt",R,7,home,CIN,Quinn Mathews,L,0.0316,0.0315,1.284,0.0315,0.1217,+722,53,v1.1-s078
+682622,"Marte, Noelvi",R,8,home,CIN,Quinn Mathews,L,0.0347,0.0346,1.284,0.0347,0.1088,+819,31,v1.1-s078
+669911,"Toglia, Michael",R,6,home,CIN,Quinn Mathews,L,0.0273,0.0273,1.284,0.0273,0.1073,+832,2,v1.1-s078
+686780,"Pagés, Pedro",R,9,away,CIN,Kent Emanuel,R,0.0301,0.0292,1.284,0.0293,0.1069,+835,74,v1.1-s078
+671056,"Herrera, Iván",R,2,away,CIN,Kent Emanuel,R,0.0242,0.0235,1.284,0.0235,0.104,+861,257,v1.1-s078
+663647,"Hayes, Ke'Bryan",R,9,home,CIN,Quinn Mathews,L,0.0241,0.0241,1.284,0.0241,0.102,+881,32,v1.1-s078
+667472,"Myers, Dane",R,5,home,CIN,Quinn Mathews,L,0.0275,0.0274,1.284,0.0275,0.0962,+940,54,v1.1-s078
+691026,"Winn, Masyn",R,6,away,CIN,Kent Emanuel,R,0.0206,0.02,1.284,0.02,0.0805,+1142,240,v1.1-s078
+665877,"Fermín, José",R,5,away,CIN,Kent Emanuel,R,0.0182,0.0176,1.284,0.0177,0.0733,+1264,107,v1.1-s078
