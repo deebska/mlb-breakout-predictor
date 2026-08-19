@@ -43,9 +43,18 @@ def now_iso():
     return datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="minutes")
 
 
+JUNK_RX = re.compile(r"must read|sign up|related storie|newslett|"
+                     r"hide articles|rundown:", re.I)
+
+
 def article_urls(html, limit=5):
-    urls = re.findall(r'href="(https://deadline\.com/2\d{3}/\d{2}/[a-z0-9\-]+-\d+/)"',
-                      html)
+    now = datetime.now(ZoneInfo("America/New_York"))
+    months = {f"{now.year}/{now.month:02d}"}
+    prev_m, prev_y = (now.month - 1 or 12), now.year - (now.month == 1)
+    months.add(f"{prev_y}/{prev_m:02d}")
+    urls = re.findall(r'href="(https://deadline\.com/(2\d{3}/\d{2})/'
+                      r'[a-z0-9\-]+-\d+/)"', html)
+    urls = [u for u, ym in urls if ym in months]
     seen, out = set(), []
     for u in urls:
         if u not in seen:
@@ -79,6 +88,8 @@ def scan():
         title = TAG_RX.sub("", title_m.group(1)).strip()[:90] if title_m else url
         for sent in sentences(html):
             if len(sent) > 400 or not MONEY_RX.search(sent):
+                continue
+            if JUNK_RX.search(sent):
                 continue
             for film, alias_rx in ALIASES.items():
                 if re.search(alias_rx, sent, re.I):

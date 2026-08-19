@@ -124,9 +124,34 @@ def load_dailies():
     return pd.DataFrame(columns=["film", "date", "daily", "reported_cume"])
 
 
+MANUAL = os.path.join(DATA, "manual.csv")
+
+
+def apply_manual(df):
+    """bo_data/manual.csv (film,date,daily) -- hand-verified numbers for days
+    the sources garble. Manual rows are authoritative: they fill gaps AND
+    overwrite bad stored values."""
+    if not os.path.exists(MANUAL):
+        return df
+    try:
+        man = pd.read_csv(MANUAL)
+    except Exception:
+        return df
+    for _, r in man.iterrows():
+        film, d, val = str(r["film"]), str(r["date"]), float(r["daily"])
+        mask = (df["film"] == film) & (df["date"] == d)
+        if mask.any():
+            df.loc[mask, "daily"] = val
+        else:
+            df.loc[len(df)] = [film, d, val, None]
+        print(f"  manual override: {d} {film[:24]} = ${val:,.0f}")
+    return df
+
+
 def update():
     os.makedirs(DATA, exist_ok=True)
     df = load_dailies()
+    df = apply_manual(df)
     yday = today_et() - timedelta(days=1)
     import time
     # union of dates any tracked film is missing; each chart page covers all

@@ -450,23 +450,18 @@ def build():
 <h1 style="font-size:22px">Box Office Tracker</h1>
 {body}
 {rumors_html}
-<div class="foot">Daily grosses from The-Numbers, pulled automatically each
-morning. The green line is actual cumulative domestic gross; the blue dashed
-line and cone are the model's projection to month-end (per-weekday geometric
-decay fit to recent weeks, 80% band). The chart traces each forecaster's August-31 projection
-day by day -- gold is Claude-live, blue is the momentum model, each
-recomputed on only that day's available data; convergence means agreement,
-jumps mean that day's actual moved someone. The dashed gold horizontal is
-the pre-registered forecast, frozen forever. (Legacy note: "Claude live" -- the same
-sheet marked to market daily by a fixed rule (observed weekday deviations
-apply fully to future weekdays, half-transfer to weekends until real
-weekend data arrives). Three forecasters, one chart: the momentum model,
-the frozen human call, and the human's disciplined daily update. The daily
-table's "Claude proj" and "Model proj" columns replay each forecaster on
-only the data available through that date -- how each day's actual moved
-each August-31 projection. The outcome-window percentages come from the
-Claude-live projection with a mechanical uncertainty band (12% of
-still-unearned dollars), so they move only when the data moves. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
+<div class="foot">Daily grosses pulled automatically (Box Office Mojo first,
+The-Numbers fallback; hand-verified overrides when both garble). The chart
+traces each forecaster's August-31 projection day by day -- gold is
+Claude-live (the frozen daily sheet marked to market by a fixed rule:
+weekday deviations apply fully to future weekdays, half-transfer to
+weekends until real weekend data arrives), blue is the momentum model,
+each recomputed on only that day's available data. Convergence means
+agreement; jumps mean that day's actual moved someone. The dashed gold
+horizontal is the pre-registered forecast, frozen forever. The table's
+outcome-window percentages come from the Claude-live projection with a
+mechanical band (12% of still-unearned dollars), so they move only when
+the data moves. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
 </div></body></html>"""
     with open(OUT, "w") as f:
         f.write(html)
