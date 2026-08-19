@@ -79,8 +79,20 @@ def parse_chart(html, match_rx):
         row = row.iloc[0]
 
         def money(v):
-            s = re.sub(r"[^0-9]", "", str(v))
-            return int(s) if s else None
+            s = str(v).strip()
+            m = re.search(r"\$?\s*([\d,]+(?:\.\d+)?)\s*"
+                          r"(million|billion|[mbk])?\b", s, re.I)
+            if not m:
+                return None
+            num = float(m.group(1).replace(",", ""))
+            unit = (m.group(2) or "").lower()
+            if unit in ("m", "million"):
+                num *= 1e6
+            elif unit in ("b", "billion"):
+                num *= 1e9
+            elif unit == "k":
+                num *= 1e3
+            return int(num)
         # daily column: "Daily" (BOM) or first "Gross" (The-Numbers)
         daily_col = next((c for c, v in cols.items() if "daily" in v), None) \
             or next((c for c, v in cols.items() if "gross" in v), None)
@@ -92,6 +104,8 @@ def parse_chart(html, match_rx):
             cume_col = gcols[-1] if len(gcols) > 1 else None
         daily = money(row[daily_col]) if daily_col is not None else None
         cume = money(row[cume_col]) if cume_col is not None else None
+        if daily and daily < 50_000:
+            return None    # abbreviated/garbled cell -- refuse, don't store
         if daily:
             return {"daily": daily, "reported_cume": cume}
     return None
