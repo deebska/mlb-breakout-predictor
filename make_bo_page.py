@@ -138,6 +138,71 @@ NAV = ('<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;'
        '</div></div>')
 
 
+def proj_chart(traj, prereg, windows, w=980, h=340):
+    """Daily evolution of both forecasters' Aug-31 projections: gold =
+    Claude-live, blue = model."""
+    if not traj:
+        return ""
+    dates = sorted(traj)
+    cl = [traj[d][0] for d in dates]
+    mo = [traj[d][1] for d in dates]
+    vals = [v for v in cl + mo if v] + \
+           ([prereg["central"]] if prereg else [])
+    bounds = sorted({b for _, wpair in windows for b in wpair
+                     if b is not None})
+    near = [b for b in bounds if min(vals) - 25e6 <= b <= max(vals) + 25e6]
+    lo = min(vals + near) - 8e6
+    hi = max(vals + near) + 8e6
+
+    def X(i):
+        return 70 + i / max(len(dates) - 1, 1) * (w - 110)
+
+    def Y(v):
+        return (h - 36) - (v - lo) / (hi - lo) * (h - 72)
+
+    grid, labels = "", ""
+    for b in near:
+        gy = Y(b)
+        grid += (f'<line x1="70" y1="{gy:.0f}" x2="{w-40}" y2="{gy:.0f}" '
+                 f'stroke="#2a3a5c" stroke-width="1" stroke-dasharray="3 4"/>')
+        labels += (f'<text x="6" y="{gy+4:.0f}" fill="#8b97ab" '
+                   f'font-size="11">${b/1e6:.0f}M</text>')
+    pre = ""
+    if prereg:
+        py = Y(prereg["central"])
+        pre = (f'<line x1="70" y1="{py:.0f}" x2="{w-40}" y2="{py:.0f}" '
+               f'stroke="#ffb020" stroke-width="1.5" stroke-dasharray="7 6" '
+               f'opacity="0.55"/>'
+               f'<text x="{w-38}" y="{py+4:.0f}" fill="#ffb020" '
+               f'font-size="10" opacity="0.8">frozen</text>')
+    cl_line = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(cl))
+    mo_pts = [(X(i), Y(v)) for i, v in enumerate(mo) if v]
+    mo_line = " ".join(f"{x:.1f},{y:.1f}" for x, y in mo_pts)
+    end_lbl = (f'<text x="{X(len(dates)-1)-4:.0f}" y="{Y(cl[-1])-9:.0f}" '
+               f'fill="#ffb020" font-size="12" font-weight="700" '
+               f'text-anchor="end">Claude ${cl[-1]/1e6:.0f}M</text>')
+    if mo[-1]:
+        end_lbl += (f'<text x="{X(len(dates)-1)-4:.0f}" '
+                    f'y="{Y(mo[-1])+16:.0f}" fill="#4da3ff" font-size="12" '
+                    f'font-weight="700" text-anchor="end">Model '
+                    f'${mo[-1]/1e6:.0f}M</text>')
+    x0, x1 = dates[0], dates[-1]
+    return f"""<svg viewBox="0 0 {w} {h}" style="width:100%;background:#121b2e;
+border-radius:12px">{grid}{labels}{pre}
+<polyline points="{mo_line}" stroke="#4da3ff" stroke-width="2.5" fill="none"
+ opacity="0.9"/>
+<polyline points="{cl_line}" stroke="#ffb020" stroke-width="2.5" fill="none"/>
+{"".join(f'<circle cx="{X(i):.1f}" cy="{Y(v):.1f}" r="3" fill="#ffb020"/>'
+         for i, v in enumerate(cl))}
+{end_lbl}
+<text x="70" y="{h-8}" fill="#8b97ab" font-size="11">{x0}</text>
+<text x="{w-40}" y="{h-8}" fill="#8b97ab" font-size="11"
+ text-anchor="end">{x1}</text>
+<text x="{w/2:.0f}" y="18" fill="#8b97ab" font-size="11" text-anchor="middle">
+Aug 31 projection, day by day</text>
+</svg>"""
+
+
 def svg_chart(series, fc, prereg, live_val=None, w=980, h=340):
     """Cume line to date + projection cone + preregistered marker, inline SVG."""
     days = [(datetime.strptime(s["date"], "%Y-%m-%d").date(), s["gross"])
@@ -340,7 +405,7 @@ def build():
                 f"<div class='big' style='font-size:20px'>"
                 f"${fc['p80_lo']/1e6:,.0f}-{fc['p80_hi']/1e6:,.0f}M</div></div>"
                 + claude_card
-                + svg_chart(series, fc, prereg, live_val) +
+                + proj_chart(traj, ce, wins) +
                 "<h3 style='font-size:16px;margin:16px 0 6px'>Daily grosses"
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
@@ -360,8 +425,11 @@ def build():
 <div class="foot">Daily grosses from The-Numbers, pulled automatically each
 morning. The green line is actual cumulative domestic gross; the blue dashed
 line and cone are the model's projection to month-end (per-weekday geometric
-decay fit to recent weeks, 80% band). The solid gold dot is the pre-registered
-forecast, frozen forever; the hollow gold ring is "Claude live" -- the same
+decay fit to recent weeks, 80% band). The chart traces each forecaster's August-31 projection
+day by day -- gold is Claude-live, blue is the momentum model, each
+recomputed on only that day's available data; convergence means agreement,
+jumps mean that day's actual moved someone. The dashed gold horizontal is
+the pre-registered forecast, frozen forever. (Legacy note: "Claude live" -- the same
 sheet marked to market daily by a fixed rule (observed weekday deviations
 apply fully to future weekdays, half-transfer to weekends until real
 weekend data arrives). Three forecasters, one chart: the momentum model,
