@@ -15,7 +15,33 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FORECAST = os.path.join(HERE, "bo_data", "forecast.json")
 OUT = os.path.join(HERE, "bo.html")
 
-from box_office import TRACKED
+from box_office import TRACKED, forecast as bo_forecast
+import math
+
+
+def eom_prob_windows(central, cume_now, windows):
+    """P(final lands in each window) from N(central, sigma), sigma = 12% of
+    the still-unearned dollars (floor $1.5M) -- uncertainty shrinks as the
+    month converts from forecast to fact."""
+    sigma = max(0.12 * max(central - cume_now, 0), 1.5e6)
+
+    def cdf(x):
+        return 0.5 * (1 + math.erf((x - central) / (sigma * 2 ** 0.5)))
+    out = []
+    for lo, hi in windows:
+        p_lo = cdf(lo) if lo is not None else 0.0
+        p_hi = cdf(hi) if hi is not None else 1.0
+        out.append(max(p_hi - p_lo, 0.0))
+    return out
+
+
+EOM_WINDOWS = {
+ "Spider-Man: Brand New Day": [("&lt;900", (None, 900e6)),
+                               ("900+", (900e6, None))],
+ "The Odyssey": [("530-550", (530e6, 550e6)),
+                 ("550-570", (550e6, 570e6)),
+                 ("570+", (570e6, None))],
+}
 
 # ── Pre-registered daily forecasts (Claude) -- frozen, never edited ──
 # Spider-Man sheet registered 2026-08-09; Odyssey sheet registered 2026-08-10.
@@ -197,6 +223,27 @@ def build():
                                 "</div>")
                 continue
             series = fc["daily_series"]
+            wins = EOM_WINDOWS.get(film["name"], [])
+            sheet = CLAUDE_DAILY.get(film["name"], {})
+            sheet_start = min(sheet) if sheet else None
+            traj = {}
+            if sheet_start:
+                hist = []
+                for s in series:
+                    hist.append(s)
+                    if s["date"] < sheet_start:
+                        continue
+                    tdf = pd.DataFrame([{"film": film["name"], "date": x["date"],
+                                         "daily": x["gross"],
+                                         "reported_cume": None} for x in hist])
+                    fc_d = bo_forecast(tdf, film)
+                    cl_d, _, _ = claude_live(hist, sheet)
+                    cume_d = sum(x["gross"] for x in hist)
+                    probs = eom_prob_windows(cl_d, cume_d,
+                                             [w for _, w in wins])
+                    traj[s["date"]] = (cl_d,
+                                       fc_d["central"] if fc_d else None,
+                                       probs)
             rows = ""
             cume = 0.0
             for s in series:
@@ -217,10 +264,23 @@ def build():
                              f"{dv:+.0f}%</td>")
                 else:
                     pcell = "<td></td><td></td>"
+                tcells = ""
+                if wins:
+                    t = traj.get(s["date"])
+                    if t:
+                        cl_d, mo_d, probs = t
+                        tcells = (f"<td style='color:#ffb020'>"
+                                  f"${cl_d/1e6:,.0f}M</td>"
+                                  f"<td style='color:var(--accent)'>"
+                                  + (f"${mo_d/1e6:,.0f}M" if mo_d else "--")
+                                  + "</td>"
+                                  + "".join(f"<td>{p:.0%}</td>" for p in probs))
+                    else:
+                        tcells = "<td></td><td></td>" +                                  "<td></td>" * len(wins)
                 rows += (f"<tr><td>{s['date']}</td>"
                          f"<td>{d0.strftime('%a')}</td>"
                          f"<td>${s['gross']/1e6:,.1f}M</td>"
-                         + pcell +
+                         + pcell + tcells +
                          f"<td class='hide-m'>{wow}</td>"
                          f"<td>${cume/1e6:,.1f}M</td></tr>")
             prereg = CLAUDE_EOM.get(film["name"])
@@ -285,7 +345,9 @@ def build():
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
                 "<th>Claude pred</th><th>&Delta;</th>"
-                "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
+                "<th>Claude proj</th><th>Model proj</th>"
+                + "".join(f"<th>{lab}</th>" for lab, _ in wins)
+                + "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
                 "</tr></thead><tbody>" + rows + "</tbody></table>"
                 + future_rows_html)
         body = "<hr style='border:0;border-top:1px solid #1e2a44;"               "margin:30px 0'>".join(sections)
@@ -303,7 +365,12 @@ forecast, frozen forever; the hollow gold ring is "Claude live" -- the same
 sheet marked to market daily by a fixed rule (observed weekday deviations
 apply fully to future weekdays, half-transfer to weekends until real
 weekend data arrives). Three forecasters, one chart: the momentum model,
-the frozen human call, and the human's disciplined daily update. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
+the frozen human call, and the human's disciplined daily update. The daily
+table's "Claude proj" and "Model proj" columns replay each forecaster on
+only the data available through that date -- how each day's actual moved
+each August-31 projection. The outcome-window percentages come from the
+Claude-live projection with a mechanical uncertainty band (12% of
+still-unearned dollars), so they move only when the data moves. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
 </div></body></html>"""
     with open(OUT, "w") as f:
         f.write(html)
