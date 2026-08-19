@@ -50,6 +50,10 @@ def chart_url(d):
             f"{d.year}/{d.month:02d}/{d.day:02d}")
 
 
+def bom_url(d):
+    return f"https://www.boxofficemojo.com/date/{d.isoformat()}/"
+
+
 def parse_chart(html, match_rx):
     """Find the tracked film's daily gross + reported cume in a daily chart."""
     try:
@@ -58,8 +62,8 @@ def parse_chart(html, match_rx):
         return None
     rx = re.compile(match_rx, re.I)
     for t in tables:
-        cols = [str(c).lower() for c in t.columns]
-        if not any("gross" in c for c in cols):
+        cols = {c: str(c).lower() for c in t.columns}
+        if not any(("gross" in v) or ("daily" in v) for v in cols.values()):
             continue
         # locate movie-name column
         name_col = None
@@ -77,9 +81,17 @@ def parse_chart(html, match_rx):
         def money(v):
             s = re.sub(r"[^0-9]", "", str(v))
             return int(s) if s else None
-        gross_cols = [c for c in t.columns if "gross" in str(c).lower()]
-        daily = money(row[gross_cols[0]])
-        cume = money(row[gross_cols[-1]]) if len(gross_cols) > 1 else None
+        # daily column: "Daily" (BOM) or first "Gross" (The-Numbers)
+        daily_col = next((c for c, v in cols.items() if "daily" in v), None) \
+            or next((c for c, v in cols.items() if "gross" in v), None)
+        # cumulative column: "To Date" (BOM) or last "Gross"-family column (TN)
+        cume_col = next((c for c, v in cols.items()
+                         if "to date" in v or "total" in v), None)
+        if cume_col is None:
+            gcols = [c for c, v in cols.items() if "gross" in v]
+            cume_col = gcols[-1] if len(gcols) > 1 else None
+        daily = money(row[daily_col]) if daily_col is not None else None
+        cume = money(row[cume_col]) if cume_col is not None else None
         if daily:
             return {"daily": daily, "reported_cume": cume}
     return None
@@ -116,12 +128,19 @@ def update():
         if i >= 12:                    # politeness cap; resumes next run
             print(f"  ({len(needed)-12} more days queued for next run)")
             break
-        try:
-            r = requests.get(chart_url(d), headers=UA, timeout=25)
-            html = r.text if r.status_code == 200 else None
-        except Exception as e:
-            print(f"  {d}: fetch failed ({e})"); html = None
+        html = None
+        for src, url in (("BOM", bom_url(d)), ("TN", chart_url(d))):
+            try:
+                r = requests.get(url, headers=UA, timeout=25)
+                if r.status_code == 200 and len(r.text) > 20000:
+                    if any(parse_chart(r.text, f["match"]) for f in TRACKED):
+                        html = r.text
+                        print(f"  {d}: using {src}")
+                        break
+            except Exception as e:
+                print(f"  {d}: {src} fetch failed ({e})")
         if not html:
+            print(f"  {d}: no source has this day yet")
             time.sleep(1.5); continue
         for film in TRACKED:
             have = set(df[df["film"] == film["name"]]["date"].astype(str))
@@ -200,7 +219,14 @@ def forecast(df, film):
 def mode_check():
     d = today_et() - timedelta(days=1)
     film = TRACKED[0]
-    print(f"CHECK: pulling {chart_url(d)}")
+    print(f"CHECK: Box Office Mojo -- {bom_url(d)}")
+    try:
+        rb = requests.get(bom_url(d), headers=UA, timeout=25)
+        gb = parse_chart(rb.text, film["match"]) if rb.status_code == 200 else None
+        print(f"  BOM: {'$'+format(gb['daily'],',') if gb else 'not found'}")
+    except Exception as e:
+        print(f"  BOM failed: {e}")
+    print(f"CHECK: The-Numbers -- {chart_url(d)}")
     got = fetch_day(d, film["match"])
     if got:
         print(f"  {film['name']} on {d}: daily ${got['daily']:,} | "

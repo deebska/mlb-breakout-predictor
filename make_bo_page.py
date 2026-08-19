@@ -416,12 +416,40 @@ def build():
                 "</tr></thead><tbody>" + rows + "</tbody></table>"
                 + future_rows_html)
         body = "<hr style='border:0;border-top:1px solid #1e2a44;"               "margin:30px 0'>".join(sections)
+    rumors_html = ""
+    rpath = os.path.join(HERE, "bo_data", "rumors.json")
+    rumor_rows = ""
+    if os.path.exists(rpath):
+        try:
+            rstate = json.load(open(rpath))
+            for it in reversed(rstate.get("items", [])):
+                rumor_rows += (
+                    f"<tr><td style='white-space:nowrap'>{it['seen'][5:16]}"
+                    f"</td><td>{it['film'].split(':')[0]}</td>"
+                    f"<td>{it['snippet']}</td>"
+                    f"<td><a href='{it['url']}' style='color:var(--accent)'>"
+                    f"{it['source'][:40]}</a></td></tr>")
+        except Exception:
+            pass
+    rumors_html = (
+        "<h2 style='color:var(--warm)'>Rumor Board</h2>"
+        "<div class='sub'>Unverified early reads scraped from trade coverage "
+        "-- estimates, leaks, and in-progress numbers. <b>Display only:</b> "
+        "nothing here touches the models, projections, or probabilities. "
+        "The board wipes itself the moment finalized numbers land in the "
+        "tables above.</div>"
+        + ("<table><thead><tr><th>Seen</th><th>Film</th><th>What was said"
+           "</th><th>Source</th></tr></thead><tbody>" + rumor_rows +
+           "</tbody></table>" if rumor_rows else
+           "<div class='sub' style='color:var(--dim)'>No unconfirmed reads "
+           "right now -- the board is clean.</div>"))
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wins + Dingers -- Box Office</title><style>{CSS}</style></head>
 <body><div class="wrap">{NAV}
 <h1 style="font-size:22px">Box Office Tracker</h1>
 {body}
+{rumors_html}
 <div class="foot">Daily grosses from The-Numbers, pulled automatically each
 morning. The green line is actual cumulative domestic gross; the blue dashed
 line and cone are the model's projection to month-end (per-weekday geometric
