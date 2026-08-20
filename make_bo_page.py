@@ -90,6 +90,42 @@ def claude_live(series, sheet):
     return cume, w_adj, e_adj
 
 
+def claude_day_ahead(hist, sheet, d):
+    """Claude-live's one-day-ahead call for date d, using only data
+    strictly before d: the frozen sheet value for d, scaled by the
+    weekday/weekend adjustment learned from everything graded so far."""
+    if d not in sheet:
+        return None
+    from datetime import datetime as _dt
+    _, w_adj, e_adj = claude_live(hist, sheet)
+    wd = _dt.strptime(d, "%Y-%m-%d").weekday()
+    return sheet[d] * (e_adj if wd >= 4 else w_adj)
+
+
+def model_day_ahead(hist, film, d):
+    """The momentum model's one-day-ahead call for date d: same
+    weekday-anchor * decay^weeks step its projection uses, computed on
+    only data strictly before d."""
+    if len(hist) < 8:
+        return None
+    tdf = pd.DataFrame([{"film": film["name"], "date": x["date"],
+                         "daily": x["gross"], "reported_cume": None}
+                        for x in hist])
+    fc = bo_forecast(tdf, film)
+    if not fc:
+        return None
+    decay = fc["weekly_decay"]
+    days = {x["date"]: x["gross"] for x in hist}
+    d0 = datetime.strptime(d, "%Y-%m-%d").date()
+    back, weeks = d0 - timedelta(days=7), 1
+    while weeks <= 6:
+        if str(back) in days:
+            return days[str(back)] * (decay ** weeks)
+        back -= timedelta(days=7)
+        weeks += 1
+    return None
+
+
 CLAUDE_EOM = {
  "Spider-Man: Brand New Day": {"date": "2026-08-09", "central": 850e6,
                                "p80_lo": 825e6, "p80_hi": 875e6},
@@ -292,9 +328,14 @@ def build():
             sheet = CLAUDE_DAILY.get(film["name"], {})
             sheet_start = min(sheet) if sheet else None
             traj = {}
+            dayahead = {}
             if sheet_start:
                 hist = []
                 for s in series:
+                    if s["date"] >= sheet_start:
+                        dayahead[s["date"]] = (
+                            claude_day_ahead(hist, sheet, s["date"]),
+                            model_day_ahead(hist, film, s["date"]))
                     hist.append(s)
                     if s["date"] < sheet_start:
                         continue
@@ -319,16 +360,18 @@ def build():
                         if x["date"] == str(d0 - timedelta(days=7))]
                 if prev:
                     wow = f"{(s['gross']/prev[0]['gross']-1)*100:+.0f}%"
-                pred = CLAUDE_DAILY.get(film["name"], {}).get(s["date"])
-                if pred:
-                    dv = (s["gross"] / pred - 1) * 100
-                    dcol = ("#3ddc84" if abs(dv) <= 15 else
-                            "#ffb020" if abs(dv) <= 30 else "#ff6b6b")
-                    pcell = (f"<td>${pred/1e6:,.1f}M</td>"
-                             f"<td style='color:{dcol};font-weight:600'>"
-                             f"{dv:+.0f}%</td>")
-                else:
-                    pcell = "<td></td><td></td>"
+                da = dayahead.get(s["date"], (None, None))
+                pcell = ""
+                for pv in da:
+                    if pv:
+                        dv = (s["gross"] / pv - 1) * 100
+                        dcol = ("#3ddc84" if abs(dv) <= 15 else
+                                "#ffb020" if abs(dv) <= 30 else "#ff6b6b")
+                        pcell += (f"<td>${pv/1e6:,.1f}M</td>"
+                                  f"<td style='color:{dcol};font-weight:600'>"
+                                  f"{dv:+.0f}%</td>")
+                    else:
+                        pcell += "<td></td><td></td>"
                 tcells = ""
                 if wins:
                     t = traj.get(s["date"])
@@ -349,26 +392,54 @@ def build():
                          f"<td class='hide-m'>{wow}</td>"
                          f"<td>${cume/1e6:,.1f}M</td></tr>")
             prereg = CLAUDE_EOM.get(film["name"])
-            have_dates = {s["date"] for s in series}
-            fut = [(d, v) for d, v in
-                   sorted(CLAUDE_DAILY.get(film["name"], {}).items())
-                   if d not in have_dates]
+            # single forward look: tomorrow only, from each forecaster's
+            # CURRENT thinking (frozen daily sheet retired from display --
+            # its record lives on in the graded D-1 columns and the chart)
             future_rows_html = ""
-            if fut:
-                frows = "".join(
-                    f"<tr><td>{d}</td>"
-                    f"<td>{datetime.strptime(d,'%Y-%m-%d').strftime('%a')}</td>"
-                    f"<td style='color:var(--dim)'>--</td>"
-                    f"<td>${v/1e6:,.1f}M</td><td></td>"
-                    f"<td class='hide-m'></td><td></td></tr>"
-                    for d, v in fut)
+            next_d = str(datetime.strptime(series[-1]["date"],
+                                           "%Y-%m-%d").date()
+                         + timedelta(days=1))
+            cl_n = claude_day_ahead(series, sheet, next_d) if sheet else None
+            mo_n = model_day_ahead(series, film, next_d)
+            if cl_n or mo_n:
+                nd = datetime.strptime(next_d, "%Y-%m-%d")
                 future_rows_html = (
                     "<h3 style='font-size:15px;margin:14px 0 6px;"
-                    "color:var(--dim)'>Upcoming days -- Claude's frozen sheet"
-                    "</h3><table><thead><tr><th>Date</th><th>Day</th>"
-                    "<th>Gross</th><th>Claude pred</th><th>&Delta;</th>"
-                    "<th class='hide-m'></th><th></th></tr></thead><tbody>"
-                    + frows + "</tbody></table>")
+                    "color:var(--dim)'>Tomorrow -- one-day-ahead calls "
+                    "(graded when the actual lands)</h3>"
+                    "<table><thead><tr><th>Date</th><th>Day</th>"
+                    "<th>Claude D-1</th><th>Model D-1</th></tr></thead>"
+                    f"<tbody><tr><td>{next_d}</td>"
+                    f"<td>{nd.strftime('%a')}</td>"
+                    "<td style='color:#ffb020;font-weight:600'>"
+                    + (f"${cl_n/1e6:,.1f}M" if cl_n else "--") +
+                    "</td><td style='color:var(--accent);font-weight:600'>"
+                    + (f"${mo_n/1e6:,.1f}M" if mo_n else "--") +
+                    "</td></tr></tbody></table>")
+            # running one-day-ahead scoreboard: median |error| per forecaster
+            actual_by_d = {s["date"]: s["gross"] for s in series}
+            cl_errs, mo_errs = [], []
+            for d, (cp, mp) in dayahead.items():
+                if d in actual_by_d:
+                    if cp:
+                        cl_errs.append(abs(actual_by_d[d] / cp - 1))
+                    if mp:
+                        mo_errs.append(abs(actual_by_d[d] / mp - 1))
+            score_card = ""
+            if cl_errs or mo_errs:
+                med = lambda v: sorted(v)[len(v) // 2]
+                score_card = (
+                    "<div class='stat'><div class='lab'>1-day-ahead "
+                    "median |error|</div><div class='big' "
+                    "style='font-size:20px'>"
+                    "<span style='color:#ffb020'>Claude "
+                    + (f"{med(cl_errs):.0%}" if cl_errs else "--")
+                    + "</span> &nbsp;<span style='color:var(--accent)'>"
+                    "Model "
+                    + (f"{med(mo_errs):.0%}" if mo_errs else "--")
+                    + f"</span></div><div style='color:var(--dim);"
+                    f"font-size:12px'>{max(len(cl_errs), len(mo_errs))} "
+                    "graded days</div></div>")
             ce = CLAUDE_EOM.get(film["name"])
             live_val = None
             sheet = CLAUDE_DAILY.get(film["name"], {})
@@ -404,12 +475,13 @@ def build():
                 f"<div class='stat'><div class='lab'>80% range</div>"
                 f"<div class='big' style='font-size:20px'>"
                 f"${fc['p80_lo']/1e6:,.0f}-{fc['p80_hi']/1e6:,.0f}M</div></div>"
-                + claude_card
+                + claude_card + score_card
                 + proj_chart(traj, ce, wins) +
                 "<h3 style='font-size:16px;margin:16px 0 6px'>Daily grosses"
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
-                "<th>Claude pred</th><th>&Delta;</th>"
+                "<th>Claude D-1</th><th>&Delta;</th>"
+                "<th>Model D-1</th><th>&Delta;</th>"
                 "<th>Claude proj</th><th>Model proj</th>"
                 + "".join(f"<th>{lab}</th>" for lab, _ in wins)
                 + "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
@@ -458,7 +530,11 @@ weekday deviations apply fully to future weekdays, half-transfer to
 weekends until real weekend data arrives), blue is the momentum model,
 each recomputed on only that day's available data. Convergence means
 agreement; jumps mean that day's actual moved someone. The dashed gold
-horizontal is the pre-registered forecast, frozen forever. The table's
+horizontal is the pre-registered forecast, frozen forever. Daily grading
+is one-day-ahead: each morning's Claude D-1 and Model D-1 are what each
+forecaster said <i>yesterday</i> about <i>today</i>, on yesterday's data
+-- latest thinking, not first thinking. The frozen sheet is retired from
+daily display but still steers Claude-live's weekday shape. The table's
 outcome-window percentages come from the Claude-live projection with a
 mechanical band (12% of still-unearned dollars), so they move only when
 the data moves. Updated {ts.strftime('%B %d, %Y %I:%M %p ET')}.</div>
