@@ -1,11 +1,19 @@
-HR BOARD -- 2026-08-20 -- 45 hitters composed
+HR BOARD -- 2026-08-20 -- 72 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
 Burleson, Alec          L    3    CIN  Brady Singer          0.0528  0.0608   1.23  0.0583   0.223   +350   267  
+Murakami, Munetaka      L    2    CWS  Grant Holmes          0.0543  0.0655   1.10  0.0564   0.213   +369   136  
 De La Cruz, Elly        L    1    CIN  Michael McGreevy      0.0394  0.0533   1.23  0.0511   0.191   +425   212  
 Stewart, Sal            R    2    CIN  Michael McGreevy      0.0462  0.0510   1.21  0.0480   0.190   +428   281  
+Vargas, Miguel          R    3    CWS  Grant Holmes          0.0536  0.0515   1.11  0.0448   0.183   +447   257  
 Stephenson, Tyler       R    4    CIN  Michael McGreevy      0.0464  0.0512   1.21  0.0482   0.182   +449   172  
 Walker, Jordan          R    4    CIN  Brady Singer          0.0457  0.0486   1.21  0.0457   0.179   +457   259  
 Bleday, JJ              L    3    CIN  Michael McGreevy      0.0383  0.0517   1.23  0.0496   0.179   +459   195  
+Acuña Jr., Ronald       R    1    CWS  Anthony Kay           0.0363  0.0499   1.11  0.0433   0.178   +460   63   
+Olson, Matt             L    3    CWS  Anthony Kay           0.0465  0.0412   1.10  0.0355   0.170   +487   155  
+Baldwin, Drake          L    2    CWS  Anthony Kay           0.0360  0.0319   1.10  0.0275   0.153   +553   124  
+Riley, Austin           R    8    CWS  Anthony Kay           0.0362  0.0497   1.11  0.0432   0.150   +568   87   
+Montgomery, Colson      L    6    CWS  Grant Holmes          0.0394  0.0477   1.10  0.0411   0.146   +585   187  
+Benintendi, Andrew      L    4    CWS  Grant Holmes          0.0374  0.0453   1.10  0.0390   0.145   +589   225  
 Hayes, Ke'Bryan         R    9    CIN  Michael McGreevy      0.0398  0.0439   1.21  0.0413   0.140   +615   105  
 Devers, Rafael          L    2    CLE  Gavin Williams        0.0399  0.0471   0.93  0.0341   0.137   +630   225  
 Witt Jr., Bobby         R    2    KC   Gage Jump             0.0499  0.0471   0.93  0.0343   0.137   +630   97   
@@ -13,7 +21,9 @@ McLain, Matt            R    5    CIN  Michael McGreevy      0.0344  0.0380   1.
 Eldridge, Bryce         L    4    CLE  Gavin Williams        0.0408  0.0482   0.93  0.0349   0.134   +644   142  
 Báez, Joshua            R    5    CIN  Brady Singer          0.0332  0.0353   1.21  0.0333   0.130   +669   7    
 Jordan, Blaze           R    8    CIN  Brady Singer          0.0351  0.0374   1.21  0.0352   0.128   +684   88   
+Harris II, Michael      L    6    CWS  Anthony Kay           0.0347  0.0308   1.10  0.0265   0.127   +691   136  
 Toglia, Michael         L    6    CIN  Michael McGreevy      0.0276  0.0374   1.23  0.0359   0.124   +704   9    
+Antonacci, Sam          L    1    CWS  Grant Holmes          0.0295  0.0357   1.10  0.0308   0.123   +712   239  
 Perez, Salvador         R    4    KC   Gage Jump             0.0462  0.0436   0.93  0.0317   0.121   +724   103  
 Rodríguez, Héctor       L    8    CIN  Michael McGreevy      0.0280  0.0380   1.23  0.0364   0.121   +728   21   
 Basabe, Osleivis        R    6    CLE  Gavin Williams        0.0401  0.0445   0.89  0.0310   0.117   +755   33   
@@ -21,27 +31,44 @@ Church, Nathan          L    6    CIN  Brady Singer          0.0279  0.0323   1.
 Torres, Bryan           L    7    CIN  Brady Singer          0.0283  0.0328   1.23  0.0314   0.114   +774   71   
 Wetherholt, JJ          L    1    CIN  Brady Singer          0.0243  0.0281   1.23  0.0269   0.113   +789   243  
 Crooks, Jimmy           L    9    CIN  Brady Singer          0.0293  0.0339   1.23  0.0325   0.112   +791   68   
+Thomas, Lane            R    5    CWS  Anthony Kay           0.0223  0.0308   1.11  0.0268   0.110   +808   91   
+Romo, Drew              L    9    CWS  Grant Holmes          0.0307  0.0372   1.10  0.0321   0.107   +833   95   
+Albies, Ozzie           R    4    CWS  Anthony Kay           0.0241  0.0332   1.11  0.0289   0.106   +839   187  
 Herrera, Iván           R    2    CIN  Brady Singer          0.0249  0.0265   1.21  0.0250   0.106   +844   263  
 Adames, Willy           R    3    CLE  Gavin Williams        0.0325  0.0362   0.89  0.0251   0.103   +875   238  
+Murphy, Sean            R    9    CWS  Anthony Kay           0.0251  0.0345   1.11  0.0300   0.101   +891   8    
 Genao, Angel            L    5    CLE  Landen Roupp          0.0396  0.0311   0.93  0.0225   0.098   +919   26   
+Muncy, Max              R    5    KC   Randy Dobnak          0.0355  0.0319   0.93  0.0232   0.098   +919   73   
+Peters, Tristan         L    8    CWS  Grant Holmes          0.0270  0.0328   1.10  0.0282   0.097   +927   242  
+Dubón, Mauricio         R    7    CWS  Anthony Kay           0.0239  0.0329   1.11  0.0286   0.096   +938   145  
 Lowe, Nathaniel         L    4    CLE  Landen Roupp          0.0375  0.0294   0.93  0.0213   0.096   +943   186  
+Gelof, Zack             R    3    KC   Randy Dobnak          0.0321  0.0287   0.93  0.0209   0.094   +968   136  
 Hill, Turner            L    7    CLE  Gavin Williams        0.0286  0.0339   0.93  0.0245   0.090   +1016  6    
+Montgomery, Braden      L    5    CWS  Grant Holmes          0.0224  0.0272   1.10  0.0234   0.087   +1047  118  
 Gilbert, Drew           L    1    CLE  Gavin Williams        0.0243  0.0287   0.93  0.0208   0.087   +1050  189  
 Garcia, Maikel          R    3    KC   Gage Jump             0.0360  0.0340   0.93  0.0247   0.086   +1059  50   
+Butler, Lawrence        L    4    KC   Randy Dobnak          0.0313  0.0264   0.92  0.0190   0.085   +1072  177  
 Martínez, Angel         L    6    CLE  Landen Roupp          0.0347  0.0272   0.93  0.0197   0.084   +1092  139  
 Koss, Christian         R    9    CLE  Gavin Williams        0.0302  0.0336   0.89  0.0234   0.083   +1110  43   
 Halpin, Petey           L    8    CLE  Landen Roupp          0.0363  0.0285   0.93  0.0206   0.082   +1115  82   
+Cortes, Carlos          L    6    KC   Randy Dobnak          0.0311  0.0262   0.92  0.0188   0.080   +1148  200  
 Massey, Michael         L    8    KC   Gage Jump             0.0293  0.0293   0.92  0.0211   0.079   +1169  58   
 Pasquantino, Vinnie     L    5    KC   Gage Jump             0.0210  0.0210   0.92  0.0151   0.077   +1196  65   
 Maile, Luke             R    9    KC   Gage Jump             0.0293  0.0276   0.93  0.0201   0.073   +1263  10   
 Cavanaugh, Drew         L    8    CLE  Gavin Williams        0.0238  0.0282   0.93  0.0204   0.073   +1267  53   
 Collins, Isaac          R    6    KC   Gage Jump             0.0281  0.0266   0.93  0.0193   0.073   +1272  91   
+Serven, Brian           R    7    KC   Randy Dobnak          0.0272  0.0244   0.93  0.0177   0.072   +1294  10   
 Myers, Dane             R    7    CIN  Michael McGreevy      0.0181  0.0201   1.21  0.0189   0.070   +1339  82   
 Loftin, Nick            R    1    KC   Gage Jump             0.0201  0.0190   0.93  0.0138   0.069   +1348  97   
+Meidroth, Chase         R    7    CWS  Grant Holmes          0.0214  0.0205   1.11  0.0178   0.069   +1357  239  
 Bailey, Patrick         L    7    CLE  Landen Roupp          0.0287  0.0225   0.93  0.0163   0.068   +1382  152  
 Bazzana, Travis         L    2    CLE  Landen Roupp          0.0237  0.0185   0.93  0.0134   0.065   +1442  182  
 Lee, Jung Hoo           L    5    CLE  Gavin Williams        0.0193  0.0229   0.93  0.0165   0.064   +1462  281  
 Ramírez, José           L    3    CLE  Landen Roupp          0.0239  0.0187   0.93  0.0136   0.064   +1468  206  
+Walton, Donovan         L    8    KC   Randy Dobnak          0.0254  0.0213   0.92  0.0153   0.062   +1515  104  
 Tolbert, Tyler          R    7    KC   Gage Jump             0.0165  0.0156   0.93  0.0113   0.060   +1566  47   
+Bolte, Henry            R    1    KC   Randy Dobnak          0.0188  0.0168   0.93  0.0122   0.058   +1613  126  
+McNeil, Jeff            L    2    KC   Randy Dobnak          0.0177  0.0149   0.92  0.0107   0.052   +1839  242  
+Hernaiz, Darell         R    9    KC   Randy Dobnak          0.0191  0.0171   0.93  0.0124   0.048   +1998  64   
 Rocchio, Brayan         L    9    CLE  Landen Roupp          0.0168  0.0131   0.93  0.0095   0.037   +2595  247  
 Kwan, Steven            L    1    CLE  Landen Roupp          0.0088  0.0068   0.93  0.0049   0.025   +3907  261  
