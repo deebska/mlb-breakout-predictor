@@ -24,7 +24,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "bo_data")
 DAILIES = os.path.join(DATA, "dailies.csv")
 FORECAST = os.path.join(DATA, "forecast.json")
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+UA = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/126.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
 
 TRACKED = [{
     "name": "Spider-Man: Brand New Day",
@@ -93,9 +100,14 @@ def parse_chart(html, match_rx):
             elif unit == "k":
                 num *= 1e3
             return int(num)
-        # daily column: "Daily" (BOM) or first "Gross" (The-Numbers)
-        daily_col = next((c for c, v in cols.items() if "daily" in v), None) \
-            or next((c for c, v in cols.items() if "gross" in v), None)
+        # daily column: "Daily" (BOM) or "Gross" (The-Numbers).
+        # NEVER a percent column: TN's 2026 rebuild added "Daily Change",
+        # which poisoned this exact line (parsed "-34%" as the gross).
+        daily_col = next((c for c, v in cols.items()
+                          if "daily" in v and "change" not in v
+                          and "%" not in v), None) \
+            or next((c for c, v in cols.items()
+                     if "gross" in v and "total" not in v), None)
         # cumulative column: "To Date" (BOM) or last "Gross"-family column (TN)
         cume_col = next((c for c, v in cols.items()
                          if "to date" in v or "total" in v), None)
@@ -105,7 +117,7 @@ def parse_chart(html, match_rx):
         daily = money(row[daily_col]) if daily_col is not None else None
         cume = money(row[cume_col]) if cume_col is not None else None
         if daily and daily < 50_000:
-            return None    # abbreviated/garbled cell -- refuse, don't store
+            continue       # garbled cell -- try the page's next table
         if daily:
             return {"daily": daily, "reported_cume": cume}
     return None
@@ -168,14 +180,19 @@ def update():
             print(f"  ({len(needed)-12} more days queued for next run)")
             break
         html = None
-        for src, url in (("BOM", bom_url(d)), ("TN", chart_url(d))):
+        for src, url in (("TN", chart_url(d)), ("BOM", bom_url(d))):
             try:
                 r = requests.get(url, headers=UA, timeout=25)
-                if r.status_code == 200 and len(r.text) > 20000:
-                    if any(parse_chart(r.text, f["match"]) for f in TRACKED):
-                        html = r.text
-                        print(f"  {d}: using {src}")
-                        break
+                if r.status_code != 200:
+                    print(f"  {d}: {src} HTTP {r.status_code}"); continue
+                if len(r.text) < 5000:
+                    print(f"  {d}: {src} thin page ({len(r.text)}b)"); continue
+                if any(parse_chart(r.text, f["match"]) for f in TRACKED):
+                    html = r.text
+                    print(f"  {d}: using {src}")
+                    break
+                print(f"  {d}: {src} fetched OK ({len(r.text)}b) "
+                      f"but no tracked film parsed")
             except Exception as e:
                 print(f"  {d}: {src} fetch failed ({e})")
         if not html:
