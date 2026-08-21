@@ -1,5 +1,7 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
 691023,"Walker, Jordan",R,3,away,PHI,Jesús Luzardo,L,0.0511,0.05,1.149,0.0448,0.1791,+458,98,v1.1-s078
+656941,"Schwarber, Kyle",L,1,home,PHI,Hunter Dobbins,R,0.0462,0.0459,1.16,0.0415,0.1759,+468,164,v1.1-s078
+547180,"Harper, Bryce",L,3,home,PHI,Hunter Dobbins,R,0.0451,0.0447,1.16,0.0404,0.1645,+508,223,v1.1-s078
 621566,"Olson, Matt",L,3,away,MIL,Jacob Misiorowski,R,0.057,0.0376,1.06,0.031,0.1571,+537,199,v1.1-s078
 686948,"Baldwin, Drake",L,2,away,MIL,Jacob Misiorowski,R,0.0545,0.0358,1.06,0.0296,0.1547,+547,191,v1.1-s078
 694192,"Chourio, Jackson",R,1,home,MIL,Chris Sale,L,0.0402,0.0344,1.04,0.0279,0.1404,+612,72,v1.1-s078
@@ -8,21 +10,37 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 695491,"Báez, Joshua",R,4,away,PHI,Jesús Luzardo,L,0.0406,0.0398,1.149,0.0356,0.1346,+643,9,v1.1-s078
 641343,"Bauers, Jake",L,5,home,MIL,Chris Sale,L,0.0376,0.0393,1.06,0.0325,0.1345,+644,74,v1.1-s078
 691458,"Jordan, Blaze",R,5,away,PHI,Jesús Luzardo,L,0.0363,0.0355,1.149,0.0318,0.1302,+668,54,v1.1-s078
+669016,"Marsh, Brandon",L,7,home,PHI,Hunter Dobbins,R,0.0348,0.0345,1.16,0.0312,0.1166,+758,261,v1.1-s078
+646240,"Devers, Rafael",L,2,away,BOS,Sonny Gray,R,0.0395,0.0373,0.9,0.0262,0.1164,+759,228,v1.1-s078
 802139,"Wetherholt, JJ",L,1,away,PHI,Jesús Luzardo,L,0.0402,0.0325,1.16,0.0294,0.1156,+765,143,v1.1-s078
+805811,"Eldridge, Bryce",L,4,away,BOS,Sonny Gray,R,0.0404,0.0381,0.9,0.0268,0.1133,+782,144,v1.1-s078
 677592,"Pereira, Everson",R,7,away,PHI,Jesús Luzardo,L,0.0285,0.0279,1.149,0.025,0.1107,+803,19,v1.1-s078
 663586,"Riley, Austin",R,8,away,MIL,Jacob Misiorowski,R,0.0412,0.0316,1.04,0.0256,0.1054,+849,211,v1.1-s078
+681082,"Stott, Bryson",L,6,home,PHI,Hunter Dobbins,R,0.0298,0.0296,1.16,0.0267,0.1033,+868,274,v1.1-s078
+678545,"Basabe, Osleivis",R,6,away,BOS,Sonny Gray,R,0.0386,0.0341,0.919,0.0245,0.1012,+888,35,v1.1-s078
 661388,"Contreras, William",R,3,home,MIL,Chris Sale,L,0.028,0.0239,1.04,0.0194,0.1002,+898,94,v1.1-s078
 671056,"Herrera, Iván",R,2,away,PHI,Jesús Luzardo,L,0.0258,0.0253,1.149,0.0226,0.098,+921,114,v1.1-s078
+607208,"Turner, Trea",R,2,home,PHI,Hunter Dobbins,R,0.0272,0.0244,1.149,0.0219,0.098,+920,265,v1.1-s078
+642715,"Adames, Willy",R,3,away,BOS,Sonny Gray,R,0.0335,0.0296,0.919,0.0212,0.0955,+947,240,v1.1-s078
 668930,"Turang, Brice",L,2,home,MIL,Chris Sale,L,0.0212,0.0221,1.06,0.0183,0.0941,+963,89,v1.1-s078
 683734,"Vaughn, Andrew",R,4,home,MIL,Chris Sale,L,0.0335,0.0286,1.04,0.0232,0.0876,+1041,70,v1.1-s078
 596142,"Sánchez, Gary",R,6,home,MIL,Chris Sale,L,0.0296,0.0253,1.04,0.0205,0.0871,+1049,62,v1.1-s078
+664761,"Bohm, Alec",R,5,home,PHI,Hunter Dobbins,R,0.0246,0.0221,1.149,0.0198,0.0823,+1115,273,v1.1-s078
+592663,"Realmuto, J.T.",R,8,home,PHI,Hunter Dobbins,R,0.0247,0.0222,1.149,0.0199,0.0759,+1218,181,v1.1-s078
 573262,"Yastrzemski, Mike",L,9,away,MIL,Jacob Misiorowski,R,0.0322,0.021,1.06,0.0174,0.0743,+1246,190,v1.1-s078
+687551,"Gilbert, Drew",L,1,away,BOS,Sonny Gray,R,0.024,0.0227,0.9,0.0159,0.0737,+1256,189,v1.1-s078
 686780,"Pagés, Pedro",R,9,away,PHI,Jesús Luzardo,L,0.0195,0.0191,1.149,0.0171,0.0736,+1258,48,v1.1-s078
+806367,"Hill, Turner",L,7,away,BOS,Sonny Gray,R,0.0279,0.0263,0.9,0.0185,0.0734,+1263,8,v1.1-s078
 663494,"Torres, Bryan",L,8,away,PHI,Jesús Luzardo,L,0.0226,0.0182,1.16,0.0165,0.0733,+1264,15,v1.1-s078
 642086,"Smith, Dominic",L,7,away,MIL,Jacob Misiorowski,R,0.029,0.0189,1.06,0.0156,0.0722,+1286,185,v1.1-s078
+683766,"Koss, Christian",R,9,away,BOS,Sonny Gray,R,0.0296,0.0261,0.919,0.0187,0.0716,+1297,43,v1.1-s078
 665877,"Fermín, José",R,6,away,PHI,Jesús Luzardo,L,0.0191,0.0186,1.149,0.0167,0.0659,+1417,99,v1.1-s078
 645277,"Albies, Ozzie",L,5,away,MIL,Jacob Misiorowski,R,0.024,0.0156,1.06,0.0129,0.0641,+1460,232,v1.1-s078
 687401,"Ortiz, Joey",R,7,home,MIL,Chris Sale,L,0.0225,0.0192,1.04,0.0156,0.0636,+1473,71,v1.1-s078
 800325,"Lara, Luis",R,9,home,MIL,Chris Sale,L,0.0219,0.0187,1.04,0.0152,0.0633,+1479,18,v1.1-s078
 643289,"Dubón, Mauricio",R,6,away,MIL,Jacob Misiorowski,R,0.0223,0.017,1.04,0.0138,0.0618,+1518,244,v1.1-s078
 806198,"Pratt, Cooper",R,8,home,MIL,Chris Sale,L,0.0217,0.0185,1.04,0.015,0.0612,+1534,20,v1.1-s078
+701852,"Cavanaugh, Drew",L,8,away,BOS,Sonny Gray,R,0.0235,0.0221,0.9,0.0155,0.0603,+1558,54,v1.1-s078
+808982,"Lee, Jung Hoo",L,5,away,BOS,Sonny Gray,R,0.0191,0.018,0.9,0.0126,0.0534,+1773,284,v1.1-s078
+650333,"Arraez, Luis",L,4,home,PHI,Hunter Dobbins,R,0.0135,0.0134,1.16,0.0121,0.0505,+1882,342,v1.1-s078
+702222,"Crawford, Justin",L,9,home,PHI,Hunter Dobbins,R,0.013,0.0129,1.16,0.0117,0.0424,+2260,242,v1.1-s078
