@@ -163,6 +163,40 @@ def apply_manual(df):
 def update():
     os.makedirs(DATA, exist_ok=True)
     df = load_dailies()
+    # ── revision sync: sources edit recent days (estimate -> actual);
+    # re-fetch the last 3 stored dates and adopt any changed figures.
+    # manual.csv is applied after this, so hand-entered days still win.
+    import time as _rt
+    recent = sorted(df["date"].unique())[-3:]
+    for d in recent:
+        dd = datetime.strptime(d, "%Y-%m-%d").date()
+        html = None
+        for src, url in (("TN", chart_url(dd)), ("BOM", bom_url(dd))):
+            try:
+                r = requests.get(url, headers=UA, timeout=25)
+                if r.status_code == 200 and len(r.text) >= 5000:
+                    if any(parse_chart(r.text, f["match"]) for f in TRACKED):
+                        html = r.text
+                        break
+            except Exception:
+                pass
+        if not html:
+            continue
+        for f in TRACKED:
+            got = parse_chart(html, f["match"])
+            if not got:
+                continue
+            sel = (df["film"] == f["name"]) & (df["date"] == d)
+            if not sel.any():
+                continue
+            old = float(df.loc[sel, "daily"].iloc[0])
+            new = float(got["daily"])
+            if abs(new - old) > 0.005 * max(old, 1):
+                df.loc[sel, "daily"] = new
+                print(f"  revision: {d} {f['name'][:24]} "
+                      f"${old:,.0f} -> ${new:,.0f}")
+        _rt.sleep(1.0)
+
     df = apply_manual(df)
     yday = today_et() - timedelta(days=1)
     import time
