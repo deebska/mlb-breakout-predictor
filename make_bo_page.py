@@ -251,7 +251,7 @@ def svg_chart(series, fc, prereg, live_val=None, w=980, h=340):
     def X(d): return 60 + (d - start).days / span * (w - 90)
     def Y(v): return (h - 40) - v / top * (h - 80)
 
-    cume, pts = 0.0, []
+    cume, pts = float(fc.get("cume_drift") or 0), []
     for d, g in days:
         cume += g
         pts.append((X(d), Y(cume), d, cume))
@@ -351,7 +351,7 @@ def build():
                                        fc_d["central"] if fc_d else None,
                                        probs)
             rows = ""
-            cume = 0.0
+            cume = float(fc.get("cume_drift") or 0)
             for s in series:
                 cume += s["gross"]
                 d0 = datetime.strptime(s["date"], "%Y-%m-%d").date()
@@ -445,6 +445,7 @@ def build():
             sheet = CLAUDE_DAILY.get(film["name"], {})
             if sheet and any(s["date"] in sheet for s in series):
                 live_val, w_adj, e_adj = claude_live(series, sheet)
+            live_val += float(fc.get("cume_drift") or 0)
             claude_card = ""
             if live_val:
                 claude_card += (

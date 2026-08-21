@@ -262,6 +262,23 @@ def forecast(df, film):
         return None
     days = {r["date"]: float(r["daily"]) for _, r in sub.iterrows()}
     cume = float(sub["daily"].sum())
+    # anchor on the source's own running total when available: our summed
+    # dailies inherit every early-estimate error ever ingested, while the
+    # chart's "Total Gross" is the source's reconciled truth. Use the
+    # latest reported cume + any dailies stored after it.
+    drift = 0.0
+    rep = sub.dropna(subset=["reported_cume"])
+    if len(rep):
+        anchor_date = rep["date"].max()
+        anchor_val = float(
+            rep.loc[rep["date"] == anchor_date, "reported_cume"].iloc[0])
+        after = float(sub.loc[sub["date"] > anchor_date, "daily"].sum())
+        anchored = anchor_val + after
+        if abs(anchored - cume) > 25_000:
+            print(f"  cume anchored to source: ${cume:,.0f} -> "
+                  f"${anchored:,.0f} (drift ${anchored-cume:+,.0f})")
+        drift = anchored - float(sub["daily"].sum())
+        cume = anchored
     last_date = datetime.strptime(sub["date"].iloc[-1], "%Y-%m-%d").date()
     eom = date(last_date.year, last_date.month, 28)
     while (eom + timedelta(days=1)).month == eom.month:
@@ -299,7 +316,8 @@ def forecast(df, film):
     central = cume + project(decay)
     lo = cume + project(lo_decay)
     hi = cume + project(hi_decay)
-    return {"cume_to_date": cume, "as_of": str(last_date),
+    return {"cume_to_date": cume, "cume_drift": round(drift, 2),
+            "as_of": str(last_date),
             "target_date": str(eom), "central": central,
             "p80_lo": lo, "p80_hi": hi, "weekly_decay": round(decay, 3),
             "daily_series": [{"date": ds, "gross": days[ds]}
