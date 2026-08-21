@@ -1,18 +1,27 @@
-HR BOARD -- 2026-08-21 -- 18 hitters composed
+HR BOARD -- 2026-08-21 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
+Walker, Jordan          R    3    PHI  Jesús Luzardo         0.0511  0.0500   1.15  0.0448   0.179   +458   98   
 Olson, Matt             L    3    MIL  Jacob Misiorowski     0.0570  0.0376   1.06  0.0310   0.157   +537   199  
 Baldwin, Drake          L    2    MIL  Jacob Misiorowski     0.0545  0.0358   1.06  0.0296   0.155   +547   191  
 Chourio, Jackson        R    1    MIL  Chris Sale            0.0402  0.0344   1.04  0.0279   0.140   +612   72   
 Acuña Jr., Ronald       R    1    MIL  Jacob Misiorowski     0.0446  0.0342   1.04  0.0277   0.138   +624   145  
 Harris II, Michael      L    4    MIL  Jacob Misiorowski     0.0506  0.0332   1.06  0.0275   0.136   +634   232  
+Báez, Joshua            R    4    PHI  Jesús Luzardo         0.0406  0.0398   1.15  0.0356   0.135   +643   9    
 Bauers, Jake            L    5    MIL  Chris Sale            0.0376  0.0393   1.06  0.0325   0.135   +644   74   
+Jordan, Blaze           R    5    PHI  Jesús Luzardo         0.0363  0.0355   1.15  0.0318   0.130   +668   54   
+Wetherholt, JJ          L    1    PHI  Jesús Luzardo         0.0402  0.0325   1.16  0.0294   0.116   +765   143  
+Pereira, Everson        R    7    PHI  Jesús Luzardo         0.0285  0.0279   1.15  0.0250   0.111   +803   19   
 Riley, Austin           R    8    MIL  Jacob Misiorowski     0.0412  0.0316   1.04  0.0256   0.105   +849   211  
 Contreras, William      R    3    MIL  Chris Sale            0.0280  0.0239   1.04  0.0194   0.100   +898   94   
+Herrera, Iván           R    2    PHI  Jesús Luzardo         0.0258  0.0253   1.15  0.0226   0.098   +921   114  
 Turang, Brice           L    2    MIL  Chris Sale            0.0212  0.0221   1.06  0.0183   0.094   +963   89   
 Vaughn, Andrew          R    4    MIL  Chris Sale            0.0335  0.0286   1.04  0.0232   0.088   +1041  70   
 Sánchez, Gary           R    6    MIL  Chris Sale            0.0296  0.0253   1.04  0.0205   0.087   +1049  62   
 Yastrzemski, Mike       L    9    MIL  Jacob Misiorowski     0.0322  0.0210   1.06  0.0174   0.074   +1246  190  
+Pagés, Pedro            R    9    PHI  Jesús Luzardo         0.0195  0.0191   1.15  0.0171   0.074   +1258  48   
+Torres, Bryan           L    8    PHI  Jesús Luzardo         0.0226  0.0182   1.16  0.0165   0.073   +1264  15   
 Smith, Dominic          L    7    MIL  Jacob Misiorowski     0.0290  0.0189   1.06  0.0156   0.072   +1286  185  
+Fermín, José            R    6    PHI  Jesús Luzardo         0.0191  0.0186   1.15  0.0167   0.066   +1417  99   
 Albies, Ozzie           L    5    MIL  Jacob Misiorowski     0.0240  0.0156   1.06  0.0129   0.064   +1460  232  
 Ortiz, Joey             R    7    MIL  Chris Sale            0.0225  0.0192   1.04  0.0156   0.064   +1473  71   
 Lara, Luis              R    9    MIL  Chris Sale            0.0219  0.0187   1.04  0.0152   0.063   +1479  18   
