@@ -3,35 +3,53 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 686948,"Baldwin, Drake",L,1,away,MIL,Logan Henderson,R,0.0538,0.0569,1.06,0.047,0.1964,+409,192,v1.1-s078
 671739,"Harris II, Michael",L,4,away,MIL,Logan Henderson,R,0.0514,0.0544,1.06,0.045,0.177,+465,236,v1.1-s078
 665052,"Conine, Griffin",L,2,home,MIA,Jake Irvin,R,0.0509,0.065,0.9,0.0456,0.172,+481,91,v1.1-s078
-700250,"Rice, Ben",L,2,home,NYY,Dylan Cease,R,0.0556,0.0427,1.092,0.0364,0.1698,+489,215,v1.1-s078
-671277,"García Jr., Luis",L,4,home,NYY,Dylan Cease,R,0.0548,0.0421,1.092,0.0358,0.1587,+530,290,v1.1-s078
+700250,"Rice, Ben",L,2,home,NYY,Dylan Cease,R,0.0556,0.0427,1.078,0.0359,0.1678,+496,215,v1.1-s078
+671277,"García Jr., Luis",L,4,home,NYY,Dylan Cease,R,0.0548,0.0421,1.078,0.0354,0.1568,+538,290,v1.1-s078
 683357,"Caissie, Owen",L,3,home,MIA,Jake Irvin,R,0.0449,0.0575,0.9,0.0403,0.1502,+566,140,v1.1-s078
 660670,"Acuña Jr., Ronald",R,2,away,MIL,Logan Henderson,R,0.0439,0.0407,1.04,0.033,0.146,+585,148,v1.1-s078
 694192,"Chourio, Jackson",R,1,home,MIL,Martín Pérez,L,0.0394,0.0357,1.04,0.029,0.1429,+600,74,v1.1-s078
+672960,"Okamoto, Kazuma",R,5,away,NYY,Ryan Weathers,L,0.0438,0.0535,0.932,0.0389,0.1396,+616,81,v1.1-s078
 641343,"Bauers, Jake",L,4,home,MIL,Martín Pérez,L,0.0369,0.039,1.06,0.0322,0.1374,+628,76,v1.1-s078
-663757,"Grisham, Trent",L,1,home,NYY,Dylan Cease,R,0.0431,0.033,1.092,0.0281,0.1367,+632,217,v1.1-s078
-671218,"Ramos, Heliot",R,3,home,NYY,Dylan Cease,R,0.0451,0.0355,0.944,0.0262,0.1199,+734,184,v1.1-s078
+663757,"Grisham, Trent",L,1,home,NYY,Dylan Cease,R,0.0431,0.033,1.078,0.0277,0.135,+640,217,v1.1-s078
+695734,"Lile, Daylen",L,1,away,MIA,Eury Pérez,R,0.0433,0.0419,0.9,0.0294,0.1315,+661,288,v1.1-s078
+694673,"Ortiz, Abimelec",L,4,away,MIA,Eury Pérez,R,0.0462,0.0448,0.9,0.0315,0.1308,+664,39,v1.1-s078
+671218,"Ramos, Heliot",R,3,home,NYY,Dylan Cease,R,0.0451,0.0355,0.932,0.0258,0.1184,+745,184,v1.1-s078
 663586,"Riley, Austin",R,8,away,MIL,Logan Henderson,R,0.0409,0.0379,1.04,0.0307,0.1171,+754,213,v1.1-s078
+663662,"Cameron, Daz",R,7,away,NYY,Ryan Weathers,L,0.0387,0.0474,0.932,0.0344,0.115,+770,6,v1.1-s078
 681715,"Hernández, Heriberto",R,6,home,MIA,Jake Irvin,R,0.0398,0.0411,0.92,0.0295,0.1119,+793,142,v1.1-s078
+686611,"Crews, Dylan",R,2,away,MIA,Eury Pérez,R,0.0336,0.0368,0.92,0.0264,0.1105,+805,138,v1.1-s078
 691788,"Mack, Joe",L,7,home,MIA,Jake Irvin,R,0.0348,0.0447,0.9,0.0314,0.1086,+821,136,v1.1-s078
-682987,"Jones, Spencer",L,5,home,NYY,Dylan Cease,R,0.0372,0.0285,1.092,0.0242,0.1067,+838,73,v1.1-s078
+691781,"House, Brady",R,3,away,MIA,Eury Pérez,R,0.0331,0.0362,0.92,0.026,0.1066,+838,106,v1.1-s078
+682987,"Jones, Spencer",L,5,home,NYY,Dylan Cease,R,0.0372,0.0285,1.078,0.0239,0.1053,+849,73,v1.1-s078
 592885,"Yelich, Christian",L,6,home,MIL,Martín Pérez,L,0.029,0.0306,1.06,0.0253,0.1053,+850,61,v1.1-s078
 573262,"Yastrzemski, Mike",L,7,away,MIL,Logan Henderson,R,0.0319,0.0338,1.06,0.0279,0.1051,+851,192,v1.1-s078
+665489,"Guerrero Jr., Vladimir",R,2,away,NYY,Ryan Weathers,L,0.0262,0.0321,0.932,0.0234,0.1026,+875,85,v1.1-s078
 661388,"Contreras, William",R,3,home,MIL,Martín Pérez,L,0.0275,0.0249,1.04,0.0202,0.1022,+879,98,v1.1-s078
-665862,"Chisholm Jr., Jazz",L,7,home,NYY,Dylan Cease,R,0.0372,0.0285,1.092,0.0243,0.1004,+896,191,v1.1-s078
+665862,"Chisholm Jr., Jazz",L,7,home,NYY,Dylan Cease,R,0.0372,0.0285,1.078,0.024,0.0992,+909,191,v1.1-s078
+687605,"Pinckney, Andrew",R,9,away,MIA,Eury Pérez,R,0.0351,0.0385,0.92,0.0276,0.0976,+925,3,v1.1-s078
 668930,"Turang, Brice",L,2,home,MIL,Martín Pérez,L,0.0208,0.022,1.06,0.0182,0.0938,+967,92,v1.1-s078
+695670,"Ford, Harry",R,5,away,MIA,Eury Pérez,R,0.0299,0.0327,0.92,0.0235,0.0924,+982,14,v1.1-s078
+543807,"Springer, George",R,4,away,NYY,Ryan Weathers,L,0.0239,0.0294,0.932,0.0214,0.0918,+989,84,v1.1-s078
+807727,"McAdoo, Charles",R,8,away,NYY,Ryan Weathers,L,0.0264,0.0325,0.932,0.0236,0.0892,+1021,16,v1.1-s078
 683734,"Vaughn, Andrew",R,5,home,MIL,Martín Pérez,L,0.033,0.0298,1.04,0.0242,0.0881,+1035,73,v1.1-s078
+677588,"Tena, José",L,6,away,MIA,Eury Pérez,R,0.031,0.03,0.9,0.0211,0.0847,+1081,139,v1.1-s078
 672640,"Lopez, Otto",R,4,home,MIA,Jake Irvin,R,0.0281,0.029,0.92,0.0208,0.0841,+1089,332,v1.1-s078
+703520,"Bateman, Brett",L,1,away,NYY,Ryan Weathers,L,0.0225,0.0222,1.078,0.0187,0.0836,+1097,16,v1.1-s078
 645277,"Albies, Ozzie",L,5,away,MIL,Logan Henderson,R,0.0238,0.0252,1.06,0.0208,0.0833,+1101,235,v1.1-s078
-806146,"Lombard Jr., George",R,6,home,NYY,Dylan Cease,R,0.032,0.0251,0.944,0.0185,0.0789,+1167,33,v1.1-s078
-669224,"Wells, Austin",L,8,home,NYY,Dylan Cease,R,0.0299,0.0228,1.092,0.0194,0.0785,+1174,132,v1.1-s078
+696285,"Young, Jacob",R,7,away,MIA,Eury Pérez,R,0.0277,0.0303,0.92,0.0217,0.0817,+1124,187,v1.1-s078
+672386,"Kirk, Alejandro",R,3,away,NYY,Ryan Weathers,L,0.0204,0.0251,0.932,0.0182,0.0781,+1180,46,v1.1-s078
+806146,"Lombard Jr., George",R,6,home,NYY,Dylan Cease,R,0.032,0.0251,0.932,0.0183,0.0779,+1183,33,v1.1-s078
+669224,"Wells, Austin",L,8,home,NYY,Dylan Cease,R,0.0299,0.0228,1.078,0.0192,0.0775,+1190,132,v1.1-s078
+664702,"Straw, Myles",R,9,away,NYY,Ryan Weathers,L,0.0245,0.0301,0.932,0.0219,0.0698,+1333,105,v1.1-s078
 643289,"Dubón, Mauricio",R,6,away,MIL,Logan Henderson,R,0.0221,0.0205,1.04,0.0166,0.0684,+1363,248,v1.1-s078
 665923,"Ruiz, Esteury",R,9,home,MIA,Jake Irvin,R,0.0258,0.0267,0.92,0.0192,0.068,+1371,53,v1.1-s078
 800325,"Lara, Luis",R,8,home,MIL,Martín Pérez,L,0.0213,0.0193,1.04,0.0157,0.0672,+1387,20,v1.1-s078
 805347,"Jarvis, Jim",L,9,away,MIL,Logan Henderson,R,0.021,0.0222,1.06,0.0184,0.0664,+1407,75,v1.1-s078
 805300,"Marsee, Jakob",L,5,home,MIA,Jake Irvin,R,0.0198,0.0255,0.9,0.0179,0.0659,+1417,256,v1.1-s078
+676391,"Clement, Ernie",R,6,away,NYY,Ryan Weathers,L,0.0213,0.0261,0.932,0.019,0.0655,+1427,131,v1.1-s078
 687401,"Ortiz, Joey",R,7,home,MIL,Martín Pérez,L,0.0222,0.0201,1.04,0.0163,0.0653,+1431,72,v1.1-s078
 669364,"Edwards, Xavier",L,1,home,MIA,Jake Irvin,R,0.0177,0.0228,0.9,0.016,0.0642,+1458,315,v1.1-s078
 806198,"Pratt, Cooper",R,9,home,MIL,Martín Pérez,L,0.0214,0.0194,1.04,0.0157,0.0606,+1550,21,v1.1-s078
-676609,"Caballero, José",R,9,home,NYY,Dylan Cease,R,0.0233,0.0182,0.944,0.0134,0.0522,+1814,174,v1.1-s078
+676609,"Caballero, José",R,9,home,NYY,Dylan Cease,R,0.0233,0.0182,0.932,0.0133,0.0516,+1838,174,v1.1-s078
 691594,"Sanoja, Javier",R,8,home,MIA,Jake Irvin,R,0.0164,0.017,0.92,0.0122,0.045,+2124,210,v1.1-s078
+683083,"Nuñez, Nasim",L,8,away,MIA,Eury Pérez,R,0.0084,0.0081,0.9,0.0057,0.0222,+4413,199,v1.1-s078
