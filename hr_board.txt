@@ -1,235 +1,235 @@
 HR BOARD -- 2026-08-23 -- 233 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Rice, Ben               L    2    NYY  José Soriano          0.0551  0.0544   1.33  0.0565   0.229   +337   217  
-García Jr., Luis        L    3    NYY  José Soriano          0.0556  0.0549   1.33  0.0569   0.226   +343   292  
-Lowe, Nathaniel         L    4    COL  Tomoyuki Sugano       0.0364  0.0616   1.33  0.0638   0.212   +373   197  
-Basallo, Samuel         L    4    BAL  Nick Martinez         0.0527  0.0601   1.19  0.0559   0.207   +384   162  
-Schwarber, Kyle         L    1    PHI  Kyle Leahy            0.0480  0.0612   1.12  0.0532   0.202   +395   169  
-Genao, Angel            L    5    COL  Tomoyuki Sugano       0.0351  0.0595   1.33  0.0616   0.202   +396   37   
-Murakami, Munetaka      L    2    CWS  Nolan McLean          0.0531  0.0503   1.19  0.0466   0.195   +412   140  
-Walker, Jordan          R    3    PHI  Cristopher Sánchez    0.0526  0.0608   1.11  0.0525   0.193   +418   101  
-Martínez, Angel         L    7    COL  Tomoyuki Sugano       0.0341  0.0579   1.33  0.0600   0.190   +425   144  
-DeLauter, Chase         L    2    COL  Tomoyuki Sugano       0.0309  0.0525   1.33  0.0544   0.188   +431   239  
-Harper, Bryce           L    3    PHI  Kyle Leahy            0.0460  0.0586   1.12  0.0510   0.187   +435   225  
+Rice, Ben               L    2    NYY  José Soriano          0.0551  0.0544   1.41  0.0600   0.242   +314   217  
+García Jr., Luis        L    3    NYY  José Soriano          0.0556  0.0549   1.41  0.0605   0.238   +320   292  
+Lowe, Nathaniel         L    4    COL  Tomoyuki Sugano       0.0364  0.0616   1.40  0.0673   0.222   +350   197  
+Genao, Angel            L    5    COL  Tomoyuki Sugano       0.0351  0.0595   1.40  0.0650   0.212   +372   37   
+Basallo, Samuel         L    4    BAL  Nick Martinez         0.0527  0.0601   1.19  0.0560   0.207   +384   162  
+Martínez, Angel         L    7    COL  Tomoyuki Sugano       0.0341  0.0579   1.40  0.0633   0.200   +400   144  
+DeLauter, Chase         L    2    COL  Tomoyuki Sugano       0.0309  0.0525   1.40  0.0574   0.198   +405   239  
+Grisham, Trent          L    1    NYY  José Soriano          0.0425  0.0420   1.41  0.0463   0.195   +413   219  
+Schwarber, Kyle         L    1    PHI  Kyle Leahy            0.0480  0.0612   1.07  0.0511   0.195   +414   169  
+Murakami, Munetaka      L    2    CWS  Nolan McLean          0.0531  0.0503   1.18  0.0464   0.195   +414   140  
+Adell, Jo               R    3    COL  Tomoyuki Sugano       0.0346  0.0478   1.43  0.0531   0.193   +419   248  
 Alvarez, Yordan         L    2    HOU  Brady Basso           0.0536  0.0504   1.06  0.0417   0.186   +436   108  
-Grisham, Trent          L    1    NYY  José Soriano          0.0425  0.0420   1.33  0.0436   0.184   +442   219  
-Adell, Jo               R    3    COL  Tomoyuki Sugano       0.0346  0.0478   1.35  0.0504   0.184   +445   248  
-Merrill, Jackson        L    5    SD   Bailey Ober           0.0498  0.0696   0.98  0.0532   0.182   +449   263  
-Buxton, Byron           R    2    SD   Walker Buehler        0.0515  0.0578   0.99  0.0446   0.179   +457   192  
-Vargas, Miguel          R    3    CWS  Nolan McLean          0.0524  0.0441   1.20  0.0412   0.179   +459   260  
+Walker, Jordan          R    3    PHI  Cristopher Sánchez    0.0526  0.0608   1.06  0.0504   0.186   +437   101  
+Merrill, Jackson        L    5    SD   Bailey Ober           0.0498  0.0696   1.00  0.0541   0.185   +441   263  
+Buxton, Byron           R    2    SD   Walker Buehler        0.0515  0.0578   1.01  0.0453   0.182   +449   192  
+Harper, Bryce           L    3    PHI  Kyle Leahy            0.0460  0.0586   1.07  0.0490   0.180   +455   225  
+Vargas, Miguel          R    3    CWS  Nolan McLean          0.0524  0.0441   1.19  0.0410   0.178   +462   260  
 Caminero, Junior        R    3    BAL  Shane Baz             0.0514  0.0466   1.10  0.0400   0.172   +480   289  
 Alonso, Pete            R    2    BAL  Nick Martinez         0.0468  0.0470   1.10  0.0404   0.167   +498   245  
-Aranda, Jonathan        L    2    BAL  Shane Baz             0.0417  0.0417   1.19  0.0388   0.165   +507   262  
+Aranda, Jonathan        L    2    BAL  Shane Baz             0.0417  0.0417   1.19  0.0388   0.165   +506   262  
 De La Cruz, Elly        R    1    ARI  Mitch Bratt           0.0490  0.0535   1.01  0.0421   0.164   +510   79   
+Moniak, Mickey          L    4    COL  Foster Griffin        0.0280  0.0344   1.40  0.0376   0.164   +511   39   
+Okamoto, Kazuma         R    5    NYY  Carlos Rodón          0.0459  0.0439   1.22  0.0418   0.160   +524   82   
+Tatis Jr., Fernando     R    1    SD   Bailey Ober           0.0466  0.0485   1.01  0.0380   0.159   +528   317  
 Stewart, Sal            R    2    ARI  Mitch Bratt           0.0448  0.0489   1.01  0.0385   0.159   +529   81   
-Tatis Jr., Fernando     R    1    SD   Bailey Ober           0.0466  0.0485   0.99  0.0374   0.157   +538   317  
-Moniak, Mickey          L    4    COL  Foster Griffin        0.0280  0.0344   1.33  0.0356   0.156   +542   39   
-Okamoto, Kazuma         R    5    NYY  Carlos Rodón          0.0459  0.0439   1.15  0.0394   0.152   +560   82   
+Jones, Spencer          L    6    NYY  José Soriano          0.0367  0.0362   1.41  0.0399   0.151   +561   75   
+Chisholm Jr., Jazz      L    7    NYY  José Soriano          0.0370  0.0365   1.41  0.0402   0.149   +573   195  
 Henderson, Gunnar       L    3    BAL  Nick Martinez         0.0358  0.0409   1.19  0.0381   0.148   +577   264  
-Contreras, Willson      R    4    BOS  Matt Wilkinson        0.0496  0.0524   0.96  0.0394   0.145   +591   75   
+Castro, Willi           R    3    COL  Foster Griffin        0.0236  0.0293   1.43  0.0326   0.145   +587   101  
+Hedges, Austin          R    8    COL  Tomoyuki Sugano       0.0282  0.0390   1.43  0.0434   0.145   +590   67   
 Seager, Corey           L    2    TEX  Yusei Kikuchi         0.0340  0.0376   1.01  0.0296   0.145   +591   49   
 Trout, Mike             R    2    TEX  Cal Quantrill         0.0480  0.0393   1.00  0.0307   0.144   +595   194  
-Jones, Spencer          L    6    NYY  José Soriano          0.0367  0.0362   1.33  0.0376   0.143   +600   75   
-Marsh, Brandon          L    5    PHI  Kyle Leahy            0.0359  0.0458   1.12  0.0399   0.143   +600   263  
+Norby, Connor           R    5    COL  Foster Griffin        0.0318  0.0394   1.43  0.0438   0.144   +595   44   
+Clemens, Kody           L    4    SD   Walker Buehler        0.0468  0.0441   1.00  0.0342   0.143   +598   237  
 Crow-Armstrong, Pete    L    1    SEA  Bryce Miller          0.0473  0.0433   0.92  0.0310   0.142   +606   237  
-Báez, Joshua            R    5    PHI  Cristopher Sánchez    0.0387  0.0448   1.11  0.0386   0.142   +606   10   
-Clemens, Kody           L    4    SD   Walker Buehler        0.0468  0.0441   0.98  0.0337   0.141   +609   237  
-Chisholm Jr., Jazz      L    7    NYY  José Soriano          0.0370  0.0365   1.33  0.0379   0.140   +613   195  
-Cowser, Colton          L    8    BAL  Nick Martinez         0.0382  0.0437   1.19  0.0406   0.140   +615   154  
-Castro, Willi           R    3    COL  Foster Griffin        0.0236  0.0293   1.35  0.0309   0.139   +622   101  
-Hedges, Austin          R    8    COL  Tomoyuki Sugano       0.0282  0.0390   1.35  0.0412   0.138   +626   67   
-Norby, Connor           R    5    COL  Foster Griffin        0.0318  0.0394   1.35  0.0416   0.137   +630   44   
-Jordan, Blaze           R    6    PHI  Cristopher Sánchez    0.0354  0.0411   1.11  0.0354   0.136   +635   56   
+Bazzana, Travis         L    6    COL  Tomoyuki Sugano       0.0229  0.0392   1.40  0.0428   0.141   +609   194  
+McCarthy, Jake          L    1    COL  Foster Griffin        0.0277  0.0340   1.40  0.0372   0.141   +611   91   
+Bellinger, Cody         L    4    NYY  José Soriano          0.0321  0.0317   1.41  0.0350   0.140   +612   195  
+Cowser, Colton          L    8    BAL  Nick Martinez         0.0382  0.0437   1.19  0.0406   0.140   +614   154  
+Marsh, Brandon          L    5    PHI  Kyle Leahy            0.0359  0.0458   1.07  0.0383   0.138   +627   263  
+Contreras, Willson      R    4    BOS  Matt Wilkinson        0.0496  0.0524   0.91  0.0373   0.137   +628   75   
+Báez, Joshua            R    5    PHI  Cristopher Sánchez    0.0387  0.0448   1.06  0.0371   0.136   +634   10   
 Canzone, Dominic        L    2    SEA  Shota Imanaga         0.0312  0.0422   0.92  0.0303   0.136   +636   49   
-Burleson, Alec          L    4    PHI  Cristopher Sánchez    0.0337  0.0287   1.12  0.0250   0.136   +638   131  
-Lindor, Francisco       R    1    CWS  Sean Newcomb          0.0307  0.0284   1.20  0.0266   0.135   +641   72   
-Abreu, Wilyer           L    3    BOS  Matt Wilkinson        0.0381  0.0401   0.95  0.0296   0.134   +644   116  
-Bazzana, Travis         L    6    COL  Tomoyuki Sugano       0.0229  0.0392   1.33  0.0406   0.134   +646   194  
-Benge, Carson           L    3    CWS  Sean Newcomb          0.0381  0.0391   1.19  0.0362   0.134   +646   85   
-McCarthy, Jake          L    1    COL  Foster Griffin        0.0277  0.0340   1.33  0.0353   0.134   +648   91   
+Lindor, Francisco       R    1    CWS  Sean Newcomb          0.0307  0.0284   1.19  0.0264   0.134   +644   72   
 Ortiz, Abimelec         L    2    MIA  Janson Junk           0.0452  0.0434   0.90  0.0305   0.134   +648   42   
-Bellinger, Cody         L    4    NYY  José Soriano          0.0321  0.0317   1.33  0.0329   0.133   +654   195  
-Beavers, Dylan          L    6    BAL  Nick Martinez         0.0341  0.0391   1.19  0.0363   0.132   +657   127  
-Montgomery, Colson      L    6    CWS  Nolan McLean          0.0387  0.0366   1.19  0.0339   0.132   +659   188  
-Benintendi, Andrew      L    4    CWS  Nolan McLean          0.0366  0.0347   1.19  0.0321   0.132   +659   232  
-Holliday, Jackson       L    1    BAL  Nick Martinez         0.0302  0.0346   1.19  0.0322   0.131   +662   133  
-Valencia, Eduardo       R    4    KC   Daniel Lynch IV       0.0435  0.0440   0.89  0.0306   0.131   +664   17   
+Benge, Carson           L    3    CWS  Sean Newcomb          0.0381  0.0391   1.18  0.0361   0.134   +649   85   
+Ritter, Ryan            R    8    COL  Foster Griffin        0.0282  0.0349   1.43  0.0388   0.133   +654   0    
+Beavers, Dylan          L    6    BAL  Nick Martinez         0.0341  0.0391   1.19  0.0364   0.132   +656   127  
+Carrigg, Cole           R    2    COL  Foster Griffin        0.0263  0.0326   1.43  0.0363   0.132   +660   71   
+Holliday, Jackson       L    1    BAL  Nick Martinez         0.0302  0.0346   1.19  0.0322   0.131   +661   133  
+Montgomery, Colson      L    6    CWS  Nolan McLean          0.0387  0.0366   1.18  0.0338   0.131   +662   188  
+Benintendi, Andrew      L    4    CWS  Nolan McLean          0.0366  0.0347   1.18  0.0320   0.131   +662   232  
+Jordan, Blaze           R    6    PHI  Cristopher Sánchez    0.0354  0.0411   1.06  0.0340   0.131   +664   56   
+Burleson, Alec          L    4    PHI  Cristopher Sánchez    0.0337  0.0287   1.07  0.0240   0.131   +667   131  
+Valencia, Eduardo       R    4    KC   Daniel Lynch IV       0.0435  0.0440   0.89  0.0304   0.130   +668   17   
+France, Ty              R    4    SD   Bailey Ober           0.0403  0.0419   1.01  0.0329   0.130   +669   182  
 Lile, Daylen            L    1    MIA  Janson Junk           0.0429  0.0413   0.90  0.0290   0.130   +670   291  
-Urías, Ramón            R    8    PHI  Cristopher Sánchez    0.0419  0.0485   1.11  0.0418   0.130   +671   12   
 Suzuki, Seiya           R    2    SEA  Bryce Miller          0.0396  0.0428   0.93  0.0310   0.130   +671   216  
 Rodríguez, Julio        R    3    SEA  Shota Imanaga         0.0398  0.0493   0.93  0.0358   0.130   +672   101  
 Ballesteros, Moisés     L    3    TEX  Cal Quantrill         0.0353  0.0415   1.01  0.0327   0.129   +674   144  
-France, Ty              R    4    SD   Bailey Ober           0.0403  0.0419   0.99  0.0324   0.128   +681   182  
+Tovar, Ezequiel         R    9    COL  Foster Griffin        0.0291  0.0360   1.43  0.0400   0.129   +676   76   
+Bell, Josh              L    3    SD   Walker Buehler        0.0407  0.0383   1.00  0.0297   0.129   +678   236  
+Abreu, Wilyer           L    3    BOS  Matt Wilkinson        0.0381  0.0401   0.89  0.0280   0.127   +685   116  
 Foscue, Justin          R    1    TEX  Yusei Kikuchi         0.0373  0.0413   1.00  0.0322   0.127   +685   69   
 Lowe, Josh              L    5    TEX  Cal Quantrill         0.0363  0.0426   1.01  0.0336   0.127   +688   141  
-Bericoto, Victor        R    5    BOS  Jake Bennett          0.0356  0.0426   0.96  0.0321   0.127   +689   30   
-Bell, Josh              L    3    SD   Walker Buehler        0.0407  0.0383   0.98  0.0293   0.127   +690   236  
 Smith, Cam              R    8    HOU  Brady Basso           0.0348  0.0426   1.05  0.0349   0.126   +691   80   
-Ritter, Ryan            R    8    COL  Foster Griffin        0.0282  0.0349   1.35  0.0368   0.126   +692   0    
-Robert Jr., Luis        R    4    CWS  Sean Newcomb          0.0417  0.0387   1.20  0.0361   0.126   +693   36   
-Carrigg, Cole           R    2    COL  Foster Griffin        0.0263  0.0326   1.35  0.0344   0.125   +699   71   
+Robert Jr., Luis        R    4    CWS  Sean Newcomb          0.0417  0.0387   1.19  0.0360   0.126   +696   36   
+Urías, Ramón            R    8    PHI  Cristopher Sánchez    0.0419  0.0485   1.06  0.0402   0.125   +701   12   
 Hernández, Heriberto    R    3    MIA  Jackson Kent          0.0404  0.0426   0.92  0.0306   0.124   +704   77   
 Burger, Jake            R    6    TEX  Yusei Kikuchi         0.0395  0.0437   1.00  0.0341   0.124   +704   76   
 White, Tommy            R    5    HOU  Cristian Javier       0.0365  0.0384   1.05  0.0314   0.124   +708   60   
-Witt Jr., Bobby         R    2    KC   Jacob Waguespack      0.0407  0.0427   0.89  0.0296   0.123   +713   250  
-Tovar, Ezequiel         R    9    COL  Foster Griffin        0.0291  0.0360   1.35  0.0380   0.123   +716   76   
+Cameron, Daz            R    7    NYY  Carlos Rodón          0.0373  0.0357   1.22  0.0340   0.122   +716   7    
+Machado, Manny          R    3    SD   Bailey Ober           0.0369  0.0384   1.01  0.0301   0.122   +717   268  
 Carroll, Corbin         L    2    ARI  Andrew Abbott         0.0278  0.0273   1.02  0.0217   0.122   +718   113  
-Stott, Bryson           L    4    PHI  Kyle Leahy            0.0296  0.0379   1.12  0.0330   0.122   +722   276  
+Witt Jr., Bobby         R    2    KC   Jacob Waguespack      0.0407  0.0427   0.89  0.0294   0.122   +718   250  
+Lewis, Royce            R    5    SD   Walker Buehler        0.0359  0.0403   1.01  0.0317   0.122   +721   180  
 Moreno, Gabriel         R    3    ARI  Andrew Abbott         0.0330  0.0392   1.01  0.0309   0.121   +724   88   
-Machado, Manny          R    3    SD   Bailey Ober           0.0369  0.0384   0.99  0.0296   0.121   +729   268  
-Wetherholt, JJ          L    1    PHI  Cristopher Sánchez    0.0434  0.0371   1.12  0.0323   0.121   +729   145  
-Díaz, Yandy             R    1    BAL  Shane Baz             0.0335  0.0302   1.10  0.0259   0.120   +732   296  
-Lewis, Royce            R    5    SD   Walker Buehler        0.0359  0.0403   0.99  0.0311   0.120   +734   180  
+Sheets, Gavin           L    7    SD   Bailey Ober           0.0328  0.0462   1.00  0.0359   0.121   +728   220  
+Bericoto, Victor        R    5    BOS  Jake Bennett          0.0356  0.0426   0.91  0.0304   0.120   +732   30   
+Díaz, Yandy             R    1    BAL  Shane Baz             0.0335  0.0302   1.10  0.0260   0.120   +731   296  
+Beck, Jordan            R    6    COL  Foster Griffin        0.0223  0.0276   1.43  0.0308   0.120   +734   36   
 Raleigh, Cal            R    4    SEA  Shota Imanaga         0.0341  0.0424   0.93  0.0308   0.120   +734   73   
-Sheets, Gavin           L    7    SD   Bailey Ober           0.0328  0.0462   0.98  0.0353   0.119   +741   220  
-Bichette, Bo            R    2    CWS  Sean Newcomb          0.0343  0.0318   1.20  0.0297   0.119   +742   111  
 Neto, Zach              R    1    TEX  Cal Quantrill         0.0383  0.0313   1.00  0.0244   0.119   +742   232  
-Adames, Willy           R    3    BOS  Jake Bennett          0.0331  0.0397   0.96  0.0299   0.118   +748   81   
+Bichette, Bo            R    2    CWS  Sean Newcomb          0.0343  0.0318   1.19  0.0296   0.118   +745   111  
+Campusano, Luis         R    6    SD   Bailey Ober           0.0382  0.0398   1.01  0.0312   0.118   +748   80   
 Stephenson, Tyler       R    4    ARI  Mitch Bratt           0.0268  0.0293   1.01  0.0231   0.118   +749   42   
-Campusano, Luis         R    6    SD   Bailey Ober           0.0382  0.0398   0.99  0.0307   0.116   +761   80   
-Cameron, Daz            R    7    NYY  Carlos Rodón          0.0373  0.0357   1.15  0.0320   0.116   +764   7    
+Stott, Bryson           L    4    PHI  Kyle Leahy            0.0296  0.0379   1.07  0.0317   0.117   +754   276  
+Wells, Austin           L    8    NYY  José Soriano          0.0295  0.0292   1.41  0.0321   0.117   +755   133  
+Guerrero Jr., Vladimir  R    2    NYY  Carlos Rodón          0.0260  0.0249   1.22  0.0237   0.116   +761   87   
+Lombard Jr., George     R    5    NYY  José Soriano          0.0312  0.0309   1.22  0.0294   0.116   +761   35   
+Wetherholt, JJ          L    1    PHI  Cristopher Sánchez    0.0434  0.0371   1.07  0.0310   0.116   +761   145  
 Walker, Christian       R    6    HOU  Brady Basso           0.0300  0.0369   1.05  0.0302   0.115   +767   74   
 Chaparro, Andrés        R    7    MIA  Janson Junk           0.0417  0.0420   0.92  0.0301   0.115   +770   25   
-Beck, Jordan            R    6    COL  Foster Griffin        0.0223  0.0276   1.35  0.0292   0.114   +776   36   
-Sosa, Edmundo           R    8    PHI  Kyle Leahy            0.0346  0.0369   1.11  0.0319   0.113   +783   74   
+Encarnacion-Strand, Ch  R    7    BAL  Nick Martinez         0.0351  0.0353   1.10  0.0303   0.113   +786   46   
 McLain, Matt            R    6    ARI  Mitch Bratt           0.0335  0.0366   1.01  0.0288   0.113   +787   59   
-Encarnacion-Strand, Ch  R    7    BAL  Nick Martinez         0.0351  0.0353   1.10  0.0303   0.113   +787   46   
 Muncy, Max              R    6    HOU  Cristian Javier       0.0339  0.0357   1.05  0.0292   0.113   +787   79   
-Antonacci, Sam          L    1    CWS  Nolan McLean          0.0289  0.0273   1.19  0.0253   0.113   +788   246  
 Nimmo, Brandon          L    4    TEX  Yusei Kikuchi         0.0258  0.0286   1.01  0.0225   0.113   +788   110  
+Antonacci, Sam          L    1    CWS  Nolan McLean          0.0289  0.0273   1.18  0.0252   0.112   +791   246  
+Bateman, Brett          L    1    NYY  Carlos Rodón          0.0220  0.0239   1.41  0.0263   0.112   +794   18   
+Adames, Willy           R    3    BOS  Jake Bennett          0.0331  0.0397   0.91  0.0283   0.112   +794   81   
 Gelof, Zack             R    3    HOU  Cristian Javier       0.0312  0.0328   1.05  0.0269   0.112   +796   142  
-Perez, Salvador         R    4    KC   Jacob Waguespack      0.0386  0.0404   0.89  0.0280   0.111   +797   267  
-Basabe, Osleivis        R    1    BOS  Jake Bennett          0.0215  0.0258   0.96  0.0194   0.111   +804   20   
+Perez, Salvador         R    4    KC   Jacob Waguespack      0.0386  0.0404   0.89  0.0279   0.111   +802   267  
 Suárez, Eugenio         R    5    ARI  Mitch Bratt           0.0324  0.0355   1.01  0.0279   0.110   +806   38   
-Wells, Austin           L    8    NYY  José Soriano          0.0295  0.0292   1.33  0.0303   0.110   +806   133  
-Monasterio, Andruw      R    7    BOS  Matt Wilkinson        0.0440  0.0466   0.96  0.0351   0.110   +811   70   
-Guerrero Jr., Vladimir  R    2    NYY  Carlos Rodón          0.0260  0.0249   1.15  0.0223   0.110   +812   87   
-Lombard Jr., George     R    5    NYY  José Soriano          0.0312  0.0309   1.15  0.0277   0.110   +812   35   
-Bleday, JJ              L    7    ARI  Mitch Bratt           0.0293  0.0336   1.02  0.0268   0.109   +816   64   
 O'Hoppe, Logan          R    7    TEX  Yusei Kikuchi         0.0342  0.0379   1.00  0.0296   0.109   +816   50   
+Bleday, JJ              L    7    ARI  Mitch Bratt           0.0293  0.0336   1.02  0.0268   0.109   +816   64   
 Cortes, Carlos          L    2    HOU  Cristian Javier       0.0304  0.0303   1.06  0.0250   0.109   +817   206  
-Ewing, A.J.             L    8    CWS  Sean Newcomb          0.0322  0.0330   1.19  0.0306   0.109   +819   59   
+Sosa, Edmundo           R    8    PHI  Kyle Leahy            0.0346  0.0369   1.06  0.0306   0.109   +818   74   
 Langford, Wyatt         R    3    TEX  Yusei Kikuchi         0.0320  0.0355   1.00  0.0277   0.108   +822   71   
 Arenado, Nolan          R    5    ARI  Andrew Abbott         0.0327  0.0389   1.01  0.0306   0.108   +823   85   
+Ewing, A.J.             L    8    CWS  Sean Newcomb          0.0322  0.0330   1.18  0.0305   0.108   +823   59   
 Campero, Gustavo        L    6    TEX  Cal Quantrill         0.0312  0.0368   1.01  0.0290   0.108   +828   0    
 Happ, Ian               L    5    SEA  Bryce Miller          0.0391  0.0357   0.92  0.0256   0.107   +831   218  
 Tawa, Tim               R    6    ARI  Andrew Abbott         0.0285  0.0339   1.01  0.0267   0.107   +832   40   
 Díaz, Elias             R    9    TEX  Yusei Kikuchi         0.0429  0.0475   1.00  0.0370   0.107   +833   53   
-Devers, Rafael          L    2    BOS  Jake Bennett          0.0329  0.0275   0.95  0.0203   0.106   +841   117  
 Paredes, Isaac          R    3    HOU  Brady Basso           0.0279  0.0343   1.05  0.0281   0.106   +847   94   
-Bateman, Brett          L    1    NYY  Carlos Rodón          0.0220  0.0239   1.33  0.0248   0.106   +847   18   
+Basabe, Osleivis        R    1    BOS  Jake Bennett          0.0215  0.0258   0.91  0.0184   0.105   +853   20   
 Butler, Lawrence        L    4    HOU  Cristian Javier       0.0306  0.0305   1.06  0.0252   0.105   +854   183  
 Arozarena, Randy        R    1    SEA  Shota Imanaga         0.0273  0.0339   0.93  0.0246   0.105   +854   99   
-Jones, Jahmai           R    1    BOS  Matt Wilkinson        0.0337  0.0357   0.96  0.0269   0.104   +861   63   
-Turner, Trea            R    2    PHI  Kyle Leahy            0.0269  0.0287   1.11  0.0248   0.103   +871   269  
+Monasterio, Andruw      R    7    BOS  Matt Wilkinson        0.0440  0.0466   0.91  0.0332   0.104   +861   70   
+Springer, George        R    4    NYY  Carlos Rodón          0.0237  0.0227   1.22  0.0216   0.103   +867   86   
 Lopez, Otto             R    1    MIA  Jackson Kent          0.0347  0.0367   0.92  0.0263   0.103   +871   106  
-Herrera, Iván           R    2    PHI  Cristopher Sánchez    0.0254  0.0295   1.11  0.0255   0.103   +872   116  
-Torkelson, Spencer      R    5    KC   Daniel Lynch IV       0.0320  0.0324   0.89  0.0225   0.103   +874   80   
-Knizner, Andrew         R    7    BOS  Jake Bennett          0.0319  0.0383   0.96  0.0288   0.103   +875   7    
-Wagaman, Eric           R    5    CWS  Sean Newcomb          0.0284  0.0263   1.20  0.0246   0.102   +877   26   
+Sullivan, Brett         L    7    COL  Foster Griffin        0.0185  0.0228   1.40  0.0249   0.102   +876   37   
+Torkelson, Spencer      R    5    KC   Daniel Lynch IV       0.0320  0.0324   0.89  0.0224   0.102   +879   80   
 Crews, Dylan            R    3    MIA  Janson Junk           0.0332  0.0335   0.92  0.0240   0.102   +880   142  
-Eldridge, Bryce         L    4    BOS  Jake Bennett          0.0344  0.0287   0.95  0.0212   0.102   +880   65   
+Wagaman, Eric           R    5    CWS  Sean Newcomb          0.0284  0.0263   1.19  0.0245   0.102   +880   26   
 Vargas, Ildemaro        R    1    ARI  Andrew Abbott         0.0336  0.0399   1.01  0.0314   0.102   +882   120  
-Lee, Hao-Yu             R    2    KC   Daniel Lynch IV       0.0319  0.0323   0.89  0.0224   0.102   +886   78   
-Hicks, Liam             L    4    BAL  Shane Baz             0.0260  0.0260   1.19  0.0241   0.100   +896   287  
-Semien, Marcus          R    7    CWS  Sean Newcomb          0.0285  0.0264   1.20  0.0247   0.100   +904   75   
+Lee, Hao-Yu             R    2    KC   Daniel Lynch IV       0.0319  0.0323   0.89  0.0223   0.101   +891   78   
+Devers, Rafael          L    2    BOS  Jake Bennett          0.0329  0.0275   0.89  0.0192   0.101   +893   117  
+Hicks, Liam             L    4    BAL  Shane Baz             0.0260  0.0260   1.19  0.0242   0.101   +895   287  
 Peña, Jeremy            R    1    HOU  Brady Basso           0.0231  0.0284   1.05  0.0233   0.100   +905   48   
-Springer, George        R    4    NYY  Carlos Rodón          0.0237  0.0227   1.15  0.0203   0.098   +924   86   
-Sullivan, Brett         L    7    COL  Foster Griffin        0.0185  0.0228   1.33  0.0236   0.097   +928   37   
-De La Cruz, Bryan       R    9    PHI  Kyle Leahy            0.0304  0.0325   1.11  0.0280   0.097   +928   15   
-Rogers, Jake            R    9    CWS  Nolan McLean          0.0328  0.0274   1.20  0.0257   0.096   +942   62   
-Pasquantino, Vinnie     L    3    KC   Jacob Waguespack      0.0378  0.0304   0.88  0.0209   0.096   +945   190  
-Rocchio, Brayan         L    9    COL  Tomoyuki Sugano       0.0167  0.0287   1.33  0.0297   0.094   +962   250  
-Rave, John              L    6    KC   Jacob Waguespack      0.0406  0.0327   0.88  0.0225   0.094   +961   32   
-Torres, Gleyber         R    1    KC   Daniel Lynch IV       0.0364  0.0368   0.89  0.0255   0.094   +963   50   
+Semien, Marcus          R    7    CWS  Sean Newcomb          0.0285  0.0264   1.19  0.0246   0.099   +908   75   
+Rocchio, Brayan         L    9    COL  Tomoyuki Sugano       0.0167  0.0287   1.40  0.0314   0.099   +909   250  
+Turner, Trea            R    2    PHI  Kyle Leahy            0.0269  0.0287   1.06  0.0238   0.099   +910   269  
+Herrera, Iván           R    2    PHI  Cristopher Sánchez    0.0254  0.0295   1.06  0.0244   0.099   +910   116  
+Jones, Jahmai           R    1    BOS  Matt Wilkinson        0.0337  0.0357   0.91  0.0254   0.099   +914   63   
+McAdoo, Charles         R    8    NYY  Carlos Rodón          0.0261  0.0249   1.22  0.0237   0.098   +922   17   
+Knizner, Andrew         R    7    BOS  Jake Bennett          0.0319  0.0383   0.91  0.0273   0.097   +928   7    
+Eldridge, Bryce         L    4    BOS  Jake Bennett          0.0344  0.0287   0.89  0.0200   0.097   +935   65   
+Rogers, Jake            R    9    CWS  Nolan McLean          0.0328  0.0274   1.19  0.0256   0.096   +946   62   
+Pasquantino, Vinnie     L    3    KC   Jacob Waguespack      0.0378  0.0304   0.88  0.0208   0.095   +951   190  
+Rave, John              L    6    KC   Jacob Waguespack      0.0406  0.0327   0.88  0.0224   0.094   +967   32   
+Torres, Gleyber         R    1    KC   Daniel Lynch IV       0.0364  0.0368   0.89  0.0254   0.094   +969   50   
+Culpepper, Kaelen       R    9    SD   Walker Buehler        0.0301  0.0339   1.01  0.0266   0.093   +970   17   
+De La Cruz, Bryan       R    9    PHI  Kyle Leahy            0.0304  0.0325   1.06  0.0269   0.093   +969   15   
 Myers, Dane             R    3    ARI  Mitch Bratt           0.0320  0.0350   1.01  0.0276   0.093   +971   62   
 Grissom, Vaughn         R    4    TEX  Cal Quantrill         0.0322  0.0263   1.00  0.0205   0.093   +973   151  
-McAdoo, Charles         R    8    NYY  Carlos Rodón          0.0261  0.0249   1.15  0.0224   0.092   +982   17   
 Lawlar, Jordan          R    7    ARI  Andrew Abbott         0.0273  0.0324   1.01  0.0255   0.092   +985   18   
-Culpepper, Kaelen       R    9    SD   Walker Buehler        0.0301  0.0339   0.99  0.0262   0.092   +986   17   
-Peters, Tristan         L    8    CWS  Nolan McLean          0.0280  0.0265   1.19  0.0245   0.091   +994   245  
+Peters, Tristan         L    8    CWS  Nolan McLean          0.0280  0.0265   1.18  0.0244   0.091   +998   245  
 Naylor, Josh            L    5    SEA  Shota Imanaga         0.0271  0.0367   0.92  0.0263   0.091   +1000  127  
+Cronenworth, Jake       L    2    SD   Bailey Ober           0.0219  0.0309   1.00  0.0240   0.090   +1005  148  
 Siri, Jose              R    7    TEX  Cal Quantrill         0.0340  0.0278   1.00  0.0217   0.090   +1006  52   
-Rafaela, Ceddanne       R    2    BOS  Matt Wilkinson        0.0275  0.0291   0.96  0.0219   0.090   +1006  92   
 Rodríguez, Héctor       L    9    ARI  Mitch Bratt           0.0273  0.0313   1.02  0.0249   0.090   +1009  2    
-Cox, Jonah              R    8    BOS  Jake Bennett          0.0261  0.0314   0.96  0.0236   0.090   +1014  15   
-Cronenworth, Jake       L    2    SD   Bailey Ober           0.0219  0.0309   0.98  0.0236   0.089   +1022  148  
-Morel, Christopher      R    6    CWS  Sean Newcomb          0.0266  0.0246   1.20  0.0230   0.089   +1022  17   
+Bogaerts, Xander        R    8    SD   Bailey Ober           0.0305  0.0317   1.01  0.0249   0.090   +1011  242  
 Altuve, Jose            R    4    HOU  Brady Basso           0.0227  0.0280   1.05  0.0229   0.089   +1022  71   
 Busch, Michael          L    3    SEA  Bryce Miller          0.0305  0.0279   0.92  0.0200   0.089   +1024  253  
-Bogaerts, Xander        R    8    SD   Bailey Ober           0.0305  0.0317   0.99  0.0245   0.089   +1028  242  
+Morel, Christopher      R    6    CWS  Sean Newcomb          0.0266  0.0246   1.19  0.0229   0.089   +1027  17   
 De Los Santos, Deyviso  R    7    MIA  Jackson Kent          0.0321  0.0339   0.92  0.0243   0.088   +1032  2    
-Tolbert, Tyler          R    7    KC   Jacob Waguespack      0.0326  0.0342   0.89  0.0237   0.088   +1034  38   
-Taveras, Leody          L    9    BAL  Nick Martinez         0.0242  0.0277   1.19  0.0258   0.088   +1034  183  
+Taveras, Leody          L    9    BAL  Nick Martinez         0.0242  0.0277   1.19  0.0258   0.088   +1033  183  
 Conforto, Michael       L    8    SEA  Bryce Miller          0.0346  0.0316   0.92  0.0227   0.088   +1036  127  
 McCann, James           R    8    ARI  Andrew Abbott         0.0224  0.0266   1.01  0.0210   0.088   +1040  36   
-Torrens, Luis           R    9    CWS  Sean Newcomb          0.0267  0.0247   1.20  0.0231   0.088   +1042  50   
+Tolbert, Tyler          R    7    KC   Jacob Waguespack      0.0326  0.0342   0.89  0.0236   0.088   +1041  38   
 Ruiz, Esteury           R    5    MIA  Jackson Kent          0.0317  0.0335   0.92  0.0241   0.087   +1042  44   
+Kirk, Alejandro         R    3    NYY  Carlos Rodón          0.0201  0.0192   1.22  0.0183   0.087   +1044  48   
+Torrens, Luis           R    9    CWS  Sean Newcomb          0.0267  0.0247   1.19  0.0230   0.087   +1047  50   
 Mullins, Cedric         L    7    BAL  Shane Baz             0.0242  0.0242   1.19  0.0225   0.087   +1051  224  
 Conine, Griffin         L    8    MIA  Jackson Kent          0.0253  0.0260   0.90  0.0183   0.087   +1053  24   
-DeLuca, Jonny           R    6    BAL  Shane Baz             0.0269  0.0243   1.10  0.0209   0.086   +1061  115  
-Realmuto, J.T.          R    6    PHI  Kyle Leahy            0.0245  0.0263   1.11  0.0227   0.086   +1065  184  
+DeLuca, Jonny           R    6    BAL  Shane Baz             0.0269  0.0243   1.10  0.0209   0.086   +1060  115  
+Rafaela, Ceddanne       R    2    BOS  Matt Wilkinson        0.0275  0.0291   0.91  0.0207   0.086   +1067  92   
 Wilson, Weston          R    6    SEA  Shota Imanaga         0.0264  0.0328   0.93  0.0238   0.086   +1067  44   
 Tena, José              L    5    MIA  Janson Junk           0.0306  0.0294   0.90  0.0207   0.086   +1069  141  
 Walton, Donovan         L    7    HOU  Cristian Javier       0.0267  0.0267   1.06  0.0220   0.085   +1072  110  
-Montgomery, Braden      L    5    CWS  Nolan McLean          0.0239  0.0226   1.19  0.0210   0.085   +1072  123  
-Wong, Connor            R    9    BOS  Matt Wilkinson        0.0342  0.0362   0.96  0.0272   0.085   +1072  43   
+Cox, Jonah              R    8    BOS  Jake Bennett          0.0261  0.0314   0.91  0.0224   0.085   +1075  15   
+Montgomery, Braden      L    5    CWS  Nolan McLean          0.0239  0.0226   1.18  0.0209   0.085   +1077  123  
 Varsho, Daulton         L    5    HOU  Brady Basso           0.0250  0.0235   1.06  0.0195   0.085   +1078  78   
-Koss, Christian         R    9    BOS  Jake Bennett          0.0261  0.0313   0.96  0.0236   0.084   +1092  22   
+Rengifo, Luis           L    9    SD   Bailey Ober           0.0235  0.0332   1.00  0.0258   0.084   +1091  163  
 Navarreto, Brian        R    9    MIA  Jackson Kent          0.0331  0.0349   0.92  0.0251   0.084   +1093  13   
-Mayo, Coby              R    5    BAL  Nick Martinez         0.0243  0.0245   1.10  0.0210   0.084   +1096  124  
+Mayo, Coby              R    5    BAL  Nick Martinez         0.0243  0.0245   1.10  0.0210   0.084   +1095  124  
 Moore, Christian        R    8    TEX  Cal Quantrill         0.0321  0.0263   1.00  0.0205   0.083   +1106  6    
 Bregman, Alex           R    4    SEA  Bryce Miller          0.0260  0.0281   0.93  0.0204   0.083   +1107  316  
-Rengifo, Luis           L    9    SD   Bailey Ober           0.0235  0.0332   0.98  0.0254   0.083   +1110  163  
-Kirk, Alejandro         R    3    NYY  Carlos Rodón          0.0201  0.0192   1.15  0.0172   0.083   +1112  48   
-Sogard, Nick            R    6    BOS  Matt Wilkinson        0.0305  0.0323   0.96  0.0243   0.083   +1112  21   
+Realmuto, J.T.          R    6    PHI  Kyle Leahy            0.0245  0.0263   1.06  0.0218   0.083   +1112  184  
 Serven, Brian           R    9    HOU  Cristian Javier       0.0264  0.0277   1.05  0.0227   0.082   +1123  12   
 Waldschmidt, Ryan       R    9    ARI  Andrew Abbott         0.0245  0.0291   1.01  0.0229   0.081   +1134  46   
+Wong, Connor            R    9    BOS  Matt Wilkinson        0.0342  0.0362   0.91  0.0258   0.081   +1137  43   
+Straw, Myles            R    9    NYY  Carlos Rodón          0.0270  0.0258   1.22  0.0246   0.080   +1144  106  
 Ramírez, Agustín        R    2    MIA  Jackson Kent          0.0304  0.0321   0.92  0.0231   0.080   +1151  32   
-McGonigle, Kevin        L    3    KC   Daniel Lynch IV       0.0208  0.0213   0.88  0.0146   0.079   +1167  111  
-Pagés, Pedro            R    9    PHI  Cristopher Sánchez    0.0192  0.0223   1.11  0.0192   0.078   +1188  50   
-Palacios, Richie        L    8    BAL  Shane Baz             0.0219  0.0219   1.19  0.0204   0.077   +1200  186  
-Maile, Luke             R    8    KC   Jacob Waguespack      0.0288  0.0302   0.89  0.0210   0.076   +1214  5    
+Koss, Christian         R    9    BOS  Jake Bennett          0.0261  0.0313   0.91  0.0223   0.080   +1158  22   
+McGonigle, Kevin        L    3    KC   Daniel Lynch IV       0.0208  0.0213   0.88  0.0146   0.079   +1174  111  
+Sogard, Nick            R    6    BOS  Matt Wilkinson        0.0305  0.0323   0.91  0.0230   0.078   +1179  21   
+Caballero, José         R    9    NYY  José Soriano          0.0231  0.0228   1.22  0.0217   0.078   +1187  176  
+Palacios, Richie        L    8    BAL  Shane Baz             0.0219  0.0219   1.19  0.0204   0.077   +1199  186  
+Roden, Alan             L    7    SD   Walker Buehler        0.0264  0.0248   1.00  0.0193   0.077   +1205  45   
 Duran, Ezequiel         R    5    TEX  Yusei Kikuchi         0.0190  0.0211   1.00  0.0164   0.076   +1214  73   
-Straw, Myles            R    9    NYY  Carlos Rodón          0.0270  0.0258   1.15  0.0232   0.076   +1218  106  
-Loftin, Nick            R    1    KC   Jacob Waguespack      0.0240  0.0252   0.89  0.0175   0.076   +1222  135  
-Julks, Corey            R    6    KC   Daniel Lynch IV       0.0271  0.0274   0.89  0.0190   0.075   +1224  3    
-Roden, Alan             L    7    SD   Walker Buehler        0.0264  0.0248   0.98  0.0190   0.075   +1226  45   
-Fermín, José            R    7    PHI  Cristopher Sánchez    0.0215  0.0250   1.11  0.0215   0.075   +1234  102  
+Maile, Luke             R    8    KC   Jacob Waguespack      0.0288  0.0302   0.89  0.0209   0.076   +1221  5    
+Loftin, Nick            R    1    KC   Jacob Waguespack      0.0240  0.0252   0.89  0.0174   0.075   +1229  135  
+Julks, Corey            R    6    KC   Daniel Lynch IV       0.0271  0.0274   0.89  0.0189   0.075   +1231  3    
+Pagés, Pedro            R    9    PHI  Cristopher Sánchez    0.0192  0.0223   1.06  0.0184   0.075   +1240  50   
 Freeman, Cody           R    8    TEX  Yusei Kikuchi         0.0230  0.0255   1.00  0.0199   0.075   +1240  14   
 Wade Jr., LaMonte       L    7    HOU  Brady Basso           0.0255  0.0240   1.06  0.0198   0.074   +1246  7    
-Caballero, José         R    9    NYY  José Soriano          0.0231  0.0228   1.15  0.0205   0.073   +1264  176  
-Malgeri, Ben            R    7    KC   Daniel Lynch IV       0.0198  0.0200   0.89  0.0139   0.073   +1266  27   
+Caratini, Victor        L    8    SD   Walker Buehler        0.0261  0.0245   1.00  0.0190   0.073   +1260  165  
+Malgeri, Ben            R    7    KC   Daniel Lynch IV       0.0198  0.0200   0.89  0.0138   0.073   +1273  27   
 Young, Jacob            R    9    MIA  Janson Junk           0.0274  0.0276   0.92  0.0198   0.073   +1278  189  
-Caratini, Victor        L    8    SD   Walker Buehler        0.0261  0.0245   0.98  0.0187   0.072   +1282  165  
-White, Eli              R    8    BOS  Matt Wilkinson        0.0229  0.0242   0.96  0.0182   0.072   +1288  65   
-Keaschall, Luke         R    1    SD   Walker Buehler        0.0191  0.0216   0.99  0.0166   0.071   +1299  237  
-Meidroth, Chase         R    7    CWS  Nolan McLean          0.0223  0.0186   1.20  0.0174   0.070   +1321  245  
+Keaschall, Luke         R    1    SD   Walker Buehler        0.0191  0.0216   1.01  0.0169   0.073   +1278  237  
+Fermín, José            R    7    PHI  Cristopher Sánchez    0.0215  0.0250   1.06  0.0207   0.072   +1288  102  
+Clement, Ernie          R    6    NYY  Carlos Rodón          0.0211  0.0202   1.22  0.0192   0.071   +1308  133  
+Meidroth, Chase         R    7    CWS  Nolan McLean          0.0223  0.0186   1.19  0.0173   0.070   +1326  245  
 Robles, Victor          R    8    SEA  Shota Imanaga         0.0237  0.0295   0.93  0.0214   0.070   +1328  35   
 Vázquez, Christian      R    9    HOU  Brady Basso           0.0217  0.0267   1.05  0.0219   0.070   +1328  44   
 Bolte, Henry            R    1    HOU  Cristian Javier       0.0181  0.0190   1.05  0.0156   0.069   +1350  131  
+White, Eli              R    8    BOS  Matt Wilkinson        0.0229  0.0242   0.91  0.0173   0.068   +1365  65   
 Young, Cole             L    7    SEA  Shota Imanaga         0.0172  0.0234   0.92  0.0168   0.068   +1372  125  
-Clement, Ernie          R    6    NYY  Carlos Rodón          0.0211  0.0202   1.15  0.0181   0.067   +1393  133  
-Clark, Max              L    8    KC   Daniel Lynch IV       0.0276  0.0284   0.88  0.0195   0.066   +1418  16   
-Durbin, Caleb           R    5    BOS  Matt Wilkinson        0.0236  0.0250   0.96  0.0188   0.065   +1431  100  
-Walls, Taylor           L    9    BAL  Shane Baz             0.0190  0.0190   1.19  0.0177   0.065   +1437  149  
+Clark, Max              L    8    KC   Daniel Lynch IV       0.0276  0.0284   0.88  0.0194   0.066   +1426  16   
+Walls, Taylor           L    9    BAL  Shane Baz             0.0190  0.0190   1.19  0.0177   0.065   +1436  149  
 Edwards, Xavier         R    4    MIA  Jackson Kent          0.0230  0.0243   0.92  0.0174   0.064   +1456  91   
 Ruiz, Keibert           L    4    MIA  Janson Junk           0.0221  0.0213   0.90  0.0149   0.064   +1462  172  
-Lee, Brooks             L    6    SD   Walker Buehler        0.0208  0.0196   0.98  0.0150   0.061   +1526  272  
+Lee, Brooks             L    6    SD   Walker Buehler        0.0208  0.0196   1.00  0.0152   0.062   +1500  272  
+Durbin, Caleb           R    5    BOS  Matt Wilkinson        0.0236  0.0250   0.91  0.0178   0.062   +1516  100  
 Perdomo, Geraldo        R    4    ARI  Andrew Abbott         0.0151  0.0180   1.01  0.0142   0.061   +1528  123  
 Rivas, Leo              R    9    SEA  Shota Imanaga         0.0195  0.0243   0.93  0.0176   0.061   +1541  30   
 Hernaiz, Darell         R    8    HOU  Cristian Javier       0.0187  0.0197   1.05  0.0162   0.060   +1555  66   
+Kwan, Steven            L    1    COL  Tomoyuki Sugano       0.0086  0.0149   1.40  0.0162   0.060   +1566  269  
 Sanoja, Javier          R    6    MIA  Jackson Kent          0.0219  0.0231   0.92  0.0166   0.058   +1616  90   
-Collins, Isaac          L    5    KC   Jacob Waguespack      0.0238  0.0192   0.88  0.0131   0.058   +1632  183  
-Báez, Javier            R    9    KC   Daniel Lynch IV       0.0242  0.0245   0.89  0.0170   0.057   +1643  33   
+Collins, Isaac          L    5    KC   Jacob Waguespack      0.0238  0.0192   0.88  0.0131   0.057   +1642  183  
 Heineman, Tyler         L    9    TEX  Cal Quantrill         0.0175  0.0207   1.01  0.0163   0.057   +1648  87   
-Kwan, Steven            L    1    COL  Tomoyuki Sugano       0.0086  0.0149   1.33  0.0154   0.057   +1656  269  
+Báez, Javier            R    9    KC   Daniel Lynch IV       0.0242  0.0245   0.89  0.0169   0.057   +1652  33   
 Vivas, Jorbit           L    6    MIA  Janson Junk           0.0199  0.0191   0.90  0.0134   0.055   +1729  177  
-Crawford, Justin        L    7    PHI  Kyle Leahy            0.0129  0.0165   1.12  0.0144   0.051   +1860  247  
 Ramírez, Pedro          L    7    SEA  Bryce Miller          0.0189  0.0173   0.92  0.0124   0.050   +1892  93   
+Crawford, Justin        L    7    PHI  Kyle Leahy            0.0129  0.0165   1.07  0.0138   0.049   +1939  247  
 Kelly, Carson           R    9    SEA  Bryce Miller          0.0172  0.0186   0.93  0.0135   0.049   +1949  164  
-Isbel, Kyle             L    9    KC   Jacob Waguespack      0.0221  0.0178   0.88  0.0122   0.047   +2019  125  
-Lee, Jung Hoo           L    6    BOS  Jake Bennett          0.0164  0.0137   0.95  0.0101   0.046   +2052  118  
+Isbel, Kyle             L    9    KC   Jacob Waguespack      0.0221  0.0178   0.88  0.0121   0.047   +2031  125  
+Lee, Jung Hoo           L    6    BOS  Jake Bennett          0.0164  0.0137   0.89  0.0095   0.044   +2175  118  
 Hoerner, Nico           R    6    SEA  Bryce Miller          0.0107  0.0116   0.93  0.0084   0.033   +2912  342  
-Simpson, Chandler       L    5    BAL  Shane Baz             0.0063  0.0063   1.19  0.0059   0.025   +3984  289  
+Simpson, Chandler       L    5    BAL  Shane Baz             0.0063  0.0063   1.19  0.0059   0.025   +3980  289  
 Nuñez, Nasim            L    8    MIA  Janson Junk           0.0083  0.0080   0.90  0.0056   0.022   +4477  202  
