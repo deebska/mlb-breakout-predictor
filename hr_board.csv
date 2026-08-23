@@ -1,109 +1,163 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-700250,"Rice, Ben",L,2,home,NYY,José Soriano,R,0.0551,0.0544,1.297,0.0551,0.2238,+347,217,v1.1-s078
-671277,"García Jr., Luis",L,3,home,NYY,José Soriano,R,0.0556,0.0549,1.297,0.0555,0.2205,+353,292,v1.1-s078
-656941,"Schwarber, Kyle",L,1,home,PHI,Kyle Leahy,R,0.048,0.0612,1.151,0.0549,0.2077,+381,169,v1.1-s078
-694212,"Basallo, Samuel",L,4,home,BAL,Nick Martinez,R,0.0527,0.0601,1.184,0.0555,0.2054,+387,162,v1.1-s078
-691023,"Walker, Jordan",R,3,away,PHI,Cristopher Sánchez,L,0.0526,0.0608,1.14,0.0541,0.1986,+403,101,v1.1-s078
-547180,"Harper, Bryce",L,3,home,PHI,Kyle Leahy,R,0.046,0.0586,1.151,0.0526,0.1924,+420,225,v1.1-s078
+700250,"Rice, Ben",L,2,home,NYY,José Soriano,R,0.0551,0.0544,1.298,0.0551,0.2239,+347,217,v1.1-s078
+671277,"García Jr., Luis",L,3,home,NYY,José Soriano,R,0.0556,0.0549,1.298,0.0556,0.2207,+353,292,v1.1-s078
+663993,"Lowe, Nathaniel",L,4,away,COL,Tomoyuki Sugano,R,0.0364,0.0616,1.361,0.0654,0.2164,+362,197,v1.1-s078
+694197,"Genao, Angel",L,5,away,COL,Tomoyuki Sugano,R,0.0351,0.0595,1.361,0.0632,0.2064,+385,37,v1.1-s078
+694212,"Basallo, Samuel",L,4,home,BAL,Nick Martinez,R,0.0527,0.0601,1.173,0.055,0.2036,+391,162,v1.1-s078
+656941,"Schwarber, Kyle",L,1,home,PHI,Kyle Leahy,R,0.048,0.0612,1.121,0.0535,0.2028,+393,169,v1.1-s078
+682657,"Martínez, Angel",L,7,away,COL,Tomoyuki Sugano,R,0.0341,0.0579,1.361,0.0615,0.1947,+414,144,v1.1-s078
+691023,"Walker, Jordan",R,3,away,PHI,Cristopher Sánchez,L,0.0526,0.0608,1.111,0.0527,0.194,+416,101,v1.1-s078
+800050,"DeLauter, Chase",L,2,away,COL,Tomoyuki Sugano,R,0.0309,0.0525,1.361,0.0557,0.1927,+419,239,v1.1-s078
+808959,"Murakami, Munetaka",L,2,home,CWS,Nolan McLean,R,0.0531,0.0503,1.161,0.0455,0.1912,+423,140,v1.1-s078
+547180,"Harper, Bryce",L,3,home,PHI,Kyle Leahy,R,0.046,0.0586,1.121,0.0512,0.1878,+432,225,v1.1-s078
+666176,"Adell, Jo",R,3,away,COL,Tomoyuki Sugano,R,0.0346,0.0478,1.386,0.0516,0.1877,+433,248,v1.1-s078
 670541,"Alvarez, Yordan",L,2,home,HOU,Brady Basso,L,0.0536,0.0504,1.06,0.0417,0.1864,+436,108,v1.1-s078
-663757,"Grisham, Trent",L,1,home,NYY,José Soriano,R,0.0425,0.042,1.297,0.0425,0.1802,+455,219,v1.1-s078
-691406,"Caminero, Junior",R,3,away,BAL,Shane Baz,R,0.0514,0.0466,1.093,0.0397,0.1713,+484,289,v1.1-s078
-624413,"Alonso, Pete",R,2,home,BAL,Nick Martinez,R,0.0468,0.047,1.093,0.0401,0.1661,+502,245,v1.1-s078
-666018,"Aranda, Jonathan",L,2,away,BAL,Shane Baz,R,0.0417,0.0417,1.184,0.0385,0.1638,+511,262,v1.1-s078
-695506,"Caglianone, Jac",L,3,home,KC,Jacob Waguespack,R,0.0591,0.0478,0.894,0.0334,0.1491,+571,216,v1.1-s078
-672960,"Okamoto, Kazuma",R,5,away,NYY,Carlos Rodón,L,0.0459,0.0439,1.121,0.0384,0.148,+576,82,v1.1-s078
-669016,"Marsh, Brandon",L,5,home,PHI,Kyle Leahy,R,0.0359,0.0458,1.151,0.0411,0.147,+580,263,v1.1-s078
-683002,"Henderson, Gunnar",L,3,home,BAL,Nick Martinez,R,0.0358,0.0409,1.184,0.0378,0.1467,+582,264,v1.1-s078
-695491,"Báez, Joshua",R,5,away,PHI,Cristopher Sánchez,L,0.0387,0.0448,1.14,0.0398,0.1457,+586,10,v1.1-s078
-691458,"Jordan, Blaze",R,6,away,PHI,Cristopher Sánchez,L,0.0354,0.0411,1.14,0.0365,0.14,+614,56,v1.1-s078
-682987,"Jones, Spencer",L,6,home,NYY,José Soriano,R,0.0367,0.0362,1.297,0.0366,0.1396,+616,75,v1.1-s078
-676475,"Burleson, Alec",L,4,away,PHI,Cristopher Sánchez,L,0.0337,0.0287,1.151,0.0258,0.1395,+617,131,v1.1-s078
-681297,"Cowser, Colton",L,8,home,BAL,Nick Martinez,R,0.0382,0.0437,1.184,0.0403,0.139,+619,154,v1.1-s078
-575929,"Contreras, Willson",R,4,home,BOS,Matt Wilkinson,L,0.0496,0.0524,0.923,0.0377,0.1388,+620,75,v1.1-s078
-665862,"Chisholm Jr., Jazz",L,7,home,NYY,José Soriano,R,0.037,0.0365,1.297,0.0369,0.137,+630,195,v1.1-s078
+663757,"Grisham, Trent",L,1,home,NYY,José Soriano,R,0.0425,0.042,1.298,0.0425,0.1803,+455,219,v1.1-s078
+678246,"Vargas, Miguel",R,3,home,CWS,Nolan McLean,R,0.0524,0.0441,1.172,0.0403,0.175,+471,260,v1.1-s078
+691406,"Caminero, Junior",R,3,away,BAL,Shane Baz,R,0.0514,0.0466,1.082,0.0393,0.1697,+489,289,v1.1-s078
+624413,"Alonso, Pete",R,2,home,BAL,Nick Martinez,R,0.0468,0.047,1.082,0.0397,0.1646,+508,245,v1.1-s078
+666018,"Aranda, Jonathan",L,2,away,BAL,Shane Baz,R,0.0417,0.0417,1.173,0.0382,0.1624,+516,262,v1.1-s078
+672960,"Okamoto, Kazuma",R,5,away,NYY,Carlos Rodón,L,0.0459,0.0439,1.122,0.0384,0.1481,+575,82,v1.1-s078
+683002,"Henderson, Gunnar",L,3,home,BAL,Nick Martinez,R,0.0358,0.0409,1.173,0.0374,0.1454,+588,264,v1.1-s078
+575929,"Contreras, Willson",R,4,home,BOS,Matt Wilkinson,L,0.0496,0.0524,0.963,0.0394,0.1445,+592,75,v1.1-s078
+545361,"Trout, Mike",R,2,away,TEX,Cal Quantrill,R,0.048,0.0393,1.0,0.0307,0.1439,+595,194,v1.1-s078
+669016,"Marsh, Brandon",L,5,home,PHI,Kyle Leahy,R,0.0359,0.0458,1.121,0.0401,0.1434,+597,263,v1.1-s078
+695491,"Báez, Joshua",R,5,away,PHI,Cristopher Sánchez,L,0.0387,0.0448,1.111,0.0388,0.1422,+603,10,v1.1-s078
+595978,"Hedges, Austin",R,8,away,COL,Tomoyuki Sugano,R,0.0282,0.039,1.386,0.0422,0.141,+609,67,v1.1-s078
+682987,"Jones, Spencer",L,6,home,NYY,José Soriano,R,0.0367,0.0362,1.298,0.0367,0.1397,+616,75,v1.1-s078
+681297,"Cowser, Colton",L,8,home,BAL,Nick Martinez,R,0.0382,0.0437,1.173,0.0399,0.1378,+626,154,v1.1-s078
+683953,"Bazzana, Travis",L,6,away,COL,Tomoyuki Sugano,R,0.0229,0.0392,1.361,0.0416,0.1372,+629,194,v1.1-s078
+665862,"Chisholm Jr., Jazz",L,7,home,NYY,José Soriano,R,0.037,0.0365,1.298,0.037,0.1371,+629,195,v1.1-s078
+691458,"Jordan, Blaze",R,6,away,PHI,Cristopher Sánchez,L,0.0354,0.0411,1.111,0.0356,0.1366,+632,56,v1.1-s078
+676475,"Burleson, Alec",L,4,away,PHI,Cristopher Sánchez,L,0.0337,0.0287,1.121,0.0251,0.1361,+635,131,v1.1-s078
+677800,"Abreu, Wilyer",L,3,home,BOS,Matt Wilkinson,L,0.0381,0.0401,0.944,0.0295,0.1341,+646,116,v1.1-s078
 694673,"Ortiz, Abimelec",L,2,away,MIA,Janson Junk,R,0.0452,0.0434,0.9,0.0305,0.1336,+648,42,v1.1-s078
-602104,"Urías, Ramón",R,8,away,PHI,Cristopher Sánchez,L,0.0419,0.0485,1.14,0.0431,0.1335,+649,12,v1.1-s078
-680664,"Valencia, Eduardo",R,4,away,KC,Daniel Lynch IV,L,0.0435,0.044,0.904,0.0311,0.1329,+652,17,v1.1-s078
-687637,"Beavers, Dylan",L,6,home,BAL,Nick Martinez,R,0.0341,0.0391,1.184,0.0361,0.1313,+662,127,v1.1-s078
-702616,"Holliday, Jackson",L,1,home,BAL,Nick Martinez,R,0.0302,0.0346,1.184,0.032,0.1305,+667,133,v1.1-s078
+596019,"Lindor, Francisco",R,1,away,CWS,Sean Newcomb,L,0.0307,0.0284,1.172,0.026,0.132,+657,72,v1.1-s078
+701807,"Benge, Carson",L,3,away,CWS,Sean Newcomb,L,0.0381,0.0391,1.161,0.0354,0.1312,+662,85,v1.1-s078
+602104,"Urías, Ramón",R,8,away,PHI,Cristopher Sánchez,L,0.0419,0.0485,1.111,0.042,0.1303,+667,12,v1.1-s078
+687637,"Beavers, Dylan",L,6,home,BAL,Nick Martinez,R,0.0341,0.0391,1.173,0.0358,0.1301,+668,127,v1.1-s078
 695734,"Lile, Daylen",L,1,away,MIA,Janson Junk,R,0.0429,0.0413,0.9,0.029,0.1299,+670,291,v1.1-s078
-641355,"Bellinger, Cody",L,4,home,NYY,José Soriano,R,0.0321,0.0317,1.297,0.0321,0.1295,+672,195,v1.1-s078
-677800,"Abreu, Wilyer",L,3,home,BOS,Matt Wilkinson,L,0.0381,0.0401,0.904,0.0283,0.1287,+677,116,v1.1-s078
+641355,"Bellinger, Cody",L,4,home,NYY,José Soriano,R,0.0321,0.0317,1.298,0.0321,0.1296,+672,195,v1.1-s078
+702616,"Holliday, Jackson",L,1,home,BAL,Nick Martinez,R,0.0302,0.0346,1.173,0.0317,0.1293,+673,133,v1.1-s078
+694208,"Ballesteros, Moisés",L,3,away,TEX,Cal Quantrill,R,0.0353,0.0415,1.01,0.0327,0.1291,+674,144,v1.1-s078
+680664,"Valencia, Eduardo",R,4,away,KC,Daniel Lynch IV,L,0.0435,0.044,0.876,0.0301,0.129,+675,17,v1.1-s078
+643217,"Benintendi, Andrew",L,4,home,CWS,Nolan McLean,R,0.0366,0.0347,1.161,0.0314,0.1289,+676,232,v1.1-s078
+695657,"Montgomery, Colson",L,6,home,CWS,Nolan McLean,R,0.0387,0.0366,1.161,0.0332,0.1289,+676,188,v1.1-s078
+666139,"Lowe, Josh",L,5,away,TEX,Cal Quantrill,R,0.0363,0.0426,1.01,0.0336,0.127,+688,141,v1.1-s078
+682674,"Bericoto, Victor",R,5,away,BOS,Jake Bennett,L,0.0356,0.0426,0.963,0.032,0.1265,+690,30,v1.1-s078
 701358,"Smith, Cam",R,8,home,HOU,Brady Basso,L,0.0348,0.0426,1.05,0.0349,0.1264,+691,80,v1.1-s078
-681082,"Stott, Bryson",L,4,home,PHI,Kyle Leahy,R,0.0296,0.0379,1.151,0.034,0.1253,+698,276,v1.1-s078
-677951,"Witt Jr., Bobby",R,2,home,KC,Jacob Waguespack,R,0.0407,0.0427,0.904,0.0301,0.1248,+701,250,v1.1-s078
 681715,"Hernández, Heriberto",R,3,home,MIA,Jackson Kent,L,0.0404,0.0426,0.92,0.0306,0.1244,+704,77,v1.1-s078
-802139,"Wetherholt, JJ",L,1,away,PHI,Cristopher Sánchez,L,0.0434,0.0371,1.151,0.0333,0.1242,+705,145,v1.1-s078
-650490,"Díaz, Yandy",R,1,away,BAL,Shane Baz,R,0.0335,0.0302,1.093,0.0258,0.1195,+737,296,v1.1-s078
-624641,"Sosa, Edmundo",R,8,home,PHI,Kyle Leahy,R,0.0346,0.0369,1.14,0.0328,0.1166,+758,74,v1.1-s078
+695720,"White, Tommy",R,5,away,HOU,Cristian Javier,R,0.0365,0.0384,1.05,0.0314,0.1237,+708,60,v1.1-s078
+673357,"Robert Jr., Luis",R,4,away,CWS,Sean Newcomb,L,0.0417,0.0387,1.172,0.0353,0.1234,+710,36,v1.1-s078
+681082,"Stott, Bryson",L,4,home,PHI,Kyle Leahy,R,0.0296,0.0379,1.121,0.0331,0.1222,+718,276,v1.1-s078
+802139,"Wetherholt, JJ",L,1,away,PHI,Cristopher Sánchez,L,0.0434,0.0371,1.121,0.0324,0.1211,+725,145,v1.1-s078
+677951,"Witt Jr., Bobby",R,2,home,KC,Jacob Waguespack,R,0.0407,0.0427,0.876,0.0291,0.1211,+726,250,v1.1-s078
+687263,"Neto, Zach",R,1,away,TEX,Cal Quantrill,R,0.0383,0.0313,1.0,0.0244,0.1187,+742,232,v1.1-s078
+650490,"Díaz, Yandy",R,1,away,BAL,Shane Baz,R,0.0335,0.0302,1.082,0.0255,0.1183,+745,296,v1.1-s078
+642715,"Adames, Willy",R,3,away,BOS,Jake Bennett,L,0.0331,0.0397,0.963,0.0298,0.1177,+750,81,v1.1-s078
+666182,"Bichette, Bo",R,2,away,CWS,Sean Newcomb,L,0.0343,0.0318,1.172,0.0291,0.1162,+760,111,v1.1-s078
 572233,"Walker, Christian",R,6,home,HOU,Brady Basso,L,0.03,0.0369,1.05,0.0302,0.1154,+767,74,v1.1-s078
 665953,"Chaparro, Andrés",R,7,away,MIA,Janson Junk,R,0.0417,0.042,0.92,0.0301,0.1149,+770,25,v1.1-s078
-521692,"Perez, Salvador",R,4,home,KC,Jacob Waguespack,R,0.0386,0.0404,0.904,0.0285,0.1131,+784,267,v1.1-s078
-663662,"Cameron, Daz",R,7,away,NYY,Carlos Rodón,L,0.0373,0.0357,1.121,0.0312,0.1129,+785,7,v1.1-s078
-687952,"Encarnacion-Strand, Christian",R,7,home,BAL,Nick Martinez,R,0.0351,0.0353,1.093,0.0301,0.1121,+792,46,v1.1-s078
-669224,"Wells, Austin",L,8,home,NYY,José Soriano,R,0.0295,0.0292,1.297,0.0295,0.1077,+828,133,v1.1-s078
-665489,"Guerrero Jr., Vladimir",R,2,away,NYY,Carlos Rodón,L,0.026,0.0249,1.121,0.0217,0.1071,+834,87,v1.1-s078
-806146,"Lombard Jr., George",R,5,home,NYY,José Soriano,R,0.0312,0.0309,1.121,0.027,0.107,+835,35,v1.1-s078
-607208,"Turner, Trea",R,2,home,PHI,Kyle Leahy,R,0.0269,0.0287,1.14,0.0256,0.106,+843,269,v1.1-s078
-671056,"Herrera, Iván",R,2,away,PHI,Cristopher Sánchez,L,0.0254,0.0295,1.14,0.0262,0.1059,+844,116,v1.1-s078
+624641,"Sosa, Edmundo",R,8,home,PHI,Kyle Leahy,R,0.0346,0.0369,1.111,0.032,0.1138,+779,74,v1.1-s078
+663662,"Cameron, Daz",R,7,away,NYY,Carlos Rodón,L,0.0373,0.0357,1.122,0.0312,0.113,+785,7,v1.1-s078
+691777,"Muncy, Max",R,6,away,HOU,Cristian Javier,R,0.0339,0.0357,1.05,0.0292,0.1127,+787,79,v1.1-s078
+680869,"Gelof, Zack",R,3,away,HOU,Cristian Javier,R,0.0312,0.0328,1.05,0.0269,0.1116,+796,142,v1.1-s078
+687952,"Encarnacion-Strand, Christian",R,7,home,BAL,Nick Martinez,R,0.0351,0.0353,1.082,0.0298,0.111,+801,46,v1.1-s078
+678545,"Basabe, Osleivis",R,1,away,BOS,Jake Bennett,L,0.0215,0.0258,0.963,0.0194,0.1105,+805,20,v1.1-s078
+803011,"Antonacci, Sam",L,1,home,CWS,Nolan McLean,R,0.0289,0.0273,1.161,0.0247,0.1102,+807,246,v1.1-s078
+521692,"Perez, Salvador",R,4,home,KC,Jacob Waguespack,R,0.0386,0.0404,0.876,0.0276,0.1098,+811,267,v1.1-s078
+655316,"Monasterio, Andruw",R,7,home,BOS,Matt Wilkinson,L,0.044,0.0466,0.963,0.035,0.1096,+813,70,v1.1-s078
+666126,"Cortes, Carlos",L,2,away,HOU,Cristian Javier,R,0.0304,0.0303,1.06,0.025,0.1091,+817,206,v1.1-s078
+669224,"Wells, Austin",L,8,home,NYY,José Soriano,R,0.0295,0.0292,1.298,0.0295,0.1078,+828,133,v1.1-s078
+672569,"Campero, Gustavo",L,6,away,TEX,Cal Quantrill,R,0.0312,0.0368,1.01,0.029,0.1078,+828,0,v1.1-s078
+665489,"Guerrero Jr., Vladimir",R,2,away,NYY,Carlos Rodón,L,0.026,0.0249,1.122,0.0218,0.1072,+833,87,v1.1-s078
+806146,"Lombard Jr., George",R,5,home,NYY,José Soriano,R,0.0312,0.0309,1.122,0.027,0.1071,+834,35,v1.1-s078
+805999,"Ewing, A.J.",L,8,away,CWS,Sean Newcomb,L,0.0322,0.033,1.161,0.0299,0.1064,+840,59,v1.1-s078
+646240,"Devers, Rafael",L,2,away,BOS,Jake Bennett,L,0.0329,0.0275,0.944,0.0203,0.1061,+843,117,v1.1-s078
 670623,"Paredes, Isaac",R,3,home,HOU,Brady Basso,L,0.0279,0.0343,1.05,0.0281,0.1056,+847,94,v1.1-s078
-655316,"Monasterio, Andruw",R,7,home,BOS,Matt Wilkinson,L,0.044,0.0466,0.923,0.0335,0.1052,+851,70,v1.1-s078
-679529,"Torkelson, Spencer",R,5,away,KC,Daniel Lynch IV,L,0.032,0.0324,0.904,0.0229,0.1043,+859,80,v1.1-s078
-701678,"Lee, Hao-Yu",R,2,away,KC,Daniel Lynch IV,L,0.0319,0.0323,0.904,0.0228,0.103,+871,78,v1.1-s078
-703520,"Bateman, Brett",L,1,away,NYY,Carlos Rodón,L,0.022,0.0239,1.297,0.0242,0.103,+870,18,v1.1-s078
+671732,"Butler, Lawrence",L,4,away,HOU,Cristian Javier,R,0.0306,0.0305,1.06,0.0252,0.1048,+854,183,v1.1-s078
+663330,"Jones, Jahmai",R,1,home,BOS,Matt Wilkinson,L,0.0337,0.0357,0.963,0.0268,0.1038,+863,63,v1.1-s078
+607208,"Turner, Trea",R,2,home,PHI,Kyle Leahy,R,0.0269,0.0287,1.111,0.0249,0.1034,+867,269,v1.1-s078
+671056,"Herrera, Iván",R,2,away,PHI,Cristopher Sánchez,L,0.0254,0.0295,1.111,0.0256,0.1033,+868,116,v1.1-s078
+703520,"Bateman, Brett",L,1,away,NYY,Carlos Rodón,L,0.022,0.0239,1.298,0.0242,0.1031,+870,18,v1.1-s078
 672640,"Lopez, Otto",R,1,home,MIA,Jackson Kent,L,0.0347,0.0367,0.92,0.0263,0.103,+871,106,v1.1-s078
+668800,"Knizner, Andrew",R,7,away,BOS,Jake Bennett,L,0.0319,0.0383,0.963,0.0288,0.1024,+877,7,v1.1-s078
 686611,"Crews, Dylan",R,3,away,MIA,Janson Junk,R,0.0332,0.0335,0.92,0.024,0.1021,+880,142,v1.1-s078
-650559,"De La Cruz, Bryan",R,9,home,PHI,Kyle Leahy,R,0.0304,0.0325,1.14,0.0289,0.1001,+899,15,v1.1-s078
-689414,"Hicks, Liam",L,4,away,BAL,Shane Baz,R,0.026,0.026,1.184,0.024,0.0998,+902,287,v1.1-s078
-663330,"Jones, Jahmai",R,1,home,BOS,Matt Wilkinson,L,0.0337,0.0357,0.923,0.0257,0.0997,+903,63,v1.1-s078
+805811,"Eldridge, Bryce",L,4,away,BOS,Jake Bennett,L,0.0344,0.0287,0.944,0.0212,0.1018,+882,65,v1.1-s078
+679529,"Torkelson, Spencer",R,5,away,KC,Daniel Lynch IV,L,0.032,0.0324,0.876,0.0222,0.1012,+888,80,v1.1-s078
+676572,"Wagaman, Eric",R,5,away,CWS,Sean Newcomb,L,0.0284,0.0263,1.172,0.024,0.1002,+898,26,v1.1-s078
+701678,"Lee, Hao-Yu",R,2,away,KC,Daniel Lynch IV,L,0.0319,0.0323,0.876,0.0221,0.0999,+901,78,v1.1-s078
 665161,"Peña, Jeremy",R,1,home,HOU,Brady Basso,L,0.0231,0.0284,1.05,0.0233,0.0995,+905,48,v1.1-s078
-650402,"Torres, Gleyber",R,1,away,KC,Daniel Lynch IV,L,0.0364,0.0368,0.904,0.0259,0.0955,+947,50,v1.1-s078
-543807,"Springer, George",R,4,away,NYY,Carlos Rodón,L,0.0237,0.0227,1.121,0.0198,0.0953,+949,86,v1.1-s078
-686469,"Pasquantino, Vinnie",L,5,home,KC,Jacob Waguespack,R,0.0378,0.0304,0.894,0.0212,0.0918,+989,190,v1.1-s078
-807727,"McAdoo, Charles",R,8,away,NYY,Carlos Rodón,L,0.0261,0.0249,1.121,0.0218,0.0901,+1009,17,v1.1-s078
-686475,"Tolbert, Tyler",R,7,home,KC,Jacob Waguespack,R,0.0326,0.0342,0.904,0.0241,0.0895,+1017,38,v1.1-s078
+689414,"Hicks, Liam",L,4,away,BAL,Shane Baz,R,0.026,0.026,1.173,0.0238,0.0989,+911,287,v1.1-s078
+650559,"De La Cruz, Bryan",R,9,home,PHI,Kyle Leahy,R,0.0304,0.0325,1.111,0.0281,0.0977,+924,15,v1.1-s078
+543760,"Semien, Marcus",R,7,away,CWS,Sean Newcomb,L,0.0285,0.0264,1.172,0.0241,0.0975,+926,75,v1.1-s078
+677587,"Rocchio, Brayan",L,9,away,COL,Tomoyuki Sugano,R,0.0167,0.0287,1.361,0.0305,0.0964,+937,250,v1.1-s078
+543807,"Springer, George",R,4,away,NYY,Carlos Rodón,L,0.0237,0.0227,1.122,0.0198,0.0954,+948,86,v1.1-s078
+686469,"Pasquantino, Vinnie",L,3,home,KC,Jacob Waguespack,R,0.0378,0.0304,0.867,0.0206,0.0943,+960,190,v1.1-s078
+668670,"Rogers, Jake",R,9,home,CWS,Nolan McLean,R,0.0328,0.0274,1.172,0.0251,0.0939,+965,62,v1.1-s078
+687093,"Grissom, Vaughn",R,4,away,TEX,Cal Quantrill,R,0.0322,0.0263,1.0,0.0205,0.0932,+973,151,v1.1-s078
+670231,"Rave, John",L,6,home,KC,Jacob Waguespack,R,0.0406,0.0327,0.867,0.0221,0.0929,+977,32,v1.1-s078
+650402,"Torres, Gleyber",R,1,away,KC,Daniel Lynch IV,L,0.0364,0.0368,0.876,0.0251,0.0926,+979,50,v1.1-s078
+642350,"Siri, Jose",R,7,away,TEX,Cal Quantrill,R,0.034,0.0278,1.0,0.0217,0.0904,+1006,52,v1.1-s078
+678882,"Rafaela, Ceddanne",R,2,home,BOS,Matt Wilkinson,L,0.0275,0.0291,0.963,0.0219,0.0902,+1009,92,v1.1-s078
+807727,"McAdoo, Charles",R,8,away,NYY,Carlos Rodón,L,0.0261,0.0249,1.122,0.0218,0.0902,+1008,17,v1.1-s078
+813841,"Cox, Jonah",R,8,away,BOS,Jake Bennett,L,0.0261,0.0314,0.963,0.0236,0.0896,+1016,15,v1.1-s078
+671976,"Peters, Tristan",L,8,home,CWS,Nolan McLean,R,0.028,0.0265,1.161,0.024,0.0894,+1019,245,v1.1-s078
 514888,"Altuve, Jose",R,4,home,HOU,Brady Basso,L,0.0227,0.028,1.05,0.0229,0.0891,+1022,71,v1.1-s078
-592663,"Realmuto, J.T.",R,6,home,PHI,Kyle Leahy,R,0.0245,0.0263,1.14,0.0234,0.0884,+1031,184,v1.1-s078
 691277,"De Los Santos, Deyvison",R,7,home,MIA,Jackson Kent,L,0.0321,0.0339,0.92,0.0243,0.0883,+1032,2,v1.1-s078
-665750,"Taveras, Leody",L,9,home,BAL,Nick Martinez,R,0.0242,0.0277,1.184,0.0256,0.0876,+1041,183,v1.1-s078
 665923,"Ruiz, Esteury",R,5,home,MIA,Jackson Kent,L,0.0317,0.0335,0.92,0.0241,0.0875,+1042,44,v1.1-s078
+666624,"Morel, Christopher",R,6,away,CWS,Sean Newcomb,L,0.0266,0.0246,1.172,0.0225,0.0872,+1047,17,v1.1-s078
+665750,"Taveras, Leody",L,9,home,BAL,Nick Martinez,R,0.0242,0.0277,1.173,0.0254,0.0868,+1052,183,v1.1-s078
+686475,"Tolbert, Tyler",R,7,home,KC,Jacob Waguespack,R,0.0326,0.0342,0.876,0.0234,0.0868,+1052,38,v1.1-s078
 665052,"Conine, Griffin",L,8,home,MIA,Jackson Kent,L,0.0253,0.026,0.9,0.0183,0.0867,+1053,24,v1.1-s078
-678882,"Rafaela, Ceddanne",R,2,home,BOS,Matt Wilkinson,L,0.0275,0.0291,0.923,0.0209,0.0866,+1055,92,v1.1-s078
-656775,"Mullins, Cedric",L,7,away,BAL,Shane Baz,R,0.0242,0.0242,1.184,0.0223,0.0863,+1059,224,v1.1-s078
-676356,"DeLuca, Jonny",R,6,away,BAL,Shane Baz,R,0.0269,0.0243,1.093,0.0207,0.0856,+1068,115,v1.1-s078
+592663,"Realmuto, J.T.",R,6,home,PHI,Kyle Leahy,R,0.0245,0.0263,1.111,0.0228,0.0862,+1060,184,v1.1-s078
+620443,"Torrens, Luis",R,9,away,CWS,Sean Newcomb,L,0.0267,0.0247,1.172,0.0226,0.0857,+1068,50,v1.1-s078
 677588,"Tena, José",L,5,away,MIA,Janson Junk,R,0.0306,0.0294,0.9,0.0207,0.0856,+1069,141,v1.1-s078
+656775,"Mullins, Cedric",L,7,away,BAL,Shane Baz,R,0.0242,0.0242,1.173,0.0221,0.0855,+1069,224,v1.1-s078
+622268,"Walton, Donovan",L,7,away,HOU,Cristian Javier,R,0.0267,0.0267,1.06,0.022,0.0854,+1072,110,v1.1-s078
+657136,"Wong, Connor",R,9,home,BOS,Matt Wilkinson,L,0.0342,0.0362,0.963,0.0272,0.0852,+1074,43,v1.1-s078
 662139,"Varsho, Daulton",L,5,home,HOU,Brady Basso,L,0.025,0.0235,1.06,0.0195,0.0849,+1078,78,v1.1-s078
+676356,"DeLuca, Jonny",R,6,away,BAL,Shane Baz,R,0.0269,0.0243,1.082,0.0205,0.0848,+1079,115,v1.1-s078
 640459,"Navarreto, Brian",R,9,home,MIA,Jackson Kent,L,0.0331,0.0349,0.92,0.0251,0.0838,+1093,13,v1.1-s078
-691723,"Mayo, Coby",R,5,home,BAL,Nick Martinez,R,0.0243,0.0245,1.093,0.0209,0.0831,+1103,124,v1.1-s078
-657136,"Wong, Connor",R,9,home,BOS,Matt Wilkinson,L,0.0342,0.0362,0.923,0.0261,0.0817,+1124,43,v1.1-s078
-672386,"Kirk, Alejandro",R,3,away,NYY,Carlos Rodón,L,0.0201,0.0192,1.121,0.0168,0.0805,+1143,48,v1.1-s078
-805808,"McGonigle, Kevin",L,3,away,KC,Daniel Lynch IV,L,0.0208,0.0213,0.894,0.0149,0.0801,+1148,111,v1.1-s078
-686780,"Pagés, Pedro",R,9,away,PHI,Cristopher Sánchez,L,0.0192,0.0223,1.14,0.0198,0.08,+1151,50,v1.1-s078
+683766,"Koss, Christian",R,9,away,BOS,Jake Bennett,L,0.0261,0.0313,0.963,0.0235,0.0837,+1095,22,v1.1-s078
+695731,"Montgomery, Braden",L,5,home,CWS,Nolan McLean,R,0.0239,0.0226,1.161,0.0205,0.0834,+1098,123,v1.1-s078
+695681,"Moore, Christian",R,8,away,TEX,Cal Quantrill,R,0.0321,0.0263,1.0,0.0205,0.0829,+1106,6,v1.1-s078
+686765,"Sogard, Nick",R,6,home,BOS,Matt Wilkinson,L,0.0305,0.0323,0.963,0.0242,0.0824,+1114,21,v1.1-s078
+691723,"Mayo, Coby",R,5,home,BAL,Nick Martinez,R,0.0243,0.0245,1.082,0.0207,0.0823,+1115,124,v1.1-s078
+661531,"Serven, Brian",R,9,away,HOU,Cristian Javier,R,0.0264,0.0277,1.05,0.0227,0.0818,+1123,12,v1.1-s078
+672386,"Kirk, Alejandro",R,3,away,NYY,Carlos Rodón,L,0.0201,0.0192,1.122,0.0168,0.0805,+1142,48,v1.1-s078
 682663,"Ramírez, Agustín",R,2,home,MIA,Jackson Kent,L,0.0304,0.0321,0.92,0.0231,0.0799,+1151,32,v1.1-s078
-686765,"Sogard, Nick",R,6,home,BOS,Matt Wilkinson,L,0.0305,0.0323,0.923,0.0232,0.079,+1165,21,v1.1-s078
-571912,"Maile, Luke",R,8,home,KC,Jacob Waguespack,R,0.0288,0.0302,0.904,0.0213,0.0773,+1194,5,v1.1-s078
-665877,"Fermín, José",R,7,away,PHI,Cristopher Sánchez,L,0.0215,0.025,1.14,0.0222,0.0772,+1196,102,v1.1-s078
-679845,"Loftin, Nick",R,1,home,KC,Jacob Waguespack,R,0.024,0.0252,0.904,0.0178,0.0768,+1202,135,v1.1-s078
-667452,"Julks, Corey",R,6,away,KC,Daniel Lynch IV,L,0.0271,0.0274,0.904,0.0193,0.0767,+1204,3,v1.1-s078
-680700,"Palacios, Richie",L,8,away,BAL,Shane Baz,R,0.0219,0.0219,1.184,0.0202,0.0764,+1209,186,v1.1-s078
-701162,"Malgeri, Ben",R,7,away,KC,Daniel Lynch IV,L,0.0198,0.02,0.904,0.0141,0.0743,+1245,27,v1.1-s078
+686780,"Pagés, Pedro",R,9,away,PHI,Cristopher Sánchez,L,0.0192,0.0223,1.111,0.0193,0.078,+1182,50,v1.1-s078
+805808,"McGonigle, Kevin",L,3,away,KC,Daniel Lynch IV,L,0.0208,0.0213,0.867,0.0144,0.0778,+1185,111,v1.1-s078
+680700,"Palacios, Richie",L,8,away,BAL,Shane Baz,R,0.0219,0.0219,1.173,0.02,0.0757,+1221,186,v1.1-s078
+665877,"Fermín, José",R,7,away,PHI,Cristopher Sánchez,L,0.0215,0.025,1.111,0.0216,0.0753,+1229,102,v1.1-s078
+571912,"Maile, Luke",R,8,home,KC,Jacob Waguespack,R,0.0288,0.0302,0.876,0.0206,0.075,+1234,5,v1.1-s078
+679845,"Loftin, Nick",R,1,home,KC,Jacob Waguespack,R,0.024,0.0252,0.876,0.0172,0.0745,+1242,135,v1.1-s078
+667452,"Julks, Corey",R,6,away,KC,Daniel Lynch IV,L,0.0271,0.0274,0.876,0.0187,0.0744,+1244,3,v1.1-s078
 664774,"Wade Jr., LaMonte",L,7,home,HOU,Brady Basso,L,0.0255,0.024,1.06,0.0198,0.0743,+1246,7,v1.1-s078
-664702,"Straw, Myles",R,9,away,NYY,Carlos Rodón,L,0.027,0.0258,1.121,0.0226,0.074,+1252,106,v1.1-s078
+664702,"Straw, Myles",R,9,away,NYY,Carlos Rodón,L,0.027,0.0258,1.122,0.0226,0.074,+1250,106,v1.1-s078
 696285,"Young, Jacob",R,9,away,MIA,Janson Junk,R,0.0274,0.0276,0.92,0.0198,0.0726,+1278,189,v1.1-s078
-676609,"Caballero, José",R,9,home,NYY,José Soriano,R,0.0231,0.0228,1.121,0.02,0.0715,+1298,176,v1.1-s078
+701162,"Malgeri, Ben",R,7,away,KC,Daniel Lynch IV,L,0.0198,0.02,0.876,0.0137,0.0721,+1287,27,v1.1-s078
+642201,"White, Eli",R,8,home,BOS,Matt Wilkinson,L,0.0229,0.0242,0.963,0.0182,0.0719,+1291,65,v1.1-s078
+676609,"Caballero, José",R,9,home,NYY,José Soriano,R,0.0231,0.0228,1.122,0.02,0.0716,+1297,176,v1.1-s078
 543877,"Vázquez, Christian",R,9,home,HOU,Brady Basso,L,0.0217,0.0267,1.05,0.0219,0.07,+1328,44,v1.1-s078
-642201,"White, Eli",R,8,home,BOS,Matt Wilkinson,L,0.0229,0.0242,0.923,0.0174,0.069,+1350,65,v1.1-s078
-703601,"Clark, Max",L,8,away,KC,Daniel Lynch IV,L,0.0276,0.0284,0.894,0.0198,0.0669,+1395,16,v1.1-s078
-676391,"Clement, Ernie",R,6,away,NYY,Carlos Rodón,L,0.0211,0.0202,1.121,0.0176,0.0653,+1430,133,v1.1-s078
-670764,"Walls, Taylor",L,9,away,BAL,Shane Baz,R,0.019,0.019,1.184,0.0176,0.0646,+1447,149,v1.1-s078
+703607,"Bolte, Henry",R,1,away,HOU,Cristian Javier,R,0.0181,0.019,1.05,0.0156,0.069,+1350,131,v1.1-s078
+805367,"Meidroth, Chase",R,7,home,CWS,Nolan McLean,R,0.0223,0.0186,1.172,0.017,0.0688,+1353,245,v1.1-s078
+676391,"Clement, Ernie",R,6,away,NYY,Carlos Rodón,L,0.0211,0.0202,1.122,0.0176,0.0654,+1429,133,v1.1-s078
+702332,"Durbin, Caleb",R,5,home,BOS,Matt Wilkinson,L,0.0236,0.025,0.963,0.0188,0.0652,+1434,100,v1.1-s078
+703601,"Clark, Max",L,8,away,KC,Daniel Lynch IV,L,0.0276,0.0284,0.867,0.0192,0.0649,+1440,16,v1.1-s078
 669364,"Edwards, Xavier",R,4,home,MIA,Jackson Kent,L,0.023,0.0243,0.92,0.0174,0.0643,+1456,91,v1.1-s078
+670764,"Walls, Taylor",L,9,away,BAL,Shane Baz,R,0.019,0.019,1.173,0.0174,0.0641,+1461,149,v1.1-s078
 660688,"Ruiz, Keibert",L,4,away,MIA,Janson Junk,R,0.0221,0.0213,0.9,0.0149,0.064,+1462,172,v1.1-s078
-702332,"Durbin, Caleb",R,5,home,BOS,Matt Wilkinson,L,0.0236,0.025,0.923,0.018,0.0625,+1499,100,v1.1-s078
+687231,"Hernaiz, Darell",R,8,away,HOU,Cristian Javier,R,0.0187,0.0197,1.05,0.0162,0.0604,+1555,66,v1.1-s078
 691594,"Sanoja, Javier",R,6,home,MIA,Jackson Kent,L,0.0219,0.0231,0.92,0.0166,0.0583,+1616,90,v1.1-s078
-595879,"Báez, Javier",R,9,away,KC,Daniel Lynch IV,L,0.0242,0.0245,0.904,0.0173,0.0583,+1616,33,v1.1-s078
-686555,"Collins, Isaac",L,6,home,KC,Jacob Waguespack,R,0.0238,0.0192,0.894,0.0134,0.0569,+1658,183,v1.1-s078
+680757,"Kwan, Steven",L,1,away,COL,Tomoyuki Sugano,R,0.0086,0.0149,1.361,0.0158,0.0583,+1614,269,v1.1-s078
+623168,"Heineman, Tyler",L,9,away,TEX,Cal Quantrill,R,0.0175,0.0207,1.01,0.0163,0.0572,+1648,87,v1.1-s078
+686555,"Collins, Isaac",L,5,home,KC,Jacob Waguespack,R,0.0238,0.0192,0.867,0.013,0.0569,+1658,183,v1.1-s078
+595879,"Báez, Javier",R,9,away,KC,Daniel Lynch IV,L,0.0242,0.0245,0.876,0.0168,0.0565,+1670,33,v1.1-s078
 678391,"Vivas, Jorbit",L,6,away,MIA,Janson Junk,R,0.0199,0.0191,0.9,0.0134,0.0547,+1729,177,v1.1-s078
-702222,"Crawford, Justin",L,7,home,PHI,Kyle Leahy,R,0.0129,0.0165,1.151,0.0149,0.0526,+1802,247,v1.1-s078
-664728,"Isbel, Kyle",L,9,home,KC,Jacob Waguespack,R,0.0221,0.0178,0.894,0.0124,0.0479,+1987,125,v1.1-s078
-802415,"Simpson, Chandler",L,5,away,BAL,Shane Baz,R,0.0063,0.0063,1.184,0.0058,0.0243,+4011,289,v1.1-s078
+702222,"Crawford, Justin",L,7,home,PHI,Kyle Leahy,R,0.0129,0.0165,1.121,0.0145,0.0512,+1852,247,v1.1-s078
+664728,"Isbel, Kyle",L,9,home,KC,Jacob Waguespack,R,0.0221,0.0178,0.867,0.012,0.0465,+2050,125,v1.1-s078
+808982,"Lee, Jung Hoo",L,6,away,BOS,Jake Bennett,L,0.0164,0.0137,0.944,0.0101,0.0464,+2056,118,v1.1-s078
+802415,"Simpson, Chandler",L,5,away,BAL,Shane Baz,R,0.0063,0.0063,1.173,0.0058,0.0241,+4049,289,v1.1-s078
 683083,"Nuñez, Nasim",L,8,away,MIA,Janson Junk,R,0.0083,0.008,0.9,0.0056,0.0219,+4477,202,v1.1-s078
