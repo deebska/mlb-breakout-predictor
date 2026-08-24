@@ -1,11 +1,29 @@
-HR BOARD -- 2026-08-24 -- 9 hitters composed
+HR BOARD -- 2026-08-24 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
+Abreu, Wilyer           L    3    MIA  Sandy Alcantara       0.0505  0.0501   0.90  0.0352   0.147   +578   262  
 Dingler, Dillon         R    4    DET  Drew Rasmussen        0.0461  0.0449   1.03  0.0360   0.145   +589   244  
+Moniak, Mickey          L    2    WSH  Cade Cavalli          0.0434  0.0362   1.02  0.0289   0.135   +640   192  
 Torkelson, Spencer      R    7    DET  Drew Rasmussen        0.0430  0.0418   1.03  0.0336   0.126   +696   204  
 Lee, Hao-Yu             R    2    DET  Drew Rasmussen        0.0346  0.0337   1.03  0.0270   0.116   +762   91   
 Keith, Colt             L    1    DET  Drew Rasmussen        0.0345  0.0291   1.05  0.0238   0.112   +794   252  
+Castro, Willi           L    3    WSH  Cade Cavalli          0.0360  0.0300   1.02  0.0240   0.110   +807   175  
 McGonigle, Kevin        L    3    DET  Drew Rasmussen        0.0353  0.0297   1.05  0.0243   0.109   +820   294  
+Contreras, Willson      R    4    MIA  Sandy Alcantara       0.0414  0.0291   0.92  0.0209   0.102   +885   212  
+Rutschman, Adley        L    5    MIA  Sandy Alcantara       0.0351  0.0348   0.90  0.0244   0.100   +905   150  
+Duran, Jarren           L    7    MIA  Sandy Alcantara       0.0369  0.0365   0.90  0.0257   0.099   +910   246  
+Veen, Zac               L    8    WSH  Cade Cavalli          0.0352  0.0294   1.02  0.0235   0.094   +966   11   
 Callahan, Brett         L    5    DET  Drew Rasmussen        0.0313  0.0264   1.05  0.0216   0.092   +989   12   
+Gasper, Mickey          L    8    MIA  Sandy Alcantara       0.0337  0.0334   0.90  0.0234   0.088   +1031  91   
+Rumfield, TJ            L    4    WSH  Cade Cavalli          0.0277  0.0231   1.02  0.0185   0.084   +1097  260  
+Sullivan, Brett         L    7    WSH  Cade Cavalli          0.0293  0.0244   1.02  0.0195   0.081   +1136  107  
+McCarthy, Jake          L    1    WSH  Cade Cavalli          0.0245  0.0204   1.02  0.0163   0.080   +1154  254  
+Tovar, Ezequiel         R    9    WSH  Cade Cavalli          0.0262  0.0268   1.03  0.0216   0.079   +1172  214  
+Norby, Connor           R    6    WSH  Cade Cavalli          0.0226  0.0231   1.03  0.0186   0.074   +1255  105  
+Rafaela, Ceddanne       R    2    MIA  Sandy Alcantara       0.0263  0.0184   0.92  0.0132   0.069   +1343  294  
+Seigler, Anthony        L    9    MIA  Sandy Alcantara       0.0253  0.0251   0.90  0.0176   0.065   +1437  85   
+Sogard, Nick            L    1    MIA  Sandy Alcantara       0.0205  0.0204   0.90  0.0143   0.065   +1439  78   
 McKinstry, Zach         L    6    DET  Drew Rasmussen        0.0180  0.0151   1.05  0.0124   0.052   +1828  212  
 Clark, Max              L    8    DET  Drew Rasmussen        0.0189  0.0159   1.05  0.0130   0.051   +1850  43   
 Báez, Javier            R    9    DET  Drew Rasmussen        0.0175  0.0170   1.03  0.0137   0.050   +1914  82   
+Johnston, Troy          L    5    WSH  Cade Cavalli          0.0153  0.0127   1.02  0.0102   0.045   +2099  207  
+Durbin, Caleb           R    6    MIA  Sandy Alcantara       0.0157  0.0110   0.92  0.0079   0.037   +2608  258  
