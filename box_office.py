@@ -195,6 +195,18 @@ def update():
                 df.loc[sel, "daily"] = new
                 print(f"  revision: {d} {f['name'][:24]} "
                       f"${old:,.0f} -> ${new:,.0f}")
+            # the anchor column must revise too, or the cume stays
+            # frozen at the estimate-era total (the bug this fixes)
+            rc = got.get("reported_cume")
+            if rc:
+                try:
+                    orc = float(df.loc[sel, "reported_cume"].iloc[0])
+                except (TypeError, ValueError):
+                    orc = 0.0
+                if abs(float(rc) - orc) > 1:
+                    df.loc[sel, "reported_cume"] = float(rc)
+                    print(f"  revision: {d} {f['name'][:24]} cume anchor "
+                          f"-> ${float(rc):,.0f}")
         _rt.sleep(1.0)
 
     df = apply_manual(df)
