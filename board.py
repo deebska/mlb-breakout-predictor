@@ -171,7 +171,7 @@ def main():
         import numpy as np
         p = df["p_hr_tonight"].clip(1e-4, 0.6).values
         m = float(p.mean())
-        lo, lb = np.log(p/(1-p)), math.log(m/(1-m))
+        lo, lb = np.log(p/(1-p)), np.log(m/(1-m))
         q = 1/(1+np.exp(-(lb + GAMMA*(lo-lb))))
         q *= m/float(q.mean())
         df["p_hr_tonight"] = np.clip(q, 1e-4, 0.6).round(4)
