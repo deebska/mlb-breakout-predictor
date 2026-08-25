@@ -39,12 +39,16 @@ DIR = st.DIR
 # page bias stat as data accrues, and retire it when talent tables are
 # refit on post-break data.
 LEVEL_SCALAR = 0.78          # = 1 / 1.28
+GAMMA = 0.75                 # spread compression: fitted on the v1.1 era
+                             # ledger (2,710 scored rows, split-validated);
+                             # damps each prediction's log-odds deviation
+                             # from the slate mean, level-neutral per night
 
 # Stamped into every board row + snapshot; the results page scoreboards the
 # current version's era separately. BUMP THIS whenever the model materially
 # changes (new scalar, refit parks, new features) -- a new version string
 # automatically starts a fresh era on the results page.
-MODEL_VERSION = "v1.1-s078"
+MODEL_VERSION = "v1.2-g075"
 
 OUT_TXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.txt")
 OUT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hr_board.csv")
@@ -159,7 +163,22 @@ def main():
               "to game time")
         import sys
         sys.exit(3)   # signal 'nothing to publish' so automation skips the page
-    df = pd.DataFrame(rows).sort_values("p_hr_tonight", ascending=False)
+    df = pd.DataFrame(rows)
+    # spread compression (v1.2): pull every p_hr toward the slate mean in
+    # odds space by GAMMA, then rescale so the slate's expected HR total
+    # is unchanged -- fixes over-dramatic tails, preserves the level
+    if len(df) and GAMMA != 1.0:
+        import numpy as np
+        p = df["p_hr_tonight"].clip(1e-4, 0.6).values
+        m = float(p.mean())
+        lo, lb = np.log(p/(1-p)), math.log(m/(1-m))
+        q = 1/(1+np.exp(-(lb + GAMMA*(lo-lb))))
+        q *= m/float(q.mean())
+        df["p_hr_tonight"] = np.clip(q, 1e-4, 0.6).round(4)
+        df["fair_odds"] = df["p_hr_tonight"].apply(
+            lambda x: f"+{round(100*(1-x)/x)}" if x < 0.5
+            else f"-{round(100*x/(1-x))}")
+    df = df.sort_values("p_hr_tonight", ascending=False)
     df["model_ver"] = MODEL_VERSION
     # join market odds if today's pull exists
     odds_path = os.path.join(os.path.dirname(OUT_CSV), "odds_today.csv")
