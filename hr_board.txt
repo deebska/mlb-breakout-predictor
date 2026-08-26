@@ -1,20 +1,38 @@
-HR BOARD -- 2026-08-26 -- 18 hitters composed
+HR BOARD -- 2026-08-26 -- 36 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Caminero, Junior        R    3    DET  Troy Melton           0.0507  0.0422   0.88  0.0289   0.118   +745   294  
-Aranda, Jonathan        L    2    DET  Troy Melton           0.0411  0.0407   0.90  0.0285   0.113   +787   267  
-Dingler, Dillon         R    5    DET  Freddy Peralta        0.0457  0.0400   0.88  0.0274   0.106   +845   247  
-McGonigle, Kevin        L    2    DET  Freddy Peralta        0.0361  0.0342   0.90  0.0239   0.099   +909   299  
-Torkelson, Spencer      R    7    DET  Freddy Peralta        0.0425  0.0372   0.88  0.0255   0.096   +941   207  
-Keith, Colt             L    4    DET  Freddy Peralta        0.0342  0.0325   0.90  0.0227   0.092   +987   253  
-Mateo, Jorge            R    8    DET  Troy Melton           0.0411  0.0341   0.88  0.0234   0.091   +994   58   
-Callahan, Brett         L    1    DET  Freddy Peralta        0.0307  0.0291   0.90  0.0204   0.090   +1015  14   
-Díaz, Yandy             R    1    DET  Troy Melton           0.0328  0.0272   0.88  0.0186   0.089   +1019  303  
-Lee, Hao-Yu             R    9    DET  Freddy Peralta        0.0338  0.0296   0.88  0.0202   0.077   +1190  94   
-Hicks, Liam             L    4    DET  Troy Melton           0.0256  0.0253   0.90  0.0177   0.077   +1195  292  
-DeLuca, Jonny           R    6    DET  Troy Melton           0.0262  0.0217   0.88  0.0149   0.069   +1353  121  
-Mullins, Cedric         L    9    DET  Troy Melton           0.0236  0.0234   0.90  0.0164   0.066   +1420  227  
-Palacios, Richie        L    7    DET  Troy Melton           0.0215  0.0213   0.90  0.0149   0.064   +1460  191  
-Torres, Gleyber         R    3    DET  Freddy Peralta        0.0217  0.0189   0.88  0.0130   0.064   +1462  167  
-McKinstry, Zach         L    6    DET  Freddy Peralta        0.0178  0.0168   0.90  0.0118   0.055   +1725  215  
-Clark, Max              L    8    DET  Freddy Peralta        0.0185  0.0175   0.90  0.0123   0.054   +1748  45   
-Simpson, Chandler       L    5    DET  Troy Melton           0.0063  0.0062   0.90  0.0043   0.027   +3617  292  
+Caminero, Junior        R    3    DET  Troy Melton           0.0507  0.0422   1.08  0.0355   0.145   +591   294  
+Stewart, Sal            R    3    SF   Landen Roupp          0.0467  0.0398   1.15  0.0357   0.144   +593   295  
+Aranda, Jonathan        L    2    DET  Troy Melton           0.0411  0.0407   1.10  0.0350   0.138   +625   267  
+Cox, Jonah              R    1    SF   Nick Lodolo           0.0289  0.0391   1.15  0.0351   0.130   +667   18   
+Dingler, Dillon         R    5    DET  Freddy Peralta        0.0457  0.0400   1.08  0.0337   0.130   +672   247  
+Kennedy, Buddy          R    4    SF   Nick Lodolo           0.0311  0.0421   1.15  0.0377   0.129   +678   13   
+McGonigle, Kevin        L    2    DET  Freddy Peralta        0.0361  0.0342   1.10  0.0294   0.121   +723   299  
+Knizner, Andrew         R    7    SF   Nick Lodolo           0.0307  0.0414   1.15  0.0371   0.120   +731   11   
+Torkelson, Spencer      R    7    DET  Freddy Peralta        0.0425  0.0372   1.08  0.0313   0.118   +747   207  
+Whitcomb, Shay          R    8    SF   Nick Lodolo           0.0302  0.0409   1.15  0.0367   0.118   +750   3    
+De La Cruz, Elly        L    2    SF   Landen Roupp          0.0402  0.0304   1.03  0.0243   0.117   +758   224  
+Devers, Rafael          L    2    SF   Nick Lodolo           0.0322  0.0288   1.03  0.0231   0.114   +774   120  
+Basabe, Osleivis        R    5    SF   Nick Lodolo           0.0207  0.0281   1.15  0.0252   0.114   +776   23   
+Keith, Colt             L    4    DET  Freddy Peralta        0.0342  0.0325   1.10  0.0279   0.113   +787   253  
+Mateo, Jorge            R    8    DET  Troy Melton           0.0411  0.0341   1.08  0.0287   0.112   +791   58   
+Callahan, Brett         L    1    DET  Freddy Peralta        0.0307  0.0291   1.10  0.0250   0.110   +808   14   
+Bleday, JJ              L    4    SF   Landen Roupp          0.0392  0.0296   1.03  0.0238   0.110   +810   208  
+Díaz, Yandy             R    1    DET  Troy Melton           0.0328  0.0272   1.08  0.0229   0.110   +812   303  
+McLain, Matt            R    7    SF   Landen Roupp          0.0355  0.0302   1.15  0.0271   0.109   +816   181  
+Hayes, Ke'Bryan         R    9    SF   Landen Roupp          0.0378  0.0321   1.15  0.0288   0.109   +817   114  
+Suárez, Eugenio         R    5    SF   Landen Roupp          0.0329  0.0279   1.15  0.0250   0.108   +829   173  
+Koss, Christian         R    9    SF   Nick Lodolo           0.0253  0.0343   1.15  0.0308   0.103   +868   25   
+Lee, Hao-Yu             R    9    DET  Freddy Peralta        0.0338  0.0296   1.08  0.0249   0.095   +949   94   
+Rodríguez, Héctor       L    1    SF   Landen Roupp          0.0295  0.0222   1.03  0.0178   0.095   +953   30   
+Hicks, Liam             L    4    DET  Troy Melton           0.0256  0.0253   1.10  0.0217   0.095   +955   292  
+Hill, Turner            L    6    SF   Nick Lodolo           0.0277  0.0247   1.03  0.0198   0.089   +1026  1    
+DeLuca, Jonny           R    6    DET  Troy Melton           0.0262  0.0217   1.08  0.0183   0.085   +1082  121  
+Mullins, Cedric         L    9    DET  Troy Melton           0.0236  0.0234   1.10  0.0201   0.081   +1135  227  
+Palacios, Richie        L    7    DET  Troy Melton           0.0215  0.0213   1.10  0.0183   0.079   +1166  191  
+Torres, Gleyber         R    3    DET  Freddy Peralta        0.0217  0.0189   1.08  0.0159   0.079   +1171  167  
+Trevino, Jose           R    8    SF   Landen Roupp          0.0221  0.0188   1.15  0.0168   0.076   +1219  71   
+McKinstry, Zach         L    6    DET  Freddy Peralta        0.0178  0.0168   1.10  0.0145   0.068   +1381  215  
+Clark, Max              L    8    DET  Freddy Peralta        0.0185  0.0175   1.10  0.0151   0.067   +1399  45   
+Lee, Jung Hoo           L    3    SF   Nick Lodolo           0.0159  0.0142   1.03  0.0114   0.066   +1411  124  
+Myers, Dane             R    6    SF   Landen Roupp          0.0169  0.0143   1.15  0.0128   0.065   +1434  92   
+Simpson, Chandler       L    5    DET  Troy Melton           0.0063  0.0062   1.10  0.0053   0.033   +2894  292  
