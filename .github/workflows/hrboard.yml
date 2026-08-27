@@ -46,15 +46,16 @@ jobs:
       - name: Pull HR prop odds (Polymarket, free)
         run: python odds_pull_poly.py || true
 
-      - name: Box office tracker + page
+      - name: Box office tracker
         run: |
           python box_office.py update || true
           python rumor_scan.py || true
-          python make_bo_page.py && cp bo.html public/bo.html || true
       - name: Claude daily read (September book)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python claude_daily.py || true
+      - name: Box office page
+        run: python make_bo_page.py && cp bo.html public/bo.html || true
         
       - name: NFL system + page
         run: |
