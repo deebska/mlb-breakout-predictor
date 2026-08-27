@@ -17,7 +17,7 @@ prints a note and exits 0 so the workflow never breaks.
 import json
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import pandas as pd
 import requests
@@ -63,8 +63,31 @@ def build_context(df):
     return days, cume, holds
 
 
+API_URL = "https://api.anthropic.com/v1/messages"
+
+
+def _post(key, body):
+    r = requests.post(API_URL, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01",
+        "content-type": "application/json"}, json=body, timeout=240)
+    r.raise_for_status()
+    return r.json()
+
+
+def _extract_json(resp):
+    text = "".join(b.get("text", "") for b in resp.get("content", [])
+                   if b.get("type") == "text")
+    start, end = text.find("{"), text.rfind("}")
+    if start == -1 or end <= start:
+        raise ValueError(
+            f"no JSON in response (stop={resp.get('stop_reason')}, "
+            f"blocks={[b.get('type') for b in resp.get('content', [])]}, "
+            f"text_head={text[:120]!r})")
+    return json.loads(text[start:end + 1])
+
+
 def call_claude(key, days, cume, holds):
-    today = datetime.utcnow().strftime("%Y-%m-%d")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     prompt = f"""You are the daily box office forecaster for a tracking
 site. Today is {today}. Film: {FILM} (domestic).
 
@@ -87,20 +110,33 @@ Respond with ONLY a JSON object, no markdown fences, no other text:
               "960-970": <0-1>, "970+": <0-1>}},
  "news": ["<any material findings, or empty list>"],
  "rationale": "<under 120 words>"}}"""
-    r = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json={"model": "claude-sonnet-4-6", "max_tokens": 2000,
-              "tools": [{"type": "web_search_20250305",
-                         "name": "web_search", "max_uses": 4}],
-              "messages": [{"role": "user", "content": prompt}]},
-        timeout=180)
-    r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", [])
-                   if b.get("type") == "text")
-    start, end = text.find("{"), text.rfind("}")
-    return json.loads(text[start:end + 1])
+    msgs = [{"role": "user", "content": prompt}]
+    body = {"model": "claude-sonnet-4-6", "max_tokens": 8000,
+            "tools": [{"type": "web_search_20250305",
+                       "name": "web_search", "max_uses": 4}],
+            "messages": msgs}
+    resp = _post(key, body)
+    # web search can pause the turn; continue until a final answer
+    hops = 0
+    while resp.get("stop_reason") == "pause_turn" and hops < 5:
+        msgs = msgs + [{"role": "assistant", "content": resp["content"]}]
+        body["messages"] = msgs
+        resp = _post(key, body)
+        hops += 1
+    try:
+        return _extract_json(resp)
+    except ValueError as e:
+        # fallback: one clean retry without search -- a searchless read
+        # beats no read; the failure reason still gets logged
+        print(f"claude_daily: search call gave no JSON ({e}); "
+              "retrying without web search")
+        resp2 = _post(key, {"model": "claude-sonnet-4-6",
+                            "max_tokens": 4000,
+                            "messages": [{"role": "user", "content":
+                                          prompt + "\n(Skip the web "
+                                          "search; reason from the data "
+                                          "given.)"}]})
+        return _extract_json(resp2)
 
 
 def validate(out, cume):
@@ -113,7 +149,7 @@ def validate(out, cume):
     if not (cume / 1e6 - 1) <= central <= 1200:
         raise ValueError(f"central {central} fails sanity vs cume")
     nd = out["next_day"]
-    return {"asof": datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ"),
+    return {"asof": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
             "data_through": None,  # filled by caller
             "next_day": {"date": str(nd["date"]),
                          "gross_musd": round(float(nd["gross_musd"]), 2)},
