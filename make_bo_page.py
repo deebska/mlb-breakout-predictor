@@ -126,6 +126,64 @@ def model_day_ahead(hist, film, d):
     return None
 
 
+SEPT_JOURNAL = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "bo_data",
+    "claude_sept.jsonl")
+SEPT_BRACKETS = ["<940", "940-950", "950-960", "960-970", "970+"]
+
+
+def sept_book_html(film_name, latest_data_date):
+    """Spider-Man September market section: live-Claude daily bracket
+    reads from the API journal. Empty string for other films/no data."""
+    if film_name != "Spider-Man: Brand New Day":
+        return ""
+    if not os.path.exists(SEPT_JOURNAL):
+        return ("<h3 style='font-size:15px;margin:18px 0 6px;"
+                "color:var(--gold)'>September book (resolves Sep 30)</h3>"
+                "<div style='color:var(--dim);font-size:13px'>Awaiting "
+                "first live-Claude read -- needs ANTHROPIC_API_KEY secret "
+                "and the claude_daily workflow step.</div>")
+    reads = [json.loads(x) for x in open(SEPT_JOURNAL) if x.strip()]
+    if not reads:
+        return ""
+    cur = reads[-1]
+    stale = cur.get("data_through") != latest_data_date
+    head = "".join(f"<th>{b}</th>" for b in SEPT_BRACKETS)
+    cells = "".join(
+        f"<td style='font-weight:700;color:"
+        f"{'var(--gold)' if cur['brackets'][b]==max(cur['brackets'].values()) else 'inherit'}'>"
+        f"{cur['brackets'][b]*100:.0f}%</td>" for b in SEPT_BRACKETS)
+    hist = ""
+    for r in reads[-14:][::-1]:
+        hist += ("<tr><td>" + r.get("data_through", "?") + "</td>"
+                 + f"<td>${r['sept30_central_musd']:,.0f}M</td>"
+                 + "".join(f"<td>{r['brackets'][b]*100:.0f}%</td>"
+                           for b in SEPT_BRACKETS)
+                 + "</tr>")
+    news = "".join(f"<li>{n}</li>" for n in cur.get("news", []))
+    return (
+        "<h3 style='font-size:15px;margin:18px 0 6px;color:var(--gold)'>"
+        "September book (resolves Sep 30) -- live Claude, fresh reasoning "
+        "daily</h3>"
+        + ("<div style='color:#ff6b6b;font-size:12px'>STALE: last read "
+           f"used data through {cur.get('data_through')}; newer days have "
+           "landed.</div>" if stale else "")
+        + "<div class='stat'><div class='lab'>Sep 30 central "
+        f"(read of {cur.get('data_through')})</div><div class='big'>"
+        f"${cur['sept30_central_musd']:,.0f}M</div></div>"
+        + "<table><thead><tr>" + head + "</tr></thead><tbody><tr>"
+        + cells + "</tr></tbody></table>"
+        + (f"<div style='color:var(--dim);font-size:12px;margin:6px 0'>"
+           f"News scan: <ul style='margin:2px 0 0 16px'>{news}</ul></div>"
+           if news else "")
+        + f"<div style='color:var(--dim);font-size:12px;margin:4px 0'>"
+        + cur.get("rationale", "") + "</div>"
+        + "<h3 style='font-size:14px;margin:12px 0 4px;color:var(--dim)'>"
+        "Read history</h3><table><thead><tr><th>Data thru</th>"
+        "<th>Central</th>" + head + "</tr></thead><tbody>"
+        + hist + "</tbody></table>")
+
+
 CLAUDE_EOM = {
  "Spider-Man: Brand New Day": {"date": "2026-08-09", "central": 850e6,
                                "p80_lo": 825e6, "p80_hi": 875e6},
@@ -391,6 +449,8 @@ def build():
                          + pcell + tcells +
                          f"<td class='hide-m'>{wow}</td>"
                          f"<td>${cume/1e6:,.1f}M</td></tr>")
+            sept_html = sept_book_html(
+                film["name"], series[-1]["date"])
             prereg = CLAUDE_EOM.get(film["name"])
             # single forward look: tomorrow only, from each forecaster's
             # CURRENT thinking (frozen daily sheet retired from display --
@@ -487,7 +547,7 @@ def build():
                 + "".join(f"<th>{lab}</th>" for lab, _ in wins)
                 + "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
                 "</tr></thead><tbody>" + rows + "</tbody></table>"
-                + future_rows_html)
+                + future_rows_html + sept_html)
         body = "<hr style='border:0;border-top:1px solid #1e2a44;"               "margin:30px 0'>".join(sections)
     rumors_html = ""
     rpath = os.path.join(HERE, "bo_data", "rumors.json")
