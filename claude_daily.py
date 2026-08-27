@@ -40,6 +40,19 @@ Known September 2026 calendar (verify/extend via web search):
 """
 
 
+NOTES_PATH = os.path.join(DATA, "claude_notes.md")
+
+
+def load_notes():
+    """Editor's notes: durable context from chat sessions that the
+    morning read must carry (source credibility rulings, resolution
+    criteria, regime lessons). Maintained by hand like manual.csv."""
+    if os.path.exists(NOTES_PATH):
+        txt = open(NOTES_PATH).read().strip()
+        return txt[:4000] if txt else ""
+    return ""
+
+
 def build_context(df):
     sub = df[df["film"] == FILM].sort_values("date")
     days = [{"date": r.date,
@@ -88,6 +101,7 @@ def _extract_json(resp):
 
 def call_claude(key, days, cume, holds):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    notes = load_notes() or "(none yet)"
     prompt = f"""You are the daily box office forecaster for a tracking
 site. Today is {today}. Film: {FILM} (domestic).
 
@@ -95,6 +109,10 @@ Anchored cume to date: ${cume/1e6:.1f}M
 Full daily ledger (millions): {json.dumps(days)}
 Recent weekly holds by regime: {json.dumps(holds)}
 {EVENT_CALENDAR}
+
+EDITOR'S NOTES (hard-won context from the human team -- these override
+your search findings when they conflict; treat violations as errors):
+{notes}
 
 First, use web search to check for material news from the last few days:
 re-releases, discount events, screen changes, September competition, any
