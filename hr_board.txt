@@ -1,199 +1,217 @@
-HR BOARD -- 2026-08-29 -- 197 hitters composed
+HR BOARD -- 2026-08-29 -- 215 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Murakami, Munetaka      L    2    MIN  Bailey Ober           0.0524  0.0719   1.04  0.0586   0.185   +440   145  
-Rice, Ben               L    2    NYY  Alec Gamboa           0.0373  0.0393   1.31  0.0400   0.170   +487   117  
-Abreu, Wilyer           L    3    NYY  Carlos Rodón          0.0375  0.0403   1.31  0.0410   0.165   +505   118  
-Lowe, Brandon           L    2    STL  Kyle Leahy            0.0474  0.0595   1.04  0.0483   0.165   +505   239  
-García Jr., Luis        L    4    NYY  Alec Gamboa           0.0384  0.0404   1.31  0.0412   0.165   +508   54   
-Vargas, Miguel          R    3    MIN  Bailey Ober           0.0508  0.0557   1.05  0.0458   0.163   +515   271  
-Cruz, Oneil             L    5    STL  Kyle Leahy            0.0492  0.0618   1.04  0.0501   0.162   +517   117  
-Ohtani, Shohei          L    1    DET  Keider Montero        0.0528  0.0610   0.93  0.0443   0.161   +520   228  
-Devers, Rafael          L    2    SF   Merrill Kelly         0.0417  0.0643   1.00  0.0502   0.160   +527   239  
-Canzone, Dominic        L    2    TOR  José Soriano          0.0500  0.0494   1.08  0.0416   0.159   +528   230  
-Abreu, Wilyer           L    3    NYY  Max Fried             0.0375  0.0354   1.31  0.0361   0.158   +534   118  
-Rice, Ben               L    2    NYY  Jake Bennett          0.0373  0.0305   1.31  0.0311   0.157   +538   117  
-Burleson, Alec          L    3    STL  Lake Bachar           0.0517  0.0536   1.04  0.0435   0.157   +538   283  
-Eldridge, Bryce         L    3    SF   Merrill Kelly         0.0409  0.0630   1.00  0.0491   0.155   +544   152  
-Stewart, Sal            R    3    CHC  Kevin Gausman         0.0461  0.0462   1.14  0.0410   0.154   +548   300  
-Witt Jr., Bobby         R    2    CLE  Foster Griffin        0.0496  0.0601   0.98  0.0457   0.154   +551   101  
-Goldschmidt, Paul       R    1    NYY  Jake Bennett          0.0440  0.0544   1.13  0.0479   0.153   +553   102  
-Ramos, Heliot           R    4    NYY  Jake Bennett          0.0405  0.0502   1.13  0.0442   0.153   +555   54   
-Bauers, Jake            L    3    MIL  Cal Quantrill         0.0448  0.0515   1.06  0.0426   0.150   +565   200  
-Stephenson, Tyler       R    5    CHC  Kevin Gausman         0.0466  0.0466   1.14  0.0415   0.150   +566   184  
-Contreras, Willson      R    4    NYY  Carlos Rodón          0.0485  0.0473   1.13  0.0417   0.147   +579   79   
-Rosario, Amed           R    3    NYY  Jake Bennett          0.0388  0.0481   1.13  0.0424   0.147   +582   90   
-Caglianone, Jac         L    3    CLE  Foster Griffin        0.0314  0.0394   1.02  0.0312   0.147   +582   98   
-Clemens, Kody           L    3    MIN  Erick Fedde           0.0470  0.0484   1.04  0.0394   0.146   +583   244  
-Hernández, Heriberto    R    2    WSH  Cade Cavalli          0.0416  0.0436   1.11  0.0379   0.146   +584   151  
-Conine, Griffin         L    4    WSH  Cade Cavalli          0.0489  0.0426   1.10  0.0366   0.146   +586   97   
-Abrams, CJ              L    1    WSH  Sandy Alcantara       0.0428  0.0426   1.10  0.0366   0.145   +589   257  
-Grisham, Trent          L    1    NYY  Alec Gamboa           0.0289  0.0305   1.31  0.0310   0.144   +595   87   
-Stowers, Kyle           L    1    WSH  Cade Cavalli          0.0443  0.0385   1.10  0.0331   0.143   +597   180  
-Okamoto, Kazuma         R    5    TOR  Kade Anderson         0.0474  0.0515   1.06  0.0426   0.143   +599   87   
-Seager, Corey           L    2    MIL  Shane Drohan          0.0322  0.0365   1.06  0.0302   0.143   +601   56   
-Lile, Daylen            L    4    WSH  Sandy Alcantara       0.0446  0.0444   1.10  0.0382   0.142   +604   307  
-Montgomery, Colson      L    6    MIN  Bailey Ober           0.0387  0.0535   1.04  0.0436   0.142   +606   192  
-Jones, Spencer          L    7    NYY  Alec Gamboa           0.0385  0.0405   1.31  0.0413   0.141   +611   21   
-Raleigh, Cal            L    5    TOR  José Soriano          0.0449  0.0444   1.08  0.0374   0.140   +614   152  
-Walker, Jordan          R    4    STL  Lake Bachar           0.0460  0.0456   1.05  0.0374   0.140   +614   275  
-Ramos, Heliot           R    3    NYY  Alec Gamboa           0.0405  0.0390   1.13  0.0344   0.139   +617   54   
-Perez, Salvador         R    4    CLE  Foster Griffin        0.0445  0.0539   0.98  0.0411   0.139   +619   108  
-De La Cruz, Elly        L    2    CHC  Kevin Gausman         0.0408  0.0386   1.12  0.0337   0.139   +620   231  
-Reynolds, Bryan         L    3    STL  Kyle Leahy            0.0376  0.0474   1.04  0.0384   0.138   +623   232  
-Benintendi, Andrew      L    4    MIN  Bailey Ober           0.0359  0.0496   1.04  0.0404   0.138   +624   240  
-Burger, Jake            R    6    MIL  Shane Drohan          0.0455  0.0502   1.04  0.0407   0.138   +627   82   
-Chourio, Jackson        R    2    MIL  Cal Quantrill         0.0485  0.0389   1.04  0.0315   0.138   +627   219  
-Mitchell, Garrett       L    5    MIL  Cal Quantrill         0.0412  0.0475   1.06  0.0393   0.137   +629   185  
-Muncy, Max              L    4    DET  Keider Montero        0.0445  0.0514   0.93  0.0374   0.137   +633   225  
-Ortiz, Abimelec         L    2    WSH  Sandy Alcantara       0.0399  0.0397   1.10  0.0342   0.136   +635   54   
-Crow-Armstrong, Pete    L    1    CHC  Andrew Abbott         0.0286  0.0305   1.12  0.0266   0.135   +640   111  
-Foscue, Justin          R    1    MIL  Shane Drohan          0.0383  0.0423   1.04  0.0343   0.133   +653   77   
-Hill, Turner            L    5    SF   Merrill Kelly         0.0335  0.0519   1.00  0.0405   0.131   +661   22   
-Suzuki, Seiya           R    2    CHC  Andrew Abbott         0.0299  0.0346   1.14  0.0307   0.131   +663   90   
-Bell, Josh              L    4    MIN  Erick Fedde           0.0411  0.0423   1.04  0.0344   0.131   +665   245  
-Jensen, Carter          L    1    CLE  Foster Griffin        0.0318  0.0398   1.02  0.0315   0.130   +669   84   
-Rodríguez, Héctor       L    1    CHC  Kevin Gausman         0.0362  0.0342   1.12  0.0298   0.129   +673   35   
-Moreno, Gabriel         R    3    SF   Matt Wilkinson        0.0322  0.0380   1.12  0.0331   0.129   +675   92   
-Carroll, Corbin         L    2    SF   Matt Wilkinson        0.0311  0.0325   1.00  0.0254   0.129   +675   118  
-Freeman, Freddie        L    2    DET  Keider Montero        0.0392  0.0454   0.93  0.0330   0.129   +676   279  
-Bleday, JJ              L    4    CHC  Kevin Gausman         0.0386  0.0365   1.12  0.0318   0.129   +677   211  
-Horwitz, Spencer        L    1    STL  Kyle Leahy            0.0322  0.0406   1.04  0.0329   0.127   +685   216  
-Flores Jr., Rafael      R    7    STL  Kyle Leahy            0.0407  0.0432   1.05  0.0354   0.127   +685   23   
-Busch, Michael          L    4    CHC  Andrew Abbott         0.0386  0.0411   1.12  0.0359   0.127   +687   110  
-Turang, Brice           L    1    MIL  Cal Quantrill         0.0332  0.0384   1.06  0.0317   0.125   +697   249  
-Contreras, Willson      R    4    NYY  Max Fried             0.0485  0.0323   1.13  0.0285   0.125   +698   79   
-Caissie, Owen           L    8    WSH  Cade Cavalli          0.0440  0.0382   1.10  0.0328   0.124   +704   145  
-Gilbert, Drew           L    1    SF   Merrill Kelly         0.0288  0.0447   1.00  0.0349   0.124   +704   205  
+Murakami, Munetaka      L    2    MIN  Bailey Ober           0.0524  0.0719   1.02  0.0572   0.182   +449   145  
+Alvarez, Yordan         L    2    NYM  Nolan McLean          0.0584  0.0542   1.08  0.0456   0.173   +478   268  
+Rice, Ben               L    2    NYY  Alec Gamboa           0.0373  0.0393   1.33  0.0408   0.172   +480   117  
+Abreu, Wilyer           L    3    NYY  Carlos Rodón          0.0375  0.0403   1.33  0.0418   0.168   +497   118  
+García Jr., Luis        L    4    NYY  Alec Gamboa           0.0384  0.0404   1.33  0.0420   0.167   +500   54   
+Lowe, Brandon           L    2    STL  Kyle Leahy            0.0474  0.0595   1.03  0.0480   0.165   +508   239  
+Cruz, Oneil             L    5    STL  Kyle Leahy            0.0492  0.0618   1.03  0.0499   0.162   +519   117  
+Vargas, Miguel          R    3    MIN  Bailey Ober           0.0508  0.0557   1.03  0.0447   0.160   +526   271  
+Abreu, Wilyer           L    3    NYY  Max Fried             0.0375  0.0354   1.33  0.0368   0.160   +526   118  
+Ohtani, Shohei          L    1    DET  Keider Montero        0.0528  0.0610   0.92  0.0436   0.159   +528   228  
+Canzone, Dominic        L    2    TOR  José Soriano          0.0500  0.0494   1.08  0.0416   0.159   +529   230  
+Rice, Ben               L    2    NYY  Jake Bennett          0.0373  0.0305   1.33  0.0317   0.159   +529   117  
+Devers, Rafael          L    2    SF   Merrill Kelly         0.0417  0.0643   0.98  0.0493   0.158   +535   239  
+Stewart, Sal            R    3    CHC  Kevin Gausman         0.0461  0.0462   1.17  0.0422   0.157   +536   300  
+Soto, Juan              L    2    NYM  Bennett Sousa         0.0359  0.0453   1.08  0.0381   0.157   +536   89   
+Burleson, Alec          L    3    STL  Lake Bachar           0.0517  0.0536   1.03  0.0433   0.156   +540   283  
+Goldschmidt, Paul       R    1    NYY  Jake Bennett          0.0440  0.0544   1.15  0.0488   0.155   +545   102  
+Ramos, Heliot           R    4    NYY  Jake Bennett          0.0405  0.0502   1.15  0.0450   0.154   +547   54   
+Eldridge, Bryce         L    3    SF   Merrill Kelly         0.0409  0.0630   0.98  0.0483   0.153   +553   152  
+Stephenson, Tyler       R    5    CHC  Kevin Gausman         0.0466  0.0466   1.17  0.0426   0.153   +554   184  
+Witt Jr., Bobby         R    2    CLE  Foster Griffin        0.0496  0.0601   0.96  0.0449   0.151   +561   101  
+Bauers, Jake            L    3    MIL  Cal Quantrill         0.0448  0.0515   1.06  0.0426   0.150   +566   200  
+Contreras, Willson      R    4    NYY  Carlos Rodón          0.0485  0.0473   1.15  0.0425   0.149   +571   79   
+Rosario, Amed           R    3    NYY  Jake Bennett          0.0388  0.0481   1.15  0.0431   0.148   +573   90   
+Grisham, Trent          L    1    NYY  Alec Gamboa           0.0289  0.0305   1.33  0.0316   0.146   +586   87   
+Hernández, Heriberto    R    2    WSH  Cade Cavalli          0.0416  0.0436   1.11  0.0377   0.146   +586   151  
+Conine, Griffin         L    4    WSH  Cade Cavalli          0.0489  0.0426   1.10  0.0364   0.145   +588   97   
+Caglianone, Jac         L    3    CLE  Foster Griffin        0.0314  0.0394   1.00  0.0306   0.144   +592   98   
+Abrams, CJ              L    1    WSH  Sandy Alcantara       0.0428  0.0426   1.10  0.0364   0.144   +592   257  
+Clemens, Kody           L    3    MIN  Erick Fedde           0.0470  0.0484   1.02  0.0385   0.144   +595   244  
+Okamoto, Kazuma         R    5    TOR  Kade Anderson         0.0474  0.0515   1.06  0.0426   0.143   +600   87   
+Stowers, Kyle           L    1    WSH  Cade Cavalli          0.0443  0.0385   1.10  0.0330   0.143   +600   180  
+Seager, Corey           L    2    MIL  Shane Drohan          0.0322  0.0365   1.06  0.0302   0.142   +602   56   
+Jones, Spencer          L    7    NYY  Alec Gamboa           0.0385  0.0405   1.33  0.0421   0.142   +602   21   
+Lile, Daylen            L    4    WSH  Sandy Alcantara       0.0446  0.0444   1.10  0.0380   0.141   +607   307  
+De La Cruz, Elly        L    2    CHC  Kevin Gausman         0.0408  0.0386   1.15  0.0346   0.141   +607   231  
+Ramos, Heliot           R    3    NYY  Alec Gamboa           0.0405  0.0390   1.15  0.0350   0.141   +609   54   
+Raleigh, Cal            L    5    TOR  José Soriano          0.0449  0.0444   1.08  0.0374   0.140   +615   152  
+Walker, Jordan          R    4    STL  Lake Bachar           0.0460  0.0456   1.05  0.0372   0.140   +617   275  
+Montgomery, Colson      L    6    MIN  Bailey Ober           0.0387  0.0535   1.02  0.0425   0.139   +619   192  
+Reynolds, Bryan         L    3    STL  Kyle Leahy            0.0376  0.0474   1.03  0.0383   0.138   +626   232  
+Crow-Armstrong, Pete    L    1    CHC  Andrew Abbott         0.0286  0.0305   1.15  0.0273   0.138   +627   111  
+Chourio, Jackson        R    2    MIL  Cal Quantrill         0.0485  0.0389   1.04  0.0315   0.137   +628   219  
+Burger, Jake            R    6    MIL  Shane Drohan          0.0455  0.0502   1.04  0.0407   0.137   +628   82   
+Perez, Salvador         R    4    CLE  Foster Griffin        0.0445  0.0539   0.96  0.0403   0.137   +629   108  
+Mitchell, Garrett       L    5    MIL  Cal Quantrill         0.0412  0.0475   1.06  0.0393   0.137   +630   185  
+Benintendi, Andrew      L    4    MIN  Bailey Ober           0.0359  0.0496   1.02  0.0395   0.136   +637   240  
+Ortiz, Abimelec         L    2    WSH  Sandy Alcantara       0.0399  0.0397   1.10  0.0340   0.135   +639   54   
+Muncy, Max              L    4    DET  Keider Montero        0.0445  0.0514   0.92  0.0367   0.135   +642   225  
+Suzuki, Seiya           R    2    CHC  Andrew Abbott         0.0299  0.0346   1.17  0.0316   0.134   +649   90   
+Foscue, Justin          R    1    MIL  Shane Drohan          0.0383  0.0423   1.04  0.0343   0.133   +654   77   
+Rodríguez, Héctor       L    1    CHC  Kevin Gausman         0.0362  0.0342   1.15  0.0306   0.132   +659   35   
+Bleday, JJ              L    4    CHC  Kevin Gausman         0.0386  0.0365   1.15  0.0327   0.131   +663   211  
+Hill, Turner            L    5    SF   Merrill Kelly         0.0335  0.0519   0.98  0.0397   0.130   +672   22   
+Busch, Michael          L    4    CHC  Andrew Abbott         0.0386  0.0411   1.15  0.0368   0.129   +673   110  
+Bell, Josh              L    4    MIN  Erick Fedde           0.0411  0.0423   1.02  0.0336   0.128   +679   245  
+Jensen, Carter          L    1    CLE  Foster Griffin        0.0318  0.0398   1.00  0.0309   0.128   +680   84   
+Benge, Carson           L    4    NYM  Bennett Sousa         0.0368  0.0464   1.08  0.0390   0.128   +681   91   
+Moreno, Gabriel         R    3    SF   Matt Wilkinson        0.0322  0.0380   1.10  0.0326   0.127   +685   92   
+Trammell, Taylor        L    7    NYM  Nolan McLean          0.0433  0.0402   1.08  0.0338   0.127   +686   108  
+Carroll, Corbin         L    2    SF   Matt Wilkinson        0.0311  0.0325   0.98  0.0249   0.127   +686   118  
+Freeman, Freddie        L    2    DET  Keider Montero        0.0392  0.0454   0.92  0.0324   0.127   +686   279  
+Horwitz, Spencer        L    1    STL  Kyle Leahy            0.0322  0.0406   1.03  0.0328   0.127   +688   216  
+Contreras, Willson      R    4    NYY  Max Fried             0.0485  0.0323   1.15  0.0290   0.127   +688   79   
+Flores Jr., Rafael      R    7    STL  Kyle Leahy            0.0407  0.0432   1.05  0.0352   0.127   +689   23   
+Taylor, Tyrone          R    7    CHC  Andrew Abbott         0.0313  0.0361   1.17  0.0330   0.126   +694   69   
+Turang, Brice           L    1    MIL  Cal Quantrill         0.0332  0.0384   1.06  0.0317   0.125   +698   249  
+Lindor, Francisco       R    1    NYM  Bennett Sousa         0.0324  0.0329   1.07  0.0274   0.124   +706   78   
 Yelich, Christian       L    6    MIL  Cal Quantrill         0.0367  0.0423   1.06  0.0350   0.124   +706   188  
-Taylor, Tyrone          R    7    CHC  Andrew Abbott         0.0313  0.0361   1.14  0.0321   0.124   +708   69   
-Adell, Jo               R    4    CLE  Daniel Lynch IV       0.0449  0.0463   0.98  0.0353   0.123   +711   105  
-Jones, Spencer          L    8    NYY  Jake Bennett          0.0385  0.0315   1.31  0.0321   0.122   +717   21   
-Whitcomb, Shay          R    7    SF   Merrill Kelly         0.0327  0.0412   1.12  0.0359   0.122   +720   20   
-Nimmo, Brandon          L    4    MIL  Shane Drohan          0.0272  0.0307   1.06  0.0254   0.122   +722   118  
-Rodríguez, Julio        R    3    TOR  José Soriano          0.0358  0.0353   1.06  0.0292   0.122   +722   268  
-Tawa, Tim               R    6    SF   Matt Wilkinson        0.0277  0.0327   1.12  0.0286   0.121   +724   43   
-Lewis, Royce            R    5    MIN  Erick Fedde           0.0348  0.0399   1.05  0.0328   0.121   +729   191  
-Antonacci, Sam          L    1    MIN  Bailey Ober           0.0278  0.0385   1.04  0.0313   0.120   +734   259  
-Jones, Jahmai           R    1    NYY  Carlos Rodón          0.0356  0.0347   1.13  0.0306   0.119   +741   66   
-Monasterio, Andruw      R    7    NYY  Carlos Rodón          0.0430  0.0419   1.13  0.0369   0.118   +748   75   
-Arenado, Nolan          R    5    SF   Matt Wilkinson        0.0320  0.0378   1.12  0.0330   0.118   +750   89   
-Chisholm Jr., Jazz      L    5    NYY  Alec Gamboa           0.0238  0.0251   1.31  0.0255   0.116   +761   86   
-Jenkins, Walker         L    9    MIN  Erick Fedde           0.0396  0.0408   1.04  0.0333   0.116   +765   2    
-Valencia, Eduardo       R    5    DET  Blake Snell           0.0419  0.0381   0.91  0.0271   0.115   +767   22   
-Lombard Jr., George     R    6    NYY  Jake Bennett          0.0299  0.0371   1.13  0.0327   0.115   +767   7    
-Peters, Tristan         L    8    MIN  Bailey Ober           0.0298  0.0413   1.04  0.0337   0.114   +776   257  
-Suárez, Eugenio         R    6    CHC  Kevin Gausman         0.0324  0.0324   1.14  0.0288   0.114   +780   177  
-Cavanaugh, Drew         L    6    SF   Merrill Kelly         0.0278  0.0432   1.00  0.0337   0.114   +780   63   
-Kelly, Carson           R    9    CHC  Andrew Abbott         0.0375  0.0433   1.14  0.0385   0.114   +781   83   
+Jones, Spencer          L    8    NYY  Jake Bennett          0.0385  0.0315   1.33  0.0327   0.124   +706   21   
+Caissie, Owen           L    8    WSH  Cade Cavalli          0.0440  0.0382   1.10  0.0327   0.124   +707   145  
+Gilbert, Drew           L    1    SF   Merrill Kelly         0.0288  0.0447   0.98  0.0342   0.123   +716   205  
+Adell, Jo               R    4    CLE  Daniel Lynch IV       0.0449  0.0463   0.96  0.0346   0.122   +722   105  
+Nimmo, Brandon          L    4    MIL  Shane Drohan          0.0272  0.0307   1.06  0.0254   0.121   +723   118  
+Rodríguez, Julio        R    3    TOR  José Soriano          0.0358  0.0353   1.06  0.0292   0.121   +723   268  
+Whitcomb, Shay          R    7    SF   Merrill Kelly         0.0327  0.0412   1.10  0.0353   0.120   +731   20   
+Jones, Jahmai           R    1    NYY  Carlos Rodón          0.0356  0.0347   1.15  0.0312   0.120   +731   66   
+Tawa, Tim               R    6    SF   Matt Wilkinson        0.0277  0.0327   1.10  0.0280   0.120   +736   43   
+Monasterio, Andruw      R    7    NYY  Carlos Rodón          0.0430  0.0419   1.15  0.0376   0.119   +738   75   
+Lewis, Royce            R    5    MIN  Erick Fedde           0.0348  0.0399   1.03  0.0320   0.118   +744   191  
+Antonacci, Sam          L    1    MIN  Bailey Ober           0.0278  0.0385   1.02  0.0306   0.118   +749   259  
+Chisholm Jr., Jazz      L    5    NYY  Alec Gamboa           0.0238  0.0251   1.33  0.0260   0.118   +750   86   
+Lombard Jr., George     R    6    NYY  Jake Bennett          0.0299  0.0371   1.15  0.0333   0.117   +756   7    
+Arenado, Nolan          R    5    SF   Matt Wilkinson        0.0320  0.0378   1.10  0.0324   0.116   +762   89   
+Kelly, Carson           R    9    CHC  Andrew Abbott         0.0375  0.0433   1.17  0.0396   0.116   +764   83   
+Suárez, Eugenio         R    6    CHC  Kevin Gausman         0.0324  0.0324   1.17  0.0296   0.116   +764   177  
+McLain, Matt            R    9    CHC  Kevin Gausman         0.0349  0.0349   1.17  0.0319   0.115   +771   186  
+Alvarez, Francisco      R    9    NYM  Bennett Sousa         0.0339  0.0344   1.07  0.0287   0.114   +778   49   
+Valencia, Eduardo       R    5    DET  Blake Snell           0.0419  0.0381   0.90  0.0266   0.114   +780   22   
+Jenkins, Walker         L    9    MIN  Erick Fedde           0.0396  0.0408   1.02  0.0325   0.114   +781   2    
 Arozarena, Randy        R    1    TOR  José Soriano          0.0310  0.0305   1.06  0.0252   0.113   +783   254  
-McLain, Matt            R    9    CHC  Kevin Gausman         0.0349  0.0349   1.14  0.0310   0.113   +787   186  
-Tena, José              L    3    WSH  Sandy Alcantara       0.0314  0.0313   1.10  0.0269   0.113   +788   146  
-O'Hoppe, Logan          R    8    MIL  Shane Drohan          0.0332  0.0366   1.04  0.0297   0.112   +797   54   
-Contreras, William      R    4    MIL  Cal Quantrill         0.0382  0.0306   1.04  0.0248   0.111   +798   304  
-Vargas, Ildemaro        R    1    SF   Matt Wilkinson        0.0327  0.0386   1.12  0.0337   0.111   +799   125  
-Langford, Wyatt         R    3    MIL  Shane Drohan          0.0304  0.0336   1.04  0.0272   0.111   +802   77   
-Culpepper, Kaelen       R    7    MIN  Erick Fedde           0.0321  0.0368   1.05  0.0303   0.110   +810   26   
-Lawlar, Jordan          R    8    SF   Matt Wilkinson        0.0306  0.0362   1.12  0.0316   0.109   +815   22   
-Larnach, Trevor         L    6    MIN  Erick Fedde           0.0333  0.0343   1.04  0.0279   0.108   +823   248  
-Guerrero Jr., Vladimir  R    3    TOR  Kade Anderson         0.0279  0.0304   1.06  0.0251   0.108   +824   91   
-Cameron, Daz            R    8    TOR  Kade Anderson         0.0347  0.0377   1.06  0.0312   0.108   +826   13   
+Tena, José              L    3    WSH  Sandy Alcantara       0.0314  0.0313   1.10  0.0268   0.112   +792   146  
+Peters, Tristan         L    8    MIN  Bailey Ober           0.0298  0.0413   1.02  0.0329   0.112   +793   257  
+Cavanaugh, Drew         L    6    SF   Merrill Kelly         0.0278  0.0432   0.98  0.0331   0.112   +793   63   
+Ewing, A.J.             L    7    NYM  Bennett Sousa         0.0311  0.0393   1.08  0.0330   0.112   +794   65   
+O'Hoppe, Logan          R    8    MIL  Shane Drohan          0.0332  0.0366   1.04  0.0297   0.111   +798   54   
+Contreras, William      R    4    MIL  Cal Quantrill         0.0382  0.0306   1.04  0.0248   0.111   +799   304  
+Langford, Wyatt         R    3    MIL  Shane Drohan          0.0304  0.0336   1.04  0.0272   0.111   +803   77   
+Vargas, Ildemaro        R    1    SF   Matt Wilkinson        0.0327  0.0386   1.10  0.0331   0.110   +812   125  
+Bichette, Bo            R    3    NYM  Bennett Sousa         0.0333  0.0338   1.07  0.0281   0.109   +818   115  
+Walker, Christian       R    6    NYM  Nolan McLean          0.0364  0.0302   1.07  0.0251   0.108   +822   280  
+Guerrero Jr., Vladimir  R    3    TOR  Kade Anderson         0.0279  0.0304   1.06  0.0251   0.108   +825   91   
+Culpepper, Kaelen       R    7    MIN  Erick Fedde           0.0321  0.0368   1.03  0.0295   0.108   +826   26   
+Lawlar, Jordan          R    8    SF   Matt Wilkinson        0.0306  0.0362   1.10  0.0310   0.108   +827   22   
+Cameron, Daz            R    8    TOR  Kade Anderson         0.0347  0.0377   1.06  0.0312   0.108   +827   13   
 Lara, Luis              L    7    MIL  Cal Quantrill         0.0309  0.0356   1.06  0.0295   0.108   +829   66   
-Furman, Nate            L    8    SF   Merrill Kelly         0.0268  0.0416   1.00  0.0325   0.107   +831   10   
-Lopez, Otto             R    5    WSH  Cade Cavalli          0.0285  0.0299   1.11  0.0260   0.106   +843   345  
-Gorman, Nolan           L    7    STL  Lake Bachar           0.0328  0.0340   1.04  0.0276   0.105   +850   109  
-Rogers, Jake            R    9    MIN  Bailey Ober           0.0320  0.0351   1.05  0.0289   0.105   +852   64   
-Montgomery, Braden      L    5    MIN  Bailey Ober           0.0245  0.0341   1.04  0.0278   0.104   +862   135  
-Rafaela, Ceddanne       R    2    NYY  Carlos Rodón          0.0271  0.0264   1.13  0.0233   0.103   +866   95   
-Báez, Joshua            R    8    STL  Lake Bachar           0.0336  0.0333   1.05  0.0273   0.103   +867   16   
-Springer, George        R    4    TOR  Kade Anderson         0.0258  0.0281   1.06  0.0232   0.103   +869   92   
-Lee, Hao-Yu             R    2    DET  Blake Snell           0.0336  0.0305   0.91  0.0217   0.103   +869   84   
-Bregman, Alex           R    3    CHC  Andrew Abbott         0.0241  0.0279   1.14  0.0248   0.103   +871   103  
-DeLauter, Chase         L    2    CLE  Daniel Lynch IV       0.0261  0.0282   1.02  0.0223   0.102   +878   107  
-Fernandez, Jose         R    7    SF   Matt Wilkinson        0.0289  0.0342   1.12  0.0298   0.102   +879   43   
-Rutschman, Adley        R    6    NYY  Carlos Rodón          0.0251  0.0245   1.13  0.0216   0.102   +881   87   
-Lombard Jr., George     R    6    NYY  Alec Gamboa           0.0299  0.0288   1.13  0.0254   0.102   +881   7    
-Bellinger, Cody         L    5    NYY  Jake Bennett          0.0234  0.0191   1.31  0.0195   0.102   +885   120  
-Sogard, Nick            R    8    NYY  Carlos Rodón          0.0344  0.0335   1.13  0.0295   0.102   +885   23   
-Martínez, Angel         R    5    CLE  Daniel Lynch IV       0.0311  0.0321   0.98  0.0244   0.101   +886   94   
-Koss, Christian         R    9    SF   Merrill Kelly         0.0266  0.0335   1.12  0.0292   0.101   +887   54   
-Jones, Jahmai           R    1    NYY  Max Fried             0.0356  0.0236   1.13  0.0208   0.101   +888   66   
-Crooks, Jimmy           L    9    STL  Lake Bachar           0.0327  0.0339   1.04  0.0275   0.101   +893   74   
-Mack, Joe               L    9    WSH  Cade Cavalli          0.0338  0.0293   1.10  0.0252   0.100   +896   143  
-Shaw, Matt              R    6    CHC  Andrew Abbott         0.0240  0.0278   1.14  0.0247   0.100   +902   49   
-Jansen, Danny           R    7    MIL  Shane Drohan          0.0283  0.0313   1.04  0.0254   0.100   +902   25   
-Dingler, Dillon         R    4    DET  Blake Snell           0.0269  0.0244   0.91  0.0174   0.099   +908   109  
-Young, Cole             L    6    TOR  José Soriano          0.0283  0.0280   1.08  0.0236   0.099   +912   278  
-Monasterio, Andruw      R    6    NYY  Max Fried             0.0430  0.0286   1.13  0.0252   0.098   +921   75   
-Wells, Austin           L    8    NYY  Alec Gamboa           0.0220  0.0232   1.31  0.0236   0.098   +922   52   
-Church, Nathan          L    5    STL  Lake Bachar           0.0279  0.0290   1.04  0.0236   0.098   +925   223  
-McAdoo, Charles         R    6    TOR  Kade Anderson         0.0246  0.0268   1.06  0.0222   0.097   +930   22   
-Torkelson, Spencer      R    6    DET  Blake Snell           0.0313  0.0284   0.91  0.0202   0.097   +931   84   
+Larnach, Trevor         L    6    MIN  Erick Fedde           0.0333  0.0343   1.02  0.0273   0.106   +839   248  
+Furman, Nate            L    8    SF   Merrill Kelly         0.0268  0.0416   0.98  0.0319   0.106   +843   10   
+Lopez, Otto             R    5    WSH  Cade Cavalli          0.0285  0.0299   1.11  0.0258   0.106   +847   345  
+Baty, Brett             L    8    NYM  Bennett Sousa         0.0257  0.0324   1.08  0.0273   0.105   +851   43   
+Bregman, Alex           R    3    CHC  Andrew Abbott         0.0241  0.0279   1.17  0.0255   0.105   +852   103  
+Gorman, Nolan           L    7    STL  Lake Bachar           0.0328  0.0340   1.03  0.0275   0.105   +853   109  
+Rafaela, Ceddanne       R    2    NYY  Carlos Rodón          0.0271  0.0264   1.15  0.0237   0.105   +854   95   
+Peña, Jeremy            R    1    NYM  Nolan McLean          0.0300  0.0249   1.07  0.0207   0.104   +860   207  
+Varsho, Daulton         L    5    NYM  Nolan McLean          0.0309  0.0286   1.08  0.0241   0.104   +862   242  
+Rutschman, Adley        R    6    NYY  Carlos Rodón          0.0251  0.0245   1.15  0.0220   0.103   +869   87   
+Springer, George        R    4    TOR  Kade Anderson         0.0258  0.0281   1.06  0.0232   0.103   +870   92   
+Rogers, Jake            R    9    MIN  Bailey Ober           0.0320  0.0351   1.03  0.0282   0.103   +870   64   
+Lombard Jr., George     R    6    NYY  Alec Gamboa           0.0299  0.0288   1.15  0.0258   0.103   +870   7    
+Báez, Joshua            R    8    STL  Lake Bachar           0.0336  0.0333   1.05  0.0272   0.103   +871   16   
+Sogard, Nick            R    8    NYY  Carlos Rodón          0.0344  0.0335   1.15  0.0301   0.103   +872   23   
+Bellinger, Cody         L    5    NYY  Jake Bennett          0.0234  0.0191   1.33  0.0199   0.103   +872   120  
+Jones, Jahmai           R    1    NYY  Max Fried             0.0356  0.0236   1.15  0.0212   0.102   +877   66   
+Montgomery, Braden      L    5    MIN  Bailey Ober           0.0245  0.0341   1.02  0.0271   0.102   +879   135  
+Lee, Hao-Yu             R    2    DET  Blake Snell           0.0336  0.0305   0.90  0.0213   0.102   +883   84   
+Shaw, Matt              R    6    CHC  Andrew Abbott         0.0240  0.0278   1.17  0.0254   0.102   +885   49   
+DeLauter, Chase         L    2    CLE  Daniel Lynch IV       0.0261  0.0282   1.00  0.0219   0.101   +892   107  
+Fernandez, Jose         R    7    SF   Matt Wilkinson        0.0289  0.0342   1.10  0.0293   0.101   +893   43   
+Crooks, Jimmy           L    9    STL  Lake Bachar           0.0327  0.0339   1.03  0.0274   0.100   +897   74   
+Martínez, Angel         R    5    CLE  Daniel Lynch IV       0.0311  0.0321   0.96  0.0240   0.100   +900   94   
+Mack, Joe               L    9    WSH  Cade Cavalli          0.0338  0.0293   1.10  0.0251   0.100   +900   143  
+Koss, Christian         R    9    SF   Merrill Kelly         0.0266  0.0335   1.10  0.0287   0.100   +901   54   
+Young, Jared            L    5    NYM  Bennett Sousa         0.0186  0.0235   1.08  0.0198   0.100   +902   32   
+Jansen, Danny           R    7    MIL  Shane Drohan          0.0283  0.0313   1.04  0.0254   0.100   +903   25   
+Monasterio, Andruw      R    6    NYY  Max Fried             0.0430  0.0286   1.15  0.0257   0.099   +909   75   
+Wells, Austin           L    8    NYY  Alec Gamboa           0.0220  0.0232   1.33  0.0241   0.099   +910   52   
+Young, Cole             L    6    TOR  José Soriano          0.0283  0.0280   1.08  0.0236   0.099   +913   278  
+Ramírez, Pedro          R    8    CHC  Andrew Abbott         0.0254  0.0293   1.17  0.0268   0.098   +917   26   
+Sánchez, Ali            R    9    NYY  Jake Bennett          0.0254  0.0316   1.15  0.0284   0.098   +922   25   
+Dingler, Dillon         R    4    DET  Blake Snell           0.0269  0.0244   0.90  0.0171   0.098   +922   109  
+Church, Nathan          L    5    STL  Lake Bachar           0.0279  0.0290   1.03  0.0234   0.097   +929   223  
+McAdoo, Charles         R    6    TOR  Kade Anderson         0.0246  0.0268   1.06  0.0222   0.097   +931   22   
+Semien, Marcus          R    6    NYM  Bennett Sousa         0.0276  0.0280   1.07  0.0233   0.097   +932   80   
 Rodden, Brock           L    9    TOR  José Soriano          0.0300  0.0297   1.08  0.0250   0.097   +933   12   
-Waldschmidt, Ryan       R    9    SF   Matt Wilkinson        0.0239  0.0283   1.12  0.0247   0.097   +935   47   
-Sánchez, Ali            R    9    NYY  Jake Bennett          0.0254  0.0316   1.13  0.0278   0.097   +935   25   
-Thomas, Alek            L    9    DET  Keider Montero        0.0310  0.0359   0.93  0.0261   0.097   +936   70   
-Ramírez, Pedro          R    8    CHC  Andrew Abbott         0.0254  0.0293   1.14  0.0261   0.097   +936   26   
-Crews, Dylan            R    5    WSH  Sandy Alcantara       0.0327  0.0226   1.11  0.0196   0.096   +937   154  
-House, Brady            R    7    WSH  Sandy Alcantara       0.0348  0.0241   1.11  0.0209   0.096   +942   119  
-Betts, Mookie           R    3    DET  Keider Montero        0.0312  0.0284   0.91  0.0202   0.096   +943   225  
-Torres, Gleyber         R    1    DET  Blake Snell           0.0378  0.0344   0.91  0.0245   0.096   +944   56   
-Wetherholt, JJ          L    1    STL  Lake Bachar           0.0248  0.0257   1.04  0.0209   0.096   +945   254  
-Maile, Luke             R    9    CLE  Foster Griffin        0.0283  0.0344   0.98  0.0262   0.096   +945   12   
-Crawford, J.P.          L    8    TOR  José Soriano          0.0285  0.0282   1.08  0.0238   0.095   +948   170  
-Feduccia, Hunter        L    8    DET  Keider Montero        0.0295  0.0342   0.93  0.0248   0.095   +953   107  
-Ramírez, José           R    3    CLE  Daniel Lynch IV       0.0301  0.0311   0.98  0.0237   0.094   +960   96   
-McGonigle, Kevin        L    3    DET  Blake Snell           0.0245  0.0243   0.93  0.0177   0.094   +962   119  
-Collins, Isaac          R    7    CLE  Foster Griffin        0.0277  0.0337   0.98  0.0256   0.094   +963   95   
-Hernández, Teoscar      R    7    DET  Keider Montero        0.0338  0.0307   0.91  0.0219   0.094   +967   172  
-Lee, Jung Hoo           L    4    SF   Merrill Kelly         0.0199  0.0311   1.00  0.0242   0.092   +986   292  
-Trevino, Jose           R    7    CHC  Kevin Gausman         0.0244  0.0244   1.14  0.0217   0.091   +998   77   
+Crews, Dylan            R    5    WSH  Sandy Alcantara       0.0327  0.0226   1.11  0.0195   0.096   +941   154  
+House, Brady            R    7    WSH  Sandy Alcantara       0.0348  0.0241   1.11  0.0208   0.096   +945   119  
+Torkelson, Spencer      R    6    DET  Blake Snell           0.0313  0.0284   0.90  0.0199   0.096   +945   84   
+Crawford, J.P.          L    8    TOR  José Soriano          0.0285  0.0282   1.08  0.0238   0.095   +949   170  
+Wetherholt, JJ          L    1    STL  Lake Bachar           0.0248  0.0257   1.03  0.0208   0.095   +949   254  
+Thomas, Alek            L    9    DET  Keider Montero        0.0310  0.0359   0.92  0.0257   0.095   +949   70   
+Waldschmidt, Ryan       R    9    SF   Matt Wilkinson        0.0239  0.0283   1.10  0.0242   0.095   +949   47   
+Torres, Gleyber         R    1    DET  Blake Snell           0.0378  0.0344   0.90  0.0240   0.095   +958   56   
+Betts, Mookie           R    3    DET  Keider Montero        0.0312  0.0284   0.90  0.0198   0.095   +958   225  
+Maile, Luke             R    9    CLE  Foster Griffin        0.0283  0.0344   0.96  0.0257   0.094   +959   12   
+Feduccia, Hunter        L    8    DET  Keider Montero        0.0295  0.0342   0.92  0.0244   0.094   +967   107  
+McGonigle, Kevin        L    3    DET  Blake Snell           0.0245  0.0243   0.92  0.0174   0.093   +975   119  
+Ramírez, José           R    3    CLE  Daniel Lynch IV       0.0301  0.0311   0.96  0.0232   0.093   +976   96   
+Collins, Isaac          R    7    CLE  Foster Griffin        0.0277  0.0337   0.96  0.0251   0.093   +978   95   
+Trevino, Jose           R    7    CHC  Kevin Gausman         0.0244  0.0244   1.17  0.0223   0.093   +978   77   
+Hernández, Teoscar      R    7    DET  Keider Montero        0.0338  0.0307   0.90  0.0215   0.092   +981   172  
+Caballero, José         R    7    NYY  Jake Bennett          0.0212  0.0263   1.15  0.0236   0.091   +995   78   
 Duran, Ezequiel         R    5    MIL  Shane Drohan          0.0207  0.0228   1.04  0.0185   0.091   +1000  79   
-Herrera, Iván           R    2    STL  Lake Bachar           0.0239  0.0237   1.05  0.0194   0.091   +1001  276  
-Caballero, José         R    7    NYY  Jake Bennett          0.0212  0.0263   1.13  0.0232   0.090   +1009  78   
-Bateman, Brett          L    1    TOR  Kade Anderson         0.0217  0.0245   1.08  0.0206   0.089   +1019  19   
-Lee, Brooks             L    2    MIN  Erick Fedde           0.0229  0.0236   1.04  0.0192   0.089   +1021  283  
-Rafaela, Ceddanne       R    2    NYY  Max Fried             0.0271  0.0179   1.13  0.0158   0.089   +1021  95   
-Edman, Tommy            L    5    DET  Keider Montero        0.0247  0.0287   0.93  0.0208   0.088   +1033  112  
-Naylor, Josh            L    4    TOR  José Soriano          0.0229  0.0227   1.08  0.0191   0.088   +1035  289  
-Caratini, Victor        L    8    MIN  Erick Fedde           0.0259  0.0267   1.04  0.0217   0.087   +1049  167  
-Loftin, Nick            R    5    CLE  Foster Griffin        0.0221  0.0270   0.98  0.0205   0.087   +1052  101  
-Fry, David              R    6    CLE  Daniel Lynch IV       0.0211  0.0218   0.98  0.0166   0.087   +1053  52   
-Gonzalez, Jacob         L    8    STL  Kyle Leahy            0.0218  0.0276   1.04  0.0224   0.087   +1055  122  
+Lee, Jung Hoo           L    4    SF   Merrill Kelly         0.0199  0.0311   0.98  0.0238   0.091   +1001  292  
+Herrera, Iván           R    2    STL  Lake Bachar           0.0239  0.0237   1.05  0.0193   0.090   +1006  276  
+Rafaela, Ceddanne       R    2    NYY  Max Fried             0.0271  0.0179   1.15  0.0161   0.090   +1007  95   
+Bateman, Brett          L    1    TOR  Kade Anderson         0.0217  0.0245   1.08  0.0206   0.089   +1020  19   
+Naylor, Josh            L    4    TOR  José Soriano          0.0229  0.0227   1.08  0.0191   0.088   +1036  289  
+Paredes, Isaac          R    3    NYM  Nolan McLean          0.0250  0.0207   1.07  0.0172   0.088   +1038  302  
+Lee, Brooks             L    2    MIN  Erick Fedde           0.0229  0.0236   1.02  0.0188   0.088   +1042  283  
+Edman, Tommy            L    5    DET  Keider Montero        0.0247  0.0287   0.92  0.0205   0.087   +1049  112  
+White, Eli              R    9    NYY  Carlos Rodón          0.0224  0.0218   1.15  0.0196   0.087   +1049  67   
 Kirk, Alejandro         R    2    TOR  Kade Anderson         0.0191  0.0209   1.06  0.0172   0.086   +1056  53   
-White, Eli              R    9    NYY  Carlos Rodón          0.0224  0.0218   1.13  0.0192   0.086   +1064  67   
-Tucker, Kyle            L    6    DET  Keider Montero        0.0241  0.0280   0.93  0.0204   0.085   +1072  254  
-Sogard, Nick            R    7    NYY  Max Fried             0.0344  0.0228   1.13  0.0201   0.085   +1081  23   
-Genao, Angel            R    7    CLE  Daniel Lynch IV       0.0227  0.0234   0.98  0.0178   0.084   +1088  15   
+Gonzalez, Jacob         L    8    STL  Kyle Leahy            0.0218  0.0276   1.03  0.0223   0.086   +1059  122  
+Sogard, Nick            R    7    NYY  Max Fried             0.0344  0.0228   1.15  0.0205   0.086   +1067  23   
+Loftin, Nick            R    5    CLE  Foster Griffin        0.0221  0.0270   0.96  0.0201   0.086   +1068  101  
+Fry, David              R    6    CLE  Daniel Lynch IV       0.0211  0.0218   0.96  0.0163   0.086   +1070  52   
+Caratini, Victor        L    8    MIN  Erick Fedde           0.0259  0.0267   1.02  0.0212   0.085   +1072  167  
+Tucker, Kyle            L    6    DET  Keider Montero        0.0241  0.0280   0.92  0.0200   0.084   +1088  254  
 Straw, Myles            R    9    TOR  Kade Anderson         0.0265  0.0289   1.06  0.0239   0.083   +1102  110  
-Keaschall, Luke         R    1    MIN  Erick Fedde           0.0186  0.0214   1.05  0.0176   0.082   +1117  246  
-Meidroth, Chase         R    7    MIN  Bailey Ober           0.0215  0.0236   1.05  0.0194   0.082   +1118  257  
-Tolbert, Tyler          R    6    CLE  Foster Griffin        0.0160  0.0195   0.98  0.0149   0.081   +1130  50   
-Ruiz, Keibert           L    6    WSH  Sandy Alcantara       0.0216  0.0215   1.10  0.0184   0.081   +1132  184  
-Wong, Connor            R    8    NYY  Max Fried             0.0334  0.0221   1.13  0.0195   0.081   +1133  47   
-Durbin, Caleb           R    5    NYY  Carlos Rodón          0.0231  0.0225   1.13  0.0198   0.081   +1139  103  
-Hedges, Austin          R    8    CLE  Daniel Lynch IV       0.0239  0.0247   0.98  0.0188   0.081   +1141  75   
-Freeman, Cody           R    9    MIL  Shane Drohan          0.0211  0.0233   1.04  0.0189   0.080   +1158  21   
-Perdomo, Geraldo        R    4    SF   Matt Wilkinson        0.0147  0.0175   1.12  0.0152   0.077   +1195  129  
-Gonzales, Nick          R    4    STL  Kyle Leahy            0.0188  0.0199   1.05  0.0163   0.077   +1199  265  
-Hamilton, David         L    9    MIL  Cal Quantrill         0.0203  0.0235   1.06  0.0194   0.077   +1204  181  
-Caballero, José         R    9    NYY  Alec Gamboa           0.0212  0.0204   1.13  0.0179   0.076   +1218  78   
-Malgeri, Ben            R    7    DET  Blake Snell           0.0190  0.0172   0.91  0.0122   0.076   +1221  31   
-Vivas, Jorbit           L    8    WSH  Sandy Alcantara       0.0206  0.0205   1.10  0.0176   0.075   +1230  189  
-Friedl, TJ              L    8    CHC  Kevin Gausman         0.0201  0.0190   1.12  0.0165   0.074   +1246  139  
-Rocchio, Brayan         R    9    CLE  Daniel Lynch IV       0.0251  0.0259   0.98  0.0197   0.073   +1261  121  
+Genao, Angel            R    7    CLE  Daniel Lynch IV       0.0227  0.0234   0.96  0.0175   0.083   +1106  15   
+Altuve, Jose            R    4    NYM  Nolan McLean          0.0235  0.0194   1.07  0.0162   0.082   +1115  253  
+Wong, Connor            R    8    NYY  Max Fried             0.0334  0.0221   1.15  0.0198   0.082   +1118  47   
+Durbin, Caleb           R    5    NYY  Carlos Rodón          0.0231  0.0225   1.15  0.0202   0.082   +1124  103  
+Ruiz, Keibert           L    6    WSH  Sandy Alcantara       0.0216  0.0215   1.10  0.0184   0.081   +1138  184  
+Keaschall, Luke         R    1    MIN  Erick Fedde           0.0186  0.0214   1.03  0.0171   0.081   +1139  246  
+Meidroth, Chase         R    7    MIN  Bailey Ober           0.0215  0.0236   1.03  0.0190   0.081   +1141  257  
+Tolbert, Tyler          R    6    CLE  Foster Griffin        0.0160  0.0195   0.96  0.0146   0.080   +1147  50   
+Hedges, Austin          R    8    CLE  Daniel Lynch IV       0.0239  0.0247   0.96  0.0185   0.079   +1159  75   
+Freeman, Cody           R    9    MIL  Shane Drohan          0.0211  0.0233   1.04  0.0189   0.079   +1159  21   
+Caballero, José         R    9    NYY  Alec Gamboa           0.0212  0.0204   1.15  0.0183   0.077   +1200  78   
+Gonzales, Nick          R    4    STL  Kyle Leahy            0.0188  0.0199   1.05  0.0162   0.077   +1204  265  
+Hamilton, David         L    9    MIL  Cal Quantrill         0.0203  0.0235   1.06  0.0194   0.077   +1205  181  
+Perdomo, Geraldo        R    4    SF   Matt Wilkinson        0.0147  0.0175   1.10  0.0150   0.076   +1212  129  
+Friedl, TJ              L    8    CHC  Kevin Gausman         0.0201  0.0190   1.15  0.0170   0.076   +1221  139  
+Vivas, Jorbit           L    8    WSH  Sandy Alcantara       0.0206  0.0205   1.10  0.0175   0.075   +1235  189  
+Malgeri, Ben            R    7    DET  Blake Snell           0.0190  0.0172   0.90  0.0120   0.075   +1239  31   
+White, Eli              R    9    NYY  Max Fried             0.0224  0.0148   1.15  0.0133   0.074   +1251  67   
 Clement, Ernie          R    7    TOR  Kade Anderson         0.0203  0.0221   1.06  0.0183   0.073   +1262  141  
-White, Eli              R    9    NYY  Max Fried             0.0224  0.0148   1.13  0.0130   0.073   +1270  67   
-Clark, Max              L    9    DET  Blake Snell           0.0261  0.0259   0.93  0.0189   0.072   +1283  22   
-Pratt, Cooper           R    8    MIL  Cal Quantrill         0.0239  0.0190   1.04  0.0154   0.072   +1283  93   
-Marsee, Jakob           L    6    WSH  Cade Cavalli          0.0194  0.0168   1.10  0.0144   0.072   +1291  265  
-Báez, Javier            R    8    DET  Blake Snell           0.0281  0.0255   0.91  0.0182   0.071   +1304  37   
-Triolo, Jared           R    9    STL  Kyle Leahy            0.0190  0.0202   1.05  0.0165   0.071   +1316  125  
-Ward, Taylor            R    7    TOR  José Soriano          0.0186  0.0183   1.06  0.0151   0.070   +1320  244  
-Edwards, Xavier         L    3    WSH  Cade Cavalli          0.0173  0.0150   1.10  0.0129   0.070   +1322  325  
-Sanoja, Javier          R    7    WSH  Cade Cavalli          0.0160  0.0167   1.11  0.0145   0.067   +1388  222  
-Durbin, Caleb           R    5    NYY  Max Fried             0.0231  0.0153   1.13  0.0134   0.067   +1393  103  
-Mangum, Jake            L    6    STL  Kyle Leahy            0.0140  0.0177   1.04  0.0144   0.065   +1438  211  
-Fermín, José            R    6    STL  Lake Bachar           0.0166  0.0165   1.05  0.0135   0.065   +1441  125  
-Hoerner, Nico           R    5    CHC  Andrew Abbott         0.0138  0.0160   1.14  0.0142   0.063   +1480  121  
-Kwan, Steven            L    1    CLE  Daniel Lynch IV       0.0114  0.0123   1.02  0.0097   0.052   +1831  107  
-Nuñez, Nasim            L    9    WSH  Sandy Alcantara       0.0079  0.0079   1.10  0.0068   0.037   +2625  214  
+Rocchio, Brayan         R    9    CLE  Daniel Lynch IV       0.0251  0.0259   0.96  0.0194   0.072   +1279  121  
+Pratt, Cooper           R    8    MIL  Cal Quantrill         0.0239  0.0190   1.04  0.0154   0.072   +1285  93   
+Marsee, Jakob           L    6    WSH  Cade Cavalli          0.0194  0.0168   1.10  0.0144   0.071   +1299  265  
+Clark, Max              L    9    DET  Blake Snell           0.0261  0.0259   0.92  0.0185   0.071   +1303  22   
+Triolo, Jared           R    9    STL  Kyle Leahy            0.0190  0.0202   1.05  0.0165   0.070   +1320  125  
+Ward, Taylor            R    7    TOR  José Soriano          0.0186  0.0183   1.06  0.0151   0.070   +1322  244  
+Báez, Javier            R    8    DET  Blake Snell           0.0281  0.0255   0.90  0.0178   0.070   +1327  37   
+Edwards, Xavier         L    3    WSH  Cade Cavalli          0.0173  0.0150   1.10  0.0128   0.070   +1329  325  
+Durbin, Caleb           R    5    NYY  Max Fried             0.0231  0.0153   1.15  0.0137   0.068   +1375  103  
+Sanoja, Javier          R    7    WSH  Cade Cavalli          0.0160  0.0167   1.11  0.0145   0.067   +1393  222  
+Mangum, Jake            L    6    STL  Kyle Leahy            0.0140  0.0177   1.03  0.0143   0.065   +1446  211  
+Fermín, José            R    6    STL  Lake Bachar           0.0166  0.0165   1.05  0.0135   0.065   +1450  125  
+Hoerner, Nico           R    5    CHC  Andrew Abbott         0.0138  0.0160   1.17  0.0146   0.064   +1453  121  
+Allen, Nick             R    8    NYM  Nolan McLean          0.0180  0.0149   1.07  0.0124   0.062   +1505  73   
+Vázquez, Christian      R    9    NYM  Nolan McLean          0.0168  0.0139   1.07  0.0115   0.058   +1633  134  
+Kwan, Steven            L    1    CLE  Daniel Lynch IV       0.0114  0.0123   1.00  0.0095   0.051   +1861  107  
+Nuñez, Nasim            L    9    WSH  Sandy Alcantara       0.0079  0.0079   1.10  0.0068   0.036   +2640  214  
