@@ -1,5 +1,6 @@
 game,park,exp_hr,p_over_2_5
 Boston Red Sox @ New York Yankees,NYY,4.48,0.825
+Baltimore Orioles @ Athletics,OAK,2.35,0.417
 Chicago White Sox @ Minnesota Twins,MIN,2.31,0.406
 Arizona Diamondbacks @ San Francisco Giants,SF,2.23,0.385
 Cincinnati Reds @ Chicago Cubs,CHC,2.22,0.382
@@ -11,3 +12,4 @@ Miami Marlins @ Washington Nationals,WSH,1.97,0.316
 Seattle Mariners @ Toronto Blue Jays,TOR,1.92,0.301
 Los Angeles Dodgers @ Detroit Tigers,DET,1.82,0.274
 Kansas City Royals @ Cleveland Guardians,CLE,1.75,0.257
+Philadelphia Phillies @ Los Angeles Angels,LAA,1.3,0.142
