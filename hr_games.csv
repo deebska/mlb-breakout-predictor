@@ -1,11 +1,12 @@
 game,park,exp_hr,p_over_2_5
-Boston Red Sox @ New York Yankees,NYY,4.48,0.825
-Arizona Diamondbacks @ San Francisco Giants,SF,3.21,0.623
-Chicago White Sox @ Minnesota Twins,MIN,2.23,0.386
-Cincinnati Reds @ Chicago Cubs,CHC,2.21,0.38
+Boston Red Sox @ New York Yankees,NYY,4.52,0.829
+Arizona Diamondbacks @ San Francisco Giants,SF,4.21,0.791
+Cincinnati Reds @ Chicago Cubs,CHC,2.2,0.378
 Texas Rangers @ Milwaukee Brewers,MIL,2.19,0.375
-Pittsburgh Pirates @ St. Louis Cardinals,STL,2.12,0.356
-Miami Marlins @ Washington Nationals,WSH,2.02,0.33
+Chicago White Sox @ Minnesota Twins,MIN,2.14,0.361
+Pittsburgh Pirates @ St. Louis Cardinals,STL,2.07,0.343
+Miami Marlins @ Washington Nationals,WSH,1.97,0.315
+Houston Astros @ New York Mets,NYM,1.96,0.311
 Seattle Mariners @ Toronto Blue Jays,TOR,1.92,0.301
-Los Angeles Dodgers @ Detroit Tigers,DET,1.77,0.262
+Los Angeles Dodgers @ Detroit Tigers,DET,1.77,0.26
 Kansas City Royals @ Cleveland Guardians,CLE,1.75,0.257
