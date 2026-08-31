@@ -24,3 +24,15 @@
 - HUMILITY: sigma should widen when recent daily errors lean one
   direction (correlated regime error), not just with dollars remaining.
   The August lesson: a 97% that ignores regime risk is a 90%.
+- HOLIDAY RULE: a holiday 4-day frame (e.g. Labor Day Fri-Mon) runs
+  0.9-1.2x the film's immediately preceding 3-day weekend (Oppenheimer
+  2023 Labor Day: +22% vs prior frame). NEVER price a holiday frame
+  below the ordinary weekend before it. The holiday Monday plays like a
+  weekend day (~-15 to -20% off Sunday), not like a school Monday.
+- READ STABILITY: before finalizing, compare your central to the
+  previous journal entry's central. Unless the ledger surprised by >5%
+  on a day or a confirmed material news event landed (re-release,
+  discount day, screen collapse), a new central should sit within ~$5M
+  of yesterday's. A larger move must name the specific new fact driving
+  it in the rationale. Always apply the 2.4x scale factor when using
+  Oppenheimer comps -- raw 2023 figures are NEVER used directly.
