@@ -10,6 +10,27 @@ import sys
 import pandas as pd
 from datetime import date
 
+LEVEL_SCALAR_REF = 0.78    # mirror of board.py's level constant
+
+
+def vs_usual_cell(r):
+    try:
+        usual = float(r["talent_hr_pa"]) * LEVEL_SCALAR_REF
+        dev = float(r["rate_tonight"]) / usual - 1 if usual > 0 else 0.0
+    except (KeyError, TypeError, ValueError, ZeroDivisionError):
+        return "<td class='hide-m'></td>"
+    pct = f"{dev:+.0%}"
+    if dev >= 0.25:
+        return (f"<td style='color:#3ddc84;font-weight:700'>&#9650; "
+                f"{pct}</td>")
+    if dev <= -0.20:
+        return (f"<td style='color:#ff6b6b;font-weight:700'>&#9660; "
+                f"{pct}</td>")
+    color = "#9db4d6" if abs(dev) < 0.10 else (
+        "#3ddc84" if dev > 0 else "#ff6b6b")
+    return f"<td style='color:{color}'>{pct}</td>"
+
+
 def baseball_today():
     """The slate date: today in US/Eastern, baseball's clock (UTC servers
     would otherwise roll the date at 8pm ET)."""
@@ -100,6 +121,7 @@ def build(csv_path=CSV, out_path=OUT):
           f"<td>{r['park']}</td>"
           f"<td class='hide-m'>{r['vs_sp']}</td>"
           f"<td class='hide-m'>x{float(r['env_mult']):.2f}</td>"
+          + vs_usual_cell(r) +
           f"<td class='p'>{p:.1%}</td>"
           f"<td class='fair'>{fo}</td>"
           f"<td>{round(p*100)}&cent;</td>"
@@ -123,12 +145,18 @@ in posted lineups &middot; model chain: Statcast talent &rarr; starter matchup
 &rarr; park &times; temp &times; wind &rarr; lineup-slot plate appearances</div>
 <table><thead><tr><th>#</th><th>Player</th><th>Park</th>
 <th class="hide-m">Opposing SP</th><th class="hide-m">Env</th>
+<th>vs usual</th>
 <th>P(HR)</th><th>Fair odds</th><th>Fair &cent;</th>
 <th>Bid &le;</th>{mkt_head}<th class="hide-m">BBE</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table>
 {games_html}
 <div class="foot">
-<b>How to read it:</b> "Fair &cent;" is the model's probability as a
+<b>How to read it:</b> "vs usual" compares tonight's
+modeled rate to the hitter's own season talent baseline -- it isolates what
+the matchup and ballpark/weather are doing to HIS normal night.
+&#9650; +25% or more is an unusually favorable setup; &#9660; -20% or worse
+is an unusually hostile one. A star can be elevated and a scrub suppressed
+on the same slate; this column is about the setup, not the player. "Fair &cent;" is the model's probability as a
 prediction-market price; "Bid &le;" is the maximum resting bid that keeps an
 {int(BID_MARGIN*100)}%+ edge after the maker's margin -- offers above it are
 paying more than the model thinks the outcome is worth. P(HR) is the model's probability the player hits at least
