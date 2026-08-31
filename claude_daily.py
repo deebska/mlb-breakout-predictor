@@ -157,6 +157,24 @@ Respond with ONLY a JSON object, no markdown fences, no other text:
         return _extract_json(resp2)
 
 
+def mechanical_bounds(days, cume):
+    """Ledger-derived floor/ceiling on the Sep-30 central (in $M).
+    Bounds remaining dollars using the film's own last weekend and
+    weekday level -- catches dropped scale factors and impossible
+    holiday math without dictating the answer."""
+    wk = [d["gross"] for d in days[-10:]
+          if d["dow"] in ("Fri", "Sat", "Sun")][-3:]
+    wknd3 = sum(wk) if len(wk) == 3 else 15.0
+    wkd = [d["gross"] for d in days[-10:]
+           if d["dow"] not in ("Fri", "Sat", "Sun")]
+    wd = sum(wkd[-3:]) / max(len(wkd[-3:]), 1)
+    # weekends: LD 4-day ~0.9x last frame + three decaying frames;
+    # weekdays: ~4 pre-holiday days near current level, ~16 post-cliff
+    # days at a deeply decayed average (the Oppenheimer-at-scale shape)
+    base = wknd3 * (0.9 + 0.55 + 0.38 + 0.27) + wd * (4 * 0.85 + 16 * 0.35)
+    return cume / 1e6 + 0.5 * base, cume / 1e6 + 1.8 * base
+
+
 def validate(out, cume):
     b = {k: max(0.0, float(out["brackets"].get(k, 0))) for k in BRACKETS}
     s = sum(b.values())
@@ -194,11 +212,37 @@ def main():
             print(f"claude_daily: already journaled for {latest}; skipping")
             return 0
     days, cume, holds = build_context(df)
-    try:
-        out = validate(call_claude(key, days, cume, holds), cume)
-    except Exception as e:
-        print(f"claude_daily: FAILED ({e}); journal untouched")
+    lo, hi = mechanical_bounds(days, cume)
+    samples = []
+    for i in range(4):                      # 3 target + 1 spare
+        if len(samples) >= 3:
+            break
+        try:
+            s = validate(call_claude(key, days, cume, holds), cume)
+        except Exception as e:
+            print(f"claude_daily: sample {i+1} failed ({e})")
+            continue
+        cen = s["sept30_central_musd"]
+        if not lo <= cen <= hi:
+            print(f"claude_daily: sample {i+1} central {cen} outside "
+                  f"mechanical bounds [{lo:.0f}, {hi:.0f}] -- discarded")
+            continue
+        samples.append(s)
+        print(f"claude_daily: sample {i+1} central {cen} ok")
+    if not samples:
+        print("claude_daily: FAILED (no sample passed bounds); "
+              "journal untouched")
         return 0
+    samples.sort(key=lambda s: s["sept30_central_musd"])
+    out = samples[len(samples) // 2]
+    if len(samples) > 1:
+        agg = {}
+        for k in BRACKETS:
+            agg[k] = sum(s["brackets"][k] for s in samples) / len(samples)
+        tot = sum(agg.values())
+        out["brackets"] = dict(
+            (k, round(v / tot, 4)) for k, v in agg.items())
+        out["n_samples"] = len(samples)
     out["data_through"] = latest
     with open(JOURNAL, "a") as f:
         f.write(json.dumps(out) + "\n")
