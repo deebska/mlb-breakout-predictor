@@ -325,6 +325,22 @@ def forecast(df, film):
             d += timedelta(days=1)
         return total
 
+    def project_path(k):
+        path, d = [], last_date + timedelta(days=1)
+        while d <= eom:
+            anchor, weeks = None, 1
+            back = d - timedelta(days=7)
+            while weeks <= 6:
+                if str(back) in days:
+                    anchor = days[str(back)]
+                    break
+                back -= timedelta(days=7)
+                weeks += 1
+            path.append({"date": str(d),
+                         "gross": anchor * (k ** weeks) if anchor else 0.0})
+            d += timedelta(days=1)
+        return path
+
     central = cume + project(decay)
     lo = cume + project(lo_decay)
     hi = cume + project(hi_decay)
@@ -333,7 +349,8 @@ def forecast(df, film):
             "target_date": str(eom), "central": central,
             "p80_lo": lo, "p80_hi": hi, "weekly_decay": round(decay, 3),
             "daily_series": [{"date": ds, "gross": days[ds]}
-                             for ds in sorted(days)]}
+                             for ds in sorted(days)],
+            "future_path": project_path(decay)}
 
 
 def mode_check():

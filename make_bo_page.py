@@ -458,6 +458,30 @@ def build():
                          + pcell + tcells +
                          f"<td class='hide-m'>{wow}</td>"
                          f"<td>${cume/1e6:,.1f}M</td></tr>")
+            model_path_html = ""
+            fut = fc.get("future_path") or []
+            if fut:
+                frows = ""
+                run = float(fc.get("cume_to_date") or
+                            sum(s["gross"] for s in series))
+                for x in fut:
+                    run += x["gross"]
+                    dd = datetime.strptime(x["date"], "%Y-%m-%d")
+                    wknd = dd.weekday() >= 4
+                    frows += (
+                        f"<tr><td>{x['date']}</td>"
+                        f"<td>{dd.strftime('%a')}</td>"
+                        f"<td style='{'font-weight:600' if wknd else ''}"
+                        f"color:var(--accent)'>${x['gross']/1e6:,.1f}M</td>"
+                        f"<td style='color:var(--dim)'>"
+                        f"${run/1e6:,.1f}M</td></tr>")
+                model_path_html = (
+                    "<h3 style='font-size:15px;margin:14px 0 6px;"
+                    "color:var(--dim)'>Upcoming days -- model path "
+                    "(re-derived every run, not frozen)</h3>"
+                    "<table><thead><tr><th>Date</th><th>Day</th>"
+                    "<th>Model est.</th><th>Proj. cume</th></tr></thead>"
+                    f"<tbody>{frows}</tbody></table>")
             sept_html = sept_book_html(
                 film["name"], series[-1]["date"])
             prereg = CLAUDE_EOM.get(film["name"])
@@ -557,7 +581,7 @@ def build():
                 + "".join(f"<th>{lab}</th>" for lab, _ in wins)
                 + "<th class='hide-m'>vs same day last wk</th><th>Cume</th>"
                 "</tr></thead><tbody>" + rows + "</tbody></table>"
-                + future_rows_html + sept_html)
+                + future_rows_html + model_path_html + sept_html)
         body = "<hr style='border:0;border-top:1px solid #1e2a44;"               "margin:30px 0'>".join(sections)
     rumors_html = ""
     rpath = os.path.join(HERE, "bo_data", "rumors.json")
