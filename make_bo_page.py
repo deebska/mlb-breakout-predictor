@@ -393,6 +393,15 @@ def build():
                         if _nd.get("date"):
                             jmap[str(_nd["date"])] = \
                                 float(_nd["gross_musd"]) * 1e6
+            jcen = {}
+            if film["name"] == "Spider-Man: Brand New Day" and \
+                    os.path.exists(SEPT_JOURNAL):
+                for _ln in open(SEPT_JOURNAL):
+                    if _ln.strip():
+                        _r = json.loads(_ln)
+                        if _r.get("data_through"):
+                            jcen[str(_r["data_through"])] = \
+                                float(_r["sept30_central_musd"]) * 1e6
             traj = {}
             dayahead = {}
             if sheet_start:
@@ -411,6 +420,10 @@ def build():
                                          "reported_cume": None} for x in hist])
                     fc_d = bo_forecast(tdf, film)
                     cl_d, _, _ = claude_live(hist, sheet)
+                    if s["date"] >= "2026-09-01" and jcen:
+                        _past = [v for k, v in sorted(jcen.items())
+                                 if k <= s["date"]]
+                        cl_d = _past[-1] if _past else None
                     cume_d = sum(x["gross"] for x in hist)
                     probs = eom_prob_windows(cl_d, cume_d,
                                              [w for _, w in wins])
@@ -482,6 +495,34 @@ def build():
                     "<table><thead><tr><th>Date</th><th>Day</th>"
                     "<th>Model est.</th><th>Proj. cume</th></tr></thead>"
                     f"<tbody>{frows}</tbody></table>")
+            sept_prereg = None
+            sept_cards = ""
+            if jcen:
+                _k0 = sorted(jcen)[0]
+                sept_prereg = jcen[_k0]
+                sept_cards = (
+                    "<div class='stat'><div class='lab'>Claude Sept "
+                    f"pre-reg (read of {_k0})</div><div class='big' "
+                    "style='color:var(--gold)'>"
+                    f"${sept_prereg/1e6:,.0f}M</div></div>")
+            _mo_path = os.path.join(HERE, "bo_data",
+                                    "model_sept_open.json")
+            if fc.get("target_date") == "2026-09-30":
+                if not os.path.exists(_mo_path):
+                    json.dump({"film": film["name"],
+                               "central": fc["central"],
+                               "captured": str(date.today())},
+                              open(_mo_path, "w"))
+                try:
+                    _mo = json.load(open(_mo_path))
+                    if _mo.get("film") == film["name"]:
+                        sept_cards += (
+                            "<div class='stat'><div class='lab'>Model "
+                            f"Sept opening ({_mo['captured']})</div>"
+                            "<div class='big'>"
+                            f"${_mo['central']/1e6:,.0f}M</div></div>")
+                except Exception:
+                    pass
             sept_html = sept_book_html(
                 film["name"], series[-1]["date"])
             prereg = CLAUDE_EOM.get(film["name"])
@@ -570,8 +611,9 @@ def build():
                 f"<div class='stat'><div class='lab'>80% range</div>"
                 f"<div class='big' style='font-size:20px'>"
                 f"${fc['p80_lo']/1e6:,.0f}-{fc['p80_hi']/1e6:,.0f}M</div></div>"
-                + claude_card + score_card
-                + proj_chart(traj, ce, wins) +
+                + claude_card + sept_cards + score_card
+                + proj_chart(traj, ({"central": sept_prereg}
+                                    if sept_prereg else ce), wins) +
                 "<h3 style='font-size:16px;margin:16px 0 6px'>Daily grosses"
                 "</h3>"
                 "<table><thead><tr><th>Date</th><th>Day</th><th>Gross</th>"
