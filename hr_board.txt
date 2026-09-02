@@ -1,19 +1,109 @@
-HR BOARD -- 2026-09-02 -- 17 hitters composed
+HR BOARD -- 2026-09-02 -- 107 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Stewart, Sal            R    3    CIN  Casey Mize            0.0484  0.0616   1.40  0.0673   0.216   +363   310  
-Tatis Jr., Fernando     R    1    CIN  Brandon Williamson    0.0450  0.0524   1.40  0.0573   0.211   +373   94   
-Stephenson, Tyler       R    5    CIN  Casey Mize            0.0471  0.0599   1.40  0.0655   0.206   +386   189  
-Merrill, Jackson        L    3    CIN  Brandon Williamson    0.0300  0.0337   1.43  0.0375   0.174   +474   108  
-De La Cruz, Elly        L    2    CIN  Casey Mize            0.0412  0.0348   1.43  0.0388   0.167   +497   235  
-France, Ty              R    4    CIN  Brandon Williamson    0.0316  0.0369   1.40  0.0404   0.163   +515   77   
-McLain, Matt            R    8    CIN  Casey Mize            0.0341  0.0436   1.40  0.0477   0.157   +538   194  
-Bleday, JJ              L    4    CIN  Casey Mize            0.0390  0.0330   1.43  0.0368   0.155   +545   217  
-Rodríguez, Héctor       L    1    CIN  Casey Mize            0.0337  0.0285   1.43  0.0317   0.148   +576   41   
-Campusano, Luis         R    8    CIN  Brandon Williamson    0.0254  0.0297   1.40  0.0325   0.134   +647   22   
-Taylor, Samad           R    2    CIN  Brandon Williamson    0.0267  0.0312   1.40  0.0342   0.133   +651   19   
-Hays, Austin            R    7    CIN  Brandon Williamson    0.0260  0.0304   1.40  0.0332   0.128   +682   22   
-Bogaerts, Xander        R    5    CIN  Brandon Williamson    0.0193  0.0226   1.40  0.0247   0.121   +724   102  
-Brito, Juan             L    7    CIN  Casey Mize            0.0221  0.0186   1.43  0.0207   0.097   +931   26   
-Myers, Dane             R    6    CIN  Casey Mize            0.0161  0.0207   1.40  0.0226   0.095   +950   100  
-Cronenworth, Jake       L    9    CIN  Brandon Williamson    0.0158  0.0178   1.43  0.0198   0.090   +1009  53   
-Arroyo, Edwin           L    9    CIN  Casey Mize            0.0205  0.0173   1.43  0.0193   0.088   +1038  76   
+Stewart, Sal            R    3    CIN  Casey Mize            0.0484  0.0616   1.43  0.0687   0.209   +379   310  
+Tatis Jr., Fernando     R    1    CIN  Brandon Williamson    0.0450  0.0524   1.43  0.0585   0.204   +390   94   
+Basallo, Samuel         L    5    COL  Tomoyuki Sugano       0.0511  0.0818   1.12  0.0717   0.202   +396   173  
+Wood, James             L    1    WSH  Grant Holmes          0.0604  0.0696   1.11  0.0602   0.201   +399   187  
+Stephenson, Tyler       R    5    CIN  Casey Mize            0.0471  0.0599   1.43  0.0669   0.199   +404   189  
+Alonso, Pete            R    2    COL  Tomoyuki Sugano       0.0456  0.0631   1.14  0.0563   0.182   +448   258  
+Olson, Matt             L    3    WSH  Brad Lord             0.0567  0.0597   1.11  0.0516   0.182   +451   224  
+Baldwin, Drake          L    1    WSH  Brad Lord             0.0526  0.0554   1.11  0.0479   0.178   +463   213  
+Merrill, Jackson        L    3    CIN  Brandon Williamson    0.0300  0.0337   1.46  0.0383   0.168   +496   108  
+Harris II, Michael      L    5    WSH  Brad Lord             0.0522  0.0550   1.11  0.0475   0.166   +504   257  
+Goodman, Hunter         R    3    COL  Trevor Rogers         0.0399  0.0491   1.14  0.0438   0.165   +507   84   
+De La Cruz, Elly        L    2    CIN  Casey Mize            0.0412  0.0348   1.46  0.0396   0.161   +520   235  
+Cowser, Colton          L    9    COL  Tomoyuki Sugano       0.0390  0.0630   1.12  0.0552   0.158   +532   172  
+France, Ty              R    4    CIN  Brandon Williamson    0.0316  0.0369   1.43  0.0412   0.157   +539   77   
+Henderson, Gunnar       L    3    COL  Tomoyuki Sugano       0.0342  0.0553   1.12  0.0485   0.156   +540   283  
+Schwarber, Kyle         L    1    ARI  Taylor Clarke         0.0489  0.0483   1.02  0.0384   0.155   +545   186  
+Carroll, Corbin         L    2    ARI  Andrew Painter        0.0488  0.0502   1.02  0.0399   0.153   +555   256  
+Lile, Daylen            L    6    WSH  Grant Holmes          0.0455  0.0526   1.11  0.0455   0.152   +559   317  
+Holliday, Jackson       L    1    COL  Tomoyuki Sugano       0.0314  0.0509   1.12  0.0446   0.151   +563   157  
+McLain, Matt            R    8    CIN  Casey Mize            0.0341  0.0436   1.43  0.0486   0.151   +564   194  
+Bleday, JJ              L    4    CIN  Casey Mize            0.0390  0.0330   1.46  0.0375   0.149   +570   217  
+Abrams, CJ              L    4    WSH  Grant Holmes          0.0417  0.0482   1.11  0.0417   0.147   +578   263  
+Harper, Bryce           L    3    ARI  Taylor Clarke         0.0475  0.0470   1.02  0.0374   0.147   +579   241  
+Beavers, Dylan          L    7    COL  Tomoyuki Sugano       0.0336  0.0544   1.12  0.0477   0.146   +583   143  
+Rodríguez, Héctor       L    1    CIN  Casey Mize            0.0337  0.0285   1.46  0.0324   0.142   +604   41   
+Chaparro, Andrés        R    5    WSH  Grant Holmes          0.0433  0.0426   1.12  0.0372   0.139   +617   40   
+Ortiz, Abimelec         L    2    WSH  Grant Holmes          0.0365  0.0422   1.11  0.0365   0.139   +621   65   
+Alexander, Blaze        R    8    COL  Tomoyuki Sugano       0.0340  0.0473   1.14  0.0422   0.136   +635   116  
+Acuña Jr., Ronald       R    2    WSH  Brad Lord             0.0435  0.0330   1.12  0.0288   0.136   +636   165  
+Burger, Jake            R    5    TEX  Jacob Lopez           0.0474  0.0474   1.00  0.0370   0.132   +660   87   
+Nootbaar, Lars          L    1    ARI  Andrew Painter        0.0383  0.0394   1.02  0.0314   0.131   +666   145  
+Tawa, Tim               R    6    ARI  Andrew Painter        0.0426  0.0455   1.01  0.0359   0.131   +666   137  
+Seager, Corey           L    2    TEX  Jacob Lopez           0.0366  0.0325   1.01  0.0256   0.131   +666   62   
+Campusano, Luis         R    8    CIN  Brandon Williamson    0.0254  0.0297   1.43  0.0332   0.129   +678   22   
+Taylor, Samad           R    2    CIN  Brandon Williamson    0.0267  0.0312   1.43  0.0349   0.128   +682   19   
+Díaz, Elias             R    7    TEX  Jacob Lopez           0.0544  0.0545   1.00  0.0425   0.124   +705   61   
+Serven, Brian           R    8    TEX  Cody Bradford         0.0382  0.0475   1.00  0.0371   0.124   +708   20   
+Heim, Jonah             R    4    TEX  Cody Bradford         0.0396  0.0493   1.00  0.0385   0.123   +711   106  
+Abreu, Wilyer           L    4    BOS  Bryce Miller          0.0487  0.0458   0.84  0.0299   0.123   +712   280  
+Norby, Connor           R    2    COL  Trevor Rogers         0.0320  0.0395   1.14  0.0353   0.123   +715   55   
+Hays, Austin            R    7    CIN  Brandon Williamson    0.0260  0.0304   1.43  0.0339   0.123   +715   22   
+Robert Jr., Luis        R    4    COL  Tomoyuki Sugano       0.0267  0.0373   1.14  0.0333   0.122   +720   100  
+Gelof, Zack             R    2    TEX  Cody Bradford         0.0311  0.0387   1.00  0.0302   0.119   +738   62   
+Bolte, Henry            R    1    TEX  Cody Bradford         0.0371  0.0462   1.00  0.0360   0.118   +747   72   
+Moreno, Gabriel         R    3    ARI  Andrew Painter        0.0342  0.0366   1.01  0.0288   0.118   +750   234  
+Gasper, Mickey          L    2    BOS  Bryce Miller          0.0431  0.0405   0.84  0.0264   0.117   +755   104  
+Bogaerts, Xander        R    5    CIN  Brandon Williamson    0.0193  0.0226   1.43  0.0252   0.117   +758   102  
+Foscue, Justin          R    6    TEX  Jacob Lopez           0.0399  0.0399   1.00  0.0311   0.116   +761   82   
+Crews, Dylan            R    3    WSH  Grant Holmes          0.0316  0.0311   1.12  0.0271   0.116   +766   161  
+Canzone, Dominic        L    2    BOS  Patrick Sandoval      0.0299  0.0317   0.84  0.0207   0.115   +773   55   
+McCann, James           R    7    ARI  Andrew Painter        0.0363  0.0389   1.01  0.0306   0.114   +775   58   
+Amador, Adael           R    7    COL  Trevor Rogers         0.0274  0.0338   1.14  0.0302   0.114   +776   2    
+Rodríguez, Julio        R    3    BOS  Patrick Sandoval      0.0402  0.0424   0.85  0.0283   0.114   +779   108  
+Turner, Trea            R    2    ARI  Taylor Clarke         0.0279  0.0350   1.01  0.0275   0.113   +789   284  
+Riley, Austin           R    8    WSH  Brad Lord             0.0401  0.0304   1.12  0.0265   0.113   +789   230  
+Morales, Yohandy        R    7    WSH  Grant Holmes          0.0336  0.0331   1.12  0.0289   0.112   +794   1    
+Tovar, Ezequiel         R    9    COL  Trevor Rogers         0.0302  0.0372   1.14  0.0332   0.111   +800   84   
+Marsh, Brandon          L    6    ARI  Taylor Clarke         0.0340  0.0336   1.02  0.0267   0.110   +812   278  
+Carrigg, Cole           R    5    COL  Trevor Rogers         0.0274  0.0338   1.14  0.0301   0.108   +823   83   
+Yastrzemski, Mike       L    7    WSH  Brad Lord             0.0302  0.0319   1.11  0.0276   0.108   +823   205  
+Nimmo, Brandon          L    4    TEX  Jacob Lopez           0.0265  0.0235   1.01  0.0185   0.108   +829   125  
+Mayo, Coby              R    6    COL  Tomoyuki Sugano       0.0233  0.0326   1.14  0.0291   0.107   +831   132  
+Ritter, Ryan            R    8    COL  Trevor Rogers         0.0265  0.0328   1.14  0.0292   0.106   +842   4    
+Butler, Lawrence        L    3    TEX  Cody Bradford         0.0261  0.0299   1.01  0.0235   0.106   +847   74   
+De La Cruz, Bryan       R    9    ARI  Taylor Clarke         0.0291  0.0365   1.01  0.0287   0.103   +867   18   
+Anthony, Roman          L    1    BOS  Bryce Miller          0.0352  0.0331   0.84  0.0216   0.103   +873   57   
+Stefanic, Michael       R    6    TEX  Cody Bradford         0.0255  0.0319   1.00  0.0249   0.102   +878   7    
+Langford, Wyatt         R    3    TEX  Jacob Lopez           0.0293  0.0294   1.00  0.0229   0.101   +890   81   
+Stott, Bryson           L    5    ARI  Taylor Clarke         0.0294  0.0291   1.02  0.0231   0.101   +893   292  
+McCarthy, Jake          L    1    COL  Trevor Rogers         0.0253  0.0218   1.12  0.0191   0.099   +908   105  
+Beck, Jordan            R    6    COL  Trevor Rogers         0.0209  0.0258   1.14  0.0230   0.099   +909   42   
+Arozarena, Randy        R    1    BOS  Patrick Sandoval      0.0288  0.0304   0.85  0.0203   0.099   +912   106  
+Albies, Ozzie           L    4    WSH  Brad Lord             0.0238  0.0251   1.11  0.0217   0.096   +940   257  
+Duran, Jarren           L    7    BOS  Bryce Miller          0.0373  0.0350   0.84  0.0229   0.096   +946   266  
+Clarke, Denzel          R    9    TEX  Cody Bradford         0.0269  0.0336   1.00  0.0262   0.095   +950   17   
+Arenado, Nolan          R    5    ARI  Andrew Painter        0.0266  0.0284   1.01  0.0224   0.095   +955   258  
+Realmuto, J.T.          R    8    ARI  Taylor Clarke         0.0249  0.0313   1.01  0.0246   0.094   +960   200  
+Brito, Juan             L    7    CIN  Casey Mize            0.0221  0.0186   1.46  0.0212   0.093   +975   26   
+Duran, Ezequiel         R    1    TEX  Jacob Lopez           0.0201  0.0202   1.00  0.0157   0.092   +986   84   
+Myers, Dane             R    6    CIN  Casey Mize            0.0161  0.0207   1.43  0.0231   0.091   +996   100  
+Murphy, Sean            R    6    WSH  Brad Lord             0.0266  0.0200   1.12  0.0175   0.088   +1042  23   
+Lawlar, Jordan          R    9    ARI  Andrew Painter        0.0263  0.0281   1.01  0.0222   0.087   +1049  26   
+Jansen, Danny           R    9    TEX  Jacob Lopez           0.0275  0.0276   1.00  0.0215   0.087   +1051  27   
+Cronenworth, Jake       L    9    CIN  Brandon Williamson    0.0158  0.0178   1.46  0.0202   0.086   +1057  53   
+Ruiz, Keibert           L    8    WSH  Grant Holmes          0.0210  0.0244   1.11  0.0211   0.084   +1085  190  
+Arroyo, Edwin           L    9    CIN  Casey Mize            0.0205  0.0173   1.46  0.0197   0.084   +1089  76   
+Ward, Taylor            R    5    BOS  Patrick Sandoval      0.0302  0.0318   0.85  0.0212   0.083   +1103  107  
+Rafaela, Ceddanne       R    3    BOS  Bryce Miller          0.0248  0.0262   0.85  0.0175   0.082   +1114  315  
+Rumfield, TJ            L    4    COL  Trevor Rogers         0.0175  0.0150   1.12  0.0132   0.082   +1120  121  
+Naylor, Josh            L    4    BOS  Patrick Sandoval      0.0260  0.0276   0.84  0.0180   0.082   +1121  136  
+Freeman, Cody           R    8    TEX  Jacob Lopez           0.0252  0.0252   1.00  0.0197   0.081   +1142  26   
+Wilson, Weston          R    7    BOS  Patrick Sandoval      0.0253  0.0267   0.85  0.0178   0.079   +1169  46   
+Pereda, Jhonny          R    9    BOS  Patrick Sandoval      0.0281  0.0297   0.85  0.0198   0.079   +1174  14   
+Story, Trevor           R    8    BOS  Bryce Miller          0.0258  0.0273   0.85  0.0182   0.077   +1195  89   
+Kim, Ha-Seong           R    9    WSH  Brad Lord             0.0247  0.0186   1.12  0.0163   0.077   +1199  32   
+Perdomo, Geraldo        L    4    ARI  Andrew Painter        0.0193  0.0198   1.02  0.0158   0.076   +1221  289  
+Williams, Alika         R    7    TEX  Cody Bradford         0.0178  0.0223   1.00  0.0174   0.074   +1251  67   
+Crawford, J.P.          L    8    BOS  Patrick Sandoval      0.0216  0.0228   0.84  0.0149   0.073   +1277  70   
+Young, Cole             L    6    BOS  Patrick Sandoval      0.0169  0.0178   0.84  0.0116   0.070   +1335  129  
+McNeil, Jeff            L    5    TEX  Cody Bradford         0.0137  0.0157   1.01  0.0123   0.066   +1415  75   
+Sogard, Nick            L    5    BOS  Bryce Miller          0.0204  0.0192   0.84  0.0125   0.064   +1453  100  
+Wong, Connor            R    9    BOS  Bryce Miller          0.0200  0.0212   0.85  0.0141   0.063   +1492  92   
+Arraez, Luis            L    4    ARI  Taylor Clarke         0.0142  0.0140   1.02  0.0112   0.061   +1550  366  
+Vargas, Ildemaro        L    8    ARI  Andrew Painter        0.0149  0.0153   1.02  0.0122   0.058   +1618  238  
+Durbin, Caleb           R    6    BOS  Bryce Miller          0.0149  0.0158   0.85  0.0105   0.054   +1752  277  
+Crawford, Justin        L    7    ARI  Taylor Clarke         0.0120  0.0119   1.02  0.0095   0.051   +1869  267  
+Nuñez, Nasim            L    9    WSH  Grant Holmes          0.0092  0.0106   1.11  0.0092   0.045   +2112  222  
