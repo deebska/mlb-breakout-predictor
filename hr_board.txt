@@ -1,38 +1,56 @@
-HR BOARD -- 2026-09-03 -- 36 hitters composed
+HR BOARD -- 2026-09-03 -- 54 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Lowe, Brandon           L    2    PIT  Blade Tidwell         0.0463  0.0550   1.18  0.0504   0.166   +502   248  
-Cruz, Oneil             L    5    PIT  Blade Tidwell         0.0473  0.0562   1.18  0.0515   0.161   +522   126  
-Devers, Rafael          L    2    PIT  Lake Bachar           0.0449  0.0464   1.18  0.0425   0.155   +544   249  
-Reynolds, Bryan         L    3    PIT  Blade Tidwell         0.0377  0.0449   1.18  0.0412   0.141   +607   243  
-Eldridge, Bryce         L    3    PIT  Lake Bachar           0.0403  0.0417   1.18  0.0382   0.141   +608   164  
-Sánchez, Jesús          L    4    CLE  Tanner Bibee          0.0453  0.0552   0.89  0.0385   0.134   +648   174  
-Horwitz, Spencer        L    1    PIT  Blade Tidwell         0.0311  0.0371   1.18  0.0340   0.127   +688   226  
-Knizner, Andrew         R    6    PIT  Lake Bachar           0.0341  0.0337   1.16  0.0306   0.116   +764   6    
-Flores Jr., Rafael      R    7    PIT  Blade Tidwell         0.0375  0.0334   1.16  0.0303   0.114   +780   28   
-Gilbert, Drew           L    1    PIT  Lake Bachar           0.0277  0.0287   1.18  0.0263   0.112   +795   214  
-Hill, Turner            L    5    PIT  Lake Bachar           0.0300  0.0310   1.18  0.0284   0.110   +807   34   
-Cox, Jonah              R    4    PIT  Lake Bachar           0.0290  0.0287   1.16  0.0260   0.107   +835   15   
-Smith, Josh             L    6    CLE  Tanner Bibee          0.0330  0.0404   0.89  0.0282   0.103   +867   113  
-Whitcomb, Shay          R    7    PIT  Lake Bachar           0.0298  0.0294   1.16  0.0267   0.103   +873   28   
-Lowe, Nathaniel         L    5    CLE  José Soriano          0.0366  0.0364   0.89  0.0254   0.101   +889   217  
-DeLauter, Chase         L    2    CLE  José Soriano          0.0308  0.0306   0.89  0.0214   0.094   +960   255  
-Gonzalez, Jacob         L    8    PIT  Blade Tidwell         0.0236  0.0282   1.18  0.0259   0.093   +976   126  
-Keys, Sean              L    5    CLE  Tanner Bibee          0.0274  0.0335   0.89  0.0234   0.092   +989   23   
-Adell, Jo               R    4    CLE  José Soriano          0.0323  0.0315   0.86  0.0211   0.091   +1003  275  
-Valenzuela, Brandon     L    9    CLE  Tanner Bibee          0.0296  0.0362   0.89  0.0252   0.090   +1006  112  
-Furman, Nate            L    8    PIT  Lake Bachar           0.0244  0.0253   1.18  0.0232   0.090   +1011  17   
-Guerrero Jr., Vladimir  R    3    CLE  Tanner Bibee          0.0307  0.0277   0.86  0.0186   0.088   +1039  313  
-Genao, Angel            L    6    CLE  José Soriano          0.0299  0.0298   0.89  0.0208   0.086   +1066  49   
-Koss, Christian         R    9    PIT  Lake Bachar           0.0244  0.0241   1.16  0.0219   0.085   +1072  65   
-Gonzales, Nick          R    4    PIT  Blade Tidwell         0.0196  0.0175   1.16  0.0158   0.076   +1223  274  
-Giménez, Andrés         L    7    CLE  Tanner Bibee          0.0210  0.0258   0.89  0.0180   0.073   +1262  233  
-Ramírez, José           L    3    CLE  José Soriano          0.0219  0.0218   0.89  0.0152   0.072   +1283  237  
-Hedges, Austin          R    8    CLE  José Soriano          0.0264  0.0257   0.86  0.0172   0.072   +1283  75   
-Bateman, Brett          L    1    CLE  Tanner Bibee          0.0180  0.0221   0.89  0.0154   0.072   +1285  43   
-Lukes, Nathan           L    2    CLE  Tanner Bibee          0.0184  0.0226   0.89  0.0157   0.072   +1285  242  
-Bazzana, Travis         L    7    CLE  José Soriano          0.0216  0.0215   0.89  0.0150   0.067   +1404  209  
-Mangum, Jake            L    6    PIT  Blade Tidwell         0.0137  0.0164   1.18  0.0150   0.065   +1443  217  
-Triolo, Jared           R    9    PIT  Blade Tidwell         0.0182  0.0162   1.16  0.0147   0.064   +1458  133  
-Rocchio, Brayan         L    9    CLE  José Soriano          0.0161  0.0160   0.89  0.0111   0.051   +1853  270  
-Clement, Ernie          R    8    CLE  Tanner Bibee          0.0154  0.0139   0.86  0.0093   0.048   +1979  321  
-Kwan, Steven            L    1    CLE  José Soriano          0.0093  0.0093   0.89  0.0065   0.040   +2388  295  
+Alvarez, Yordan         L    2    HOU  Luis Castillo         0.0581  0.0780   1.06  0.0645   0.194   +416   276  
+Lowe, Brandon           L    2    PIT  Blade Tidwell         0.0463  0.0550   1.20  0.0515   0.170   +487   248  
+Cruz, Oneil             L    5    PIT  Blade Tidwell         0.0473  0.0562   1.20  0.0526   0.165   +506   126  
+Murakami, Munetaka      L    2    HOU  Hunter Brown          0.0514  0.0522   1.06  0.0432   0.159   +527   154  
+Devers, Rafael          L    2    PIT  Lake Bachar           0.0449  0.0464   1.20  0.0434   0.159   +528   249  
+Trammell, Taylor        L    7    HOU  Luis Castillo         0.0438  0.0591   1.06  0.0489   0.147   +578   114  
+Eldridge, Bryce         L    3    PIT  Lake Bachar           0.0403  0.0417   1.20  0.0390   0.145   +589   164  
+Reynolds, Bryan         L    3    PIT  Blade Tidwell         0.0377  0.0449   1.20  0.0420   0.145   +589   243  
+Vargas, Miguel          R    3    HOU  Hunter Brown          0.0489  0.0363   1.05  0.0297   0.133   +652   284  
+Horwitz, Spencer        L    1    PIT  Blade Tidwell         0.0311  0.0371   1.20  0.0347   0.130   +667   226  
+Sánchez, Jesús          L    4    CLE  Tanner Bibee          0.0453  0.0552   0.81  0.0349   0.126   +693   174  
+Benintendi, Andrew      L    4    HOU  Hunter Brown          0.0371  0.0377   1.06  0.0312   0.122   +719   255  
+Knizner, Andrew         R    6    PIT  Lake Bachar           0.0341  0.0337   1.19  0.0313   0.119   +742   6    
+Montgomery, Colson      L    6    HOU  Hunter Brown          0.0373  0.0379   1.06  0.0313   0.118   +747   201  
+Varsho, Daulton         L    5    HOU  Luis Castillo         0.0302  0.0410   1.06  0.0339   0.117   +755   248  
+Flores Jr., Rafael      R    7    PIT  Blade Tidwell         0.0375  0.0334   1.19  0.0310   0.117   +757   28   
+Gilbert, Drew           L    1    PIT  Lake Bachar           0.0277  0.0287   1.20  0.0268   0.115   +773   214  
+Hill, Turner            L    5    PIT  Lake Bachar           0.0300  0.0310   1.20  0.0290   0.113   +783   34   
+Walker, Christian       R    6    HOU  Luis Castillo         0.0368  0.0351   1.05  0.0288   0.111   +802   287  
+Cox, Jonah              R    4    PIT  Lake Bachar           0.0290  0.0287   1.19  0.0266   0.110   +812   15   
+Whitcomb, Shay          R    7    PIT  Lake Bachar           0.0298  0.0294   1.19  0.0272   0.105   +848   28   
+Antonacci, Sam          L    1    HOU  Hunter Brown          0.0278  0.0282   1.06  0.0233   0.104   +860   271  
+Peña, Jeremy            R    1    HOU  Luis Castillo         0.0290  0.0277   1.05  0.0227   0.103   +875   217  
+Smith, Josh             L    6    CLE  Tanner Bibee          0.0330  0.0404   0.81  0.0256   0.097   +927   113  
+Peters, Tristan         L    8    HOU  Hunter Brown          0.0301  0.0306   1.06  0.0253   0.097   +928   268  
+Gonzalez, Jacob         L    8    PIT  Blade Tidwell         0.0236  0.0282   1.20  0.0264   0.095   +949   126  
+Lowe, Nathaniel         L    5    CLE  José Soriano          0.0366  0.0364   0.81  0.0230   0.095   +949   217  
+Wade Jr., LaMonte       L    9    HOU  Luis Castillo         0.0246  0.0334   1.06  0.0276   0.094   +960   65   
+Furman, Nate            L    8    PIT  Lake Bachar           0.0244  0.0253   1.20  0.0237   0.092   +982   17   
+Diaz, Yainer            R    8    HOU  Luis Castillo         0.0302  0.0288   1.05  0.0236   0.092   +983   167  
+DeLauter, Chase         L    2    CLE  José Soriano          0.0308  0.0306   0.81  0.0194   0.089   +1024  255  
+Koss, Christian         R    9    PIT  Lake Bachar           0.0244  0.0241   1.19  0.0223   0.088   +1042  65   
+Paredes, Isaac          R    3    HOU  Luis Castillo         0.0244  0.0233   1.05  0.0190   0.087   +1044  314  
+Keys, Sean              L    5    CLE  Tanner Bibee          0.0274  0.0335   0.81  0.0212   0.087   +1055  23   
+Montgomery, Braden      L    5    HOU  Hunter Brown          0.0234  0.0238   1.06  0.0197   0.086   +1061  148  
+Adell, Jo               R    4    CLE  José Soriano          0.0323  0.0315   0.78  0.0191   0.085   +1071  275  
+Valenzuela, Brandon     L    9    CLE  Tanner Bibee          0.0296  0.0362   0.81  0.0229   0.085   +1072  112  
+Altuve, Jose            R    4    HOU  Luis Castillo         0.0242  0.0231   1.05  0.0189   0.085   +1072  262  
+Rogers, Jake            R    9    HOU  Hunter Brown          0.0310  0.0229   1.05  0.0187   0.083   +1106  67   
+Guerrero Jr., Vladimir  R    3    CLE  Tanner Bibee          0.0307  0.0277   0.78  0.0169   0.083   +1109  313  
+Genao, Angel            L    6    CLE  José Soriano          0.0299  0.0298   0.81  0.0189   0.081   +1136  49   
+Gonzales, Nick          R    4    PIT  Blade Tidwell         0.0196  0.0175   1.19  0.0162   0.078   +1185  274  
+Giménez, Andrés         L    7    CLE  Tanner Bibee          0.0210  0.0258   0.81  0.0163   0.069   +1345  233  
+Ramírez, José           L    3    CLE  José Soriano          0.0219  0.0218   0.81  0.0138   0.068   +1366  237  
+Hedges, Austin          R    8    CLE  José Soriano          0.0264  0.0257   0.78  0.0156   0.068   +1366  75   
+Lukes, Nathan           L    2    CLE  Tanner Bibee          0.0184  0.0226   0.81  0.0143   0.068   +1368  242  
+Bateman, Brett          L    1    CLE  Tanner Bibee          0.0180  0.0221   0.81  0.0140   0.068   +1368  43   
+Mangum, Jake            L    6    PIT  Blade Tidwell         0.0137  0.0164   1.20  0.0153   0.067   +1404  217  
+Triolo, Jared           R    9    PIT  Blade Tidwell         0.0182  0.0162   1.19  0.0150   0.066   +1417  133  
+Meidroth, Chase         R    7    HOU  Hunter Brown          0.0210  0.0154   1.05  0.0126   0.066   +1420  270  
+Bazzana, Travis         L    7    CLE  José Soriano          0.0216  0.0215   0.81  0.0136   0.063   +1495  209  
+Rocchio, Brayan         L    9    CLE  José Soriano          0.0161  0.0160   0.81  0.0101   0.048   +1975  270  
+Clement, Ernie          R    8    CLE  Tanner Bibee          0.0154  0.0139   0.78  0.0085   0.045   +2108  321  
+Kwan, Steven            L    1    CLE  José Soriano          0.0093  0.0093   0.81  0.0059   0.038   +2539  295  
