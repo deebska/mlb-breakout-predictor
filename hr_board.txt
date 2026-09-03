@@ -1,11 +1,20 @@
-HR BOARD -- 2026-09-03 -- 9 hitters composed
+HR BOARD -- 2026-09-03 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Devers, Rafael          L    2    PIT  Lake Bachar           0.0449  0.0464   1.19  0.0431   0.163   +513   249  
-Eldridge, Bryce         L    3    PIT  Lake Bachar           0.0403  0.0417   1.19  0.0387   0.149   +572   164  
-Knizner, Andrew         R    6    PIT  Lake Bachar           0.0341  0.0337   1.18  0.0310   0.122   +720   6    
-Gilbert, Drew           L    1    PIT  Lake Bachar           0.0277  0.0287   1.19  0.0266   0.118   +750   214  
-Hill, Turner            L    5    PIT  Lake Bachar           0.0300  0.0310   1.19  0.0288   0.116   +760   34   
-Cox, Jonah              R    4    PIT  Lake Bachar           0.0290  0.0287   1.18  0.0264   0.113   +788   15   
-Whitcomb, Shay          R    7    PIT  Lake Bachar           0.0298  0.0294   1.18  0.0270   0.108   +823   28   
-Furman, Nate            L    8    PIT  Lake Bachar           0.0244  0.0253   1.19  0.0235   0.095   +953   17   
-Koss, Christian         R    9    PIT  Lake Bachar           0.0244  0.0241   1.18  0.0222   0.090   +1011  65   
+Devers, Rafael          L    2    PIT  Lake Bachar           0.0449  0.0464   1.19  0.0431   0.155   +545   249  
+Eldridge, Bryce         L    3    PIT  Lake Bachar           0.0403  0.0417   1.19  0.0387   0.141   +609   164  
+Knizner, Andrew         R    6    PIT  Lake Bachar           0.0341  0.0337   1.18  0.0310   0.116   +766   6    
+Gilbert, Drew           L    1    PIT  Lake Bachar           0.0277  0.0287   1.19  0.0266   0.111   +798   214  
+Hill, Turner            L    5    PIT  Lake Bachar           0.0300  0.0310   1.19  0.0288   0.110   +807   34   
+Cox, Jonah              R    4    PIT  Lake Bachar           0.0290  0.0287   1.18  0.0264   0.107   +837   15   
+Whitcomb, Shay          R    7    PIT  Lake Bachar           0.0298  0.0294   1.18  0.0270   0.103   +875   28   
+Lowe, Nathaniel         L    5    CLE  José Soriano          0.0366  0.0364   0.85  0.0240   0.096   +941   217  
+Furman, Nate            L    8    PIT  Lake Bachar           0.0244  0.0253   1.19  0.0235   0.090   +1012  17   
+DeLauter, Chase         L    2    CLE  José Soriano          0.0308  0.0306   0.85  0.0202   0.090   +1016  255  
+Adell, Jo               R    4    CLE  José Soriano          0.0323  0.0315   0.81  0.0200   0.086   +1060  275  
+Koss, Christian         R    9    PIT  Lake Bachar           0.0244  0.0241   1.18  0.0222   0.085   +1075  65   
+Genao, Angel            L    6    CLE  José Soriano          0.0299  0.0298   0.85  0.0197   0.082   +1125  49   
+Ramírez, José           L    3    CLE  José Soriano          0.0219  0.0218   0.85  0.0144   0.069   +1356  237  
+Hedges, Austin          R    8    CLE  José Soriano          0.0264  0.0257   0.81  0.0163   0.069   +1356  75   
+Bazzana, Travis         L    7    CLE  José Soriano          0.0216  0.0215   0.85  0.0142   0.063   +1482  209  
+Rocchio, Brayan         L    9    CLE  José Soriano          0.0161  0.0160   0.85  0.0106   0.049   +1958  270  
+Kwan, Steven            L    1    CLE  José Soriano          0.0093  0.0093   0.85  0.0061   0.038   +2525  295  
