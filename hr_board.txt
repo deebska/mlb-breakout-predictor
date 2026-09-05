@@ -1,11 +1,20 @@
-HR BOARD -- 2026-09-05 -- 9 hitters composed
+HR BOARD -- 2026-09-05 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Soto, Juan              L    2    NYM  Anthony Molina        0.0591  0.0551   0.93  0.0398   0.151   +561   170  
-Alvarez, Francisco      R    8    NYM  Anthony Molina        0.0513  0.0525   0.92  0.0375   0.126   +692   159  
-Lindor, Francisco       L    1    NYM  Anthony Molina        0.0402  0.0374   0.93  0.0270   0.117   +758   172  
-Young, Jared            L    5    NYM  Anthony Molina        0.0356  0.0332   0.93  0.0240   0.099   +906   178  
-Baty, Brett             L    9    NYM  Anthony Molina        0.0373  0.0347   0.93  0.0251   0.094   +962   218  
-Semien, Marcus          R    6    NYM  Anthony Molina        0.0284  0.0291   0.92  0.0208   0.086   +1066  245  
-Bichette, Bo            R    3    NYM  Anthony Molina        0.0259  0.0265   0.92  0.0190   0.085   +1078  326  
-Benge, Carson           L    4    NYM  Anthony Molina        0.0274  0.0255   0.93  0.0184   0.084   +1093  291  
-Ewing, A.J.             L    7    NYM  Anthony Molina        0.0263  0.0244   0.93  0.0176   0.076   +1207  193  
+Soto, Juan              L    2    NYM  Anthony Molina        0.0591  0.0551   0.93  0.0398   0.150   +567   170  
+Crow-Armstrong, Pete    L    1    MIA  Ryan Gusto            0.0505  0.0478   0.90  0.0335   0.136   +633   265  
+Alvarez, Francisco      R    8    NYM  Anthony Molina        0.0513  0.0525   0.92  0.0375   0.125   +699   159  
+Suzuki, Seiya           R    2    MIA  Ryan Gusto            0.0386  0.0424   0.92  0.0304   0.120   +736   248  
+Lindor, Francisco       L    1    NYM  Anthony Molina        0.0402  0.0374   0.93  0.0270   0.116   +766   172  
+Happ, Ian               L    5    MIA  Ryan Gusto            0.0387  0.0366   0.90  0.0257   0.105   +853   242  
+Young, Jared            L    5    NYM  Anthony Molina        0.0356  0.0332   0.93  0.0240   0.099   +915   178  
+Busch, Michael          L    3    MIA  Ryan Gusto            0.0316  0.0299   0.90  0.0210   0.094   +963   272  
+Conforto, Michael       L    8    MIA  Ryan Gusto            0.0359  0.0340   0.90  0.0238   0.094   +967   144  
+Baty, Brett             L    9    NYM  Anthony Molina        0.0373  0.0347   0.93  0.0251   0.093   +971   218  
+Bregman, Alex           R    4    MIA  Ryan Gusto            0.0273  0.0300   0.92  0.0215   0.090   +1007  352  
+Amaya, Miguel           R    9    MIA  Ryan Gusto            0.0309  0.0340   0.92  0.0244   0.090   +1011  88   
+Semien, Marcus          R    6    NYM  Anthony Molina        0.0284  0.0291   0.92  0.0208   0.085   +1076  245  
+Bichette, Bo            R    3    NYM  Anthony Molina        0.0259  0.0265   0.92  0.0190   0.084   +1089  326  
+Benge, Carson           L    4    NYM  Anthony Molina        0.0274  0.0255   0.93  0.0184   0.083   +1105  291  
+Ewing, A.J.             L    7    NYM  Anthony Molina        0.0263  0.0244   0.93  0.0176   0.076   +1219  193  
+Ramírez, Pedro          L    7    MIA  Ryan Gusto            0.0239  0.0226   0.90  0.0159   0.071   +1304  117  
+Hoerner, Nico           R    6    MIA  Ryan Gusto            0.0112  0.0124   0.92  0.0089   0.046   +2088  371  
