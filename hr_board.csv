@@ -1,10 +1,10 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-694192,"Chourio, Jackson",R,3,away,CIN,Brady Singer,R,0.0469,0.0508,1.186,0.047,0.1745,+473,238,v1.2-g075
-641343,"Bauers, Jake",L,4,away,CIN,Brady Singer,R,0.0428,0.0501,1.208,0.0472,0.1687,+493,207,v1.2-g075
-669003,"Mitchell, Garrett",L,5,away,CIN,Brady Singer,R,0.04,0.0468,1.208,0.0441,0.1581,+533,194,v1.2-g075
-666310,"Naylor, Bo",L,8,away,CIN,Brady Singer,R,0.042,0.0491,1.208,0.0463,0.1556,+543,53,v1.2-g075
-592885,"Yelich, Christian",L,2,away,CIN,Brady Singer,R,0.0362,0.0424,1.208,0.0399,0.1546,+547,202,v1.2-g075
-668930,"Turang, Brice",L,6,away,CIN,Brady Singer,R,0.032,0.0375,1.208,0.0353,0.133,+652,257,v1.2-g075
-686217,"Frelick, Sal",L,1,away,CIN,Brady Singer,R,0.0191,0.0225,1.208,0.0212,0.0999,+901,200,v1.2-g075
-806198,"Pratt, Cooper",R,7,away,CIN,Brady Singer,R,0.0222,0.0241,1.186,0.0223,0.0958,+944,106,v1.2-g075
-666152,"Hamilton, David",L,9,away,CIN,Brady Singer,R,0.0194,0.0228,1.208,0.0215,0.0883,+1033,194,v1.2-g075
+694192,"Chourio, Jackson",R,3,away,CIN,Brady Singer,R,0.0469,0.0508,1.188,0.0471,0.1746,+473,238,v1.2-g075
+641343,"Bauers, Jake",L,4,away,CIN,Brady Singer,R,0.0428,0.0501,1.209,0.0473,0.1688,+492,207,v1.2-g075
+669003,"Mitchell, Garrett",L,5,away,CIN,Brady Singer,R,0.04,0.0468,1.209,0.0441,0.1583,+532,194,v1.2-g075
+666310,"Naylor, Bo",L,8,away,CIN,Brady Singer,R,0.042,0.0491,1.209,0.0463,0.1557,+542,53,v1.2-g075
+592885,"Yelich, Christian",L,2,away,CIN,Brady Singer,R,0.0362,0.0424,1.209,0.04,0.1547,+546,202,v1.2-g075
+668930,"Turang, Brice",L,6,away,CIN,Brady Singer,R,0.032,0.0375,1.209,0.0353,0.1331,+651,257,v1.2-g075
+686217,"Frelick, Sal",L,1,away,CIN,Brady Singer,R,0.0191,0.0225,1.209,0.0212,0.1,+900,200,v1.2-g075
+806198,"Pratt, Cooper",R,7,away,CIN,Brady Singer,R,0.0222,0.0241,1.188,0.0223,0.0959,+943,106,v1.2-g075
+666152,"Hamilton, David",L,9,away,CIN,Brady Singer,R,0.0194,0.0228,1.209,0.0215,0.0884,+1031,194,v1.2-g075

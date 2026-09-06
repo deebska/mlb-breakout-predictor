@@ -1,11 +1,11 @@
 HR BOARD -- 2026-09-06 -- 9 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Chourio, Jackson        R    3    CIN  Brady Singer          0.0469  0.0508   1.19  0.0470   0.174   +473   238  
-Bauers, Jake            L    4    CIN  Brady Singer          0.0428  0.0501   1.21  0.0472   0.169   +493   207  
-Mitchell, Garrett       L    5    CIN  Brady Singer          0.0400  0.0468   1.21  0.0441   0.158   +533   194  
-Naylor, Bo              L    8    CIN  Brady Singer          0.0420  0.0491   1.21  0.0463   0.156   +543   53   
-Yelich, Christian       L    2    CIN  Brady Singer          0.0362  0.0424   1.21  0.0399   0.155   +547   202  
-Turang, Brice           L    6    CIN  Brady Singer          0.0320  0.0375   1.21  0.0353   0.133   +652   257  
-Frelick, Sal            L    1    CIN  Brady Singer          0.0191  0.0225   1.21  0.0212   0.100   +901   200  
-Pratt, Cooper           R    7    CIN  Brady Singer          0.0222  0.0241   1.19  0.0223   0.096   +944   106  
-Hamilton, David         L    9    CIN  Brady Singer          0.0194  0.0228   1.21  0.0215   0.088   +1033  194  
+Chourio, Jackson        R    3    CIN  Brady Singer          0.0469  0.0508   1.19  0.0471   0.175   +473   238  
+Bauers, Jake            L    4    CIN  Brady Singer          0.0428  0.0501   1.21  0.0473   0.169   +492   207  
+Mitchell, Garrett       L    5    CIN  Brady Singer          0.0400  0.0468   1.21  0.0441   0.158   +532   194  
+Naylor, Bo              L    8    CIN  Brady Singer          0.0420  0.0491   1.21  0.0463   0.156   +542   53   
+Yelich, Christian       L    2    CIN  Brady Singer          0.0362  0.0424   1.21  0.0400   0.155   +546   202  
+Turang, Brice           L    6    CIN  Brady Singer          0.0320  0.0375   1.21  0.0353   0.133   +651   257  
+Frelick, Sal            L    1    CIN  Brady Singer          0.0191  0.0225   1.21  0.0212   0.100   +900   200  
+Pratt, Cooper           R    7    CIN  Brady Singer          0.0222  0.0241   1.19  0.0223   0.096   +943   106  
+Hamilton, David         L    9    CIN  Brady Singer          0.0194  0.0228   1.21  0.0215   0.088   +1031  194  
