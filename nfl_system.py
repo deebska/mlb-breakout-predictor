@@ -148,9 +148,25 @@ def lgt_point(df, season, team, before_week, cache):
 
 def current_lines():
     """Upcoming games with spreads from ESPN scoreboard."""
+    lines = {}
+    # PRIMARY: nflverse spread_line (present for current + next week;
+    # note nflverse sign convention: positive = home favored, so flip
+    # to ESPN convention (negative = home favored) used downstream
+    try:
+        gdf = load_games()
+        _season = int(gdf.loc[gdf["result"].notna(),
+                                "season"].max())
+        now = gdf[(gdf["season"] >= _season)
+                  & (gdf["spread_line"].notna())
+                  & (gdf["result"].isna())]
+        for _, g in now.iterrows():
+            lines[f"{g['away_team']}@{g['home_team']}"] =                 -float(g["spread_line"])
+    except Exception as e:
+        print(f"  nflverse lines failed ({e}); trying ESPN")
+    if lines:
+        return lines
     r = requests.get(ESPN_SB, headers=UA, timeout=20)
     r.raise_for_status()
-    lines = {}
     for ev in r.json().get("events", []):
         comp = (ev.get("competitions") or [{}])[0]
         odds = (comp.get("odds") or [{}])[0]
