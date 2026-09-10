@@ -1,19 +1,37 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-686948,"Baldwin, Drake",L,1,home,ATL,Nick Martinez,R,0.0542,0.0586,1.233,0.0563,0.1983,+404,227,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Nick Martinez,R,0.0556,0.0601,1.233,0.0578,0.1958,+411,235,v1.2-g075
-671739,"Harris II, Michael",L,4,home,ATL,Nick Martinez,R,0.0501,0.0542,1.233,0.0521,0.179,+459,271,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Nick Martinez,R,0.0459,0.047,1.245,0.0457,0.1712,+484,183,v1.2-g075
-691406,"Caminero, Junior",R,3,away,ATL,Martín Pérez,L,0.0441,0.0377,1.245,0.0366,0.162,+517,115,v1.2-g075
-663586,"Riley, Austin",R,7,home,ATL,Nick Martinez,R,0.0423,0.0433,1.245,0.0421,0.1475,+578,242,v1.2-g075
-650490,"Díaz, Yandy",R,1,away,ATL,Martín Pérez,L,0.0302,0.0258,1.245,0.025,0.1266,+690,135,v1.2-g075
-657041,"Thomas, Lane",R,6,home,ATL,Nick Martinez,R,0.0315,0.0323,1.245,0.0314,0.1221,+719,132,v1.2-g075
-668723,"Vilade, Ryan",R,2,away,ATL,Martín Pérez,L,0.0313,0.0267,1.245,0.026,0.1207,+729,101,v1.2-g075
-676551,"Hicklen, Brewer",R,8,home,ATL,Nick Martinez,R,0.0303,0.0311,1.245,0.0302,0.1141,+776,10,v1.2-g075
-622761,"Mateo, Jorge",R,7,away,ATL,Martín Pérez,L,0.0232,0.0198,1.245,0.0192,0.1045,+857,49,v1.2-g075
-643289,"Dubón, Mauricio",R,5,home,ATL,Nick Martinez,R,0.0213,0.0219,1.245,0.0212,0.094,+964,287,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Nick Martinez,R,0.0238,0.0244,1.245,0.0237,0.0938,+966,36,v1.2-g075
-663611,"Madrigal, Nick",R,6,away,ATL,Martín Pérez,L,0.024,0.0204,1.245,0.0198,0.0912,+996,12,v1.2-g075
-676356,"DeLuca, Jonny",R,4,away,ATL,Martín Pérez,L,0.0174,0.0148,1.245,0.0144,0.0869,+1051,98,v1.2-g075
-656775,"Mullins, Cedric",L,9,away,ATL,Martín Pérez,L,0.0172,0.0196,1.233,0.0189,0.0866,+1055,78,v1.2-g075
-663743,"Fortes, Nick",R,8,away,ATL,Martín Pérez,L,0.0164,0.014,1.245,0.0136,0.0719,+1291,116,v1.2-g075
-802415,"Simpson, Chandler",L,5,away,ATL,Martín Pérez,L,0.0085,0.0097,1.233,0.0093,0.0471,+2023,158,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Nick Martinez,R,0.0542,0.0586,1.202,0.0549,0.1914,+422,227,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Nick Martinez,R,0.0556,0.0601,1.202,0.0563,0.1889,+429,235,v1.2-g075
+670541,"Alvarez, Yordan",L,2,away,PHI,Zack Wheeler,R,0.0573,0.0527,1.182,0.0486,0.1844,+442,286,v1.2-g075
+671739,"Harris II, Michael",L,4,home,ATL,Nick Martinez,R,0.0501,0.0542,1.202,0.0508,0.1726,+479,271,v1.2-g075
+656941,"Schwarber, Kyle",L,1,home,PHI,Cristian Javier,R,0.0493,0.0457,1.182,0.0422,0.1663,+501,200,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Nick Martinez,R,0.0459,0.047,1.213,0.0445,0.165,+506,183,v1.2-g075
+691406,"Caminero, Junior",R,3,away,ATL,Martín Pérez,L,0.0441,0.0377,1.213,0.0357,0.1562,+540,115,v1.2-g075
+547180,"Harper, Bryce",L,3,home,PHI,Cristian Javier,R,0.0456,0.0423,1.182,0.039,0.152,+558,248,v1.2-g075
+663586,"Riley, Austin",R,7,home,ATL,Nick Martinez,R,0.0423,0.0433,1.213,0.041,0.1421,+604,242,v1.2-g075
+666211,"Trammell, Taylor",L,8,away,PHI,Zack Wheeler,R,0.0422,0.0388,1.182,0.0358,0.1321,+657,123,v1.2-g075
+701358,"Smith, Cam",R,7,away,PHI,Zack Wheeler,R,0.0428,0.035,1.171,0.032,0.1286,+678,244,v1.2-g075
+650490,"Díaz, Yandy",R,1,away,ATL,Martín Pérez,L,0.0302,0.0258,1.213,0.0244,0.122,+720,135,v1.2-g075
+607208,"Turner, Trea",R,2,home,PHI,Cristian Javier,R,0.028,0.0326,1.171,0.0298,0.1196,+736,299,v1.2-g075
+572233,"Walker, Christian",R,6,away,PHI,Zack Wheeler,R,0.037,0.0303,1.171,0.0276,0.1184,+745,301,v1.2-g075
+657041,"Thomas, Lane",R,6,home,ATL,Nick Martinez,R,0.0315,0.0323,1.213,0.0306,0.1176,+750,132,v1.2-g075
+668723,"Vilade, Ryan",R,2,away,ATL,Martín Pérez,L,0.0313,0.0267,1.213,0.0253,0.1162,+761,101,v1.2-g075
+669016,"Marsh, Brandon",L,7,home,PHI,Cristian Javier,R,0.0344,0.0318,1.182,0.0294,0.1148,+771,290,v1.2-g075
+662139,"Varsho, Daulton",L,5,away,PHI,Zack Wheeler,R,0.0318,0.0292,1.182,0.0269,0.1147,+772,262,v1.2-g075
+665161,"Peña, Jeremy",R,1,away,PHI,Zack Wheeler,R,0.0291,0.0238,1.171,0.0217,0.11,+809,228,v1.2-g075
+676551,"Hicklen, Brewer",R,8,home,ATL,Nick Martinez,R,0.0303,0.0311,1.213,0.0294,0.1099,+810,10,v1.2-g075
+681082,"Stott, Bryson",L,6,home,PHI,Cristian Javier,R,0.0297,0.0275,1.182,0.0253,0.1054,+849,303,v1.2-g075
+664761,"Bohm, Alec",R,5,home,PHI,Cristian Javier,R,0.0241,0.028,1.171,0.0256,0.1021,+879,293,v1.2-g075
+622761,"Mateo, Jorge",R,7,away,ATL,Martín Pérez,L,0.0232,0.0198,1.213,0.0187,0.1006,+894,49,v1.2-g075
+670623,"Paredes, Isaac",R,3,away,PHI,Zack Wheeler,R,0.0238,0.0194,1.171,0.0177,0.0916,+992,325,v1.2-g075
+643289,"Dubón, Mauricio",R,5,home,ATL,Nick Martinez,R,0.0213,0.0219,1.213,0.0207,0.0905,+1005,287,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Nick Martinez,R,0.0238,0.0244,1.213,0.0231,0.0903,+1007,36,v1.2-g075
+514888,"Altuve, Jose",R,4,away,PHI,Zack Wheeler,R,0.0236,0.0192,1.171,0.0175,0.0891,+1022,275,v1.2-g075
+663611,"Madrigal, Nick",R,6,away,ATL,Martín Pérez,L,0.024,0.0204,1.213,0.0193,0.0877,+1040,12,v1.2-g075
+676356,"DeLuca, Jonny",R,4,away,ATL,Martín Pérez,L,0.0174,0.0148,1.213,0.014,0.0836,+1096,98,v1.2-g075
+656775,"Mullins, Cedric",L,9,away,ATL,Martín Pérez,L,0.0172,0.0196,1.202,0.0184,0.0834,+1099,78,v1.2-g075
+665561,"Marchán, Rafael",L,9,home,PHI,Cristian Javier,R,0.0223,0.0207,1.182,0.019,0.0803,+1145,51,v1.2-g075
+663743,"Fortes, Nick",R,8,away,ATL,Martín Pérez,L,0.0164,0.014,1.213,0.0132,0.0691,+1347,116,v1.2-g075
+650333,"Arraez, Luis",L,4,home,PHI,Cristian Javier,R,0.0138,0.0127,1.182,0.0117,0.063,+1487,381,v1.2-g075
+543877,"Vázquez, Christian",R,9,away,PHI,Zack Wheeler,R,0.0163,0.0133,1.171,0.0122,0.0611,+1537,140,v1.2-g075
+702222,"Crawford, Justin",L,8,home,PHI,Cristian Javier,R,0.0118,0.0109,1.182,0.01,0.0516,+1838,277,v1.2-g075
+802415,"Simpson, Chandler",L,5,away,ATL,Martín Pérez,L,0.0085,0.0097,1.202,0.0091,0.0452,+2112,158,v1.2-g075
