@@ -1,20 +1,20 @@
 HR BOARD -- 2026-09-10 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Baldwin, Drake          L    1    ATL  Nick Martinez         0.0542  0.0586   1.24  0.0568   0.200   +401   227  
-Olson, Matt             L    3    ATL  Nick Martinez         0.0556  0.0601   1.24  0.0583   0.197   +407   235  
-Harris II, Michael      L    4    ATL  Nick Martinez         0.0501  0.0542   1.24  0.0526   0.180   +454   271  
-Acuña Jr., Ronald       R    2    ATL  Nick Martinez         0.0459  0.0470   1.25  0.0460   0.172   +480   183  
-Caminero, Junior        R    3    ATL  Martín Pérez          0.0441  0.0377   1.25  0.0369   0.163   +513   115  
-Riley, Austin           R    7    ATL  Nick Martinez         0.0423  0.0433   1.25  0.0424   0.149   +572   242  
-Díaz, Yandy             R    1    ATL  Martín Pérez          0.0302  0.0258   1.25  0.0252   0.128   +684   135  
-Thomas, Lane            R    6    ATL  Nick Martinez         0.0315  0.0323   1.25  0.0317   0.123   +713   132  
-Vilade, Ryan            R    2    ATL  Martín Pérez          0.0313  0.0267   1.25  0.0262   0.122   +722   101  
-Hicklen, Brewer         R    8    ATL  Nick Martinez         0.0303  0.0311   1.25  0.0304   0.115   +770   10   
-Mateo, Jorge            R    7    ATL  Martín Pérez          0.0232  0.0198   1.25  0.0194   0.105   +850   49   
-Dubón, Mauricio         R    5    ATL  Nick Martinez         0.0213  0.0219   1.25  0.0214   0.095   +956   287  
-Kim, Ha-Seong           R    9    ATL  Nick Martinez         0.0238  0.0244   1.25  0.0239   0.095   +958   36   
-Madrigal, Nick          R    6    ATL  Martín Pérez          0.0240  0.0204   1.25  0.0200   0.092   +988   12   
-DeLuca, Jonny           R    4    ATL  Martín Pérez          0.0174  0.0148   1.25  0.0145   0.088   +1042  98   
-Mullins, Cedric         L    9    ATL  Martín Pérez          0.0172  0.0196   1.24  0.0190   0.087   +1045  78   
-Fortes, Nick            R    8    ATL  Martín Pérez          0.0164  0.0140   1.25  0.0137   0.072   +1281  116  
-Simpson, Chandler       L    5    ATL  Martín Pérez          0.0085  0.0097   1.24  0.0094   0.047   +2010  158  
+Baldwin, Drake          L    1    ATL  Nick Martinez         0.0542  0.0586   1.23  0.0563   0.198   +404   227  
+Olson, Matt             L    3    ATL  Nick Martinez         0.0556  0.0601   1.23  0.0578   0.196   +411   235  
+Harris II, Michael      L    4    ATL  Nick Martinez         0.0501  0.0542   1.23  0.0521   0.179   +459   271  
+Acuña Jr., Ronald       R    2    ATL  Nick Martinez         0.0459  0.0470   1.25  0.0457   0.171   +484   183  
+Caminero, Junior        R    3    ATL  Martín Pérez          0.0441  0.0377   1.25  0.0366   0.162   +517   115  
+Riley, Austin           R    7    ATL  Nick Martinez         0.0423  0.0433   1.25  0.0421   0.147   +578   242  
+Díaz, Yandy             R    1    ATL  Martín Pérez          0.0302  0.0258   1.25  0.0250   0.127   +690   135  
+Thomas, Lane            R    6    ATL  Nick Martinez         0.0315  0.0323   1.25  0.0314   0.122   +719   132  
+Vilade, Ryan            R    2    ATL  Martín Pérez          0.0313  0.0267   1.25  0.0260   0.121   +729   101  
+Hicklen, Brewer         R    8    ATL  Nick Martinez         0.0303  0.0311   1.25  0.0302   0.114   +776   10   
+Mateo, Jorge            R    7    ATL  Martín Pérez          0.0232  0.0198   1.25  0.0192   0.104   +857   49   
+Dubón, Mauricio         R    5    ATL  Nick Martinez         0.0213  0.0219   1.25  0.0212   0.094   +964   287  
+Kim, Ha-Seong           R    9    ATL  Nick Martinez         0.0238  0.0244   1.25  0.0237   0.094   +966   36   
+Madrigal, Nick          R    6    ATL  Martín Pérez          0.0240  0.0204   1.25  0.0198   0.091   +996   12   
+DeLuca, Jonny           R    4    ATL  Martín Pérez          0.0174  0.0148   1.25  0.0144   0.087   +1051  98   
+Mullins, Cedric         L    9    ATL  Martín Pérez          0.0172  0.0196   1.23  0.0189   0.087   +1055  78   
+Fortes, Nick            R    8    ATL  Martín Pérez          0.0164  0.0140   1.25  0.0136   0.072   +1291  116  
+Simpson, Chandler       L    5    ATL  Martín Pérez          0.0085  0.0097   1.23  0.0093   0.047   +2023  158  
