@@ -159,8 +159,13 @@ def current_lines():
         now = gdf[(gdf["season"] >= _season)
                   & (gdf["spread_line"].notna())
                   & (gdf["result"].isna())]
+        AL = {"LA": "LAR", "WAS": "WSH", "JAX": "JAC"}
         for _, g in now.iterrows():
-            lines[f"{g['away_team']}@{g['home_team']}"] =                 -float(g["spread_line"])
+            a, h = g["away_team"], g["home_team"]
+            v = -float(g["spread_line"])
+            for aa in {a, AL.get(a, a)}:
+                for hh in {h, AL.get(h, h)}:
+                    lines[f"{aa}@{hh}"] = v
     except Exception as e:
         print(f"  nflverse lines failed ({e}); trying ESPN")
     if lines:
