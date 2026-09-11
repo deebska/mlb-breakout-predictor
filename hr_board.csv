@@ -3,8 +3,9 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 608369,"Seager, Corey",L,2,away,ARI,Merrill Kelly,R,0.0516,0.0752,1.02,0.0598,0.1841,+443,159,v1.2-g075
 686948,"Baldwin, Drake",L,1,home,ATL,Aaron Nola,R,0.0537,0.0582,1.145,0.052,0.1802,+455,230,v1.2-g075
 621566,"Olson, Matt",L,3,home,ATL,Aaron Nola,R,0.0554,0.0601,1.145,0.0536,0.1786,+460,237,v1.2-g075
-671277,"García Jr., Luis",L,4,home,NYY,Nolan McLean,R,0.0554,0.0508,1.291,0.0511,0.1777,+463,324,v1.2-g075
+671277,"García Jr., Luis",L,4,home,NYY,Nolan McLean,R,0.0554,0.0508,1.291,0.0511,0.1778,+462,324,v1.2-g075
 665742,"Soto, Juan",L,2,away,NYY,Carlos Rodón,L,0.0339,0.0377,1.291,0.038,0.1729,+478,98,v1.2-g075
+665487,"Tatis Jr., Fernando",R,1,away,SF,Anthony Molina,R,0.05,0.0498,1.102,0.0428,0.1634,+512,353,v1.2-g075
 671739,"Harris II, Michael",L,4,home,ATL,Aaron Nola,R,0.0499,0.0541,1.145,0.0483,0.163,+513,273,v1.2-g075
 691023,"Walker, Jordan",R,3,home,STL,Anthony Kay,L,0.0497,0.0687,0.989,0.053,0.1628,+514,109,v1.2-g075
 660670,"Acuña Jr., Ronald",R,2,home,ATL,Aaron Nola,R,0.0454,0.0513,1.157,0.0463,0.1617,+518,187,v1.2-g075
@@ -24,11 +25,12 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 545361,"Trout, Mike",R,2,away,WSH,Cade Cavalli,R,0.0478,0.0487,1.015,0.0385,0.1483,+574,226,v1.2-g075
 665833,"Cruz, Oneil",L,2,away,CHC,Shota Imanaga,L,0.0373,0.0507,0.987,0.039,0.1483,+574,59,v1.2-g075
 694192,"Chourio, Jackson",R,1,home,MIL,Andrew Abbott,L,0.0394,0.0459,1.04,0.0373,0.1481,+575,102,v1.2-g075
+701538,"Merrill, Jackson",L,5,away,SF,Anthony Molina,R,0.0533,0.0513,0.985,0.0394,0.1453,+588,298,v1.2-g075
 682987,"Jones, Spencer",L,5,home,NYY,Nolan McLean,R,0.0428,0.0393,1.291,0.0395,0.1452,+589,98,v1.2-g075
 691718,"Crow-Armstrong, Pete",L,1,home,CHC,Wilber Dotel,R,0.0524,0.044,0.987,0.0339,0.144,+594,274,v1.2-g075
 663886,"Stephenson, Tyler",R,5,away,MIL,Dustin May,R,0.0454,0.0506,1.04,0.041,0.1439,+595,196,v1.2-g075
 699013,"Valdez, Esmerlyn",R,5,away,CHC,Shota Imanaga,L,0.0453,0.0551,1.006,0.0432,0.1436,+596,51,v1.2-g075
-545341,"Grichuk, Randal",R,2,away,STL,Matthew Liberatore,L,0.0479,0.059,0.989,0.0455,0.1431,+599,105,v1.2-g075
+545341,"Grichuk, Randal",R,2,away,STL,Matthew Liberatore,L,0.0479,0.059,0.989,0.0455,0.1432,+598,105,v1.2-g075
 677800,"Abreu, Wilyer",L,4,home,BOS,Seth Lugo,R,0.0491,0.0488,1.009,0.0384,0.1417,+606,294,v1.2-g075
 682985,"Greene, Riley",L,4,home,DET,Mason Adams,R,0.0554,0.0524,0.919,0.0376,0.1414,+607,221,v1.2-g075
 695720,"White, Tommy",R,7,home,OAK,George Kirby,R,0.0399,0.0433,1.257,0.0424,0.1408,+610,86,v1.2-g075
@@ -37,12 +39,14 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 682829,"De La Cruz, Elly",L,2,away,MIL,Dustin May,R,0.0467,0.0389,1.06,0.0322,0.1391,+619,244,v1.2-g075
 668227,"Arozarena, Randy",R,2,away,OAK,Jeffrey Springs,L,0.0293,0.0391,1.257,0.0383,0.1383,+623,116,v1.2-g075
 695600,"Jensen, Carter",L,1,away,BOS,Sonny Gray,R,0.0426,0.0421,1.009,0.0331,0.1365,+633,236,v1.2-g075
+694376,"Whitcomb, Shay",R,6,home,SF,Robbie Ray,L,0.0384,0.0498,1.102,0.0428,0.1361,+635,14,v1.2-g075
 691777,"Muncy, Max",R,5,home,OAK,George Kirby,R,0.0357,0.0387,1.257,0.038,0.1349,+641,104,v1.2-g075
 677951,"Witt Jr., Bobby",R,2,away,BOS,Sonny Gray,R,0.0447,0.0393,1.031,0.0316,0.1349,+641,294,v1.2-g075
 571970,"Muncy, Max",L,2,away,MIA,Ryan Gusto,R,0.0461,0.048,0.9,0.0337,0.1339,+647,237,v1.2-g075
 665953,"Chaparro, Andrés",R,2,home,WSH,Yusei Kikuchi,L,0.0364,0.0438,1.015,0.0347,0.1334,+650,76,v1.2-g075
 668804,"Reynolds, Bryan",R,3,away,CHC,Shota Imanaga,L,0.0355,0.0433,1.006,0.034,0.1329,+652,143,v1.2-g075
 804668,"Flores Jr., Rafael",R,4,away,CHC,Shota Imanaga,L,0.0366,0.0446,1.006,0.035,0.1328,+653,34,v1.2-g075
+669134,"Campusano, Luis",R,4,away,SF,Anthony Molina,R,0.04,0.0399,1.102,0.0343,0.1327,+654,102,v1.2-g075
 680869,"Gelof, Zack",R,3,home,OAK,George Kirby,R,0.0329,0.0357,1.257,0.035,0.1318,+659,175,v1.2-g075
 691781,"House, Brady",R,3,home,WSH,Yusei Kikuchi,L,0.0399,0.0481,1.015,0.038,0.1306,+666,62,v1.2-g075
 663993,"Lowe, Nathaniel",L,6,away,MIN,Taj Bradley,R,0.0362,0.0468,1.053,0.0384,0.1303,+667,228,v1.2-g075
@@ -52,24 +56,27 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 681715,"Hernández, Heriberto",R,1,home,MIA,Blake Snell,L,0.0523,0.0466,0.92,0.0334,0.1297,+671,101,v1.2-g075
 681508,"Gasper, Mickey",L,2,home,BOS,Seth Lugo,R,0.041,0.0407,1.009,0.032,0.129,+675,120,v1.2-g075
 695657,"Montgomery, Colson",L,4,away,STL,Matthew Liberatore,L,0.039,0.046,0.978,0.0351,0.1289,+676,107,v1.2-g075
-641343,"Bauers, Jake",L,5,home,MIL,Andrew Abbott,L,0.036,0.0408,1.06,0.0337,0.1287,+677,85,v1.2-g075
 693307,"Dingler, Dillon",R,5,home,DET,Mason Adams,R,0.0456,0.0514,0.899,0.036,0.1287,+677,267,v1.2-g075
+641343,"Bauers, Jake",L,5,home,MIL,Andrew Abbott,L,0.036,0.0408,1.06,0.0337,0.1287,+677,85,v1.2-g075
 641355,"Bellinger, Cody",L,2,home,NYY,Nolan McLean,R,0.0333,0.0305,1.291,0.0307,0.1283,+679,227,v1.2-g075
 695491,"Báez, Joshua",R,5,home,STL,Anthony Kay,L,0.037,0.0514,0.989,0.0397,0.1278,+682,22,v1.2-g075
+592518,"Machado, Manny",R,3,away,SF,Anthony Molina,R,0.0369,0.0368,1.102,0.0317,0.1276,+684,301,v1.2-g075
 641857,"McMahon, Ryan",L,7,home,NYY,Nolan McLean,R,0.0378,0.0346,1.291,0.0349,0.1275,+684,167,v1.2-g075
 687263,"Neto, Zach",R,1,away,WSH,Cade Cavalli,R,0.0373,0.038,1.015,0.0301,0.1263,+692,257,v1.2-g075
-800050,"DeLauter, Chase",L,2,away,MIN,Taj Bradley,R,0.0314,0.0406,1.053,0.0333,0.1251,+699,266,v1.2-g075
 669394,"Burger, Jake",R,7,away,ARI,Merrill Kelly,R,0.0373,0.0467,1.01,0.0368,0.1251,+699,260,v1.2-g075
+800050,"DeLauter, Chase",L,2,away,MIN,Taj Bradley,R,0.0314,0.0406,1.053,0.0333,0.1251,+699,266,v1.2-g075
 596019,"Lindor, Francisco",R,1,away,NYY,Carlos Rodón,L,0.0302,0.0287,1.116,0.025,0.1246,+703,87,v1.2-g075
 686611,"Crews, Dylan",R,5,home,WSH,Yusei Kikuchi,L,0.04,0.0482,1.015,0.0381,0.1243,+705,80,v1.2-g075
 547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0265,0.0261,1.145,0.0233,0.1242,+705,140,v1.2-g075
+813841,"Cox, Jonah",R,1,home,SF,Robbie Ray,L,0.0322,0.0419,1.102,0.036,0.1241,+706,30,v1.2-g075
 668904,"Lewis, Royce",R,6,home,MIN,Parker Messick,L,0.0496,0.0423,1.063,0.0351,0.1239,+707,84,v1.2-g075
 686469,"Pasquantino, Vinnie",L,3,away,BOS,Sonny Gray,R,0.0388,0.0383,1.009,0.0302,0.1236,+709,229,v1.2-g075
 682998,"Carroll, Corbin",L,5,home,ARI,MacKenzie Gore,L,0.0301,0.0353,1.02,0.0281,0.1235,+710,124,v1.2-g075
-521692,"Perez, Salvador",R,4,away,BOS,Sonny Gray,R,0.0414,0.0364,1.031,0.0292,0.1229,+714,310,v1.2-g075
+521692,"Perez, Salvador",R,4,away,BOS,Sonny Gray,R,0.0414,0.0364,1.031,0.0292,0.123,+713,310,v1.2-g075
 696100,"Goodman, Hunter",R,4,away,DET,Framber Valdez,L,0.0384,0.0389,0.899,0.0273,0.1223,+718,91,v1.2-g075
 665019,"Clemens, Kody",L,5,home,MIN,Parker Messick,L,0.0351,0.0326,1.053,0.0268,0.1221,+719,97,v1.2-g075
 673548,"Suzuki, Seiya",R,2,home,CHC,Wilber Dotel,R,0.0398,0.0361,1.006,0.0283,0.1214,+724,257,v1.2-g075
+646240,"Devers, Rafael",L,2,home,SF,Robbie Ray,L,0.0355,0.0321,0.985,0.0247,0.1213,+724,138,v1.2-g075
 695336,"Saggese, Thomas",R,7,home,STL,Anthony Kay,L,0.0361,0.0502,0.989,0.0387,0.1211,+726,21,v1.2-g075
 668709,"Bleday, JJ",L,4,away,MIL,Dustin May,R,0.0406,0.0338,1.06,0.0279,0.121,+726,224,v1.2-g075
 687637,"Beavers, Dylan",L,1,away,TOR,Max Scherzer,R,0.0323,0.0333,1.08,0.0281,0.1196,+736,156,v1.2-g075
@@ -80,22 +87,25 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 621493,"Ward, Taylor",R,7,away,OAK,Jeffrey Springs,L,0.0292,0.0391,1.257,0.0383,0.1172,+753,111,v1.2-g075
 666182,"Bichette, Bo",R,3,away,NYY,Carlos Rodón,L,0.0384,0.0366,1.116,0.0318,0.1168,+756,125,v1.2-g075
 681297,"Cowser, Colton",L,9,away,TOR,Max Scherzer,R,0.038,0.0392,1.08,0.033,0.1162,+761,177,v1.2-g075
+678545,"Basabe, Osleivis",R,4,home,SF,Robbie Ray,L,0.0231,0.0302,1.102,0.026,0.1162,+761,33,v1.2-g075
 668939,"Rutschman, Adley",L,3,home,BOS,Seth Lugo,R,0.0362,0.0359,1.009,0.0283,0.1159,+763,168,v1.2-g075
-804606,"Griffin, Konnor",R,1,away,CHC,Shota Imanaga,L,0.0285,0.0348,1.006,0.0273,0.1151,+769,45,v1.2-g075
 805999,"Ewing, A.J.",L,8,away,NYY,Carlos Rodón,L,0.0299,0.0332,1.291,0.0334,0.1151,+769,72,v1.2-g075
-687093,"Grissom, Vaughn",R,4,away,WSH,Cade Cavalli,R,0.035,0.0356,1.015,0.0282,0.1148,+771,181,v1.2-g075
+804606,"Griffin, Konnor",R,1,away,CHC,Shota Imanaga,L,0.0285,0.0348,1.006,0.0273,0.1151,+769,45,v1.2-g075
 661388,"Contreras, William",R,3,home,MIL,Andrew Abbott,L,0.0265,0.0309,1.04,0.0251,0.1148,+771,122,v1.2-g075
+687093,"Grissom, Vaughn",R,4,away,WSH,Cade Cavalli,R,0.035,0.0356,1.015,0.0282,0.1148,+771,181,v1.2-g075
 682928,"Abrams, CJ",L,4,home,WSH,Yusei Kikuchi,L,0.0309,0.0341,1.005,0.0267,0.1147,+772,115,v1.2-g075
 695670,"Ford, Harry",R,7,home,WSH,Yusei Kikuchi,L,0.0354,0.0427,1.015,0.0338,0.1145,+773,25,v1.2-g075
+691002,"Morales, Yohandy",R,6,home,WSH,Yusei Kikuchi,L,0.031,0.0374,1.015,0.0296,0.1143,+775,5,v1.2-g075
 683002,"Henderson, Gunnar",L,5,away,TOR,Max Scherzer,R,0.0333,0.0343,1.08,0.0289,0.1143,+775,291,v1.2-g075
 682657,"Martínez, Angel",L,7,away,MIN,Taj Bradley,R,0.0308,0.0398,1.053,0.0327,0.1143,+775,165,v1.2-g075
-691002,"Morales, Yohandy",R,6,home,WSH,Yusei Kikuchi,L,0.031,0.0374,1.015,0.0296,0.1143,+775,5,v1.2-g075
 663647,"Hayes, Ke'Bryan",R,9,away,MIL,Dustin May,R,0.0363,0.0405,1.04,0.0328,0.1139,+778,119,v1.2-g075
 677649,"Duran, Ezequiel",R,3,away,ARI,Merrill Kelly,R,0.0299,0.0374,1.01,0.0295,0.1139,+778,268,v1.2-g075
 605137,"Bell, Josh",R,4,home,MIN,Parker Messick,L,0.0325,0.0277,1.063,0.0229,0.1126,+788,136,v1.2-g075
+805811,"Eldridge, Bryce",L,3,home,SF,Robbie Ray,L,0.0362,0.0327,0.985,0.0252,0.1118,+794,78,v1.2-g075
 671732,"Butler, Lawrence",L,4,home,OAK,George Kirby,R,0.0299,0.0266,1.269,0.0263,0.1117,+795,210,v1.2-g075
 676475,"Burleson, Alec",L,4,home,STL,Anthony Kay,L,0.0312,0.0262,0.978,0.02,0.1114,+798,146,v1.2-g075
 670231,"Rave, John",L,6,away,BOS,Sonny Gray,R,0.036,0.0355,1.009,0.028,0.1108,+803,57,v1.2-g075
+683766,"Koss, Christian",R,9,home,SF,Robbie Ray,L,0.0325,0.0423,1.102,0.0363,0.1107,+803,34,v1.2-g075
 672515,"Moreno, Gabriel",R,3,home,ARI,MacKenzie Gore,L,0.0304,0.0324,1.01,0.0255,0.1102,+807,104,v1.2-g075
 641487,"Crawford, J.P.",L,1,away,OAK,Jeffrey Springs,L,0.0202,0.0234,1.269,0.0232,0.1097,+812,80,v1.2-g075
 702616,"Holliday, Jackson",L,3,away,TOR,Max Scherzer,R,0.0297,0.0307,1.08,0.0259,0.1092,+816,169,v1.2-g075
@@ -106,11 +116,12 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 664023,"Happ, Ian",L,5,home,CHC,Wilber Dotel,R,0.039,0.0327,0.987,0.0252,0.1078,+828,245,v1.2-g075
 694671,"Langford, Wyatt",R,5,away,ARI,Merrill Kelly,R,0.0288,0.0361,1.01,0.0284,0.1074,+831,185,v1.2-g075
 664761,"Bohm, Alec",R,5,away,ATL,Chris Sale,L,0.0356,0.0322,1.157,0.029,0.1073,+832,138,v1.2-g075
+668800,"Knizner, Andrew",R,8,home,SF,Robbie Ray,L,0.0267,0.0349,1.102,0.03,0.1072,+833,19,v1.2-g075
 807726,"Peck, John",R,7,home,DET,Mason Adams,R,0.0371,0.0419,0.899,0.0294,0.1072,+833,8,v1.2-g075
 805808,"McGonigle, Kevin",L,1,home,DET,Mason Adams,R,0.035,0.033,0.919,0.0237,0.1072,+833,326,v1.2-g075
 642215,"Wilson, Weston",R,9,away,OAK,Jeffrey Springs,L,0.024,0.0321,1.257,0.0315,0.1071,+834,53,v1.2-g075
-672960,"Okamoto, Kazuma",R,6,home,TOR,Chris Bassitt,R,0.0409,0.029,1.06,0.0239,0.107,+835,254,v1.2-g075
 607208,"Turner, Trea",R,2,away,ATL,Chris Sale,L,0.0288,0.0261,1.157,0.0235,0.107,+835,152,v1.2-g075
+672960,"Okamoto, Kazuma",R,6,home,TOR,Chris Bassitt,R,0.0409,0.029,1.06,0.0239,0.107,+835,254,v1.2-g075
 573262,"Yastrzemski, Mike",L,8,home,ATL,Aaron Nola,R,0.0305,0.0332,1.145,0.0296,0.1067,+837,217,v1.2-g075
 680776,"Duran, Jarren",L,8,home,BOS,Seth Lugo,R,0.0367,0.0365,1.009,0.0287,0.1064,+840,281,v1.2-g075
 647304,"Naylor, Josh",L,6,away,OAK,Jeffrey Springs,L,0.0248,0.0288,1.269,0.0285,0.1058,+845,150,v1.2-g075
@@ -123,20 +134,21 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 666126,"Cortes, Carlos",L,8,home,OAK,George Kirby,R,0.0301,0.0267,1.269,0.0264,0.103,+871,238,v1.2-g075
 643376,"Jansen, Danny",R,9,away,ARI,Merrill Kelly,R,0.0297,0.0373,1.01,0.0294,0.1027,+874,83,v1.2-g075
 690993,"Keith, Colt",L,3,home,DET,Mason Adams,R,0.0346,0.0327,0.919,0.0234,0.1027,+874,269,v1.2-g075
+593428,"Bogaerts, Xander",R,6,away,SF,Anthony Molina,R,0.0292,0.0292,1.102,0.0251,0.1022,+878,269,v1.2-g075
 695681,"Moore, Christian",R,6,away,WSH,Cade Cavalli,R,0.0312,0.0318,1.015,0.0252,0.102,+880,32,v1.2-g075
 666139,"Lowe, Josh",L,7,away,WSH,Cade Cavalli,R,0.0365,0.0307,1.005,0.0241,0.1019,+881,157,v1.2-g075
 694208,"Ballesteros, Moisés",L,5,away,WSH,Cade Cavalli,R,0.0344,0.0289,1.005,0.0226,0.1018,+882,169,v1.2-g075
 669701,"Smith, Josh",L,7,home,TOR,Chris Bassitt,R,0.0313,0.0311,1.08,0.0262,0.1017,+883,119,v1.2-g075
 606192,"Hernández, Teoscar",R,6,away,MIA,Ryan Gusto,R,0.0333,0.0356,0.92,0.0255,0.1016,+884,187,v1.2-g075
-671056,"Herrera, Iván",R,2,home,STL,Anthony Kay,L,0.0238,0.0332,0.989,0.0256,0.1009,+891,131,v1.2-g075
 683734,"Vaughn, Andrew",R,4,home,MIL,Andrew Abbott,L,0.0288,0.0336,1.04,0.0273,0.1009,+891,92,v1.2-g075
+671056,"Herrera, Iván",R,2,home,STL,Anthony Kay,L,0.0238,0.0332,0.989,0.0256,0.1009,+891,131,v1.2-g075
 571448,"Arenado, Nolan",R,6,home,ARI,MacKenzie Gore,L,0.0326,0.0347,1.01,0.0273,0.1006,+894,100,v1.2-g075
 691723,"Mayo, Coby",R,4,away,TOR,Max Scherzer,R,0.0259,0.0296,1.06,0.0245,0.1003,+897,141,v1.2-g075
 669224,"Wells, Austin",L,8,home,NYY,Nolan McLean,R,0.0279,0.0255,1.291,0.0257,0.1002,+898,154,v1.2-g075
 699115,"Jorge, Carlos",L,7,away,MIL,Dustin May,R,0.034,0.0282,1.06,0.0234,0.1,+900,8,v1.2-g075
 669003,"Mitchell, Garrett",L,8,home,MIL,Andrew Abbott,L,0.0245,0.0278,1.06,0.023,0.0997,+903,65,v1.2-g075
 622268,"Walton, Donovan",L,6,home,OAK,George Kirby,R,0.0269,0.0239,1.269,0.0237,0.0992,+908,137,v1.2-g075
-691720,"Karros, Kyle",R,5,away,DET,Framber Valdez,L,0.0343,0.0348,0.899,0.0244,0.0988,+912,98,v1.2-g075
+691720,"Karros, Kyle",R,5,away,DET,Framber Valdez,L,0.0343,0.0348,0.899,0.0244,0.0989,+911,98,v1.2-g075
 686681,"Massey, Michael",L,5,away,BOS,Sonny Gray,R,0.0297,0.0294,1.009,0.0231,0.0984,+916,247,v1.2-g075
 543807,"Springer, George",R,2,home,TOR,Chris Bassitt,R,0.032,0.0226,1.06,0.0187,0.0982,+918,227,v1.2-g075
 683953,"Bazzana, Travis",L,5,away,MIN,Taj Bradley,R,0.0238,0.0308,1.053,0.0253,0.098,+920,221,v1.2-g075
@@ -154,8 +166,8 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 650559,"De La Cruz, Bryan",R,7,away,ATL,Chris Sale,L,0.0266,0.0241,1.157,0.0217,0.0934,+971,20,v1.2-g075
 665489,"Guerrero Jr., Vladimir",R,3,home,TOR,Chris Bassitt,R,0.0307,0.0217,1.06,0.0179,0.0933,+972,329,v1.2-g075
 702284,"Young, Cole",L,8,away,OAK,Jeffrey Springs,L,0.0181,0.0211,1.269,0.0209,0.0927,+979,139,v1.2-g075
-608070,"Ramírez, José",L,3,away,MIN,Taj Bradley,R,0.021,0.0272,1.053,0.0223,0.0924,+982,255,v1.2-g075
 545121,"Vargas, Ildemaro",R,1,home,ARI,MacKenzie Gore,L,0.0309,0.0329,1.01,0.0259,0.0924,+982,136,v1.2-g075
+608070,"Ramírez, José",L,3,away,MIN,Taj Bradley,R,0.021,0.0272,1.053,0.0223,0.0924,+982,255,v1.2-g075
 665052,"Conine, Griffin",L,9,home,MIA,Blake Snell,L,0.0307,0.0296,0.9,0.0208,0.0922,+985,35,v1.2-g075
 669065,"Stowers, Kyle",L,6,home,MIA,Blake Snell,L,0.0261,0.0252,0.9,0.0177,0.0919,+988,62,v1.2-g075
 669221,"Murphy, Sean",R,9,home,ATL,Aaron Nola,R,0.0242,0.0274,1.157,0.0247,0.091,+999,33,v1.2-g075
@@ -177,54 +189,60 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 691858,"Serna, Jared",R,8,home,MIA,Blake Snell,L,0.0326,0.0289,0.92,0.0208,0.0846,+1082,5,v1.2-g075
 805805,"Jenkins, Walker",L,9,home,MIN,Parker Messick,L,0.027,0.025,1.053,0.0206,0.0841,+1089,3,v1.2-g075
 690976,"Freeland, Alex",L,8,away,MIA,Ryan Gusto,R,0.0274,0.0285,0.9,0.02,0.0827,+1109,131,v1.2-g075
-806198,"Pratt, Cooper",R,7,home,MIL,Andrew Abbott,L,0.0218,0.0255,1.04,0.0207,0.0822,+1117,39,v1.2-g075
 806146,"Lombard Jr., George",R,6,home,NYY,Nolan McLean,R,0.0252,0.02,1.116,0.0174,0.0822,+1117,61,v1.2-g075
+806198,"Pratt, Cooper",R,7,home,MIL,Andrew Abbott,L,0.0218,0.0255,1.04,0.0207,0.0822,+1117,39,v1.2-g075
 666971,"Gurriel Jr., Lourdes",R,7,home,ARI,MacKenzie Gore,L,0.0215,0.023,1.01,0.0181,0.0818,+1122,41,v1.2-g075
 678662,"Tovar, Ezequiel",R,9,away,DET,Framber Valdez,L,0.0291,0.0295,0.899,0.0207,0.0817,+1124,88,v1.2-g075
 665923,"Ruiz, Esteury",R,7,home,MIA,Blake Snell,L,0.0315,0.028,0.92,0.0201,0.0814,+1129,52,v1.2-g075
 800325,"Lara, Luis",R,6,home,MIL,Andrew Abbott,L,0.017,0.0199,1.04,0.0161,0.081,+1135,42,v1.2-g075
 814439,"Waldschmidt, Ryan",R,9,home,ARI,MacKenzie Gore,L,0.0227,0.0242,1.01,0.0191,0.081,+1135,53,v1.2-g075
+806367,"Hill, Turner",L,5,home,SF,Robbie Ray,L,0.0239,0.0216,0.985,0.0166,0.081,+1135,12,v1.2-g075
 592663,"Realmuto, J.T.",R,8,away,ATL,Chris Sale,L,0.02,0.018,1.157,0.0163,0.0803,+1145,74,v1.2-g075
 687401,"Ortiz, Joey",R,9,home,MIL,Andrew Abbott,L,0.0221,0.0258,1.04,0.021,0.08,+1150,95,v1.2-g075
 701675,"Church, Nathan",L,9,home,STL,Anthony Kay,L,0.0304,0.0255,0.978,0.0195,0.0789,+1167,71,v1.2-g075
 679845,"Loftin, Nick",R,7,away,BOS,Sonny Gray,R,0.0242,0.0212,1.031,0.017,0.0785,+1174,171,v1.2-g075
 695731,"Montgomery, Braden",R,7,away,STL,Matthew Liberatore,L,0.0184,0.0229,0.989,0.0176,0.0785,+1174,53,v1.2-g075
+669392,"Taylor, Samad",R,7,away,SF,Anthony Molina,R,0.0207,0.0206,1.102,0.0177,0.078,+1182,49,v1.2-g075
 595978,"Hedges, Austin",R,8,away,MIN,Taj Bradley,R,0.026,0.0196,1.063,0.0163,0.0774,+1192,76,v1.2-g075
 641680,"Heim, Jonah",L,9,home,OAK,George Kirby,R,0.0209,0.0186,1.269,0.0184,0.0773,+1194,145,v1.2-g075
 643446,"McNeil, Jeff",L,2,home,OAK,George Kirby,R,0.0169,0.015,1.269,0.0148,0.0767,+1204,296,v1.2-g075
 691026,"Winn, Masyn",R,8,home,STL,Anthony Kay,L,0.0179,0.025,0.989,0.0193,0.0761,+1214,90,v1.2-g075
 807712,"Keaschall, Luke",R,1,home,MIN,Parker Messick,L,0.0211,0.0179,1.063,0.0148,0.0761,+1214,126,v1.2-g075
-672386,"Kirk, Alejandro",R,4,home,TOR,Chris Bassitt,R,0.0237,0.0167,1.06,0.0138,0.0757,+1221,144,v1.2-g075
 650402,"Torres, Gleyber",R,2,home,DET,Mason Adams,R,0.0203,0.0229,0.899,0.0161,0.0757,+1221,188,v1.2-g075
+672386,"Kirk, Alejandro",R,4,home,TOR,Chris Bassitt,R,0.0237,0.0167,1.06,0.0138,0.0757,+1221,144,v1.2-g075
 694203,"Guzman, Denzer",R,8,away,WSH,Cade Cavalli,R,0.0215,0.0219,1.015,0.0173,0.0749,+1235,116,v1.2-g075
 686797,"Lee, Brooks",R,7,home,MIN,Parker Messick,L,0.0214,0.0182,1.063,0.0151,0.0745,+1242,125,v1.2-g075
 686765,"Sogard, Nick",L,6,home,BOS,Seth Lugo,R,0.021,0.0208,1.009,0.0164,0.0739,+1253,116,v1.2-g075
 664770,"Lukes, Nathan",L,5,home,TOR,Chris Bassitt,R,0.019,0.0189,1.08,0.0159,0.0739,+1253,261,v1.2-g075
+630105,"Cronenworth, Jake",L,2,away,SF,Anthony Molina,R,0.0192,0.0185,0.985,0.0142,0.0737,+1257,178,v1.2-g075
 665926,"Giménez, Andrés",L,8,home,TOR,Chris Bassitt,R,0.0204,0.0202,1.08,0.0171,0.073,+1270,247,v1.2-g075
 699393,"Ramírez, Pedro",L,8,home,CHC,Wilber Dotel,R,0.0249,0.0208,0.987,0.016,0.0728,+1274,127,v1.2-g075
 685133,"Meckler, Wade",L,3,away,WSH,Cade Cavalli,R,0.0204,0.0171,1.005,0.0134,0.0726,+1277,165,v1.2-g075
 686555,"Collins, Isaac",L,9,away,BOS,Sonny Gray,R,0.0216,0.0213,1.009,0.0168,0.0721,+1287,211,v1.2-g075
 682663,"Ramírez, Agustín",R,5,home,MIA,Blake Snell,L,0.0262,0.0232,0.92,0.0167,0.0719,+1291,46,v1.2-g075
 682668,"Acuña, Luisangel",R,9,away,STL,Matthew Liberatore,L,0.0162,0.0201,0.989,0.0155,0.0717,+1295,79,v1.2-g075
-687597,"Beck, Jordan",R,8,away,DET,Framber Valdez,L,0.0201,0.0205,0.899,0.0143,0.0714,+1301,45,v1.2-g075
 703520,"Bateman, Brett",L,1,home,TOR,Chris Bassitt,R,0.0164,0.0163,1.08,0.0138,0.0714,+1301,55,v1.2-g075
+687597,"Beck, Jordan",R,8,away,DET,Framber Valdez,L,0.0201,0.0205,0.899,0.0143,0.0714,+1301,45,v1.2-g075
 678391,"Vivas, Jorbit",L,8,home,WSH,Yusei Kikuchi,L,0.0189,0.0209,1.005,0.0164,0.0709,+1310,32,v1.2-g075
-669707,"Triolo, Jared",R,8,away,CHC,Shota Imanaga,L,0.0174,0.0213,1.006,0.0167,0.0703,+1322,101,v1.2-g075
+669707,"Triolo, Jared",R,8,away,CHC,Shota Imanaga,L,0.0174,0.0213,1.006,0.0167,0.0704,+1320,101,v1.2-g075
+666023,"Fermin, Freddy",R,9,away,SF,Anthony Molina,R,0.0189,0.0188,1.102,0.0162,0.07,+1329,116,v1.2-g075
 668885,"Martin, Austin",R,8,home,MIN,Parker Messick,L,0.0253,0.0215,1.063,0.0178,0.069,+1349,102,v1.2-g075
 663968,"Mangum, Jake",R,7,away,CHC,Shota Imanaga,L,0.0179,0.0219,1.006,0.0172,0.0685,+1360,84,v1.2-g075
 664728,"Isbel, Kyle",L,8,away,BOS,Sonny Gray,R,0.0192,0.019,1.009,0.015,0.0678,+1375,154,v1.2-g075
-683011,"Volpe, Anthony",R,9,home,NYY,Nolan McLean,R,0.0213,0.0169,1.116,0.0147,0.0675,+1381,67,v1.2-g075
+683011,"Volpe, Anthony",R,9,home,NYY,Nolan McLean,R,0.0213,0.0169,1.116,0.0147,0.0676,+1379,67,v1.2-g075
 677587,"Rocchio, Brayan",L,9,away,MIN,Taj Bradley,R,0.0155,0.0202,1.053,0.0166,0.0674,+1384,284,v1.2-g075
 693304,"Gonzales, Nick",R,6,away,CHC,Shota Imanaga,L,0.012,0.0147,1.006,0.0116,0.0652,+1434,131,v1.2-g075
-672695,"Perdomo, Geraldo",R,4,home,ARI,MacKenzie Gore,L,0.0139,0.0148,1.01,0.0117,0.0643,+1455,143,v1.2-g075
-805300,"Marsee, Jakob",L,3,home,MIA,Blake Snell,L,0.0167,0.0161,0.9,0.0113,0.0643,+1455,67,v1.2-g075
+687957,"Harris, Dustin",L,8,away,SF,Anthony Molina,R,0.0187,0.018,0.985,0.0138,0.0644,+1453,52,v1.2-g075
 687859,"Johnston, Troy",L,7,away,DET,Framber Valdez,L,0.0229,0.0213,0.919,0.0153,0.0643,+1455,76,v1.2-g075
+805300,"Marsee, Jakob",L,3,home,MIA,Blake Snell,L,0.0167,0.0161,0.9,0.0113,0.0643,+1455,67,v1.2-g075
+672695,"Perdomo, Geraldo",R,4,home,ARI,MacKenzie Gore,L,0.0139,0.0148,1.01,0.0117,0.0643,+1455,143,v1.2-g075
 624428,"Frazier, Adam",L,9,away,WSH,Cade Cavalli,R,0.0206,0.0172,1.005,0.0135,0.0641,+1460,73,v1.2-g075
 643396,"Kiner-Falefa, Isiah",R,9,home,BOS,Seth Lugo,R,0.0172,0.0186,1.031,0.0149,0.0637,+1470,86,v1.2-g075
 608348,"Kelly, Carson",R,9,home,CHC,Wilber Dotel,R,0.0194,0.0176,1.006,0.0138,0.0625,+1500,188,v1.2-g075
 691594,"Sanoja, Javier",R,4,home,MIA,Blake Snell,L,0.0197,0.0175,0.92,0.0125,0.0616,+1523,110,v1.2-g075
-702332,"Durbin, Caleb",R,7,home,BOS,Seth Lugo,R,0.0144,0.0155,1.031,0.0125,0.0582,+1618,289,v1.2-g075
+702332,"Durbin, Caleb",R,7,home,BOS,Seth Lugo,R,0.0144,0.0155,1.031,0.0125,0.0583,+1615,289,v1.2-g075
 703601,"Clark, Max",L,6,home,DET,Mason Adams,R,0.0168,0.0159,0.919,0.0114,0.0575,+1639,58,v1.2-g075
+808982,"Lee, Jung Hoo",L,7,home,SF,Robbie Ray,L,0.0153,0.0138,0.985,0.0106,0.0571,+1651,132,v1.2-g075
 595879,"Báez, Javier",R,9,home,DET,Mason Adams,R,0.0162,0.0184,0.899,0.0129,0.0568,+1661,94,v1.2-g075
 656716,"McKinstry, Zach",L,8,home,DET,Mason Adams,R,0.017,0.0161,0.919,0.0115,0.0556,+1699,231,v1.2-g075
 650333,"Arraez, Luis",L,4,away,ATL,Chris Sale,L,0.0093,0.0091,1.145,0.0082,0.0554,+1705,160,v1.2-g075
