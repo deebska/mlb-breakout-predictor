@@ -1,29 +1,46 @@
-HR BOARD -- 2026-09-12 -- 27 hitters composed
+HR BOARD -- 2026-09-12 -- 44 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Greene, Riley           L    4    DET  Tanner Gordon         0.0551  0.0678   0.96  0.0508   0.165   +506   224  
-Judge, Aaron            R    2    NYY  Zac Thornton          0.0407  0.0496   1.00  0.0389   0.154   +548   38   
-Ramos, Heliot           R    4    NYY  Zac Thornton          0.0472  0.0574   1.00  0.0450   0.149   +570   64   
-Valencia, Eduardo       R    5    DET  Tanner Gordon         0.0511  0.0600   0.94  0.0440   0.148   +574   39   
-Goldschmidt, Paul       R    1    NYY  Zac Thornton          0.0460  0.0560   1.00  0.0438   0.143   +601   115  
-Jones, Spencer          L    6    NYY  Zac Thornton          0.0354  0.0421   1.16  0.0381   0.137   +630   28   
-Rosario, Amed           R    5    NYY  Zac Thornton          0.0388  0.0473   1.00  0.0370   0.129   +677   107  
-Torkelson, Spencer      R    7    DET  Tanner Gordon         0.0432  0.0508   0.94  0.0372   0.127   +686   213  
-Goodman, Hunter         R    3    DET  Andrew Sears          0.0380  0.0366   0.94  0.0268   0.127   +687   94   
-McGonigle, Kevin        L    1    DET  Tanner Gordon         0.0348  0.0430   0.96  0.0322   0.125   +702   328  
-Keith, Colt             L    3    DET  Tanner Gordon         0.0344  0.0426   0.96  0.0319   0.120   +732   270  
-Lee, Hao-Yu             R    2    DET  Tanner Gordon         0.0341  0.0401   0.94  0.0294   0.117   +756   108  
-Peck, John              R    9    DET  Tanner Gordon         0.0403  0.0475   0.94  0.0348   0.117   +758   10   
-Bellinger, Cody         L    3    NYY  Zac Thornton          0.0219  0.0261   1.16  0.0236   0.112   +793   139  
-Callahan, Brett         L    8    DET  Tanner Gordon         0.0331  0.0409   0.96  0.0307   0.108   +829   27   
-McCarthy, Jake          L    1    DET  Andrew Sears          0.0261  0.0306   0.96  0.0229   0.102   +881   119  
-Lombard Jr., George     R    7    NYY  Zac Thornton          0.0288  0.0352   1.00  0.0276   0.099   +913   9    
-Karros, Kyle            R    6    DET  Andrew Sears          0.0338  0.0325   0.94  0.0238   0.098   +919   101  
-Wells, Austin           L    9    NYY  Zac Thornton          0.0241  0.0287   1.16  0.0260   0.097   +932   58   
-Norby, Connor           R    2    DET  Andrew Sears          0.0301  0.0290   0.94  0.0212   0.095   +957   61   
-Volpe, Anthony          R    8    NYY  Zac Thornton          0.0285  0.0348   1.00  0.0272   0.094   +966   63   
-Amador, Adael           R    8    DET  Andrew Sears          0.0286  0.0275   0.94  0.0201   0.090   +1005  15   
-Rumfield, TJ            L    4    DET  Andrew Sears          0.0188  0.0221   0.96  0.0166   0.085   +1074  129  
-Carrigg, Cole           R    5    DET  Andrew Sears          0.0258  0.0248   0.94  0.0182   0.084   +1092  95   
-Tovar, Ezequiel         R    9    DET  Andrew Sears          0.0288  0.0277   0.94  0.0203   0.083   +1112  89   
-Beck, Jordan            R    7    DET  Andrew Sears          0.0199  0.0191   0.94  0.0140   0.074   +1246  47   
-Clark, Max              L    6    DET  Tanner Gordon         0.0166  0.0206   0.96  0.0155   0.068   +1373  60   
+Soto, Juan              L    2    NYY  Gerrit Cole           0.0593  0.0573   1.15  0.0516   0.187   +436   185  
+Greene, Riley           L    4    DET  Tanner Gordon         0.0551  0.0678   0.99  0.0525   0.169   +493   224  
+Judge, Aaron            R    2    NYY  Zac Thornton          0.0407  0.0496   1.00  0.0386   0.153   +553   38   
+Valencia, Eduardo       R    5    DET  Tanner Gordon         0.0511  0.0600   0.97  0.0455   0.151   +560   39   
+Ramos, Heliot           R    4    NYY  Zac Thornton          0.0472  0.0574   1.00  0.0447   0.148   +575   64   
+Lindor, Francisco       L    1    NYY  Gerrit Cole           0.0398  0.0384   1.15  0.0345   0.143   +601   185  
+Goldschmidt, Paul       R    1    NYY  Zac Thornton          0.0460  0.0560   1.00  0.0435   0.142   +606   115  
+Jones, Spencer          L    6    NYY  Zac Thornton          0.0354  0.0421   1.15  0.0379   0.136   +635   28   
+Okamoto, Kazuma         R    6    TOR  Kyle Bradish          0.0417  0.0465   1.06  0.0384   0.134   +649   257  
+Torkelson, Spencer      R    7    DET  Tanner Gordon         0.0432  0.0508   0.97  0.0385   0.130   +670   213  
+Goodman, Hunter         R    3    DET  Andrew Sears          0.0380  0.0366   0.97  0.0277   0.130   +671   94   
+Rosario, Amed           R    5    NYY  Zac Thornton          0.0388  0.0473   1.00  0.0368   0.128   +683   107  
+McGonigle, Kevin        L    1    DET  Tanner Gordon         0.0348  0.0430   0.99  0.0333   0.127   +686   328  
+Young, Jared            L    5    NYY  Gerrit Cole           0.0357  0.0344   1.15  0.0310   0.123   +712   191  
+Keith, Colt             L    3    DET  Tanner Gordon         0.0344  0.0426   0.99  0.0330   0.123   +714   270  
+Lee, Hao-Yu             R    2    DET  Tanner Gordon         0.0341  0.0401   0.97  0.0304   0.119   +739   108  
+Peck, John              R    9    DET  Tanner Gordon         0.0403  0.0475   0.97  0.0359   0.119   +740   10   
+Springer, George        R    2    TOR  Kyle Bradish          0.0317  0.0354   1.06  0.0292   0.118   +750   232  
+Guerrero Jr., Vladimir  R    3    TOR  Kyle Bradish          0.0304  0.0339   1.06  0.0281   0.112   +790   331  
+Bellinger, Cody         L    3    NYY  Zac Thornton          0.0219  0.0261   1.15  0.0235   0.111   +800   139  
+Callahan, Brett         L    8    DET  Tanner Gordon         0.0331  0.0409   0.99  0.0317   0.110   +811   27   
+Semien, Marcus          R    6    NYY  Gerrit Cole           0.0298  0.0353   1.00  0.0275   0.105   +850   262  
+McCarthy, Jake          L    1    DET  Andrew Sears          0.0261  0.0306   0.99  0.0237   0.104   +862   119  
+Benge, Carson           L    4    NYY  Gerrit Cole           0.0265  0.0256   1.15  0.0230   0.101   +886   300  
+Bichette, Bo            R    3    NYY  Gerrit Cole           0.0260  0.0309   1.00  0.0240   0.100   +896   338  
+Karros, Kyle            R    6    DET  Andrew Sears          0.0338  0.0325   0.97  0.0246   0.100   +899   101  
+Smith, Josh             L    7    TOR  Kyle Bradish          0.0311  0.0295   1.08  0.0249   0.100   +903   120  
+Ewing, A.J.             L    7    NYY  Gerrit Cole           0.0279  0.0269   1.15  0.0242   0.099   +906   210  
+Lombard Jr., George     R    7    NYY  Zac Thornton          0.0288  0.0352   1.00  0.0274   0.098   +921   9    
+Norby, Connor           R    2    DET  Andrew Sears          0.0301  0.0290   0.97  0.0219   0.097   +935   61   
+Wells, Austin           L    9    NYY  Zac Thornton          0.0241  0.0287   1.15  0.0259   0.096   +938   58   
+Morabito, Nick          R    9    NYY  Gerrit Cole           0.0273  0.0324   1.00  0.0252   0.094   +968   9    
+Volpe, Anthony          R    8    NYY  Zac Thornton          0.0285  0.0348   1.00  0.0271   0.093   +974   63   
+Amador, Adael           R    8    DET  Andrew Sears          0.0286  0.0275   0.97  0.0208   0.092   +982   15   
+Torrens, Luis           R    8    NYY  Gerrit Cole           0.0259  0.0307   1.00  0.0239   0.092   +988   128  
+Kirk, Alejandro         R    4    TOR  Kyle Bradish          0.0233  0.0260   1.06  0.0215   0.091   +995   146  
+Rumfield, TJ            L    4    DET  Andrew Sears          0.0188  0.0221   0.99  0.0171   0.087   +1049  129  
+Carrigg, Cole           R    5    DET  Andrew Sears          0.0258  0.0248   0.97  0.0188   0.086   +1068  95   
+Tovar, Ezequiel         R    9    DET  Andrew Sears          0.0288  0.0277   0.97  0.0210   0.084   +1086  89   
+Bateman, Brett          L    1    TOR  Kyle Bradish          0.0193  0.0184   1.08  0.0155   0.079   +1159  58   
+Beck, Jordan            R    7    DET  Andrew Sears          0.0199  0.0191   0.97  0.0145   0.076   +1218  47   
+Lukes, Nathan           L    5    TOR  Kyle Bradish          0.0188  0.0179   1.08  0.0151   0.072   +1281  264  
+Giménez, Andrés         L    8    TOR  Kyle Bradish          0.0203  0.0192   1.08  0.0162   0.072   +1295  250  
+Clark, Max              L    6    DET  Tanner Gordon         0.0166  0.0206   0.99  0.0160   0.069   +1343  60   
