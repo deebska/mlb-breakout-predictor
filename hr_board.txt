@@ -1,29 +1,83 @@
-HR BOARD -- 2026-09-15 -- 27 hitters composed
+HR BOARD -- 2026-09-15 -- 81 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Vargas, Miguel          R    3    CLE  Foster Griffin        0.0499  0.0595   1.28  0.0595   0.201   +397   124  
-Muncy, Max              L    6    CIN  Rhett Lowder          0.0462  0.0593   1.33  0.0617   0.195   +413   246  
-De Paula, Josue         L    1    CIN  Rhett Lowder          0.0390  0.0503   1.33  0.0523   0.186   +436   6    
-De La Cruz, Elly        L    2    CIN  Yoshinobu Yamamoto    0.0481  0.0460   1.33  0.0478   0.185   +440   249  
-Murakami, Munetaka      L    4    CLE  Foster Griffin        0.0366  0.0440   1.33  0.0458   0.179   +458   65   
-Freeman, Freddie        L    2    CIN  Rhett Lowder          0.0373  0.0481   1.33  0.0500   0.179   +460   291  
-Grichuk, Randal         R    2    CLE  Foster Griffin        0.0472  0.0563   1.28  0.0563   0.178   +460   109  
-Stewart, Sal            R    3    CIN  Yoshinobu Yamamoto    0.0463  0.0421   1.31  0.0430   0.172   +483   329  
-Bleday, JJ              L    4    CIN  Yoshinobu Yamamoto    0.0402  0.0384   1.33  0.0399   0.158   +535   226  
-Betts, Mookie           R    3    CIN  Rhett Lowder          0.0355  0.0356   1.31  0.0364   0.150   +565   256  
-Jorge, Carlos           L    1    CIN  Yoshinobu Yamamoto    0.0326  0.0311   1.33  0.0323   0.143   +599   10   
-Suárez, Eugenio         R    5    CIN  Yoshinobu Yamamoto    0.0371  0.0337   1.31  0.0344   0.141   +608   190  
-Rogers, Jake            R    7    CLE  Foster Griffin        0.0324  0.0388   1.28  0.0388   0.139   +621   23   
-Tucker, Kyle            L    4    CIN  Rhett Lowder          0.0271  0.0350   1.33  0.0364   0.139   +622   283  
-Feduccia, Hunter        L    8    CIN  Rhett Lowder          0.0296  0.0382   1.33  0.0397   0.139   +622   119  
-Hernández, Teoscar      R    5    CIN  Rhett Lowder          0.0326  0.0328   1.31  0.0335   0.137   +630   192  
-Doyle, Brenton          R    5    CLE  Foster Griffin        0.0324  0.0387   1.28  0.0387   0.133   +650   48   
-Freeland, Alex          L    9    CIN  Rhett Lowder          0.0266  0.0344   1.33  0.0358   0.126   +692   137  
-Rodríguez, Héctor       L    6    CIN  Yoshinobu Yamamoto    0.0305  0.0291   1.33  0.0303   0.125   +702   56   
-McLain, Matt            R    7    CIN  Yoshinobu Yamamoto    0.0330  0.0299   1.31  0.0306   0.125   +703   204  
-Meidroth, Chase         R    1    CLE  Foster Griffin        0.0250  0.0300   1.28  0.0300   0.121   +727   111  
-Edman, Tommy            L    7    CIN  Rhett Lowder          0.0237  0.0307   1.33  0.0319   0.120   +731   139  
-Peters, Tristan         L    9    CLE  Foster Griffin        0.0219  0.0264   1.33  0.0275   0.113   +787   39   
-Banfield, Will          R    9    CIN  Yoshinobu Yamamoto    0.0294  0.0267   1.31  0.0273   0.110   +811   4    
-Antonacci, Sam          L    6    CLE  Foster Griffin        0.0166  0.0201   1.33  0.0209   0.103   +866   67   
-Acuña, Luisangel        R    8    CLE  Foster Griffin        0.0161  0.0193   1.28  0.0193   0.094   +965   81   
-Brito, Juan             L    8    CIN  Yoshinobu Yamamoto    0.0209  0.0199   1.33  0.0207   0.091   +996   32   
+Vargas, Miguel          R    3    CLE  Foster Griffin        0.0499  0.0595   1.28  0.0595   0.190   +427   124  
+Muncy, Max              L    6    CIN  Rhett Lowder          0.0462  0.0593   1.33  0.0617   0.184   +445   246  
+De Paula, Josue         L    1    CIN  Rhett Lowder          0.0390  0.0503   1.33  0.0523   0.175   +470   6    
+De La Cruz, Elly        L    2    CIN  Yoshinobu Yamamoto    0.0481  0.0460   1.33  0.0478   0.174   +474   249  
+Murakami, Munetaka      L    4    CLE  Foster Griffin        0.0366  0.0440   1.33  0.0458   0.168   +494   65   
+Freeman, Freddie        L    2    CIN  Rhett Lowder          0.0373  0.0481   1.33  0.0500   0.168   +496   291  
+Grichuk, Randal         R    2    CLE  Foster Griffin        0.0472  0.0563   1.28  0.0563   0.168   +496   109  
+Stewart, Sal            R    3    CIN  Yoshinobu Yamamoto    0.0463  0.0421   1.31  0.0430   0.161   +520   329  
+Schwarber, Kyle         L    1    WSH  Jackson Kent          0.0422  0.0471   1.01  0.0372   0.149   +569   132  
+Bleday, JJ              L    4    CIN  Yoshinobu Yamamoto    0.0402  0.0384   1.33  0.0399   0.148   +577   226  
+Adell, Jo               R    3    CLE  Chris Murphy          0.0423  0.0443   1.28  0.0443   0.146   +583   115  
+Betts, Mookie           R    3    CIN  Rhett Lowder          0.0355  0.0356   1.31  0.0364   0.141   +609   256  
+Chourio, Jackson        R    2    PIT  Lake Bachar           0.0473  0.0458   0.93  0.0333   0.136   +634   252  
+Jorge, Carlos           L    1    CIN  Yoshinobu Yamamoto    0.0326  0.0311   1.33  0.0323   0.134   +646   10   
+Suárez, Eugenio         R    5    CIN  Yoshinobu Yamamoto    0.0371  0.0337   1.31  0.0344   0.132   +655   190  
+Rogers, Jake            R    7    CLE  Foster Griffin        0.0324  0.0388   1.28  0.0388   0.130   +669   23   
+Mitchell, Garrett       L    1    PIT  Lake Bachar           0.0420  0.0422   0.94  0.0310   0.130   +669   209  
+Feduccia, Hunter        L    8    CIN  Rhett Lowder          0.0296  0.0382   1.33  0.0397   0.130   +670   119  
+Tucker, Kyle            L    4    CIN  Rhett Lowder          0.0271  0.0350   1.33  0.0364   0.130   +670   283  
+Okamoto, Kazuma         R    6    TOR  Drew Anderson         0.0421  0.0427   1.06  0.0353   0.128   +679   263  
+Hernández, Teoscar      R    5    CIN  Rhett Lowder          0.0326  0.0328   1.31  0.0335   0.128   +679   192  
+Doyle, Brenton          R    5    CLE  Foster Griffin        0.0324  0.0387   1.28  0.0387   0.125   +701   48   
+Bauers, Jake            L    5    PIT  Lake Bachar           0.0426  0.0428   0.94  0.0314   0.123   +715   213  
+Harper, Bryce           L    3    WSH  Jackson Kent          0.0278  0.0310   1.01  0.0245   0.121   +723   144  
+Contreras, William      R    4    PIT  Lake Bachar           0.0414  0.0402   0.93  0.0292   0.120   +736   324  
+Freeland, Alex          L    9    CIN  Rhett Lowder          0.0266  0.0344   1.33  0.0358   0.118   +747   137  
+Rodríguez, Héctor       L    6    CIN  Yoshinobu Yamamoto    0.0305  0.0291   1.33  0.0303   0.117   +756   56   
+McLain, Matt            R    7    CIN  Yoshinobu Yamamoto    0.0330  0.0299   1.31  0.0306   0.117   +758   204  
+Meidroth, Chase         R    1    CLE  Foster Griffin        0.0250  0.0300   1.28  0.0300   0.113   +784   111  
+Edman, Tommy            L    7    CIN  Rhett Lowder          0.0237  0.0307   1.33  0.0319   0.113   +787   139  
+Cruz, Oneil             L    4    PIT  Jacob Misiorowski     0.0474  0.0315   0.94  0.0231   0.112   +790   140  
+Lowe, Brandon           L    2    PIT  Jacob Misiorowski     0.0441  0.0293   0.94  0.0215   0.111   +798   266  
+Springer, George        R    2    TOR  Drew Anderson         0.0310  0.0315   1.06  0.0261   0.111   +801   239  
+Lowe, Nathaniel         L    5    CLE  Chris Murphy          0.0194  0.0202   1.33  0.0211   0.111   +802   28   
+Ramírez, José           R    2    CLE  Chris Murphy          0.0277  0.0290   1.28  0.0290   0.110   +810   113  
+Bohm, Alec              R    5    WSH  Jackson Kent          0.0369  0.0400   1.02  0.0319   0.110   +811   144  
+Guerrero Jr., Vladimir  R    3    TOR  Drew Anderson         0.0309  0.0314   1.06  0.0259   0.109   +820   336  
+Eldridge, Bryce         L    2    STL  Andre Pallante        0.0393  0.0360   0.84  0.0235   0.108   +826   180  
+Turner, Trea            R    2    WSH  Jackson Kent          0.0302  0.0327   1.02  0.0261   0.108   +829   156  
+Bailey, Patrick         R    7    CLE  Chris Murphy          0.0260  0.0272   1.28  0.0272   0.108   +829   30   
+Hill, Derek             R    9    WSH  Jackson Kent          0.0358  0.0388   1.02  0.0309   0.107   +832   82   
+Yelich, Christian       L    6    PIT  Lake Bachar           0.0360  0.0362   0.94  0.0266   0.107   +836   214  
+Turang, Brice           L    3    PIT  Lake Bachar           0.0329  0.0331   0.94  0.0243   0.106   +846   271  
+Peters, Tristan         L    9    CLE  Foster Griffin        0.0219  0.0264   1.33  0.0275   0.105   +849   39   
+Reynolds, Bryan         L    3    PIT  Jacob Misiorowski     0.0415  0.0275   0.94  0.0202   0.104   +860   261  
+Genao, Angel            R    6    CLE  Chris Murphy          0.0248  0.0259   1.28  0.0259   0.103   +870   28   
+Banfield, Will          R    9    CIN  Yoshinobu Yamamoto    0.0294  0.0267   1.31  0.0273   0.103   +874   4    
+Flores Jr., Rafael      R    7    PIT  Jacob Misiorowski     0.0420  0.0324   0.93  0.0235   0.101   +890   41   
+Bazzana, Travis         L    4    CLE  Chris Murphy          0.0214  0.0224   1.33  0.0233   0.100   +897   87   
+Halpin, Petey           L    8    CLE  Chris Murphy          0.0199  0.0208   1.33  0.0216   0.097   +927   27   
+Antonacci, Sam          L    6    CLE  Foster Griffin        0.0166  0.0201   1.33  0.0209   0.097   +934   67   
+Basabe, Osleivis        R    5    STL  Andre Pallante        0.0396  0.0295   0.84  0.0195   0.095   +952   55   
+Smith, Josh             L    8    TOR  Drew Anderson         0.0306  0.0282   1.08  0.0237   0.095   +955   121  
+McCray, Grant           L    8    STL  Andre Pallante        0.0381  0.0349   0.84  0.0228   0.094   +964   33   
+De La Cruz, Bryan       R    6    WSH  Jackson Kent          0.0254  0.0275   1.02  0.0219   0.093   +978   23   
+Griffin, Konnor         R    1    PIT  Jacob Misiorowski     0.0310  0.0239   0.93  0.0173   0.092   +986   137  
+Kirk, Alejandro         R    4    TOR  Drew Anderson         0.0248  0.0252   1.06  0.0208   0.091   +998   153  
+Rocchio, Brayan         R    9    CLE  Chris Murphy          0.0254  0.0266   1.28  0.0266   0.090   +1015  140  
+Stott, Bryson           L    7    WSH  Jackson Kent          0.0229  0.0256   1.01  0.0202   0.089   +1022  94   
+Lara, Luis              L    7    PIT  Lake Bachar           0.0282  0.0284   0.94  0.0208   0.088   +1039  74   
+Acuña, Luisangel        R    8    CLE  Foster Griffin        0.0161  0.0193   1.28  0.0193   0.088   +1040  81   
+Gilbert, Drew           L    1    STL  Andre Pallante        0.0277  0.0254   0.84  0.0166   0.085   +1071  229  
+Brito, Juan             L    8    CIN  Yoshinobu Yamamoto    0.0209  0.0199   1.33  0.0207   0.085   +1074  32   
+Bateman, Brett          L    1    TOR  Drew Anderson         0.0218  0.0201   1.08  0.0169   0.085   +1074  62   
+O'Hearn, Ryan           L    6    PIT  Jacob Misiorowski     0.0339  0.0224   0.94  0.0164   0.084   +1093  196  
+Realmuto, J.T.          R    8    WSH  Jackson Kent          0.0195  0.0212   1.02  0.0169   0.081   +1136  77   
+Hill, Turner            L    6    STL  Andre Pallante        0.0259  0.0237   0.84  0.0154   0.074   +1251  47   
+Ortiz, Joey             R    8    PIT  Lake Bachar           0.0232  0.0225   0.93  0.0163   0.073   +1272  179  
+Horwitz, Spencer        L    8    PIT  Jacob Misiorowski     0.0296  0.0195   0.94  0.0143   0.072   +1289  242  
+Giménez, Andrés         L    7    TOR  Drew Anderson         0.0200  0.0185   1.08  0.0156   0.071   +1303  255  
+Lukes, Nathan           L    5    TOR  Drew Anderson         0.0185  0.0170   1.08  0.0144   0.070   +1325  270  
+Cavanaugh, Drew         L    7    STL  Andre Pallante        0.0241  0.0221   0.84  0.0144   0.069   +1351  82   
+Cox, Jonah              R    3    STL  Andre Pallante        0.0237  0.0176   0.84  0.0116   0.068   +1362  35   
+Gonzales, Nick          R    5    PIT  Jacob Misiorowski     0.0213  0.0164   0.93  0.0119   0.065   +1446  290  
+Hamilton, David         L    9    PIT  Lake Bachar           0.0191  0.0192   0.94  0.0141   0.064   +1475  199  
+Lee, Jung Hoo           L    4    STL  Andre Pallante        0.0183  0.0168   0.84  0.0109   0.060   +1567  329  
+Kwan, Steven            L    1    CLE  Chris Murphy          0.0101  0.0106   1.33  0.0110   0.058   +1630  130  
+Clement, Ernie          R    9    TOR  Drew Anderson         0.0148  0.0150   1.06  0.0124   0.057   +1667  342  
+Koss, Christian         R    9    STL  Andre Pallante        0.0216  0.0160   0.84  0.0106   0.056   +1702  88   
+Arraez, Luis            L    4    WSH  Jackson Kent          0.0090  0.0101   1.01  0.0079   0.052   +1812  168  
+Mangum, Jake            L    9    PIT  Jacob Misiorowski     0.0131  0.0086   0.94  0.0063   0.038   +2504  232  
