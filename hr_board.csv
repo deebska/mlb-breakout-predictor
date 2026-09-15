@@ -1,19 +1,28 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-678246,"Vargas, Miguel",R,3,away,CLE,Foster Griffin,L,0.0499,0.0595,1.277,0.0593,0.1991,+402,124,v1.2-g075
-682829,"De La Cruz, Elly",L,2,home,CIN,Yoshinobu Yamamoto,R,0.0481,0.046,1.327,0.0476,0.183,+446,249,v1.2-g075
-808959,"Murakami, Munetaka",L,4,away,CLE,Foster Griffin,L,0.0366,0.044,1.329,0.0457,0.1769,+465,65,v1.2-g075
-545341,"Grichuk, Randal",R,2,away,CLE,Foster Griffin,L,0.0472,0.0563,1.277,0.0561,0.1764,+467,109,v1.2-g075
-701398,"Stewart, Sal",R,3,home,CIN,Yoshinobu Yamamoto,R,0.0463,0.0421,1.303,0.0428,0.1694,+490,329,v1.2-g075
-668709,"Bleday, JJ",L,4,home,CIN,Yoshinobu Yamamoto,R,0.0402,0.0384,1.327,0.0397,0.1555,+543,226,v1.2-g075
-699115,"Jorge, Carlos",L,1,home,CIN,Yoshinobu Yamamoto,R,0.0326,0.0311,1.327,0.0322,0.1412,+608,10,v1.2-g075
-553993,"Suárez, Eugenio",R,5,home,CIN,Yoshinobu Yamamoto,R,0.0371,0.0337,1.303,0.0343,0.1394,+617,190,v1.2-g075
-668670,"Rogers, Jake",R,7,away,CLE,Foster Griffin,L,0.0324,0.0388,1.277,0.0387,0.137,+630,23,v1.2-g075
-686668,"Doyle, Brenton",R,5,away,CLE,Foster Griffin,L,0.0324,0.0387,1.277,0.0386,0.1317,+659,48,v1.2-g075
-699302,"Rodríguez, Héctor",L,6,home,CIN,Yoshinobu Yamamoto,R,0.0305,0.0291,1.327,0.0302,0.1231,+712,56,v1.2-g075
-680574,"McLain, Matt",R,7,home,CIN,Yoshinobu Yamamoto,R,0.033,0.0299,1.303,0.0304,0.123,+713,204,v1.2-g075
-805367,"Meidroth, Chase",R,1,away,CLE,Foster Griffin,L,0.025,0.03,1.277,0.0299,0.1193,+738,111,v1.2-g075
-671976,"Peters, Tristan",L,9,away,CLE,Foster Griffin,L,0.0219,0.0264,1.329,0.0274,0.1114,+798,39,v1.2-g075
-677943,"Banfield, Will",R,9,home,CIN,Yoshinobu Yamamoto,R,0.0294,0.0267,1.303,0.0272,0.1084,+823,4,v1.2-g075
-803011,"Antonacci, Sam",L,6,away,CLE,Foster Griffin,L,0.0166,0.0201,1.329,0.0208,0.1022,+878,67,v1.2-g075
-682668,"Acuña, Luisangel",R,8,away,CLE,Foster Griffin,L,0.0161,0.0193,1.277,0.0192,0.0927,+979,81,v1.2-g075
-682877,"Brito, Juan",L,8,home,CIN,Yoshinobu Yamamoto,R,0.0209,0.0199,1.327,0.0206,0.09,+1011,32,v1.2-g075
+678246,"Vargas, Miguel",R,3,away,CLE,Foster Griffin,L,0.0499,0.0595,1.282,0.0595,0.2014,+397,124,v1.2-g075
+571970,"Muncy, Max",L,6,away,CIN,Rhett Lowder,R,0.0462,0.0593,1.333,0.0617,0.195,+413,246,v1.2-g075
+800543,"De Paula, Josue",L,1,away,CIN,Rhett Lowder,R,0.039,0.0503,1.333,0.0523,0.1864,+436,6,v1.2-g075
+682829,"De La Cruz, Elly",L,2,home,CIN,Yoshinobu Yamamoto,R,0.0481,0.046,1.333,0.0478,0.1852,+440,249,v1.2-g075
+808959,"Murakami, Munetaka",L,4,away,CLE,Foster Griffin,L,0.0366,0.044,1.334,0.0458,0.1791,+458,65,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,CIN,Rhett Lowder,R,0.0373,0.0481,1.333,0.05,0.1786,+460,291,v1.2-g075
+545341,"Grichuk, Randal",R,2,away,CLE,Foster Griffin,L,0.0472,0.0563,1.282,0.0563,0.1785,+460,109,v1.2-g075
+701398,"Stewart, Sal",R,3,home,CIN,Yoshinobu Yamamoto,R,0.0463,0.0421,1.309,0.043,0.1715,+483,329,v1.2-g075
+668709,"Bleday, JJ",L,4,home,CIN,Yoshinobu Yamamoto,R,0.0402,0.0384,1.333,0.0399,0.1575,+535,226,v1.2-g075
+605141,"Betts, Mookie",R,3,away,CIN,Rhett Lowder,R,0.0355,0.0356,1.309,0.0364,0.1504,+565,256,v1.2-g075
+699115,"Jorge, Carlos",L,1,home,CIN,Yoshinobu Yamamoto,R,0.0326,0.0311,1.333,0.0323,0.143,+599,10,v1.2-g075
+553993,"Suárez, Eugenio",R,5,home,CIN,Yoshinobu Yamamoto,R,0.0371,0.0337,1.309,0.0344,0.1412,+608,190,v1.2-g075
+668670,"Rogers, Jake",R,7,away,CLE,Foster Griffin,L,0.0324,0.0388,1.282,0.0388,0.1387,+621,23,v1.2-g075
+663656,"Tucker, Kyle",L,4,away,CIN,Rhett Lowder,R,0.0271,0.035,1.333,0.0364,0.1385,+622,283,v1.2-g075
+676439,"Feduccia, Hunter",L,8,away,CIN,Rhett Lowder,R,0.0296,0.0382,1.333,0.0397,0.1385,+622,119,v1.2-g075
+606192,"Hernández, Teoscar",R,5,away,CIN,Rhett Lowder,R,0.0326,0.0328,1.309,0.0335,0.1369,+630,192,v1.2-g075
+686668,"Doyle, Brenton",R,5,away,CLE,Foster Griffin,L,0.0324,0.0387,1.282,0.0387,0.1333,+650,48,v1.2-g075
+690976,"Freeland, Alex",L,9,away,CIN,Rhett Lowder,R,0.0266,0.0344,1.333,0.0358,0.1262,+692,137,v1.2-g075
+699302,"Rodríguez, Héctor",L,6,home,CIN,Yoshinobu Yamamoto,R,0.0305,0.0291,1.333,0.0303,0.1247,+702,56,v1.2-g075
+680574,"McLain, Matt",R,7,home,CIN,Yoshinobu Yamamoto,R,0.033,0.0299,1.309,0.0306,0.1246,+703,204,v1.2-g075
+805367,"Meidroth, Chase",R,1,away,CLE,Foster Griffin,L,0.025,0.03,1.282,0.03,0.1209,+727,111,v1.2-g075
+669242,"Edman, Tommy",L,7,away,CIN,Rhett Lowder,R,0.0237,0.0307,1.333,0.0319,0.1204,+731,139,v1.2-g075
+671976,"Peters, Tristan",L,9,away,CLE,Foster Griffin,L,0.0219,0.0264,1.334,0.0275,0.1127,+787,39,v1.2-g075
+677943,"Banfield, Will",R,9,home,CIN,Yoshinobu Yamamoto,R,0.0294,0.0267,1.309,0.0273,0.1098,+811,4,v1.2-g075
+803011,"Antonacci, Sam",L,6,away,CLE,Foster Griffin,L,0.0166,0.0201,1.334,0.0209,0.1035,+866,67,v1.2-g075
+682668,"Acuña, Luisangel",R,8,away,CLE,Foster Griffin,L,0.0161,0.0193,1.282,0.0193,0.0939,+965,81,v1.2-g075
+682877,"Brito, Juan",L,8,home,CIN,Yoshinobu Yamamoto,R,0.0209,0.0199,1.333,0.0207,0.0912,+996,32,v1.2-g075

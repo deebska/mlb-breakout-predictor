@@ -1,20 +1,29 @@
-HR BOARD -- 2026-09-15 -- 18 hitters composed
+HR BOARD -- 2026-09-15 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Vargas, Miguel          R    3    CLE  Foster Griffin        0.0499  0.0595   1.28  0.0593   0.199   +402   124  
-De La Cruz, Elly        L    2    CIN  Yoshinobu Yamamoto    0.0481  0.0460   1.33  0.0476   0.183   +446   249  
-Murakami, Munetaka      L    4    CLE  Foster Griffin        0.0366  0.0440   1.33  0.0457   0.177   +465   65   
-Grichuk, Randal         R    2    CLE  Foster Griffin        0.0472  0.0563   1.28  0.0561   0.176   +467   109  
-Stewart, Sal            R    3    CIN  Yoshinobu Yamamoto    0.0463  0.0421   1.30  0.0428   0.169   +490   329  
-Bleday, JJ              L    4    CIN  Yoshinobu Yamamoto    0.0402  0.0384   1.33  0.0397   0.155   +543   226  
-Jorge, Carlos           L    1    CIN  Yoshinobu Yamamoto    0.0326  0.0311   1.33  0.0322   0.141   +608   10   
-Suárez, Eugenio         R    5    CIN  Yoshinobu Yamamoto    0.0371  0.0337   1.30  0.0343   0.139   +617   190  
-Rogers, Jake            R    7    CLE  Foster Griffin        0.0324  0.0388   1.28  0.0387   0.137   +630   23   
-Doyle, Brenton          R    5    CLE  Foster Griffin        0.0324  0.0387   1.28  0.0386   0.132   +659   48   
-Rodríguez, Héctor       L    6    CIN  Yoshinobu Yamamoto    0.0305  0.0291   1.33  0.0302   0.123   +712   56   
-McLain, Matt            R    7    CIN  Yoshinobu Yamamoto    0.0330  0.0299   1.30  0.0304   0.123   +713   204  
-Meidroth, Chase         R    1    CLE  Foster Griffin        0.0250  0.0300   1.28  0.0299   0.119   +738   111  
-Peters, Tristan         L    9    CLE  Foster Griffin        0.0219  0.0264   1.33  0.0274   0.111   +798   39   
-Banfield, Will          R    9    CIN  Yoshinobu Yamamoto    0.0294  0.0267   1.30  0.0272   0.108   +823   4    
-Antonacci, Sam          L    6    CLE  Foster Griffin        0.0166  0.0201   1.33  0.0208   0.102   +878   67   
-Acuña, Luisangel        R    8    CLE  Foster Griffin        0.0161  0.0193   1.28  0.0192   0.093   +979   81   
-Brito, Juan             L    8    CIN  Yoshinobu Yamamoto    0.0209  0.0199   1.33  0.0206   0.090   +1011  32   
+Vargas, Miguel          R    3    CLE  Foster Griffin        0.0499  0.0595   1.28  0.0595   0.201   +397   124  
+Muncy, Max              L    6    CIN  Rhett Lowder          0.0462  0.0593   1.33  0.0617   0.195   +413   246  
+De Paula, Josue         L    1    CIN  Rhett Lowder          0.0390  0.0503   1.33  0.0523   0.186   +436   6    
+De La Cruz, Elly        L    2    CIN  Yoshinobu Yamamoto    0.0481  0.0460   1.33  0.0478   0.185   +440   249  
+Murakami, Munetaka      L    4    CLE  Foster Griffin        0.0366  0.0440   1.33  0.0458   0.179   +458   65   
+Freeman, Freddie        L    2    CIN  Rhett Lowder          0.0373  0.0481   1.33  0.0500   0.179   +460   291  
+Grichuk, Randal         R    2    CLE  Foster Griffin        0.0472  0.0563   1.28  0.0563   0.178   +460   109  
+Stewart, Sal            R    3    CIN  Yoshinobu Yamamoto    0.0463  0.0421   1.31  0.0430   0.172   +483   329  
+Bleday, JJ              L    4    CIN  Yoshinobu Yamamoto    0.0402  0.0384   1.33  0.0399   0.158   +535   226  
+Betts, Mookie           R    3    CIN  Rhett Lowder          0.0355  0.0356   1.31  0.0364   0.150   +565   256  
+Jorge, Carlos           L    1    CIN  Yoshinobu Yamamoto    0.0326  0.0311   1.33  0.0323   0.143   +599   10   
+Suárez, Eugenio         R    5    CIN  Yoshinobu Yamamoto    0.0371  0.0337   1.31  0.0344   0.141   +608   190  
+Rogers, Jake            R    7    CLE  Foster Griffin        0.0324  0.0388   1.28  0.0388   0.139   +621   23   
+Tucker, Kyle            L    4    CIN  Rhett Lowder          0.0271  0.0350   1.33  0.0364   0.139   +622   283  
+Feduccia, Hunter        L    8    CIN  Rhett Lowder          0.0296  0.0382   1.33  0.0397   0.139   +622   119  
+Hernández, Teoscar      R    5    CIN  Rhett Lowder          0.0326  0.0328   1.31  0.0335   0.137   +630   192  
+Doyle, Brenton          R    5    CLE  Foster Griffin        0.0324  0.0387   1.28  0.0387   0.133   +650   48   
+Freeland, Alex          L    9    CIN  Rhett Lowder          0.0266  0.0344   1.33  0.0358   0.126   +692   137  
+Rodríguez, Héctor       L    6    CIN  Yoshinobu Yamamoto    0.0305  0.0291   1.33  0.0303   0.125   +702   56   
+McLain, Matt            R    7    CIN  Yoshinobu Yamamoto    0.0330  0.0299   1.31  0.0306   0.125   +703   204  
+Meidroth, Chase         R    1    CLE  Foster Griffin        0.0250  0.0300   1.28  0.0300   0.121   +727   111  
+Edman, Tommy            L    7    CIN  Rhett Lowder          0.0237  0.0307   1.33  0.0319   0.120   +731   139  
+Peters, Tristan         L    9    CLE  Foster Griffin        0.0219  0.0264   1.33  0.0275   0.113   +787   39   
+Banfield, Will          R    9    CIN  Yoshinobu Yamamoto    0.0294  0.0267   1.31  0.0273   0.110   +811   4    
+Antonacci, Sam          L    6    CLE  Foster Griffin        0.0166  0.0201   1.33  0.0209   0.103   +866   67   
+Acuña, Luisangel        R    8    CLE  Foster Griffin        0.0161  0.0193   1.28  0.0193   0.094   +965   81   
+Brito, Juan             L    8    CIN  Yoshinobu Yamamoto    0.0209  0.0199   1.33  0.0207   0.091   +996   32   
