@@ -135,12 +135,28 @@ def build():
                 "<table><thead><tr><th>Week</th><th>Game</th><th>Pick "
                 "(line)</th><th class='hide-m'>Signal</th><th>Result</th>"
                 "</tr></thead><tbody>" + rows2 + "</tbody></table>")
+    lock_badge = ""
+    if "(locked)" in body:
+        lock_badge = (
+            "<span title='Picks are locked for this week' "
+            "style=\"display:inline-flex;align-items:center;gap:6px;"
+            "font-size:13px;font-weight:700;color:#f5c518;"
+            "background:rgba(245,197,24,.12);"
+            "border:1px solid rgba(245,197,24,.45);"
+            "border-radius:999px;padding:4px 12px\">"
+            "<svg width='14' height='14' viewBox='0 0 24 24' "
+            "fill='#f5c518' aria-hidden='true'>"
+            "<path d='M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 "
+            "2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm"
+            "-3 5a3 3 0 0 1 6 0v3H9V7zm3 7a1.5 1.5 0 0 1 .75 2.8V19a"
+            ".75.75 0 0 1-1.5 0v-2.2A1.5 1.5 0 0 1 12 14z'/></svg>"
+            "LOCKED</span>")
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wins + Dingers -- NFL 5-Factor System</title>
 <style>{CSS}</style></head><body><div class="wrap">
 <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px"><div style="font-size:24px;font-weight:800;letter-spacing:-.02em">Wins <span style="color:#3ddc84">+</span> Dingers</div><div style="display:flex;gap:6px"><a href="/hrboard.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">HR Board</a> <a href="/results.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">Results</a> <a href="/nfl.html" style="padding:7px 14px;border-radius:9px;background:#1c2a47;color:#e8eef7;text-decoration:none;font-weight:600">NFL System</a><a href="/bo.html" style="padding:7px 14px;border-radius:9px;color:var(--accent);text-decoration:none;font-weight:600">Box Office</a></div></div>
-<h1 style="font-size:22px">NFL 5-Factor System</h1>
+<h1 style="font-size:22px;display:flex;align-items:center;gap:10px">NFL 5-Factor System{lock_badge}</h1>
 {body}
 {record_html}
 {RULES}
