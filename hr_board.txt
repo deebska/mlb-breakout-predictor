@@ -1,20 +1,38 @@
-HR BOARD -- 2026-09-16 -- 18 hitters composed
+HR BOARD -- 2026-09-16 -- 36 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Adell, Jo               R    3    CLE  Anthony Kay           0.0445  0.0604   0.92  0.0434   0.129   +678   116  
-Eldridge, Bryce         L    2    STL  Matthew Liberatore    0.0344  0.0404   0.94  0.0295   0.117   +751   85   
-Whitcomb, Shay          R    5    STL  Matthew Liberatore    0.0361  0.0456   0.94  0.0336   0.116   +760   18   
-Harris, Brett           R    3    STL  Matthew Liberatore    0.0309  0.0392   0.94  0.0289   0.105   +851   6    
-Cox, Jonah              R    1    STL  Matthew Liberatore    0.0302  0.0383   0.94  0.0282   0.101   +893   36   
-Knizner, Andrew         R    7    STL  Matthew Liberatore    0.0256  0.0324   0.94  0.0239   0.095   +950   23   
-Ramírez, José           R    2    CLE  Anthony Kay           0.0276  0.0378   0.92  0.0271   0.094   +968   114  
-Koss, Christian         R    9    STL  Matthew Liberatore    0.0308  0.0391   0.94  0.0288   0.090   +1005  38   
-Fry, David              R    5    CLE  Anthony Kay           0.0198  0.0271   0.92  0.0195   0.090   +1011  63   
-Bandura, Scott          L    8    STL  Matthew Liberatore    0.0278  0.0327   0.94  0.0239   0.089   +1021  1    
-Genao, Angel            R    6    CLE  Anthony Kay           0.0248  0.0340   0.92  0.0244   0.087   +1043  28   
-Hill, Turner            L    6    STL  Matthew Liberatore    0.0229  0.0270   0.94  0.0197   0.083   +1103  15   
-Hedges, Austin          R    7    CLE  Anthony Kay           0.0222  0.0304   0.92  0.0218   0.082   +1127  87   
-Rocchio, Brayan         R    9    CLE  Anthony Kay           0.0253  0.0346   0.92  0.0249   0.078   +1177  141  
-Bazzana, Travis         L    4    CLE  Anthony Kay           0.0214  0.0178   0.96  0.0133   0.069   +1345  88   
-Halpin, Petey           L    8    CLE  Anthony Kay           0.0199  0.0165   0.96  0.0123   0.066   +1417  28   
-Lee, Jung Hoo           L    4    STL  Matthew Liberatore    0.0150  0.0176   0.94  0.0129   0.063   +1492  140  
-Kwan, Steven            L    1    CLE  Anthony Kay           0.0101  0.0084   0.96  0.0063   0.039   +2477  131  
+Burleson, Alec          L    3    STL  Anthony Molina        0.0515  0.0518   0.96  0.0389   0.139   +617   313  
+Bernal, Leo             L    2    STL  Anthony Molina        0.0452  0.0455   0.96  0.0341   0.129   +674   32   
+Adell, Jo               R    3    CLE  Anthony Kay           0.0445  0.0604   0.90  0.0422   0.127   +689   116  
+Walker, Jordan          R    4    STL  Anthony Molina        0.0450  0.0434   0.97  0.0329   0.123   +714   306  
+Eldridge, Bryce         L    2    STL  Matthew Liberatore    0.0344  0.0404   0.96  0.0303   0.121   +729   85   
+Vargas, Miguel          R    3    CLE  Parker Messick        0.0494  0.0413   0.90  0.0288   0.120   +731   126  
+Whitcomb, Shay          R    5    STL  Matthew Liberatore    0.0361  0.0456   0.97  0.0346   0.119   +737   18   
+Harris, Brett           R    3    STL  Matthew Liberatore    0.0309  0.0392   0.97  0.0297   0.108   +826   6    
+Grichuk, Randal         R    2    CLE  Parker Messick        0.0466  0.0389   0.90  0.0272   0.103   +866   111  
+Cox, Jonah              R    1    STL  Matthew Liberatore    0.0302  0.0383   0.97  0.0290   0.103   +866   36   
+Montgomery, Colson      L    7    CLE  Parker Messick        0.0380  0.0350   0.93  0.0254   0.099   +908   109  
+Gorman, Nolan           L    6    STL  Anthony Molina        0.0345  0.0347   0.96  0.0260   0.099   +913   135  
+Knizner, Andrew         R    7    STL  Matthew Liberatore    0.0256  0.0324   0.97  0.0246   0.098   +922   23   
+Koss, Christian         R    9    STL  Matthew Liberatore    0.0308  0.0391   0.97  0.0296   0.093   +974   38   
+Ramírez, José           R    2    CLE  Anthony Kay           0.0276  0.0378   0.90  0.0264   0.092   +981   114  
+Báez, Joshua            R    5    STL  Anthony Molina        0.0311  0.0300   0.97  0.0227   0.092   +983   39   
+Bandura, Scott          L    8    STL  Matthew Liberatore    0.0278  0.0327   0.96  0.0245   0.092   +991   1    
+Teel, Kyle              L    5    CLE  Parker Messick        0.0278  0.0256   0.93  0.0186   0.089   +1017  13   
+Fry, David              R    5    CLE  Anthony Kay           0.0198  0.0271   0.90  0.0189   0.089   +1025  63   
+Saggese, Thomas         R    7    STL  Anthony Molina        0.0308  0.0297   0.97  0.0225   0.088   +1036  73   
+Genao, Angel            R    6    CLE  Anthony Kay           0.0248  0.0340   0.90  0.0237   0.086   +1059  28   
+Hill, Turner            L    6    STL  Matthew Liberatore    0.0229  0.0270   0.96  0.0202   0.085   +1072  15   
+Wetherholt, JJ          L    1    STL  Anthony Molina        0.0247  0.0248   0.96  0.0186   0.085   +1079  256  
+Pagés, Pedro            R    9    STL  Anthony Molina        0.0292  0.0281   0.97  0.0213   0.081   +1136  77   
+Hedges, Austin          R    7    CLE  Anthony Kay           0.0222  0.0304   0.90  0.0212   0.081   +1142  87   
+Church, Nathan          L    8    STL  Anthony Molina        0.0269  0.0270   0.96  0.0203   0.079   +1163  257  
+Pham, Tommy             R    4    CLE  Parker Messick        0.0253  0.0211   0.90  0.0147   0.079   +1174  7    
+Rocchio, Brayan         R    9    CLE  Anthony Kay           0.0253  0.0346   0.90  0.0242   0.077   +1194  141  
+Doyle, Brenton          R    6    CLE  Parker Messick        0.0319  0.0265   0.90  0.0185   0.075   +1239  50   
+Meidroth, Chase         R    1    CLE  Parker Messick        0.0247  0.0206   0.90  0.0144   0.070   +1320  114  
+Bazzana, Travis         L    4    CLE  Anthony Kay           0.0214  0.0178   0.93  0.0129   0.068   +1364  88   
+Peters, Tristan         L    9    CLE  Parker Messick        0.0217  0.0199   0.93  0.0145   0.068   +1368  39   
+Halpin, Petey           L    8    CLE  Anthony Kay           0.0199  0.0165   0.93  0.0120   0.065   +1438  28   
+Lee, Jung Hoo           L    4    STL  Matthew Liberatore    0.0150  0.0176   0.96  0.0132   0.065   +1450  140  
+Acuña, Luisangel        R    8    CLE  Parker Messick        0.0160  0.0133   0.90  0.0093   0.055   +1708  82   
+Kwan, Steven            L    1    CLE  Anthony Kay           0.0101  0.0084   0.93  0.0061   0.038   +2511  131  
