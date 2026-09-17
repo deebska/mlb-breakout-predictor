@@ -1,10 +1,28 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-682829,"De La Cruz, Elly",R,2,home,CIN,Justin Wrobleski,L,0.0545,0.0716,1.405,0.0785,0.2423,+313,105,v1.2-g075
-701398,"Stewart, Sal",R,3,home,CIN,Justin Wrobleski,L,0.043,0.0567,1.405,0.0621,0.2117,+372,106,v1.2-g075
-663886,"Stephenson, Tyler",R,4,home,CIN,Justin Wrobleski,L,0.0312,0.0413,1.405,0.0452,0.1798,+456,62,v1.2-g075
-680574,"McLain, Matt",R,6,home,CIN,Justin Wrobleski,L,0.0352,0.0465,1.405,0.0509,0.171,+485,74,v1.2-g075
-682877,"Brito, Juan",R,5,home,CIN,Justin Wrobleski,L,0.0393,0.0519,1.405,0.0568,0.1701,+488,25,v1.2-g075
-667472,"Myers, Dane",R,1,home,CIN,Justin Wrobleski,L,0.0272,0.0361,1.405,0.0395,0.1417,+606,85,v1.2-g075
-699302,"Rodríguez, Héctor",L,7,home,CIN,Justin Wrobleski,L,0.0247,0.0323,1.431,0.036,0.1397,+616,25,v1.2-g075
-663647,"Hayes, Ke'Bryan",R,8,home,CIN,Justin Wrobleski,L,0.0227,0.0301,1.405,0.033,0.1365,+633,37,v1.2-g075
-670770,"Friedl, TJ",L,9,home,CIN,Justin Wrobleski,L,0.0205,0.0268,1.431,0.0299,0.1127,+787,24,v1.2-g075
+682829,"De La Cruz, Elly",R,2,home,CIN,Justin Wrobleski,L,0.0545,0.0716,1.406,0.0785,0.235,+326,105,v1.2-g075
+701398,"Stewart, Sal",R,3,home,CIN,Justin Wrobleski,L,0.043,0.0567,1.406,0.0622,0.2051,+388,106,v1.2-g075
+571970,"Muncy, Max",L,5,away,CIN,Brady Singer,R,0.0456,0.0562,1.431,0.0627,0.203,+393,249,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,CIN,Brady Singer,R,0.0369,0.0456,1.431,0.0509,0.1834,+445,296,v1.2-g075
+663886,"Stephenson, Tyler",R,4,home,CIN,Justin Wrobleski,L,0.0312,0.0413,1.406,0.0453,0.174,+475,62,v1.2-g075
+800543,"De Paula, Josue",L,6,away,CIN,Brady Singer,R,0.0367,0.0453,1.431,0.0506,0.1718,+482,9,v1.2-g075
+680574,"McLain, Matt",R,6,home,CIN,Justin Wrobleski,L,0.0352,0.0465,1.406,0.051,0.1653,+505,74,v1.2-g075
+682877,"Brito, Juan",R,5,home,CIN,Justin Wrobleski,L,0.0393,0.0519,1.406,0.0569,0.1644,+508,25,v1.2-g075
+606192,"Hernández, Teoscar",R,4,away,CIN,Brady Singer,R,0.0336,0.0376,1.406,0.0413,0.1574,+535,195,v1.2-g075
+668804,"Reynolds, Bryan",R,3,home,PIT,Kyle Harrison,L,0.0381,0.0496,1.056,0.0408,0.1535,+551,150,v1.2-g075
+804668,"Flores Jr., Rafael",R,4,home,PIT,Kyle Harrison,L,0.0384,0.0499,1.056,0.0411,0.1511,+562,41,v1.2-g075
+663656,"Tucker, Kyle",L,3,away,CIN,Brady Singer,R,0.0268,0.0332,1.431,0.037,0.1443,+593,286,v1.2-g075
+676439,"Feduccia, Hunter",L,7,away,CIN,Brady Singer,R,0.0292,0.0362,1.431,0.0404,0.1442,+593,121,v1.2-g075
+667472,"Myers, Dane",R,1,home,CIN,Justin Wrobleski,L,0.0272,0.0361,1.406,0.0396,0.1368,+631,85,v1.2-g075
+665833,"Cruz, Oneil",L,2,home,PIT,Kyle Harrison,L,0.0356,0.03,1.067,0.025,0.1363,+634,65,v1.2-g075
+699302,"Rodríguez, Héctor",L,7,home,CIN,Justin Wrobleski,L,0.0247,0.0323,1.431,0.036,0.1349,+641,25,v1.2-g075
+669242,"Edman, Tommy",L,1,away,CIN,Brady Singer,R,0.0232,0.0288,1.431,0.0321,0.1342,+645,143,v1.2-g075
+663647,"Hayes, Ke'Bryan",R,8,home,CIN,Justin Wrobleski,L,0.0227,0.0301,1.406,0.0331,0.1317,+659,37,v1.2-g075
+690976,"Freeland, Alex",L,8,away,CIN,Brady Singer,R,0.0262,0.0324,1.431,0.0362,0.1312,+662,140,v1.2-g075
+804606,"Griffin, Konnor",R,1,home,PIT,Kyle Harrison,L,0.0273,0.0356,1.056,0.0293,0.1258,+695,51,v1.2-g075
+664040,"Lowe, Brandon",L,5,home,PIT,Kyle Harrison,L,0.0325,0.0274,1.067,0.0228,0.1196,+736,109,v1.2-g075
+682927,"Simon, Ronny",R,7,home,PIT,Kyle Harrison,L,0.0311,0.0405,1.056,0.0333,0.1164,+759,11,v1.2-g075
+680779,"Davis, Henry",R,9,home,PIT,Kyle Harrison,L,0.0286,0.0373,1.056,0.0307,0.1163,+760,63,v1.2-g075
+500743,"Rojas, Miguel",R,9,away,CIN,Brady Singer,R,0.0232,0.0261,1.406,0.0286,0.1109,+802,66,v1.2-g075
+670770,"Friedl, TJ",L,9,home,CIN,Justin Wrobleski,L,0.0205,0.0268,1.431,0.0299,0.1086,+821,24,v1.2-g075
+669707,"Triolo, Jared",R,8,home,PIT,Kyle Harrison,L,0.0168,0.022,1.056,0.0181,0.0787,+1171,106,v1.2-g075
+693304,"Gonzales, Nick",R,6,home,PIT,Kyle Harrison,L,0.0116,0.0152,1.056,0.0125,0.0722,+1285,138,v1.2-g075

@@ -1,11 +1,29 @@
-HR BOARD -- 2026-09-17 -- 9 hitters composed
+HR BOARD -- 2026-09-17 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.41  0.0785   0.242   +313   105  
-Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.41  0.0621   0.212   +372   106  
-Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.41  0.0452   0.180   +456   62   
-McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.41  0.0509   0.171   +485   74   
-Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.41  0.0568   0.170   +488   25   
-Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.41  0.0395   0.142   +606   85   
-Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.43  0.0360   0.140   +616   25   
-Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.41  0.0330   0.137   +633   37   
-Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.43  0.0299   0.113   +787   24   
+De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.41  0.0785   0.235   +326   105  
+Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.41  0.0622   0.205   +388   106  
+Muncy, Max              L    5    CIN  Brady Singer          0.0456  0.0562   1.43  0.0627   0.203   +393   249  
+Freeman, Freddie        L    2    CIN  Brady Singer          0.0369  0.0456   1.43  0.0509   0.183   +445   296  
+Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.41  0.0453   0.174   +475   62   
+De Paula, Josue         L    6    CIN  Brady Singer          0.0367  0.0453   1.43  0.0506   0.172   +482   9    
+McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.41  0.0510   0.165   +505   74   
+Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.41  0.0569   0.164   +508   25   
+Hernández, Teoscar      R    4    CIN  Brady Singer          0.0336  0.0376   1.41  0.0413   0.157   +535   195  
+Reynolds, Bryan         R    3    PIT  Kyle Harrison         0.0381  0.0496   1.06  0.0408   0.153   +551   150  
+Flores Jr., Rafael      R    4    PIT  Kyle Harrison         0.0384  0.0499   1.06  0.0411   0.151   +562   41   
+Tucker, Kyle            L    3    CIN  Brady Singer          0.0268  0.0332   1.43  0.0370   0.144   +593   286  
+Feduccia, Hunter        L    7    CIN  Brady Singer          0.0292  0.0362   1.43  0.0404   0.144   +593   121  
+Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.41  0.0396   0.137   +631   85   
+Cruz, Oneil             L    2    PIT  Kyle Harrison         0.0356  0.0300   1.07  0.0250   0.136   +634   65   
+Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.43  0.0360   0.135   +641   25   
+Edman, Tommy            L    1    CIN  Brady Singer          0.0232  0.0288   1.43  0.0321   0.134   +645   143  
+Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.41  0.0331   0.132   +659   37   
+Freeland, Alex          L    8    CIN  Brady Singer          0.0262  0.0324   1.43  0.0362   0.131   +662   140  
+Griffin, Konnor         R    1    PIT  Kyle Harrison         0.0273  0.0356   1.06  0.0293   0.126   +695   51   
+Lowe, Brandon           L    5    PIT  Kyle Harrison         0.0325  0.0274   1.07  0.0228   0.120   +736   109  
+Simon, Ronny            R    7    PIT  Kyle Harrison         0.0311  0.0405   1.06  0.0333   0.116   +759   11   
+Davis, Henry            R    9    PIT  Kyle Harrison         0.0286  0.0373   1.06  0.0307   0.116   +760   63   
+Rojas, Miguel           R    9    CIN  Brady Singer          0.0232  0.0261   1.41  0.0286   0.111   +802   66   
+Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.43  0.0299   0.109   +821   24   
+Triolo, Jared           R    8    PIT  Kyle Harrison         0.0168  0.0220   1.06  0.0181   0.079   +1171  106  
+Gonzales, Nick          R    6    PIT  Kyle Harrison         0.0116  0.0152   1.06  0.0125   0.072   +1285  138  
