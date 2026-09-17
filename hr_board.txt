@@ -1,56 +1,56 @@
 HR BOARD -- 2026-09-17 -- 54 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.37  0.0765   0.223   +349   105  
-Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.37  0.0605   0.194   +415   106  
-Muncy, Max              L    5    CIN  Brady Singer          0.0456  0.0562   1.39  0.0611   0.192   +421   249  
-Merrill, Jackson        L    5    COL  Tanner Gordon         0.0537  0.0701   1.02  0.0556   0.177   +464   312  
-Freeman, Freddie        L    2    CIN  Brady Singer          0.0369  0.0456   1.39  0.0496   0.173   +477   296  
-Tatis Jr., Fernando     R    1    COL  Tanner Gordon         0.0500  0.0575   1.03  0.0464   0.171   +485   368  
-Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.37  0.0441   0.164   +509   62   
-De Paula, Josue         L    6    CIN  Brady Singer          0.0367  0.0453   1.39  0.0493   0.162   +516   9    
-McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.37  0.0496   0.156   +541   74   
-Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.37  0.0554   0.155   +544   25   
-Hernández, Teoscar      R    4    CIN  Brady Singer          0.0336  0.0376   1.37  0.0402   0.148   +573   195  
-Reynolds, Bryan         R    3    PIT  Kyle Harrison         0.0381  0.0496   1.04  0.0400   0.146   +587   150  
-Chourio, Jackson        R    3    PIT  Wilber Dotel          0.0475  0.0425   1.04  0.0343   0.144   +593   260  
-Flores Jr., Rafael      R    4    PIT  Kyle Harrison         0.0384  0.0499   1.04  0.0403   0.143   +598   41   
-France, Ty              R    4    COL  Tanner Gordon         0.0403  0.0465   1.03  0.0375   0.140   +613   224  
-Feduccia, Hunter        L    7    CIN  Brady Singer          0.0292  0.0362   1.39  0.0394   0.136   +635   121  
-Tucker, Kyle            L    3    CIN  Brady Singer          0.0268  0.0332   1.39  0.0360   0.136   +635   286  
-Machado, Manny          R    3    COL  Tanner Gordon         0.0367  0.0423   1.03  0.0342   0.134   +649   316  
-Moniak, Mickey          L    6    COL  Michael King          0.0412  0.0469   1.02  0.0372   0.133   +651   220  
-Cruz, Oneil             L    2    PIT  Kyle Harrison         0.0356  0.0300   1.05  0.0245   0.129   +674   65   
-Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.37  0.0385   0.129   +675   85   
-Campusano, Luis         R    7    COL  Tanner Gordon         0.0377  0.0435   1.03  0.0351   0.127   +686   115  
-Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.39  0.0351   0.127   +686   25   
-Edman, Tommy            L    1    CIN  Brady Singer          0.0232  0.0288   1.39  0.0313   0.127   +691   143  
-Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.37  0.0322   0.124   +705   37   
-Freeland, Alex          L    8    CIN  Brady Singer          0.0262  0.0324   1.39  0.0353   0.124   +709   140  
-Naylor, Bo              L    8    PIT  Wilber Dotel          0.0444  0.0364   1.05  0.0297   0.121   +729   55   
-Griffin, Konnor         R    1    PIT  Kyle Harrison         0.0273  0.0356   1.04  0.0288   0.119   +739   51   
-Lowe, Brandon           L    5    PIT  Kyle Harrison         0.0325  0.0274   1.05  0.0224   0.113   +783   109  
-Turang, Brice           L    1    PIT  Wilber Dotel          0.0324  0.0265   1.05  0.0216   0.111   +802   274  
-Simon, Ronny            R    7    PIT  Kyle Harrison         0.0311  0.0405   1.04  0.0327   0.110   +807   11   
-Davis, Henry            R    9    PIT  Kyle Harrison         0.0286  0.0373   1.04  0.0302   0.110   +808   63   
-Veen, Zac               L    9    COL  Michael King          0.0323  0.0368   1.02  0.0292   0.106   +844   26   
-McCarthy, Jake          L    1    COL  Michael King          0.0265  0.0302   1.02  0.0240   0.106   +846   302  
-Bogaerts, Xander        R    6    COL  Tanner Gordon         0.0282  0.0325   1.03  0.0262   0.105   +851   279  
-Rojas, Miguel           R    9    CIN  Brady Singer          0.0232  0.0261   1.37  0.0278   0.104   +858   66   
-Harris, Dustin          L    2    COL  Tanner Gordon         0.0236  0.0311   1.02  0.0246   0.104   +865   70   
-Karros, Kyle            R    5    COL  Michael King          0.0313  0.0288   1.03  0.0232   0.102   +876   186  
-Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.39  0.0291   0.102   +878   24   
-Rumfield, TJ            L    4    COL  Michael King          0.0271  0.0309   1.02  0.0245   0.102   +878   300  
-Carrigg, Cole           L    3    COL  Michael King          0.0262  0.0299   1.02  0.0237   0.102   +884   121  
-Sánchez, Gary           R    5    PIT  Wilber Dotel          0.0303  0.0271   1.04  0.0219   0.101   +892   82   
-Norby, Connor           R    2    COL  Michael King          0.0267  0.0246   1.03  0.0198   0.097   +933   133  
-Lara, Luis              L    2    PIT  Wilber Dotel          0.0274  0.0224   1.05  0.0183   0.097   +935   79   
-Sullivan, Brett         L    8    COL  Michael King          0.0269  0.0306   1.02  0.0243   0.095   +956   122  
-Vaughn, Andrew          R    4    PIT  Wilber Dotel          0.0231  0.0206   1.04  0.0166   0.084   +1085  136  
-Cronenworth, Jake       L    8    COL  Tanner Gordon         0.0198  0.0262   1.02  0.0207   0.083   +1099  191  
-Ortiz, Joey             R    6    PIT  Wilber Dotel          0.0227  0.0203   1.04  0.0164   0.080   +1147  183  
-Taylor, Samad           R    9    COL  Tanner Gordon         0.0193  0.0223   1.03  0.0180   0.076   +1219  59   
-Triolo, Jared           R    8    PIT  Kyle Harrison         0.0168  0.0220   1.04  0.0178   0.074   +1244  106  
-Gonzales, Nick          R    6    PIT  Kyle Harrison         0.0116  0.0152   1.04  0.0123   0.068   +1368  138  
-Frelick, Sal            L    7    PIT  Wilber Dotel          0.0183  0.0150   1.05  0.0122   0.065   +1434  213  
-Hamilton, David         L    9    PIT  Wilber Dotel          0.0190  0.0155   1.05  0.0127   0.064   +1470  200  
-Johnston, Troy          L    7    COL  Michael King          0.0144  0.0164   1.02  0.0130   0.061   +1529  224  
+De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.37  0.0767   0.224   +347   105  
+Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.37  0.0607   0.195   +413   106  
+Muncy, Max              L    5    CIN  Brady Singer          0.0456  0.0562   1.40  0.0613   0.193   +418   249  
+Merrill, Jackson        L    5    COL  Tanner Gordon         0.0537  0.0701   1.01  0.0553   0.177   +465   312  
+Freeman, Freddie        L    2    CIN  Brady Singer          0.0369  0.0456   1.40  0.0498   0.174   +474   296  
+Tatis Jr., Fernando     R    1    COL  Tanner Gordon         0.0500  0.0575   1.03  0.0462   0.171   +486   368  
+Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.37  0.0442   0.165   +506   62   
+De Paula, Josue         L    6    CIN  Brady Singer          0.0367  0.0453   1.40  0.0495   0.163   +513   9    
+McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.37  0.0498   0.157   +538   74   
+Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.37  0.0556   0.156   +541   25   
+Hernández, Teoscar      R    4    CIN  Brady Singer          0.0336  0.0376   1.37  0.0403   0.149   +571   195  
+Reynolds, Bryan         R    3    PIT  Kyle Harrison         0.0381  0.0496   1.06  0.0411   0.149   +573   150  
+Chourio, Jackson        R    3    PIT  Wilber Dotel          0.0475  0.0425   1.06  0.0353   0.147   +579   260  
+Flores Jr., Rafael      R    4    PIT  Kyle Harrison         0.0384  0.0499   1.06  0.0414   0.146   +584   41   
+France, Ty              R    4    COL  Tanner Gordon         0.0403  0.0465   1.03  0.0373   0.140   +614   224  
+Tucker, Kyle            L    3    CIN  Brady Singer          0.0268  0.0332   1.40  0.0362   0.137   +632   286  
+Feduccia, Hunter        L    7    CIN  Brady Singer          0.0292  0.0362   1.40  0.0395   0.137   +632   121  
+Machado, Manny          R    3    COL  Tanner Gordon         0.0367  0.0423   1.03  0.0340   0.133   +651   316  
+Moniak, Mickey          L    6    COL  Michael King          0.0412  0.0469   1.01  0.0370   0.133   +652   220  
+Cruz, Oneil             L    2    PIT  Kyle Harrison         0.0356  0.0300   1.07  0.0252   0.132   +658   65   
+Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.37  0.0387   0.130   +672   85   
+Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.40  0.0352   0.128   +682   25   
+Edman, Tommy            L    1    CIN  Brady Singer          0.0232  0.0288   1.40  0.0314   0.127   +687   143  
+Campusano, Luis         R    7    COL  Tanner Gordon         0.0377  0.0435   1.03  0.0349   0.127   +687   115  
+Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.37  0.0323   0.125   +702   37   
+Freeland, Alex          L    8    CIN  Brady Singer          0.0262  0.0324   1.40  0.0354   0.124   +705   140  
+Naylor, Bo              L    8    PIT  Wilber Dotel          0.0444  0.0364   1.07  0.0305   0.123   +712   55   
+Griffin, Konnor         R    1    PIT  Kyle Harrison         0.0273  0.0356   1.06  0.0296   0.122   +722   51   
+Lowe, Brandon           L    5    PIT  Kyle Harrison         0.0325  0.0274   1.07  0.0230   0.116   +765   109  
+Turang, Brice           L    1    PIT  Wilber Dotel          0.0324  0.0265   1.07  0.0222   0.113   +783   274  
+Simon, Ronny            R    7    PIT  Kyle Harrison         0.0311  0.0405   1.06  0.0336   0.113   +789   11   
+Davis, Henry            R    9    PIT  Kyle Harrison         0.0286  0.0373   1.06  0.0310   0.112   +790   63   
+Veen, Zac               L    9    COL  Michael King          0.0323  0.0368   1.01  0.0290   0.106   +846   26   
+McCarthy, Jake          L    1    COL  Michael King          0.0265  0.0302   1.01  0.0238   0.105   +848   302  
+Bogaerts, Xander        R    6    COL  Tanner Gordon         0.0282  0.0325   1.03  0.0261   0.105   +852   279  
+Rojas, Miguel           R    9    CIN  Brady Singer          0.0232  0.0261   1.37  0.0279   0.105   +853   66   
+Harris, Dustin          L    2    COL  Tanner Gordon         0.0236  0.0311   1.01  0.0245   0.103   +867   70   
+Sánchez, Gary           R    5    PIT  Wilber Dotel          0.0303  0.0271   1.06  0.0225   0.103   +872   82   
+Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.40  0.0292   0.103   +874   24   
+Karros, Kyle            R    5    COL  Michael King          0.0313  0.0288   1.03  0.0231   0.102   +878   186  
+Rumfield, TJ            L    4    COL  Michael King          0.0271  0.0309   1.01  0.0243   0.102   +879   300  
+Carrigg, Cole           L    3    COL  Michael King          0.0262  0.0299   1.01  0.0236   0.101   +886   121  
+Lara, Luis              L    2    PIT  Wilber Dotel          0.0274  0.0224   1.07  0.0188   0.099   +913   79   
+Norby, Connor           R    2    COL  Michael King          0.0267  0.0246   1.03  0.0197   0.097   +935   133  
+Sullivan, Brett         L    8    COL  Michael King          0.0269  0.0306   1.01  0.0241   0.095   +958   122  
+Vaughn, Andrew          R    4    PIT  Wilber Dotel          0.0231  0.0206   1.06  0.0171   0.086   +1061  136  
+Cronenworth, Jake       L    8    COL  Tanner Gordon         0.0198  0.0262   1.01  0.0206   0.083   +1102  191  
+Ortiz, Joey             R    6    PIT  Wilber Dotel          0.0227  0.0203   1.06  0.0168   0.082   +1121  183  
+Triolo, Jared           R    8    PIT  Kyle Harrison         0.0168  0.0220   1.06  0.0183   0.076   +1216  106  
+Taylor, Samad           R    9    COL  Tanner Gordon         0.0193  0.0223   1.03  0.0179   0.076   +1223  59   
+Gonzales, Nick          R    6    PIT  Kyle Harrison         0.0116  0.0152   1.06  0.0126   0.070   +1337  138  
+Frelick, Sal            L    7    PIT  Wilber Dotel          0.0183  0.0150   1.07  0.0125   0.067   +1402  213  
+Hamilton, David         L    9    PIT  Wilber Dotel          0.0190  0.0155   1.07  0.0130   0.065   +1434  200  
+Johnston, Troy          L    7    COL  Michael King          0.0144  0.0164   1.01  0.0129   0.061   +1531  224  
