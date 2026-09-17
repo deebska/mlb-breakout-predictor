@@ -1,25 +1,28 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-682829,"De La Cruz, Elly",R,2,home,CIN,Justin Wrobleski,L,0.0545,0.0716,1.374,0.0767,0.2212,+352,105,v1.2-g075
+682829,"De La Cruz, Elly",R,2,home,CIN,Justin Wrobleski,L,0.0545,0.0716,1.374,0.0767,0.2213,+352,105,v1.2-g075
 701398,"Stewart, Sal",R,3,home,CIN,Justin Wrobleski,L,0.043,0.0567,1.374,0.0607,0.1927,+419,106,v1.2-g075
-571970,"Muncy, Max",L,5,away,CIN,Brady Singer,R,0.0456,0.0562,1.399,0.0613,0.1908,+424,249,v1.2-g075
+571970,"Muncy, Max",L,5,away,CIN,Brady Singer,R,0.0456,0.0562,1.399,0.0613,0.1909,+424,249,v1.2-g075
 670541,"Alvarez, Yordan",L,2,home,HOU,Seth Lugo,R,0.0582,0.0607,1.06,0.0502,0.1789,+459,290,v1.2-g075
+695506,"Caglianone, Jac",L,3,away,HOU,Miguel Ullola,R,0.0575,0.0604,1.06,0.0499,0.1776,+463,239,v1.2-g075
 701538,"Merrill, Jackson",L,5,away,COL,Tanner Gordon,R,0.0537,0.0701,1.011,0.0553,0.175,+471,312,v1.2-g075
-518692,"Freeman, Freddie",L,2,away,CIN,Brady Singer,R,0.0369,0.0456,1.399,0.0498,0.1721,+481,296,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,CIN,Brady Singer,R,0.0369,0.0456,1.399,0.0498,0.1722,+481,296,v1.2-g075
 665487,"Tatis Jr., Fernando",R,1,away,COL,Tanner Gordon,R,0.05,0.0575,1.029,0.0462,0.1687,+493,368,v1.2-g075
 663886,"Stephenson, Tyler",R,4,home,CIN,Justin Wrobleski,L,0.0312,0.0413,1.374,0.0442,0.1632,+513,62,v1.2-g075
-800543,"De Paula, Josue",L,6,away,CIN,Brady Singer,R,0.0367,0.0453,1.399,0.0495,0.1611,+521,9,v1.2-g075
+800543,"De Paula, Josue",L,6,away,CIN,Brady Singer,R,0.0367,0.0453,1.399,0.0495,0.1612,+520,9,v1.2-g075
 656941,"Schwarber, Kyle",L,1,away,NYM,Nolan McLean,R,0.0483,0.0469,1.079,0.0395,0.1589,+529,205,v1.2-g075
 678246,"Vargas, Miguel",R,3,home,CWS,Framber Valdez,L,0.0489,0.0488,1.123,0.0427,0.1585,+531,128,v1.2-g075
 680574,"McLain, Matt",R,6,home,CIN,Justin Wrobleski,L,0.0352,0.0465,1.374,0.0498,0.155,+545,74,v1.2-g075
 682877,"Brito, Juan",R,5,home,CIN,Justin Wrobleski,L,0.0393,0.0519,1.374,0.0556,0.1541,+549,25,v1.2-g075
-547180,"Harper, Bryce",L,3,away,NYM,Nolan McLean,R,0.0459,0.0446,1.079,0.0375,0.1484,+574,256,v1.2-g075
-606192,"Hernández, Teoscar",R,4,away,CIN,Brady Singer,R,0.0336,0.0376,1.374,0.0403,0.1474,+578,195,v1.2-g075
-668804,"Reynolds, Bryan",R,3,home,PIT,Kyle Harrison,L,0.0381,0.0496,1.064,0.0411,0.1469,+581,150,v1.2-g075
-694192,"Chourio, Jackson",R,3,away,PIT,Wilber Dotel,R,0.0475,0.0425,1.064,0.0353,0.1456,+587,260,v1.2-g075
+695600,"Jensen, Carter",L,1,away,HOU,Miguel Ullola,R,0.0439,0.0462,1.06,0.0382,0.1516,+560,245,v1.2-g075
+547180,"Harper, Bryce",L,3,away,NYM,Nolan McLean,R,0.0459,0.0446,1.079,0.0375,0.1485,+573,256,v1.2-g075
+606192,"Hernández, Teoscar",R,4,away,CIN,Brady Singer,R,0.0336,0.0376,1.374,0.0403,0.1475,+578,195,v1.2-g075
+668804,"Reynolds, Bryan",R,3,home,PIT,Kyle Harrison,L,0.0381,0.0496,1.064,0.0411,0.147,+580,150,v1.2-g075
+694192,"Chourio, Jackson",R,3,away,PIT,Wilber Dotel,R,0.0475,0.0425,1.064,0.0353,0.1457,+586,260,v1.2-g075
 804668,"Flores Jr., Rafael",R,4,home,PIT,Kyle Harrison,L,0.0384,0.0499,1.064,0.0414,0.1446,+592,41,v1.2-g075
+677951,"Witt Jr., Bobby",R,2,away,HOU,Miguel Ullola,R,0.0436,0.0429,1.05,0.0352,0.1436,+596,302,v1.2-g075
 664034,"France, Ty",R,4,away,COL,Tanner Gordon,R,0.0403,0.0465,1.029,0.0373,0.1385,+622,224,v1.2-g075
-545341,"Grichuk, Randal",R,4,home,CWS,Framber Valdez,L,0.0484,0.0482,1.123,0.0423,0.1381,+624,114,v1.2-g075
-663656,"Tucker, Kyle",L,3,away,CIN,Brady Singer,R,0.0268,0.0332,1.399,0.0362,0.1351,+640,286,v1.2-g075
+545341,"Grichuk, Randal",R,4,home,CWS,Framber Valdez,L,0.0484,0.0482,1.123,0.0423,0.1382,+624,114,v1.2-g075
+663656,"Tucker, Kyle",L,3,away,CIN,Brady Singer,R,0.0268,0.0332,1.399,0.0362,0.1352,+640,286,v1.2-g075
 676439,"Feduccia, Hunter",L,7,away,CIN,Brady Singer,R,0.0292,0.0362,1.399,0.0395,0.135,+641,121,v1.2-g075
 666211,"Trammell, Taylor",L,7,home,HOU,Seth Lugo,R,0.0442,0.0462,1.06,0.0382,0.1347,+642,130,v1.2-g075
 592518,"Machado, Manny",R,3,away,COL,Tanner Gordon,R,0.0367,0.0423,1.029,0.034,0.1317,+659,316,v1.2-g075
@@ -28,35 +31,38 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 808959,"Murakami, Munetaka",L,5,home,CWS,Framber Valdez,L,0.0358,0.0331,1.113,0.0288,0.1292,+674,66,v1.2-g075
 701358,"Smith, Cam",R,8,home,HOU,Seth Lugo,R,0.0427,0.0451,1.05,0.0369,0.1287,+677,255,v1.2-g075
 667472,"Myers, Dane",R,1,home,CIN,Justin Wrobleski,L,0.0272,0.0361,1.374,0.0387,0.1281,+681,85,v1.2-g075
+521692,"Perez, Salvador",R,6,away,HOU,Miguel Ullola,R,0.0407,0.04,1.05,0.0328,0.1272,+686,319,v1.2-g075
 699302,"Rodríguez, Héctor",L,7,home,CIN,Justin Wrobleski,L,0.0247,0.0323,1.399,0.0352,0.1263,+692,25,v1.2-g075
-669242,"Edman, Tommy",L,1,away,CIN,Brady Singer,R,0.0232,0.0288,1.399,0.0314,0.1256,+696,143,v1.2-g075
 669134,"Campusano, Luis",R,7,away,COL,Tanner Gordon,R,0.0377,0.0435,1.029,0.0349,0.1256,+696,115,v1.2-g075
+669242,"Edman, Tommy",L,1,away,CIN,Brady Singer,R,0.0232,0.0288,1.399,0.0314,0.1256,+696,143,v1.2-g075
 663647,"Hayes, Ke'Bryan",R,8,home,CIN,Justin Wrobleski,L,0.0227,0.0301,1.374,0.0323,0.1232,+712,37,v1.2-g075
 690976,"Freeland, Alex",L,8,away,CIN,Brady Singer,R,0.0262,0.0324,1.399,0.0354,0.1228,+714,140,v1.2-g075
 666310,"Naylor, Bo",L,8,away,PIT,Wilber Dotel,R,0.0444,0.0364,1.075,0.0305,0.1217,+722,55,v1.2-g075
+670231,"Rave, John",L,7,away,HOU,Miguel Ullola,R,0.0371,0.0391,1.06,0.0323,0.1214,+724,63,v1.2-g075
 804606,"Griffin, Konnor",R,1,home,PIT,Kyle Harrison,L,0.0273,0.0356,1.064,0.0296,0.1203,+731,51,v1.2-g075
-502054,"Pham, Tommy",R,2,home,CWS,Framber Valdez,L,0.0293,0.0292,1.123,0.0256,0.1144,+774,10,v1.2-g075
+502054,"Pham, Tommy",R,2,home,CWS,Framber Valdez,L,0.0293,0.0292,1.123,0.0256,0.1145,+773,10,v1.2-g075
 664040,"Lowe, Brandon",L,5,home,PIT,Kyle Harrison,L,0.0325,0.0274,1.075,0.023,0.1143,+775,109,v1.2-g075
-665161,"Peña, Jeremy",R,1,home,HOU,Seth Lugo,R,0.0296,0.0312,1.05,0.0256,0.112,+793,237,v1.2-g075
+665161,"Peña, Jeremy",R,1,home,HOU,Seth Lugo,R,0.0296,0.0312,1.05,0.0256,0.1121,+792,237,v1.2-g075
 668930,"Turang, Brice",L,1,away,PIT,Wilber Dotel,R,0.0324,0.0265,1.075,0.0222,0.1118,+794,274,v1.2-g075
-682927,"Simon, Ronny",R,7,home,PIT,Kyle Harrison,L,0.0311,0.0405,1.064,0.0336,0.1111,+800,11,v1.2-g075
-680779,"Davis, Henry",R,9,home,PIT,Kyle Harrison,L,0.0286,0.0373,1.064,0.031,0.111,+801,63,v1.2-g075
+682927,"Simon, Ronny",R,7,home,PIT,Kyle Harrison,L,0.0311,0.0405,1.064,0.0336,0.1112,+799,11,v1.2-g075
+680779,"Davis, Henry",R,9,home,PIT,Kyle Harrison,L,0.0286,0.0373,1.064,0.031,0.1111,+800,63,v1.2-g075
 669016,"Marsh, Brandon",L,7,away,NYM,Nolan McLean,R,0.0337,0.0327,1.079,0.0275,0.1105,+805,299,v1.2-g075
 662139,"Varsho, Daulton",L,6,home,HOU,Seth Lugo,R,0.0322,0.0336,1.06,0.0278,0.1094,+814,273,v1.2-g075
-673237,"Diaz, Yainer",R,5,home,HOU,Seth Lugo,R,0.031,0.0328,1.05,0.0268,0.1083,+823,189,v1.2-g075
+673237,"Diaz, Yainer",R,5,home,HOU,Seth Lugo,R,0.031,0.0328,1.05,0.0268,0.1084,+823,189,v1.2-g075
 668670,"Rogers, Jake",R,7,home,CWS,Framber Valdez,L,0.0319,0.0318,1.123,0.0279,0.1075,+830,24,v1.2-g075
+686681,"Massey, Michael",L,5,away,HOU,Miguel Ullola,R,0.029,0.0305,1.06,0.0252,0.1054,+849,256,v1.2-g075
 691728,"Veen, Zac",L,9,home,COL,Michael King,R,0.0323,0.0368,1.011,0.029,0.1044,+858,26,v1.2-g075
 664983,"McCarthy, Jake",L,1,home,COL,Michael King,R,0.0265,0.0302,1.011,0.0238,0.1043,+859,302,v1.2-g075
 593428,"Bogaerts, Xander",R,6,away,COL,Tanner Gordon,R,0.0282,0.0325,1.029,0.0261,0.1038,+863,279,v1.2-g075
-500743,"Rojas, Miguel",R,9,away,CIN,Brady Singer,R,0.0232,0.0261,1.374,0.0279,0.1036,+865,66,v1.2-g075
-687957,"Harris, Dustin",L,2,away,COL,Tanner Gordon,R,0.0236,0.0311,1.011,0.0245,0.1021,+879,70,v1.2-g075
-596142,"Sánchez, Gary",R,5,away,PIT,Wilber Dotel,R,0.0303,0.0271,1.064,0.0225,0.1016,+884,82,v1.2-g075
+500743,"Rojas, Miguel",R,9,away,CIN,Brady Singer,R,0.0232,0.0261,1.374,0.0279,0.1037,+864,66,v1.2-g075
+687957,"Harris, Dustin",L,2,away,COL,Tanner Gordon,R,0.0236,0.0311,1.011,0.0245,0.1022,+878,70,v1.2-g075
+596142,"Sánchez, Gary",R,5,away,PIT,Wilber Dotel,R,0.0303,0.0271,1.064,0.0225,0.1017,+883,82,v1.2-g075
 670770,"Friedl, TJ",L,9,home,CIN,Justin Wrobleski,L,0.0205,0.0268,1.399,0.0292,0.1015,+885,24,v1.2-g075
 691720,"Karros, Kyle",R,5,home,COL,Michael King,R,0.0313,0.0288,1.029,0.0231,0.101,+890,186,v1.2-g075
 681198,"Rumfield, TJ",L,4,home,COL,Michael King,R,0.0271,0.0309,1.011,0.0243,0.1009,+891,300,v1.2-g075
 681082,"Stott, Bryson",L,6,away,NYM,Nolan McLean,R,0.0289,0.028,1.079,0.0236,0.1009,+891,313,v1.2-g075
 686668,"Doyle, Brenton",R,6,home,CWS,Framber Valdez,L,0.0311,0.031,1.123,0.0272,0.1003,+897,52,v1.2-g075
-694249,"Carrigg, Cole",L,3,home,COL,Michael King,R,0.0262,0.0299,1.011,0.0236,0.1001,+899,121,v1.2-g075
+694249,"Carrigg, Cole",L,3,home,COL,Michael King,R,0.0262,0.0299,1.011,0.0236,0.1002,+898,121,v1.2-g075
 800325,"Lara, Luis",L,2,away,PIT,Wilber Dotel,R,0.0274,0.0224,1.075,0.0188,0.0975,+926,79,v1.2-g075
 681393,"Norby, Connor",R,2,home,COL,Michael King,R,0.0267,0.0246,1.029,0.0197,0.0955,+947,133,v1.2-g075
 607208,"Turner, Trea",R,2,away,NYM,Nolan McLean,R,0.0274,0.0215,1.068,0.0179,0.0955,+947,308,v1.2-g075
@@ -67,15 +73,18 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 683734,"Vaughn, Andrew",R,4,away,PIT,Wilber Dotel,R,0.0231,0.0206,1.064,0.0171,0.0851,+1075,136,v1.2-g075
 664774,"Wade Jr., LaMonte",L,9,home,HOU,Seth Lugo,R,0.0236,0.0247,1.06,0.0204,0.0824,+1114,73,v1.2-g075
 630105,"Cronenworth, Jake",L,8,away,COL,Tanner Gordon,R,0.0198,0.0262,1.011,0.0206,0.0822,+1117,191,v1.2-g075
-687401,"Ortiz, Joey",R,6,away,PIT,Wilber Dotel,R,0.0227,0.0203,1.064,0.0168,0.0809,+1136,183,v1.2-g075
+687401,"Ortiz, Joey",R,6,away,PIT,Wilber Dotel,R,0.0227,0.0203,1.064,0.0168,0.081,+1135,183,v1.2-g075
 664761,"Bohm, Alec",R,5,away,NYM,Nolan McLean,R,0.0234,0.0183,1.068,0.0153,0.0801,+1148,303,v1.2-g075
-695731,"Montgomery, Braden",R,9,home,CWS,Framber Valdez,L,0.0209,0.0209,1.123,0.0183,0.0785,+1174,57,v1.2-g075
+695731,"Montgomery, Braden",R,9,home,CWS,Framber Valdez,L,0.0209,0.0209,1.123,0.0183,0.0786,+1172,57,v1.2-g075
+672580,"Garcia, Maikel",R,4,away,HOU,Miguel Ullola,R,0.0197,0.0194,1.05,0.0159,0.0784,+1176,188,v1.2-g075
+686555,"Collins, Isaac",L,9,away,HOU,Miguel Ullola,R,0.0213,0.0224,1.06,0.0185,0.0782,+1179,213,v1.2-g075
 669707,"Triolo, Jared",R,8,home,PIT,Kyle Harrison,L,0.0168,0.022,1.064,0.0183,0.0751,+1232,106,v1.2-g075
 669392,"Taylor, Samad",R,9,away,COL,Tanner Gordon,R,0.0193,0.0223,1.029,0.0179,0.0747,+1239,59,v1.2-g075
+664728,"Isbel, Kyle",L,8,away,HOU,Miguel Ullola,R,0.0189,0.0199,1.06,0.0165,0.0733,+1264,158,v1.2-g075
 682668,"Acuña, Luisangel",R,8,home,CWS,Framber Valdez,L,0.0157,0.0156,1.123,0.0137,0.0725,+1279,84,v1.2-g075
 596117,"Stubbs, Garrett",L,9,away,NYM,Nolan McLean,R,0.0196,0.019,1.079,0.016,0.0717,+1295,39,v1.2-g075
-693304,"Gonzales, Nick",R,6,home,PIT,Kyle Harrison,L,0.0116,0.0152,1.064,0.0126,0.0687,+1356,138,v1.2-g075
-686217,"Frelick, Sal",L,7,away,PIT,Wilber Dotel,R,0.0183,0.015,1.075,0.0125,0.0657,+1422,213,v1.2-g075
+693304,"Gonzales, Nick",R,6,home,PIT,Kyle Harrison,L,0.0116,0.0152,1.064,0.0126,0.0688,+1353,138,v1.2-g075
+686217,"Frelick, Sal",L,7,away,PIT,Wilber Dotel,R,0.0183,0.015,1.075,0.0125,0.0658,+1420,213,v1.2-g075
 666152,"Hamilton, David",L,9,away,PIT,Wilber Dotel,R,0.019,0.0155,1.075,0.013,0.0644,+1453,200,v1.2-g075
 650333,"Arraez, Luis",L,4,away,NYM,Nolan McLean,R,0.0147,0.0143,1.079,0.012,0.0643,+1455,389,v1.2-g075
 687859,"Johnston, Troy",L,7,home,COL,Michael King,R,0.0144,0.0164,1.011,0.0129,0.0605,+1553,224,v1.2-g075
