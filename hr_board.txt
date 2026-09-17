@@ -1,38 +1,47 @@
-HR BOARD -- 2026-09-17 -- 36 hitters composed
+HR BOARD -- 2026-09-17 -- 45 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.39  0.0776   0.228   +338   105  
-Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.39  0.0614   0.199   +402   106  
-Muncy, Max              L    5    CIN  Brady Singer          0.0456  0.0562   1.42  0.0620   0.197   +407   249  
-Freeman, Freddie        L    2    CIN  Brady Singer          0.0369  0.0456   1.42  0.0504   0.178   +462   296  
-Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.39  0.0447   0.169   +493   62   
-De Paula, Josue         L    6    CIN  Brady Singer          0.0367  0.0453   1.42  0.0500   0.167   +500   9    
-McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.39  0.0504   0.160   +524   74   
-Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.39  0.0562   0.159   +527   25   
-Hernández, Teoscar      R    4    CIN  Brady Singer          0.0336  0.0376   1.39  0.0408   0.152   +556   195  
-Reynolds, Bryan         R    3    PIT  Kyle Harrison         0.0381  0.0496   1.05  0.0405   0.149   +571   150  
-Chourio, Jackson        R    3    PIT  Wilber Dotel          0.0475  0.0425   1.05  0.0347   0.148   +577   260  
-Flores Jr., Rafael      R    4    PIT  Kyle Harrison         0.0384  0.0499   1.05  0.0408   0.147   +581   41   
-Tucker, Kyle            L    3    CIN  Brady Singer          0.0268  0.0332   1.42  0.0366   0.140   +615   286  
-Feduccia, Hunter        L    7    CIN  Brady Singer          0.0292  0.0362   1.42  0.0399   0.140   +616   121  
-Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.39  0.0391   0.133   +655   85   
-Cruz, Oneil             L    2    PIT  Kyle Harrison         0.0356  0.0300   1.06  0.0248   0.132   +655   65   
-Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.42  0.0356   0.131   +666   25   
-Edman, Tommy            L    1    CIN  Brady Singer          0.0232  0.0288   1.42  0.0317   0.130   +669   143  
-Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.39  0.0327   0.128   +684   37   
-Freeland, Alex          L    8    CIN  Brady Singer          0.0262  0.0324   1.42  0.0358   0.127   +687   140  
-Naylor, Bo              L    8    PIT  Wilber Dotel          0.0444  0.0364   1.06  0.0301   0.124   +708   55   
-Griffin, Konnor         R    1    PIT  Kyle Harrison         0.0273  0.0356   1.05  0.0291   0.122   +719   51   
-Lowe, Brandon           L    5    PIT  Kyle Harrison         0.0325  0.0274   1.06  0.0227   0.116   +761   109  
-Turang, Brice           L    1    PIT  Wilber Dotel          0.0324  0.0265   1.06  0.0219   0.114   +780   274  
-Simon, Ronny            R    7    PIT  Kyle Harrison         0.0311  0.0405   1.05  0.0331   0.113   +786   11   
-Davis, Henry            R    9    PIT  Kyle Harrison         0.0286  0.0373   1.05  0.0305   0.113   +786   63   
-Rojas, Miguel           R    9    CIN  Brady Singer          0.0232  0.0261   1.39  0.0283   0.107   +831   66   
-Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.42  0.0296   0.105   +851   24   
-Sánchez, Gary           R    5    PIT  Wilber Dotel          0.0303  0.0271   1.05  0.0221   0.103   +868   82   
-Lara, Luis              L    2    PIT  Wilber Dotel          0.0274  0.0224   1.06  0.0185   0.099   +909   79   
-Vaughn, Andrew          R    4    PIT  Wilber Dotel          0.0231  0.0206   1.05  0.0168   0.086   +1056  136  
-Ortiz, Joey             R    6    PIT  Wilber Dotel          0.0227  0.0203   1.05  0.0166   0.082   +1115  183  
-Triolo, Jared           R    8    PIT  Kyle Harrison         0.0168  0.0220   1.05  0.0180   0.076   +1209  106  
-Gonzales, Nick          R    6    PIT  Kyle Harrison         0.0116  0.0152   1.05  0.0124   0.070   +1329  138  
-Frelick, Sal            L    7    PIT  Wilber Dotel          0.0183  0.0150   1.06  0.0124   0.067   +1395  213  
-Hamilton, David         L    9    PIT  Wilber Dotel          0.0190  0.0155   1.06  0.0128   0.065   +1429  200  
+De La Cruz, Elly        R    2    CIN  Justin Wrobleski      0.0545  0.0716   1.39  0.0776   0.226   +343   105  
+Stewart, Sal            R    3    CIN  Justin Wrobleski      0.0430  0.0567   1.39  0.0614   0.197   +408   106  
+Muncy, Max              L    5    CIN  Brady Singer          0.0456  0.0562   1.42  0.0620   0.195   +413   249  
+Freeman, Freddie        L    2    CIN  Brady Singer          0.0369  0.0456   1.42  0.0504   0.176   +469   296  
+Stephenson, Tyler       R    4    CIN  Justin Wrobleski      0.0312  0.0413   1.39  0.0447   0.167   +500   62   
+De Paula, Josue         L    6    CIN  Brady Singer          0.0367  0.0453   1.42  0.0500   0.165   +507   9    
+McLain, Matt            R    6    CIN  Justin Wrobleski      0.0352  0.0465   1.39  0.0504   0.158   +532   74   
+Brito, Juan             R    5    CIN  Justin Wrobleski      0.0393  0.0519   1.39  0.0562   0.158   +535   25   
+Hernández, Teoscar      R    4    CIN  Brady Singer          0.0336  0.0376   1.39  0.0408   0.151   +564   195  
+Reynolds, Bryan         R    3    PIT  Kyle Harrison         0.0381  0.0496   1.05  0.0405   0.147   +579   150  
+Chourio, Jackson        R    3    PIT  Wilber Dotel          0.0475  0.0425   1.05  0.0347   0.146   +585   260  
+Flores Jr., Rafael      R    4    PIT  Kyle Harrison         0.0384  0.0499   1.05  0.0408   0.145   +590   41   
+Moniak, Mickey          L    6    COL  Michael King          0.0412  0.0469   1.08  0.0396   0.140   +614   220  
+Tucker, Kyle            L    3    CIN  Brady Singer          0.0268  0.0332   1.42  0.0366   0.138   +624   286  
+Feduccia, Hunter        L    7    CIN  Brady Singer          0.0292  0.0362   1.42  0.0399   0.138   +625   121  
+Myers, Dane             R    1    CIN  Justin Wrobleski      0.0272  0.0361   1.39  0.0391   0.131   +664   85   
+Cruz, Oneil             L    2    PIT  Kyle Harrison         0.0356  0.0300   1.06  0.0248   0.131   +665   65   
+Rodríguez, Héctor       L    7    CIN  Justin Wrobleski      0.0247  0.0323   1.42  0.0356   0.129   +675   25   
+Edman, Tommy            L    1    CIN  Brady Singer          0.0232  0.0288   1.42  0.0317   0.128   +679   143  
+Hayes, Ke'Bryan         R    8    CIN  Justin Wrobleski      0.0227  0.0301   1.39  0.0327   0.126   +694   37   
+Freeland, Alex          L    8    CIN  Brady Singer          0.0262  0.0324   1.42  0.0358   0.126   +697   140  
+Naylor, Bo              L    8    PIT  Wilber Dotel          0.0444  0.0364   1.06  0.0301   0.122   +719   55   
+Griffin, Konnor         R    1    PIT  Kyle Harrison         0.0273  0.0356   1.05  0.0291   0.121   +729   51   
+Lowe, Brandon           L    5    PIT  Kyle Harrison         0.0325  0.0274   1.06  0.0227   0.115   +772   109  
+Turang, Brice           L    1    PIT  Wilber Dotel          0.0324  0.0265   1.06  0.0219   0.112   +791   274  
+Simon, Ronny            R    7    PIT  Kyle Harrison         0.0311  0.0405   1.05  0.0331   0.112   +797   11   
+Davis, Henry            R    9    PIT  Kyle Harrison         0.0286  0.0373   1.05  0.0305   0.111   +798   63   
+Veen, Zac               L    9    COL  Michael King          0.0323  0.0368   1.08  0.0311   0.111   +798   26   
+McCarthy, Jake          L    1    COL  Michael King          0.0265  0.0302   1.08  0.0256   0.111   +800   302  
+Karros, Kyle            R    5    COL  Michael King          0.0313  0.0288   1.10  0.0248   0.108   +829   186  
+Rumfield, TJ            L    4    COL  Michael King          0.0271  0.0309   1.08  0.0261   0.107   +830   300  
+Carrigg, Cole           L    3    COL  Michael King          0.0262  0.0299   1.08  0.0253   0.107   +836   121  
+Rojas, Miguel           R    9    CIN  Brady Singer          0.0232  0.0261   1.39  0.0283   0.106   +843   66   
+Friedl, TJ              L    9    CIN  Justin Wrobleski      0.0205  0.0268   1.42  0.0296   0.104   +863   24   
+Sánchez, Gary           R    5    PIT  Wilber Dotel          0.0303  0.0271   1.05  0.0221   0.102   +880   82   
+Norby, Connor           R    2    COL  Michael King          0.0267  0.0246   1.10  0.0211   0.102   +883   133  
+Sullivan, Brett         L    8    COL  Michael King          0.0269  0.0306   1.08  0.0259   0.100   +904   122  
+Lara, Luis              L    2    PIT  Wilber Dotel          0.0274  0.0224   1.06  0.0185   0.098   +922   79   
+Vaughn, Andrew          R    4    PIT  Wilber Dotel          0.0231  0.0206   1.05  0.0168   0.085   +1071  136  
+Ortiz, Joey             R    6    PIT  Wilber Dotel          0.0227  0.0203   1.05  0.0166   0.081   +1130  183  
+Triolo, Jared           R    8    PIT  Kyle Harrison         0.0168  0.0220   1.05  0.0180   0.075   +1226  106  
+Gonzales, Nick          R    6    PIT  Kyle Harrison         0.0116  0.0152   1.05  0.0124   0.069   +1349  138  
+Frelick, Sal            L    7    PIT  Wilber Dotel          0.0183  0.0150   1.06  0.0124   0.066   +1415  213  
+Johnston, Troy          L    7    COL  Michael King          0.0144  0.0164   1.08  0.0139   0.065   +1446  224  
+Hamilton, David         L    9    PIT  Wilber Dotel          0.0190  0.0155   1.06  0.0128   0.065   +1448  200  
