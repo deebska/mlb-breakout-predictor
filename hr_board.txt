@@ -1,11 +1,28 @@
-HR BOARD -- 2026-09-21 -- 9 hitters composed
+HR BOARD -- 2026-09-21 -- 26 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Greene, Riley           L    3    DET  DJ Herz               0.0552  0.0537   0.91  0.0383   0.142   +605   245  
-Valencia, Eduardo       R    4    DET  DJ Herz               0.0460  0.0447   0.89  0.0312   0.120   +731   52   
-Dingler, Dillon         R    6    DET  DJ Herz               0.0460  0.0447   0.89  0.0312   0.116   +764   284  
-Torkelson, Spencer      R    7    DET  DJ Herz               0.0422  0.0410   0.89  0.0286   0.107   +838   228  
-Peck, John              R    9    DET  DJ Herz               0.0379  0.0368   0.89  0.0257   0.094   +959   26   
-Malgeri, Ben            R    5    DET  DJ Herz               0.0329  0.0320   0.89  0.0223   0.093   +976   29   
-Lee, Hao-Yu             R    2    DET  DJ Herz               0.0304  0.0296   0.89  0.0206   0.093   +980   131  
-Torres, Gleyber         R    1    DET  DJ Herz               0.0205  0.0199   0.89  0.0139   0.071   +1312  206  
-Báez, Javier            R    8    DET  DJ Herz               0.0159  0.0155   0.89  0.0108   0.051   +1842  97   
+Wood, James             L    1    DET  River Ryan            0.0586  0.0570   0.91  0.0405   0.155   +546   207  
+Greene, Riley           L    3    DET  DJ Herz               0.0552  0.0537   0.91  0.0382   0.141   +607   245  
+Lile, Daylen            L    2    DET  River Ryan            0.0479  0.0466   0.91  0.0331   0.132   +658   342  
+Valencia, Eduardo       R    4    DET  DJ Herz               0.0460  0.0447   0.89  0.0312   0.120   +733   52   
+Basallo, Samuel         L    6    BAL  Trey Yesavage         0.0500  0.0433   0.93  0.0315   0.120   +734   200  
+Alonso, Pete            R    2    BAL  Trey Yesavage         0.0468  0.0431   0.86  0.0289   0.120   +734   289  
+Dingler, Dillon         R    6    DET  DJ Herz               0.0460  0.0447   0.89  0.0311   0.115   +767   284  
+Abrams, CJ              L    4    DET  River Ryan            0.0401  0.0390   0.91  0.0277   0.112   +790   288  
+Torkelson, Spencer      R    7    DET  DJ Herz               0.0422  0.0410   0.89  0.0286   0.106   +842   228  
+Ortiz, Abimelec         L    3    DET  River Ryan            0.0343  0.0333   0.91  0.0237   0.102   +879   82   
+Beavers, Dylan          L    1    BAL  Trey Yesavage         0.0333  0.0288   0.93  0.0209   0.099   +913   172  
+Henderson, Gunnar       L    3    BAL  Trey Yesavage         0.0349  0.0302   0.93  0.0219   0.098   +916   307  
+Crews, Dylan            R    5    DET  River Ryan            0.0334  0.0325   0.89  0.0226   0.095   +950   187  
+Peck, John              R    9    DET  DJ Herz               0.0379  0.0368   0.89  0.0257   0.094   +963   26   
+House, Brady            R    7    DET  River Ryan            0.0347  0.0337   0.89  0.0235   0.094   +965   149  
+Malgeri, Ben            R    5    DET  DJ Herz               0.0329  0.0320   0.89  0.0223   0.092   +981   29   
+Lee, Hao-Yu             R    2    DET  DJ Herz               0.0304  0.0296   0.89  0.0206   0.092   +983   131  
+Cowser, Colton          L    8    BAL  Trey Yesavage         0.0363  0.0314   0.93  0.0228   0.091   +998   186  
+Encarnacion-Strand, Ch  R    5    BAL  Trey Yesavage         0.0340  0.0313   0.86  0.0210   0.090   +1012  84   
+Mayo, Coby              R    4    BAL  Trey Yesavage         0.0286  0.0263   0.86  0.0176   0.081   +1138  162  
+Young, Jacob            R    9    DET  River Ryan            0.0261  0.0253   0.89  0.0177   0.073   +1266  219  
+Torres, Gleyber         R    1    DET  DJ Herz               0.0205  0.0199   0.89  0.0139   0.071   +1316  206  
+Ruiz, Keibert           L    8    DET  River Ryan            0.0234  0.0227   0.91  0.0161   0.070   +1325  212  
+Hinds, Rece             R    7    BAL  Trey Yesavage         0.0245  0.0225   0.86  0.0151   0.068   +1371  17   
+Vivas, Jorbit           L    6    DET  River Ryan            0.0202  0.0196   0.91  0.0140   0.066   +1422  216  
+Báez, Javier            R    8    DET  DJ Herz               0.0159  0.0155   0.89  0.0108   0.051   +1849  97   
