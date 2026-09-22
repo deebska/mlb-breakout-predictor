@@ -1,20 +1,38 @@
-HR BOARD -- 2026-09-22 -- 18 hitters composed
+HR BOARD -- 2026-09-22 -- 36 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Rice, Ben               L    1    NYY  Nick Martinez         0.0530  0.0558   0.99  0.0429   0.154   +547   265  
-García Jr., Luis        L    4    NYY  Nick Martinez         0.0561  0.0590   0.99  0.0454   0.153   +554   344  
-Jones, Spencer          L    6    NYY  Nick Martinez         0.0432  0.0454   0.99  0.0349   0.122   +718   112  
-Caminero, Junior        R    3    NYY  Carlos Rodón          0.0439  0.0426   0.85  0.0283   0.121   +729   123  
-Ramos, Heliot           R    3    NYY  Nick Martinez         0.0448  0.0457   0.85  0.0304   0.118   +749   198  
-Bellinger, Cody         L    2    NYY  Nick Martinez         0.0342  0.0360   0.99  0.0277   0.111   +801   249  
-Aranda, Jonathan        L    2    NYY  Carlos Rodón          0.0272  0.0292   0.99  0.0224   0.110   +807   111  
-Mesa Jr., Victor        L    7    NYY  Carlos Rodón          0.0248  0.0266   0.99  0.0204   0.102   +881   45   
-Díaz, Yandy             R    1    NYY  Carlos Rodón          0.0285  0.0277   0.85  0.0184   0.092   +986   147  
-Lombard Jr., George     R    5    NYY  Nick Martinez         0.0276  0.0282   0.85  0.0188   0.080   +1148  83   
-Mateo, Jorge            R    8    NYY  Carlos Rodón          0.0224  0.0217   0.85  0.0144   0.073   +1268  54   
-Hicks, Liam             L    4    NYY  Carlos Rodón          0.0161  0.0173   0.99  0.0133   0.073   +1274  83   
-Sánchez, Ali            R    8    NYY  Nick Martinez         0.0261  0.0266   0.85  0.0177   0.072   +1281  27   
-Palacios, Richie        L    9    NYY  Carlos Rodón          0.0174  0.0187   0.99  0.0144   0.066   +1413  40   
-Caballero, José         R    9    NYY  Nick Martinez         0.0233  0.0238   0.85  0.0158   0.065   +1434  214  
-Volpe, Anthony          R    7    NYY  Nick Martinez         0.0215  0.0220   0.85  0.0146   0.064   +1455  88   
-DeLuca, Jonny           R    6    NYY  Carlos Rodón          0.0165  0.0160   0.85  0.0107   0.059   +1584  107  
-Simpson, Chandler       L    5    NYY  Carlos Rodón          0.0080  0.0086   0.99  0.0066   0.035   +2799  177  
+Goodman, Hunter         R    4    COL  Michael Soroka        0.0517  0.0516   1.31  0.0527   0.174   +474   227  
+Rice, Ben               L    1    NYY  Nick Martinez         0.0530  0.0558   0.99  0.0429   0.156   +543   265  
+García Jr., Luis        L    4    NYY  Nick Martinez         0.0561  0.0590   0.99  0.0454   0.154   +549   344  
+Moniak, Mickey          L    7    COL  Michael Soroka        0.0399  0.0426   1.29  0.0428   0.139   +618   229  
+Jones, Spencer          L    6    NYY  Nick Martinez         0.0432  0.0454   0.99  0.0349   0.123   +712   112  
+Caminero, Junior        R    3    NYY  Carlos Rodón          0.0439  0.0426   0.85  0.0283   0.122   +722   123  
+Ramos, Heliot           R    3    NYY  Nick Martinez         0.0448  0.0457   0.85  0.0304   0.119   +743   198  
+McCarthy, Jake          L    1    COL  Michael Soroka        0.0272  0.0290   1.29  0.0292   0.117   +751   310  
+Karros, Kyle            R    6    COL  Michael Soroka        0.0304  0.0303   1.31  0.0310   0.115   +773   194  
+Veen, Zac               L    9    COL  Michael Soroka        0.0312  0.0333   1.29  0.0334   0.112   +793   28   
+Rumfield, TJ            L    3    COL  Michael Soroka        0.0266  0.0284   1.29  0.0285   0.112   +794   305  
+Bellinger, Cody         L    2    NYY  Nick Martinez         0.0342  0.0360   0.99  0.0277   0.112   +794   249  
+Aranda, Jonathan        L    2    NYY  Carlos Rodón          0.0272  0.0292   0.99  0.0224   0.111   +801   111  
+Cruz, Oneil             L    4    PIT  Andre Pallante        0.0487  0.0449   0.77  0.0271   0.110   +807   147  
+Lowe, Brandon           L    2    PIT  Andre Pallante        0.0460  0.0424   0.77  0.0256   0.110   +809   274  
+Norby, Connor           R    2    COL  Michael Soroka        0.0259  0.0258   1.31  0.0264   0.110   +811   141  
+Carrigg, Cole           L    5    COL  Michael Soroka        0.0251  0.0267   1.29  0.0269   0.103   +866   131  
+Mesa Jr., Victor        L    7    NYY  Carlos Rodón          0.0248  0.0266   0.99  0.0204   0.103   +875   45   
+Reynolds, Bryan         L    3    PIT  Andre Pallante        0.0405  0.0373   0.77  0.0225   0.099   +915   270  
+Flores Jr., Rafael      R    5    PIT  Andre Pallante        0.0458  0.0337   0.77  0.0201   0.093   +971   48   
+Díaz, Yandy             R    1    NYY  Carlos Rodón          0.0285  0.0277   0.85  0.0184   0.093   +978   147  
+Lombard Jr., George     R    5    NYY  Nick Martinez         0.0276  0.0282   0.85  0.0188   0.081   +1138  83   
+O'Hearn, Ryan           L    6    PIT  Andre Pallante        0.0327  0.0301   0.77  0.0181   0.079   +1159  204  
+Mateo, Jorge            R    8    NYY  Carlos Rodón          0.0224  0.0217   0.85  0.0144   0.074   +1257  54   
+Hicks, Liam             L    4    NYY  Carlos Rodón          0.0161  0.0173   0.99  0.0133   0.073   +1262  83   
+Griffin, Konnor         R    1    PIT  Andre Pallante        0.0291  0.0213   0.77  0.0127   0.073   +1266  153  
+Sánchez, Ali            R    8    NYY  Nick Martinez         0.0261  0.0266   0.85  0.0177   0.073   +1270  27   
+Horwitz, Spencer        L    8    PIT  Andre Pallante        0.0289  0.0266   0.77  0.0161   0.070   +1335  248  
+Palacios, Richie        L    9    NYY  Carlos Rodón          0.0174  0.0187   0.99  0.0144   0.067   +1402  40   
+Caballero, José         R    9    NYY  Nick Martinez         0.0233  0.0238   0.85  0.0158   0.066   +1422  214  
+Volpe, Anthony          R    7    NYY  Nick Martinez         0.0215  0.0220   0.85  0.0146   0.065   +1443  88   
+Johnston, Troy          L    8    COL  Michael Soroka        0.0142  0.0151   1.29  0.0152   0.065   +1446  228  
+DeLuca, Jonny           R    6    NYY  Carlos Rodón          0.0165  0.0160   0.85  0.0107   0.060   +1572  107  
+Gonzalez, Jacob         L    9    PIT  Andre Pallante        0.0242  0.0223   0.77  0.0134   0.060   +1575  140  
+Simon, Ronny            L    7    PIT  Andre Pallante        0.0220  0.0202   0.77  0.0122   0.058   +1615  27   
+Simpson, Chandler       L    5    NYY  Carlos Rodón          0.0080  0.0086   0.99  0.0066   0.035   +2774  177  
