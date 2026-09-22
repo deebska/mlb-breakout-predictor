@@ -1,20 +1,20 @@
 HR BOARD -- 2026-09-22 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Rice, Ben               L    1    NYY  Nick Martinez         0.0530  0.0558   0.94  0.0411   0.148   +575   265  
-García Jr., Luis        L    4    NYY  Nick Martinez         0.0561  0.0590   0.94  0.0435   0.147   +581   344  
-Jones, Spencer          L    6    NYY  Nick Martinez         0.0432  0.0454   0.94  0.0335   0.117   +753   112  
-Caminero, Junior        R    3    NYY  Carlos Rodón          0.0439  0.0426   0.82  0.0272   0.116   +764   123  
-Ramos, Heliot           R    3    NYY  Nick Martinez         0.0448  0.0457   0.82  0.0291   0.113   +785   198  
-Bellinger, Cody         L    2    NYY  Nick Martinez         0.0342  0.0360   0.94  0.0265   0.106   +840   249  
-Aranda, Jonathan        L    2    NYY  Carlos Rodón          0.0272  0.0292   0.94  0.0215   0.106   +846   111  
-Mesa Jr., Victor        L    7    NYY  Carlos Rodón          0.0248  0.0266   0.94  0.0196   0.098   +925   45   
-Díaz, Yandy             R    1    NYY  Carlos Rodón          0.0285  0.0277   0.82  0.0177   0.088   +1034  147  
-Lombard Jr., George     R    5    NYY  Nick Martinez         0.0276  0.0282   0.82  0.0180   0.077   +1202  83   
-Hicks, Liam             L    4    NYY  Carlos Rodón          0.0161  0.0173   0.94  0.0128   0.070   +1333  83   
-Sánchez, Ali            R    8    NYY  Nick Martinez         0.0261  0.0266   0.82  0.0170   0.069   +1341  27   
-Palacios, Richie        L    9    NYY  Carlos Rodón          0.0174  0.0187   0.94  0.0138   0.063   +1482  40   
-Caballero, José         R    9    NYY  Nick Martinez         0.0233  0.0238   0.82  0.0152   0.062   +1500  214  
-Volpe, Anthony          R    7    NYY  Nick Martinez         0.0215  0.0220   0.82  0.0140   0.061   +1526  88   
-DeLuca, Jonny           R    6    NYY  Carlos Rodón          0.0165  0.0160   0.82  0.0102   0.057   +1657  107  
-Williamson, Ben         R    8    NYY  Carlos Rodón          0.0178  0.0173   0.82  0.0110   0.050   +1908  92   
-Simpson, Chandler       L    5    NYY  Carlos Rodón          0.0080  0.0086   0.94  0.0064   0.033   +2930  177  
+Rice, Ben               L    1    NYY  Nick Martinez         0.0530  0.0558   0.97  0.0421   0.152   +559   265  
+García Jr., Luis        L    4    NYY  Nick Martinez         0.0561  0.0590   0.97  0.0445   0.150   +565   344  
+Jones, Spencer          L    6    NYY  Nick Martinez         0.0432  0.0454   0.97  0.0343   0.120   +733   112  
+Caminero, Junior        R    3    NYY  Carlos Rodón          0.0439  0.0426   0.83  0.0278   0.118   +744   123  
+Ramos, Heliot           R    3    NYY  Nick Martinez         0.0448  0.0457   0.83  0.0298   0.116   +765   198  
+Bellinger, Cody         L    2    NYY  Nick Martinez         0.0342  0.0360   0.97  0.0271   0.109   +817   249  
+Aranda, Jonathan        L    2    NYY  Carlos Rodón          0.0272  0.0292   0.97  0.0220   0.108   +824   111  
+Mesa Jr., Victor        L    7    NYY  Carlos Rodón          0.0248  0.0266   0.97  0.0201   0.100   +900   45   
+Díaz, Yandy             R    1    NYY  Carlos Rodón          0.0285  0.0277   0.83  0.0180   0.090   +1007  147  
+Lombard Jr., George     R    5    NYY  Nick Martinez         0.0276  0.0282   0.83  0.0184   0.079   +1172  83   
+Mateo, Jorge            R    8    NYY  Carlos Rodón          0.0224  0.0217   0.83  0.0141   0.072   +1293  54   
+Hicks, Liam             L    4    NYY  Carlos Rodón          0.0161  0.0173   0.97  0.0131   0.071   +1299  83   
+Sánchez, Ali            R    8    NYY  Nick Martinez         0.0261  0.0266   0.83  0.0173   0.071   +1306  27   
+Palacios, Richie        L    9    NYY  Carlos Rodón          0.0174  0.0187   0.97  0.0141   0.065   +1443  40   
+Caballero, José         R    9    NYY  Nick Martinez         0.0233  0.0238   0.83  0.0155   0.064   +1462  214  
+Volpe, Anthony          R    7    NYY  Nick Martinez         0.0215  0.0220   0.83  0.0143   0.063   +1487  88   
+DeLuca, Jonny           R    6    NYY  Carlos Rodón          0.0165  0.0160   0.83  0.0104   0.058   +1618  107  
+Simpson, Chandler       L    5    NYY  Carlos Rodón          0.0080  0.0086   0.97  0.0065   0.034   +2850  177  
