@@ -1,37 +1,73 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-696100,"Goodman, Hunter",R,4,home,COL,Michael Soroka,R,0.0517,0.0516,1.311,0.0527,0.1741,+474,227,v1.2-g075
-700250,"Rice, Ben",L,1,home,NYY,Nick Martinez,R,0.053,0.0558,0.986,0.0429,0.1556,+543,265,v1.2-g075
-671277,"García Jr., Luis",L,4,home,NYY,Nick Martinez,R,0.0561,0.059,0.986,0.0454,0.1541,+549,344,v1.2-g075
-666160,"Moniak, Mickey",L,7,home,COL,Michael Soroka,R,0.0399,0.0426,1.288,0.0428,0.1393,+618,229,v1.2-g075
-682987,"Jones, Spencer",L,6,home,NYY,Nick Martinez,R,0.0432,0.0454,0.986,0.0349,0.1232,+712,112,v1.2-g075
-691406,"Caminero, Junior",R,3,away,NYY,Carlos Rodón,L,0.0439,0.0426,0.852,0.0283,0.1216,+722,123,v1.2-g075
-671218,"Ramos, Heliot",R,3,home,NYY,Nick Martinez,R,0.0448,0.0457,0.852,0.0304,0.1186,+743,198,v1.2-g075
-664983,"McCarthy, Jake",L,1,home,COL,Michael Soroka,R,0.0272,0.029,1.288,0.0292,0.1175,+751,310,v1.2-g075
-691720,"Karros, Kyle",R,6,home,COL,Michael Soroka,R,0.0304,0.0303,1.311,0.031,0.1145,+773,194,v1.2-g075
-691728,"Veen, Zac",L,9,home,COL,Michael Soroka,R,0.0312,0.0333,1.288,0.0334,0.112,+793,28,v1.2-g075
-681198,"Rumfield, TJ",L,3,home,COL,Michael Soroka,R,0.0266,0.0284,1.288,0.0285,0.1119,+794,305,v1.2-g075
-641355,"Bellinger, Cody",L,2,home,NYY,Nick Martinez,R,0.0342,0.036,0.986,0.0277,0.1118,+794,249,v1.2-g075
-666018,"Aranda, Jonathan",L,2,away,NYY,Carlos Rodón,L,0.0272,0.0292,0.986,0.0224,0.111,+801,111,v1.2-g075
-665833,"Cruz, Oneil",L,4,home,PIT,Andre Pallante,R,0.0487,0.0449,0.773,0.0271,0.1103,+807,147,v1.2-g075
-664040,"Lowe, Brandon",L,2,home,PIT,Andre Pallante,R,0.046,0.0424,0.773,0.0256,0.11,+809,274,v1.2-g075
-681393,"Norby, Connor",R,2,home,COL,Michael Soroka,R,0.0259,0.0258,1.311,0.0264,0.1098,+811,141,v1.2-g075
-694249,"Carrigg, Cole",L,5,home,COL,Michael Soroka,R,0.0251,0.0267,1.288,0.0269,0.1035,+866,131,v1.2-g075
-683748,"Mesa Jr., Victor",L,7,away,NYY,Carlos Rodón,L,0.0248,0.0266,0.986,0.0204,0.1026,+875,45,v1.2-g075
-668804,"Reynolds, Bryan",L,3,home,PIT,Andre Pallante,R,0.0405,0.0373,0.773,0.0225,0.0985,+915,270,v1.2-g075
-804668,"Flores Jr., Rafael",R,5,home,PIT,Andre Pallante,R,0.0458,0.0337,0.765,0.0201,0.0934,+971,48,v1.2-g075
-650490,"Díaz, Yandy",R,1,away,NYY,Carlos Rodón,L,0.0285,0.0277,0.852,0.0184,0.0928,+978,147,v1.2-g075
-806146,"Lombard Jr., George",R,5,home,NYY,Nick Martinez,R,0.0276,0.0282,0.852,0.0188,0.0808,+1138,83,v1.2-g075
-656811,"O'Hearn, Ryan",L,6,home,PIT,Andre Pallante,R,0.0327,0.0301,0.773,0.0181,0.0794,+1159,204,v1.2-g075
-622761,"Mateo, Jorge",R,8,away,NYY,Carlos Rodón,L,0.0224,0.0217,0.852,0.0144,0.0737,+1257,54,v1.2-g075
-689414,"Hicks, Liam",L,4,away,NYY,Carlos Rodón,L,0.0161,0.0173,0.986,0.0133,0.0734,+1262,83,v1.2-g075
-804606,"Griffin, Konnor",R,1,home,PIT,Andre Pallante,R,0.0291,0.0213,0.765,0.0127,0.0732,+1266,153,v1.2-g075
-645305,"Sánchez, Ali",R,8,home,NYY,Nick Martinez,R,0.0261,0.0266,0.852,0.0177,0.073,+1270,27,v1.2-g075
-687462,"Horwitz, Spencer",L,8,home,PIT,Andre Pallante,R,0.0289,0.0266,0.773,0.0161,0.0697,+1335,248,v1.2-g075
-680700,"Palacios, Richie",L,9,away,NYY,Carlos Rodón,L,0.0174,0.0187,0.986,0.0144,0.0666,+1402,40,v1.2-g075
-676609,"Caballero, José",R,9,home,NYY,Nick Martinez,R,0.0233,0.0238,0.852,0.0158,0.0657,+1422,214,v1.2-g075
-683011,"Volpe, Anthony",R,7,home,NYY,Nick Martinez,R,0.0215,0.022,0.852,0.0146,0.0648,+1443,88,v1.2-g075
-687859,"Johnston, Troy",L,8,home,COL,Michael Soroka,R,0.0142,0.0151,1.288,0.0152,0.0647,+1446,228,v1.2-g075
-676356,"DeLuca, Jonny",R,6,away,NYY,Carlos Rodón,L,0.0165,0.016,0.852,0.0107,0.0598,+1572,107,v1.2-g075
-694378,"Gonzalez, Jacob",L,9,home,PIT,Andre Pallante,R,0.0242,0.0223,0.773,0.0134,0.0597,+1575,140,v1.2-g075
-682927,"Simon, Ronny",L,7,home,PIT,Andre Pallante,R,0.022,0.0202,0.773,0.0122,0.0583,+1615,27,v1.2-g075
-802415,"Simpson, Chandler",L,5,away,NYY,Carlos Rodón,L,0.008,0.0086,0.986,0.0066,0.0348,+2774,177,v1.2-g075
+700250,"Rice, Ben",L,1,home,NYY,Nick Martinez,R,0.053,0.0558,1.0,0.0435,0.1533,+552,265,v1.2-g075
+696100,"Goodman, Hunter",R,4,home,COL,Michael Soroka,R,0.0517,0.0516,1.126,0.0453,0.1523,+557,227,v1.2-g075
+671277,"García Jr., Luis",L,4,home,NYY,Nick Martinez,R,0.0561,0.059,1.0,0.046,0.1519,+558,344,v1.2-g075
+677951,"Witt Jr., Bobby",R,2,home,KC,Anthony Kay,L,0.0471,0.0643,0.817,0.041,0.1315,+660,113,v1.2-g075
+666160,"Moniak, Mickey",L,7,home,COL,Michael Soroka,R,0.0399,0.0426,1.106,0.0367,0.1217,+722,229,v1.2-g075
+682987,"Jones, Spencer",L,6,home,NYY,Nick Martinez,R,0.0432,0.0454,1.0,0.0354,0.1213,+724,112,v1.2-g075
+691406,"Caminero, Junior",R,3,away,NYY,Carlos Rodón,L,0.0439,0.0426,0.864,0.0287,0.1197,+735,123,v1.2-g075
+676475,"Burleson, Alec",L,3,away,PIT,Jared Jones,R,0.0518,0.0483,0.793,0.0299,0.1192,+739,319,v1.2-g075
+521692,"Perez, Salvador",R,6,home,KC,Anthony Kay,L,0.0434,0.0593,0.817,0.0378,0.1185,+744,125,v1.2-g075
+656941,"Schwarber, Kyle",L,1,home,PHI,Dustin May,R,0.0471,0.0382,0.9,0.0268,0.1177,+750,210,v1.2-g075
+671218,"Ramos, Heliot",R,3,home,NYY,Nick Martinez,R,0.0448,0.0457,0.864,0.0308,0.1168,+756,198,v1.2-g075
+680664,"Valencia, Eduardo",R,4,home,DET,Riley Cornelio,R,0.0456,0.0429,0.853,0.0286,0.1111,+800,54,v1.2-g075
+641355,"Bellinger, Cody",L,2,home,NYY,Nick Martinez,R,0.0342,0.036,1.0,0.0281,0.1101,+808,249,v1.2-g075
+665833,"Cruz, Oneil",L,4,home,PIT,Andre Pallante,R,0.0487,0.0449,0.793,0.0278,0.1095,+813,147,v1.2-g075
+547180,"Harper, Bryce",L,3,home,PHI,Dustin May,R,0.0448,0.0363,0.9,0.0255,0.1094,+814,267,v1.2-g075
+666018,"Aranda, Jonathan",L,2,away,NYY,Carlos Rodón,L,0.0272,0.0292,1.0,0.0228,0.1092,+816,111,v1.2-g075
+664040,"Lowe, Brandon",L,2,home,PIT,Andre Pallante,R,0.046,0.0424,0.793,0.0262,0.1091,+817,274,v1.2-g075
+691023,"Walker, Jordan",R,4,away,PIT,Jared Jones,R,0.0449,0.0442,0.784,0.0271,0.1072,+833,311,v1.2-g075
+699024,"Bernal, Leo",L,5,away,PIT,Jared Jones,R,0.0448,0.0417,0.793,0.0258,0.1034,+867,42,v1.2-g075
+664983,"McCarthy, Jake",L,1,home,COL,Michael Soroka,R,0.0272,0.029,1.106,0.025,0.1026,+875,310,v1.2-g075
+683748,"Mesa Jr., Victor",L,7,away,NYY,Carlos Rodón,L,0.0248,0.0266,1.0,0.0207,0.101,+890,45,v1.2-g075
+691720,"Karros, Kyle",R,6,home,COL,Michael Soroka,R,0.0304,0.0303,1.126,0.0266,0.0999,+901,194,v1.2-g075
+679529,"Torkelson, Spencer",R,7,home,DET,Riley Cornelio,R,0.042,0.0396,0.853,0.0264,0.0987,+913,230,v1.2-g075
+668804,"Reynolds, Bryan",L,3,home,PIT,Andre Pallante,R,0.0405,0.0373,0.793,0.0231,0.0977,+924,270,v1.2-g075
+691728,"Veen, Zac",L,9,home,COL,Michael Soroka,R,0.0312,0.0333,1.106,0.0287,0.0977,+924,28,v1.2-g075
+681198,"Rumfield, TJ",L,3,home,COL,Michael Soroka,R,0.0266,0.0284,1.106,0.0245,0.0977,+924,305,v1.2-g075
+695506,"Caglianone, Jac",L,3,home,KC,Anthony Kay,L,0.0298,0.0245,0.808,0.0154,0.0966,+935,106,v1.2-g075
+805808,"McGonigle, Kevin",L,3,home,DET,Riley Cornelio,R,0.0355,0.0335,0.872,0.0228,0.0961,+941,356,v1.2-g075
+681393,"Norby, Connor",R,2,home,COL,Michael Soroka,R,0.0259,0.0258,1.126,0.0227,0.0959,+943,141,v1.2-g075
+672580,"Garcia, Maikel",R,4,home,KC,Anthony Kay,L,0.035,0.048,0.817,0.0306,0.0948,+955,54,v1.2-g075
+804668,"Flores Jr., Rafael",R,5,home,PIT,Andre Pallante,R,0.0458,0.0337,0.784,0.0206,0.0926,+980,48,v1.2-g075
+701162,"Malgeri, Ben",R,5,home,DET,Riley Cornelio,R,0.0363,0.0342,0.853,0.0227,0.0924,+982,30,v1.2-g075
+695600,"Jensen, Carter",L,1,home,KC,Anthony Kay,L,0.0312,0.0257,0.808,0.0162,0.0917,+991,96,v1.2-g075
+650490,"Díaz, Yandy",R,1,away,NYY,Carlos Rodón,L,0.0285,0.0277,0.864,0.0187,0.0912,+996,147,v1.2-g075
+694249,"Carrigg, Cole",L,5,home,COL,Michael Soroka,R,0.0251,0.0267,1.106,0.0231,0.0903,+1007,131,v1.2-g075
+607208,"Turner, Trea",R,2,home,PHI,Dustin May,R,0.0268,0.0318,0.892,0.0221,0.0896,+1016,315,v1.2-g075
+807726,"Peck, John",R,9,home,DET,Riley Cornelio,R,0.0375,0.0353,0.853,0.0235,0.0868,+1052,28,v1.2-g075
+592663,"Realmuto, J.T.",R,7,home,PHI,Dustin May,R,0.0285,0.0339,0.892,0.0236,0.0862,+1060,221,v1.2-g075
+701678,"Lee, Hao-Yu",R,2,home,DET,Riley Cornelio,R,0.0301,0.0283,0.853,0.0189,0.0854,+1071,134,v1.2-g075
+686469,"Pasquantino, Vinnie",L,5,home,KC,Anthony Kay,L,0.0294,0.0242,0.808,0.0152,0.0806,+1141,87,v1.2-g075
+806146,"Lombard Jr., George",R,5,home,NYY,Nick Martinez,R,0.0276,0.0282,0.864,0.019,0.0794,+1159,83,v1.2-g075
+656811,"O'Hearn, Ryan",L,6,home,PIT,Andre Pallante,R,0.0327,0.0301,0.793,0.0186,0.0787,+1171,204,v1.2-g075
+664761,"Bohm, Alec",R,5,home,PHI,Dustin May,R,0.0239,0.0284,0.892,0.0198,0.0787,+1171,314,v1.2-g075
+695336,"Saggese, Thomas",R,7,away,PIT,Jared Jones,R,0.0315,0.0311,0.784,0.019,0.0784,+1176,82,v1.2-g075
+669016,"Marsh, Brandon",L,8,home,PHI,Dustin May,R,0.033,0.0267,0.9,0.0187,0.0783,+1177,305,v1.2-g075
+681082,"Stott, Bryson",L,6,home,PHI,Dustin May,R,0.0293,0.0237,0.9,0.0166,0.0753,+1228,324,v1.2-g075
+804606,"Griffin, Konnor",R,1,home,PIT,Andre Pallante,R,0.0291,0.0213,0.784,0.013,0.0725,+1279,153,v1.2-g075
+622761,"Mateo, Jorge",R,8,away,NYY,Carlos Rodón,L,0.0224,0.0217,0.864,0.0146,0.0725,+1279,54,v1.2-g075
+689414,"Hicks, Liam",L,4,away,NYY,Carlos Rodón,L,0.0161,0.0173,1.0,0.0135,0.0722,+1285,83,v1.2-g075
+645305,"Sánchez, Ali",R,8,home,NYY,Nick Martinez,R,0.0261,0.0266,0.864,0.018,0.0717,+1295,27,v1.2-g075
+671056,"Herrera, Iván",R,2,away,PIT,Jared Jones,R,0.0243,0.0239,0.784,0.0146,0.0712,+1304,320,v1.2-g075
+802139,"Wetherholt, JJ",L,1,away,PIT,Jared Jones,R,0.0241,0.0225,0.793,0.0139,0.071,+1308,264,v1.2-g075
+679845,"Loftin, Nick",R,8,home,KC,Anthony Kay,L,0.0203,0.028,0.817,0.0179,0.069,+1349,117,v1.2-g075
+687462,"Horwitz, Spencer",L,8,home,PIT,Andre Pallante,R,0.0289,0.0266,0.793,0.0165,0.069,+1349,248,v1.2-g075
+686681,"Massey, Michael",L,7,home,KC,Anthony Kay,L,0.0269,0.0221,0.808,0.0139,0.0671,+1390,71,v1.2-g075
+701675,"Church, Nathan",L,8,away,PIT,Jared Jones,R,0.0263,0.0245,0.793,0.0151,0.0661,+1413,266,v1.2-g075
+650402,"Torres, Gleyber",R,1,home,DET,Riley Cornelio,R,0.0205,0.0192,0.853,0.0128,0.0656,+1424,207,v1.2-g075
+680700,"Palacios, Richie",L,9,away,NYY,Carlos Rodón,L,0.0174,0.0187,1.0,0.0146,0.0655,+1427,40,v1.2-g075
+676609,"Caballero, José",R,9,home,NYY,Nick Martinez,R,0.0233,0.0238,0.864,0.016,0.0646,+1448,214,v1.2-g075
+683011,"Volpe, Anthony",R,7,home,NYY,Nick Martinez,R,0.0215,0.022,0.864,0.0148,0.0636,+1472,88,v1.2-g075
+663494,"Torres, Bryan",L,6,away,PIT,Jared Jones,R,0.0229,0.0213,0.793,0.0132,0.0623,+1505,103,v1.2-g075
+694378,"Gonzalez, Jacob",L,9,home,PIT,Andre Pallante,R,0.0242,0.0223,0.793,0.0138,0.0592,+1589,140,v1.2-g075
+676356,"DeLuca, Jonny",R,6,away,NYY,Carlos Rodón,L,0.0165,0.016,0.864,0.0108,0.0588,+1601,107,v1.2-g075
+703601,"Clark, Max",L,6,home,DET,Riley Cornelio,R,0.0196,0.0184,0.872,0.0125,0.0587,+1604,82,v1.2-g075
+682927,"Simon, Ronny",L,7,home,PIT,Andre Pallante,R,0.022,0.0202,0.793,0.0125,0.0578,+1630,27,v1.2-g075
+687859,"Johnston, Troy",L,8,home,COL,Michael Soroka,R,0.0142,0.0151,1.106,0.0131,0.0563,+1676,228,v1.2-g075
+691026,"Winn, Masyn",R,9,away,PIT,Jared Jones,R,0.0192,0.0189,0.784,0.0116,0.0523,+1812,262,v1.2-g075
+595879,"Báez, Javier",R,8,home,DET,Riley Cornelio,R,0.0159,0.015,0.853,0.01,0.0476,+2001,97,v1.2-g075
+650333,"Arraez, Luis",L,4,home,PHI,Dustin May,R,0.0144,0.0116,0.9,0.0082,0.0468,+2037,397,v1.2-g075
+664728,"Isbel, Kyle",L,9,home,KC,Anthony Kay,L,0.0152,0.0125,0.808,0.0079,0.0424,+2258,57,v1.2-g075
+702222,"Crawford, Justin",L,9,home,PHI,Dustin May,R,0.0113,0.0091,0.9,0.0064,0.0348,+2774,293,v1.2-g075
+802415,"Simpson, Chandler",L,5,away,NYY,Carlos Rodón,L,0.008,0.0086,1.0,0.0067,0.0343,+2815,177,v1.2-g075
