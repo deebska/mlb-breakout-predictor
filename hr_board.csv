@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-700250,"Rice, Ben",L,1,home,NYY,Nick Martinez,R,0.053,0.0558,0.967,0.0421,0.1517,+559,265,v1.2-g075
-671277,"García Jr., Luis",L,4,home,NYY,Nick Martinez,R,0.0561,0.059,0.967,0.0445,0.1503,+565,344,v1.2-g075
-682987,"Jones, Spencer",L,6,home,NYY,Nick Martinez,R,0.0432,0.0454,0.967,0.0343,0.12,+733,112,v1.2-g075
-691406,"Caminero, Junior",R,3,away,NYY,Carlos Rodón,L,0.0439,0.0426,0.835,0.0278,0.1185,+744,123,v1.2-g075
-671218,"Ramos, Heliot",R,3,home,NYY,Nick Martinez,R,0.0448,0.0457,0.835,0.0298,0.1156,+765,198,v1.2-g075
-641355,"Bellinger, Cody",L,2,home,NYY,Nick Martinez,R,0.0342,0.036,0.967,0.0271,0.109,+817,249,v1.2-g075
-666018,"Aranda, Jonathan",L,2,away,NYY,Carlos Rodón,L,0.0272,0.0292,0.967,0.022,0.1082,+824,111,v1.2-g075
-683748,"Mesa Jr., Victor",L,7,away,NYY,Carlos Rodón,L,0.0248,0.0266,0.967,0.0201,0.1,+900,45,v1.2-g075
-650490,"Díaz, Yandy",R,1,away,NYY,Carlos Rodón,L,0.0285,0.0277,0.835,0.018,0.0903,+1007,147,v1.2-g075
-806146,"Lombard Jr., George",R,5,home,NYY,Nick Martinez,R,0.0276,0.0282,0.835,0.0184,0.0786,+1172,83,v1.2-g075
-622761,"Mateo, Jorge",R,8,away,NYY,Carlos Rodón,L,0.0224,0.0217,0.835,0.0141,0.0718,+1293,54,v1.2-g075
-689414,"Hicks, Liam",L,4,away,NYY,Carlos Rodón,L,0.0161,0.0173,0.967,0.0131,0.0715,+1299,83,v1.2-g075
-645305,"Sánchez, Ali",R,8,home,NYY,Nick Martinez,R,0.0261,0.0266,0.835,0.0173,0.0711,+1306,27,v1.2-g075
-680700,"Palacios, Richie",L,9,away,NYY,Carlos Rodón,L,0.0174,0.0187,0.967,0.0141,0.0648,+1443,40,v1.2-g075
-676609,"Caballero, José",R,9,home,NYY,Nick Martinez,R,0.0233,0.0238,0.835,0.0155,0.064,+1462,214,v1.2-g075
-683011,"Volpe, Anthony",R,7,home,NYY,Nick Martinez,R,0.0215,0.022,0.835,0.0143,0.063,+1487,88,v1.2-g075
-676356,"DeLuca, Jonny",R,6,away,NYY,Carlos Rodón,L,0.0165,0.016,0.835,0.0104,0.0582,+1618,107,v1.2-g075
-802415,"Simpson, Chandler",L,5,away,NYY,Carlos Rodón,L,0.008,0.0086,0.967,0.0065,0.0339,+2850,177,v1.2-g075
+700250,"Rice, Ben",L,1,home,NYY,Nick Martinez,R,0.053,0.0558,0.997,0.0434,0.1561,+541,265,v1.2-g075
+671277,"García Jr., Luis",L,4,home,NYY,Nick Martinez,R,0.0561,0.059,0.997,0.0459,0.1547,+546,344,v1.2-g075
+682987,"Jones, Spencer",L,6,home,NYY,Nick Martinez,R,0.0432,0.0454,0.997,0.0353,0.1236,+709,112,v1.2-g075
+691406,"Caminero, Junior",R,3,away,NYY,Carlos Rodón,L,0.0439,0.0426,0.862,0.0287,0.1221,+719,123,v1.2-g075
+671218,"Ramos, Heliot",R,3,home,NYY,Nick Martinez,R,0.0448,0.0457,0.862,0.0307,0.1191,+740,198,v1.2-g075
+641355,"Bellinger, Cody",L,2,home,NYY,Nick Martinez,R,0.0342,0.036,0.997,0.028,0.1122,+791,249,v1.2-g075
+666018,"Aranda, Jonathan",L,2,away,NYY,Carlos Rodón,L,0.0272,0.0292,0.997,0.0227,0.1114,+798,111,v1.2-g075
+683748,"Mesa Jr., Victor",L,7,away,NYY,Carlos Rodón,L,0.0248,0.0266,0.997,0.0207,0.103,+871,45,v1.2-g075
+650490,"Díaz, Yandy",R,1,away,NYY,Carlos Rodón,L,0.0285,0.0277,0.862,0.0186,0.0931,+974,147,v1.2-g075
+806146,"Lombard Jr., George",R,5,home,NYY,Nick Martinez,R,0.0276,0.0282,0.862,0.019,0.081,+1135,83,v1.2-g075
+622761,"Mateo, Jorge",R,8,away,NYY,Carlos Rodón,L,0.0224,0.0217,0.862,0.0146,0.074,+1251,54,v1.2-g075
+689414,"Hicks, Liam",L,4,away,NYY,Carlos Rodón,L,0.0161,0.0173,0.997,0.0135,0.0737,+1257,83,v1.2-g075
+645305,"Sánchez, Ali",R,8,home,NYY,Nick Martinez,R,0.0261,0.0266,0.862,0.0179,0.0733,+1264,27,v1.2-g075
+680700,"Palacios, Richie",L,9,away,NYY,Carlos Rodón,L,0.0174,0.0187,0.997,0.0146,0.0668,+1397,40,v1.2-g075
+676609,"Caballero, José",R,9,home,NYY,Nick Martinez,R,0.0233,0.0238,0.862,0.016,0.0659,+1417,214,v1.2-g075
+683011,"Volpe, Anthony",R,7,home,NYY,Nick Martinez,R,0.0215,0.022,0.862,0.0148,0.065,+1438,88,v1.2-g075
+676356,"DeLuca, Jonny",R,6,away,NYY,Carlos Rodón,L,0.0165,0.016,0.862,0.0108,0.0601,+1564,107,v1.2-g075
+802415,"Simpson, Chandler",L,5,away,NYY,Carlos Rodón,L,0.008,0.0086,0.997,0.0067,0.035,+2757,177,v1.2-g075
