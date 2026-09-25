@@ -1,29 +1,38 @@
-HR BOARD -- 2026-09-25 -- 27 hitters composed
+HR BOARD -- 2026-09-25 -- 36 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Ramos, Heliot           R    3    NYY  Trevor Rogers         0.0443  0.0518   0.88  0.0354   0.121   +728   71   
-Rice, Ben               L    2    NYY  Trevor Rogers         0.0355  0.0292   1.01  0.0231   0.117   +755   138  
-Goldschmidt, Paul       R    1    NYY  Trevor Rogers         0.0445  0.0520   0.88  0.0356   0.114   +780   123  
-Rosario, Amed           R    4    NYY  Trevor Rogers         0.0396  0.0464   0.88  0.0317   0.107   +833   117  
-Jones, Spencer          L    6    NYY  Trevor Rogers         0.0373  0.0307   1.01  0.0243   0.099   +912   33   
-Lombard Jr., George     R    5    NYY  Trevor Rogers         0.0360  0.0422   0.88  0.0289   0.095   +948   18   
-Crow-Armstrong, Pete    L    1    BOS  Alec Gamboa           0.0296  0.0294   0.71  0.0162   0.095   +958   132  
-Abreu, Wilyer           L    4    BOS  Clay Holmes           0.0493  0.0383   0.71  0.0211   0.092   +992   303  
-Gasper, Mickey          L    2    BOS  Clay Holmes           0.0437  0.0339   0.71  0.0187   0.087   +1044  137  
-Anthony, Roman          L    1    BOS  Clay Holmes           0.0394  0.0306   0.71  0.0168   0.083   +1111  84   
-Suzuki, Seiya           R    2    BOS  Alec Gamboa           0.0293  0.0263   0.72  0.0148   0.082   +1127  105  
-Taylor, Tyrone          R    4    BOS  Alec Gamboa           0.0346  0.0312   0.72  0.0175   0.081   +1133  86   
-Busch, Michael          L    7    BOS  Alec Gamboa           0.0375  0.0373   0.71  0.0205   0.077   +1204  127  
-Volpe, Anthony          R    7    NYY  Trevor Rogers         0.0268  0.0315   0.88  0.0215   0.075   +1239  71   
-Rutschman, Adley        L    3    BOS  Clay Holmes           0.0355  0.0275   0.71  0.0152   0.074   +1259  184  
-Sánchez, Ali            R    8    NYY  Trevor Rogers         0.0243  0.0285   0.88  0.0195   0.072   +1295  27   
-Bregman, Alex           R    3    BOS  Alec Gamboa           0.0290  0.0261   0.72  0.0147   0.069   +1347  120  
-Duran, Jarren           L    7    BOS  Clay Holmes           0.0352  0.0273   0.71  0.0150   0.067   +1397  297  
-Swanson, Dansby         R    8    BOS  Alec Gamboa           0.0275  0.0247   0.72  0.0139   0.062   +1503  86   
-Caballero, José         R    9    NYY  Trevor Rogers         0.0198  0.0232   0.88  0.0159   0.062   +1513  89   
-Shaw, Matt              R    6    BOS  Alec Gamboa           0.0212  0.0190   0.72  0.0107   0.057   +1667  64   
-Amaya, Miguel           R    9    BOS  Alec Gamboa           0.0204  0.0183   0.72  0.0103   0.053   +1769  49   
-Monasterio, Andruw      R    8    BOS  Clay Holmes           0.0224  0.0192   0.72  0.0108   0.050   +1908  154  
-Sogard, Nick            L    6    BOS  Clay Holmes           0.0213  0.0164   0.71  0.0090   0.047   +2019  133  
-Hoerner, Nico           R    5    BOS  Alec Gamboa           0.0149  0.0134   0.72  0.0075   0.038   +2525  141  
-Kiner-Falefa, Isiah     R    9    BOS  Clay Holmes           0.0161  0.0138   0.72  0.0077   0.038   +2525  95   
-Durbin, Caleb           R    5    BOS  Clay Holmes           0.0138  0.0118   0.72  0.0066   0.037   +2581  308  
+Alonso, Pete            R    2    NYY  Brendan Beck          0.0500  0.0564   0.88  0.0386   0.136   +633   294  
+Ramos, Heliot           R    3    NYY  Trevor Rogers         0.0443  0.0518   0.88  0.0355   0.124   +709   71   
+Rice, Ben               L    2    NYY  Trevor Rogers         0.0355  0.0292   1.02  0.0231   0.120   +735   138  
+Goldschmidt, Paul       R    1    NYY  Trevor Rogers         0.0445  0.0520   0.88  0.0356   0.117   +758   123  
+Beavers, Dylan          L    1    NYY  Brendan Beck          0.0339  0.0376   1.02  0.0298   0.115   +767   176  
+Henderson, Gunnar       L    3    NYY  Brendan Beck          0.0354  0.0392   1.02  0.0311   0.115   +767   312  
+Cowser, Colton          L    6    NYY  Brendan Beck          0.0357  0.0396   1.02  0.0313   0.110   +807   189  
+Rosario, Amed           R    4    NYY  Trevor Rogers         0.0396  0.0464   0.88  0.0318   0.110   +812   117  
+Encarnacion-Strand, Ch  R    5    NYY  Brendan Beck          0.0356  0.0402   0.88  0.0275   0.102   +883   93   
+Jones, Spencer          L    6    NYY  Trevor Rogers         0.0373  0.0307   1.02  0.0243   0.101   +888   33   
+Lombard Jr., George     R    5    NYY  Trevor Rogers         0.0360  0.0422   0.88  0.0289   0.098   +924   18   
+Crow-Armstrong, Pete    L    1    BOS  Alec Gamboa           0.0296  0.0294   0.70  0.0161   0.096   +937   132  
+Abreu, Wilyer           L    4    BOS  Clay Holmes           0.0493  0.0383   0.70  0.0210   0.093   +971   303  
+Mayo, Coby              R    4    NYY  Brendan Beck          0.0294  0.0332   0.88  0.0227   0.090   +1010  168  
+Gasper, Mickey          L    2    BOS  Clay Holmes           0.0437  0.0339   0.70  0.0186   0.089   +1021  137  
+Franklin, Christian     R    8    NYY  Brendan Beck          0.0304  0.0343   0.88  0.0235   0.086   +1064  13   
+Jackson, Jeremiah       R    7    NYY  Brendan Beck          0.0292  0.0331   0.88  0.0226   0.085   +1074  144  
+Anthony, Roman          L    1    BOS  Clay Holmes           0.0394  0.0306   0.70  0.0168   0.084   +1086  84   
+Suzuki, Seiya           R    2    BOS  Alec Gamboa           0.0293  0.0263   0.72  0.0147   0.083   +1103  105  
+Taylor, Tyrone          R    4    BOS  Alec Gamboa           0.0346  0.0312   0.72  0.0174   0.083   +1111  86   
+Busch, Michael          L    7    BOS  Alec Gamboa           0.0375  0.0373   0.70  0.0204   0.078   +1177  127  
+Volpe, Anthony          R    7    NYY  Trevor Rogers         0.0268  0.0315   0.88  0.0215   0.076   +1207  71   
+Narváez, Carlos         R    9    NYY  Brendan Beck          0.0265  0.0299   0.88  0.0205   0.076   +1212  117  
+Rutschman, Adley        L    3    BOS  Clay Holmes           0.0355  0.0275   0.70  0.0151   0.075   +1232  184  
+Sánchez, Ali            R    8    NYY  Trevor Rogers         0.0243  0.0285   0.88  0.0195   0.073   +1262  27   
+Bregman, Alex           R    3    BOS  Alec Gamboa           0.0290  0.0261   0.72  0.0146   0.071   +1316  120  
+Duran, Jarren           L    7    BOS  Clay Holmes           0.0352  0.0273   0.70  0.0150   0.068   +1366  297  
+Swanson, Dansby         R    8    BOS  Alec Gamboa           0.0275  0.0247   0.72  0.0138   0.064   +1470  86   
+Caballero, José         R    9    NYY  Trevor Rogers         0.0198  0.0232   0.88  0.0159   0.064   +1472  89   
+Shaw, Matt              R    6    BOS  Alec Gamboa           0.0212  0.0190   0.72  0.0106   0.058   +1630  64   
+Amaya, Miguel           R    9    BOS  Alec Gamboa           0.0204  0.0183   0.72  0.0103   0.055   +1732  49   
+Monasterio, Andruw      R    8    BOS  Clay Holmes           0.0224  0.0192   0.72  0.0107   0.051   +1869  154  
+Sogard, Nick            L    6    BOS  Clay Holmes           0.0213  0.0164   0.70  0.0090   0.048   +1970  133  
+Hoerner, Nico           R    5    BOS  Alec Gamboa           0.0149  0.0134   0.72  0.0075   0.039   +2477  141  
+Kiner-Falefa, Isiah     R    9    BOS  Clay Holmes           0.0161  0.0138   0.72  0.0077   0.039   +2477  95   
+Durbin, Caleb           R    5    BOS  Clay Holmes           0.0138  0.0118   0.72  0.0066   0.038   +2525  308  
