@@ -1,11 +1,20 @@
-HR BOARD -- 2026-09-26 -- 9 hitters composed
+HR BOARD -- 2026-09-26 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Greene, Riley           L    5    DET  Kirby Yates           0.0545  0.0502   0.91  0.0355   0.129   +675   248  
-Valencia, Eduardo       R    4    DET  Kirby Yates           0.0477  0.0429   0.89  0.0297   0.117   +757   57   
-Dingler, Dillon         R    6    DET  Kirby Yates           0.0466  0.0419   0.89  0.0290   0.110   +808   290  
-Torkelson, Spencer      R    7    DET  Kirby Yates           0.0424  0.0381   0.89  0.0264   0.101   +894   233  
-McGonigle, Kevin        L    3    DET  Kirby Yates           0.0361  0.0332   0.91  0.0235   0.100   +902   360  
-Lee, Hao-Yu             R    2    DET  Kirby Yates           0.0292  0.0262   0.89  0.0181   0.085   +1078  141  
-Clark, Max              L    1    DET  Kirby Yates           0.0190  0.0174   0.91  0.0124   0.065   +1443  87   
-McKinstry, Zach         L    8    DET  Kirby Yates           0.0164  0.0150   0.91  0.0106   0.051   +1876  242  
-Báez, Javier            R    9    DET  Kirby Yates           0.0158  0.0141   0.89  0.0098   0.047   +2041  98   
+Cruz, Oneil             L    4    DET  Justin Verlander      0.0478  0.0514   0.91  0.0365   0.132   +656   151  
+Lowe, Brandon           L    2    DET  Justin Verlander      0.0452  0.0486   0.91  0.0345   0.131   +662   280  
+Greene, Riley           L    5    DET  Kirby Yates           0.0545  0.0502   0.91  0.0357   0.131   +664   248  
+Valencia, Eduardo       R    4    DET  Kirby Yates           0.0477  0.0429   0.89  0.0299   0.118   +745   57   
+Reynolds, Bryan         L    3    DET  Justin Verlander      0.0397  0.0427   0.91  0.0304   0.118   +750   274  
+Dingler, Dillon         R    6    DET  Kirby Yates           0.0466  0.0419   0.89  0.0292   0.112   +795   290  
+O'Hearn, Ryan           L    1    DET  Justin Verlander      0.0335  0.0360   0.91  0.0256   0.107   +830   211  
+Torkelson, Spencer      R    7    DET  Kirby Yates           0.0424  0.0381   0.89  0.0265   0.102   +879   233  
+McGonigle, Kevin        L    3    DET  Kirby Yates           0.0361  0.0332   0.91  0.0236   0.101   +888   360  
+Horwitz, Spencer        L    6    DET  Justin Verlander      0.0286  0.0308   0.91  0.0219   0.088   +1035  253  
+Davis, Henry            R    9    DET  Justin Verlander      0.0344  0.0328   0.89  0.0228   0.088   +1035  132  
+Lee, Hao-Yu             R    2    DET  Kirby Yates           0.0292  0.0262   0.89  0.0182   0.086   +1060  141  
+Griffin, Konnor         R    5    DET  Justin Verlander      0.0283  0.0270   0.89  0.0188   0.083   +1103  158  
+Gonzalez, Jacob         L    8    DET  Justin Verlander      0.0240  0.0259   0.91  0.0184   0.075   +1237  142  
+Simon, Ronny            L    7    DET  Justin Verlander      0.0211  0.0228   0.91  0.0162   0.070   +1339  31   
+Clark, Max              L    1    DET  Kirby Yates           0.0190  0.0174   0.91  0.0124   0.066   +1420  87   
+McKinstry, Zach         L    8    DET  Kirby Yates           0.0164  0.0150   0.91  0.0107   0.051   +1846  242  
+Báez, Javier            R    9    DET  Kirby Yates           0.0158  0.0141   0.89  0.0098   0.047   +2010  98   
