@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.047,0.0314,0.1348,+642,145,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.047,0.0294,0.1335,+649,187,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.057,0.0305,0.1324,+655,89,v1.2-g075
-686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.047,0.0205,0.1279,+682,155,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.047,0.0206,0.1122,+791,159,v1.2-g075
-663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.057,0.029,0.112,+793,102,v1.2-g075
-671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.047,0.0198,0.1093,+815,170,v1.2-g075
-656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.057,0.0288,0.1091,+817,88,v1.2-g075
-664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.057,0.0288,0.1036,+865,157,v1.2-g075
-607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.057,0.0219,0.0984,+916,171,v1.2-g075
-624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.057,0.0232,0.0938,+966,98,v1.2-g075
-650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.057,0.0189,0.088,+1036,27,v1.2-g075
-681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.047,0.019,0.0848,+1079,105,v1.2-g075
-643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.057,0.0167,0.0789,+1167,178,v1.2-g075
-645277,"Albies, Ozzie",R,6,home,ATL,Jesús Luzardo,L,0.0211,0.0202,1.057,0.0167,0.0753,+1228,222,v1.2-g075
-573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.047,0.0143,0.0732,+1266,21,v1.2-g075
-592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.057,0.0143,0.0718,+1293,85,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.057,0.0167,0.0695,+1339,42,v1.2-g075
+656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.056,0.0317,0.1359,+636,145,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.056,0.0296,0.1346,+643,187,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.066,0.0307,0.1334,+650,89,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.056,0.0206,0.1289,+676,155,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.056,0.0208,0.1131,+784,159,v1.2-g075
+663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.066,0.0293,0.1129,+786,102,v1.2-g075
+671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.056,0.02,0.1102,+807,170,v1.2-g075
+656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.066,0.029,0.11,+809,88,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.066,0.0291,0.1044,+858,157,v1.2-g075
+607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.066,0.0221,0.0992,+908,171,v1.2-g075
+624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.066,0.0234,0.0946,+957,98,v1.2-g075
+650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.066,0.019,0.0887,+1027,27,v1.2-g075
+681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.056,0.0191,0.0856,+1068,105,v1.2-g075
+643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.066,0.0168,0.0795,+1158,178,v1.2-g075
+645277,"Albies, Ozzie",R,6,home,ATL,Jesús Luzardo,L,0.0211,0.0202,1.066,0.0168,0.0758,+1219,222,v1.2-g075
+573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.056,0.0144,0.0738,+1255,21,v1.2-g075
+592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.066,0.0144,0.0724,+1281,85,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.066,0.0168,0.0701,+1327,42,v1.2-g075

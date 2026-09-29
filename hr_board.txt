@@ -1,20 +1,20 @@
 HR BOARD -- 2026-09-29 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Schwarber, Kyle         L    2    ATL  Chris Sale            0.0397  0.0385   1.05  0.0314   0.135   +642   145  
-Olson, Matt             L    3    ATL  Jesús Luzardo         0.0439  0.0359   1.05  0.0294   0.134   +649   187  
-Acuña Jr., Ronald       R    2    ATL  Jesús Luzardo         0.0384  0.0369   1.06  0.0305   0.132   +655   89   
-Baldwin, Drake          L    1    ATL  Jesús Luzardo         0.0306  0.0251   1.05  0.0205   0.128   +682   155  
-Harper, Bryce           L    3    ATL  Chris Sale            0.0261  0.0253   1.05  0.0206   0.112   +791   159  
-Riley, Austin           R    7    ATL  Jesús Luzardo         0.0366  0.0352   1.06  0.0290   0.112   +793   102  
-Harris II, Michael      L    5    ATL  Jesús Luzardo         0.0297  0.0243   1.05  0.0198   0.109   +815   170  
-Hill, Derek             R    5    ATL  Chris Sale            0.0370  0.0349   1.06  0.0288   0.109   +817   88   
-Bohm, Alec              R    4    ATL  Chris Sale            0.0372  0.0350   1.06  0.0288   0.104   +865   157  
-Turner, Trea            R    1    ATL  Chris Sale            0.0282  0.0265   1.06  0.0219   0.098   +916   171  
-Sosa, Edmundo           R    8    ATL  Chris Sale            0.0299  0.0282   1.06  0.0232   0.094   +966   98   
-De La Cruz, Bryan       R    6    ATL  Chris Sale            0.0243  0.0229   1.06  0.0189   0.088   +1036  27   
-Stott, Bryson           L    7    ATL  Chris Sale            0.0240  0.0232   1.05  0.0190   0.085   +1079  105  
-Dubón, Mauricio         R    4    ATL  Jesús Luzardo         0.0210  0.0202   1.06  0.0167   0.079   +1167  178  
-Albies, Ozzie           R    6    ATL  Jesús Luzardo         0.0211  0.0202   1.06  0.0167   0.075   +1228  222  
-Yastrzemski, Mike       L    8    ATL  Jesús Luzardo         0.0214  0.0175   1.05  0.0143   0.073   +1266  21   
-Realmuto, J.T.          R    9    ATL  Chris Sale            0.0184  0.0173   1.06  0.0143   0.072   +1293  85   
-Kim, Ha-Seong           R    9    ATL  Jesús Luzardo         0.0210  0.0202   1.06  0.0167   0.070   +1339  42   
+Schwarber, Kyle         L    2    ATL  Chris Sale            0.0397  0.0385   1.06  0.0317   0.136   +636   145  
+Olson, Matt             L    3    ATL  Jesús Luzardo         0.0439  0.0359   1.06  0.0296   0.135   +643   187  
+Acuña Jr., Ronald       R    2    ATL  Jesús Luzardo         0.0384  0.0369   1.07  0.0307   0.133   +650   89   
+Baldwin, Drake          L    1    ATL  Jesús Luzardo         0.0306  0.0251   1.06  0.0206   0.129   +676   155  
+Harper, Bryce           L    3    ATL  Chris Sale            0.0261  0.0253   1.06  0.0208   0.113   +784   159  
+Riley, Austin           R    7    ATL  Jesús Luzardo         0.0366  0.0352   1.07  0.0293   0.113   +786   102  
+Harris II, Michael      L    5    ATL  Jesús Luzardo         0.0297  0.0243   1.06  0.0200   0.110   +807   170  
+Hill, Derek             R    5    ATL  Chris Sale            0.0370  0.0349   1.07  0.0290   0.110   +809   88   
+Bohm, Alec              R    4    ATL  Chris Sale            0.0372  0.0350   1.07  0.0291   0.104   +858   157  
+Turner, Trea            R    1    ATL  Chris Sale            0.0282  0.0265   1.07  0.0221   0.099   +908   171  
+Sosa, Edmundo           R    8    ATL  Chris Sale            0.0299  0.0282   1.07  0.0234   0.095   +957   98   
+De La Cruz, Bryan       R    6    ATL  Chris Sale            0.0243  0.0229   1.07  0.0190   0.089   +1027  27   
+Stott, Bryson           L    7    ATL  Chris Sale            0.0240  0.0232   1.06  0.0191   0.086   +1068  105  
+Dubón, Mauricio         R    4    ATL  Jesús Luzardo         0.0210  0.0202   1.07  0.0168   0.080   +1158  178  
+Albies, Ozzie           R    6    ATL  Jesús Luzardo         0.0211  0.0202   1.07  0.0168   0.076   +1219  222  
+Yastrzemski, Mike       L    8    ATL  Jesús Luzardo         0.0214  0.0175   1.06  0.0144   0.074   +1255  21   
+Realmuto, J.T.          R    9    ATL  Chris Sale            0.0184  0.0173   1.07  0.0144   0.072   +1281  85   
+Kim, Ha-Seong           R    9    ATL  Jesús Luzardo         0.0210  0.0202   1.07  0.0168   0.070   +1327  42   
