@@ -1,56 +1,65 @@
-HR BOARD -- 2026-09-29 -- 54 hitters composed
+HR BOARD -- 2026-09-29 -- 63 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Murakami, Munetaka      L    4    HOU  AJ Blubaugh           0.0524  0.0596   1.06  0.0492   0.166   +504   182  
-Alvarez, Yordan         L    2    HOU  Hagen Smith           0.0493  0.0501   1.06  0.0414   0.162   +518   136  
-Vargas, Miguel          R    3    HOU  AJ Blubaugh           0.0482  0.0522   1.05  0.0427   0.154   +549   331  
-Abreu, Wilyer           L    4    NYY  Cam Schlittler        0.0489  0.0437   1.18  0.0403   0.154   +551   307  
-Rice, Ben               L    2    NYY  Payton Tolle          0.0352  0.0317   1.18  0.0293   0.145   +588   139  
-Anthony, Roman          L    1    NYY  Cam Schlittler        0.0410  0.0367   1.18  0.0338   0.143   +599   87   
-Schwarber, Kyle         L    2    ATL  Chris Sale            0.0397  0.0385   1.05  0.0314   0.137   +628   145  
-Ramos, Heliot           R    3    NYY  Payton Tolle          0.0464  0.0454   1.02  0.0362   0.137   +630   73   
-Olson, Matt             L    3    ATL  Jesús Luzardo         0.0439  0.0359   1.05  0.0293   0.136   +636   187  
-Acuña Jr., Ronald       R    2    ATL  Jesús Luzardo         0.0384  0.0369   1.06  0.0305   0.135   +641   89   
-Baldwin, Drake          L    1    ATL  Jesús Luzardo         0.0306  0.0251   1.05  0.0204   0.130   +668   155  
-Teel, Kyle              L    2    HOU  AJ Blubaugh           0.0352  0.0401   1.06  0.0331   0.129   +676   51   
-Benintendi, Andrew      L    5    HOU  AJ Blubaugh           0.0372  0.0424   1.06  0.0350   0.128   +683   286  
-Rutschman, Adley        L    2    NYY  Cam Schlittler        0.0352  0.0315   1.18  0.0290   0.126   +692   187  
-Goldschmidt, Paul       R    1    NYY  Payton Tolle          0.0442  0.0432   1.02  0.0344   0.125   +698   125  
-Jones, Spencer          L    8    NYY  Payton Tolle          0.0401  0.0361   1.18  0.0333   0.123   +711   36   
-Contreras, Willson      R    3    NYY  Cam Schlittler        0.0395  0.0366   1.02  0.0291   0.123   +714   226  
-Montgomery, Colson      L    9    HOU  AJ Blubaugh           0.0368  0.0419   1.06  0.0346   0.118   +749   223  
-Harper, Bryce           L    3    ATL  Chris Sale            0.0261  0.0253   1.05  0.0206   0.114   +775   159  
-Riley, Austin           R    7    ATL  Jesús Luzardo         0.0366  0.0352   1.06  0.0290   0.114   +776   102  
-Rosario, Amed           R    6    NYY  Payton Tolle          0.0393  0.0384   1.02  0.0306   0.114   +777   118  
-Duran, Jarren           L    7    NYY  Cam Schlittler        0.0349  0.0312   1.18  0.0288   0.114   +779   300  
-Harris II, Michael      L    5    ATL  Jesús Luzardo         0.0297  0.0243   1.05  0.0198   0.111   +798   170  
-Hill, Derek             R    5    ATL  Chris Sale            0.0370  0.0349   1.06  0.0288   0.111   +799   88   
-Smith, Cam              R    8    HOU  Hagen Smith           0.0358  0.0340   1.05  0.0279   0.109   +817   97   
-Antonacci, Sam          L    1    HOU  AJ Blubaugh           0.0268  0.0306   1.06  0.0253   0.108   +829   327  
-Bohm, Alec              R    4    ATL  Chris Sale            0.0372  0.0350   1.06  0.0288   0.106   +847   157  
-Spence, Lucas           L    7    HOU  Hagen Smith           0.0340  0.0346   1.06  0.0286   0.105   +856   12   
-Lombard Jr., George     R    5    NYY  Payton Tolle          0.0353  0.0346   1.02  0.0276   0.104   +860   19   
-Diaz, Yainer            R    5    HOU  Hagen Smith           0.0330  0.0314   1.05  0.0257   0.104   +861   73   
-Walker, Christian       R    6    HOU  Hagen Smith           0.0286  0.0271   1.05  0.0222   0.103   +873   91   
-Peters, Tristan         L    6    HOU  AJ Blubaugh           0.0281  0.0321   1.06  0.0265   0.103   +873   307  
-Peña, Jeremy            R    1    HOU  Hagen Smith           0.0247  0.0234   1.05  0.0192   0.102   +885   79   
-Bellinger, Cody         L    4    NYY  Payton Tolle          0.0227  0.0204   1.18  0.0188   0.101   +893   154  
-Turner, Trea            R    1    ATL  Chris Sale            0.0282  0.0265   1.06  0.0219   0.100   +897   171  
-Sosa, Edmundo           R    8    ATL  Chris Sale            0.0299  0.0282   1.06  0.0232   0.096   +946   98   
-Paredes, Isaac          R    3    HOU  Hagen Smith           0.0290  0.0276   1.05  0.0226   0.094   +967   117  
-De La Cruz, Bryan       R    6    ATL  Chris Sale            0.0243  0.0229   1.06  0.0189   0.090   +1015  27   
-Montgomery, Braden      L    7    HOU  AJ Blubaugh           0.0234  0.0266   1.06  0.0220   0.088   +1031  188  
-Trammell, Taylor        L    9    HOU  Hagen Smith           0.0200  0.0203   1.06  0.0168   0.087   +1052  26   
-Wells, Austin           L    9    NYY  Payton Tolle          0.0234  0.0210   1.18  0.0194   0.086   +1056  61   
-Stott, Bryson           L    7    ATL  Chris Sale            0.0240  0.0232   1.05  0.0189   0.086   +1056  105  
-Rafaela, Ceddanne       R    5    NYY  Cam Schlittler        0.0245  0.0227   1.02  0.0181   0.084   +1089  319  
-Volpe, Anthony          R    7    NYY  Payton Tolle          0.0266  0.0260   1.02  0.0207   0.083   +1099  73   
-Story, Trevor           R    8    NYY  Cam Schlittler        0.0255  0.0236   1.02  0.0188   0.081   +1130  124  
-Dubón, Mauricio         R    4    ATL  Jesús Luzardo         0.0210  0.0202   1.06  0.0167   0.080   +1144  178  
-Altuve, Jose            R    4    HOU  Hagen Smith           0.0225  0.0213   1.05  0.0175   0.080   +1144  95   
-Sogard, Nick            L    6    NYY  Cam Schlittler        0.0208  0.0186   1.18  0.0171   0.080   +1150  138  
-Albies, Ozzie           R    6    ATL  Jesús Luzardo         0.0211  0.0202   1.06  0.0167   0.077   +1202  222  
-Meidroth, Chase         R    8    HOU  AJ Blubaugh           0.0201  0.0218   1.05  0.0178   0.075   +1230  304  
-Yastrzemski, Mike       L    8    ATL  Jesús Luzardo         0.0214  0.0175   1.05  0.0143   0.075   +1240  21   
-Realmuto, J.T.          R    9    ATL  Chris Sale            0.0184  0.0173   1.06  0.0143   0.073   +1264  85   
-Kim, Ha-Seong           R    9    ATL  Jesús Luzardo         0.0210  0.0202   1.06  0.0167   0.071   +1310  42   
-Durbin, Caleb           R    9    NYY  Cam Schlittler        0.0137  0.0127   1.02  0.0101   0.051   +1876  312  
+Murakami, Munetaka      L    4    HOU  AJ Blubaugh           0.0524  0.0596   1.06  0.0492   0.165   +505   182  
+Alvarez, Yordan         L    2    HOU  Hagen Smith           0.0493  0.0501   1.06  0.0414   0.161   +520   136  
+Vargas, Miguel          R    3    HOU  AJ Blubaugh           0.0482  0.0522   1.05  0.0427   0.154   +550   331  
+Abreu, Wilyer           L    4    NYY  Cam Schlittler        0.0489  0.0437   1.17  0.0397   0.152   +559   307  
+Tatis Jr., Fernando     R    1    SD   Matthew Boyd          0.0429  0.0546   0.96  0.0407   0.151   +561   110  
+Rice, Ben               L    2    NYY  Payton Tolle          0.0352  0.0317   1.17  0.0288   0.143   +597   139  
+Anthony, Roman          L    1    NYY  Cam Schlittler        0.0410  0.0367   1.17  0.0333   0.141   +608   87   
+Schwarber, Kyle         L    2    ATL  Chris Sale            0.0397  0.0385   1.06  0.0317   0.138   +625   145  
+Olson, Matt             L    3    ATL  Jesús Luzardo         0.0439  0.0359   1.06  0.0296   0.137   +633   187  
+Acuña Jr., Ronald       R    2    ATL  Jesús Luzardo         0.0384  0.0369   1.07  0.0307   0.135   +639   89   
+Ramos, Heliot           R    3    NYY  Payton Tolle          0.0464  0.0454   1.01  0.0357   0.135   +640   73   
+Baldwin, Drake          L    1    ATL  Jesús Luzardo         0.0306  0.0251   1.06  0.0206   0.131   +665   155  
+Machado, Manny          R    3    SD   Matthew Boyd          0.0391  0.0498   0.96  0.0371   0.129   +675   110  
+Teel, Kyle              L    2    HOU  AJ Blubaugh           0.0352  0.0401   1.06  0.0331   0.129   +678   51   
+Benintendi, Andrew      L    5    HOU  AJ Blubaugh           0.0372  0.0424   1.06  0.0350   0.127   +685   286  
+Rutschman, Adley        L    2    NYY  Cam Schlittler        0.0352  0.0315   1.17  0.0286   0.125   +703   187  
+Goldschmidt, Paul       R    1    NYY  Payton Tolle          0.0442  0.0432   1.01  0.0340   0.124   +708   125  
+Jones, Spencer          L    8    NYY  Payton Tolle          0.0401  0.0361   1.17  0.0328   0.122   +721   36   
+Contreras, Willson      R    3    NYY  Cam Schlittler        0.0395  0.0366   1.01  0.0287   0.121   +724   226  
+Montgomery, Colson      L    9    HOU  AJ Blubaugh           0.0368  0.0419   1.06  0.0346   0.117   +751   223  
+Merrill, Jackson        L    5    SD   Matthew Boyd          0.0359  0.0336   0.95  0.0248   0.115   +767   128  
+Harper, Bryce           L    3    ATL  Chris Sale            0.0261  0.0253   1.06  0.0208   0.115   +772   159  
+Riley, Austin           R    7    ATL  Jesús Luzardo         0.0366  0.0352   1.07  0.0293   0.115   +773   102  
+France, Ty              R    4    SD   Matthew Boyd          0.0295  0.0377   0.96  0.0281   0.113   +784   87   
+Rosario, Amed           R    6    NYY  Payton Tolle          0.0393  0.0384   1.01  0.0302   0.113   +788   118  
+Duran, Jarren           L    7    NYY  Cam Schlittler        0.0349  0.0312   1.17  0.0284   0.112   +790   300  
+Harris II, Michael      L    5    ATL  Jesús Luzardo         0.0297  0.0243   1.06  0.0200   0.112   +794   170  
+Hill, Derek             R    5    ATL  Chris Sale            0.0370  0.0349   1.07  0.0290   0.112   +796   88   
+Smith, Cam              R    8    HOU  Hagen Smith           0.0358  0.0340   1.05  0.0279   0.109   +820   97   
+Antonacci, Sam          L    1    HOU  AJ Blubaugh           0.0268  0.0306   1.06  0.0253   0.107   +831   327  
+Bohm, Alec              R    4    ATL  Chris Sale            0.0372  0.0350   1.07  0.0291   0.106   +844   157  
+Spence, Lucas           L    7    HOU  Hagen Smith           0.0340  0.0346   1.06  0.0286   0.104   +859   12   
+Diaz, Yainer            R    5    HOU  Hagen Smith           0.0330  0.0314   1.05  0.0257   0.104   +862   73   
+Lombard Jr., George     R    5    NYY  Payton Tolle          0.0353  0.0346   1.01  0.0272   0.103   +871   19   
+Peters, Tristan         L    6    HOU  AJ Blubaugh           0.0281  0.0321   1.06  0.0265   0.103   +875   307  
+Walker, Christian       R    6    HOU  Hagen Smith           0.0286  0.0271   1.05  0.0222   0.102   +876   91   
+Peña, Jeremy            R    1    HOU  Hagen Smith           0.0247  0.0234   1.05  0.0192   0.101   +888   79   
+Turner, Trea            R    1    ATL  Chris Sale            0.0282  0.0265   1.07  0.0221   0.101   +894   171  
+Bellinger, Cody         L    4    NYY  Payton Tolle          0.0227  0.0204   1.17  0.0186   0.099   +907   154  
+Sosa, Edmundo           R    8    ATL  Chris Sale            0.0299  0.0282   1.07  0.0234   0.096   +942   98   
+Hays, Austin            R    6    SD   Matthew Boyd          0.0268  0.0342   0.96  0.0255   0.094   +963   38   
+Paredes, Isaac          R    3    HOU  Hagen Smith           0.0290  0.0276   1.05  0.0226   0.093   +970   117  
+De La Cruz, Bryan       R    6    ATL  Chris Sale            0.0243  0.0229   1.07  0.0190   0.090   +1011  27   
+Taylor, Samad           R    2    SD   Matthew Boyd          0.0226  0.0289   0.96  0.0216   0.090   +1015  33   
+Montgomery, Braden      L    7    HOU  AJ Blubaugh           0.0234  0.0266   1.06  0.0220   0.088   +1035  188  
+Campusano, Luis         R    9    SD   Matthew Boyd          0.0225  0.0288   0.96  0.0215   0.088   +1035  35   
+Stott, Bryson           L    7    ATL  Chris Sale            0.0240  0.0232   1.06  0.0191   0.087   +1052  105  
+Trammell, Taylor        L    9    HOU  Hagen Smith           0.0200  0.0203   1.06  0.0168   0.086   +1056  26   
+Wells, Austin           L    9    NYY  Payton Tolle          0.0234  0.0210   1.17  0.0191   0.085   +1071  61   
+Rafaela, Ceddanne       R    5    NYY  Cam Schlittler        0.0245  0.0227   1.01  0.0178   0.083   +1106  319  
+Volpe, Anthony          R    7    NYY  Payton Tolle          0.0266  0.0260   1.01  0.0204   0.082   +1114  73   
+Dubón, Mauricio         R    4    ATL  Jesús Luzardo         0.0210  0.0202   1.07  0.0168   0.081   +1139  178  
+Story, Trevor           R    8    NYY  Cam Schlittler        0.0255  0.0236   1.01  0.0186   0.080   +1145  124  
+Altuve, Jose            R    4    HOU  Hagen Smith           0.0225  0.0213   1.05  0.0175   0.080   +1148  95   
+Sogard, Nick            L    6    NYY  Cam Schlittler        0.0208  0.0186   1.17  0.0169   0.079   +1166  138  
+Bogaerts, Xander        R    7    SD   Matthew Boyd          0.0177  0.0227   0.96  0.0169   0.078   +1182  120  
+Albies, Ozzie           R    6    ATL  Jesús Luzardo         0.0211  0.0202   1.07  0.0168   0.077   +1199  222  
+Meidroth, Chase         R    8    HOU  AJ Blubaugh           0.0201  0.0218   1.05  0.0178   0.075   +1233  304  
+Yastrzemski, Mike       L    8    ATL  Jesús Luzardo         0.0214  0.0175   1.06  0.0144   0.075   +1235  21   
+Realmuto, J.T.          R    9    ATL  Chris Sale            0.0184  0.0173   1.07  0.0144   0.073   +1261  85   
+Kim, Ha-Seong           R    9    ATL  Jesús Luzardo         0.0210  0.0202   1.07  0.0168   0.071   +1304  42   
+Cronenworth, Jake       L    8    SD   Matthew Boyd          0.0137  0.0128   0.95  0.0095   0.055   +1712  70   
+Durbin, Caleb           R    9    NYY  Cam Schlittler        0.0137  0.0127   1.01  0.0100   0.050   +1908  312  
