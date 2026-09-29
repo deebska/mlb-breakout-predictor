@@ -1,27 +1,32 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-808959,"Murakami, Munetaka",L,4,away,HOU,AJ Blubaugh,R,0.0524,0.0596,1.06,0.0492,0.1655,+504,182,v1.2-g075
+808959,"Murakami, Munetaka",L,4,away,HOU,AJ Blubaugh,R,0.0524,0.0596,1.06,0.0492,0.1654,+505,182,v1.2-g075
 670541,"Alvarez, Yordan",L,2,home,HOU,Hagen Smith,L,0.0493,0.0501,1.06,0.0414,0.1615,+519,136,v1.2-g075
 678246,"Vargas, Miguel",R,3,away,HOU,AJ Blubaugh,R,0.0482,0.0522,1.05,0.0427,0.1539,+550,331,v1.2-g075
+677800,"Abreu, Wilyer",L,4,away,NYY,Cam Schlittler,R,0.0489,0.0437,1.157,0.0395,0.1512,+561,307,v1.2-g075
 700250,"Rice, Ben",L,2,home,NYY,Payton Tolle,L,0.0352,0.0317,1.157,0.0286,0.1429,+600,139,v1.2-g075
+701350,"Anthony, Roman",L,1,away,NYY,Cam Schlittler,R,0.041,0.0367,1.157,0.0331,0.1407,+611,87,v1.2-g075
 656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.048,0.0315,0.1372,+629,145,v1.2-g075
 621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.048,0.0294,0.1358,+636,187,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.058,0.0305,0.1348,+642,89,v1.2-g075
-671218,"Ramos, Heliot",R,3,home,NYY,Payton Tolle,L,0.0464,0.0454,1.0,0.0354,0.1348,+642,73,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.058,0.0305,0.1347,+642,89,v1.2-g075
+671218,"Ramos, Heliot",R,3,home,NYY,Payton Tolle,L,0.0464,0.0454,1.0,0.0354,0.1347,+642,73,v1.2-g075
 686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.048,0.0205,0.1302,+668,155,v1.2-g075
 691019,"Teel, Kyle",L,2,away,HOU,AJ Blubaugh,R,0.0352,0.0401,1.06,0.0331,0.1287,+677,51,v1.2-g075
 643217,"Benintendi, Andrew",L,5,away,HOU,AJ Blubaugh,R,0.0372,0.0424,1.06,0.035,0.1275,+684,286,v1.2-g075
+668939,"Rutschman, Adley",L,2,away,NYY,Cam Schlittler,R,0.0352,0.0315,1.157,0.0284,0.1242,+705,187,v1.2-g075
 502671,"Goldschmidt, Paul",R,1,home,NYY,Payton Tolle,L,0.0442,0.0432,1.0,0.0337,0.1233,+711,125,v1.2-g075
 682987,"Jones, Spencer",L,8,home,NYY,Payton Tolle,L,0.0401,0.0361,1.157,0.0326,0.1213,+724,36,v1.2-g075
+575929,"Contreras, Willson",R,3,away,NYY,Cam Schlittler,R,0.0395,0.0366,1.0,0.0285,0.1208,+728,226,v1.2-g075
 695657,"Montgomery, Colson",L,9,away,HOU,AJ Blubaugh,R,0.0368,0.0419,1.06,0.0346,0.1176,+750,223,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.048,0.0206,0.1143,+775,159,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.048,0.0206,0.1142,+776,159,v1.2-g075
 663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.058,0.029,0.114,+777,102,v1.2-g075
 642708,"Rosario, Amed",R,6,home,NYY,Payton Tolle,L,0.0393,0.0384,1.0,0.03,0.1122,+791,118,v1.2-g075
+680776,"Duran, Jarren",L,7,away,NYY,Cam Schlittler,R,0.0349,0.0312,1.157,0.0282,0.1119,+794,300,v1.2-g075
 671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.048,0.0199,0.1113,+798,170,v1.2-g075
 656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.058,0.0288,0.1111,+800,88,v1.2-g075
-701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.1089,+818,97,v1.2-g075
+701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.1088,+819,97,v1.2-g075
 803011,"Antonacci, Sam",L,1,away,HOU,AJ Blubaugh,R,0.0268,0.0306,1.06,0.0253,0.1076,+829,327,v1.2-g075
 664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.058,0.0289,0.1055,+848,157,v1.2-g075
-828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1045,+857,12,v1.2-g075
+828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1044,+858,12,v1.2-g075
 673237,"Diaz, Yainer",R,5,home,HOU,Hagen Smith,L,0.033,0.0314,1.05,0.0257,0.104,+862,73,v1.2-g075
 671976,"Peters, Tristan",L,6,away,HOU,AJ Blubaugh,R,0.0281,0.0321,1.06,0.0265,0.1027,+874,307,v1.2-g075
 572233,"Walker, Christian",R,6,home,HOU,Hagen Smith,L,0.0286,0.0271,1.05,0.0222,0.1026,+875,91,v1.2-g075
@@ -29,18 +34,22 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 665161,"Peña, Jeremy",R,1,home,HOU,Hagen Smith,L,0.0247,0.0234,1.05,0.0192,0.1013,+887,79,v1.2-g075
 607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.058,0.0219,0.1002,+898,171,v1.2-g075
 641355,"Bellinger, Cody",L,4,home,NYY,Payton Tolle,L,0.0227,0.0204,1.157,0.0184,0.099,+910,154,v1.2-g075
-624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.058,0.0232,0.0956,+946,98,v1.2-g075
+624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.058,0.0232,0.0955,+947,98,v1.2-g075
 670623,"Paredes, Isaac",R,3,home,HOU,Hagen Smith,L,0.029,0.0276,1.05,0.0226,0.0936,+968,117,v1.2-g075
 650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.058,0.0189,0.0896,+1016,27,v1.2-g075
 695731,"Montgomery, Braden",L,7,away,HOU,AJ Blubaugh,R,0.0234,0.0266,1.06,0.022,0.0882,+1034,188,v1.2-g075
 666211,"Trammell, Taylor",L,9,home,HOU,Hagen Smith,L,0.02,0.0203,1.06,0.0168,0.0866,+1055,26,v1.2-g075
-681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.048,0.019,0.0865,+1056,105,v1.2-g075
+681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.048,0.019,0.0864,+1057,105,v1.2-g075
 669224,"Wells, Austin",L,9,home,NYY,Payton Tolle,L,0.0234,0.021,1.157,0.019,0.0851,+1075,61,v1.2-g075
-683011,"Volpe, Anthony",R,7,home,NYY,Payton Tolle,L,0.0266,0.026,1.0,0.0203,0.0821,+1118,73,v1.2-g075
+678882,"Rafaela, Ceddanne",R,5,away,NYY,Cam Schlittler,R,0.0245,0.0227,1.0,0.0177,0.0826,+1111,319,v1.2-g075
+683011,"Volpe, Anthony",R,7,home,NYY,Payton Tolle,L,0.0266,0.026,1.0,0.0203,0.082,+1120,73,v1.2-g075
 643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.058,0.0167,0.0804,+1144,178,v1.2-g075
 514888,"Altuve, Jose",R,4,home,HOU,Hagen Smith,L,0.0225,0.0213,1.05,0.0175,0.0802,+1147,95,v1.2-g075
+596115,"Story, Trevor",R,8,away,NYY,Cam Schlittler,R,0.0255,0.0236,1.0,0.0184,0.08,+1150,124,v1.2-g075
+686765,"Sogard, Nick",L,6,away,NYY,Cam Schlittler,R,0.0208,0.0186,1.157,0.0168,0.0786,+1172,138,v1.2-g075
 645277,"Albies, Ozzie",R,6,home,ATL,Jesús Luzardo,L,0.0211,0.0202,1.058,0.0167,0.0766,+1205,222,v1.2-g075
 805367,"Meidroth, Chase",R,8,away,HOU,AJ Blubaugh,R,0.0201,0.0218,1.05,0.0178,0.0751,+1232,304,v1.2-g075
 573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.048,0.0143,0.0746,+1240,21,v1.2-g075
-592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.058,0.0143,0.0732,+1266,85,v1.2-g075
+592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.058,0.0143,0.0731,+1268,85,v1.2-g075
 673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.058,0.0167,0.0708,+1312,42,v1.2-g075
+702332,"Durbin, Caleb",R,9,away,NYY,Cam Schlittler,R,0.0137,0.0127,1.0,0.0099,0.0497,+1912,312,v1.2-g075
