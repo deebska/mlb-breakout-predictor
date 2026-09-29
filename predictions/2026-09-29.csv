@@ -1,37 +1,37 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-808959,"Murakami, Munetaka",L,4,away,HOU,AJ Blubaugh,R,0.0524,0.0596,1.06,0.0492,0.1657,+504,182,v1.2-g075
-670541,"Alvarez, Yordan",L,2,home,HOU,Hagen Smith,L,0.0493,0.0501,1.06,0.0414,0.1617,+518,136,v1.2-g075
-678246,"Vargas, Miguel",R,3,away,HOU,AJ Blubaugh,R,0.0482,0.0522,1.05,0.0427,0.1542,+549,331,v1.2-g075
-656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.083,0.0325,0.1407,+611,145,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.083,0.0304,0.1393,+618,187,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.093,0.0315,0.1382,+624,89,v1.2-g075
-686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.083,0.0212,0.1335,+649,155,v1.2-g075
-691019,"Teel, Kyle",L,2,away,HOU,AJ Blubaugh,R,0.0352,0.0401,1.06,0.0331,0.1289,+676,51,v1.2-g075
-643217,"Benintendi, Andrew",L,5,away,HOU,AJ Blubaugh,R,0.0372,0.0424,1.06,0.035,0.1277,+683,286,v1.2-g075
-695657,"Montgomery, Colson",L,9,away,HOU,AJ Blubaugh,R,0.0368,0.0419,1.06,0.0346,0.1178,+749,223,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.083,0.0213,0.1171,+754,159,v1.2-g075
-663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.093,0.03,0.117,+755,102,v1.2-g075
-671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.083,0.0205,0.1142,+776,170,v1.2-g075
-656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.093,0.0297,0.1139,+778,88,v1.2-g075
-701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.109,+817,97,v1.2-g075
-664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.093,0.0298,0.1082,+824,157,v1.2-g075
-803011,"Antonacci, Sam",L,1,away,HOU,AJ Blubaugh,R,0.0268,0.0306,1.06,0.0253,0.1077,+829,327,v1.2-g075
-828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1046,+856,12,v1.2-g075
-673237,"Diaz, Yainer",R,5,home,HOU,Hagen Smith,L,0.033,0.0314,1.05,0.0257,0.1042,+860,73,v1.2-g075
-671976,"Peters, Tristan",L,6,away,HOU,AJ Blubaugh,R,0.0281,0.0321,1.06,0.0265,0.1029,+872,307,v1.2-g075
-607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.093,0.0226,0.1028,+873,171,v1.2-g075
-572233,"Walker, Christian",R,6,home,HOU,Hagen Smith,L,0.0286,0.0271,1.05,0.0222,0.1028,+873,91,v1.2-g075
-665161,"Peña, Jeremy",R,1,home,HOU,Hagen Smith,L,0.0247,0.0234,1.05,0.0192,0.1015,+885,79,v1.2-g075
-624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.093,0.024,0.098,+920,98,v1.2-g075
-670623,"Paredes, Isaac",R,3,home,HOU,Hagen Smith,L,0.029,0.0276,1.05,0.0226,0.0937,+967,117,v1.2-g075
-650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.093,0.0195,0.0919,+988,27,v1.2-g075
-681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.083,0.0196,0.0887,+1027,105,v1.2-g075
-695731,"Montgomery, Braden",L,7,away,HOU,AJ Blubaugh,R,0.0234,0.0266,1.06,0.022,0.0884,+1031,188,v1.2-g075
-666211,"Trammell, Taylor",L,9,home,HOU,Hagen Smith,L,0.02,0.0203,1.06,0.0168,0.0868,+1052,26,v1.2-g075
-643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.093,0.0172,0.0824,+1114,178,v1.2-g075
-514888,"Altuve, Jose",R,4,home,HOU,Hagen Smith,L,0.0225,0.0213,1.05,0.0175,0.0804,+1144,95,v1.2-g075
-645277,"Albies, Ozzie",R,6,home,ATL,Jesús Luzardo,L,0.0211,0.0202,1.093,0.0172,0.0786,+1172,222,v1.2-g075
-573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.083,0.0148,0.0765,+1207,21,v1.2-g075
-805367,"Meidroth, Chase",R,8,away,HOU,AJ Blubaugh,R,0.0201,0.0218,1.05,0.0178,0.0752,+1230,304,v1.2-g075
-592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.093,0.0148,0.0751,+1232,85,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.093,0.0172,0.0727,+1276,42,v1.2-g075
+808959,"Murakami, Munetaka",L,4,away,HOU,AJ Blubaugh,R,0.0524,0.0596,1.06,0.0492,0.1651,+506,182,v1.2-g075
+670541,"Alvarez, Yordan",L,2,home,HOU,Hagen Smith,L,0.0493,0.0501,1.06,0.0414,0.1612,+520,136,v1.2-g075
+678246,"Vargas, Miguel",R,3,away,HOU,AJ Blubaugh,R,0.0482,0.0522,1.05,0.0427,0.1537,+551,331,v1.2-g075
+656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.048,0.0315,0.137,+630,145,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.048,0.0294,0.1356,+637,187,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.058,0.0305,0.1345,+643,89,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.048,0.0205,0.1299,+670,155,v1.2-g075
+691019,"Teel, Kyle",L,2,away,HOU,AJ Blubaugh,R,0.0352,0.0401,1.06,0.0331,0.1284,+679,51,v1.2-g075
+643217,"Benintendi, Andrew",L,5,away,HOU,AJ Blubaugh,R,0.0372,0.0424,1.06,0.035,0.1273,+686,286,v1.2-g075
+695657,"Montgomery, Colson",L,9,away,HOU,AJ Blubaugh,R,0.0368,0.0419,1.06,0.0346,0.1174,+752,223,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.048,0.0206,0.114,+777,159,v1.2-g075
+663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.058,0.029,0.1138,+779,102,v1.2-g075
+671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.048,0.0199,0.1111,+800,170,v1.2-g075
+656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.058,0.0288,0.1109,+802,88,v1.2-g075
+701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.1086,+821,97,v1.2-g075
+803011,"Antonacci, Sam",L,1,away,HOU,AJ Blubaugh,R,0.0268,0.0306,1.06,0.0253,0.1074,+831,327,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.058,0.0289,0.1053,+850,157,v1.2-g075
+828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1042,+860,12,v1.2-g075
+673237,"Diaz, Yainer",R,5,home,HOU,Hagen Smith,L,0.033,0.0314,1.05,0.0257,0.1038,+863,73,v1.2-g075
+671976,"Peters, Tristan",L,6,away,HOU,AJ Blubaugh,R,0.0281,0.0321,1.06,0.0265,0.1025,+876,307,v1.2-g075
+572233,"Walker, Christian",R,6,home,HOU,Hagen Smith,L,0.0286,0.0271,1.05,0.0222,0.1024,+877,91,v1.2-g075
+665161,"Peña, Jeremy",R,1,home,HOU,Hagen Smith,L,0.0247,0.0234,1.05,0.0192,0.1011,+889,79,v1.2-g075
+607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.058,0.0219,0.1,+900,171,v1.2-g075
+624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.058,0.0232,0.0954,+948,98,v1.2-g075
+670623,"Paredes, Isaac",R,3,home,HOU,Hagen Smith,L,0.029,0.0276,1.05,0.0226,0.0934,+971,117,v1.2-g075
+650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.058,0.0189,0.0894,+1019,27,v1.2-g075
+695731,"Montgomery, Braden",L,7,away,HOU,AJ Blubaugh,R,0.0234,0.0266,1.06,0.022,0.0881,+1035,188,v1.2-g075
+666211,"Trammell, Taylor",L,9,home,HOU,Hagen Smith,L,0.02,0.0203,1.06,0.0168,0.0864,+1057,26,v1.2-g075
+681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.048,0.019,0.0863,+1059,105,v1.2-g075
+643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.058,0.0167,0.0802,+1147,178,v1.2-g075
+514888,"Altuve, Jose",R,4,home,HOU,Hagen Smith,L,0.0225,0.0213,1.05,0.0175,0.0801,+1148,95,v1.2-g075
+645277,"Albies, Ozzie",R,6,home,ATL,Jesús Luzardo,L,0.0211,0.0202,1.058,0.0167,0.0765,+1207,222,v1.2-g075
+805367,"Meidroth, Chase",R,8,away,HOU,AJ Blubaugh,R,0.0201,0.0218,1.05,0.0178,0.075,+1233,304,v1.2-g075
+573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.048,0.0143,0.0745,+1242,21,v1.2-g075
+592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.058,0.0143,0.073,+1270,85,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.058,0.0167,0.0707,+1314,42,v1.2-g075
