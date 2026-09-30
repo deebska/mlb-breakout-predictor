@@ -1,5 +1,5 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.094,0.04,0.1545,+547,89,v1.2-g075
+660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.094,0.04,0.1544,+548,89,v1.2-g075
 656941,"Schwarber, Kyle",L,2,away,ATL,Tyler Mahle,R,0.0468,0.0432,1.084,0.0365,0.1476,+578,221,v1.2-g075
 547180,"Harper, Bryce",L,3,away,ATL,Tyler Mahle,R,0.0446,0.0412,1.084,0.0349,0.1402,+613,277,v1.2-g075
 621566,"Olson, Matt",L,4,home,ATL,Cristopher Sánchez,L,0.0439,0.0346,1.084,0.0293,0.1348,+642,187,v1.2-g075
@@ -10,10 +10,10 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 671739,"Harris II, Michael",L,7,home,ATL,Cristopher Sánchez,L,0.0297,0.0234,1.084,0.0198,0.1065,+839,170,v1.2-g075
 624641,"Sosa, Edmundo",R,7,away,ATL,Tyler Mahle,R,0.0317,0.0309,1.094,0.0264,0.1048,+854,83,v1.2-g075
 607208,"Turner, Trea",R,1,away,ATL,Tyler Mahle,R,0.0259,0.0252,1.094,0.0215,0.1011,+889,329,v1.2-g075
-681082,"Stott, Bryson",L,4,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.084,0.0223,0.0999,+901,337,v1.2-g075
+681082,"Stott, Bryson",L,5,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.084,0.0223,0.0979,+921,337,v1.2-g075
 592663,"Realmuto, J.T.",R,9,away,ATL,Tyler Mahle,R,0.0289,0.0281,1.094,0.024,0.0938,+966,233,v1.2-g075
 645277,"Albies, Ozzie",R,3,home,ATL,Cristopher Sánchez,L,0.0211,0.0258,1.094,0.022,0.0931,+974,222,v1.2-g075
 643289,"Dubón, Mauricio",R,5,home,ATL,Cristopher Sánchez,L,0.021,0.0258,1.094,0.022,0.0905,+1005,178,v1.2-g075
-664761,"Bohm, Alec",R,5,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.094,0.0193,0.0869,+1051,326,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.094,0.022,0.0828,+1108,42,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.094,0.0193,0.0886,+1029,326,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.094,0.022,0.0827,+1109,42,v1.2-g075
 702222,"Crawford, Justin",L,8,away,ATL,Tyler Mahle,R,0.0123,0.0113,1.084,0.0096,0.05,+1900,303,v1.2-g075
