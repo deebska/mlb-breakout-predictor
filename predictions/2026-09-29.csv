@@ -1,64 +1,64 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-691718,"Crow-Armstrong, Pete",L,1,away,SD,Michael King,R,0.0541,0.0604,1.025,0.0483,0.1718,+482,308,v1.2-g075
+691718,"Crow-Armstrong, Pete",L,1,away,SD,Michael King,R,0.0541,0.0604,1.023,0.0482,0.1716,+483,308,v1.2-g075
 808959,"Murakami, Munetaka",L,4,away,HOU,AJ Blubaugh,R,0.0524,0.0596,1.06,0.0492,0.1656,+504,182,v1.2-g075
-670541,"Alvarez, Yordan",L,2,home,HOU,Hagen Smith,L,0.0493,0.0501,1.06,0.0414,0.1617,+518,136,v1.2-g075
-665487,"Tatis Jr., Fernando",R,1,home,SD,Matthew Boyd,L,0.0429,0.0546,1.036,0.0441,0.1604,+523,110,v1.2-g075
+670541,"Alvarez, Yordan",L,2,home,HOU,Hagen Smith,L,0.0493,0.0501,1.06,0.0414,0.1616,+519,136,v1.2-g075
+665487,"Tatis Jr., Fernando",R,1,home,SD,Matthew Boyd,L,0.0429,0.0546,1.034,0.044,0.1602,+524,110,v1.2-g075
 677800,"Abreu, Wilyer",L,4,away,NYY,Cam Schlittler,R,0.0489,0.0437,1.196,0.0408,0.1549,+546,307,v1.2-g075
 678246,"Vargas, Miguel",R,3,away,HOU,AJ Blubaugh,R,0.0482,0.0522,1.05,0.0427,0.1541,+549,331,v1.2-g075
-700250,"Rice, Ben",L,2,home,NYY,Payton Tolle,L,0.0352,0.0317,1.196,0.0296,0.1465,+583,139,v1.2-g075
+700250,"Rice, Ben",L,2,home,NYY,Payton Tolle,L,0.0352,0.0317,1.196,0.0296,0.1464,+583,139,v1.2-g075
 701350,"Anthony, Roman",L,1,away,NYY,Cam Schlittler,R,0.041,0.0367,1.196,0.0342,0.1442,+593,87,v1.2-g075
-671218,"Ramos, Heliot",R,3,home,NYY,Payton Tolle,L,0.0464,0.0454,1.034,0.0366,0.1382,+624,73,v1.2-g075
-592518,"Machado, Manny",R,3,home,SD,Matthew Boyd,L,0.0391,0.0498,1.036,0.0402,0.137,+630,110,v1.2-g075
+671218,"Ramos, Heliot",R,3,home,NYY,Payton Tolle,L,0.0464,0.0454,1.034,0.0366,0.1381,+624,73,v1.2-g075
+592518,"Machado, Manny",R,3,home,SD,Matthew Boyd,L,0.0391,0.0498,1.034,0.0402,0.1369,+630,110,v1.2-g075
 656941,"Schwarber, Kyle",L,2,away,ATL,Chris Sale,L,0.0397,0.0385,1.025,0.0308,0.1352,+640,145,v1.2-g075
 621566,"Olson, Matt",L,3,home,ATL,Jesús Luzardo,L,0.0439,0.0359,1.025,0.0287,0.1338,+647,187,v1.2-g075
 660670,"Acuña Jr., Ronald",R,2,home,ATL,Jesús Luzardo,L,0.0384,0.0369,1.035,0.0298,0.1328,+653,89,v1.2-g075
 691019,"Teel, Kyle",L,2,away,HOU,AJ Blubaugh,R,0.0352,0.0401,1.06,0.0331,0.1288,+676,51,v1.2-g075
 686948,"Baldwin, Drake",L,1,home,ATL,Jesús Luzardo,L,0.0306,0.0251,1.025,0.02,0.1283,+679,155,v1.2-g075
-664023,"Happ, Ian",L,5,away,SD,Michael King,R,0.039,0.0437,1.025,0.035,0.128,+681,279,v1.2-g075
+664023,"Happ, Ian",L,5,away,SD,Michael King,R,0.039,0.0437,1.023,0.0349,0.1278,+682,279,v1.2-g075
 643217,"Benintendi, Andrew",L,5,away,HOU,AJ Blubaugh,R,0.0372,0.0424,1.06,0.035,0.1276,+684,286,v1.2-g075
 668939,"Rutschman, Adley",L,2,away,NYY,Cam Schlittler,R,0.0352,0.0315,1.196,0.0294,0.1273,+686,187,v1.2-g075
 502671,"Goldschmidt, Paul",R,1,home,NYY,Payton Tolle,L,0.0442,0.0432,1.034,0.0349,0.1264,+691,125,v1.2-g075
-673548,"Suzuki, Seiya",R,4,away,SD,Michael King,R,0.0416,0.0374,1.036,0.0302,0.1249,+701,287,v1.2-g075
+673548,"Suzuki, Seiya",R,4,away,SD,Michael King,R,0.0416,0.0374,1.034,0.0302,0.1247,+702,287,v1.2-g075
 682987,"Jones, Spencer",L,8,home,NYY,Payton Tolle,L,0.0401,0.0361,1.196,0.0337,0.1244,+704,36,v1.2-g075
 575929,"Contreras, Willson",R,3,away,NYY,Cam Schlittler,R,0.0395,0.0366,1.034,0.0295,0.1239,+707,226,v1.2-g075
-701538,"Merrill, Jackson",L,5,home,SD,Matthew Boyd,L,0.0359,0.0336,1.025,0.0269,0.1225,+716,128,v1.2-g075
-664034,"France, Ty",R,4,home,SD,Matthew Boyd,L,0.0295,0.0377,1.036,0.0304,0.1201,+733,87,v1.2-g075
+701538,"Merrill, Jackson",L,5,home,SD,Matthew Boyd,L,0.0359,0.0336,1.023,0.0268,0.1223,+718,128,v1.2-g075
+664034,"France, Ty",R,4,home,SD,Matthew Boyd,L,0.0295,0.0377,1.034,0.0304,0.1198,+735,87,v1.2-g075
 695657,"Montgomery, Colson",L,9,away,HOU,AJ Blubaugh,R,0.0368,0.0419,1.06,0.0346,0.1177,+750,223,v1.2-g075
 642708,"Rosario, Amed",R,6,home,NYY,Payton Tolle,L,0.0393,0.0384,1.034,0.031,0.115,+770,118,v1.2-g075
 680776,"Duran, Jarren",L,7,away,NYY,Cam Schlittler,R,0.0349,0.0312,1.196,0.0291,0.1147,+772,300,v1.2-g075
-683737,"Busch, Michael",L,3,away,SD,Michael King,R,0.0313,0.0351,1.025,0.0281,0.1131,+784,308,v1.2-g075
+683737,"Busch, Michael",L,3,away,SD,Michael King,R,0.0313,0.0351,1.023,0.028,0.1129,+786,308,v1.2-g075
 547180,"Harper, Bryce",L,3,away,ATL,Chris Sale,L,0.0261,0.0253,1.025,0.0202,0.1126,+788,159,v1.2-g075
 663586,"Riley, Austin",R,7,home,ATL,Jesús Luzardo,L,0.0366,0.0352,1.035,0.0284,0.1124,+790,102,v1.2-g075
 671739,"Harris II, Michael",L,5,home,ATL,Jesús Luzardo,L,0.0297,0.0243,1.025,0.0194,0.1097,+812,170,v1.2-g075
 656537,"Hill, Derek",R,5,away,ATL,Chris Sale,L,0.037,0.0349,1.035,0.0282,0.1095,+813,88,v1.2-g075
-701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.109,+817,97,v1.2-g075
+701358,"Smith, Cam",R,8,home,HOU,Hagen Smith,L,0.0358,0.034,1.05,0.0279,0.1089,+818,97,v1.2-g075
 803011,"Antonacci, Sam",L,1,away,HOU,AJ Blubaugh,R,0.0268,0.0306,1.06,0.0253,0.1077,+829,327,v1.2-g075
 806146,"Lombard Jr., George",R,5,home,NYY,Payton Tolle,L,0.0353,0.0346,1.034,0.0279,0.1052,+851,19,v1.2-g075
-828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1046,+856,12,v1.2-g075
+828599,"Spence, Lucas",L,7,home,HOU,Hagen Smith,L,0.034,0.0346,1.06,0.0286,0.1045,+857,12,v1.2-g075
 673237,"Diaz, Yainer",R,5,home,HOU,Hagen Smith,L,0.033,0.0314,1.05,0.0257,0.1041,+861,73,v1.2-g075
 664761,"Bohm, Alec",R,4,away,ATL,Chris Sale,L,0.0372,0.035,1.035,0.0282,0.1039,+862,157,v1.2-g075
 671976,"Peters, Tristan",L,6,away,HOU,AJ Blubaugh,R,0.0281,0.0321,1.06,0.0265,0.1028,+873,307,v1.2-g075
-608324,"Bregman, Alex",R,2,away,SD,Michael King,R,0.0301,0.027,1.036,0.0218,0.1028,+873,386,v1.2-g075
 572233,"Walker, Christian",R,6,home,HOU,Hagen Smith,L,0.0286,0.0271,1.05,0.0222,0.1027,+874,91,v1.2-g075
+608324,"Bregman, Alex",R,2,away,SD,Michael King,R,0.0301,0.027,1.034,0.0218,0.1026,+875,386,v1.2-g075
 641355,"Bellinger, Cody",L,4,home,NYY,Payton Tolle,L,0.0227,0.0204,1.196,0.019,0.1015,+885,154,v1.2-g075
 665161,"Peña, Jeremy",R,1,home,HOU,Hagen Smith,L,0.0247,0.0234,1.05,0.0192,0.1014,+886,79,v1.2-g075
-669720,"Hays, Austin",R,6,home,SD,Matthew Boyd,L,0.0268,0.0342,1.036,0.0277,0.0999,+901,38,v1.2-g075
+669720,"Hays, Austin",R,6,home,SD,Matthew Boyd,L,0.0268,0.0342,1.034,0.0276,0.0998,+902,38,v1.2-g075
 607208,"Turner, Trea",R,1,away,ATL,Chris Sale,L,0.0282,0.0265,1.035,0.0214,0.0988,+912,171,v1.2-g075
-669392,"Taylor, Samad",R,2,home,SD,Matthew Boyd,L,0.0226,0.0289,1.036,0.0234,0.0952,+950,33,v1.2-g075
+669392,"Taylor, Samad",R,2,home,SD,Matthew Boyd,L,0.0226,0.0289,1.034,0.0233,0.095,+953,33,v1.2-g075
 624641,"Sosa, Edmundo",R,8,away,ATL,Chris Sale,L,0.0299,0.0282,1.035,0.0227,0.0941,+963,98,v1.2-g075
 670623,"Paredes, Isaac",R,3,home,HOU,Hagen Smith,L,0.029,0.0276,1.05,0.0226,0.0937,+967,117,v1.2-g075
-669134,"Campusano, Luis",R,9,home,SD,Matthew Boyd,L,0.0225,0.0288,1.036,0.0233,0.0935,+970,35,v1.2-g075
-621020,"Swanson, Dansby",R,9,away,SD,Michael King,R,0.0306,0.0275,1.036,0.0222,0.0901,+1010,228,v1.2-g075
+669134,"Campusano, Luis",R,9,home,SD,Matthew Boyd,L,0.0225,0.0288,1.034,0.0232,0.0933,+972,35,v1.2-g075
+621020,"Swanson, Dansby",R,9,away,SD,Michael King,R,0.0306,0.0275,1.034,0.0221,0.0899,+1012,228,v1.2-g075
 695731,"Montgomery, Braden",L,7,away,HOU,AJ Blubaugh,R,0.0234,0.0266,1.06,0.022,0.0883,+1033,188,v1.2-g075
 650559,"De La Cruz, Bryan",R,6,away,ATL,Chris Sale,L,0.0243,0.0229,1.035,0.0185,0.0883,+1033,27,v1.2-g075
 669224,"Wells, Austin",L,9,home,NYY,Payton Tolle,L,0.0234,0.021,1.196,0.0196,0.0872,+1047,61,v1.2-g075
 666211,"Trammell, Taylor",L,9,home,HOU,Hagen Smith,L,0.02,0.0203,1.06,0.0168,0.0867,+1053,26,v1.2-g075
 681082,"Stott, Bryson",L,7,away,ATL,Chris Sale,L,0.024,0.0232,1.025,0.0186,0.0852,+1074,105,v1.2-g075
-678882,"Rafaela, Ceddanne",R,5,away,NYY,Cam Schlittler,R,0.0245,0.0227,1.034,0.0183,0.0848,+1079,319,v1.2-g075
+678882,"Rafaela, Ceddanne",R,5,away,NYY,Cam Schlittler,R,0.0245,0.0227,1.034,0.0183,0.0847,+1081,319,v1.2-g075
 683011,"Volpe, Anthony",R,7,home,NYY,Payton Tolle,L,0.0266,0.026,1.034,0.021,0.0842,+1088,73,v1.2-g075
-593428,"Bogaerts, Xander",R,7,home,SD,Matthew Boyd,L,0.0177,0.0227,1.036,0.0183,0.0828,+1108,120,v1.2-g075
+593428,"Bogaerts, Xander",R,7,home,SD,Matthew Boyd,L,0.0177,0.0227,1.034,0.0183,0.0827,+1109,120,v1.2-g075
 596115,"Story, Trevor",R,8,away,NYY,Cam Schlittler,R,0.0255,0.0236,1.034,0.0191,0.082,+1120,124,v1.2-g075
-699393,"Ramírez, Pedro",L,7,away,SD,Michael King,R,0.022,0.0247,1.025,0.0197,0.0819,+1121,157,v1.2-g075
+699393,"Ramírez, Pedro",L,7,away,SD,Michael King,R,0.022,0.0247,1.023,0.0197,0.0817,+1124,157,v1.2-g075
 686765,"Sogard, Nick",L,6,away,NYY,Cam Schlittler,R,0.0208,0.0186,1.196,0.0173,0.0806,+1141,138,v1.2-g075
 514888,"Altuve, Jose",R,4,home,HOU,Hagen Smith,L,0.0225,0.0213,1.05,0.0175,0.0803,+1145,95,v1.2-g075
 643289,"Dubón, Mauricio",R,4,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.035,0.0163,0.0791,+1164,178,v1.2-g075
@@ -67,7 +67,7 @@ batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_r
 573262,"Yastrzemski, Mike",L,8,home,ATL,Jesús Luzardo,L,0.0214,0.0175,1.025,0.014,0.0735,+1261,21,v1.2-g075
 592663,"Realmuto, J.T.",R,9,away,ATL,Chris Sale,L,0.0184,0.0173,1.035,0.014,0.0721,+1287,85,v1.2-g075
 673490,"Kim, Ha-Seong",R,9,home,ATL,Jesús Luzardo,L,0.021,0.0202,1.035,0.0163,0.0698,+1333,42,v1.2-g075
-608348,"Kelly, Carson",R,8,away,SD,Michael King,R,0.0178,0.0159,1.036,0.0129,0.0622,+1508,213,v1.2-g075
-630105,"Cronenworth, Jake",L,8,home,SD,Matthew Boyd,L,0.0137,0.0128,1.025,0.0103,0.0587,+1604,70,v1.2-g075
+608348,"Kelly, Carson",R,8,away,SD,Michael King,R,0.0178,0.0159,1.034,0.0128,0.0621,+1510,213,v1.2-g075
+630105,"Cronenworth, Jake",L,8,home,SD,Matthew Boyd,L,0.0137,0.0128,1.023,0.0102,0.0586,+1606,70,v1.2-g075
 702332,"Durbin, Caleb",R,9,away,NYY,Cam Schlittler,R,0.0137,0.0127,1.034,0.0102,0.0509,+1865,312,v1.2-g075
-663538,"Hoerner, Nico",R,6,away,SD,Michael King,R,0.0112,0.01,1.036,0.0081,0.0464,+2055,430,v1.2-g075
+663538,"Hoerner, Nico",R,6,away,SD,Michael King,R,0.0112,0.01,1.034,0.0081,0.0464,+2055,430,v1.2-g075
