@@ -1,47 +1,56 @@
-HR BOARD -- 2026-09-30 -- 45 hitters composed
+HR BOARD -- 2026-09-30 -- 54 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Rice, Ben               L    1    NYY  Sonny Gray            0.0543  0.0532   1.09  0.0453   0.168   +494   275  
-García Jr., Luis        L    3    NYY  Sonny Gray            0.0546  0.0535   1.09  0.0456   0.164   +511   353  
-Acuña Jr., Ronald       R    1    ATL  Cristopher Sánchez    0.0384  0.0468   1.11  0.0406   0.156   +542   89   
-Murakami, Munetaka      L    4    HOU  Hunter Brown          0.0524  0.0486   1.06  0.0402   0.152   +559   182  
+Alvarez, Yordan         L    2    HOU  Sean Burke            0.0580  0.0621   1.06  0.0514   0.177   +466   314  
+Rice, Ben               L    1    NYY  Sonny Gray            0.0543  0.0532   1.11  0.0461   0.171   +486   275  
+García Jr., Luis        L    3    NYY  Sonny Gray            0.0546  0.0535   1.11  0.0464   0.166   +504   353  
+Acuña Jr., Ronald       R    1    ATL  Cristopher Sánchez    0.0384  0.0468   1.11  0.0406   0.156   +541   89   
+Murakami, Munetaka      L    4    HOU  Hunter Brown          0.0524  0.0486   1.06  0.0402   0.152   +558   182  
 Schwarber, Kyle         L    2    ATL  Tyler Mahle           0.0468  0.0432   1.10  0.0371   0.149   +572   221  
-Harper, Bryce           L    3    ATL  Tyler Mahle           0.0446  0.0412   1.10  0.0354   0.141   +608   277  
-Abreu, Wilyer           L    4    NYY  Max Fried             0.0413  0.0392   1.09  0.0334   0.139   +619   156  
-Olson, Matt             L    4    ATL  Cristopher Sánchez    0.0439  0.0346   1.10  0.0297   0.136   +636   187  
-Jones, Spencer          L    4    NYY  Sonny Gray            0.0432  0.0423   1.09  0.0360   0.136   +636   121  
-Riley, Austin           R    6    ATL  Cristopher Sánchez    0.0366  0.0447   1.11  0.0387   0.135   +642   102  
+Harper, Bryce           L    3    ATL  Tyler Mahle           0.0446  0.0412   1.10  0.0354   0.141   +607   277  
+Abreu, Wilyer           L    4    NYY  Max Fried             0.0413  0.0392   1.11  0.0340   0.141   +610   156  
+Jones, Spencer          L    4    NYY  Sonny Gray            0.0432  0.0423   1.11  0.0366   0.138   +627   121  
+Olson, Matt             L    4    ATL  Cristopher Sánchez    0.0439  0.0346   1.10  0.0297   0.136   +635   187  
+Riley, Austin           R    6    ATL  Cristopher Sánchez    0.0366  0.0447   1.11  0.0387   0.135   +641   102  
 Vargas, Miguel          R    3    HOU  Hunter Brown          0.0482  0.0362   1.05  0.0297   0.133   +650   331  
-Baldwin, Drake          L    2    ATL  Cristopher Sánchez    0.0306  0.0241   1.10  0.0207   0.131   +666   155  
-Grisham, Trent          L    7    NYY  Sonny Gray            0.0412  0.0403   1.09  0.0343   0.124   +707   239  
-Bellinger, Cody         L    2    NYY  Sonny Gray            0.0346  0.0339   1.09  0.0289   0.120   +731   257  
+Baldwin, Drake          L    2    ATL  Cristopher Sánchez    0.0306  0.0241   1.10  0.0207   0.131   +665   155  
+Grisham, Trent          L    7    NYY  Sonny Gray            0.0412  0.0403   1.11  0.0349   0.126   +697   239  
+Bellinger, Cody         L    2    NYY  Sonny Gray            0.0346  0.0339   1.11  0.0294   0.122   +721   257  
 Teel, Kyle              L    2    HOU  Hunter Brown          0.0352  0.0326   1.06  0.0269   0.118   +745   51   
+Walker, Christian       R    6    HOU  Sean Burke            0.0399  0.0371   1.05  0.0304   0.117   +751   335  
 Benintendi, Andrew      L    5    HOU  Hunter Brown          0.0372  0.0345   1.06  0.0285   0.117   +758   286  
-McMahon, Ryan           L    9    NYY  Sonny Gray            0.0367  0.0359   1.09  0.0306   0.109   +816   185  
-Chisholm Jr., Jazz      L    6    NYY  Sonny Gray            0.0335  0.0328   1.09  0.0279   0.109   +818   224  
-Contreras, Willson      R    3    NYY  Max Fried             0.0476  0.0308   0.94  0.0227   0.109   +821   89   
-Murphy, Sean            R    8    ATL  Cristopher Sánchez    0.0296  0.0362   1.11  0.0313   0.108   +822   19   
-Marsh, Brandon          L    6    ATL  Tyler Mahle           0.0332  0.0307   1.10  0.0263   0.108   +826   314  
-Harris II, Michael      L    7    ATL  Cristopher Sánchez    0.0297  0.0234   1.10  0.0201   0.107   +832   170  
-Montgomery, Colson      L    9    HOU  Hunter Brown          0.0368  0.0341   1.06  0.0282   0.106   +842   223  
-Sosa, Edmundo           R    7    ATL  Tyler Mahle           0.0317  0.0309   1.11  0.0267   0.106   +847   83   
-Turner, Trea            R    1    ATL  Tyler Mahle           0.0259  0.0252   1.11  0.0219   0.102   +882   329  
-Wells, Austin           L    8    NYY  Sonny Gray            0.0318  0.0311   1.09  0.0265   0.101   +892   172  
+Smith, Cam              R    8    HOU  Sean Burke            0.0414  0.0385   1.05  0.0315   0.116   +766   268  
+Peña, Jeremy            R    1    HOU  Sean Burke            0.0328  0.0304   1.05  0.0249   0.112   +794   255  
+McMahon, Ryan           L    9    NYY  Sonny Gray            0.0367  0.0359   1.11  0.0311   0.111   +804   185  
+Chisholm Jr., Jazz      L    6    NYY  Sonny Gray            0.0335  0.0328   1.11  0.0284   0.110   +806   224  
+Contreras, Willson      R    3    NYY  Max Fried             0.0476  0.0308   0.96  0.0231   0.110   +808   89   
+Murphy, Sean            R    8    ATL  Cristopher Sánchez    0.0296  0.0362   1.11  0.0314   0.109   +820   19   
+Marsh, Brandon          L    6    ATL  Tyler Mahle           0.0332  0.0307   1.10  0.0263   0.108   +825   314  
+Harris II, Michael      L    7    ATL  Cristopher Sánchez    0.0297  0.0234   1.10  0.0201   0.107   +830   170  
+Montgomery, Colson      L    9    HOU  Hunter Brown          0.0368  0.0341   1.06  0.0282   0.106   +841   223  
+Sosa, Edmundo           R    7    ATL  Tyler Mahle           0.0317  0.0309   1.11  0.0268   0.106   +845   83   
+Wells, Austin           L    8    NYY  Sonny Gray            0.0318  0.0311   1.11  0.0269   0.102   +879   172  
+Turner, Trea            R    1    ATL  Tyler Mahle           0.0259  0.0252   1.11  0.0219   0.102   +880   329  
+Spence, Lucas           L    7    HOU  Sean Burke            0.0300  0.0322   1.06  0.0266   0.101   +889   21   
+Diaz, Yainer            R    5    HOU  Sean Burke            0.0315  0.0293   1.05  0.0240   0.101   +889   216  
 Antonacci, Sam          L    1    HOU  Hunter Brown          0.0268  0.0248   1.06  0.0205   0.099   +910   327  
-Stott, Bryson           L    5    ATL  Tyler Mahle           0.0285  0.0263   1.10  0.0226   0.099   +913   337  
-Realmuto, J.T.          R    9    ATL  Tyler Mahle           0.0289  0.0281   1.11  0.0244   0.095   +957   233  
-Albies, Ozzie           R    3    ATL  Cristopher Sánchez    0.0211  0.0258   1.11  0.0223   0.094   +966   222  
+Stott, Bryson           L    5    ATL  Tyler Mahle           0.0285  0.0263   1.10  0.0226   0.099   +912   337  
+Realmuto, J.T.          R    9    ATL  Tyler Mahle           0.0289  0.0281   1.11  0.0244   0.095   +956   233  
+Albies, Ozzie           R    3    ATL  Cristopher Sánchez    0.0211  0.0258   1.11  0.0224   0.094   +964   222  
 Peters, Tristan         L    6    HOU  Hunter Brown          0.0281  0.0261   1.06  0.0215   0.093   +970   307  
-Dubón, Mauricio         R    5    ATL  Cristopher Sánchez    0.0210  0.0258   1.11  0.0223   0.091   +996   178  
-Bohm, Alec              R    4    ATL  Tyler Mahle           0.0232  0.0226   1.11  0.0195   0.089   +1021  326  
-Jones, Jahmai           R    1    NYY  Max Fried             0.0371  0.0240   0.94  0.0176   0.088   +1031  87   
-Lombard Jr., George     R    5    NYY  Sonny Gray            0.0285  0.0269   0.94  0.0198   0.088   +1042  91   
-Rutschman, Adley        R    2    NYY  Max Fried             0.0245  0.0157   0.94  0.0116   0.086   +1068  112  
-Kim, Ha-Seong           R    9    ATL  Cristopher Sánchez    0.0210  0.0257   1.11  0.0223   0.083   +1099  42   
-Montgomery, Braden      L    8    HOU  Hunter Brown          0.0234  0.0216   1.06  0.0179   0.078   +1177  188  
-Rafaela, Ceddanne       R    5    NYY  Max Fried             0.0279  0.0180   0.94  0.0132   0.072   +1287  106  
-Sogard, Nick            R    7    NYY  Max Fried             0.0308  0.0199   0.94  0.0146   0.069   +1356  51   
-Eaton, Nate             R    9    NYY  Max Fried             0.0262  0.0169   0.94  0.0124   0.068   +1381  17   
+Dubón, Mauricio         R    5    ATL  Cristopher Sánchez    0.0210  0.0258   1.11  0.0223   0.091   +995   178  
+Jones, Jahmai           R    1    NYY  Max Fried             0.0371  0.0240   0.96  0.0180   0.090   +1016  87   
+Bohm, Alec              R    4    ATL  Tyler Mahle           0.0232  0.0226   1.11  0.0196   0.089   +1019  326  
+Lombard Jr., George     R    5    NYY  Sonny Gray            0.0285  0.0269   0.96  0.0202   0.089   +1026  91   
+Rutschman, Adley        R    2    NYY  Max Fried             0.0245  0.0157   0.96  0.0118   0.087   +1052  112  
+Paredes, Isaac          R    3    HOU  Sean Burke            0.0231  0.0214   1.05  0.0175   0.084   +1090  363  
+Kim, Ha-Seong           R    9    ATL  Cristopher Sánchez    0.0210  0.0257   1.11  0.0223   0.084   +1098  42   
+Montgomery, Braden      L    8    HOU  Hunter Brown          0.0234  0.0216   1.06  0.0179   0.078   +1176  188  
+Altuve, Jose            R    4    HOU  Sean Burke            0.0214  0.0199   1.05  0.0163   0.078   +1182  316  
+Rafaela, Ceddanne       R    5    NYY  Max Fried             0.0279  0.0180   0.96  0.0135   0.073   +1268  106  
+Sogard, Nick            R    7    NYY  Max Fried             0.0308  0.0199   0.96  0.0149   0.070   +1337  51   
+Eaton, Nate             R    9    NYY  Max Fried             0.0262  0.0169   0.96  0.0126   0.069   +1360  17   
 Meidroth, Chase         R    7    HOU  Hunter Brown          0.0201  0.0150   1.05  0.0123   0.065   +1446  304  
-Story, Trevor           R    8    NYY  Max Fried             0.0233  0.0150   0.94  0.0110   0.063   +1485  43   
-Durbin, Caleb           R    6    NYY  Max Fried             0.0246  0.0158   0.94  0.0116   0.057   +1670  126  
-Crawford, Justin        L    8    ATL  Tyler Mahle           0.0123  0.0113   1.10  0.0097   0.050   +1884  303  
+Story, Trevor           R    8    NYY  Max Fried             0.0233  0.0150   0.96  0.0112   0.064   +1465  43   
+Allen, Nick             R    9    HOU  Sean Burke            0.0170  0.0158   1.05  0.0129   0.059   +1589  85   
+Durbin, Caleb           R    6    NYY  Max Fried             0.0246  0.0158   0.96  0.0118   0.057   +1648  126  
+Crawford, Justin        L    8    ATL  Tyler Mahle           0.0123  0.0113   1.10  0.0097   0.051   +1880  303  
