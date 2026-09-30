@@ -1,20 +1,29 @@
-HR BOARD -- 2026-09-30 -- 18 hitters composed
+HR BOARD -- 2026-09-30 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Acuña Jr., Ronald       R    1    ATL  Cristopher Sánchez    0.0384  0.0468   1.09  0.0400   0.154   +548   89   
-Schwarber, Kyle         L    2    ATL  Tyler Mahle           0.0468  0.0432   1.08  0.0365   0.147   +578   221  
-Harper, Bryce           L    3    ATL  Tyler Mahle           0.0446  0.0412   1.08  0.0348   0.140   +614   277  
-Olson, Matt             L    4    ATL  Cristopher Sánchez    0.0439  0.0346   1.08  0.0292   0.135   +642   187  
-Riley, Austin           R    6    ATL  Cristopher Sánchez    0.0366  0.0447   1.09  0.0381   0.134   +648   102  
-Baldwin, Drake          L    2    ATL  Cristopher Sánchez    0.0306  0.0241   1.08  0.0204   0.129   +673   155  
-Murphy, Sean            R    8    ATL  Cristopher Sánchez    0.0296  0.0362   1.09  0.0309   0.108   +829   19   
-Marsh, Brandon          L    6    ATL  Tyler Mahle           0.0332  0.0307   1.08  0.0259   0.107   +835   314  
-Harris II, Michael      L    7    ATL  Cristopher Sánchez    0.0297  0.0234   1.08  0.0198   0.106   +840   170  
-Sosa, Edmundo           R    7    ATL  Tyler Mahle           0.0317  0.0309   1.09  0.0264   0.105   +855   83   
-Turner, Trea            R    1    ATL  Tyler Mahle           0.0259  0.0252   1.09  0.0215   0.101   +890   329  
-Stott, Bryson           L    5    ATL  Tyler Mahle           0.0285  0.0263   1.08  0.0222   0.098   +921   337  
-Realmuto, J.T.          R    9    ATL  Tyler Mahle           0.0289  0.0281   1.09  0.0240   0.094   +966   233  
-Albies, Ozzie           R    3    ATL  Cristopher Sánchez    0.0211  0.0258   1.09  0.0220   0.093   +974   222  
-Dubón, Mauricio         R    5    ATL  Cristopher Sánchez    0.0210  0.0258   1.09  0.0220   0.090   +1005  178  
-Bohm, Alec              R    4    ATL  Tyler Mahle           0.0232  0.0226   1.09  0.0193   0.088   +1030  326  
-Kim, Ha-Seong           R    9    ATL  Cristopher Sánchez    0.0210  0.0257   1.09  0.0220   0.083   +1109  42   
-Crawford, Justin        L    8    ATL  Tyler Mahle           0.0123  0.0113   1.08  0.0096   0.050   +1900  303  
+Acuña Jr., Ronald       R    1    ATL  Cristopher Sánchez    0.0384  0.0468   1.17  0.0427   0.163   +512   89   
+Schwarber, Kyle         L    2    ATL  Tyler Mahle           0.0468  0.0432   1.16  0.0391   0.156   +541   221  
+Murakami, Munetaka      L    4    HOU  Hunter Brown          0.0524  0.0486   1.06  0.0402   0.153   +551   182  
+Harper, Bryce           L    3    ATL  Tyler Mahle           0.0446  0.0412   1.16  0.0373   0.148   +574   277  
+Olson, Matt             L    4    ATL  Cristopher Sánchez    0.0439  0.0346   1.16  0.0313   0.143   +601   187  
+Riley, Austin           R    6    ATL  Cristopher Sánchez    0.0366  0.0447   1.17  0.0407   0.141   +607   102  
+Baldwin, Drake          L    2    ATL  Cristopher Sánchez    0.0306  0.0241   1.16  0.0218   0.137   +629   155  
+Vargas, Miguel          R    3    HOU  Hunter Brown          0.0482  0.0362   1.05  0.0297   0.135   +642   331  
+Teel, Kyle              L    2    HOU  Hunter Brown          0.0352  0.0326   1.06  0.0269   0.120   +735   51   
+Benintendi, Andrew      L    5    HOU  Hunter Brown          0.0372  0.0345   1.06  0.0285   0.118   +748   286  
+Murphy, Sean            R    8    ATL  Cristopher Sánchez    0.0296  0.0362   1.17  0.0330   0.114   +777   19   
+Marsh, Brandon          L    6    ATL  Tyler Mahle           0.0332  0.0307   1.16  0.0277   0.113   +782   314  
+Harris II, Michael      L    7    ATL  Cristopher Sánchez    0.0297  0.0234   1.16  0.0211   0.113   +787   170  
+Sosa, Edmundo           R    7    ATL  Tyler Mahle           0.0317  0.0309   1.17  0.0282   0.111   +802   83   
+Montgomery, Colson      L    9    HOU  Hunter Brown          0.0368  0.0341   1.06  0.0282   0.107   +830   223  
+Turner, Trea            R    1    ATL  Tyler Mahle           0.0259  0.0252   1.17  0.0230   0.107   +835   329  
+Stott, Bryson           L    5    ATL  Tyler Mahle           0.0285  0.0263   1.16  0.0238   0.104   +864   337  
+Antonacci, Sam          L    1    HOU  Hunter Brown          0.0268  0.0248   1.06  0.0205   0.100   +898   327  
+Realmuto, J.T.          R    9    ATL  Tyler Mahle           0.0289  0.0281   1.17  0.0257   0.099   +906   233  
+Albies, Ozzie           R    3    ATL  Cristopher Sánchez    0.0211  0.0258   1.17  0.0235   0.099   +914   222  
+Dubón, Mauricio         R    5    ATL  Cristopher Sánchez    0.0210  0.0258   1.17  0.0235   0.096   +944   178  
+Peters, Tristan         L    6    HOU  Hunter Brown          0.0281  0.0261   1.06  0.0215   0.095   +957   307  
+Bohm, Alec              R    4    ATL  Tyler Mahle           0.0232  0.0226   1.17  0.0206   0.094   +967   326  
+Kim, Ha-Seong           R    9    ATL  Cristopher Sánchez    0.0210  0.0257   1.17  0.0235   0.088   +1042  42   
+Montgomery, Braden      L    8    HOU  Hunter Brown          0.0234  0.0216   1.06  0.0179   0.079   +1161  188  
+Meidroth, Chase         R    7    HOU  Hunter Brown          0.0201  0.0150   1.05  0.0123   0.066   +1427  304  
+Crawford, Justin        L    8    ATL  Tyler Mahle           0.0123  0.0113   1.16  0.0102   0.053   +1787  303  

@@ -1,19 +1,28 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.094,0.04,0.1544,+548,89,v1.2-g075
-656941,"Schwarber, Kyle",L,2,away,ATL,Tyler Mahle,R,0.0468,0.0432,1.083,0.0365,0.1475,+578,221,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Tyler Mahle,R,0.0446,0.0412,1.083,0.0348,0.1401,+614,277,v1.2-g075
-621566,"Olson, Matt",L,4,home,ATL,Cristopher Sánchez,L,0.0439,0.0346,1.083,0.0292,0.1347,+642,187,v1.2-g075
-663586,"Riley, Austin",R,6,home,ATL,Cristopher Sánchez,L,0.0366,0.0447,1.094,0.0381,0.1337,+648,102,v1.2-g075
-686948,"Baldwin, Drake",L,2,home,ATL,Cristopher Sánchez,L,0.0306,0.0241,1.083,0.0204,0.1294,+673,155,v1.2-g075
-669221,"Murphy, Sean",R,8,home,ATL,Cristopher Sánchez,L,0.0296,0.0362,1.094,0.0309,0.1076,+829,19,v1.2-g075
-669016,"Marsh, Brandon",L,6,away,ATL,Tyler Mahle,R,0.0332,0.0307,1.083,0.0259,0.107,+835,314,v1.2-g075
-671739,"Harris II, Michael",L,7,home,ATL,Cristopher Sánchez,L,0.0297,0.0234,1.083,0.0198,0.1064,+840,170,v1.2-g075
-624641,"Sosa, Edmundo",R,7,away,ATL,Tyler Mahle,R,0.0317,0.0309,1.094,0.0264,0.1047,+855,83,v1.2-g075
-607208,"Turner, Trea",R,1,away,ATL,Tyler Mahle,R,0.0259,0.0252,1.094,0.0215,0.101,+890,329,v1.2-g075
-681082,"Stott, Bryson",L,5,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.083,0.0222,0.0979,+921,337,v1.2-g075
-592663,"Realmuto, J.T.",R,9,away,ATL,Tyler Mahle,R,0.0289,0.0281,1.094,0.024,0.0938,+966,233,v1.2-g075
-645277,"Albies, Ozzie",R,3,home,ATL,Cristopher Sánchez,L,0.0211,0.0258,1.094,0.022,0.0931,+974,222,v1.2-g075
-643289,"Dubón, Mauricio",R,5,home,ATL,Cristopher Sánchez,L,0.021,0.0258,1.094,0.022,0.0905,+1005,178,v1.2-g075
-664761,"Bohm, Alec",R,4,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.094,0.0193,0.0885,+1030,326,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.094,0.022,0.0827,+1109,42,v1.2-g075
-702222,"Crawford, Justin",L,8,away,ATL,Tyler Mahle,R,0.0123,0.0113,1.083,0.0096,0.05,+1900,303,v1.2-g075
+660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.17,0.0427,0.1634,+512,89,v1.2-g075
+656941,"Schwarber, Kyle",L,2,away,ATL,Tyler Mahle,R,0.0468,0.0432,1.159,0.0391,0.156,+541,221,v1.2-g075
+808959,"Murakami, Munetaka",L,4,away,HOU,Hunter Brown,R,0.0524,0.0486,1.06,0.0402,0.1535,+551,182,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Tyler Mahle,R,0.0446,0.0412,1.159,0.0373,0.1483,+574,277,v1.2-g075
+621566,"Olson, Matt",L,4,home,ATL,Cristopher Sánchez,L,0.0439,0.0346,1.159,0.0313,0.1426,+601,187,v1.2-g075
+663586,"Riley, Austin",R,6,home,ATL,Cristopher Sánchez,L,0.0366,0.0447,1.17,0.0407,0.1414,+607,102,v1.2-g075
+686948,"Baldwin, Drake",L,2,home,ATL,Cristopher Sánchez,L,0.0306,0.0241,1.159,0.0218,0.1371,+629,155,v1.2-g075
+678246,"Vargas, Miguel",R,3,away,HOU,Hunter Brown,R,0.0482,0.0362,1.05,0.0297,0.1348,+642,331,v1.2-g075
+691019,"Teel, Kyle",L,2,away,HOU,Hunter Brown,R,0.0352,0.0326,1.06,0.0269,0.1197,+735,51,v1.2-g075
+643217,"Benintendi, Andrew",L,5,away,HOU,Hunter Brown,R,0.0372,0.0345,1.06,0.0285,0.1179,+748,286,v1.2-g075
+669221,"Murphy, Sean",R,8,home,ATL,Cristopher Sánchez,L,0.0296,0.0362,1.17,0.033,0.114,+777,19,v1.2-g075
+669016,"Marsh, Brandon",L,6,away,ATL,Tyler Mahle,R,0.0332,0.0307,1.159,0.0277,0.1134,+782,314,v1.2-g075
+671739,"Harris II, Michael",L,7,home,ATL,Cristopher Sánchez,L,0.0297,0.0234,1.159,0.0211,0.1128,+787,170,v1.2-g075
+624641,"Sosa, Edmundo",R,7,away,ATL,Tyler Mahle,R,0.0317,0.0309,1.17,0.0282,0.1109,+802,83,v1.2-g075
+695657,"Montgomery, Colson",L,9,away,HOU,Hunter Brown,R,0.0368,0.0341,1.06,0.0282,0.1075,+830,223,v1.2-g075
+607208,"Turner, Trea",R,1,away,ATL,Tyler Mahle,R,0.0259,0.0252,1.17,0.023,0.107,+835,329,v1.2-g075
+681082,"Stott, Bryson",L,5,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.159,0.0238,0.1037,+864,337,v1.2-g075
+803011,"Antonacci, Sam",L,1,away,HOU,Hunter Brown,R,0.0268,0.0248,1.06,0.0205,0.1002,+898,327,v1.2-g075
+592663,"Realmuto, J.T.",R,9,away,ATL,Tyler Mahle,R,0.0289,0.0281,1.17,0.0257,0.0994,+906,233,v1.2-g075
+645277,"Albies, Ozzie",R,3,home,ATL,Cristopher Sánchez,L,0.0211,0.0258,1.17,0.0235,0.0986,+914,222,v1.2-g075
+643289,"Dubón, Mauricio",R,5,home,ATL,Cristopher Sánchez,L,0.021,0.0258,1.17,0.0235,0.0958,+944,178,v1.2-g075
+671976,"Peters, Tristan",L,6,away,HOU,Hunter Brown,R,0.0281,0.0261,1.06,0.0215,0.0946,+957,307,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.17,0.0206,0.0937,+967,326,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.17,0.0235,0.0876,+1042,42,v1.2-g075
+695731,"Montgomery, Braden",L,8,away,HOU,Hunter Brown,R,0.0234,0.0216,1.06,0.0179,0.0793,+1161,188,v1.2-g075
+805367,"Meidroth, Chase",R,7,away,HOU,Hunter Brown,R,0.0201,0.015,1.05,0.0123,0.0655,+1427,304,v1.2-g075
+702222,"Crawford, Justin",L,8,away,ATL,Tyler Mahle,R,0.0123,0.0113,1.159,0.0102,0.053,+1787,303,v1.2-g075
