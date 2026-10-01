@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-686948,"Baldwin, Drake",L,1,home,ATL,Aaron Nola,R,0.0575,0.0624,1.029,0.0501,0.1789,+459,264,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Aaron Nola,R,0.0545,0.0592,1.029,0.0475,0.1672,+498,272,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Aaron Nola,R,0.0478,0.0557,1.039,0.0451,0.1607,+522,219,v1.2-g075
-671739,"Harris II, Michael",L,4,home,ATL,Aaron Nola,R,0.052,0.0566,1.029,0.0454,0.1591,+529,306,v1.2-g075
-656941,"Schwarber, Kyle",L,2,away,ATL,Ray Kerr,L,0.0397,0.0419,1.029,0.0336,0.1431,+599,145,v1.2-g075
-663586,"Riley, Austin",R,7,home,ATL,Aaron Nola,R,0.0419,0.0487,1.039,0.0395,0.1345,+643,268,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Ray Kerr,L,0.0261,0.0275,1.029,0.0221,0.1186,+743,159,v1.2-g075
-664761,"Bohm, Alec",R,4,away,ATL,Ray Kerr,L,0.0372,0.0399,1.039,0.0323,0.114,+777,157,v1.2-g075
-607208,"Turner, Trea",R,1,away,ATL,Ray Kerr,L,0.0282,0.0303,1.039,0.0246,0.107,+835,171,v1.2-g075
-624641,"Sosa, Edmundo",R,7,away,ATL,Ray Kerr,L,0.0299,0.0321,1.039,0.0261,0.1048,+854,98,v1.2-g075
-573262,"Yastrzemski, Mike",L,6,home,ATL,Aaron Nola,R,0.0304,0.0331,1.029,0.0266,0.1048,+854,244,v1.2-g075
-642086,"Smith, Dominic",L,9,home,ATL,Aaron Nola,R,0.0295,0.0321,1.029,0.0257,0.0965,+936,196,v1.2-g075
-650559,"De La Cruz, Bryan",R,6,away,ATL,Ray Kerr,L,0.0243,0.0261,1.039,0.0212,0.0958,+944,27,v1.2-g075
-681082,"Stott, Bryson",L,5,away,ATL,Ray Kerr,L,0.024,0.0253,1.029,0.0203,0.0945,+958,105,v1.2-g075
-643289,"Dubón, Mauricio",R,5,home,ATL,Aaron Nola,R,0.0229,0.0267,1.039,0.0216,0.0905,+1005,323,v1.2-g075
-645277,"Albies, Ozzie",L,8,home,ATL,Aaron Nola,R,0.0223,0.0244,1.029,0.0195,0.0808,+1138,298,v1.2-g075
-592663,"Realmuto, J.T.",R,8,away,ATL,Ray Kerr,L,0.0184,0.0198,1.039,0.016,0.0806,+1141,85,v1.2-g075
-702222,"Crawford, Justin",L,9,away,ATL,Ray Kerr,L,0.0237,0.025,1.029,0.0201,0.074,+1251,46,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Aaron Nola,R,0.0575,0.0624,1.073,0.0522,0.186,+438,264,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Aaron Nola,R,0.0545,0.0592,1.073,0.0496,0.1738,+475,272,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Aaron Nola,R,0.0478,0.0557,1.083,0.047,0.1671,+498,219,v1.2-g075
+671739,"Harris II, Michael",L,4,home,ATL,Aaron Nola,R,0.052,0.0566,1.073,0.0473,0.1654,+505,306,v1.2-g075
+656941,"Schwarber, Kyle",L,2,away,ATL,Ray Kerr,L,0.0397,0.0419,1.073,0.0351,0.1489,+572,145,v1.2-g075
+663586,"Riley, Austin",R,7,home,ATL,Aaron Nola,R,0.0419,0.0487,1.083,0.0412,0.1399,+615,268,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Ray Kerr,L,0.0261,0.0275,1.073,0.023,0.1234,+710,159,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Ray Kerr,L,0.0372,0.0399,1.083,0.0337,0.1186,+743,157,v1.2-g075
+607208,"Turner, Trea",R,1,away,ATL,Ray Kerr,L,0.0282,0.0303,1.083,0.0256,0.1114,+798,171,v1.2-g075
+624641,"Sosa, Edmundo",R,7,away,ATL,Ray Kerr,L,0.0299,0.0321,1.083,0.0272,0.1091,+817,98,v1.2-g075
+573262,"Yastrzemski, Mike",L,6,home,ATL,Aaron Nola,R,0.0304,0.0331,1.073,0.0277,0.109,+817,244,v1.2-g075
+642086,"Smith, Dominic",L,9,home,ATL,Aaron Nola,R,0.0295,0.0321,1.073,0.0269,0.1005,+895,196,v1.2-g075
+650559,"De La Cruz, Bryan",R,6,away,ATL,Ray Kerr,L,0.0243,0.0261,1.083,0.0221,0.0997,+903,27,v1.2-g075
+681082,"Stott, Bryson",L,5,away,ATL,Ray Kerr,L,0.024,0.0253,1.073,0.0212,0.0984,+916,105,v1.2-g075
+643289,"Dubón, Mauricio",R,5,home,ATL,Aaron Nola,R,0.0229,0.0267,1.083,0.0226,0.0941,+963,323,v1.2-g075
+645277,"Albies, Ozzie",L,8,home,ATL,Aaron Nola,R,0.0223,0.0244,1.073,0.0204,0.0842,+1088,298,v1.2-g075
+592663,"Realmuto, J.T.",R,8,away,ATL,Ray Kerr,L,0.0184,0.0198,1.083,0.0167,0.0839,+1092,85,v1.2-g075
+702222,"Crawford, Justin",L,9,away,ATL,Ray Kerr,L,0.0237,0.025,1.073,0.021,0.0771,+1197,46,v1.2-g075
