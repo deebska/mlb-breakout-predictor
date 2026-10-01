@@ -1,73 +1,73 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-670541,"Alvarez, Yordan",L,2,home,HOU,Sean Burke,R,0.058,0.0621,1.06,0.0514,0.1765,+467,314,v1.2-g075
-700250,"Rice, Ben",L,1,home,NYY,Sonny Gray,R,0.0543,0.0532,1.092,0.0453,0.1682,+495,275,v1.2-g075
-691718,"Crow-Armstrong, Pete",L,1,away,SD,Nick Pivetta,R,0.0541,0.058,0.981,0.0444,0.1637,+511,308,v1.2-g075
-671277,"García Jr., Luis",L,3,home,NYY,Sonny Gray,R,0.0546,0.0535,1.092,0.0456,0.1634,+512,353,v1.2-g075
-660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.144,0.0418,0.1589,+529,89,v1.2-g075
-665487,"Tatis Jr., Fernando",R,1,home,SD,Kevin Gausman,R,0.0507,0.0553,0.991,0.0427,0.1562,+540,393,v1.2-g075
-656941,"Schwarber, Kyle",L,2,away,ATL,Tyler Mahle,R,0.0468,0.0432,1.133,0.0382,0.1518,+559,221,v1.2-g075
-808959,"Murakami, Munetaka",L,4,away,HOU,Hunter Brown,R,0.0524,0.0486,1.06,0.0402,0.1516,+560,182,v1.2-g075
-547180,"Harper, Bryce",L,3,away,ATL,Tyler Mahle,R,0.0446,0.0412,1.133,0.0364,0.1441,+594,277,v1.2-g075
-677800,"Abreu, Wilyer",L,4,away,NYY,Max Fried,L,0.0413,0.0392,1.092,0.0334,0.1389,+620,156,v1.2-g075
-621566,"Olson, Matt",L,4,home,ATL,Cristopher Sánchez,L,0.0439,0.0346,1.133,0.0306,0.1386,+622,187,v1.2-g075
-701538,"Merrill, Jackson",L,5,home,SD,Kevin Gausman,R,0.0518,0.0489,0.981,0.0374,0.1382,+624,331,v1.2-g075
-663586,"Riley, Austin",R,6,home,ATL,Cristopher Sánchez,L,0.0366,0.0447,1.144,0.0398,0.1375,+627,102,v1.2-g075
-682987,"Jones, Spencer",L,4,home,NYY,Sonny Gray,R,0.0432,0.0423,1.092,0.036,0.1357,+637,121,v1.2-g075
-678246,"Vargas, Miguel",R,3,away,HOU,Hunter Brown,R,0.0482,0.0362,1.05,0.0297,0.1332,+651,331,v1.2-g075
-686948,"Baldwin, Drake",L,2,home,ATL,Cristopher Sánchez,L,0.0306,0.0241,1.133,0.0213,0.1332,+651,155,v1.2-g075
-673548,"Suzuki, Seiya",R,4,away,SD,Nick Pivetta,R,0.0416,0.0404,0.991,0.0312,0.1249,+701,287,v1.2-g075
-663757,"Grisham, Trent",L,7,home,NYY,Sonny Gray,R,0.0412,0.0403,1.092,0.0343,0.1237,+708,239,v1.2-g075
-664023,"Happ, Ian",L,5,away,SD,Nick Pivetta,R,0.039,0.0419,0.981,0.0321,0.1216,+722,279,v1.2-g075
-664034,"France, Ty",R,4,home,SD,Kevin Gausman,R,0.0381,0.0416,0.991,0.0321,0.1214,+724,252,v1.2-g075
+670541,"Alvarez, Yordan",L,2,home,HOU,Sean Burke,R,0.058,0.0621,1.06,0.0514,0.1767,+466,314,v1.2-g075
+700250,"Rice, Ben",L,1,home,NYY,Sonny Gray,R,0.0543,0.0532,1.092,0.0453,0.1683,+494,275,v1.2-g075
+691718,"Crow-Armstrong, Pete",L,1,away,SD,Nick Pivetta,R,0.0541,0.058,0.995,0.045,0.1655,+504,308,v1.2-g075
+671277,"García Jr., Luis",L,3,home,NYY,Sonny Gray,R,0.0546,0.0535,1.092,0.0456,0.1636,+511,353,v1.2-g075
+660670,"Acuña Jr., Ronald",R,1,home,ATL,Cristopher Sánchez,L,0.0384,0.0468,1.144,0.0418,0.1591,+529,89,v1.2-g075
+665487,"Tatis Jr., Fernando",R,1,home,SD,Kevin Gausman,R,0.0507,0.0553,1.006,0.0434,0.158,+533,393,v1.2-g075
+656941,"Schwarber, Kyle",L,2,away,ATL,Tyler Mahle,R,0.0468,0.0432,1.133,0.0382,0.1519,+558,221,v1.2-g075
+808959,"Murakami, Munetaka",L,4,away,HOU,Hunter Brown,R,0.0524,0.0486,1.06,0.0402,0.1517,+559,182,v1.2-g075
+547180,"Harper, Bryce",L,3,away,ATL,Tyler Mahle,R,0.0446,0.0412,1.133,0.0364,0.1442,+593,277,v1.2-g075
+701538,"Merrill, Jackson",L,5,home,SD,Kevin Gausman,R,0.0518,0.0489,0.995,0.038,0.1398,+615,331,v1.2-g075
+677800,"Abreu, Wilyer",L,4,away,NYY,Max Fried,L,0.0413,0.0392,1.092,0.0334,0.1391,+619,156,v1.2-g075
+621566,"Olson, Matt",L,4,home,ATL,Cristopher Sánchez,L,0.0439,0.0346,1.133,0.0306,0.1387,+621,187,v1.2-g075
+663586,"Riley, Austin",R,6,home,ATL,Cristopher Sánchez,L,0.0366,0.0447,1.144,0.0398,0.1376,+627,102,v1.2-g075
+682987,"Jones, Spencer",L,4,home,NYY,Sonny Gray,R,0.0432,0.0423,1.092,0.036,0.1358,+636,121,v1.2-g075
+678246,"Vargas, Miguel",R,3,away,HOU,Hunter Brown,R,0.0482,0.0362,1.05,0.0297,0.1333,+650,331,v1.2-g075
+686948,"Baldwin, Drake",L,2,home,ATL,Cristopher Sánchez,L,0.0306,0.0241,1.133,0.0213,0.1333,+650,155,v1.2-g075
+673548,"Suzuki, Seiya",R,4,away,SD,Nick Pivetta,R,0.0416,0.0404,1.006,0.0317,0.1263,+692,287,v1.2-g075
+663757,"Grisham, Trent",L,7,home,NYY,Sonny Gray,R,0.0412,0.0403,1.092,0.0343,0.1238,+708,239,v1.2-g075
+664023,"Happ, Ian",L,5,away,SD,Nick Pivetta,R,0.039,0.0419,0.995,0.0325,0.123,+713,279,v1.2-g075
+664034,"France, Ty",R,4,home,SD,Kevin Gausman,R,0.0381,0.0416,1.006,0.0326,0.1228,+714,252,v1.2-g075
+592518,"Machado, Manny",R,3,home,SD,Kevin Gausman,R,0.0363,0.0396,1.006,0.0311,0.1208,+728,344,v1.2-g075
 641355,"Bellinger, Cody",L,2,home,NYY,Sonny Gray,R,0.0346,0.0339,1.092,0.0289,0.1202,+732,257,v1.2-g075
-592518,"Machado, Manny",R,3,home,SD,Kevin Gausman,R,0.0363,0.0396,0.991,0.0306,0.1194,+738,344,v1.2-g075
-691019,"Teel, Kyle",L,2,away,HOU,Hunter Brown,R,0.0352,0.0326,1.06,0.0269,0.1182,+746,51,v1.2-g075
-572233,"Walker, Christian",R,6,home,HOU,Sean Burke,R,0.0399,0.0371,1.05,0.0304,0.1173,+753,335,v1.2-g075
-643217,"Benintendi, Andrew",L,5,away,HOU,Hunter Brown,R,0.0372,0.0345,1.06,0.0285,0.1164,+759,286,v1.2-g075
-701358,"Smith, Cam",R,8,home,HOU,Sean Burke,R,0.0414,0.0385,1.05,0.0315,0.1153,+767,268,v1.2-g075
-665161,"Peña, Jeremy",R,1,home,HOU,Sean Burke,R,0.0328,0.0304,1.05,0.0249,0.1117,+795,255,v1.2-g075
-669221,"Murphy, Sean",R,8,home,ATL,Cristopher Sánchez,L,0.0296,0.0362,1.144,0.0323,0.1107,+803,19,v1.2-g075
-669016,"Marsh, Brandon",L,6,away,ATL,Tyler Mahle,R,0.0332,0.0307,1.133,0.0271,0.1102,+807,314,v1.2-g075
-671739,"Harris II, Michael",L,7,home,ATL,Cristopher Sánchez,L,0.0297,0.0234,1.133,0.0207,0.1096,+812,170,v1.2-g075
+691019,"Teel, Kyle",L,2,away,HOU,Hunter Brown,R,0.0352,0.0326,1.06,0.0269,0.1183,+745,51,v1.2-g075
+572233,"Walker, Christian",R,6,home,HOU,Sean Burke,R,0.0399,0.0371,1.05,0.0304,0.1174,+752,335,v1.2-g075
+643217,"Benintendi, Andrew",L,5,away,HOU,Hunter Brown,R,0.0372,0.0345,1.06,0.0285,0.1165,+758,286,v1.2-g075
+701358,"Smith, Cam",R,8,home,HOU,Sean Burke,R,0.0414,0.0385,1.05,0.0315,0.1154,+767,268,v1.2-g075
+665161,"Peña, Jeremy",R,1,home,HOU,Sean Burke,R,0.0328,0.0304,1.05,0.0249,0.1118,+794,255,v1.2-g075
+669221,"Murphy, Sean",R,8,home,ATL,Cristopher Sánchez,L,0.0296,0.0362,1.144,0.0323,0.1108,+803,19,v1.2-g075
+669016,"Marsh, Brandon",L,6,away,ATL,Tyler Mahle,R,0.0332,0.0307,1.133,0.0271,0.1103,+807,314,v1.2-g075
+671739,"Harris II, Michael",L,7,home,ATL,Cristopher Sánchez,L,0.0297,0.0234,1.133,0.0207,0.1097,+812,170,v1.2-g075
 641857,"McMahon, Ryan",L,9,home,NYY,Sonny Gray,R,0.0367,0.0359,1.092,0.0306,0.1091,+817,185,v1.2-g075
-665862,"Chisholm Jr., Jazz",L,6,home,NYY,Sonny Gray,R,0.0335,0.0328,1.092,0.0279,0.1088,+819,224,v1.2-g075
-575929,"Contreras, Willson",R,3,away,NYY,Max Fried,L,0.0476,0.0308,0.944,0.0227,0.1085,+822,89,v1.2-g075
-624641,"Sosa, Edmundo",R,7,away,ATL,Tyler Mahle,R,0.0317,0.0309,1.144,0.0276,0.1078,+828,83,v1.2-g075
-683737,"Busch, Michael",L,3,away,SD,Nick Pivetta,R,0.0313,0.0337,0.981,0.0258,0.1075,+830,308,v1.2-g075
-695657,"Montgomery, Colson",L,9,away,HOU,Hunter Brown,R,0.0368,0.0341,1.06,0.0282,0.1061,+843,223,v1.2-g075
+665862,"Chisholm Jr., Jazz",L,6,home,NYY,Sonny Gray,R,0.0335,0.0328,1.092,0.0279,0.1089,+818,224,v1.2-g075
+683737,"Busch, Michael",L,3,away,SD,Nick Pivetta,R,0.0313,0.0337,0.995,0.0261,0.1087,+820,308,v1.2-g075
+575929,"Contreras, Willson",R,3,away,NYY,Max Fried,L,0.0476,0.0308,0.944,0.0227,0.1086,+821,89,v1.2-g075
+624641,"Sosa, Edmundo",R,7,away,ATL,Tyler Mahle,R,0.0317,0.0309,1.144,0.0276,0.1079,+827,83,v1.2-g075
+695657,"Montgomery, Colson",L,9,away,HOU,Hunter Brown,R,0.0368,0.0341,1.06,0.0282,0.1062,+842,223,v1.2-g075
 607208,"Turner, Trea",R,1,away,ATL,Tyler Mahle,R,0.0259,0.0252,1.144,0.0225,0.104,+862,329,v1.2-g075
-608324,"Bregman, Alex",R,2,away,SD,Nick Pivetta,R,0.0301,0.0292,0.991,0.0226,0.1027,+874,386,v1.2-g075
+608324,"Bregman, Alex",R,2,away,SD,Nick Pivetta,R,0.0301,0.0292,1.006,0.0229,0.1038,+863,386,v1.2-g075
 828599,"Spence, Lucas",L,7,home,HOU,Sean Burke,R,0.03,0.0322,1.06,0.0266,0.101,+890,21,v1.2-g075
-673237,"Diaz, Yainer",R,5,home,HOU,Sean Burke,R,0.0315,0.0293,1.05,0.024,0.1009,+891,216,v1.2-g075
-681082,"Stott, Bryson",L,5,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.133,0.0233,0.1007,+893,337,v1.2-g075
+673237,"Diaz, Yainer",R,5,home,HOU,Sean Burke,R,0.0315,0.0293,1.05,0.024,0.101,+890,216,v1.2-g075
+681082,"Stott, Bryson",L,5,away,ATL,Tyler Mahle,R,0.0285,0.0263,1.133,0.0233,0.1008,+892,337,v1.2-g075
 669224,"Wells, Austin",L,8,home,NYY,Sonny Gray,R,0.0318,0.0311,1.092,0.0265,0.1007,+893,172,v1.2-g075
-803011,"Antonacci, Sam",L,1,away,HOU,Hunter Brown,R,0.0268,0.0248,1.06,0.0205,0.0989,+911,327,v1.2-g075
-592663,"Realmuto, J.T.",R,9,away,ATL,Tyler Mahle,R,0.0289,0.0281,1.144,0.0251,0.0965,+936,233,v1.2-g075
-645277,"Albies, Ozzie",R,3,home,ATL,Cristopher Sánchez,L,0.0211,0.0258,1.144,0.023,0.0957,+945,222,v1.2-g075
-593428,"Bogaerts, Xander",R,6,home,SD,Kevin Gausman,R,0.028,0.0306,0.991,0.0237,0.094,+964,295,v1.2-g075
-671976,"Peters, Tristan",L,6,away,HOU,Hunter Brown,R,0.0281,0.0261,1.06,0.0215,0.0934,+971,307,v1.2-g075
+803011,"Antonacci, Sam",L,1,away,HOU,Hunter Brown,R,0.0268,0.0248,1.06,0.0205,0.099,+910,327,v1.2-g075
+592663,"Realmuto, J.T.",R,9,away,ATL,Tyler Mahle,R,0.0289,0.0281,1.144,0.0251,0.0966,+935,233,v1.2-g075
+645277,"Albies, Ozzie",R,3,home,ATL,Cristopher Sánchez,L,0.0211,0.0258,1.144,0.023,0.0958,+944,222,v1.2-g075
+593428,"Bogaerts, Xander",R,6,home,SD,Kevin Gausman,R,0.028,0.0306,1.006,0.024,0.0951,+952,295,v1.2-g075
+671976,"Peters, Tristan",L,6,away,HOU,Hunter Brown,R,0.0281,0.0261,1.06,0.0215,0.0935,+970,307,v1.2-g075
 643289,"Dubón, Mauricio",R,5,home,ATL,Cristopher Sánchez,L,0.021,0.0258,1.144,0.023,0.0931,+974,178,v1.2-g075
-664761,"Bohm, Alec",R,4,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.144,0.0201,0.0911,+998,326,v1.2-g075
-621020,"Swanson, Dansby",R,9,away,SD,Nick Pivetta,R,0.0306,0.0297,0.991,0.0229,0.0905,+1005,228,v1.2-g075
+621020,"Swanson, Dansby",R,9,away,SD,Nick Pivetta,R,0.0306,0.0297,1.006,0.0233,0.0916,+992,228,v1.2-g075
+664761,"Bohm, Alec",R,4,away,ATL,Tyler Mahle,R,0.0232,0.0226,1.144,0.0201,0.0912,+996,326,v1.2-g075
 663330,"Jones, Jahmai",R,1,away,NYY,Max Fried,L,0.0371,0.024,0.944,0.0176,0.0883,+1033,87,v1.2-g075
+807713,"Shaw, Matt",R,7,away,SD,Nick Pivetta,R,0.0272,0.0263,1.006,0.0207,0.0878,+1039,73,v1.2-g075
 806146,"Lombard Jr., George",R,5,home,NYY,Sonny Gray,R,0.0285,0.0269,0.944,0.0198,0.0875,+1043,91,v1.2-g075
-807713,"Shaw, Matt",R,7,away,SD,Nick Pivetta,R,0.0272,0.0263,0.991,0.0203,0.0867,+1053,73,v1.2-g075
-668939,"Rutschman, Adley",R,2,away,NYY,Max Fried,L,0.0245,0.0157,0.944,0.0116,0.0855,+1070,112,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.144,0.023,0.0851,+1075,42,v1.2-g075
-806956,"Salas, Ethan",L,7,home,SD,Kevin Gausman,R,0.0276,0.026,0.981,0.0199,0.0844,+1085,25,v1.2-g075
-670623,"Paredes, Isaac",R,3,home,HOU,Sean Burke,R,0.0231,0.0214,1.05,0.0175,0.0838,+1093,363,v1.2-g075
-669720,"Hays, Austin",R,8,home,SD,Kevin Gausman,R,0.0247,0.027,0.991,0.0208,0.0826,+1111,35,v1.2-g075
+668939,"Rutschman, Adley",R,2,away,NYY,Max Fried,L,0.0245,0.0157,0.944,0.0116,0.0856,+1068,112,v1.2-g075
+806956,"Salas, Ethan",L,7,home,SD,Kevin Gausman,R,0.0276,0.026,0.995,0.0202,0.0853,+1072,25,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Cristopher Sánchez,L,0.021,0.0257,1.144,0.023,0.0852,+1074,42,v1.2-g075
+670623,"Paredes, Isaac",R,3,home,HOU,Sean Burke,R,0.0231,0.0214,1.05,0.0175,0.0839,+1092,363,v1.2-g075
+669720,"Hays, Austin",R,8,home,SD,Kevin Gausman,R,0.0247,0.027,1.006,0.0212,0.0835,+1098,35,v1.2-g075
 695731,"Montgomery, Braden",L,8,away,HOU,Hunter Brown,R,0.0234,0.0216,1.06,0.0179,0.0783,+1177,188,v1.2-g075
-514888,"Altuve, Jose",R,4,home,HOU,Sean Burke,R,0.0214,0.0199,1.05,0.0163,0.0778,+1185,316,v1.2-g075
-687957,"Harris, Dustin",L,2,home,SD,Kevin Gausman,R,0.0194,0.0183,0.981,0.014,0.0721,+1287,103,v1.2-g075
+514888,"Altuve, Jose",R,4,home,HOU,Sean Burke,R,0.0214,0.0199,1.05,0.0163,0.0779,+1184,316,v1.2-g075
+687957,"Harris, Dustin",L,2,home,SD,Kevin Gausman,R,0.0194,0.0183,0.995,0.0142,0.0729,+1272,103,v1.2-g075
 678882,"Rafaela, Ceddanne",R,5,away,NYY,Max Fried,L,0.0279,0.018,0.944,0.0132,0.072,+1289,106,v1.2-g075
-630105,"Cronenworth, Jake",L,9,home,SD,Kevin Gausman,R,0.0223,0.021,0.981,0.0161,0.069,+1349,213,v1.2-g075
-686765,"Sogard, Nick",R,7,away,NYY,Max Fried,L,0.0308,0.0199,0.944,0.0146,0.0686,+1358,51,v1.2-g075
+630105,"Cronenworth, Jake",L,9,home,SD,Kevin Gausman,R,0.0223,0.021,0.995,0.0163,0.0699,+1331,213,v1.2-g075
+686765,"Sogard, Nick",R,7,away,NYY,Max Fried,L,0.0308,0.0199,0.944,0.0146,0.0687,+1356,51,v1.2-g075
 681987,"Eaton, Nate",R,9,away,NYY,Max Fried,L,0.0262,0.0169,0.944,0.0124,0.0675,+1381,17,v1.2-g075
-805367,"Meidroth, Chase",R,7,away,HOU,Hunter Brown,R,0.0201,0.015,1.05,0.0123,0.0646,+1448,304,v1.2-g075
-596115,"Story, Trevor",R,8,away,NYY,Max Fried,L,0.0233,0.015,0.944,0.011,0.063,+1487,43,v1.2-g075
-608348,"Kelly, Carson",R,8,away,SD,Nick Pivetta,R,0.0178,0.0172,0.991,0.0133,0.0625,+1500,213,v1.2-g075
+805367,"Meidroth, Chase",R,7,away,HOU,Hunter Brown,R,0.0201,0.015,1.05,0.0123,0.0647,+1446,304,v1.2-g075
+608348,"Kelly, Carson",R,8,away,SD,Nick Pivetta,R,0.0178,0.0172,1.006,0.0135,0.0632,+1482,213,v1.2-g075
+596115,"Story, Trevor",R,8,away,NYY,Max Fried,L,0.0233,0.015,0.944,0.011,0.0631,+1485,43,v1.2-g075
 669397,"Allen, Nick",R,9,home,HOU,Sean Burke,R,0.017,0.0158,1.05,0.0129,0.0591,+1592,85,v1.2-g075
 702332,"Durbin, Caleb",R,6,away,NYY,Max Fried,L,0.0246,0.0158,0.944,0.0116,0.0564,+1673,126,v1.2-g075
 702222,"Crawford, Justin",L,8,away,ATL,Tyler Mahle,R,0.0123,0.0113,1.133,0.01,0.0515,+1842,303,v1.2-g075
-663538,"Hoerner, Nico",R,6,away,SD,Nick Pivetta,R,0.0112,0.0109,0.991,0.0084,0.0465,+2051,430,v1.2-g075
+663538,"Hoerner, Nico",R,6,away,SD,Nick Pivetta,R,0.0112,0.0109,1.006,0.0085,0.0471,+2023,430,v1.2-g075
