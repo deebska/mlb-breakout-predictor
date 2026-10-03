@@ -1,11 +1,20 @@
-HR BOARD -- 2026-10-03 -- 9 hitters composed
+HR BOARD -- 2026-10-03 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Vargas, Miguel          R    3    CLE  Parker Messick        0.0467  0.0406   0.82  0.0261   0.109   +816   137  
-Murakami, Munetaka      L    4    CLE  Parker Messick        0.0396  0.0354   0.86  0.0237   0.108   +829   75   
-Grichuk, Randal         R    2    CLE  Parker Messick        0.0523  0.0455   0.82  0.0292   0.100   +900   128  
-Montgomery, Colson      L    9    CLE  Parker Messick        0.0362  0.0323   0.86  0.0216   0.083   +1109  118  
-Teel, Kyle              L    7    CLE  Parker Messick        0.0252  0.0225   0.86  0.0151   0.073   +1261  19   
-Pham, Tommy             R    5    CLE  Parker Messick        0.0265  0.0230   0.82  0.0148   0.071   +1299  16   
-Doyle, Brenton          R    6    CLE  Parker Messick        0.0326  0.0283   0.82  0.0182   0.071   +1303  61   
-Meidroth, Chase         R    1    CLE  Parker Messick        0.0257  0.0223   0.82  0.0143   0.067   +1393  127  
-Montgomery, Braden      R    8    CLE  Parker Messick        0.0198  0.0172   0.82  0.0110   0.055   +1732  63   
+Vargas, Miguel          R    3    CLE  Parker Messick        0.0467  0.0406   0.82  0.0261   0.106   +840   137  
+Murakami, Munetaka      L    4    CLE  Parker Messick        0.0396  0.0354   0.86  0.0237   0.105   +854   75   
+Grichuk, Randal         R    2    CLE  Parker Messick        0.0523  0.0455   0.82  0.0292   0.097   +928   128  
+Adell, Jo               R    4    CLE  Hagen Smith           0.0430  0.0409   0.82  0.0262   0.091   +998   132  
+Montgomery, Colson      L    9    CLE  Parker Messick        0.0362  0.0323   0.86  0.0216   0.081   +1142  118  
+Martínez, Angel         R    5    CLE  Hagen Smith           0.0335  0.0318   0.82  0.0204   0.079   +1163  122  
+DeLauter, Chase         L    3    CLE  Hagen Smith           0.0252  0.0256   0.86  0.0171   0.077   +1195  128  
+Teel, Kyle              L    7    CLE  Parker Messick        0.0252  0.0225   0.86  0.0151   0.071   +1299  19   
+Pham, Tommy             R    5    CLE  Parker Messick        0.0265  0.0230   0.82  0.0148   0.070   +1339  16   
+Doyle, Brenton          R    6    CLE  Parker Messick        0.0326  0.0283   0.82  0.0182   0.069   +1341  61   
+Ramírez, José           R    2    CLE  Hagen Smith           0.0276  0.0262   0.82  0.0168   0.069   +1349  133  
+Fry, David              R    6    CLE  Hagen Smith           0.0204  0.0194   0.82  0.0124   0.067   +1388  78   
+Meidroth, Chase         R    1    CLE  Parker Messick        0.0257  0.0223   0.82  0.0143   0.065   +1434  127  
+Bazzana, Travis         L    7    CLE  Hagen Smith           0.0196  0.0199   0.86  0.0133   0.061   +1550  105  
+Hedges, Austin          R    8    CLE  Hagen Smith           0.0231  0.0220   0.82  0.0141   0.060   +1575  97   
+Rocchio, Brayan         R    9    CLE  Hagen Smith           0.0239  0.0227   0.82  0.0145   0.053   +1780  154  
+Montgomery, Braden      R    8    CLE  Parker Messick        0.0198  0.0172   0.82  0.0110   0.053   +1783  63   
+Kwan, Steven            L    1    CLE  Hagen Smith           0.0094  0.0096   0.86  0.0064   0.035   +2717  146  
