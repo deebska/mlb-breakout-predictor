@@ -1,20 +1,20 @@
 HR BOARD -- 2026-10-04 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Tatis Jr., Fernando     R    1    MIL  Logan Henderson       0.0507  0.0485   1.04  0.0394   0.157   +535   393  
-Merrill, Jackson        L    5    MIL  Logan Henderson       0.0518  0.0543   1.06  0.0449   0.157   +535   331  
-Bauers, Jake            L    3    MIL  Michael King          0.0434  0.0486   1.06  0.0402   0.145   +587   224  
-Chourio, Jackson        R    1    MIL  Michael King          0.0452  0.0406   1.04  0.0330   0.139   +617   272  
-Mitchell, Garrett       L    5    MIL  Michael King          0.0406  0.0454   1.06  0.0375   0.134   +646   224  
-Contreras, William      R    4    MIL  Michael King          0.0413  0.0371   1.04  0.0301   0.124   +708   349  
-France, Ty              R    4    MIL  Logan Henderson       0.0381  0.0364   1.04  0.0296   0.122   +720   252  
-Yelich, Christian       L    6    MIL  Michael King          0.0364  0.0408   1.06  0.0337   0.122   +720   226  
-Machado, Manny          R    3    MIL  Logan Henderson       0.0363  0.0347   1.04  0.0282   0.120   +733   344  
-Turang, Brice           L    2    MIL  Michael King          0.0319  0.0357   1.06  0.0296   0.119   +742   290  
-Campusano, Luis         R    8    MIL  Logan Henderson       0.0355  0.0340   1.04  0.0276   0.107   +831   126  
-Salas, Ethan            L    6    MIL  Logan Henderson       0.0276  0.0290   1.06  0.0239   0.099   +915   25   
-Bogaerts, Xander        R    7    MIL  Logan Henderson       0.0280  0.0268   1.04  0.0217   0.092   +983   295  
-Harris, Dustin          L    2    MIL  Logan Henderson       0.0194  0.0204   1.06  0.0168   0.082   +1118  103  
-Cronenworth, Jake       L    9    MIL  Logan Henderson       0.0223  0.0234   1.06  0.0193   0.080   +1156  213  
-Hamilton, David         L    9    MIL  Michael King          0.0199  0.0223   1.06  0.0185   0.074   +1242  212  
-Frelick, Sal            L    7    MIL  Michael King          0.0175  0.0197   1.06  0.0163   0.071   +1314  226  
-Pratt, Cooper           R    8    MIL  Michael King          0.0210  0.0188   1.04  0.0152   0.070   +1333  140  
+Tatis Jr., Fernando     R    1    MIL  Logan Henderson       0.0507  0.0485   1.04  0.0394   0.158   +534   393  
+Merrill, Jackson        L    5    MIL  Logan Henderson       0.0518  0.0543   1.06  0.0449   0.158   +534   331  
+Bauers, Jake            L    3    MIL  Michael King          0.0434  0.0486   1.06  0.0402   0.146   +586   224  
+Chourio, Jackson        R    1    MIL  Michael King          0.0452  0.0406   1.04  0.0330   0.140   +616   272  
+Mitchell, Garrett       L    5    MIL  Michael King          0.0406  0.0454   1.06  0.0375   0.134   +645   224  
+Contreras, William      R    4    MIL  Michael King          0.0413  0.0371   1.04  0.0301   0.124   +706   349  
+France, Ty              R    4    MIL  Logan Henderson       0.0381  0.0364   1.04  0.0296   0.122   +718   252  
+Yelich, Christian       L    6    MIL  Michael King          0.0364  0.0408   1.06  0.0337   0.122   +718   226  
+Machado, Manny          R    3    MIL  Logan Henderson       0.0363  0.0347   1.04  0.0282   0.120   +731   344  
+Turang, Brice           L    2    MIL  Michael King          0.0319  0.0357   1.06  0.0296   0.119   +740   290  
+Sheets, Gavin           L    6    MIL  Logan Henderson       0.0329  0.0345   1.06  0.0285   0.112   +793   235  
+Campusano, Luis         R    8    MIL  Logan Henderson       0.0355  0.0340   1.04  0.0276   0.108   +829   126  
+Bogaerts, Xander        R    7    MIL  Logan Henderson       0.0280  0.0268   1.04  0.0217   0.092   +981   295  
+Harris, Dustin          L    2    MIL  Logan Henderson       0.0194  0.0204   1.06  0.0168   0.082   +1117  103  
+Cronenworth, Jake       L    9    MIL  Logan Henderson       0.0223  0.0234   1.06  0.0193   0.080   +1153  213  
+Hamilton, David         L    9    MIL  Michael King          0.0199  0.0223   1.06  0.0185   0.075   +1240  212  
+Frelick, Sal            L    7    MIL  Michael King          0.0175  0.0197   1.06  0.0163   0.071   +1310  226  
+Pratt, Cooper           R    8    MIL  Michael King          0.0210  0.0188   1.04  0.0152   0.070   +1331  140  

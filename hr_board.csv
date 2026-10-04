@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-665487,"Tatis Jr., Fernando",R,1,away,MIL,Logan Henderson,R,0.0507,0.0485,1.04,0.0394,0.1574,+535,393,v1.2-g075
-701538,"Merrill, Jackson",L,5,away,MIL,Logan Henderson,R,0.0518,0.0543,1.06,0.0449,0.1574,+535,331,v1.2-g075
-641343,"Bauers, Jake",L,3,home,MIL,Michael King,R,0.0434,0.0486,1.06,0.0402,0.1455,+587,224,v1.2-g075
-694192,"Chourio, Jackson",R,1,home,MIL,Michael King,R,0.0452,0.0406,1.04,0.033,0.1394,+617,272,v1.2-g075
-669003,"Mitchell, Garrett",L,5,home,MIL,Michael King,R,0.0406,0.0454,1.06,0.0375,0.1341,+646,224,v1.2-g075
-661388,"Contreras, William",R,4,home,MIL,Michael King,R,0.0413,0.0371,1.04,0.0301,0.1237,+708,349,v1.2-g075
-664034,"France, Ty",R,4,away,MIL,Logan Henderson,R,0.0381,0.0364,1.04,0.0296,0.122,+720,252,v1.2-g075
-592885,"Yelich, Christian",L,6,home,MIL,Michael King,R,0.0364,0.0408,1.06,0.0337,0.122,+720,226,v1.2-g075
-592518,"Machado, Manny",R,3,away,MIL,Logan Henderson,R,0.0363,0.0347,1.04,0.0282,0.12,+733,344,v1.2-g075
-668930,"Turang, Brice",L,2,home,MIL,Michael King,R,0.0319,0.0357,1.06,0.0296,0.1188,+742,290,v1.2-g075
-669134,"Campusano, Luis",R,8,away,MIL,Logan Henderson,R,0.0355,0.034,1.04,0.0276,0.1074,+831,126,v1.2-g075
-806956,"Salas, Ethan",L,6,away,MIL,Logan Henderson,R,0.0276,0.029,1.06,0.0239,0.0985,+915,25,v1.2-g075
-593428,"Bogaerts, Xander",R,7,away,MIL,Logan Henderson,R,0.028,0.0268,1.04,0.0217,0.0923,+983,295,v1.2-g075
-687957,"Harris, Dustin",L,2,away,MIL,Logan Henderson,R,0.0194,0.0204,1.06,0.0168,0.0821,+1118,103,v1.2-g075
-630105,"Cronenworth, Jake",L,9,away,MIL,Logan Henderson,R,0.0223,0.0234,1.06,0.0193,0.0796,+1156,213,v1.2-g075
-666152,"Hamilton, David",L,9,home,MIL,Michael King,R,0.0199,0.0223,1.06,0.0185,0.0745,+1242,212,v1.2-g075
-686217,"Frelick, Sal",L,7,home,MIL,Michael King,R,0.0175,0.0197,1.06,0.0163,0.0707,+1314,226,v1.2-g075
-806198,"Pratt, Cooper",R,8,home,MIL,Michael King,R,0.021,0.0188,1.04,0.0152,0.0698,+1333,140,v1.2-g075
+665487,"Tatis Jr., Fernando",R,1,away,MIL,Logan Henderson,R,0.0507,0.0485,1.04,0.0394,0.1577,+534,393,v1.2-g075
+701538,"Merrill, Jackson",L,5,away,MIL,Logan Henderson,R,0.0518,0.0543,1.06,0.0449,0.1577,+534,331,v1.2-g075
+641343,"Bauers, Jake",L,3,home,MIL,Michael King,R,0.0434,0.0486,1.06,0.0402,0.1458,+586,224,v1.2-g075
+694192,"Chourio, Jackson",R,1,home,MIL,Michael King,R,0.0452,0.0406,1.04,0.033,0.1397,+616,272,v1.2-g075
+669003,"Mitchell, Garrett",L,5,home,MIL,Michael King,R,0.0406,0.0454,1.06,0.0375,0.1343,+645,224,v1.2-g075
+661388,"Contreras, William",R,4,home,MIL,Michael King,R,0.0413,0.0371,1.04,0.0301,0.124,+706,349,v1.2-g075
+664034,"France, Ty",R,4,away,MIL,Logan Henderson,R,0.0381,0.0364,1.04,0.0296,0.1222,+718,252,v1.2-g075
+592885,"Yelich, Christian",L,6,home,MIL,Michael King,R,0.0364,0.0408,1.06,0.0337,0.1222,+718,226,v1.2-g075
+592518,"Machado, Manny",R,3,away,MIL,Logan Henderson,R,0.0363,0.0347,1.04,0.0282,0.1203,+731,344,v1.2-g075
+668930,"Turang, Brice",L,2,home,MIL,Michael King,R,0.0319,0.0357,1.06,0.0296,0.119,+740,290,v1.2-g075
+657757,"Sheets, Gavin",L,6,away,MIL,Logan Henderson,R,0.0329,0.0345,1.06,0.0285,0.112,+793,235,v1.2-g075
+669134,"Campusano, Luis",R,8,away,MIL,Logan Henderson,R,0.0355,0.034,1.04,0.0276,0.1076,+829,126,v1.2-g075
+593428,"Bogaerts, Xander",R,7,away,MIL,Logan Henderson,R,0.028,0.0268,1.04,0.0217,0.0925,+981,295,v1.2-g075
+687957,"Harris, Dustin",L,2,away,MIL,Logan Henderson,R,0.0194,0.0204,1.06,0.0168,0.0822,+1117,103,v1.2-g075
+630105,"Cronenworth, Jake",L,9,away,MIL,Logan Henderson,R,0.0223,0.0234,1.06,0.0193,0.0798,+1153,213,v1.2-g075
+666152,"Hamilton, David",L,9,home,MIL,Michael King,R,0.0199,0.0223,1.06,0.0185,0.0746,+1240,212,v1.2-g075
+686217,"Frelick, Sal",L,7,home,MIL,Michael King,R,0.0175,0.0197,1.06,0.0163,0.0709,+1310,226,v1.2-g075
+806198,"Pratt, Cooper",R,8,home,MIL,Michael King,R,0.021,0.0188,1.04,0.0152,0.0699,+1331,140,v1.2-g075
