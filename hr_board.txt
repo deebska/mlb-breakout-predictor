@@ -1,20 +1,20 @@
-HR BOARD -- 2026-10-04 -- 18 hitters composed
+HR BOARD -- 2026-10-05 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Tatis Jr., Fernando     R    1    MIL  Logan Henderson       0.0507  0.0485   1.04  0.0394   0.158   +534   393  
-Merrill, Jackson        L    5    MIL  Logan Henderson       0.0518  0.0543   1.06  0.0449   0.158   +534   331  
-Bauers, Jake            L    3    MIL  Michael King          0.0434  0.0486   1.06  0.0402   0.146   +586   224  
-Chourio, Jackson        R    1    MIL  Michael King          0.0452  0.0406   1.04  0.0330   0.140   +616   272  
-Mitchell, Garrett       L    5    MIL  Michael King          0.0406  0.0454   1.06  0.0375   0.134   +645   224  
-Contreras, William      R    4    MIL  Michael King          0.0413  0.0371   1.04  0.0301   0.124   +706   349  
-France, Ty              R    4    MIL  Logan Henderson       0.0381  0.0364   1.04  0.0296   0.122   +718   252  
-Yelich, Christian       L    6    MIL  Michael King          0.0364  0.0408   1.06  0.0337   0.122   +718   226  
-Machado, Manny          R    3    MIL  Logan Henderson       0.0363  0.0347   1.04  0.0282   0.120   +731   344  
-Turang, Brice           L    2    MIL  Michael King          0.0319  0.0357   1.06  0.0296   0.119   +740   290  
-Sheets, Gavin           L    6    MIL  Logan Henderson       0.0329  0.0345   1.06  0.0285   0.112   +793   235  
-Campusano, Luis         R    8    MIL  Logan Henderson       0.0355  0.0340   1.04  0.0276   0.108   +829   126  
-Bogaerts, Xander        R    7    MIL  Logan Henderson       0.0280  0.0268   1.04  0.0217   0.092   +981   295  
-Harris, Dustin          L    2    MIL  Logan Henderson       0.0194  0.0204   1.06  0.0168   0.082   +1117  103  
-Cronenworth, Jake       L    9    MIL  Logan Henderson       0.0223  0.0234   1.06  0.0193   0.080   +1153  213  
-Hamilton, David         L    9    MIL  Michael King          0.0199  0.0223   1.06  0.0185   0.075   +1240  212  
-Frelick, Sal            L    7    MIL  Michael King          0.0175  0.0197   1.06  0.0163   0.071   +1310  226  
-Pratt, Cooper           R    8    MIL  Michael King          0.0210  0.0188   1.04  0.0152   0.070   +1331  140  
+Murakami, Munetaka      L    4    CLE  Gavin Williams        0.0524  0.0579   0.82  0.0373   0.129   +675   182  
+Vargas, Miguel          R    3    CLE  Gavin Williams        0.0482  0.0549   0.79  0.0339   0.122   +722   331  
+Adell, Jo               R    4    CLE  Anthony Kay           0.0430  0.0596   0.79  0.0369   0.112   +794   132  
+Teel, Kyle              L    2    CLE  Gavin Williams        0.0352  0.0389   0.82  0.0250   0.100   +899   51   
+Benintendi, Andrew      L    5    CLE  Gavin Williams        0.0372  0.0412   0.82  0.0265   0.099   +909   286  
+Martínez, Angel         R    6    CLE  Anthony Kay           0.0335  0.0466   0.79  0.0288   0.095   +950   122  
+Montgomery, Colson      L    9    CLE  Gavin Williams        0.0368  0.0407   0.82  0.0262   0.091   +998   223  
+Ramírez, José           R    2    CLE  Anthony Kay           0.0276  0.0385   0.79  0.0238   0.084   +1088  133  
+Antonacci, Sam          L    1    CLE  Gavin Williams        0.0268  0.0297   0.82  0.0191   0.084   +1098  327  
+Bailey, Patrick         R    8    CLE  Anthony Kay           0.0255  0.0356   0.79  0.0220   0.080   +1144  33   
+Peters, Tristan         L    6    CLE  Gavin Williams        0.0281  0.0312   0.82  0.0201   0.080   +1158  307  
+DeLauter, Chase         L    3    CLE  Anthony Kay           0.0252  0.0201   0.82  0.0129   0.071   +1308  128  
+Montgomery, Braden      L    7    CLE  Gavin Williams        0.0234  0.0259   0.82  0.0166   0.068   +1366  188  
+Rocchio, Brayan         R    9    CLE  Anthony Kay           0.0239  0.0333   0.79  0.0206   0.068   +1377  154  
+Lowe, Nathaniel         L    5    CLE  Anthony Kay           0.0184  0.0147   0.82  0.0094   0.065   +1436  33   
+Meidroth, Chase         R    8    CLE  Gavin Williams        0.0201  0.0229   0.79  0.0142   0.059   +1592  304  
+Bazzana, Travis         L    7    CLE  Anthony Kay           0.0196  0.0156   0.82  0.0101   0.055   +1712  105  
+Kwan, Steven            L    1    CLE  Anthony Kay           0.0094  0.0075   0.82  0.0048   0.032   +2986  146  
