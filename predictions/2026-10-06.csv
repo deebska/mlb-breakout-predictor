@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-686948,"Baldwin, Drake",L,1,home,ATL,Yoshinobu Yamamoto,R,0.0575,0.0529,0.968,0.0399,0.157,+537,264,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Yoshinobu Yamamoto,R,0.0545,0.0501,0.968,0.0379,0.1461,+584,272,v1.2-g075
-660271,"Ohtani, Shohei",L,5,away,ATL,Chris Sale,L,0.0464,0.045,0.968,0.034,0.1366,+632,128,v1.2-g075
-671739,"Harris II, Michael",L,5,home,ATL,Yoshinobu Yamamoto,R,0.052,0.0479,0.968,0.0361,0.1361,+635,306,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Yoshinobu Yamamoto,R,0.0478,0.0433,0.978,0.033,0.1357,+637,219,v1.2-g075
-605141,"Betts, Mookie",R,1,away,ATL,Chris Sale,L,0.0434,0.0409,0.978,0.0312,0.1225,+716,140,v1.2-g075
-606192,"Hernández, Teoscar",R,3,away,ATL,Chris Sale,L,0.0418,0.0394,0.978,0.03,0.118,+747,98,v1.2-g075
-669257,"Smith, Will",R,4,away,ATL,Chris Sale,L,0.0259,0.0244,0.978,0.0186,0.1144,+774,50,v1.2-g075
-663586,"Riley, Austin",R,8,home,ATL,Yoshinobu Yamamoto,R,0.0419,0.0378,0.978,0.0288,0.1093,+815,268,v1.2-g075
-518692,"Freeman, Freddie",L,2,away,ATL,Chris Sale,L,0.0259,0.0251,0.968,0.019,0.1042,+860,153,v1.2-g075
-681624,"Pages, Andy",R,7,away,ATL,Chris Sale,L,0.0379,0.0357,0.978,0.0272,0.1023,+878,119,v1.2-g075
-663656,"Tucker, Kyle",L,8,away,ATL,Chris Sale,L,0.0311,0.0302,0.968,0.0228,0.0893,+1020,134,v1.2-g075
-669221,"Murphy, Sean",R,7,home,ATL,Yoshinobu Yamamoto,R,0.0296,0.0267,0.978,0.0204,0.087,+1049,54,v1.2-g075
-571771,"Hernández, Enrique",R,9,away,ATL,Chris Sale,L,0.0294,0.0277,0.978,0.0211,0.0867,+1053,33,v1.2-g075
-500743,"Rojas, Miguel",R,6,away,ATL,Chris Sale,L,0.0301,0.0283,0.978,0.0216,0.086,+1063,132,v1.2-g075
-645277,"Albies, Ozzie",L,4,home,ATL,Yoshinobu Yamamoto,R,0.0223,0.0205,0.968,0.0155,0.0755,+1225,298,v1.2-g075
-643289,"Dubón, Mauricio",R,6,home,ATL,Yoshinobu Yamamoto,R,0.0229,0.0206,0.978,0.0157,0.0737,+1257,323,v1.2-g075
-673490,"Kim, Ha-Seong",R,9,home,ATL,Yoshinobu Yamamoto,R,0.0214,0.0193,0.978,0.0147,0.0655,+1427,48,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Yoshinobu Yamamoto,R,0.0575,0.0529,1.011,0.0417,0.1636,+511,264,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Yoshinobu Yamamoto,R,0.0545,0.0501,1.011,0.0395,0.1522,+557,272,v1.2-g075
+660271,"Ohtani, Shohei",L,5,away,ATL,Chris Sale,L,0.0464,0.045,1.011,0.0355,0.1424,+602,128,v1.2-g075
+671739,"Harris II, Michael",L,5,home,ATL,Yoshinobu Yamamoto,R,0.052,0.0479,1.011,0.0377,0.1418,+605,306,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Yoshinobu Yamamoto,R,0.0478,0.0433,1.021,0.0344,0.1413,+608,219,v1.2-g075
+605141,"Betts, Mookie",R,1,away,ATL,Chris Sale,L,0.0434,0.0409,1.021,0.0326,0.1277,+683,140,v1.2-g075
+606192,"Hernández, Teoscar",R,3,away,ATL,Chris Sale,L,0.0418,0.0394,1.021,0.0314,0.123,+713,98,v1.2-g075
+669257,"Smith, Will",R,4,away,ATL,Chris Sale,L,0.0259,0.0244,1.021,0.0194,0.1192,+739,50,v1.2-g075
+663586,"Riley, Austin",R,8,home,ATL,Yoshinobu Yamamoto,R,0.0419,0.0378,1.021,0.0301,0.1139,+778,268,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,ATL,Chris Sale,L,0.0259,0.0251,1.011,0.0198,0.1086,+821,153,v1.2-g075
+681624,"Pages, Andy",R,7,away,ATL,Chris Sale,L,0.0379,0.0357,1.021,0.0284,0.1067,+837,119,v1.2-g075
+657041,"Thomas, Lane",R,7,home,ATL,Yoshinobu Yamamoto,R,0.0316,0.0285,1.021,0.0227,0.095,+953,132,v1.2-g075
+663656,"Tucker, Kyle",L,8,away,ATL,Chris Sale,L,0.0311,0.0302,1.011,0.0238,0.0931,+974,134,v1.2-g075
+571771,"Hernández, Enrique",R,9,away,ATL,Chris Sale,L,0.0294,0.0277,1.021,0.022,0.0905,+1005,33,v1.2-g075
+500743,"Rojas, Miguel",R,6,away,ATL,Chris Sale,L,0.0301,0.0283,1.021,0.0225,0.0897,+1015,132,v1.2-g075
+645277,"Albies, Ozzie",L,4,home,ATL,Yoshinobu Yamamoto,R,0.0223,0.0205,1.011,0.0162,0.0788,+1169,298,v1.2-g075
+643289,"Dubón, Mauricio",R,6,home,ATL,Yoshinobu Yamamoto,R,0.0229,0.0206,1.021,0.0164,0.0768,+1202,323,v1.2-g075
+673490,"Kim, Ha-Seong",R,9,home,ATL,Yoshinobu Yamamoto,R,0.0214,0.0193,1.021,0.0153,0.0684,+1362,48,v1.2-g075

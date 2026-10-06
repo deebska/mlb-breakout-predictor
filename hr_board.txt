@@ -1,20 +1,20 @@
 HR BOARD -- 2026-10-06 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Baldwin, Drake          L    1    ATL  Yoshinobu Yamamoto    0.0575  0.0529   0.97  0.0399   0.157   +537   264  
-Olson, Matt             L    3    ATL  Yoshinobu Yamamoto    0.0545  0.0501   0.97  0.0379   0.146   +584   272  
-Ohtani, Shohei          L    5    ATL  Chris Sale            0.0464  0.0450   0.97  0.0340   0.137   +632   128  
-Harris II, Michael      L    5    ATL  Yoshinobu Yamamoto    0.0520  0.0479   0.97  0.0361   0.136   +635   306  
-Acuña Jr., Ronald       R    2    ATL  Yoshinobu Yamamoto    0.0478  0.0433   0.98  0.0330   0.136   +637   219  
-Betts, Mookie           R    1    ATL  Chris Sale            0.0434  0.0409   0.98  0.0312   0.122   +716   140  
-Hernández, Teoscar      R    3    ATL  Chris Sale            0.0418  0.0394   0.98  0.0300   0.118   +747   98   
-Smith, Will             R    4    ATL  Chris Sale            0.0259  0.0244   0.98  0.0186   0.114   +774   50   
-Riley, Austin           R    8    ATL  Yoshinobu Yamamoto    0.0419  0.0378   0.98  0.0288   0.109   +815   268  
-Freeman, Freddie        L    2    ATL  Chris Sale            0.0259  0.0251   0.97  0.0190   0.104   +860   153  
-Pages, Andy             R    7    ATL  Chris Sale            0.0379  0.0357   0.98  0.0272   0.102   +878   119  
-Tucker, Kyle            L    8    ATL  Chris Sale            0.0311  0.0302   0.97  0.0228   0.089   +1020  134  
-Murphy, Sean            R    7    ATL  Yoshinobu Yamamoto    0.0296  0.0267   0.98  0.0204   0.087   +1049  54   
-Hernández, Enrique      R    9    ATL  Chris Sale            0.0294  0.0277   0.98  0.0211   0.087   +1053  33   
-Rojas, Miguel           R    6    ATL  Chris Sale            0.0301  0.0283   0.98  0.0216   0.086   +1063  132  
-Albies, Ozzie           L    4    ATL  Yoshinobu Yamamoto    0.0223  0.0205   0.97  0.0155   0.075   +1225  298  
-Dubón, Mauricio         R    6    ATL  Yoshinobu Yamamoto    0.0229  0.0206   0.98  0.0157   0.074   +1257  323  
-Kim, Ha-Seong           R    9    ATL  Yoshinobu Yamamoto    0.0214  0.0193   0.98  0.0147   0.066   +1427  48   
+Baldwin, Drake          L    1    ATL  Yoshinobu Yamamoto    0.0575  0.0529   1.01  0.0417   0.164   +511   264  
+Olson, Matt             L    3    ATL  Yoshinobu Yamamoto    0.0545  0.0501   1.01  0.0395   0.152   +557   272  
+Ohtani, Shohei          L    5    ATL  Chris Sale            0.0464  0.0450   1.01  0.0355   0.142   +602   128  
+Harris II, Michael      L    5    ATL  Yoshinobu Yamamoto    0.0520  0.0479   1.01  0.0377   0.142   +605   306  
+Acuña Jr., Ronald       R    2    ATL  Yoshinobu Yamamoto    0.0478  0.0433   1.02  0.0344   0.141   +608   219  
+Betts, Mookie           R    1    ATL  Chris Sale            0.0434  0.0409   1.02  0.0326   0.128   +683   140  
+Hernández, Teoscar      R    3    ATL  Chris Sale            0.0418  0.0394   1.02  0.0314   0.123   +713   98   
+Smith, Will             R    4    ATL  Chris Sale            0.0259  0.0244   1.02  0.0194   0.119   +739   50   
+Riley, Austin           R    8    ATL  Yoshinobu Yamamoto    0.0419  0.0378   1.02  0.0301   0.114   +778   268  
+Freeman, Freddie        L    2    ATL  Chris Sale            0.0259  0.0251   1.01  0.0198   0.109   +821   153  
+Pages, Andy             R    7    ATL  Chris Sale            0.0379  0.0357   1.02  0.0284   0.107   +837   119  
+Thomas, Lane            R    7    ATL  Yoshinobu Yamamoto    0.0316  0.0285   1.02  0.0227   0.095   +953   132  
+Tucker, Kyle            L    8    ATL  Chris Sale            0.0311  0.0302   1.01  0.0238   0.093   +974   134  
+Hernández, Enrique      R    9    ATL  Chris Sale            0.0294  0.0277   1.02  0.0220   0.090   +1005  33   
+Rojas, Miguel           R    6    ATL  Chris Sale            0.0301  0.0283   1.02  0.0225   0.090   +1015  132  
+Albies, Ozzie           L    4    ATL  Yoshinobu Yamamoto    0.0223  0.0205   1.01  0.0162   0.079   +1169  298  
+Dubón, Mauricio         R    6    ATL  Yoshinobu Yamamoto    0.0229  0.0206   1.02  0.0164   0.077   +1202  323  
+Kim, Ha-Seong           R    9    ATL  Yoshinobu Yamamoto    0.0214  0.0193   1.02  0.0153   0.068   +1362  48   
