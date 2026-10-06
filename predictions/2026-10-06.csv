@@ -1,37 +1,37 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-686948,"Baldwin, Drake",L,1,home,ATL,Yoshinobu Yamamoto,R,0.0575,0.0529,1.047,0.0432,0.168,+495,264,v1.2-g075
-665487,"Tatis Jr., Fernando",R,1,home,SD,Dustin May,R,0.0507,0.0589,1.019,0.0469,0.166,+502,393,v1.2-g075
-621566,"Olson, Matt",L,3,home,ATL,Yoshinobu Yamamoto,R,0.0545,0.0501,1.047,0.0409,0.1563,+540,272,v1.2-g075
-660271,"Ohtani, Shohei",L,5,away,ATL,Chris Sale,L,0.0464,0.045,1.047,0.0367,0.1462,+584,128,v1.2-g075
-671739,"Harris II, Michael",L,5,home,ATL,Yoshinobu Yamamoto,R,0.052,0.0479,1.047,0.0391,0.1455,+587,306,v1.2-g075
-660670,"Acuña Jr., Ronald",R,2,home,ATL,Yoshinobu Yamamoto,R,0.0478,0.0433,1.057,0.0357,0.1451,+589,219,v1.2-g075
-701538,"Merrill, Jackson",L,2,home,SD,Dustin May,R,0.0518,0.0441,1.008,0.0347,0.145,+590,331,v1.2-g075
-694192,"Chourio, Jackson",R,1,away,SD,Nick Pivetta,R,0.0452,0.0439,1.019,0.0349,0.1442,+593,272,v1.2-g075
-641343,"Bauers, Jake",L,2,away,SD,Nick Pivetta,R,0.0434,0.0466,1.008,0.0367,0.1427,+601,224,v1.2-g075
-605141,"Betts, Mookie",R,1,away,ATL,Chris Sale,L,0.0434,0.0409,1.057,0.0337,0.1311,+663,140,v1.2-g075
-661388,"Contreras, William",R,3,away,SD,Nick Pivetta,R,0.0413,0.0401,1.019,0.0318,0.1308,+665,349,v1.2-g075
-664034,"France, Ty",R,4,home,SD,Dustin May,R,0.0381,0.0444,1.019,0.0353,0.1294,+673,252,v1.2-g075
-592518,"Machado, Manny",R,3,home,SD,Dustin May,R,0.0363,0.0423,1.019,0.0336,0.1272,+686,344,v1.2-g075
-669003,"Mitchell, Garrett",L,6,away,SD,Nick Pivetta,R,0.0406,0.0436,1.008,0.0343,0.127,+687,224,v1.2-g075
-606192,"Hernández, Teoscar",R,3,away,ATL,Chris Sale,L,0.0418,0.0394,1.057,0.0325,0.1262,+692,98,v1.2-g075
-669257,"Smith, Will",R,4,away,ATL,Chris Sale,L,0.0259,0.0244,1.057,0.0201,0.1223,+718,50,v1.2-g075
+686948,"Baldwin, Drake",L,1,home,ATL,Yoshinobu Yamamoto,R,0.0575,0.0529,1.047,0.0432,0.1679,+496,264,v1.2-g075
+665487,"Tatis Jr., Fernando",R,1,home,SD,Dustin May,R,0.0507,0.0589,1.019,0.0469,0.1659,+503,393,v1.2-g075
+621566,"Olson, Matt",L,3,home,ATL,Yoshinobu Yamamoto,R,0.0545,0.0501,1.047,0.0409,0.1562,+540,272,v1.2-g075
+660271,"Ohtani, Shohei",L,5,away,ATL,Chris Sale,L,0.0464,0.045,1.047,0.0367,0.1461,+584,128,v1.2-g075
+671739,"Harris II, Michael",L,5,home,ATL,Yoshinobu Yamamoto,R,0.052,0.0479,1.047,0.0391,0.1454,+588,306,v1.2-g075
+660670,"Acuña Jr., Ronald",R,2,home,ATL,Yoshinobu Yamamoto,R,0.0478,0.0433,1.057,0.0357,0.145,+590,219,v1.2-g075
+701538,"Merrill, Jackson",L,2,home,SD,Dustin May,R,0.0518,0.0441,1.008,0.0347,0.1449,+590,331,v1.2-g075
+694192,"Chourio, Jackson",R,1,away,SD,Nick Pivetta,R,0.0452,0.0439,1.019,0.0349,0.1441,+594,272,v1.2-g075
+641343,"Bauers, Jake",L,2,away,SD,Nick Pivetta,R,0.0434,0.0466,1.008,0.0367,0.1426,+601,224,v1.2-g075
+605141,"Betts, Mookie",R,1,away,ATL,Chris Sale,L,0.0434,0.0409,1.057,0.0337,0.131,+663,140,v1.2-g075
+661388,"Contreras, William",R,3,away,SD,Nick Pivetta,R,0.0413,0.0401,1.019,0.0318,0.1307,+665,349,v1.2-g075
+664034,"France, Ty",R,4,home,SD,Dustin May,R,0.0381,0.0444,1.019,0.0353,0.1293,+673,252,v1.2-g075
+592518,"Machado, Manny",R,3,home,SD,Dustin May,R,0.0363,0.0423,1.019,0.0336,0.1271,+687,344,v1.2-g075
+669003,"Mitchell, Garrett",L,6,away,SD,Nick Pivetta,R,0.0406,0.0436,1.008,0.0343,0.1269,+688,224,v1.2-g075
+606192,"Hernández, Teoscar",R,3,away,ATL,Chris Sale,L,0.0418,0.0394,1.057,0.0325,0.1261,+693,98,v1.2-g075
+669257,"Smith, Will",R,4,away,ATL,Chris Sale,L,0.0259,0.0244,1.057,0.0201,0.1222,+718,50,v1.2-g075
 592885,"Yelich, Christian",L,5,away,SD,Nick Pivetta,R,0.0364,0.0391,1.008,0.0308,0.1196,+736,226,v1.2-g075
-663586,"Riley, Austin",R,8,home,ATL,Yoshinobu Yamamoto,R,0.0419,0.0378,1.057,0.0312,0.1169,+755,268,v1.2-g075
-518692,"Freeman, Freddie",L,2,away,ATL,Chris Sale,L,0.0259,0.0251,1.047,0.0205,0.1115,+797,153,v1.2-g075
+663586,"Riley, Austin",R,8,home,ATL,Yoshinobu Yamamoto,R,0.0419,0.0378,1.057,0.0312,0.1168,+756,268,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,ATL,Chris Sale,L,0.0259,0.0251,1.047,0.0205,0.1114,+798,153,v1.2-g075
 668930,"Turang, Brice",L,4,away,SD,Nick Pivetta,R,0.0319,0.0343,1.008,0.027,0.1107,+803,290,v1.2-g075
-681624,"Pages, Andy",R,7,away,ATL,Chris Sale,L,0.0379,0.0357,1.057,0.0294,0.1095,+813,119,v1.2-g075
-593428,"Bogaerts, Xander",R,7,home,SD,Dustin May,R,0.028,0.0327,1.019,0.026,0.0987,+913,295,v1.2-g075
-657041,"Thomas, Lane",R,7,home,ATL,Yoshinobu Yamamoto,R,0.0316,0.0285,1.057,0.0235,0.0975,+926,132,v1.2-g075
-657757,"Sheets, Gavin",L,6,home,SD,Dustin May,R,0.0329,0.0279,1.008,0.0219,0.0965,+936,235,v1.2-g075
-663656,"Tucker, Kyle",L,8,away,ATL,Chris Sale,L,0.0311,0.0302,1.047,0.0246,0.0956,+946,134,v1.2-g075
-571771,"Hernández, Enrique",R,9,away,ATL,Chris Sale,L,0.0294,0.0277,1.057,0.0228,0.0929,+976,33,v1.2-g075
+681624,"Pages, Andy",R,7,away,ATL,Chris Sale,L,0.0379,0.0357,1.057,0.0294,0.1094,+814,119,v1.2-g075
+593428,"Bogaerts, Xander",R,6,home,SD,Dustin May,R,0.028,0.0327,1.019,0.026,0.1004,+896,295,v1.2-g075
+657041,"Thomas, Lane",R,7,home,ATL,Yoshinobu Yamamoto,R,0.0316,0.0285,1.057,0.0235,0.0974,+927,132,v1.2-g075
+663656,"Tucker, Kyle",L,8,away,ATL,Chris Sale,L,0.0311,0.0302,1.047,0.0246,0.0955,+947,134,v1.2-g075
+571771,"Hernández, Enrique",R,9,away,ATL,Chris Sale,L,0.0294,0.0277,1.057,0.0228,0.0928,+978,33,v1.2-g075
 500743,"Rojas, Miguel",R,6,away,ATL,Chris Sale,L,0.0301,0.0283,1.057,0.0233,0.0921,+986,132,v1.2-g075
 806956,"Salas, Ethan",L,5,home,SD,Dustin May,R,0.0276,0.0234,1.008,0.0184,0.0868,+1052,25,v1.2-g075
+669392,"Taylor, Samad",R,8,home,SD,Dustin May,R,0.022,0.0257,1.019,0.0205,0.0814,+1129,78,v1.2-g075
 645277,"Albies, Ozzie",L,4,home,ATL,Yoshinobu Yamamoto,R,0.0223,0.0205,1.047,0.0167,0.0809,+1136,298,v1.2-g075
-643289,"Dubón, Mauricio",R,6,home,ATL,Yoshinobu Yamamoto,R,0.0229,0.0206,1.057,0.017,0.0789,+1167,323,v1.2-g075
+643289,"Dubón, Mauricio",R,6,home,ATL,Yoshinobu Yamamoto,R,0.0229,0.0206,1.057,0.017,0.0788,+1169,323,v1.2-g075
 806198,"Pratt, Cooper",R,7,away,SD,Nick Pivetta,R,0.021,0.0203,1.019,0.0162,0.0745,+1242,140,v1.2-g075
-687401,"Ortiz, Joey",R,9,away,SD,Nick Pivetta,R,0.0215,0.0209,1.019,0.0166,0.0727,+1276,192,v1.2-g075
+687401,"Ortiz, Joey",R,9,away,SD,Nick Pivetta,R,0.0215,0.0209,1.019,0.0166,0.0726,+1277,192,v1.2-g075
 673490,"Kim, Ha-Seong",R,9,home,ATL,Yoshinobu Yamamoto,R,0.0214,0.0193,1.057,0.0159,0.0701,+1327,48,v1.2-g075
 630105,"Cronenworth, Jake",L,9,home,SD,Dustin May,R,0.0223,0.0189,1.008,0.0149,0.0678,+1375,213,v1.2-g075
 686217,"Frelick, Sal",L,8,away,SD,Nick Pivetta,R,0.0175,0.0189,1.008,0.0148,0.0668,+1397,226,v1.2-g075
-687957,"Harris, Dustin",L,8,home,SD,Dustin May,R,0.0194,0.0164,1.008,0.0129,0.0629,+1490,103,v1.2-g075
+687957,"Harris, Dustin",L,7,home,SD,Dustin May,R,0.0194,0.0164,1.008,0.0129,0.0643,+1455,103,v1.2-g075
