@@ -1,20 +1,29 @@
-HR BOARD -- 2026-10-06 -- 18 hitters composed
+HR BOARD -- 2026-10-06 -- 27 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Baldwin, Drake          L    1    ATL  Yoshinobu Yamamoto    0.0575  0.0529   1.01  0.0417   0.164   +511   264  
-Olson, Matt             L    3    ATL  Yoshinobu Yamamoto    0.0545  0.0501   1.01  0.0395   0.152   +557   272  
-Ohtani, Shohei          L    5    ATL  Chris Sale            0.0464  0.0450   1.01  0.0355   0.142   +602   128  
-Harris II, Michael      L    5    ATL  Yoshinobu Yamamoto    0.0520  0.0479   1.01  0.0377   0.142   +605   306  
-Acuña Jr., Ronald       R    2    ATL  Yoshinobu Yamamoto    0.0478  0.0433   1.02  0.0344   0.141   +608   219  
-Betts, Mookie           R    1    ATL  Chris Sale            0.0434  0.0409   1.02  0.0326   0.128   +683   140  
-Hernández, Teoscar      R    3    ATL  Chris Sale            0.0418  0.0394   1.02  0.0314   0.123   +713   98   
-Smith, Will             R    4    ATL  Chris Sale            0.0259  0.0244   1.02  0.0194   0.119   +739   50   
-Riley, Austin           R    8    ATL  Yoshinobu Yamamoto    0.0419  0.0378   1.02  0.0301   0.114   +778   268  
-Freeman, Freddie        L    2    ATL  Chris Sale            0.0259  0.0251   1.01  0.0198   0.109   +821   153  
-Pages, Andy             R    7    ATL  Chris Sale            0.0379  0.0357   1.02  0.0284   0.107   +837   119  
-Thomas, Lane            R    7    ATL  Yoshinobu Yamamoto    0.0316  0.0285   1.02  0.0227   0.095   +953   132  
-Tucker, Kyle            L    8    ATL  Chris Sale            0.0311  0.0302   1.01  0.0238   0.093   +974   134  
-Hernández, Enrique      R    9    ATL  Chris Sale            0.0294  0.0277   1.02  0.0220   0.090   +1005  33   
-Rojas, Miguel           R    6    ATL  Chris Sale            0.0301  0.0283   1.02  0.0225   0.090   +1015  132  
-Albies, Ozzie           L    4    ATL  Yoshinobu Yamamoto    0.0223  0.0205   1.01  0.0162   0.079   +1169  298  
-Dubón, Mauricio         R    6    ATL  Yoshinobu Yamamoto    0.0229  0.0206   1.02  0.0164   0.077   +1202  323  
-Kim, Ha-Seong           R    9    ATL  Yoshinobu Yamamoto    0.0214  0.0193   1.02  0.0153   0.068   +1362  48   
+Tatis Jr., Fernando     R    1    SD   Dustin May            0.0507  0.0589   1.01  0.0467   0.165   +506   393  
+Baldwin, Drake          L    1    ATL  Yoshinobu Yamamoto    0.0575  0.0529   1.01  0.0417   0.163   +512   264  
+Olson, Matt             L    3    ATL  Yoshinobu Yamamoto    0.0545  0.0501   1.01  0.0395   0.152   +558   272  
+Merrill, Jackson        L    2    SD   Dustin May            0.0518  0.0441   1.00  0.0346   0.144   +593   331  
+Ohtani, Shohei          L    5    ATL  Chris Sale            0.0464  0.0450   1.01  0.0355   0.142   +604   128  
+Harris II, Michael      L    5    ATL  Yoshinobu Yamamoto    0.0520  0.0479   1.01  0.0377   0.141   +607   306  
+Acuña Jr., Ronald       R    2    ATL  Yoshinobu Yamamoto    0.0478  0.0433   1.02  0.0344   0.141   +609   219  
+France, Ty              R    4    SD   Dustin May            0.0381  0.0444   1.01  0.0351   0.129   +678   252  
+Betts, Mookie           R    1    ATL  Chris Sale            0.0434  0.0409   1.02  0.0326   0.127   +685   140  
+Machado, Manny          R    3    SD   Dustin May            0.0363  0.0423   1.01  0.0335   0.126   +691   344  
+Hernández, Teoscar      R    3    ATL  Chris Sale            0.0418  0.0394   1.02  0.0314   0.123   +715   98   
+Smith, Will             R    4    ATL  Chris Sale            0.0259  0.0244   1.02  0.0194   0.119   +741   50   
+Riley, Austin           R    8    ATL  Yoshinobu Yamamoto    0.0419  0.0378   1.02  0.0301   0.114   +780   268  
+Freeman, Freddie        L    2    ATL  Chris Sale            0.0259  0.0251   1.01  0.0198   0.108   +823   153  
+Pages, Andy             R    7    ATL  Chris Sale            0.0379  0.0357   1.02  0.0284   0.106   +840   119  
+Bogaerts, Xander        R    7    SD   Dustin May            0.0280  0.0327   1.01  0.0259   0.098   +919   295  
+Sheets, Gavin           L    6    SD   Dustin May            0.0329  0.0279   1.00  0.0219   0.096   +944   235  
+Thomas, Lane            R    7    ATL  Yoshinobu Yamamoto    0.0316  0.0285   1.02  0.0227   0.095   +955   132  
+Tucker, Kyle            L    8    ATL  Chris Sale            0.0311  0.0302   1.01  0.0238   0.093   +976   134  
+Hernández, Enrique      R    9    ATL  Chris Sale            0.0294  0.0277   1.02  0.0220   0.090   +1007  33   
+Rojas, Miguel           R    6    ATL  Chris Sale            0.0301  0.0283   1.02  0.0225   0.089   +1017  132  
+Salas, Ethan            L    5    SD   Dustin May            0.0276  0.0234   1.00  0.0183   0.086   +1059  25   
+Albies, Ozzie           L    4    ATL  Yoshinobu Yamamoto    0.0223  0.0205   1.01  0.0162   0.079   +1172  298  
+Dubón, Mauricio         R    6    ATL  Yoshinobu Yamamoto    0.0229  0.0206   1.02  0.0164   0.077   +1205  323  
+Kim, Ha-Seong           R    9    ATL  Yoshinobu Yamamoto    0.0214  0.0193   1.02  0.0153   0.068   +1366  48   
+Cronenworth, Jake       L    9    SD   Dustin May            0.0223  0.0189   1.00  0.0148   0.067   +1384  213  
+Harris, Dustin          L    8    SD   Dustin May            0.0194  0.0164   1.00  0.0129   0.062   +1500  103  
