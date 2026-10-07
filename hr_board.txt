@@ -1,38 +1,11 @@
-HR BOARD -- 2026-10-06 -- 36 hitters composed
+HR BOARD -- 2026-10-07 -- 9 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Tatis Jr., Fernando     R    1    SD   Dustin May            0.0507  0.0589   1.02  0.0468   0.165   +505   393  
-Baldwin, Drake          L    1    ATL  Yoshinobu Yamamoto    0.0575  0.0529   1.03  0.0424   0.165   +505   264  
-Olson, Matt             L    3    ATL  Yoshinobu Yamamoto    0.0545  0.0501   1.03  0.0402   0.154   +550   272  
-Merrill, Jackson        L    2    SD   Dustin May            0.0518  0.0441   1.01  0.0347   0.145   +592   331  
-Ohtani, Shohei          L    5    ATL  Chris Sale            0.0464  0.0450   1.03  0.0361   0.144   +595   128  
-Chourio, Jackson        R    1    SD   Nick Pivetta          0.0452  0.0439   1.02  0.0348   0.144   +596   272  
-Harris II, Michael      L    5    ATL  Yoshinobu Yamamoto    0.0520  0.0479   1.03  0.0384   0.143   +598   306  
-Acuña Jr., Ronald       R    2    ATL  Yoshinobu Yamamoto    0.0478  0.0433   1.04  0.0350   0.143   +600   219  
-Bauers, Jake            L    2    SD   Nick Pivetta          0.0434  0.0466   1.01  0.0367   0.142   +603   224  
-Contreras, William      R    3    SD   Nick Pivetta          0.0413  0.0401   1.02  0.0318   0.130   +667   349  
-France, Ty              R    4    SD   Dustin May            0.0381  0.0444   1.02  0.0352   0.129   +676   252  
-Betts, Mookie           R    1    ATL  Chris Sale            0.0434  0.0409   1.04  0.0331   0.129   +676   140  
-Machado, Manny          R    3    SD   Dustin May            0.0363  0.0423   1.02  0.0336   0.127   +689   344  
-Mitchell, Garrett       L    6    SD   Nick Pivetta          0.0406  0.0436   1.01  0.0343   0.127   +690   224  
-Hernández, Teoscar      R    3    ATL  Chris Sale            0.0418  0.0394   1.04  0.0319   0.124   +705   98   
-Smith, Will             R    4    ATL  Chris Sale            0.0259  0.0244   1.04  0.0197   0.120   +731   50   
-Yelich, Christian       L    5    SD   Nick Pivetta          0.0364  0.0391   1.01  0.0308   0.119   +738   226  
-Riley, Austin           R    8    ATL  Yoshinobu Yamamoto    0.0419  0.0378   1.04  0.0306   0.115   +770   268  
-Turang, Brice           L    4    SD   Nick Pivetta          0.0319  0.0343   1.01  0.0270   0.110   +806   290  
-Freeman, Freddie        L    2    ATL  Chris Sale            0.0259  0.0251   1.03  0.0201   0.110   +812   153  
-Pages, Andy             R    7    ATL  Chris Sale            0.0379  0.0357   1.04  0.0289   0.108   +829   119  
-Bogaerts, Xander        R    6    SD   Dustin May            0.0280  0.0327   1.02  0.0260   0.100   +899   295  
-Thomas, Lane            R    7    ATL  Yoshinobu Yamamoto    0.0316  0.0285   1.04  0.0231   0.096   +943   132  
-Tucker, Kyle            L    8    ATL  Chris Sale            0.0311  0.0302   1.03  0.0242   0.094   +964   134  
-Hernández, Enrique      R    9    ATL  Chris Sale            0.0294  0.0277   1.04  0.0224   0.091   +994   33   
-Rojas, Miguel           R    6    ATL  Chris Sale            0.0301  0.0283   1.04  0.0229   0.091   +1004  132  
-Salas, Ethan            L    5    SD   Dustin May            0.0276  0.0234   1.01  0.0184   0.087   +1055  25   
-Taylor, Samad           R    8    SD   Dustin May            0.0220  0.0257   1.02  0.0204   0.081   +1132  78   
-Albies, Ozzie           L    4    ATL  Yoshinobu Yamamoto    0.0223  0.0205   1.03  0.0164   0.080   +1156  298  
-Dubón, Mauricio         R    6    ATL  Yoshinobu Yamamoto    0.0229  0.0206   1.04  0.0167   0.078   +1189  323  
-Pratt, Cooper           R    7    SD   Nick Pivetta          0.0210  0.0203   1.02  0.0161   0.074   +1248  140  
-Ortiz, Joey             R    9    SD   Nick Pivetta          0.0215  0.0209   1.02  0.0166   0.072   +1281  192  
-Kim, Ha-Seong           R    9    ATL  Yoshinobu Yamamoto    0.0214  0.0193   1.04  0.0156   0.069   +1349  48   
-Cronenworth, Jake       L    9    SD   Dustin May            0.0223  0.0189   1.01  0.0149   0.068   +1379  213  
-Frelick, Sal            L    8    SD   Nick Pivetta          0.0175  0.0189   1.01  0.0148   0.067   +1402  226  
-Harris, Dustin          L    7    SD   Dustin May            0.0194  0.0164   1.01  0.0129   0.064   +1458  103  
+Vargas, Miguel          R    2    CWS  Daniel Espino         0.0482  0.0500   1.12  0.0437   0.160   +525   331  
+Murakami, Munetaka      L    3    CWS  Daniel Espino         0.0524  0.0494   1.11  0.0427   0.159   +528   182  
+Teel, Kyle              L    4    CWS  Daniel Espino         0.0352  0.0331   1.11  0.0286   0.118   +750   51   
+Montgomery, Colson      L    9    CWS  Daniel Espino         0.0368  0.0346   1.11  0.0299   0.109   +814   223  
+Antonacci, Sam          L    1    CWS  Daniel Espino         0.0268  0.0252   1.11  0.0218   0.102   +879   327  
+Peters, Tristan         L    6    CWS  Daniel Espino         0.0281  0.0265   1.11  0.0229   0.096   +938   307  
+Grichuk, Randal         R    8    CWS  Daniel Espino         0.0274  0.0285   1.12  0.0249   0.096   +944   78   
+Montgomery, Braden      L    7    CWS  Daniel Espino         0.0234  0.0220   1.11  0.0190   0.083   +1112  188  
+Meidroth, Chase         R    5    CWS  Daniel Espino         0.0201  0.0208   1.12  0.0182   0.081   +1133  304  
