@@ -1,11 +1,20 @@
-HR BOARD -- 2026-10-07 -- 9 hitters composed
+HR BOARD -- 2026-10-07 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Vargas, Miguel          R    2    CWS  Daniel Espino         0.0482  0.0500   1.12  0.0437   0.160   +525   331  
-Murakami, Munetaka      L    3    CWS  Daniel Espino         0.0524  0.0494   1.11  0.0427   0.159   +528   182  
-Teel, Kyle              L    4    CWS  Daniel Espino         0.0352  0.0331   1.11  0.0286   0.118   +750   51   
-Montgomery, Colson      L    9    CWS  Daniel Espino         0.0368  0.0346   1.11  0.0299   0.109   +814   223  
-Antonacci, Sam          L    1    CWS  Daniel Espino         0.0268  0.0252   1.11  0.0218   0.102   +879   327  
-Peters, Tristan         L    6    CWS  Daniel Espino         0.0281  0.0265   1.11  0.0229   0.096   +938   307  
-Grichuk, Randal         R    8    CWS  Daniel Espino         0.0274  0.0285   1.12  0.0249   0.096   +944   78   
-Montgomery, Braden      L    7    CWS  Daniel Espino         0.0234  0.0220   1.11  0.0190   0.083   +1112  188  
-Meidroth, Chase         R    5    CWS  Daniel Espino         0.0201  0.0208   1.12  0.0182   0.081   +1133  304  
+Vargas, Miguel          R    2    CWS  Daniel Espino         0.0482  0.0500   1.00  0.0389   0.141   +612   331  
+Murakami, Munetaka      L    3    CWS  Daniel Espino         0.0524  0.0494   0.99  0.0381   0.140   +615   182  
+Adell, Jo               R    4    CWS  Sean Newcomb          0.0430  0.0441   1.00  0.0343   0.116   +761   132  
+Teel, Kyle              L    4    CWS  Daniel Espino         0.0352  0.0331   0.99  0.0255   0.103   +872   51   
+Martínez, Angel         R    6    CWS  Sean Newcomb          0.0335  0.0344   1.00  0.0267   0.100   +905   122  
+Montgomery, Colson      L    9    CWS  Daniel Espino         0.0368  0.0346   0.99  0.0267   0.096   +946   223  
+DeLauter, Chase         L    3    CWS  Sean Newcomb          0.0252  0.0253   0.99  0.0195   0.092   +992   128  
+Antonacci, Sam          L    1    CWS  Daniel Espino         0.0268  0.0252   0.99  0.0195   0.089   +1020  327  
+Ramírez, José           R    2    CWS  Sean Newcomb          0.0276  0.0283   1.00  0.0220   0.088   +1035  133  
+Bailey, Patrick         R    8    CWS  Sean Newcomb          0.0255  0.0262   1.00  0.0204   0.085   +1078  33   
+Peters, Tristan         L    6    CWS  Daniel Espino         0.0281  0.0265   0.99  0.0204   0.084   +1089  307  
+Grichuk, Randal         R    8    CWS  Daniel Espino         0.0274  0.0285   1.00  0.0222   0.084   +1095  78   
+Lowe, Nathaniel         L    5    CWS  Sean Newcomb          0.0184  0.0185   0.99  0.0143   0.084   +1098  33   
+Bazzana, Travis         L    7    CWS  Sean Newcomb          0.0196  0.0197   0.99  0.0152   0.072   +1283  105  
+Montgomery, Braden      L    7    CWS  Daniel Espino         0.0234  0.0220   0.99  0.0169   0.072   +1289  188  
+Meidroth, Chase         R    5    CWS  Daniel Espino         0.0201  0.0208   1.00  0.0162   0.071   +1312  304  
+Rocchio, Brayan         R    9    CWS  Sean Newcomb          0.0239  0.0245   1.00  0.0190   0.069   +1358  154  
+Kwan, Steven            L    1    CWS  Sean Newcomb          0.0094  0.0095   0.99  0.0073   0.042   +2270  146  
