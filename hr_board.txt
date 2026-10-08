@@ -1,74 +1,74 @@
 HR BOARD -- 2026-10-07 -- 72 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Rice, Ben               L    2    NYY  Nick Martinez         0.0543  0.0586   1.07  0.0489   0.169   +490   275  
-García Jr., Luis        L    3    NYY  Nick Martinez         0.0546  0.0590   1.07  0.0492   0.167   +498   353  
-Smith, Will             R    3    ATL  Tyler Mahle           0.0546  0.0532   1.05  0.0437   0.161   +522   144  
-Baldwin, Drake          L    5    ATL  Tyler Glasnow         0.0575  0.0583   1.04  0.0474   0.160   +525   264  
-Olson, Matt             L    3    ATL  Tyler Glasnow         0.0545  0.0553   1.04  0.0450   0.160   +526   272  
-Harris II, Michael      L    1    ATL  Tyler Glasnow         0.0520  0.0528   1.04  0.0429   0.160   +527   306  
-Ohtani, Shohei          L    4    ATL  Tyler Mahle           0.0542  0.0501   1.04  0.0407   0.153   +555   244  
-Tatis Jr., Fernando     R    1    SD   Robert Gasser         0.0429  0.0527   0.96  0.0396   0.150   +568   110  
-Chourio, Jackson        R    1    SD   Walker Buehler        0.0452  0.0526   0.96  0.0396   0.147   +581   272  
-Vargas, Miguel          R    2    CWS  Daniel Espino         0.0482  0.0500   0.99  0.0385   0.144   +593   331  
-Murakami, Munetaka      L    3    CWS  Daniel Espino         0.0524  0.0494   0.98  0.0377   0.144   +596   182  
-Acuña Jr., Ronald       R    2    ATL  Tyler Glasnow         0.0478  0.0433   1.05  0.0355   0.142   +603   219  
-Grisham, Trent          L    1    NYY  Nick Martinez         0.0412  0.0445   1.07  0.0371   0.141   +608   239  
-Contreras, William      R    3    SD   Walker Buehler        0.0413  0.0481   0.96  0.0362   0.134   +648   349  
-Muncy, Max              L    6    ATL  Tyler Mahle           0.0459  0.0424   1.04  0.0345   0.131   +666   267  
-Jones, Spencer          L    8    NYY  Nick Martinez         0.0432  0.0467   1.07  0.0389   0.129   +673   121  
-Machado, Manny          R    3    SD   Robert Gasser         0.0391  0.0480   0.96  0.0362   0.128   +684   110  
-Merrill, Jackson        L    2    SD   Robert Gasser         0.0359  0.0338   0.95  0.0251   0.124   +704   128  
-Freeman, Freddie        L    2    ATL  Tyler Mahle           0.0384  0.0355   1.04  0.0289   0.124   +708   315  
-Bauers, Jake            L    5    SD   Walker Buehler        0.0434  0.0418   0.95  0.0311   0.122   +719   224  
-Adell, Jo               R    4    CWS  Sean Newcomb          0.0430  0.0441   0.99  0.0339   0.120   +736   132  
-Bellinger, Cody         L    4    NYY  Nick Martinez         0.0346  0.0374   1.07  0.0312   0.119   +742   257  
-Betts, Mookie           R    1    ATL  Tyler Mahle           0.0331  0.0323   1.05  0.0265   0.116   +760   281  
-Aranda, Jonathan        L    2    NYY  Max Fried             0.0284  0.0269   1.07  0.0224   0.115   +767   115  
-Riley, Austin           R    8    ATL  Tyler Glasnow         0.0419  0.0379   1.05  0.0311   0.115   +773   268  
-Caminero, Junior        R    3    NYY  Max Fried             0.0443  0.0287   0.92  0.0207   0.115   +773   130  
-Yelich, Christian       L    2    SD   Walker Buehler        0.0364  0.0350   0.95  0.0261   0.114   +780   226  
-France, Ty              R    4    SD   Robert Gasser         0.0295  0.0363   0.96  0.0274   0.112   +794   87   
-Mesa Jr., Victor        L    4    NYY  Max Fried             0.0235  0.0223   1.07  0.0186   0.111   +800   52   
-Hernández, Teoscar      R    5    ATL  Tyler Mahle           0.0342  0.0333   1.05  0.0273   0.111   +802   211  
-Mitchell, Garrett       L    8    SD   Walker Buehler        0.0406  0.0390   0.95  0.0290   0.110   +812   224  
-Wells, Austin           L    6    NYY  Nick Martinez         0.0318  0.0344   1.07  0.0286   0.108   +828   172  
-Teel, Kyle              L    4    CWS  Daniel Espino         0.0352  0.0331   0.98  0.0252   0.106   +844   51   
-Martínez, Angel         R    6    CWS  Sean Newcomb          0.0335  0.0344   0.99  0.0264   0.102   +876   122  
-Turang, Brice           L    4    SD   Walker Buehler        0.0319  0.0307   0.95  0.0228   0.100   +903   290  
-Yastrzemski, Mike       L    6    ATL  Tyler Glasnow         0.0304  0.0309   1.04  0.0251   0.100   +905   244  
-Montgomery, Colson      L    9    CWS  Daniel Espino         0.0368  0.0346   0.98  0.0264   0.099   +915   223  
-Hernández, Enrique      R    7    ATL  Tyler Mahle           0.0304  0.0297   1.05  0.0243   0.098   +918   29   
-DeLauter, Chase         L    3    CWS  Sean Newcomb          0.0252  0.0253   0.98  0.0193   0.094   +959   128  
-Hays, Austin            R    5    SD   Robert Gasser         0.0268  0.0330   0.96  0.0249   0.094   +962   38   
-Pages, Andy             R    9    ATL  Tyler Mahle           0.0303  0.0295   1.05  0.0242   0.094   +966   285  
-Antonacci, Sam          L    1    CWS  Daniel Espino         0.0268  0.0252   0.98  0.0192   0.092   +987   327  
-Campusano, Luis         R    7    SD   Robert Gasser         0.0225  0.0277   0.96  0.0209   0.091   +993   35   
-Ramírez, José           R    2    CWS  Sean Newcomb          0.0276  0.0283   0.99  0.0218   0.091   +1003  133  
-Lombard Jr., George     R    5    NYY  Nick Martinez         0.0285  0.0290   0.92  0.0209   0.089   +1026  91   
-Bailey, Patrick         R    8    CWS  Sean Newcomb          0.0255  0.0262   0.99  0.0201   0.087   +1043  33   
-Díaz, Yandy             R    1    NYY  Max Fried             0.0295  0.0190   0.92  0.0137   0.087   +1047  155  
-Murphy, Sean            R    9    ATL  Tyler Glasnow         0.0296  0.0268   1.05  0.0220   0.087   +1048  54   
-Peters, Tristan         L    6    CWS  Daniel Espino         0.0281  0.0265   0.98  0.0202   0.087   +1053  307  
-Grichuk, Randal         R    8    CWS  Daniel Espino         0.0274  0.0285   0.99  0.0219   0.086   +1060  78   
-Lowe, Nathaniel         L    5    CWS  Sean Newcomb          0.0184  0.0185   0.98  0.0141   0.086   +1061  33   
-Tucker, Kyle            L    8    ATL  Tyler Mahle           0.0268  0.0247   1.04  0.0201   0.085   +1076  305  
-Albies, Ozzie           L    4    ATL  Tyler Glasnow         0.0223  0.0227   1.04  0.0184   0.083   +1108  298  
-Bogaerts, Xander        R    6    SD   Robert Gasser         0.0177  0.0219   0.96  0.0165   0.079   +1167  120  
-Taylor, Samad           R    9    SD   Robert Gasser         0.0226  0.0279   0.96  0.0210   0.079   +1171  33   
-Pratt, Cooper           R    6    SD   Walker Buehler        0.0210  0.0245   0.96  0.0184   0.078   +1179  140  
-Vilade, Ryan            R    5    NYY  Max Fried             0.0287  0.0185   0.92  0.0133   0.076   +1216  112  
-Dubón, Mauricio         R    7    ATL  Tyler Glasnow         0.0229  0.0206   1.05  0.0169   0.076   +1223  323  
-Ortiz, Joey             R    9    SD   Walker Buehler        0.0215  0.0251   0.96  0.0189   0.075   +1226  192  
-Bazzana, Travis         L    7    CWS  Sean Newcomb          0.0196  0.0197   0.98  0.0150   0.074   +1242  105  
-Montgomery, Braden      L    7    CWS  Daniel Espino         0.0234  0.0220   0.98  0.0167   0.074   +1248  188  
-Volpe, Anthony          R    7    NYY  Nick Martinez         0.0231  0.0236   0.92  0.0170   0.073   +1261  91   
-Meidroth, Chase         R    5    CWS  Daniel Espino         0.0201  0.0208   0.99  0.0160   0.073   +1272  304  
-Rocchio, Brayan         R    9    CWS  Sean Newcomb          0.0239  0.0245   0.99  0.0188   0.071   +1312  154  
-Hicks, Liam             L    6    NYY  Max Fried             0.0156  0.0147   1.07  0.0123   0.070   +1320  89   
-Caballero, José         R    9    NYY  Nick Martinez         0.0227  0.0231   0.92  0.0166   0.069   +1341  219  
-Palacios, Richie        L    8    NYY  Max Fried             0.0167  0.0158   1.07  0.0132   0.068   +1371  44   
-Frelick, Sal            L    7    SD   Walker Buehler        0.0175  0.0168   0.95  0.0125   0.061   +1539  226  
-DeLuca, Jonny           R    7    NYY  Max Fried             0.0157  0.0101   0.92  0.0072   0.056   +1699  114  
-Cronenworth, Jake       L    8    SD   Robert Gasser         0.0137  0.0129   0.95  0.0096   0.056   +1702  70   
-Kwan, Steven            L    1    CWS  Sean Newcomb          0.0094  0.0095   0.98  0.0072   0.044   +2194  146  
-Walls, Taylor           R    9    NYY  Max Fried             0.0114  0.0073   0.92  0.0052   0.041   +2333  106  
+Rice, Ben               L    2    NYY  Nick Martinez         0.0543  0.0586   1.10  0.0501   0.173   +478   275  
+García Jr., Luis        L    3    NYY  Nick Martinez         0.0546  0.0590   1.10  0.0504   0.171   +485   353  
+Smith, Will             R    3    ATL  Tyler Mahle           0.0546  0.0532   1.05  0.0437   0.161   +520   144  
+Baldwin, Drake          L    5    ATL  Tyler Glasnow         0.0575  0.0583   1.04  0.0474   0.161   +523   264  
+Olson, Matt             L    3    ATL  Tyler Glasnow         0.0545  0.0553   1.04  0.0450   0.160   +524   272  
+Harris II, Michael      L    1    ATL  Tyler Glasnow         0.0520  0.0528   1.04  0.0430   0.160   +524   306  
+Ohtani, Shohei          L    4    ATL  Tyler Mahle           0.0542  0.0501   1.04  0.0408   0.153   +552   244  
+Tatis Jr., Fernando     R    1    SD   Robert Gasser         0.0429  0.0527   0.99  0.0406   0.153   +554   110  
+Chourio, Jackson        R    1    SD   Walker Buehler        0.0452  0.0526   0.99  0.0406   0.150   +567   272  
+Vargas, Miguel          R    2    CWS  Daniel Espino         0.0482  0.0500   0.99  0.0385   0.145   +589   331  
+Murakami, Munetaka      L    3    CWS  Daniel Espino         0.0524  0.0494   0.98  0.0377   0.144   +593   182  
+Grisham, Trent          L    1    NYY  Nick Martinez         0.0412  0.0445   1.10  0.0380   0.144   +594   239  
+Acuña Jr., Ronald       R    2    ATL  Tyler Glasnow         0.0478  0.0433   1.05  0.0356   0.143   +601   219  
+Contreras, William      R    3    SD   Walker Buehler        0.0413  0.0481   0.99  0.0371   0.137   +633   349  
+Jones, Spencer          L    8    NYY  Nick Martinez         0.0432  0.0467   1.10  0.0399   0.132   +658   121  
+Muncy, Max              L    6    ATL  Tyler Mahle           0.0459  0.0424   1.04  0.0345   0.131   +663   267  
+Machado, Manny          R    3    SD   Robert Gasser         0.0391  0.0480   0.99  0.0371   0.130   +668   110  
+Merrill, Jackson        L    2    SD   Robert Gasser         0.0359  0.0338   0.98  0.0258   0.127   +687   128  
+Bauers, Jake            L    5    SD   Walker Buehler        0.0434  0.0418   0.98  0.0319   0.125   +702   224  
+Freeman, Freddie        L    2    ATL  Tyler Mahle           0.0384  0.0355   1.04  0.0289   0.124   +705   315  
+Bellinger, Cody         L    4    NYY  Nick Martinez         0.0346  0.0374   1.10  0.0320   0.121   +724   257  
+Adell, Jo               R    4    CWS  Sean Newcomb          0.0430  0.0441   0.99  0.0340   0.120   +733   132  
+Aranda, Jonathan        L    2    NYY  Max Fried             0.0284  0.0269   1.10  0.0230   0.118   +750   115  
+Caminero, Junior        R    3    NYY  Max Fried             0.0443  0.0287   0.95  0.0212   0.117   +755   130  
+Betts, Mookie           R    1    ATL  Tyler Mahle           0.0331  0.0323   1.05  0.0265   0.117   +757   281  
+Yelich, Christian       L    2    SD   Walker Buehler        0.0364  0.0350   0.98  0.0267   0.116   +761   226  
+Riley, Austin           R    8    ATL  Tyler Glasnow         0.0419  0.0379   1.05  0.0311   0.115   +770   268  
+France, Ty              R    4    SD   Robert Gasser         0.0295  0.0363   0.99  0.0280   0.114   +776   87   
+Mesa Jr., Victor        L    4    NYY  Max Fried             0.0235  0.0223   1.10  0.0191   0.113   +782   52   
+Mitchell, Garrett       L    8    SD   Walker Buehler        0.0406  0.0390   0.98  0.0298   0.112   +793   224  
+Hernández, Teoscar      R    5    ATL  Tyler Mahle           0.0342  0.0333   1.05  0.0273   0.111   +798   211  
+Wells, Austin           L    6    NYY  Nick Martinez         0.0318  0.0344   1.10  0.0294   0.110   +809   172  
+Teel, Kyle              L    4    CWS  Daniel Espino         0.0352  0.0331   0.98  0.0253   0.106   +840   51   
+Martínez, Angel         R    6    CWS  Sean Newcomb          0.0335  0.0344   0.99  0.0265   0.103   +871   122  
+Turang, Brice           L    4    SD   Walker Buehler        0.0319  0.0307   0.98  0.0234   0.102   +882   290  
+Yastrzemski, Mike       L    6    ATL  Tyler Glasnow         0.0304  0.0309   1.04  0.0251   0.100   +901   244  
+Montgomery, Colson      L    9    CWS  Daniel Espino         0.0368  0.0346   0.98  0.0264   0.099   +910   223  
+Hernández, Enrique      R    7    ATL  Tyler Mahle           0.0304  0.0297   1.05  0.0244   0.099   +914   29   
+Hays, Austin            R    5    SD   Robert Gasser         0.0268  0.0330   0.99  0.0255   0.096   +940   38   
+DeLauter, Chase         L    3    CWS  Sean Newcomb          0.0252  0.0253   0.98  0.0193   0.095   +954   128  
+Pages, Andy             R    9    ATL  Tyler Mahle           0.0303  0.0295   1.05  0.0243   0.094   +963   285  
+Campusano, Luis         R    7    SD   Robert Gasser         0.0225  0.0277   0.99  0.0214   0.093   +971   35   
+Antonacci, Sam          L    1    CWS  Daniel Espino         0.0268  0.0252   0.98  0.0193   0.092   +982   327  
+Ramírez, José           R    2    CWS  Sean Newcomb          0.0276  0.0283   0.99  0.0218   0.091   +998   133  
+Lombard Jr., George     R    5    NYY  Nick Martinez         0.0285  0.0290   0.95  0.0214   0.091   +1001  91   
+Díaz, Yandy             R    1    NYY  Max Fried             0.0295  0.0190   0.95  0.0141   0.089   +1021  155  
+Bailey, Patrick         R    8    CWS  Sean Newcomb          0.0255  0.0262   0.99  0.0202   0.088   +1038  33   
+Murphy, Sean            R    9    ATL  Tyler Glasnow         0.0296  0.0268   1.05  0.0220   0.087   +1044  54   
+Peters, Tristan         L    6    CWS  Daniel Espino         0.0281  0.0265   0.98  0.0202   0.087   +1048  307  
+Grichuk, Randal         R    8    CWS  Daniel Espino         0.0274  0.0285   0.99  0.0219   0.087   +1055  78   
+Lowe, Nathaniel         L    5    CWS  Sean Newcomb          0.0184  0.0185   0.98  0.0141   0.086   +1057  33   
+Tucker, Kyle            L    8    ATL  Tyler Mahle           0.0268  0.0247   1.04  0.0201   0.085   +1072  305  
+Albies, Ozzie           L    4    ATL  Tyler Glasnow         0.0223  0.0227   1.04  0.0185   0.083   +1103  298  
+Bogaerts, Xander        R    6    SD   Robert Gasser         0.0177  0.0219   0.99  0.0169   0.081   +1142  120  
+Taylor, Samad           R    9    SD   Robert Gasser         0.0226  0.0279   0.99  0.0215   0.080   +1144  33   
+Pratt, Cooper           R    6    SD   Walker Buehler        0.0210  0.0245   0.99  0.0189   0.080   +1152  140  
+Vilade, Ryan            R    5    NYY  Max Fried             0.0287  0.0185   0.95  0.0137   0.078   +1187  112  
+Ortiz, Joey             R    9    SD   Walker Buehler        0.0215  0.0251   0.99  0.0194   0.077   +1199  192  
+Dubón, Mauricio         R    7    ATL  Tyler Glasnow         0.0229  0.0206   1.05  0.0170   0.076   +1218  323  
+Volpe, Anthony          R    7    NYY  Nick Martinez         0.0231  0.0236   0.95  0.0174   0.075   +1230  91   
+Bazzana, Travis         L    7    CWS  Sean Newcomb          0.0196  0.0197   0.98  0.0151   0.075   +1235  105  
+Montgomery, Braden      L    7    CWS  Daniel Espino         0.0234  0.0220   0.98  0.0168   0.075   +1240  188  
+Meidroth, Chase         R    5    CWS  Daniel Espino         0.0201  0.0208   0.99  0.0161   0.073   +1266  304  
+Hicks, Liam             L    6    NYY  Max Fried             0.0156  0.0147   1.10  0.0126   0.072   +1291  89   
+Rocchio, Brayan         R    9    CWS  Sean Newcomb          0.0239  0.0245   0.99  0.0189   0.071   +1306  154  
+Caballero, José         R    9    NYY  Nick Martinez         0.0227  0.0231   0.95  0.0171   0.071   +1310  219  
+Palacios, Richie        L    8    NYY  Max Fried             0.0167  0.0158   1.10  0.0135   0.070   +1339  44   
+Frelick, Sal            L    7    SD   Walker Buehler        0.0175  0.0168   0.98  0.0129   0.062   +1505  226  
+DeLuca, Jonny           R    7    NYY  Max Fried             0.0157  0.0101   0.95  0.0074   0.057   +1661  114  
+Cronenworth, Jake       L    8    SD   Robert Gasser         0.0137  0.0129   0.98  0.0098   0.057   +1664  70   
+Kwan, Steven            L    1    CWS  Sean Newcomb          0.0094  0.0095   0.98  0.0073   0.044   +2183  146  
+Walls, Taylor           R    9    NYY  Max Fried             0.0114  0.0073   0.95  0.0054   0.042   +2281  106  
