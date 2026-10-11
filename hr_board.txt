@@ -1,11 +1,20 @@
-HR BOARD -- 2026-10-11 -- 9 hitters composed
+HR BOARD -- 2026-10-11 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Smith, Will             R    3    MIL  Jacob Misiorowski     0.0546  0.0410   1.04  0.0332   0.143   +598   144  
-Ohtani, Shohei          L    4    MIL  Jacob Misiorowski     0.0542  0.0347   1.06  0.0287   0.134   +647   244  
-Muncy, Max              L    6    MIL  Jacob Misiorowski     0.0459  0.0293   1.06  0.0243   0.113   +784   267  
-Freeman, Freddie        L    2    MIL  Jacob Misiorowski     0.0384  0.0245   1.06  0.0202   0.109   +817   315  
-Betts, Mookie           R    1    MIL  Jacob Misiorowski     0.0331  0.0247   1.04  0.0200   0.104   +862   281  
-Hernández, Teoscar      R    5    MIL  Jacob Misiorowski     0.0342  0.0255   1.04  0.0207   0.098   +920   211  
-Pages, Andy             R    7    MIL  Jacob Misiorowski     0.0303  0.0226   1.04  0.0183   0.086   +1066  285  
-Hernández, Enrique      R    9    MIL  Jacob Misiorowski     0.0304  0.0227   1.04  0.0184   0.082   +1121  29   
-Tucker, Kyle            L    8    MIL  Jacob Misiorowski     0.0268  0.0170   1.06  0.0141   0.073   +1277  305  
+Smith, Will             R    3    MIL  Jacob Misiorowski     0.0546  0.0410   1.04  0.0332   0.142   +605   144  
+Chourio, Jackson        R    1    MIL  Tarik Skubal          0.0434  0.0444   1.04  0.0360   0.140   +614   117  
+Ohtani, Shohei          L    4    MIL  Jacob Misiorowski     0.0542  0.0347   1.06  0.0287   0.132   +655   244  
+Bauers, Jake            L    4    MIL  Tarik Skubal          0.0382  0.0370   1.06  0.0306   0.123   +710   96   
+Muncy, Max              L    6    MIL  Jacob Misiorowski     0.0459  0.0293   1.06  0.0243   0.112   +794   267  
+Contreras, William      R    3    MIL  Tarik Skubal          0.0272  0.0279   1.04  0.0226   0.110   +812   132  
+Freeman, Freddie        L    2    MIL  Jacob Misiorowski     0.0384  0.0245   1.06  0.0202   0.108   +827   315  
+Betts, Mookie           R    1    MIL  Jacob Misiorowski     0.0331  0.0247   1.04  0.0200   0.103   +873   281  
+Mitchell, Garrett       L    6    MIL  Tarik Skubal          0.0253  0.0245   1.06  0.0203   0.098   +921   74   
+Hernández, Teoscar      R    5    MIL  Jacob Misiorowski     0.0342  0.0255   1.04  0.0207   0.097   +931   211  
+Turang, Brice           L    2    MIL  Tarik Skubal          0.0209  0.0202   1.06  0.0167   0.092   +983   126  
+Vaughn, Andrew          R    5    MIL  Tarik Skubal          0.0278  0.0284   1.04  0.0231   0.089   +1021  98   
+Pages, Andy             R    7    MIL  Jacob Misiorowski     0.0303  0.0226   1.04  0.0183   0.085   +1078  285  
+Hernández, Enrique      R    9    MIL  Jacob Misiorowski     0.0304  0.0227   1.04  0.0184   0.081   +1135  29   
+Pratt, Cooper           R    7    MIL  Tarik Skubal          0.0202  0.0207   1.04  0.0168   0.072   +1285  47   
+Tucker, Kyle            L    8    MIL  Jacob Misiorowski     0.0268  0.0170   1.06  0.0141   0.072   +1293  305  
+Ortiz, Joey             R    9    MIL  Tarik Skubal          0.0210  0.0214   1.04  0.0174   0.071   +1310  106  
+Lara, Luis              R    8    MIL  Tarik Skubal          0.0149  0.0153   1.04  0.0124   0.065   +1438  56   
