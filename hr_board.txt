@@ -1,20 +1,11 @@
-HR BOARD -- 2026-10-10 -- 18 hitters composed
+HR BOARD -- 2026-10-11 -- 9 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Murakami, Munetaka      L    4    CLE  Gavin Williams        0.0524  0.0579   1.12  0.0504   0.170   +487   182  
-Vargas, Miguel          R    3    CLE  Gavin Williams        0.0482  0.0549   1.07  0.0459   0.161   +522   331  
-Teel, Kyle              L    2    CLE  Gavin Williams        0.0352  0.0389   1.12  0.0339   0.133   +654   51   
-Benintendi, Andrew      L    5    CLE  Gavin Williams        0.0372  0.0412   1.12  0.0358   0.131   +662   286  
-Lowe, Nathaniel         L    5    CLE  Sean Burke            0.0365  0.0392   1.12  0.0341   0.126   +695   252  
-Montgomery, Colson      L    8    CLE  Gavin Williams        0.0368  0.0407   1.12  0.0354   0.123   +710   223  
-DeLauter, Chase         L    3    CLE  Sean Burke            0.0307  0.0329   1.12  0.0286   0.115   +770   286  
-Antonacci, Sam          L    1    CLE  Gavin Williams        0.0268  0.0297   1.12  0.0259   0.111   +802   327  
-Bailey, Patrick         L    7    CLE  Sean Burke            0.0317  0.0340   1.12  0.0296   0.110   +813   189  
-Peters, Tristan         L    6    CLE  Gavin Williams        0.0281  0.0312   1.12  0.0271   0.106   +846   307  
-Halpin, Petey           L    8    CLE  Sean Burke            0.0303  0.0325   1.12  0.0283   0.104   +862   113  
-Adell, Jo               R    4    CLE  Sean Burke            0.0310  0.0288   1.07  0.0241   0.104   +863   315  
-Bazzana, Travis         L    6    CLE  Sean Burke            0.0263  0.0282   1.12  0.0246   0.098   +926   242  
-Ramírez, José           L    2    CLE  Sean Burke            0.0210  0.0226   1.12  0.0196   0.089   +1021  278  
-Doyle, Brenton          R    9    CLE  Gavin Williams        0.0225  0.0258   1.07  0.0216   0.084   +1089  74   
-Meidroth, Chase         R    7    CLE  Gavin Williams        0.0201  0.0229   1.07  0.0192   0.080   +1145  304  
-Rocchio, Brayan         L    9    CLE  Sean Burke            0.0150  0.0161   1.12  0.0140   0.061   +1537  302  
-Kwan, Steven            L    1    CLE  Sean Burke            0.0085  0.0092   1.12  0.0080   0.047   +2023  337  
+Smith, Will             R    3    MIL  Jacob Misiorowski     0.0546  0.0410   1.04  0.0332   0.143   +598   144  
+Ohtani, Shohei          L    4    MIL  Jacob Misiorowski     0.0542  0.0347   1.06  0.0287   0.134   +647   244  
+Muncy, Max              L    6    MIL  Jacob Misiorowski     0.0459  0.0293   1.06  0.0243   0.113   +784   267  
+Freeman, Freddie        L    2    MIL  Jacob Misiorowski     0.0384  0.0245   1.06  0.0202   0.109   +817   315  
+Betts, Mookie           R    1    MIL  Jacob Misiorowski     0.0331  0.0247   1.04  0.0200   0.104   +862   281  
+Hernández, Teoscar      R    5    MIL  Jacob Misiorowski     0.0342  0.0255   1.04  0.0207   0.098   +920   211  
+Pages, Andy             R    7    MIL  Jacob Misiorowski     0.0303  0.0226   1.04  0.0183   0.086   +1066  285  
+Hernández, Enrique      R    9    MIL  Jacob Misiorowski     0.0304  0.0227   1.04  0.0184   0.082   +1121  29   
+Tucker, Kyle            L    8    MIL  Jacob Misiorowski     0.0268  0.0170   1.06  0.0141   0.073   +1277  305  
