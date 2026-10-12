@@ -1,0 +1,19 @@
+batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
+660271,"Ohtani, Shohei",L,4,away,MIL,Logan Henderson,R,0.0542,0.0568,1.06,0.047,0.1661,+502,244,v1.2-g075
+669257,"Smith, Will",R,5,away,MIL,Logan Henderson,R,0.0546,0.0523,1.04,0.0424,0.1556,+543,144,v1.2-g075
+571970,"Muncy, Max",L,6,away,MIL,Logan Henderson,R,0.0459,0.0481,1.06,0.0398,0.1425,+602,267,v1.2-g075
+694192,"Chourio, Jackson",R,1,home,MIL,Yoshinobu Yamamoto,R,0.0452,0.0409,1.04,0.0332,0.1403,+613,272,v1.2-g075
+518692,"Freeman, Freddie",L,2,away,MIL,Logan Henderson,R,0.0384,0.0403,1.06,0.0333,0.1346,+643,315,v1.2-g075
+641343,"Bauers, Jake",L,4,home,MIL,Yoshinobu Yamamoto,R,0.0434,0.0399,1.06,0.033,0.1318,+659,224,v1.2-g075
+661388,"Contreras, William",R,3,home,MIL,Yoshinobu Yamamoto,R,0.0413,0.0373,1.04,0.0303,0.127,+687,349,v1.2-g075
+669003,"Mitchell, Garrett",L,6,home,MIL,Yoshinobu Yamamoto,R,0.0406,0.0373,1.06,0.0308,0.1207,+729,224,v1.2-g075
+605141,"Betts, Mookie",R,1,away,MIL,Logan Henderson,R,0.0331,0.0317,1.04,0.0257,0.1168,+756,281,v1.2-g075
+606192,"Hernández, Teoscar",R,3,away,MIL,Logan Henderson,R,0.0342,0.0327,1.04,0.0265,0.1156,+765,211,v1.2-g075
+592885,"Yelich, Christian",L,5,home,MIL,Yoshinobu Yamamoto,R,0.0364,0.0334,1.06,0.0276,0.114,+777,226,v1.2-g075
+668930,"Turang, Brice",L,2,home,MIL,Yoshinobu Yamamoto,R,0.0319,0.0293,1.06,0.0242,0.1098,+811,290,v1.2-g075
+681624,"Pages, Andy",R,7,away,MIL,Logan Henderson,R,0.0303,0.029,1.04,0.0235,0.0983,+917,285,v1.2-g075
+663656,"Tucker, Kyle",L,8,away,MIL,Logan Henderson,R,0.0268,0.0281,1.06,0.0233,0.0934,+971,305,v1.2-g075
+669242,"Edman, Tommy",L,9,away,MIL,Logan Henderson,R,0.0231,0.0243,1.06,0.0201,0.0821,+1118,160,v1.2-g075
+806198,"Pratt, Cooper",R,7,home,MIL,Yoshinobu Yamamoto,R,0.021,0.0189,1.04,0.0153,0.0719,+1291,140,v1.2-g075
+666152,"Hamilton, David",L,9,home,MIL,Yoshinobu Yamamoto,R,0.0199,0.0182,1.06,0.0151,0.0674,+1384,212,v1.2-g075
+686217,"Frelick, Sal",L,8,home,MIL,Yoshinobu Yamamoto,R,0.0175,0.0161,1.06,0.0133,0.0631,+1485,226,v1.2-g075
