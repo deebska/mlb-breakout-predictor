@@ -1,19 +1,19 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-691406,"Caminero, Junior",R,3,away,CLE,Gavin Williams,R,0.0512,0.0583,0.891,0.0405,0.1395,+617,360,v1.2-g075
-683748,"Mesa Jr., Victor",L,4,away,CLE,Gavin Williams,R,0.0473,0.0523,0.928,0.0378,0.1315,+660,133,v1.2-g075
-666018,"Aranda, Jonathan",L,2,away,CLE,Gavin Williams,R,0.0398,0.044,0.928,0.0319,0.1201,+733,309,v1.2-g075
-650490,"Díaz, Yandy",R,1,away,CLE,Gavin Williams,R,0.0324,0.037,0.891,0.0257,0.1034,+867,365,v1.2-g075
-663993,"Lowe, Nathaniel",L,5,home,CLE,Griffin Jax,R,0.0365,0.038,0.928,0.0275,0.1027,+874,252,v1.2-g075
-800050,"DeLauter, Chase",L,3,home,CLE,Griffin Jax,R,0.0307,0.0319,0.928,0.0231,0.0938,+966,286,v1.2-g075
-672275,"Bailey, Patrick",L,7,home,CLE,Griffin Jax,R,0.0317,0.033,0.928,0.0239,0.0892,+1021,189,v1.2-g075
-666176,"Adell, Jo",R,4,home,CLE,Griffin Jax,R,0.031,0.0312,0.891,0.0217,0.0888,+1026,315,v1.2-g075
-690984,"Halpin, Petey",L,8,home,CLE,Griffin Jax,R,0.0303,0.0315,0.928,0.0228,0.0846,+1082,113,v1.2-g075
-683953,"Bazzana, Travis",L,6,home,CLE,Griffin Jax,R,0.0263,0.0273,0.928,0.0198,0.0794,+1159,242,v1.2-g075
-676356,"DeLuca, Jonny",R,7,away,CLE,Gavin Williams,R,0.0257,0.0293,0.891,0.0204,0.0792,+1163,161,v1.2-g075
-689414,"Hicks, Liam",L,6,away,CLE,Gavin Williams,R,0.0239,0.0265,0.928,0.0191,0.0776,+1189,341,v1.2-g075
-680700,"Palacios, Richie",L,8,away,CLE,Gavin Williams,R,0.0231,0.0256,0.928,0.0185,0.073,+1270,233,v1.2-g075
-608070,"Ramírez, José",L,2,home,CLE,Griffin Jax,R,0.021,0.0219,0.928,0.0158,0.0726,+1277,278,v1.2-g075
-670764,"Walls, Taylor",L,9,away,CLE,Gavin Williams,R,0.019,0.021,0.928,0.0152,0.0619,+1516,171,v1.2-g075
-677587,"Rocchio, Brayan",L,9,home,CLE,Griffin Jax,R,0.015,0.0156,0.928,0.0113,0.0494,+1924,302,v1.2-g075
-680757,"Kwan, Steven",L,1,home,CLE,Griffin Jax,R,0.0085,0.0089,0.928,0.0064,0.0382,+2518,337,v1.2-g075
-802415,"Simpson, Chandler",L,5,away,CLE,Gavin Williams,R,0.0056,0.0062,0.928,0.0045,0.0273,+3563,348,v1.2-g075
+691406,"Caminero, Junior",R,3,away,CLE,Gavin Williams,R,0.0512,0.0583,0.886,0.0403,0.1387,+621,360,v1.2-g075
+683748,"Mesa Jr., Victor",L,4,away,CLE,Gavin Williams,R,0.0473,0.0523,0.922,0.0376,0.1307,+665,133,v1.2-g075
+666018,"Aranda, Jonathan",L,2,away,CLE,Gavin Williams,R,0.0398,0.044,0.922,0.0317,0.1194,+738,309,v1.2-g075
+650490,"Díaz, Yandy",R,1,away,CLE,Gavin Williams,R,0.0324,0.037,0.886,0.0256,0.1028,+873,365,v1.2-g075
+663993,"Lowe, Nathaniel",L,5,home,CLE,Griffin Jax,R,0.0365,0.038,0.922,0.0273,0.102,+880,252,v1.2-g075
+800050,"DeLauter, Chase",L,3,home,CLE,Griffin Jax,R,0.0307,0.0319,0.922,0.0229,0.0932,+973,286,v1.2-g075
+672275,"Bailey, Patrick",L,7,home,CLE,Griffin Jax,R,0.0317,0.033,0.922,0.0237,0.0886,+1029,189,v1.2-g075
+666176,"Adell, Jo",R,4,home,CLE,Griffin Jax,R,0.031,0.0312,0.886,0.0216,0.0883,+1033,315,v1.2-g075
+690984,"Halpin, Petey",L,8,home,CLE,Griffin Jax,R,0.0303,0.0315,0.922,0.0227,0.084,+1090,113,v1.2-g075
+683953,"Bazzana, Travis",L,6,home,CLE,Griffin Jax,R,0.0263,0.0273,0.922,0.0197,0.0789,+1167,242,v1.2-g075
+676356,"DeLuca, Jonny",R,7,away,CLE,Gavin Williams,R,0.0257,0.0293,0.886,0.0203,0.0787,+1171,161,v1.2-g075
+689414,"Hicks, Liam",L,6,away,CLE,Gavin Williams,R,0.0239,0.0265,0.922,0.019,0.0771,+1197,341,v1.2-g075
+680700,"Palacios, Richie",L,8,away,CLE,Gavin Williams,R,0.0231,0.0256,0.922,0.0184,0.0724,+1281,233,v1.2-g075
+608070,"Ramírez, José",L,2,home,CLE,Griffin Jax,R,0.021,0.0219,0.922,0.0157,0.0721,+1287,278,v1.2-g075
+670764,"Walls, Taylor",L,9,away,CLE,Gavin Williams,R,0.019,0.021,0.922,0.0151,0.0616,+1523,171,v1.2-g075
+677587,"Rocchio, Brayan",L,9,home,CLE,Griffin Jax,R,0.015,0.0156,0.922,0.0112,0.0491,+1937,302,v1.2-g075
+680757,"Kwan, Steven",L,1,home,CLE,Griffin Jax,R,0.0085,0.0089,0.922,0.0064,0.038,+2532,337,v1.2-g075
+802415,"Simpson, Chandler",L,5,away,CLE,Gavin Williams,R,0.0056,0.0062,0.922,0.0045,0.0271,+3590,348,v1.2-g075
