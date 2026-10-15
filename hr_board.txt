@@ -1,20 +1,20 @@
 HR BOARD -- 2026-10-15 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Caminero, Junior        R    3    CLE  Gavin Williams        0.0512  0.0583   0.90  0.0411   0.141   +608   360  
-Mesa Jr., Victor        L    4    CLE  Gavin Williams        0.0473  0.0523   0.94  0.0384   0.133   +650   133  
-Aranda, Jonathan        L    2    CLE  Gavin Williams        0.0398  0.0440   0.94  0.0323   0.122   +721   309  
-Díaz, Yandy             R    1    CLE  Gavin Williams        0.0324  0.0370   0.90  0.0261   0.105   +853   365  
-Lowe, Nathaniel         L    5    CLE  Griffin Jax           0.0365  0.0380   0.94  0.0279   0.104   +861   252  
-DeLauter, Chase         L    3    CLE  Griffin Jax           0.0307  0.0319   0.94  0.0234   0.095   +953   286  
-Bailey, Patrick         L    7    CLE  Griffin Jax           0.0317  0.0330   0.94  0.0242   0.090   +1006  189  
-Adell, Jo               R    4    CLE  Griffin Jax           0.0310  0.0312   0.90  0.0220   0.090   +1010  315  
-Halpin, Petey           L    8    CLE  Griffin Jax           0.0303  0.0315   0.94  0.0231   0.086   +1066  113  
-Bazzana, Travis         L    6    CLE  Griffin Jax           0.0263  0.0273   0.94  0.0201   0.080   +1144  242  
-DeLuca, Jonny           R    7    CLE  Gavin Williams        0.0257  0.0293   0.90  0.0207   0.080   +1145  161  
-Hicks, Liam             L    6    CLE  Gavin Williams        0.0239  0.0265   0.94  0.0194   0.079   +1172  341  
-Palacios, Richie        L    8    CLE  Gavin Williams        0.0231  0.0256   0.94  0.0188   0.074   +1253  233  
-Ramírez, José           L    2    CLE  Griffin Jax           0.0210  0.0219   0.94  0.0160   0.074   +1259  278  
-Walls, Taylor           L    9    CLE  Gavin Williams        0.0190  0.0210   0.94  0.0154   0.063   +1492  171  
-Rocchio, Brayan         L    9    CLE  Griffin Jax           0.0150  0.0156   0.94  0.0114   0.050   +1896  302  
-Kwan, Steven            L    1    CLE  Griffin Jax           0.0085  0.0089   0.94  0.0065   0.039   +2484  337  
-Simpson, Chandler       L    5    CLE  Gavin Williams        0.0056  0.0062   0.94  0.0045   0.028   +3523  348  
+Caminero, Junior        R    3    CLE  Gavin Williams        0.0512  0.0583   0.89  0.0405   0.140   +617   360  
+Mesa Jr., Victor        L    4    CLE  Gavin Williams        0.0473  0.0523   0.93  0.0378   0.132   +660   133  
+Aranda, Jonathan        L    2    CLE  Gavin Williams        0.0398  0.0440   0.93  0.0319   0.120   +733   309  
+Díaz, Yandy             R    1    CLE  Gavin Williams        0.0324  0.0370   0.89  0.0257   0.103   +867   365  
+Lowe, Nathaniel         L    5    CLE  Griffin Jax           0.0365  0.0380   0.93  0.0275   0.103   +874   252  
+DeLauter, Chase         L    3    CLE  Griffin Jax           0.0307  0.0319   0.93  0.0231   0.094   +966   286  
+Bailey, Patrick         L    7    CLE  Griffin Jax           0.0317  0.0330   0.93  0.0239   0.089   +1021  189  
+Adell, Jo               R    4    CLE  Griffin Jax           0.0310  0.0312   0.89  0.0217   0.089   +1026  315  
+Halpin, Petey           L    8    CLE  Griffin Jax           0.0303  0.0315   0.93  0.0228   0.085   +1082  113  
+Bazzana, Travis         L    6    CLE  Griffin Jax           0.0263  0.0273   0.93  0.0198   0.079   +1159  242  
+DeLuca, Jonny           R    7    CLE  Gavin Williams        0.0257  0.0293   0.89  0.0204   0.079   +1163  161  
+Hicks, Liam             L    6    CLE  Gavin Williams        0.0239  0.0265   0.93  0.0191   0.078   +1189  341  
+Palacios, Richie        L    8    CLE  Gavin Williams        0.0231  0.0256   0.93  0.0185   0.073   +1270  233  
+Ramírez, José           L    2    CLE  Griffin Jax           0.0210  0.0219   0.93  0.0158   0.073   +1277  278  
+Walls, Taylor           L    9    CLE  Gavin Williams        0.0190  0.0210   0.93  0.0152   0.062   +1516  171  
+Rocchio, Brayan         L    9    CLE  Griffin Jax           0.0150  0.0156   0.93  0.0113   0.049   +1924  302  
+Kwan, Steven            L    1    CLE  Griffin Jax           0.0085  0.0089   0.93  0.0064   0.038   +2518  337  
+Simpson, Chandler       L    5    CLE  Gavin Williams        0.0056  0.0062   0.93  0.0045   0.027   +3563  348  
