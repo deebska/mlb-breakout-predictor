@@ -1,20 +1,20 @@
-HR BOARD -- 2026-10-12 -- 18 hitters composed
+HR BOARD -- 2026-10-15 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Ohtani, Shohei          L    4    MIL  Logan Henderson       0.0542  0.0568   1.06  0.0470   0.166   +502   244  
-Smith, Will             R    5    MIL  Logan Henderson       0.0546  0.0523   1.04  0.0424   0.156   +543   144  
-Muncy, Max              L    6    MIL  Logan Henderson       0.0459  0.0481   1.06  0.0398   0.142   +602   267  
-Chourio, Jackson        R    1    MIL  Yoshinobu Yamamoto    0.0452  0.0409   1.04  0.0332   0.140   +613   272  
-Freeman, Freddie        L    2    MIL  Logan Henderson       0.0384  0.0403   1.06  0.0333   0.135   +643   315  
-Bauers, Jake            L    4    MIL  Yoshinobu Yamamoto    0.0434  0.0399   1.06  0.0330   0.132   +659   224  
-Contreras, William      R    3    MIL  Yoshinobu Yamamoto    0.0413  0.0373   1.04  0.0303   0.127   +687   349  
-Mitchell, Garrett       L    6    MIL  Yoshinobu Yamamoto    0.0406  0.0373   1.06  0.0308   0.121   +729   224  
-Betts, Mookie           R    1    MIL  Logan Henderson       0.0331  0.0317   1.04  0.0257   0.117   +756   281  
-Hernández, Teoscar      R    3    MIL  Logan Henderson       0.0342  0.0327   1.04  0.0265   0.116   +765   211  
-Yelich, Christian       L    5    MIL  Yoshinobu Yamamoto    0.0364  0.0334   1.06  0.0276   0.114   +777   226  
-Turang, Brice           L    2    MIL  Yoshinobu Yamamoto    0.0319  0.0293   1.06  0.0242   0.110   +811   290  
-Pages, Andy             R    7    MIL  Logan Henderson       0.0303  0.0290   1.04  0.0235   0.098   +917   285  
-Tucker, Kyle            L    8    MIL  Logan Henderson       0.0268  0.0281   1.06  0.0233   0.093   +971   305  
-Edman, Tommy            L    9    MIL  Logan Henderson       0.0231  0.0243   1.06  0.0201   0.082   +1118  160  
-Pratt, Cooper           R    7    MIL  Yoshinobu Yamamoto    0.0210  0.0189   1.04  0.0153   0.072   +1291  140  
-Hamilton, David         L    9    MIL  Yoshinobu Yamamoto    0.0199  0.0182   1.06  0.0151   0.067   +1384  212  
-Frelick, Sal            L    8    MIL  Yoshinobu Yamamoto    0.0175  0.0161   1.06  0.0133   0.063   +1485  226  
+Caminero, Junior        R    3    CLE  Gavin Williams        0.0512  0.0583   0.91  0.0414   0.142   +602   360  
+Mesa Jr., Victor        L    4    CLE  Gavin Williams        0.0473  0.0523   0.95  0.0386   0.134   +645   133  
+Aranda, Jonathan        L    2    CLE  Gavin Williams        0.0398  0.0440   0.95  0.0326   0.123   +716   309  
+Díaz, Yandy             R    1    CLE  Gavin Williams        0.0324  0.0370   0.91  0.0263   0.106   +847   365  
+Lowe, Nathaniel         L    5    CLE  Griffin Jax           0.0365  0.0380   0.95  0.0281   0.105   +854   252  
+DeLauter, Chase         L    3    CLE  Griffin Jax           0.0307  0.0319   0.95  0.0236   0.096   +945   286  
+Bailey, Patrick         L    7    CLE  Griffin Jax           0.0317  0.0330   0.95  0.0244   0.091   +999   189  
+Adell, Jo               R    4    CLE  Griffin Jax           0.0310  0.0312   0.91  0.0222   0.091   +1003  315  
+Halpin, Petey           L    8    CLE  Griffin Jax           0.0303  0.0315   0.95  0.0233   0.086   +1057  113  
+Bazzana, Travis         L    6    CLE  Griffin Jax           0.0263  0.0273   0.95  0.0202   0.081   +1135  242  
+DeLuca, Jonny           R    7    CLE  Gavin Williams        0.0257  0.0293   0.91  0.0209   0.081   +1136  161  
+Hicks, Liam             L    6    CLE  Gavin Williams        0.0239  0.0265   0.95  0.0196   0.079   +1163  341  
+Palacios, Richie        L    8    CLE  Gavin Williams        0.0231  0.0256   0.95  0.0189   0.074   +1242  233  
+Ramírez, José           L    2    CLE  Griffin Jax           0.0210  0.0219   0.95  0.0162   0.074   +1250  278  
+Walls, Taylor           L    9    CLE  Gavin Williams        0.0190  0.0210   0.95  0.0156   0.063   +1480  171  
+Rocchio, Brayan         L    9    CLE  Griffin Jax           0.0150  0.0156   0.95  0.0115   0.051   +1880  302  
+Kwan, Steven            L    1    CLE  Griffin Jax           0.0085  0.0089   0.95  0.0066   0.039   +2464  337  
+Simpson, Chandler       L    5    CLE  Gavin Williams        0.0056  0.0062   0.95  0.0046   0.028   +3484  348  
