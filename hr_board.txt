@@ -1,20 +1,20 @@
 HR BOARD -- 2026-10-16 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Caminero, Junior        R    4    CLE  Shawn Armstrong       0.0512  0.0453   0.62  0.0220   0.086   +1061  360  
-Mesa Jr., Victor        L    6    CLE  Shawn Armstrong       0.0473  0.0479   0.65  0.0242   0.085   +1071  133  
-Aranda, Jonathan        L    2    CLE  Shawn Armstrong       0.0398  0.0403   0.65  0.0204   0.081   +1135  309  
-Lowe, Nathaniel         L    5    CLE  Nick Martinez         0.0365  0.0395   0.65  0.0200   0.073   +1268  252  
-DeLauter, Chase         L    3    CLE  Nick Martinez         0.0307  0.0331   0.65  0.0168   0.067   +1402  286  
-Díaz, Yandy             R    1    CLE  Shawn Armstrong       0.0324  0.0286   0.62  0.0139   0.065   +1438  365  
-Bailey, Patrick         L    7    CLE  Nick Martinez         0.0317  0.0343   0.65  0.0173   0.063   +1477  189  
-Adell, Jo               R    4    CLE  Nick Martinez         0.0310  0.0315   0.62  0.0153   0.062   +1508  315  
-Halpin, Petey           L    8    CLE  Nick Martinez         0.0303  0.0328   0.65  0.0166   0.060   +1564  113  
-Bazzana, Travis         L    6    CLE  Nick Martinez         0.0263  0.0284   0.65  0.0144   0.056   +1676  242  
-Hicks, Liam             L    5    CLE  Shawn Armstrong       0.0239  0.0242   0.65  0.0122   0.053   +1798  341  
-Ramírez, José           L    2    CLE  Nick Martinez         0.0210  0.0227   0.65  0.0115   0.051   +1846  278  
-DeLuca, Jonny           R    7    CLE  Shawn Armstrong       0.0257  0.0227   0.62  0.0110   0.049   +1953  161  
-Palacios, Richie        L    8    CLE  Shawn Armstrong       0.0231  0.0234   0.65  0.0118   0.049   +1962  233  
-Walls, Taylor           L    9    CLE  Shawn Armstrong       0.0190  0.0192   0.65  0.0097   0.041   +2333  171  
-Rocchio, Brayan         L    9    CLE  Nick Martinez         0.0150  0.0162   0.65  0.0082   0.035   +2757  302  
-Kwan, Steven            L    1    CLE  Nick Martinez         0.0085  0.0092   0.65  0.0047   0.027   +3617  337  
-Simpson, Chandler       L    3    CLE  Shawn Armstrong       0.0056  0.0057   0.65  0.0029   0.019   +5219  348  
+Caminero, Junior        R    4    CLE  Shawn Armstrong       0.0512  0.0453   0.68  0.0239   0.093   +971   360  
+Mesa Jr., Victor        L    6    CLE  Shawn Armstrong       0.0473  0.0479   0.70  0.0263   0.093   +980   133  
+Aranda, Jonathan        L    2    CLE  Shawn Armstrong       0.0398  0.0403   0.70  0.0222   0.088   +1038  309  
+Lowe, Nathaniel         L    5    CLE  Nick Martinez         0.0365  0.0395   0.70  0.0217   0.079   +1161  252  
+DeLauter, Chase         L    3    CLE  Nick Martinez         0.0307  0.0331   0.70  0.0182   0.072   +1283  286  
+Díaz, Yandy             R    1    CLE  Shawn Armstrong       0.0324  0.0286   0.68  0.0151   0.071   +1316  365  
+Bailey, Patrick         L    7    CLE  Nick Martinez         0.0317  0.0343   0.70  0.0188   0.069   +1353  189  
+Adell, Jo               R    4    CLE  Nick Martinez         0.0310  0.0315   0.68  0.0166   0.068   +1379  315  
+Halpin, Petey           L    8    CLE  Nick Martinez         0.0303  0.0328   0.70  0.0180   0.065   +1434  113  
+Bazzana, Travis         L    6    CLE  Nick Martinez         0.0263  0.0284   0.70  0.0156   0.061   +1537  242  
+Hicks, Liam             L    5    CLE  Shawn Armstrong       0.0239  0.0242   0.70  0.0133   0.057   +1645  341  
+Ramírez, José           L    2    CLE  Nick Martinez         0.0210  0.0227   0.70  0.0125   0.056   +1692  278  
+DeLuca, Jonny           R    7    CLE  Shawn Armstrong       0.0257  0.0227   0.68  0.0120   0.053   +1787  161  
+Palacios, Richie        L    8    CLE  Shawn Armstrong       0.0231  0.0234   0.70  0.0129   0.053   +1798  233  
+Walls, Taylor           L    9    CLE  Shawn Armstrong       0.0190  0.0192   0.70  0.0106   0.045   +2142  171  
+Rocchio, Brayan         L    9    CLE  Nick Martinez         0.0150  0.0162   0.70  0.0089   0.038   +2525  302  
+Kwan, Steven            L    1    CLE  Nick Martinez         0.0085  0.0092   0.70  0.0051   0.029   +3313  337  
+Simpson, Chandler       L    3    CLE  Shawn Armstrong       0.0056  0.0057   0.70  0.0031   0.020   +4802  348  
