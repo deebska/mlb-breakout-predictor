@@ -1,11 +1,11 @@
 HR BOARD -- 2026-10-17 -- 9 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Lowe, Nathaniel         L    5    CLE  Nick Martinez         0.0365  0.0395   0.83  0.0254   0.091   +1003  252  
-DeLauter, Chase         L    3    CLE  Nick Martinez         0.0307  0.0331   0.83  0.0214   0.083   +1109  286  
-Bailey, Patrick         L    7    CLE  Nick Martinez         0.0317  0.0343   0.83  0.0221   0.079   +1169  189  
-Adell, Jo               R    4    CLE  Nick Martinez         0.0310  0.0315   0.79  0.0195   0.077   +1192  315  
-Halpin, Petey           L    8    CLE  Nick Martinez         0.0303  0.0328   0.83  0.0211   0.075   +1237  113  
-Bazzana, Travis         L    6    CLE  Nick Martinez         0.0263  0.0284   0.83  0.0183   0.070   +1327  242  
-Ramírez, José           L    2    CLE  Nick Martinez         0.0210  0.0227   0.83  0.0147   0.064   +1465  278  
-Rocchio, Brayan         L    9    CLE  Nick Martinez         0.0150  0.0162   0.83  0.0104   0.044   +2194  302  
-Kwan, Steven            L    1    CLE  Nick Martinez         0.0085  0.0092   0.83  0.0060   0.034   +2876  337  
+Lowe, Nathaniel         L    5    CLE  Nick Martinez         0.0365  0.0395   0.83  0.0256   0.091   +994   252  
+DeLauter, Chase         L    3    CLE  Nick Martinez         0.0307  0.0331   0.83  0.0215   0.083   +1100  286  
+Bailey, Patrick         L    7    CLE  Nick Martinez         0.0317  0.0343   0.83  0.0222   0.079   +1159  189  
+Adell, Jo               R    4    CLE  Nick Martinez         0.0310  0.0315   0.80  0.0197   0.078   +1184  315  
+Halpin, Petey           L    8    CLE  Nick Martinez         0.0303  0.0328   0.83  0.0213   0.075   +1228  113  
+Bazzana, Travis         L    6    CLE  Nick Martinez         0.0263  0.0284   0.83  0.0184   0.071   +1316  242  
+Ramírez, José           L    2    CLE  Nick Martinez         0.0210  0.0227   0.83  0.0148   0.065   +1450  278  
+Rocchio, Brayan         L    9    CLE  Nick Martinez         0.0150  0.0162   0.83  0.0105   0.044   +2173  302  
+Kwan, Steven            L    1    CLE  Nick Martinez         0.0085  0.0092   0.83  0.0060   0.034   +2859  337  

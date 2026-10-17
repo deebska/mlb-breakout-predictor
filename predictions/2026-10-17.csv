@@ -1,10 +1,10 @@
 batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
-663993,"Lowe, Nathaniel",L,5,home,CLE,Nick Martinez,R,0.0365,0.0395,0.826,0.0254,0.0907,+1003,252,v1.2-g075
-800050,"DeLauter, Chase",L,3,home,CLE,Nick Martinez,R,0.0307,0.0331,0.826,0.0214,0.0827,+1109,286,v1.2-g075
-672275,"Bailey, Patrick",L,7,home,CLE,Nick Martinez,R,0.0317,0.0343,0.826,0.0221,0.0788,+1169,189,v1.2-g075
-666176,"Adell, Jo",R,4,home,CLE,Nick Martinez,R,0.031,0.0315,0.793,0.0195,0.0774,+1192,315,v1.2-g075
-690984,"Halpin, Petey",L,8,home,CLE,Nick Martinez,R,0.0303,0.0328,0.826,0.0211,0.0748,+1237,113,v1.2-g075
-683953,"Bazzana, Travis",L,6,home,CLE,Nick Martinez,R,0.0263,0.0284,0.826,0.0183,0.0701,+1327,242,v1.2-g075
-608070,"Ramírez, José",L,2,home,CLE,Nick Martinez,R,0.021,0.0227,0.826,0.0147,0.0639,+1465,278,v1.2-g075
-677587,"Rocchio, Brayan",L,9,home,CLE,Nick Martinez,R,0.015,0.0162,0.826,0.0104,0.0436,+2194,302,v1.2-g075
-680757,"Kwan, Steven",L,1,home,CLE,Nick Martinez,R,0.0085,0.0092,0.826,0.006,0.0336,+2876,337,v1.2-g075
+663993,"Lowe, Nathaniel",L,5,home,CLE,Nick Martinez,R,0.0365,0.0395,0.832,0.0256,0.0914,+994,252,v1.2-g075
+800050,"DeLauter, Chase",L,3,home,CLE,Nick Martinez,R,0.0307,0.0331,0.832,0.0215,0.0833,+1100,286,v1.2-g075
+672275,"Bailey, Patrick",L,7,home,CLE,Nick Martinez,R,0.0317,0.0343,0.832,0.0222,0.0794,+1159,189,v1.2-g075
+666176,"Adell, Jo",R,4,home,CLE,Nick Martinez,R,0.031,0.0315,0.799,0.0197,0.0779,+1184,315,v1.2-g075
+690984,"Halpin, Petey",L,8,home,CLE,Nick Martinez,R,0.0303,0.0328,0.832,0.0213,0.0753,+1228,113,v1.2-g075
+683953,"Bazzana, Travis",L,6,home,CLE,Nick Martinez,R,0.0263,0.0284,0.832,0.0184,0.0706,+1316,242,v1.2-g075
+608070,"Ramírez, José",L,2,home,CLE,Nick Martinez,R,0.021,0.0227,0.832,0.0148,0.0645,+1450,278,v1.2-g075
+677587,"Rocchio, Brayan",L,9,home,CLE,Nick Martinez,R,0.015,0.0162,0.832,0.0105,0.044,+2173,302,v1.2-g075
+680757,"Kwan, Steven",L,1,home,CLE,Nick Martinez,R,0.0085,0.0092,0.832,0.006,0.0338,+2859,337,v1.2-g075
