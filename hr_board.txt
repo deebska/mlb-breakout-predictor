@@ -1,11 +1,20 @@
-HR BOARD -- 2026-10-18 -- 9 hitters composed
+HR BOARD -- 2026-10-18 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Lowe, Nathaniel         L    5    CLE  Drew Rasmussen        0.0365  0.0310   0.94  0.0226   0.089   +1026  252  
-DeLauter, Chase         L    3    CLE  Drew Rasmussen        0.0307  0.0260   0.94  0.0190   0.081   +1129  286  
-Adell, Jo               R    4    CLE  Drew Rasmussen        0.0310  0.0282   0.90  0.0198   0.081   +1142  315  
-Bailey, Patrick         L    7    CLE  Drew Rasmussen        0.0317  0.0268   0.94  0.0196   0.077   +1205  189  
-Halpin, Petey           L    8    CLE  Drew Rasmussen        0.0303  0.0256   0.94  0.0187   0.072   +1281  113  
-Bazzana, Travis         L    6    CLE  Drew Rasmussen        0.0263  0.0222   0.94  0.0162   0.068   +1364  242  
-Ramírez, José           L    2    CLE  Drew Rasmussen        0.0210  0.0178   0.94  0.0130   0.063   +1487  278  
-Rocchio, Brayan         L    9    CLE  Drew Rasmussen        0.0150  0.0126   0.94  0.0092   0.042   +2281  302  
-Kwan, Steven            L    1    CLE  Drew Rasmussen        0.0085  0.0072   0.94  0.0053   0.033   +2921  337  
+Caminero, Junior        R    4    CLE  Parker Messick        0.0443  0.0386   0.91  0.0272   0.110   +806   130  
+Aranda, Jonathan        L    2    CLE  Parker Messick        0.0284  0.0253   0.94  0.0186   0.093   +975   115  
+Lowe, Nathaniel         L    5    CLE  Drew Rasmussen        0.0365  0.0310   0.94  0.0228   0.090   +1016  252  
+Díaz, Yandy             R    1    CLE  Parker Messick        0.0295  0.0256   0.91  0.0181   0.086   +1070  155  
+DeLauter, Chase         L    3    CLE  Drew Rasmussen        0.0307  0.0260   0.94  0.0191   0.082   +1118  286  
+Adell, Jo               R    4    CLE  Drew Rasmussen        0.0310  0.0282   0.91  0.0199   0.081   +1132  315  
+Vilade, Ryan            R    3    CLE  Parker Messick        0.0287  0.0249   0.91  0.0176   0.079   +1169  112  
+Bailey, Patrick         L    7    CLE  Drew Rasmussen        0.0317  0.0268   0.94  0.0197   0.077   +1195  189  
+Halpin, Petey           L    8    CLE  Drew Rasmussen        0.0303  0.0256   0.94  0.0188   0.073   +1270  113  
+Bazzana, Travis         L    6    CLE  Drew Rasmussen        0.0263  0.0222   0.94  0.0163   0.069   +1351  242  
+Ramírez, José           L    2    CLE  Drew Rasmussen        0.0210  0.0178   0.94  0.0131   0.064   +1475  278  
+DeLuca, Jonny           R    6    CLE  Parker Messick        0.0157  0.0136   0.91  0.0096   0.056   +1689  114  
+Hicks, Liam             L    7    CLE  Parker Messick        0.0156  0.0139   0.94  0.0102   0.055   +1725  89   
+Williamson, Ben         R    8    CLE  Parker Messick        0.0197  0.0171   0.91  0.0120   0.050   +1920  98   
+Rocchio, Brayan         L    9    CLE  Drew Rasmussen        0.0150  0.0126   0.94  0.0093   0.042   +2264  302  
+Walls, Taylor           R    9    CLE  Parker Messick        0.0114  0.0098   0.91  0.0069   0.040   +2375  106  
+Kwan, Steven            L    1    CLE  Drew Rasmussen        0.0085  0.0072   0.94  0.0053   0.033   +2903  337  
+Simpson, Chandler       L    5    CLE  Parker Messick        0.0077  0.0068   0.94  0.0050   0.027   +3563  186  
