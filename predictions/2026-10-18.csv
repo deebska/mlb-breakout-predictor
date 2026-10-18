@@ -1,0 +1,10 @@
+batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
+663993,"Lowe, Nathaniel",L,5,home,CLE,Drew Rasmussen,R,0.0365,0.031,0.937,0.0226,0.0888,+1026,252,v1.2-g075
+800050,"DeLauter, Chase",L,3,home,CLE,Drew Rasmussen,R,0.0307,0.026,0.937,0.019,0.0814,+1129,286,v1.2-g075
+666176,"Adell, Jo",R,4,home,CLE,Drew Rasmussen,R,0.031,0.0282,0.9,0.0198,0.0805,+1142,315,v1.2-g075
+672275,"Bailey, Patrick",L,7,home,CLE,Drew Rasmussen,R,0.0317,0.0268,0.937,0.0196,0.0766,+1205,189,v1.2-g075
+690984,"Halpin, Petey",L,8,home,CLE,Drew Rasmussen,R,0.0303,0.0256,0.937,0.0187,0.0724,+1281,113,v1.2-g075
+683953,"Bazzana, Travis",L,6,home,CLE,Drew Rasmussen,R,0.0263,0.0222,0.937,0.0162,0.0683,+1364,242,v1.2-g075
+608070,"Ramírez, José",L,2,home,CLE,Drew Rasmussen,R,0.021,0.0178,0.937,0.013,0.063,+1487,278,v1.2-g075
+677587,"Rocchio, Brayan",L,9,home,CLE,Drew Rasmussen,R,0.015,0.0126,0.937,0.0092,0.042,+2281,302,v1.2-g075
+680757,"Kwan, Steven",L,1,home,CLE,Drew Rasmussen,R,0.0085,0.0072,0.937,0.0053,0.0331,+2921,337,v1.2-g075
