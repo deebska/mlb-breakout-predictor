@@ -1,7 +1,7 @@
 season,week,game,spread_home,home_lgt,away_lgt,home_stdc,away_stdc,home_move,away_move,total,pick,gameday,status
 2026,7,NE @ CHI,-3.0,-1,1,-1,-1,0,0,-2,PASS,2026-10-22,PREVIEW
 2026,7,PIT @ NO,3.5,-1,-1,0,-1,0,0,1,PASS,2026-10-25,PREVIEW
-2026,7,SF @ ATL,3.5,1,1,1,-1,0,0,2,PASS,2026-10-25,PREVIEW
+2026,7,SF @ ATL,3.0,1,1,1,-1,0,1,1,PASS,2026-10-25,PREVIEW
 2026,7,CIN @ BAL,-2.5,1,-1,1,0,0,0,3,BAL,2026-10-25,PREVIEW
 2026,7,TB @ CAR,-3.5,0,1,-1,1,0,0,-3,TB,2026-10-25,PREVIEW
 2026,7,NYG @ HOU,-10.0,0,1,1,-1,0,1,0,PASS,2026-10-25,PREVIEW
