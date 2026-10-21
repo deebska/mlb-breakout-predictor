@@ -1,12 +1,12 @@
 {
  "Spider-Man: Brand New Day": {
-  "cume_to_date": 958381789.0,
-  "cume_drift": -341458.0,
+  "cume_to_date": 958381797.0,
+  "cume_drift": -341450.0,
   "as_of": "2026-10-20",
   "target_date": "2026-10-31",
-  "central": 959984633.37,
-  "p80_lo": 959777817.9528,
-  "p80_hi": 960056128.4472,
+  "central": 959984641.37,
+  "p80_lo": 959777825.9528,
+  "p80_hi": 960056136.4472,
   "weekly_decay": 0.95,
   "daily_series": [
    {
