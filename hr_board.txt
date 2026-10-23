@@ -1,20 +1,20 @@
-HR BOARD -- 2026-10-18 -- 18 hitters composed
+HR BOARD -- 2026-10-23 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Caminero, Junior        R    4    CLE  Parker Messick        0.0443  0.0386   0.92  0.0275   0.112   +796   130  
-Aranda, Jonathan        L    2    CLE  Parker Messick        0.0284  0.0253   0.95  0.0188   0.094   +964   115  
-Lowe, Nathaniel         L    5    CLE  Drew Rasmussen        0.0365  0.0310   0.95  0.0230   0.090   +1005  252  
-Díaz, Yandy             R    1    CLE  Parker Messick        0.0295  0.0256   0.92  0.0183   0.086   +1056  155  
-DeLauter, Chase         L    3    CLE  Drew Rasmussen        0.0307  0.0260   0.95  0.0193   0.083   +1103  286  
-Adell, Jo               R    4    CLE  Drew Rasmussen        0.0310  0.0282   0.92  0.0201   0.082   +1118  315  
-Vilade, Ryan            R    3    CLE  Parker Messick        0.0287  0.0249   0.92  0.0178   0.080   +1155  112  
-Bailey, Patrick         L    7    CLE  Drew Rasmussen        0.0317  0.0268   0.95  0.0200   0.078   +1180  189  
-Halpin, Petey           L    8    CLE  Drew Rasmussen        0.0303  0.0256   0.95  0.0191   0.074   +1253  113  
-Bazzana, Travis         L    6    CLE  Drew Rasmussen        0.0263  0.0222   0.95  0.0165   0.070   +1335  242  
-Ramírez, José           L    2    CLE  Drew Rasmussen        0.0210  0.0178   0.95  0.0132   0.064   +1455  278  
-DeLuca, Jonny           R    6    CLE  Parker Messick        0.0157  0.0136   0.92  0.0097   0.057   +1667  114  
-Hicks, Liam             L    7    CLE  Parker Messick        0.0156  0.0139   0.95  0.0103   0.056   +1702  89   
-Williamson, Ben         R    8    CLE  Parker Messick        0.0197  0.0171   0.92  0.0122   0.050   +1892  98   
-Rocchio, Brayan         L    9    CLE  Drew Rasmussen        0.0150  0.0126   0.95  0.0094   0.043   +2236  302  
-Walls, Taylor           R    9    CLE  Parker Messick        0.0114  0.0098   0.92  0.0070   0.041   +2345  106  
-Kwan, Steven            L    1    CLE  Drew Rasmussen        0.0085  0.0072   0.95  0.0054   0.034   +2867  337  
-Simpson, Chandler       L    5    CLE  Parker Messick        0.0077  0.0068   0.95  0.0051   0.028   +3536  186  
+Chourio, Jackson        R    1    MIL  Nick Martinez         0.0452  0.0460   1.04  0.0373   0.142   +602   272  
+Bauers, Jake            L    2    MIL  Nick Martinez         0.0434  0.0469   1.06  0.0388   0.142   +606   224  
+Caminero, Junior        R    4    MIL  Jacob Misiorowski     0.0512  0.0384   1.04  0.0312   0.133   +652   360  
+Contreras, William      R    4    MIL  Nick Martinez         0.0413  0.0420   1.04  0.0341   0.127   +689   349  
+Mitchell, Garrett       L    6    MIL  Nick Martinez         0.0406  0.0438   1.06  0.0362   0.126   +696   224  
+Yelich, Christian       L    3    MIL  Nick Martinez         0.0364  0.0393   1.06  0.0325   0.123   +715   226  
+Mesa Jr., Victor        L    7    MIL  Jacob Misiorowski     0.0473  0.0302   1.06  0.0250   0.112   +796   133  
+Aranda, Jonathan        L    2    MIL  Jacob Misiorowski     0.0398  0.0254   1.06  0.0210   0.111   +803   309  
+Turang, Brice           L    5    MIL  Nick Martinez         0.0319  0.0345   1.06  0.0285   0.108   +829   290  
+Díaz, Yandy             R    1    MIL  Jacob Misiorowski     0.0324  0.0242   1.04  0.0196   0.101   +888   365  
+DeLuca, Jonny           R    6    MIL  Jacob Misiorowski     0.0257  0.0191   1.04  0.0155   0.077   +1197  161  
+Pratt, Cooper           R    7    MIL  Nick Martinez         0.0210  0.0213   1.04  0.0173   0.073   +1262  140  
+Hicks, Liam             L    5    MIL  Jacob Misiorowski     0.0239  0.0151   1.06  0.0125   0.071   +1303  341  
+Hamilton, David         L    9    MIL  Nick Martinez         0.0199  0.0215   1.06  0.0178   0.071   +1312  212  
+Frelick, Sal            L    8    MIL  Nick Martinez         0.0175  0.0190   1.06  0.0157   0.066   +1413  226  
+Walls, Taylor           L    9    MIL  Jacob Misiorowski     0.0190  0.0120   1.06  0.0099   0.054   +1748  171  
+Williamson, Ben         R    8    MIL  Jacob Misiorowski     0.0145  0.0107   1.04  0.0087   0.048   +1970  108  
+Simpson, Chandler       L    3    MIL  Jacob Misiorowski     0.0056  0.0035   1.06  0.0029   0.026   +3791  348  
