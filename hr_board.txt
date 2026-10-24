@@ -1,20 +1,11 @@
-HR BOARD -- 2026-10-23 -- 18 hitters composed
+HR BOARD -- 2026-10-24 -- 9 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Chourio, Jackson        R    1    MIL  Nick Martinez         0.0452  0.0460   1.04  0.0373   0.142   +602   272  
-Bauers, Jake            L    2    MIL  Nick Martinez         0.0434  0.0469   1.06  0.0388   0.142   +606   224  
-Caminero, Junior        R    4    MIL  Jacob Misiorowski     0.0512  0.0384   1.04  0.0312   0.133   +652   360  
-Contreras, William      R    4    MIL  Nick Martinez         0.0413  0.0420   1.04  0.0341   0.127   +689   349  
-Mitchell, Garrett       L    6    MIL  Nick Martinez         0.0406  0.0438   1.06  0.0362   0.126   +696   224  
-Yelich, Christian       L    3    MIL  Nick Martinez         0.0364  0.0393   1.06  0.0325   0.123   +715   226  
-Mesa Jr., Victor        L    7    MIL  Jacob Misiorowski     0.0473  0.0302   1.06  0.0250   0.112   +796   133  
-Aranda, Jonathan        L    2    MIL  Jacob Misiorowski     0.0398  0.0254   1.06  0.0210   0.111   +803   309  
-Turang, Brice           L    5    MIL  Nick Martinez         0.0319  0.0345   1.06  0.0285   0.108   +829   290  
-Díaz, Yandy             R    1    MIL  Jacob Misiorowski     0.0324  0.0242   1.04  0.0196   0.101   +888   365  
-DeLuca, Jonny           R    6    MIL  Jacob Misiorowski     0.0257  0.0191   1.04  0.0155   0.077   +1197  161  
-Pratt, Cooper           R    7    MIL  Nick Martinez         0.0210  0.0213   1.04  0.0173   0.073   +1262  140  
-Hicks, Liam             L    5    MIL  Jacob Misiorowski     0.0239  0.0151   1.06  0.0125   0.071   +1303  341  
-Hamilton, David         L    9    MIL  Nick Martinez         0.0199  0.0215   1.06  0.0178   0.071   +1312  212  
-Frelick, Sal            L    8    MIL  Nick Martinez         0.0175  0.0190   1.06  0.0157   0.066   +1413  226  
-Walls, Taylor           L    9    MIL  Jacob Misiorowski     0.0190  0.0120   1.06  0.0099   0.054   +1748  171  
-Williamson, Ben         R    8    MIL  Jacob Misiorowski     0.0145  0.0107   1.04  0.0087   0.048   +1970  108  
-Simpson, Chandler       L    3    MIL  Jacob Misiorowski     0.0056  0.0035   1.06  0.0029   0.026   +3791  348  
+Caminero, Junior        R    4    MIL  Logan Henderson       0.0512  0.0491   1.04  0.0398   0.148   +575   360  
+Mesa Jr., Victor        L    8    MIL  Logan Henderson       0.0473  0.0496   1.06  0.0410   0.137   +630   133  
+Aranda, Jonathan        L    2    MIL  Logan Henderson       0.0398  0.0417   1.06  0.0345   0.135   +642   309  
+Díaz, Yandy             R    1    MIL  Logan Henderson       0.0324  0.0310   1.04  0.0252   0.112   +791   365  
+Hicks, Liam             L    5    MIL  Logan Henderson       0.0239  0.0251   1.06  0.0207   0.089   +1029  341  
+DeLuca, Jonny           R    7    MIL  Logan Henderson       0.0257  0.0246   1.04  0.0199   0.085   +1076  161  
+Palacios, Richie        L    6    MIL  Logan Henderson       0.0231  0.0242   1.06  0.0200   0.085   +1078  233  
+Walls, Taylor           L    9    MIL  Logan Henderson       0.0190  0.0199   1.06  0.0165   0.069   +1341  171  
+Simpson, Chandler       L    3    MIL  Logan Henderson       0.0056  0.0059   1.06  0.0048   0.032   +3045  348  

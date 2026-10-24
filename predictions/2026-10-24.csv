@@ -1,0 +1,10 @@
+batter_id,player,bats,slot,team_side,park,vs_sp,sp_throws,talent_hr_pa,matchup_rate,env_mult,rate_tonight,p_hr_tonight,fair_odds,bbe_sample,model_ver
+691406,"Caminero, Junior",R,4,away,MIL,Logan Henderson,R,0.0512,0.0491,1.04,0.0398,0.1481,+575,360,v1.2-g075
+683748,"Mesa Jr., Victor",L,8,away,MIL,Logan Henderson,R,0.0473,0.0496,1.06,0.041,0.1369,+630,133,v1.2-g075
+666018,"Aranda, Jonathan",L,2,away,MIL,Logan Henderson,R,0.0398,0.0417,1.06,0.0345,0.1348,+642,309,v1.2-g075
+650490,"Díaz, Yandy",R,1,away,MIL,Logan Henderson,R,0.0324,0.031,1.04,0.0252,0.1122,+791,365,v1.2-g075
+689414,"Hicks, Liam",L,5,away,MIL,Logan Henderson,R,0.0239,0.0251,1.06,0.0207,0.0886,+1029,341,v1.2-g075
+676356,"DeLuca, Jonny",R,7,away,MIL,Logan Henderson,R,0.0257,0.0246,1.04,0.0199,0.085,+1076,161,v1.2-g075
+680700,"Palacios, Richie",L,6,away,MIL,Logan Henderson,R,0.0231,0.0242,1.06,0.02,0.0849,+1078,233,v1.2-g075
+670764,"Walls, Taylor",L,9,away,MIL,Logan Henderson,R,0.019,0.0199,1.06,0.0165,0.0694,+1341,171,v1.2-g075
+802415,"Simpson, Chandler",L,3,away,MIL,Logan Henderson,R,0.0056,0.0059,1.06,0.0048,0.0318,+3045,348,v1.2-g075
