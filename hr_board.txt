@@ -1,11 +1,20 @@
-HR BOARD -- 2026-10-24 -- 9 hitters composed
+HR BOARD -- 2026-10-24 -- 18 hitters composed
 player                  bats slot park vs SP                 talent  matchup  env   tonight  P(HR)   fair   BBE  
-Caminero, Junior        R    4    MIL  Logan Henderson       0.0512  0.0491   1.04  0.0398   0.148   +575   360  
-Mesa Jr., Victor        L    8    MIL  Logan Henderson       0.0473  0.0496   1.06  0.0410   0.137   +630   133  
-Aranda, Jonathan        L    2    MIL  Logan Henderson       0.0398  0.0417   1.06  0.0345   0.135   +642   309  
-Díaz, Yandy             R    1    MIL  Logan Henderson       0.0324  0.0310   1.04  0.0252   0.112   +791   365  
-Hicks, Liam             L    5    MIL  Logan Henderson       0.0239  0.0251   1.06  0.0207   0.089   +1029  341  
-DeLuca, Jonny           R    7    MIL  Logan Henderson       0.0257  0.0246   1.04  0.0199   0.085   +1076  161  
-Palacios, Richie        L    6    MIL  Logan Henderson       0.0231  0.0242   1.06  0.0200   0.085   +1078  233  
-Walls, Taylor           L    9    MIL  Logan Henderson       0.0190  0.0199   1.06  0.0165   0.069   +1341  171  
-Simpson, Chandler       L    3    MIL  Logan Henderson       0.0056  0.0059   1.06  0.0048   0.032   +3045  348  
+Caminero, Junior        R    4    MIL  Logan Henderson       0.0512  0.0491   1.04  0.0398   0.148   +578   360  
+Chourio, Jackson        R    1    MIL  Drew Rasmussen        0.0452  0.0412   1.04  0.0334   0.137   +629   272  
+Mesa Jr., Victor        L    8    MIL  Logan Henderson       0.0473  0.0496   1.06  0.0410   0.137   +633   133  
+Aranda, Jonathan        L    2    MIL  Logan Henderson       0.0398  0.0417   1.06  0.0345   0.134   +644   309  
+Bauers, Jake            L    2    MIL  Drew Rasmussen        0.0434  0.0368   1.06  0.0304   0.129   +675   224  
+Contreras, William      R    4    MIL  Drew Rasmussen        0.0413  0.0376   1.04  0.0305   0.122   +722   349  
+Mitchell, Garrett       L    6    MIL  Drew Rasmussen        0.0406  0.0344   1.06  0.0284   0.113   +783   224  
+Díaz, Yandy             R    1    MIL  Logan Henderson       0.0324  0.0310   1.04  0.0252   0.112   +794   365  
+Yelich, Christian       L    3    MIL  Drew Rasmussen        0.0364  0.0308   1.06  0.0255   0.112   +797   226  
+Turang, Brice           L    5    MIL  Drew Rasmussen        0.0319  0.0270   1.06  0.0223   0.097   +928   290  
+Hicks, Liam             L    5    MIL  Logan Henderson       0.0239  0.0251   1.06  0.0207   0.088   +1031  341  
+DeLuca, Jonny           R    7    MIL  Logan Henderson       0.0257  0.0246   1.04  0.0199   0.085   +1079  161  
+Palacios, Richie        L    6    MIL  Logan Henderson       0.0231  0.0242   1.06  0.0200   0.085   +1082  233  
+Pratt, Cooper           R    7    MIL  Drew Rasmussen        0.0210  0.0191   1.04  0.0155   0.070   +1327  140  
+Walls, Taylor           L    9    MIL  Logan Henderson       0.0190  0.0199   1.06  0.0165   0.069   +1345  171  
+Hamilton, David         L    9    MIL  Drew Rasmussen        0.0199  0.0168   1.06  0.0139   0.063   +1487  212  
+Frelick, Sal            L    8    MIL  Drew Rasmussen        0.0175  0.0148   1.06  0.0122   0.059   +1598  226  
+Simpson, Chandler       L    3    MIL  Logan Henderson       0.0056  0.0059   1.06  0.0048   0.032   +3055  348  
