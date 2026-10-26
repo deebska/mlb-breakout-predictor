@@ -1,12 +1,12 @@
 {
  "Spider-Man: Brand New Day": {
-  "cume_to_date": 958698462.0,
-  "cume_drift": -259785.0,
+  "cume_to_date": 958698000.0,
+  "cume_drift": -260247.0,
   "as_of": "2026-10-25",
   "target_date": "2026-10-31",
-  "central": 959170351.7,
-  "p80_lo": 959108508.452,
-  "p80_hi": 959191763.228,
+  "central": 959169889.7,
+  "p80_lo": 959108046.452,
+  "p80_hi": 959191301.228,
   "weekly_decay": 0.95,
   "daily_series": [
    {
@@ -378,13 +378,13 @@
   ]
  },
  "The Odyssey": {
-  "cume_to_date": 625440335.0,
-  "cume_drift": 641905.0,
+  "cume_to_date": 625440000.0,
+  "cume_drift": 641570.0,
   "as_of": "2026-10-25",
   "target_date": "2026-10-31",
-  "central": 625866210.5,
-  "p80_lo": 625825864.4,
-  "p80_hi": 625879659.2,
+  "central": 625865875.5,
+  "p80_lo": 625825529.4,
+  "p80_hi": 625879324.2,
   "weekly_decay": 0.95,
   "daily_series": [
    {
